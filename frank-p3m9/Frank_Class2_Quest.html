@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frank's Mission — Class 2 Review</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+  :root {
+    --navy: #1A2E4C;
+    --navy2: #243B5E;
+    --navy3: #16253D;
+    --gold: #C9A432;
+    --gold-light: #E8C45A;
+    --white: #FFFFFF;
+    --lgray: #C7CDD8;
+    --muted: #7A8A9E;
+    --success: #3B9E6A;
+    --error: #C2654F;
+    --mission1: #5E8FC2;
+    --mission2: #C9A432;
+    --mission3: #3B7D5E;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--navy);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  /* ── SCREENS ── */
+  .screen { display: none; min-height: 100vh; }
+  .screen.active { display: flex; flex-direction: column; }
+
+  /* ── INTRO SCREEN ── */
+  #intro {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  #intro::before {
+    content: '';
+    position: absolute;
+    top: -120px; left: -120px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(201,164,50,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  #intro::after {
+    content: '';
+    position: absolute;
+    bottom: -100px; right: -100px;
+    width: 350px; height: 350px;
+    background: radial-gradient(circle, rgba(94,143,194,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .brand-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .intro-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(32px, 6vw, 56px);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+  .intro-title span { color: var(--gold); }
+  .intro-sub {
+    font-size: 16px;
+    color: var(--lgray);
+    max-width: 480px;
+    line-height: 1.7;
+    margin: 0 auto 40px;
+  }
+  .mission-preview {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mission-badge {
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .mission-badge.m1 { background: rgba(94,143,194,0.2); color: var(--mission1); border: 1px solid rgba(94,143,194,0.3); }
+  .mission-badge.m2 { background: rgba(201,164,50,0.15); color: var(--gold); border: 1px solid rgba(201,164,50,0.3); }
+  .mission-badge.m3 { background: rgba(59,125,94,0.2); color: var(--mission3); border: 1px solid rgba(59,125,94,0.3); }
+  .start-btn {
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    padding: 16px 48px;
+    border-radius: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: transform 0.15s, box-shadow 0.15s;
+    box-shadow: 0 4px 20px rgba(201,164,50,0.3);
+  }
+  .start-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(201,164,50,0.4); }
+
+  /* ── GAME SCREEN ── */
+  #game { padding: 0; }
+
+  .top-bar {
+    background: var(--navy3);
+    border-bottom: 1px solid rgba(201,164,50,0.2);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .top-bar-brand {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+  .score-display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--gold);
+  }
+  .score-display .score-icon { font-size: 18px; }
+
+  .mission-header {
+    padding: 32px 24px 0;
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .mission-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .mission-tag.m1 { background: rgba(94,143,194,0.2); color: var(--mission1); }
+  .mission-tag.m2 { background: rgba(201,164,50,0.15); color: var(--gold); }
+  .mission-tag.m3 { background: rgba(59,125,94,0.2); color: var(--mission3); }
+
+  .mission-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+  .story-box {
+    background: var(--navy2);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 10px 10px 0;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: var(--lgray);
+    line-height: 1.7;
+    margin-bottom: 28px;
+    font-style: italic;
+  }
+
+  .progress-bar-wrap {
+    padding: 0 24px;
+    max-width: 700px;
+    margin: 0 auto 24px;
+    width: 100%;
+  }
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .progress-track {
+    height: 4px;
+    background: var(--navy2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--gold);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+  }
+
+  /* ── QUESTIONS ── */
+  .questions-wrap {
+    padding: 0 24px 40px;
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .question-card {
+    background: var(--navy2);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(255,255,255,0.06);
+    transition: border-color 0.2s;
+  }
+  .question-card.answered-correct { border-color: var(--success); }
+  .question-card.answered-wrong { border-color: var(--error); }
+
+  .q-number {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .q-type-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+  .q-type-badge.ox { background: rgba(94,143,194,0.2); color: var(--mission1); }
+  .q-type-badge.mc { background: rgba(201,164,50,0.15); color: var(--gold); }
+  .q-type-badge.fill { background: rgba(59,125,94,0.2); color: var(--mission3); }
+
+  .q-text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--white);
+    margin-bottom: 20px;
+  }
+  .q-text em {
+    font-style: italic;
+    color: var(--gold-light);
+    background: rgba(201,164,50,0.1);
+    padding: 1px 6px;
+    border-radius: 4px;
+  }
+  .q-hint {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+
+  /* O/X buttons */
+  .ox-buttons { display: flex; gap: 12px; }
+  .ox-btn {
+    flex: 1;
+    padding: 16px;
+    border-radius: 12px;
+    border: 2px solid rgba(255,255,255,0.1);
+    background: var(--navy3);
+    color: var(--white);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .ox-btn:hover:not(:disabled) { border-color: var(--gold); background: rgba(201,164,50,0.08); }
+  .ox-btn.selected-correct { border-color: var(--success); background: rgba(59,158,106,0.15); color: var(--success); }
+  .ox-btn.selected-wrong { border-color: var(--error); background: rgba(194,101,79,0.15); color: var(--error); }
+  .ox-btn.show-correct { border-color: var(--success); background: rgba(59,158,106,0.1); }
+
+  /* MC options */
+  .mc-options { display: flex; flex-direction: column; gap: 10px; }
+  .mc-option {
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 2px solid rgba(255,255,255,0.08);
+    background: var(--navy3);
+    color: var(--lgray);
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.15s;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .mc-option:hover:not(:disabled) { border-color: var(--gold); color: var(--white); background: rgba(201,164,50,0.06); }
+  .mc-option .opt-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--gold);
+    min-width: 20px;
+  }
+  .mc-option.selected-correct { border-color: var(--success); background: rgba(59,158,106,0.12); color: var(--white); }
+  .mc-option.selected-wrong { border-color: var(--error); background: rgba(194,101,79,0.12); color: var(--white); }
+  .mc-option.show-correct { border-color: var(--success); background: rgba(59,158,106,0.08); }
+
+  /* Fill in blank */
+  .fill-wrap { display: flex; gap: 10px; align-items: flex-start; }
+  .fill-input {
+    flex: 1;
+    background: var(--navy3);
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 13px 16px;
+    color: var(--white);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .fill-input:focus { border-color: var(--gold); }
+  .fill-input.correct { border-color: var(--success); background: rgba(59,158,106,0.1); }
+  .fill-input.wrong { border-color: var(--error); background: rgba(194,101,79,0.1); }
+  .submit-btn {
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    padding: 13px 22px;
+    border-radius: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s, transform 0.1s;
+    white-space: nowrap;
+  }
+  .submit-btn:hover:not(:disabled) { opacity: 0.9; transform: translateY(-1px); }
+  .submit-btn:disabled { opacity: 0.4; cursor: default; }
+
+  /* Feedback */
+  .feedback {
+    margin-top: 14px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    display: none;
+  }
+  .feedback.correct { background: rgba(59,158,106,0.12); border: 1px solid rgba(59,158,106,0.3); color: #7DD4A8; }
+  .feedback.wrong { background: rgba(194,101,79,0.12); border: 1px solid rgba(194,101,79,0.3); color: #E8957E; }
+  .feedback strong { font-weight: 600; }
+
+  /* Mission clear banner */
+  .mission-clear {
+    background: linear-gradient(135deg, rgba(201,164,50,0.15), rgba(201,164,50,0.05));
+    border: 1px solid rgba(201,164,50,0.3);
+    border-radius: 16px;
+    padding: 20px 24px;
+    text-align: center;
+    margin: 8px 0 16px;
+    display: none;
+  }
+  .mission-clear h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+  .mission-clear p { font-size: 14px; color: var(--lgray); }
+  .next-mission-btn {
+    margin-top: 14px;
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    padding: 12px 32px;
+    border-radius: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .next-mission-btn:hover { opacity: 0.9; }
+
+  /* ── RESULT SCREEN ── */
+  #result {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 24px;
+  }
+  .result-emoji { font-size: 72px; margin-bottom: 20px; }
+  .result-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+  .result-score {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--gold);
+    margin: 16px 0;
+  }
+  .result-sub { font-size: 15px; color: var(--lgray); max-width: 400px; margin: 0 auto 32px; line-height: 1.7; }
+  .result-badges {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .result-badge {
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    background: rgba(201,164,50,0.15);
+    color: var(--gold);
+    border: 1px solid rgba(201,164,50,0.3);
+  }
+  .retry-btn {
+    background: transparent;
+    color: var(--gold);
+    border: 2px solid var(--gold);
+    padding: 14px 40px;
+    border-radius: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .retry-btn:hover { background: rgba(201,164,50,0.1); }
+</style>
+</head>
+<body>
+
+<!-- ── INTRO ── -->
+<div id="intro" class="screen active">
+  <div class="brand-label">Do English with Brian</div>
+  <h1 class="intro-title">Frank's <span>Mission</span><br>Class 2 Review</h1>
+  <p class="intro-sub">You're a new international sales rep at a K-beauty brand. Complete three missions to close your first overseas deal.</p>
+  <div class="mission-preview">
+    <div class="mission-badge m1">📞 Mission 1 — First Call</div>
+    <div class="mission-badge m2">⚠️ Mission 2 — Crisis</div>
+    <div class="mission-badge m3">🤝 Mission 3 — Close the Deal</div>
+  </div>
+  <button class="start-btn" onclick="startGame()">Start Mission →</button>
+</div>
+
+<!-- ── GAME ── -->
+<div id="game" class="screen">
+  <div class="top-bar">
+    <div class="top-bar-brand">Do English with Brian</div>
+    <div class="score-display">
+      <span class="score-icon">⭐</span>
+      <span id="score-val">0</span> pts
+    </div>
+  </div>
+
+  <div class="mission-header" id="mission-header">
+    <div class="mission-tag m1" id="mission-tag">📞 Mission 1</div>
+    <div class="mission-title" id="mission-title">Preparing for the First Call</div>
+    <div class="story-box" id="story-box">You've just landed your first international account. A buyer from a major retailer in the Middle East is calling in 30 minutes. You go over the expressions you prepared — are they being used correctly in context?</div>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div class="progress-info">
+      <span id="prog-label">Question 1 of 10</span>
+      <span id="prog-pct">0%</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" id="prog-fill" style="width:0%"></div>
+    </div>
+  </div>
+
+  <div class="questions-wrap" id="questions-wrap"></div>
+</div>
+
+<!-- ── RESULT ── -->
+<div id="result" class="screen">
+  <div class="result-emoji" id="result-emoji">🏆</div>
+  <div class="result-title" id="result-title">Mission Complete!</div>
+  <div class="result-score" id="result-score">0 / 10</div>
+  <p class="result-sub" id="result-sub">Great work, Frank. Review the expressions you missed and you'll be ready for the real deal.</p>
+  <div class="result-badges" id="result-badges"></div>
+  <button class="retry-btn" onclick="retryGame()">Try Again</button>
+</div>
+
+<script>
+const QUESTIONS = [
+  // ── MISSION 1: O/X ──
+  {
+    mission: 1,
+    type: 'ox',
+    qNum: 1,
+    text: 'Read the sentence and decide: does it make sense?<br><br><em>"No wonder they chose our brand — our products have won three international awards."</em>',
+    hint: null,
+    answer: 'O',
+    feedback_correct: '✅ Correct! "No wonder" fits perfectly here — the awards give a clear reason why they chose the brand.',
+    feedback_wrong: '❌ This sentence is correct. "No wonder + result" makes sense when the reason is obvious.',
+  },
+  {
+    mission: 1,
+    type: 'ox',
+    qNum: 2,
+    text: 'Read the sentence and decide: does it make sense?<br><br><em>"I\'ve been all over the place this week — meetings, calls, reports, everything at once."</em>',
+    hint: null,
+    answer: 'O',
+    feedback_correct: '✅ Exactly right! "All over the place" = scattered, chaotic — perfect for a busy week like this.',
+    feedback_wrong: '❌ This actually makes perfect sense. "All over the place" means feeling scattered or overwhelmed — fits a hectic week perfectly.',
+  },
+  {
+    mission: 1,
+    type: 'ox',
+    qNum: 3,
+    text: 'Read the sentence and decide: does it make sense?<br><br><em>"No wonder the client loved our pitch — we barely prepared for it."</em>',
+    hint: null,
+    answer: 'X',
+    feedback_correct: '✅ Good catch! "No wonder" implies the reason is obvious, but "barely preparing" doesn\'t logically explain why a client would love a pitch.',
+    feedback_wrong: '❌ This one doesn\'t quite work. "No wonder" means the result is naturally expected given the reason — but barely preparing is a strange reason for a great outcome.',
+  },
+  // ── MISSION 2: Multiple Choice ──
+  {
+    mission: 2,
+    type: 'mc',
+    qNum: 4,
+    text: 'The call starts, and the buyer raises a delivery delay. You need to bring your logistics team into the conversation. Choose the best word:<br><br><em>"Let me ___ our logistics team so they can explain the delay directly."</em>',
+    hint: null,
+    options: ['loop someone in', 'nail down', 'take it easy'],
+    answer: 0,
+    feedback_correct: '✅ Perfect. "Loop someone in" = include someone in a conversation or email thread. Exactly what you need here.',
+    feedback_wrong: '❌ The right answer is "loop someone in" — it means to include someone so they\'re part of the conversation.',
+  },
+  {
+    mission: 2,
+    type: 'mc',
+    qNum: 5,
+    text: 'The buyer asks how familiar you are with the new CRM system. Which sentence is NOT correct?',
+    hint: null,
+    options: [
+      'I\'m still trying to get the hang of the new CRM system.',
+      'I\'m still trying to get the hang of how to use it efficiently.',
+      'I\'m still trying to get the hang of understand the system.',
+    ],
+    answer: 2,
+    feedback_correct: '✅ Correct! Option C is wrong — "get the hang of" must be followed by a noun or verb+ing, not a base verb like "understand".',
+    feedback_wrong: '❌ The incorrect sentence is C. "Get the hang of" needs a noun or -ing form after it, not a base verb like "understand".',
+  },
+  {
+    mission: 2,
+    type: 'mc',
+    qNum: 6,
+    text: 'The buyer needs a confirmed date before Friday. Choose the right expression:<br><br><em>"We need to ___ the new delivery date before end of week."</em>',
+    hint: null,
+    options: ['get the ball rolling', 'nail down', 'on the same page'],
+    answer: 1,
+    feedback_correct: '✅ Spot on! "Nail down" = to confirm or finalize something specific. Perfect for locking in a date.',
+    feedback_wrong: '❌ The best fit is "nail down" — it means to confirm or finalize something concrete, like a date or a decision.',
+  },
+  {
+    mission: 2,
+    type: 'mc',
+    qNum: 7,
+    text: 'The buyer is confused about your new shipping process. You offer to explain it step by step:<br><br><em>"Can you talk me ___ the new shipping process?"</em>',
+    hint: null,
+    options: ['through', 'over', 'about'],
+    answer: 0,
+    feedback_correct: '✅ Right! "Talk someone through" = explain something step by step. It\'s always "through", not "over" or "about".',
+    feedback_wrong: '❌ The correct preposition is "through". "Talk someone through" is a fixed phrase meaning to guide or explain step by step.',
+  },
+  // ── MISSION 3: Fill in the blank ──
+  {
+    mission: 3,
+    type: 'fill',
+    qNum: 8,
+    text: 'The buyer is almost ready to sign. Before sending the contract, you want to confirm you both agree on everything:<br><br>"I just want to make sure we\'re ___ before I send the contract."',
+    hint: '힌트: 같은 이해를 공유하다',
+    answer: 'on the same page',
+    feedback_correct: '✅ Perfect. "On the same page" means everyone has the same understanding — exactly what you need before signing.',
+    feedback_wrong: '❌ The answer is <strong>"on the same page"</strong> — meaning both sides have the same understanding.',
+  },
+  {
+    mission: 3,
+    type: 'fill',
+    qNum: 9,
+    text: 'The buyer approves the revised proposal. Time to move things forward:<br><br>"Let\'s ___ on the revised proposal — I\'ll send it over today."',
+    hint: '힌트: 일을 시작하다, 추진하다',
+    answer: 'get the ball rolling',
+    feedback_correct: '✅ Great! "Get the ball rolling" = start making progress. You\'re taking the initiative here.',
+    feedback_wrong: '❌ The answer is <strong>"get the ball rolling"</strong> — it means to start taking action and move things forward.',
+  },
+  {
+    mission: 3,
+    type: 'fill',
+    qNum: 10,
+    text: 'The deal is done! The buyer has had a stressful week too. You wrap up the call warmly:<br><br>"You\'ve had a crazy week — just ___ this weekend and I\'ll handle everything."',
+    hint: '힌트: 여유를 갖다, 무리하지 않다',
+    answer: 'take it easy',
+    feedback_correct: '✅ Deal closed! "Take it easy" = relax, don\'t stress. A perfect, natural way to end the call.',
+    feedback_wrong: '❌ The answer is <strong>"take it easy"</strong> — a friendly way to tell someone to relax and not overwork.',
+  },
+];
+
+const MISSION_INFO = {
+  1: {
+    tag: '📞 Mission 1',
+    tagClass: 'm1',
+    title: 'Preparing for the First Call',
+    story: 'You\'ve just landed your first international account. A buyer from a major retailer in the Middle East is calling in 30 minutes. You go over the expressions you prepared — are they being used correctly in context?',
+  },
+  2: {
+    tag: '⚠️ Mission 2',
+    tagClass: 'm2',
+    title: 'Crisis on the Call',
+    story: 'The call has started — and the buyer immediately raises a delivery delay and asks tough questions. You need to stay calm, bring in the right people, and handle the situation professionally.',
+  },
+  3: {
+    tag: '🤝 Mission 3',
+    tagClass: 'm3',
+    title: 'Closing the Deal',
+    story: 'The buyer is warming up. You\'ve handled the crisis well. Now it\'s time to wrap things up and close the deal. Choose your words carefully.',
+  },
+};
+
+let score = 0;
+let answered = [];
+let currentMission = 1;
+let missionCleared = { 1: false, 2: false, 3: false };
+
+function startGame() {
+  document.getElementById('intro').classList.remove('active');
+  document.getElementById('game').classList.add('active');
+  renderCurrentMission();
+}
+
+function renderCurrentMission() {
+  const info = MISSION_INFO[currentMission];
+  document.getElementById('mission-tag').className = `mission-tag ${info.tagClass}`;
+  document.getElementById('mission-tag').textContent = info.tag;
+  document.getElementById('mission-title').textContent = info.title;
+  document.getElementById('story-box').textContent = info.story;
+
+  const questions = QUESTIONS.filter(q => q.mission === currentMission);
+  const wrap = document.getElementById('questions-wrap');
+  wrap.innerHTML = '';
+
+  questions.forEach(q => {
+    wrap.appendChild(buildQuestion(q));
+  });
+
+  // mission clear placeholder
+  const clearDiv = document.createElement('div');
+  clearDiv.className = 'mission-clear';
+  clearDiv.id = `clear-${currentMission}`;
+  const mNames = { 1: 'First Call Handled! 📞', 2: 'Crisis Resolved! ⚠️', 3: 'Deal Closed! 🤝' };
+  const mSubs = { 1: 'You\'re ready for the call. Move to Mission 2 →', 2: 'Well handled. One more mission to go →', 3: 'You\'ve closed your first overseas deal!' };
+  clearDiv.innerHTML = `<h3>${mNames[currentMission]}</h3><p>${mSubs[currentMission]}</p>${currentMission < 3 ? `<button class="next-mission-btn" onclick="nextMission()">Next Mission →</button>` : `<button class="next-mission-btn" onclick="showResult()">See Results →</button>`}`;
+  wrap.appendChild(clearDiv);
+
+  updateProgress();
+}
+
+function buildQuestion(q) {
+  const card = document.createElement('div');
+  card.className = 'question-card';
+  card.id = `card-${q.qNum}`;
+
+  const typeLabels = { ox: 'O / X', mc: 'Multiple Choice', fill: 'Fill in the Blank' };
+  const typeClass = { ox: 'ox', mc: 'mc', fill: 'fill' };
+
+  let html = `
+    <div class="q-number">Q${q.qNum} <span class="q-type-badge ${typeClass[q.type]}">${typeLabels[q.type]}</span></div>
+    <div class="q-text">${q.text}</div>
+  `;
+  if (q.hint) html += `<div class="q-hint">${q.hint}</div>`;
+
+  if (q.type === 'ox') {
+    html += `
+      <div class="ox-buttons">
+        <button class="ox-btn" id="btn-O-${q.qNum}" onclick="answerOX(${q.qNum}, 'O')">O</button>
+        <button class="ox-btn" id="btn-X-${q.qNum}" onclick="answerOX(${q.qNum}, 'X')">X</button>
+      </div>
+    `;
+  } else if (q.type === 'mc') {
+    html += `<div class="mc-options">`;
+    const labels = ['A', 'B', 'C'];
+    q.options.forEach((opt, i) => {
+      html += `<button class="mc-option" id="mc-${q.qNum}-${i}" onclick="answerMC(${q.qNum}, ${i})"><span class="opt-label">${labels[i]}</span>${opt}</button>`;
+    });
+    html += `</div>`;
+  } else if (q.type === 'fill') {
+    html += `
+      <div class="fill-wrap">
+        <input class="fill-input" id="fill-${q.qNum}" type="text" placeholder="Type your answer..." onkeydown="if(event.key==='Enter') submitFill(${q.qNum})">
+        <button class="submit-btn" id="submit-${q.qNum}" onclick="submitFill(${q.qNum})">Submit</button>
+      </div>
+    `;
+  }
+
+  html += `<div class="feedback" id="fb-${q.qNum}"></div>`;
+  card.innerHTML = html;
+  return card;
+}
+
+function answerOX(qNum, selected) {
+  if (answered.includes(qNum)) return;
+  const q = QUESTIONS.find(q => q.qNum === qNum);
+  const isCorrect = selected === q.answer;
+  answered.push(qNum);
+  if (isCorrect) score += 10;
+
+  const btnO = document.getElementById(`btn-O-${qNum}`);
+  const btnX = document.getElementById(`btn-X-${qNum}`);
+  btnO.disabled = true; btnX.disabled = true;
+
+  const selectedBtn = document.getElementById(`btn-${selected}-${qNum}`);
+  selectedBtn.classList.add(isCorrect ? 'selected-correct' : 'selected-wrong');
+  if (!isCorrect) {
+    document.getElementById(`btn-${q.answer}-${qNum}`).classList.add('show-correct');
+  }
+
+  showFeedback(qNum, isCorrect, q);
+  document.getElementById('score-val').textContent = score;
+  updateProgress();
+  checkMissionClear(q.mission);
+}
+
+function answerMC(qNum, selected) {
+  if (answered.includes(qNum)) return;
+  const q = QUESTIONS.find(q => q.qNum === qNum);
+  const isCorrect = selected === q.answer;
+  answered.push(qNum);
+  if (isCorrect) score += 10;
+
+  q.options.forEach((_, i) => {
+    const btn = document.getElementById(`mc-${qNum}-${i}`);
+    btn.disabled = true;
+    if (i === selected) btn.classList.add(isCorrect ? 'selected-correct' : 'selected-wrong');
+    if (!isCorrect && i === q.answer) btn.classList.add('show-correct');
+  });
+
+  showFeedback(qNum, isCorrect, q);
+  document.getElementById('score-val').textContent = score;
+  updateProgress();
+  checkMissionClear(q.mission);
+}
+
+function submitFill(qNum) {
+  if (answered.includes(qNum)) return;
+  const q = QUESTIONS.find(q => q.qNum === qNum);
+  const input = document.getElementById(`fill-${qNum}`);
+  const val = input.value.trim().toLowerCase();
+  const correct = q.answer.toLowerCase();
+  const isCorrect = val === correct;
+
+  answered.push(qNum);
+  if (isCorrect) score += 10;
+
+  input.disabled = true;
+  input.classList.add(isCorrect ? 'correct' : 'wrong');
+  document.getElementById(`submit-${qNum}`).disabled = true;
+
+  showFeedback(qNum, isCorrect, q);
+  document.getElementById('score-val').textContent = score;
+  updateProgress();
+  checkMissionClear(q.mission);
+}
+
+function showFeedback(qNum, isCorrect, q) {
+  const fb = document.getElementById(`fb-${qNum}`);
+  fb.className = `feedback ${isCorrect ? 'correct' : 'wrong'}`;
+  fb.innerHTML = isCorrect ? q.feedback_correct : q.feedback_wrong;
+  fb.style.display = 'block';
+  const card = document.getElementById(`card-${qNum}`);
+  card.classList.add(isCorrect ? 'answered-correct' : 'answered-wrong');
+}
+
+function checkMissionClear(mission) {
+  const mQs = QUESTIONS.filter(q => q.mission === mission);
+  const allDone = mQs.every(q => answered.includes(q.qNum));
+  if (allDone && !missionCleared[mission]) {
+    missionCleared[mission] = true;
+    setTimeout(() => {
+      const clearDiv = document.getElementById(`clear-${mission}`);
+      if (clearDiv) clearDiv.style.display = 'block';
+    }, 600);
+  }
+}
+
+function nextMission() {
+  currentMission++;
+  const wrap = document.getElementById('questions-wrap');
+  wrap.innerHTML = '';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  renderCurrentMission();
+}
+
+function showResult() {
+  document.getElementById('game').classList.remove('active');
+  document.getElementById('result').classList.add('active');
+
+  const total = QUESTIONS.length;
+  const correct = score / 10;
+  const pct = Math.round((correct / total) * 100);
+
+  let emoji = '🎯', title = 'Good Effort!', sub = 'Review the expressions you missed and try again.';
+  if (pct === 100) { emoji = '🏆'; title = 'Perfect Score!'; sub = 'Flawless. You\'re ready for the real deal, Frank.'; }
+  else if (pct >= 80) { emoji = '🌟'; title = 'Great Work!'; sub = 'Almost perfect. Just a couple of expressions to review.'; }
+  else if (pct >= 60) { emoji = '💪'; title = 'Getting There!'; sub = 'Good start — revisit the ones you missed and go again.'; }
+
+  document.getElementById('result-emoji').textContent = emoji;
+  document.getElementById('result-title').textContent = title;
+  document.getElementById('result-score').textContent = `${correct} / ${total}`;
+  document.getElementById('result-sub').textContent = sub;
+
+  const badges = document.getElementById('result-badges');
+  badges.innerHTML = `
+    <div class="result-badge">⭐ ${score} Points</div>
+    <div class="result-badge">📊 ${pct}% Accuracy</div>
+    <div class="result-badge">✅ ${correct}/${total} Correct</div>
+  `;
+}
+
+function retryGame() {
+  score = 0;
+  answered = [];
+  currentMission = 1;
+  missionCleared = { 1: false, 2: false, 3: false };
+  document.getElementById('score-val').textContent = 0;
+  document.getElementById('result').classList.remove('active');
+  document.getElementById('game').classList.add('active');
+  renderCurrentMission();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateProgress() {
+  const total = QUESTIONS.length;
+  const done = answered.length;
+  const pct = Math.round((done / total) * 100);
+  document.getElementById('prog-label').textContent = `Question ${Math.min(done + 1, total)} of ${total}`;
+  document.getElementById('prog-pct').textContent = `${pct}%`;
+  document.getElementById('prog-fill').style.width = `${pct}%`;
+}
+</script>
+</body>
+</html>

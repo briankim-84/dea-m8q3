@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Survive Singapore — Lee's Business Trip</title>
+<style>
+  :root{
+    --ink:#FFFFFF; --sub:#9AA9CE; --line:rgba(255,255,255,.12);
+    --cyan:#1CE6D6; --mag:#FF3D8B; --gold:#FFD23F; --good:#2BE87C; --bad:#FF4D5E;
+    --mental:#57E6B0; --heart:#FF6B9A;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;}
+  html,body{height:100%;}
+  body{background:#04060e;color:var(--ink);display:flex;justify-content:center;overscroll-behavior:none;}
+  #app{position:relative;width:100%;max-width:430px;min-height:100vh;overflow:hidden;background:#0a1020;}
+  #app.shake{animation:shk .3s;} #app.shakeHard{animation:shkH .42s;}
+  @keyframes shk{0%,100%{transform:translate(0);}25%{transform:translate(-3px,2px);}50%{transform:translate(3px,-2px);}75%{transform:translate(-2px,-1px);}}
+  @keyframes shkH{0%,100%{transform:translate(0);}15%{transform:translate(-7px,3px);}30%{transform:translate(7px,-4px);}50%{transform:translate(-5px,2px);}70%{transform:translate(4px,2px);}}
+  #flash{position:absolute;inset:0;pointer-events:none;z-index:70;opacity:0;mix-blend-mode:screen;}
+  #fx{position:absolute;inset:0;pointer-events:none;z-index:60;overflow:hidden;}
+
+  /* ===== scene backdrop (SVG skyline per chapter) ===== */
+  #backdrop{position:absolute;inset:0;z-index:0;transition:opacity .5s;}
+  #backdrop svg{width:100%;height:100%;}
+  .screen{position:absolute;inset:0;display:flex;flex-direction:column;padding:14px 15px 16px;z-index:2;}
+  .hidden{display:none!important;}
+  .fadein{animation:fadein .4s cubic-bezier(.2,.8,.2,1);}
+  @keyframes fadein{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+
+  /* ===== START ===== */
+  #start{justify-content:center;align-items:center;text-align:center;background:linear-gradient(180deg,rgba(4,8,20,.5),rgba(4,8,20,.85));}
+  .kick{font-size:11px;letter-spacing:5px;color:var(--cyan);font-weight:900;margin-bottom:8px;}
+  h1{font-size:40px;font-weight:900;line-height:1;font-style:italic;letter-spacing:-1px;margin-bottom:4px;
+    background:linear-gradient(100deg,#fff,#7df3e6 50%,#ff87b8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+  .h1sub{font-size:15px;font-weight:800;color:var(--gold);margin-bottom:14px;letter-spacing:.5px;}
+  .lede{font-size:13.5px;color:#c6d2ec;line-height:1.65;max-width:310px;margin-bottom:10px;}
+  .lede b{color:var(--gold);}
+  .chapterpv{display:flex;flex-direction:column;gap:6px;margin:10px 0 4px;width:100%;max-width:300px;}
+  .cpv{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid var(--line);font-size:12.5px;font-weight:700;text-align:left;}
+  .cpv .n{flex:0 0 auto;width:22px;height:22px;border-radius:8px;background:rgba(28,230,214,.15);border:1px solid rgba(28,230,214,.4);color:var(--cyan);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900;}
+  .cpv .new{margin-left:auto;font-size:9px;font-weight:900;letter-spacing:1px;color:#2a1a00;background:var(--gold);padding:3px 8px;border-radius:10px;}
+  .cta{margin-top:20px;padding:16px 44px;border:none;border-radius:16px;cursor:pointer;font-size:17px;font-weight:900;font-style:italic;letter-spacing:1px;
+    color:#04121a;background:linear-gradient(135deg,#37f0df,#12c6d8);box-shadow:0 12px 30px rgba(28,230,214,.4);transition:.12s;}
+  .cta:active{transform:translateY(2px) scale(.98);}
+  .cta.mag{background:linear-gradient(135deg,#ff5c9c,#ff2f7f);box-shadow:0 12px 30px rgba(255,61,139,.4);color:#2a0014;}
+
+  /* ===== HUD ===== */
+  .hud{flex:0 0 auto;background:rgba(6,10,24,.72);border:1px solid var(--line);border-radius:16px;padding:10px 12px;backdrop-filter:blur(8px);}
+  .hudtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
+  .chapchip{font-size:11px;font-weight:900;letter-spacing:1px;color:var(--cyan);}
+  .chapchip small{display:block;font-size:13px;color:#fff;letter-spacing:0;margin-top:1px;}
+  .abtn{width:56px;height:28px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--cyan);font-size:10px;font-weight:900;cursor:pointer;}
+  .gaugerow{display:flex;align-items:center;gap:8px;margin-top:6px;}
+  .gicon{flex:0 0 auto;width:20px;height:20px;}
+  .glabel{flex:0 0 auto;width:38px;font-size:10px;font-weight:900;letter-spacing:.5px;color:var(--sub);}
+  .gtrack{flex:1;height:10px;border-radius:6px;background:rgba(255,255,255,.07);overflow:hidden;}
+  .gfill{height:100%;border-radius:6px;transition:width .5s cubic-bezier(.2,.8,.2,1),background .3s;}
+  .gfill.flash{animation:gfl .5s;} @keyframes gfl{0%,100%{filter:brightness(1);}45%{filter:brightness(1.9);}}
+  .gval{flex:0 0 auto;width:38px;text-align:right;font-size:12px;font-weight:900;}
+  #mentalFill{background:linear-gradient(90deg,#2BE87C,#57E6B0);}
+  #heartFill{background:linear-gradient(90deg,#FF6B9A,#FF9AC0);}
+  .sweat{position:absolute;font-size:16px;pointer-events:none;animation:sweatdrop .9s ease-in forwards;z-index:65;}
+  @keyframes sweatdrop{0%{opacity:0;transform:translateY(0) scale(.6);}25%{opacity:1;}100%{opacity:0;transform:translateY(34px) scale(1);}}
+
+  /* ===== SCENE ===== */
+  .stage{flex:1;position:relative;display:flex;flex-direction:column;margin-top:10px;min-height:0;}
+  .scene{flex:1;display:flex;flex-direction:column;animation:slidein .35s cubic-bezier(.2,.9,.25,1);min-height:0;}
+  @keyframes slidein{from{opacity:0;transform:translateX(26px);}to{opacity:1;transform:none;}}
+  .locbanner{align-self:center;font-size:11px;font-weight:900;letter-spacing:2.5px;padding:6px 16px;border-radius:16px;margin-bottom:10px;
+    background:rgba(0,0,0,.4);border:1px solid var(--line);color:var(--gold);}
+  .previewtag{align-self:center;margin:-4px 0 10px;font-size:10.5px;font-weight:800;color:#2a1a00;background:var(--gold);
+    padding:4px 12px;border-radius:12px;letter-spacing:.5px;}
+  .npcwrap{display:flex;align-items:flex-end;gap:10px;}
+  .avatar{flex:0 0 auto;width:70px;height:70px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(0,0,0,.5);border:2px solid rgba(255,255,255,.12);
+    animation:pin .4s .04s both cubic-bezier(.2,1.4,.4,1);position:relative;}
+  @keyframes pin{from{opacity:0;transform:translateY(8px) scale(.75);}to{opacity:1;transform:none;}}
+  .heartbadge{position:absolute;right:4px;bottom:4px;background:rgba(0,0,0,.55);border-radius:10px;padding:1px 6px;font-size:10px;font-weight:900;color:var(--heart);}
+  .bubble{position:relative;flex:1;background:#fff;color:#141f38;border-radius:16px 16px 16px 4px;padding:11px 13px;font-size:15.5px;font-weight:700;line-height:1.4;
+    box-shadow:0 8px 22px rgba(0,0,0,.4);animation:pin .4s .1s both cubic-bezier(.2,1.4,.4,1);}
+  .bubble::after{content:"";position:absolute;left:-7px;bottom:0;width:14px;height:14px;background:#fff;clip-path:polygon(100% 0,100% 100%,0 100%);}
+  .who{font-size:10px;font-weight:900;letter-spacing:1px;margin-bottom:2px;opacity:.5;}
+  .leebubble{align-self:flex-end;max-width:82%;background:linear-gradient(135deg,#1CE6D6,#12b8c9);color:#03282e;border-radius:16px 16px 4px 16px;
+    padding:11px 14px;font-size:15.5px;font-weight:800;box-shadow:0 8px 20px rgba(28,230,214,.3);margin-top:10px;animation:pin .35s both;}
+  .leebubble .who{color:#045; opacity:.6;}
+  .reaction{margin-top:9px;font-size:13px;color:#cfe0ff;line-height:1.5;animation:fadein .35s;}
+  .reaction b.up{color:var(--good);} .reaction b.down{color:var(--bad);}
+
+  .situ{margin:11px 2px 0;font-size:13px;color:#dfe6f7;line-height:1.5;display:flex;gap:7px;}
+  .situ .pin2{color:var(--mag);flex:0 0 auto;}
+  .hintchip{align-self:flex-start;margin:8px 2px 0;font-size:12.5px;font-weight:800;color:var(--gold);
+    background:rgba(255,210,63,.10);border:1px solid rgba(255,210,63,.3);padding:6px 11px;border-radius:11px;display:flex;align-items:center;gap:6px;}
+
+  .choices{margin-top:auto;padding-top:12px;display:flex;flex-direction:column;gap:9px;}
+  .choice{position:relative;display:flex;align-items:center;gap:11px;padding:15px 14px;border-radius:14px;cursor:pointer;overflow:hidden;
+    background:linear-gradient(135deg,#243368,#18234a);border:1.5px solid rgba(130,160,230,.4);box-shadow:0 6px 16px rgba(0,0,0,.35);
+    transition:transform .1s;animation:chin .32s both cubic-bezier(.2,.9,.3,1);}
+  .choice::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--cyan),var(--mag));}
+  .choice:nth-child(1){animation-delay:.04s;}.choice:nth-child(2){animation-delay:.1s;}.choice:nth-child(3){animation-delay:.16s;}
+  @keyframes chin{from{opacity:0;transform:translateX(20px);}to{opacity:1;transform:none;}}
+  .choice:active{transform:scale(.98);}
+  .choice .dotn{flex:0 0 auto;width:26px;height:26px;border-radius:9px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;color:#cfe0ff;}
+  .choice .txt{font-size:16.5px;font-weight:800;color:#fff;letter-spacing:-.2px;}
+  .choice.correct{background:linear-gradient(135deg,#127a4a,#0e5f3a);border-color:var(--good);box-shadow:0 0 24px rgba(43,232,124,.5);transform:scale(1.02);}
+  .choice.correct::before{background:var(--good);}
+  .choice.wrongpick{background:linear-gradient(135deg,#7a1e2a,#5a1620);border-color:var(--bad);animation:cshake .35s;}
+  .choice.wrongpick::before{background:var(--bad);}
+  .choice.dim{opacity:.3;filter:grayscale(.4);}
+  @keyframes cshake{0%,100%{transform:translateX(0);}25%{transform:translateX(-8px);}75%{transform:translateX(8px);}}
+  .nextbtn{margin-top:12px;padding:14px;border:none;border-radius:14px;cursor:pointer;font-size:15px;font-weight:900;letter-spacing:.5px;
+    background:linear-gradient(135deg,#37f0df,#12c6d8);color:#04121a;animation:fadein .3s;}
+  .nextbtn:active{transform:scale(.98);}
+
+  .impact{position:absolute;left:50%;top:34%;transform:translate(-50%,-50%) scale(.3);font-size:40px;font-weight:900;font-style:italic;
+    text-shadow:0 4px 18px rgba(0,0,0,.5);animation:impact .8s cubic-bezier(.2,1.6,.3,1) forwards;white-space:nowrap;z-index:66;}
+  @keyframes impact{0%{opacity:0;transform:translate(-50%,-50%) scale(.3) rotate(-6deg);}20%{opacity:1;transform:translate(-50%,-50%) scale(1.12) rotate(-3deg);}70%{opacity:1;}100%{opacity:0;transform:translate(-50%,-92%) scale(1) rotate(-3deg);}}
+  .confetti{position:absolute;width:9px;height:13px;border-radius:2px;pointer-events:none;}
+  @keyframes fall{to{transform:translateY(var(--fy)) rotate(var(--fr));opacity:0;}}
+
+  /* chapter transition */
+  #chapcard{position:absolute;inset:0;z-index:80;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;
+    background:rgba(3,6,16,.92);padding:26px;}
+  #chapcard .ck{font-size:11px;letter-spacing:4px;color:var(--cyan);font-weight:900;margin-bottom:10px;}
+  #chapcard h2{font-size:30px;font-weight:900;font-style:italic;margin-bottom:8px;}
+  #chapcard p{font-size:13.5px;color:#c6d2ec;line-height:1.6;max-width:300px;}
+  #chapcard .newnote{margin-top:12px;font-size:12px;font-weight:800;color:#2a1a00;background:var(--gold);padding:6px 14px;border-radius:12px;line-height:1.5;}
+
+  /* ===== REPORT ===== */
+  #report{justify-content:center;align-items:center;text-align:center;background:linear-gradient(180deg,rgba(4,8,20,.6),rgba(4,8,20,.92));overflow-y:auto;}
+  .rep{width:100%;max-width:340px;border-radius:20px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.6);animation:slidein .4s;}
+  .rep .top{background:linear-gradient(135deg,#37f0df,#12c6d8);color:#042028;padding:18px;}
+  .rep .top .lbl{font-size:10px;letter-spacing:2px;font-weight:900;opacity:.7;}
+  .rep .top .big{font-size:27px;font-weight:900;font-style:italic;margin-top:2px;}
+  .rep .stars{margin-top:6px;display:flex;gap:6px;justify-content:center;}
+  .rep .stars svg{width:28px;height:28px;} .rep .stars .off{opacity:.25;}
+  .rep .grid{background:#0c1430;display:flex;}
+  .rep .grid .c{flex:1;padding:12px 4px;} .rep .grid .c+.c{border-left:1px solid rgba(255,255,255,.08);}
+  .rep .grid .v{font-size:20px;font-weight:900;color:var(--gold);} .rep .grid .k{font-size:9px;font-weight:800;color:var(--sub);letter-spacing:1px;margin-top:1px;}
+  .rep .body{background:#fff;color:#17223c;padding:14px 15px 15px;}
+  .rep .msg{font-size:13.5px;color:#3a465f;line-height:1.55;margin-bottom:10px;}
+  .chaplist{text-align:left;}
+  .chaplist .r{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #eef1f6;font-size:12.5px;}
+  .chaplist .r:last-child{border:none;}
+  .chaplist .r b{color:#12213e;} .chaplist .r .sc{margin-left:auto;font-weight:900;}
+  .chaplist .r .sc.good{color:#0f9d58;} .chaplist .r .sc.mid{color:#e8a013;} .chaplist .r .sc.pv{color:#8893a8;font-size:11px;font-weight:800;}
+  .rbtns{display:flex;gap:10px;margin-top:14px;width:100%;max-width:340px;}
+  .rbtns .cta{flex:1;margin-top:0;padding:14px 0;font-size:15px;}
+  .rbtns .ghost{background:rgba(255,255,255,.07);border:1px solid var(--line);color:var(--cyan);box-shadow:none;}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="backdrop"></div>
+  <div id="flash"></div>
+  <div id="fx"></div>
+
+  <!-- START -->
+  <div id="start" class="screen fadein">
+    <div class="kick">DO ENGLISH WITH BRIAN</div>
+    <h1>SURVIVE<br>SINGAPORE</h1>
+    <div class="h1sub">Lee의 첫 해외 출장 생존기</div>
+    <div class="lede">빔몬스터 CEO Lee, 싱가포르 출장 1일차. 서툴러도 괜찮아 — 배운 표현으로 <b>하루를 버텨내면</b> 승리. <b>멘탈</b>이 흔들려도 잘 넘기면 회복된다!</div>
+    <div class="chapterpv" id="chapPv"></div>
+    <button class="cta" onclick="startGame()">&#9654; 출장 시작</button>
+  </div>
+
+  <!-- PLAY -->
+  <div id="play" class="screen hidden">
+    <div class="hud">
+      <div class="hudtop">
+        <div class="chapchip" id="chapChip">CHAPTER 1<small>공항 입국</small></div>
+        <button class="abtn" id="audioBtn" onclick="toggleSound()">&#9834; ON</button>
+      </div>
+      <div class="gaugerow">
+        <svg class="gicon" viewBox="0 0 24 24"><path fill="#57E6B0" d="M12 3a7 7 0 0 1 7 7c0 2.4-1.2 4-2.5 5.4-1 1.1-1.5 2.3-1.5 3.6h-6c0-1.3-.5-2.5-1.5-3.6C6.2 14 5 12.4 5 10a7 7 0 0 1 7-7z"/><rect x="10" y="20" width="4" height="2" rx="1" fill="#57E6B0"/></svg>
+        <span class="glabel">멘탈</span>
+        <div class="gtrack"><div class="gfill" id="mentalFill" style="width:100%"></div></div>
+        <span class="gval" id="mentalVal" style="color:var(--mental)">100</span>
+      </div>
+      <div class="gaugerow">
+        <svg class="gicon" viewBox="0 0 24 24"><path fill="#FF6B9A" d="M12 21s-7.5-4.8-9.5-9C1 8.5 3 5 6.5 5c2 0 3.6 1.2 4.4 2.6h2.2C13.9 6.2 15.5 5 17.5 5 21 5 23 8.5 21.5 12c-2 4.2-9.5 9-9.5 9z"/></svg>
+        <span class="glabel">호감도</span>
+        <div class="gtrack"><div class="gfill" id="heartFill" style="width:50%"></div></div>
+        <span class="gval" id="heartVal" style="color:var(--heart)">50</span>
+      </div>
+    </div>
+    <div class="stage" id="stage"></div>
+  </div>
+
+  <!-- CHAPTER CARD -->
+  <div id="chapcard" class="hidden"></div>
+
+  <!-- REPORT -->
+  <div id="report" class="screen hidden"></div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+/* ============ SVG CHARACTERS ============ */
+function avatar(type){
+  const P={
+    waiter:{bg:"#2f8f7a",skin:"#f2c9a0",hair:"#3a2a1e",cloth:"#20242c",coll:"#fff",acc:"#111"},
+    diner:{bg:"#3a63b0",skin:"#eebd94",hair:"#26364f",cloth:"#5b7fc7",coll:"#dfe8fb",acc:"#2a3c5e"},
+    client_m:{bg:"#8a6bd1",skin:"#f0c49c",hair:"#2b2320",cloth:"#2c3550",coll:"#fff",acc:"#c0304a"},
+    client_f:{bg:"#d1668f",skin:"#f2c6a6",hair:"#4a2e2a",cloth:"#3a4664",coll:"#fff",acc:"#e0b64a"},
+  }[type]||{bg:"#666",skin:"#eec",hair:"#333",cloth:"#444",coll:"#fff",acc:"#111"};
+  let extras="";
+  if(type==="waiter") extras=`<path d="M40 92 h20 v6 h-20z" fill="${P.acc}"/><path d="M46 70 l4 5 4-5z" fill="${P.acc}"/>`; // bowtie-ish
+  if(type==="client_m") extras=`<path d="M50 72 l3 6 -3 14 -3 -14z" fill="${P.acc}"/>`; // tie
+  if(type==="client_f") extras=`<path d="M50 72 v14" stroke="${P.coll}" stroke-width="2"/><circle cx="50" cy="90" r="2.4" fill="${P.acc}"/>`;
+  const hair = type==="client_f"
+    ? `<path d="M28 44 q22 -30 44 0 v20 q-6 -6 -6 -16 q-16 12 -32 0 q0 10 -6 16z" fill="${P.hair}"/>`
+    : `<path d="M30 46 q20 -28 40 0 q-6 -12 -20 -12 q-14 0 -20 12z" fill="${P.hair}"/>`;
+  return `<svg viewBox="0 0 100 100" width="100%" height="100%">
+    <rect width="100" height="100" fill="${P.bg}"/>
+    <circle cx="50" cy="118" r="46" fill="${P.cloth}"/>
+    <path d="M40 88 q10 8 20 0 v10 h-20z" fill="${P.coll}"/>
+    <rect x="34" y="52" width="32" height="30" rx="15" fill="${P.skin}"/>
+    ${hair}
+    <circle cx="43" cy="64" r="2.1" fill="#26333f"/><circle cx="57" cy="64" r="2.1" fill="#26333f"/>
+    <path d="M45 72 q5 4 10 0" stroke="#b5744f" stroke-width="2" fill="none" stroke-linecap="round"/>
+    ${extras}
+  </svg>`;
+}
+
+
+/* ============ CHAPTER BACKDROPS (SVG) ============ */
+function backdrop(kind){
+  const sky={airport:"#0d1b3a",hotel:"#141031",meet:"#0a2140",dine:"#251024",expo:"#0a2c33",farewell:"#251b0c"};
+  const c=sky[kind]||"#0a1020";
+  let art="";
+  if(kind==="airport") art=`<rect x="0" y="300" width="430" height="120" fill="#122a52"/><path d="M60 330 l70 -22 12 8 -60 26z" fill="#2b4a86"/><circle cx="330" cy="120" r="3" fill="#ffd23f"><animate attributeName="cx" values="470;-40" dur="9s" repeatCount="indefinite"/><animate attributeName="cy" values="90;150" dur="9s" repeatCount="indefinite"/></circle><path d="M0 420 h430" stroke="#1CE6D6" stroke-width="2" opacity=".4"/><text x="215" y="80" text-anchor="middle" font-size="26" font-weight="900" fill="rgba(255,255,255,.08)" font-style="italic">CHANGI AIRPORT</text>`;
+  if(kind==="hotel") art=`<rect x="70" y="120" width="120" height="300" fill="#1e1846"/><rect x="240" y="80" width="120" height="340" fill="#241d55"/>${[0,1,2,3,4,5].map(r=>[0,1,2].map(cx=>`<rect x="${84+cx*34}" y="${140+r*44}" width="20" height="26" fill="${Math.random()>.4?'#ffd23f':'#3a3670'}" opacity=".85"/>`).join("")).join("")}${[0,1,2,3,4,5,6].map(r=>[0,1,2].map(cx=>`<rect x="${254+cx*34}" y="${100+r*44}" width="20" height="26" fill="${Math.random()>.5?'#ffd23f':'#3a3670'}" opacity=".85"/>`).join("")).join("")}`;
+  if(kind==="meet") art=`<rect x="0" y="330" width="430" height="90" fill="#0e2f56"/><rect x="40" y="150" width="70" height="180" fill="#16406e"/><rect x="150" y="100" width="80" height="230" fill="#123a64"/><rect x="270" y="170" width="60" height="160" fill="#16406e"/><path d="M340 130 q30 -30 60 0 v200 h-60z" fill="#123a64"/><ellipse cx="215" cy="70" rx="150" ry="14" fill="rgba(28,230,214,.12)"/>`;
+  if(kind==="dine") art=`<rect x="0" y="320" width="430" height="100" fill="#38122e"/><circle cx="90" cy="120" r="26" fill="#ffd23f" opacity=".18"/><circle cx="330" cy="90" r="18" fill="#ff6b9a" opacity=".18"/>${[60,150,240,330].map(x=>`<g><rect x="${x}" y="290" width="46" height="8" rx="4" fill="#5a2148"/><rect x="${x+19}" y="298" width="8" height="26" fill="#5a2148"/><circle cx="${x+23}" cy="272" r="13" fill="#ffb84d" opacity=".8"/></g>`).join("")}`;
+  if(kind==="expo") art=`<rect x="0" y="330" width="430" height="90" fill="#0c3a44"/>${[30,150,270].map((x,i)=>`<g><rect x="${x}" y="220" width="110" height="110" rx="8" fill="${['#12525e','#0f4650','#12525e'][i]}"/><rect x="${x+12}" y="238" width="86" height="30" rx="5" fill="#1CE6D6" opacity=".25"/><rect x="${x+12}" y="280" width="60" height="8" rx="4" fill="rgba(255,255,255,.2)"/></g>`).join("")}<text x="215" y="90" text-anchor="middle" font-size="24" font-weight="900" fill="rgba(28,230,214,.14)" font-style="italic">MEDIA TECH EXPO</text>`;
+  if(kind==="farewell") art=`<circle cx="90" cy="140" r="46" fill="#ff9a3d" opacity=".8"/><rect x="0" y="320" width="430" height="100" fill="#3a2a12"/><path d="M0 320 q100 -40 215 -20 q120 20 215 -10 v130 h-430z" fill="#4a3416" opacity=".7"/>${[250,300,350].map(x=>`<rect x="${x}" y="${200+Math.random()*40}" width="26" height="${90+Math.random()*40}" fill="#2a1f0c"/>`).join("")}`;
+  return `<svg viewBox="0 0 430 420" preserveAspectRatio="xMidYMin slice"><rect width="430" height="420" fill="${c}"/>${art}<rect width="430" height="420" fill="url(#dark)" opacity="0"/></svg>`;
+}
+
+/* ============ CONTENT ============ */
+/* beat: npc line, situation, options [{t,ok,reply,react}] — reply = Lee's spoken line, react = world reaction */
+const CHAPTERS=[
+ { key:"airport", title:"공항 입국", who:"입국 심사관", speaker:"client_m", preview:true,
+   desc:"창이공항 도착. 입국 심사대 앞 — 다음 수업에서 배울 표현을 미리 구경해요. 여기선 멘탈이 깎이지 않아요!",
+   newnote:"NEXT · 다음 Class 예고편 — 이 표현들은 다음 수업에서 배워요. 편하게 골라보세요!",
+   beats:[
+    {npc:'"What’s the purpose of your visit?"', sit:"방문 목적을 물어봐요. 출장이라고 답해 보세요.",
+     opts:[{t:"I'm here on business.",ok:1,reply:"I'm here on business.",react:"심사관이 고개를 끄덕입니다."},
+           {t:"I'm here on vacation.",ok:0,react:"비즈니스 정장을 훑어보며 갸웃합니다."},
+           {t:"I live here.",ok:0,react:"여권을 다시 확인하네요. 아닌 것 같은데요?"}]},
+    {npc:'"How long will you stay?"', sit:"체류 기간을 물어봐요. 3일이라고 답해 보세요.",
+     opts:[{t:"For three days.",ok:1,reply:"For three days.",react:"쾅! 입국 도장이 찍혔습니다. 무사 통과!"},
+           {t:"Three years ago.",ok:0,react:"심사관 눈썹이 올라갑니다."},
+           {t:"I don't know.",ok:0,react:"그렇게 답하면 곤란해요!"}]},
+   ]},
+ { key:"hotel", title:"호텔 체크인", who:"호텔 직원", speaker:"client_f", preview:true,
+   desc:"마리나 베이 호텔 도착. 체크인 카운터 — 이것도 다음 수업 예고편!",
+   newnote:"NEXT · 다음 Class 예고편 — 부담 없이 감만 잡아요.",
+   beats:[
+    {npc:'"Good evening! How can I help you?"', sit:"체크인하고 싶다고 말해 보세요.",
+     opts:[{t:"I'd like to check in, please.",ok:1,reply:"I'd like to check in, please.",react:"“Of course!” 직원이 예약을 찾기 시작해요."},
+           {t:"I'd like to check out.",ok:0,react:"“지금 도착하신 거 아닌가요?”"},
+           {t:"This is on me.",ok:0,react:"직원이 웃음을 참습니다. 계산은 아직이에요!"}]},
+    {npc:'"May I have your name, please?"', sit:"예약자 이름을 말해 주세요.",
+     opts:[{t:"It's Lee, from Beam Monster.",ok:1,reply:"It's Lee, from Beam Monster.",react:"“Welcome, Mr. Lee!” 키를 건네받았어요. 오늘 밤은 안전!"},
+           {t:"What do you do?",ok:0,react:"지금 그걸 물을 타이밍은 아니에요."},
+           {t:"I'll have the same.",ok:0,react:"직원이 어리둥절해합니다."}]},
+   ]},
+ { key:"meet", title:"파트너 첫 만남", who:"싱가포르 파트너", speaker:"client_m", preview:false,
+   desc:"호텔 로비에서 현지 파트너 David와 첫 대면. Class 1에서 배운 자기소개, 실전 투입!",
+   beats:[
+    {npc:'"Mr. Lee? Great to finally meet you. Tell me about yourself!"', sit:"자기소개를 해보세요. 나는 빔몬스터의 CEO!",
+     opts:[{t:"I'm the CEO of Beam Monster.",ok:1,reply:"I'm the CEO of Beam Monster.",react:"David의 눈이 커집니다. “The CEO himself!” 호감도 상승!"},
+           {t:"I look forward to working with you.",ok:0,react:"인사는 좋지만, 먼저 내가 누군지 알려줘야죠."},
+           {t:"Can I get the check, please?",ok:0,react:"David가 주변을 둘러봅니다. 계산서...?"}]},
+    {npc:'"Interesting! What exactly does your company do?"', sit:"회사가 뭘 전문으로 하는지 말해 보세요.",
+     opts:[{t:"We specialize in media interior.",ok:1,reply:"We specialize in media interior.",react:"“That's exactly what we need here.” 분위기가 달아오릅니다!"},
+           {t:"We are hungry now.",ok:0,react:"...배고픈 건 알겠지만 회사 소개부터!"},
+           {t:"Let's keep in touch.",ok:0,react:"벌써 헤어지는 인사를? 너무 빨라요!"}]},
+    {npc:'"Impressive. Who have you worked with?"', sit:"어떤 브랜드와 협업하는지 말해 보세요.",
+     opts:[{t:"We work with brands like Samsung and Lotte.",ok:1,reply:"We work with brands like Samsung and Lotte.",react:"“Samsung? Wow.” David가 명함을 다시 봅니다. 신뢰 급상승!"},
+           {t:"We work at the hotel.",ok:0,react:"호텔에서 일하는 게 아니라 협업 브랜드를 말해야죠!"},
+           {t:"What brings you here?",ok:0,react:"그건 상대가 나한테 할 질문이에요."}]},
+   ]},
+ { key:"dine", title:"비즈니스 디너", who:"파트너 & 웨이터", speaker:"waiter", preview:false,
+   desc:"David와 클락키의 레스토랑으로. Class 2 식당 표현, 여기서 다 쓴다!",
+   beats:[
+    {npc:'"Are you ready to order?"', sit:"웨이터가 왔어요. 뭐가 맛있는지 물어보세요.",
+     opts:[{t:"What do you recommend?",ok:1,reply:"What do you recommend?",react:"“Our chili crab is famous!” 자연스러웠어요."},
+           {t:"I'm here on business.",ok:0,react:"웨이터: “...네, 그러시군요.” 주문을 해야죠!"},
+           {t:"Let me tell you about us.",ok:0,react:"웨이터에게 회사 소개를...? 멘탈이 살짝 흔들립니다."}]},
+    {npc:'David: "I’ll take the chili crab."', sit:"David가 칠리크랩을 시켰어요. 나도 같은 걸로!",
+     opts:[{t:"I'll have the same.",ok:1,reply:"I'll have the same.",react:"주문 완료! David: “Good choice.”",speaker:"diner"},
+           {t:"I'll have the check.",ok:0,react:"체크(계산서)가 아니라 음식을 시켜야죠!",speaker:"diner"},
+           {t:"Take it easy.",ok:0,react:"David가 웃습니다. “I am easy!”",speaker:"diner"}]},
+    {npc:'David sits down and smiles.', sit:"상대를 챙겨볼 차례. 마실 것을 권해 보세요.",
+     opts:[{t:"Would you like something to drink?",ok:1,reply:"Would you like something to drink?",react:"“A Tiger beer, thanks!” 호스트다운 매너였어요.",speaker:"diner"},
+           {t:"Do you drink water?",ok:0,react:"...물은 다들 마시죠. 권하는 표현이 필요해요.",speaker:"diner"},
+           {t:"What do you do?",ok:0,react:"이미 아는 사이인데 다시 묻다니, 진땀이 납니다.",speaker:"diner"}]},
+    {npc:'The dinner is over. David reaches for his wallet.', sit:"David가 지갑을 꺼내려 해요. 오늘은 내가 대접하고 싶어요.",
+     opts:[{t:"This is on me.",ok:1,reply:"This is on me.",react:"“Next one's on me then!” David가 활짝 웃습니다. 호감도 급상승!",speaker:"diner"},
+           {t:"You pay, please.",ok:0,react:"대접하려던 계획이... 멘탈에 금이 갑니다.",speaker:"diner"},
+           {t:"I'd like to check in.",ok:0,react:"여긴 호텔이 아니에요!",speaker:"diner"}]},
+    {npc:'"..."', sit:"이제 계산할 시간. 웨이터에게 계산서를 요청하세요.",
+     opts:[{t:"Can I get the check, please?",ok:1,reply:"Can I get the check, please?",react:"완벽한 마무리. 디너 챕터 클리어!"},
+           {t:"Can I get the menu, please?",ok:0,react:"또 시키시게요? 배는 이미 부른데요!"},
+           {t:"Sooner or later.",ok:0,react:"웨이터가 기다립니다... 계산은 지금이요!"}]},
+   ]},
+ { key:"expo", title:"박람회 부스", who:"새 고객", speaker:"client_f", preview:false,
+   desc:"다음 날 아침, 미디어테크 엑스포. 빔몬스터 부스에 낯선 손님이 다가온다!",
+   beats:[
+    {npc:'"Hi, I saw your booth from across the hall."', sit:"새 고객이 다가왔어요. 무슨 일로 왔는지 물어보세요.",
+     opts:[{t:"What brings you here?",ok:1,reply:"What brings you here?",react:"“Your LED wall caught my eye!” 대화의 문이 열렸습니다."},
+           {t:"Why are you here?",ok:0,react:"뜻은 통하지만 어딘가 심문 같네요. 고객이 살짝 당황."},
+           {t:"I'll have the same.",ok:0,react:"...뭘 같은 걸로요? 진땀 한 방울."}]},
+    {npc:'"So, what is Beam Monster exactly?"', sit:"회사를 궁금해해요. 소개를 시작해 보세요.",
+     opts:[{t:"Let me tell you about us.",ok:1,reply:"Let me tell you about us.",react:"고객이 몸을 기울입니다. 완벽한 오프닝!"},
+           {t:"Let me tell you about Singapore.",ok:0,react:"싱가포르 소개는 현지인인 고객이 더 잘할걸요?"},
+           {t:"Hang in there.",ok:0,react:"응원은 고맙지만... 지금은 회사 소개!"}]},
+    {npc:'"I run a retail chain here. We’re renovating stores."', sit:"고객의 일을 더 알아볼 기회예요. 무슨 일 하는지 물어보세요.",
+     opts:[{t:"What do you do?",ok:1,reply:"What do you do exactly?",react:"“I manage 12 stores downtown.” 빅 클라이언트의 냄새가!"},
+           {t:"What are you doing?",ok:0,react:"“지금요? 당신과 얘기 중인데요.” 미묘한 차이가 크네요."},
+           {t:"How old are you?",ok:0,react:"그건 실례예요! 멘탈이 크게 흔들립니다."}]},
+   ]},
+ { key:"farewell", title:"마무리 인사", who:"파트너 David", speaker:"client_m", preview:false,
+   desc:"해질녘 머라이언 파크. 출장의 마지막 — David와 작별 인사를 나눌 시간.",
+   beats:[
+    {npc:'"It was a great two days, Mr. Lee."', sit:"앞으로도 연락하고 지내자고 말해 보세요.",
+     opts:[{t:"Let's keep in touch.",ok:1,reply:"Let's keep in touch.",react:"“Absolutely. WhatsApp me anytime.” 연결고리가 생겼습니다!"},
+           {t:"Let's keep the check.",ok:0,react:"계산서를 간직하자고요...? David가 웃음을 터뜨립니다."},
+           {t:"Goodbye forever.",ok:0,react:"영원한 작별은 너무 비장한데요!"}]},
+    {npc:'"I’ll send you the project details next week."', sit:"함께 일하게 되길 기대한다고, 마지막 인사를 건네세요.",
+     opts:[{t:"I look forward to working with you.",ok:1,reply:"I look forward to working with you.",react:"굳은 악수. “Me too, Mr. Lee.” — 출장 생존 성공!"},
+           {t:"I look at you working.",ok:0,react:"...지켜보고 있다니 좀 무서운데요!"},
+           {t:"What do you recommend?",ok:0,react:"여긴 식당이 아니에요!"}]},
+   ]},
+];
+
+/* ============ STATE ============ */
+let ci=0, bi=0, mental=100, heart=50, locked=false, chapWrong=0, curOpts=[];
+let chapterScores=[], totalRight=0, totalMain=0;
+
+function startGame(){ audioInit(); startBgm();
+  ci=0;bi=0;mental=100;heart=50;chapterScores=[];totalRight=0;totalMain=0;
+  $("start").classList.add("hidden"); $("report").classList.add("hidden");
+  $("play").classList.remove("hidden");
+  setGauges(false); showChapterCard();
+}
+function showChapterCard(){
+  const c=CHAPTERS[ci]; chapWrong=0;
+  $("backdrop").innerHTML=backdrop(c.key);
+  const cc=$("chapcard"); cc.classList.remove("hidden");
+  cc.innerHTML=`<div class="ck">CHAPTER ${ci+1} / ${CHAPTERS.length}</div><h2>${c.title}</h2><p>${c.desc}</p>
+    ${c.preview?`<div class="newnote">${c.newnote}</div>`:""}
+    <button class="cta" style="margin-top:20px" onclick="enterChapter()">&#9654; 진행</button>`;
+  sChap();
+}
+function enterChapter(){ $("chapcard").classList.add("hidden"); bi=0; renderBeat(); }
+
+function renderBeat(){
+  locked=false;
+  const c=CHAPTERS[ci], b=c.beats[bi];
+  $("chapChip").innerHTML=`CHAPTER ${ci+1}<small>${c.title} · ${bi+1}/${c.beats.length}</small>`;
+  const sp=b.opts[0].speaker||c.speaker;
+  curOpts=shuffle(b.opts.map(o=>({...o})));
+  let ch=""; curOpts.forEach((o,i)=>{ ch+=`<button class="choice" onclick="pick(this,${i})">
+     <span class="dotn">${i+1}</span><span class="txt">${o.t}</span></button>`; });
+  $("stage").innerHTML=`<div class="scene">
+    <div class="locbanner">${c.title.toUpperCase?c.title:""} · SINGAPORE</div>
+    ${c.preview?`<div class="previewtag">다음 CLASS 예고편 · 멘탈 안전지대</div>`:""}
+    <div class="npcwrap"><div class="avatar">${avatar(sp)}<span class="heartbadge" id="hb">&#10084; ${heart}</span></div>
+      <div class="bubble"><div class="who">${c.who.toUpperCase()}</div>${b.npc}</div></div>
+    <div class="situ"><span class="pin2">&#9670;</span><span>${b.sit}</span></div>
+    <div class="choices">${ch}</div>
+    <div id="afterzone"></div></div>`;
+}
+
+function pick(btn,oi){
+  if(locked) return; locked=true;
+  const opt=curOpts[oi], ok=opt.ok?1:0, reply=opt.reply||"", react=opt.react||"";
+  const c=CHAPTERS[ci];
+  document.querySelectorAll(".choice").forEach(b=>b.onclick=null);
+  const az=$("afterzone");
+  if(ok){
+    btn.classList.add("correct");
+    document.querySelectorAll(".choice").forEach(b=>{ if(b!==btn)b.classList.add("dim"); });
+    totalMain += c.preview?0:1; totalRight += c.preview?0:1;
+    // gauges
+    if(!c.preview){ gainMental(6); gainHeart(7); } else { gainHeart(3); }
+    flash("rgba(43,232,124,.45)"); shake(false); confetti(); sGood();
+    impact(c.preview?"NICE!":"SMOOTH!", "#2BE87C");
+    az.innerHTML=`<div class="leebubble"><div class="who">LEE</div>"${reply}"</div>
+      <div class="reaction">${react} ${c.preview?"":'<b class="up">멘탈 +6 · 호감도 +7</b>'}</div>
+      <button class="nextbtn" onclick="nextBeat()">계속 &#9654;</button>`;
+  } else {
+    btn.classList.add("wrongpick");
+    chapWrong++; if(!c.preview){ totalMain+=0; }
+    if(!c.preview){ loseMental(14); loseHeart(5); sweatFx(); }
+    flash("rgba(255,77,94,.4)"); shake(true); sBad();
+    impact(c.preview?"OOPS!":"진땀...!", "#FF4D5E");
+    // reveal correct, then continue
+    document.querySelectorAll(".choice").forEach(b=>{ const t=b.querySelector(".txt").textContent;
+      const isC=CHAPTERS[ci].beats[bi].opts.some(o=>o.ok&&o.t===t);
+      if(isC) b.classList.add("correct"); else if(b!==btn) b.classList.add("dim"); });
+    const correct=CHAPTERS[ci].beats[bi].opts.find(o=>o.ok);
+    az.innerHTML=`<div class="reaction">${react} ${c.preview?"":'<b class="down">멘탈 −14 · 호감도 −5</b>'}<br>정답은 <b style="color:var(--gold)">"${correct.t}"</b> — 소리 내어 한 번!</div>
+      <button class="nextbtn" onclick="nextBeat()">계속 &#9654;</button>`;
+    if(!c.preview){ totalMain++; }
+  }
+  az.scrollIntoView({behavior:"smooth",block:"end"});
+}
+function nextBeat(){ sTap();
+  bi++;
+  const c=CHAPTERS[ci];
+  if(bi>=c.beats.length){
+    chapterScores.push({title:c.title,preview:c.preview,wrong:chapWrong,total:c.beats.length});
+    ci++;
+    if(ci>=CHAPTERS.length) showReport(); else showChapterCard();
+  } else renderBeat();
+}
+
+/* gauges */
+function setGauges(fl){
+  $("mentalFill").style.width=mental+"%"; $("mentalVal").textContent=mental;
+  $("heartFill").style.width=heart+"%"; $("heartVal").textContent=heart;
+  $("mentalFill").style.background = mental>=60?"linear-gradient(90deg,#2BE87C,#57E6B0)": mental>=30?"linear-gradient(90deg,#FFD23F,#FF9A3D)":"linear-gradient(90deg,#FF4D5E,#FF7A3D)";
+  if(fl){["mentalFill","heartFill"].forEach(id=>{const e=$(id);e.classList.remove("flash");void e.offsetWidth;e.classList.add("flash");});}
+  const hb=$("hb"); if(hb) hb.innerHTML="&#10084; "+heart;
+}
+function gainMental(n){ mental=Math.min(100,mental+n); setGauges(true); }
+function loseMental(n){ mental=Math.max(5,mental-n); setGauges(true); }  // never fully dead — survival with grace
+function gainHeart(n){ heart=Math.min(100,heart+n); setGauges(true); }
+function loseHeart(n){ heart=Math.max(0,heart-n); setGauges(true); }
+function sweatFx(){ for(let i=0;i<3;i++){ const s=document.createElement("div"); s.className="sweat"; s.textContent="\uD83D\uDCA6";
+  s.style.left=(30+Math.random()*40)+"%"; s.style.top=(120+Math.random()*40)+"px"; s.style.animationDelay=(i*0.12)+"s";
+  $("fx").appendChild(s); setTimeout(()=>s.remove(),1300); } }
+
+/* fx */
+function impact(txt,color){ const d=document.createElement("div"); d.className="impact"; d.style.color=color; d.innerHTML=txt; $("fx").appendChild(d); setTimeout(()=>d.remove(),820); }
+function shake(hard){ const a=$("app"); a.classList.remove("shake","shakeHard");void a.offsetWidth; a.classList.add(hard?"shakeHard":"shake"); }
+function flash(c){ const f=$("flash"); f.style.background=c; f.style.transition="none"; f.style.opacity="1"; void f.offsetWidth; f.style.transition="opacity .45s"; f.style.opacity="0"; }
+function confetti(){ const cols=["#1CE6D6","#FF3D8B","#FFD23F","#2BE87C","#57B6FF"]; const host=$("fx");
+  for(let i=0;i<24;i++){ const cc=document.createElement("div"); cc.className="confetti"; cc.style.background=cols[i%cols.length];
+    cc.style.left=(20+Math.random()*60)+"%"; cc.style.top=(26+Math.random()*14)+"%";
+    cc.style.setProperty("--fy",(170+Math.random()*220)+"px"); cc.style.setProperty("--fr",(Math.random()*720-360)+"deg");
+    cc.style.animation=`fall ${0.8+Math.random()*0.7}s cubic-bezier(.2,.7,.3,1) forwards`; host.appendChild(cc); setTimeout(()=>cc.remove(),1600); } }
+
+/* report */
+function showReport(){
+  stopBgm(); sWin();
+  const grade = mental>=70&&heart>=70?["출장 마스터","완벽한 생존! 서툴다는 말이 무색한 하루였어요.",3]
+    : mental>=45?["생존 성공","진땀도 흘렸지만 끝까지 버텨냈어요. 다음 출장은 더 매끄러울 거예요!",2]
+    : ["아슬아슬 생존","멘탈이 바닥까지 갔지만... 살아남은 게 어디예요! 표현 복습 후 재도전!",1];
+  const star=(on)=>`<svg class="${on?'':'off'}" viewBox="0 0 24 24"><path fill="#fff" stroke="#0a8f9a" stroke-width="1" d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17.8 5.9 20.4 7.4 13.6 2.2 9l6.9-.7z"/></svg>`;
+  const rows=chapterScores.map((s,i)=>{
+    const sc=s.preview?`<span class="sc pv">예고편</span>`
+      : s.wrong===0?`<span class="sc good">PERFECT</span>`
+      : `<span class="sc mid">진땀 ×${s.wrong}</span>`;
+    return `<div class="r"><b>${i+1}. ${s.title}</b>${sc}</div>`; }).join("");
+  $("report").innerHTML=`<div class="rep">
+    <div class="top"><div class="lbl">BUSINESS TRIP REPORT · SINGAPORE</div><div class="big">${grade[0]}</div>
+      <div class="stars">${star(grade[2]>=1)}${star(grade[2]>=2)}${star(grade[2]>=3)}</div></div>
+    <div class="grid">
+      <div class="c"><div class="v">${mental}</div><div class="k">MENTAL</div></div>
+      <div class="c"><div class="v">${heart}</div><div class="k">호감도</div></div>
+      <div class="c"><div class="v">${CHAPTERS.length}</div><div class="k">CHAPTERS</div></div></div>
+    <div class="body"><div class="msg">${grade[1]}</div><div class="chaplist">${rows}</div></div></div>
+    <div class="rbtns"><button class="cta ghost" onclick="goHome()">HOME</button>
+    <button class="cta mag" onclick="startGame()">&#8635; 다시 출장</button></div>`;
+  $("play").classList.add("hidden"); $("report").classList.remove("hidden"); $("report").classList.add("fadein");
+}
+function goHome(){ stopBgm(); $("report").classList.add("hidden"); $("play").classList.add("hidden"); $("start").classList.remove("hidden"); }
+
+/* start preview list */
+(function(){ $("chapPv").innerHTML=CHAPTERS.map((c,i)=>`<div class="cpv"><span class="n">${i+1}</span>${c.title}${c.preview?'<span class="new">NEXT CLASS</span>':''}</div>`).join(""); 
+  $("backdrop").innerHTML=backdrop("meet"); })();
+
+/* AUDIO */
+let actx=null,sOn=true,bgmGain=null,bgmTimer=null,bgmStep=0;
+function audioInit(){ if(!actx){try{actx=new(window.AudioContext||window.webkitAudioContext)();}catch(e){}} if(actx&&actx.state==="suspended")actx.resume(); }
+function beep(fs,d,type,v,gap){ if(!actx||!sOn)return; let t=actx.currentTime;gap=gap||0;
+  fs.forEach((f,i)=>{const o=actx.createOscillator(),g=actx.createGain();o.type=type||"sine";o.frequency.value=f;o.connect(g);g.connect(actx.destination);
+    const s=t+i*(d+gap);g.gain.setValueAtTime(.0001,s);g.gain.exponentialRampToValueAtTime(v||.16,s+.008);g.gain.exponentialRampToValueAtTime(.0001,s+d);o.start(s);o.stop(s+d+.04);}); }
+const sGood=()=>{ beep([560,760],.06,"square",.18,.01); beep([95],.09,"sine",.2,0); };
+const sBad=()=>beep([170,120],.18,"sawtooth",.15,0);
+const sTap=()=>beep([880],.04,"square",.08,0);
+const sChap=()=>beep([392,523,659],.13,"triangle",.15,.05);
+const sWin=()=>beep([523,659,784,1047,1319,1568],.15,"triangle",.18,.05);
+function mfreq(m){return 440*Math.pow(2,(m-69)/12);}
+const PROG=[{b:41,a:[65,69,72,69]},{b:45,a:[69,72,76,72]},{b:38,a:[62,65,69,65]},{b:43,a:[67,71,74,71]}];
+function bnote(f,d,t,v){ if(!actx||!bgmGain)return;const o=actx.createOscillator(),g=actx.createGain();o.type=t;o.frequency.value=f;o.connect(g);g.connect(bgmGain);
+  const s=actx.currentTime;g.gain.setValueAtTime(.0001,s);g.gain.exponentialRampToValueAtTime(v,s+.03);g.gain.exponentialRampToValueAtTime(.0001,s+d);o.start(s);o.stop(s+d+.05);}
+function startBgm(){ audioInit(); if(!actx||bgmTimer)return; if(!bgmGain){bgmGain=actx.createGain();bgmGain.gain.value=sOn?.35:0;bgmGain.connect(actx.destination);}
+  const beat=.42;bgmStep=0; bgmTimer=setInterval(()=>{const c=PROG[Math.floor(bgmStep/4)%PROG.length];
+    if(bgmStep%4===0)bnote(mfreq(c.b),beat*3.4,"sine",.05); bnote(mfreq(c.a[bgmStep%4]),beat*1.4,"triangle",.03);
+    bgmStep=(bgmStep+1)%(PROG.length*4);},beat*1000); }
+function stopBgm(){ clearInterval(bgmTimer);bgmTimer=null; }
+function toggleSound(){ sOn=!sOn; $("audioBtn").innerHTML=sOn?"&#9834; ON":"&#9834; OFF"; $("audioBtn").style.opacity=sOn?1:.5;
+  if(bgmGain)bgmGain.gain.value=sOn?.35:0; if(sOn){audioInit(); if(!bgmTimer && !$("play").classList.contains("hidden"))startBgm();} }
+</script>
+</body>
+</html>

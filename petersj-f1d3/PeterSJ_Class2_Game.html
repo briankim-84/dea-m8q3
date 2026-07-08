@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Gayang Team Challenge — Peter & SJ</title>
+<style>
+  :root{
+    --navy:#0E1F3C; --navy2:#0A1830; --gold:#E7B43D; --ink:#F4F7FC; --sub:#9DB0CC;
+    --peter:#4FA3E0; --sj:#E0913E; --good:#3FD08A; --bad:#FF6B6B; --line:rgba(231,180,61,.22);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#060f1f;color:var(--ink);display:flex;justify-content:center;min-height:100vh;}
+  #app{width:100%;max-width:560px;min-height:100vh;position:relative;overflow:hidden;
+    background:radial-gradient(120% 60% at 50% 0%,#12294a,#0a1830 50%,#060f1f);display:flex;flex-direction:column;}
+
+  .screen{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:28px 22px;}
+  .kick{font-size:13px;letter-spacing:3px;color:var(--gold);font-weight:800;margin-bottom:8px;}
+  h1{font-size:30px;font-weight:900;line-height:1.15;margin-bottom:10px;}
+  .lead{font-size:15px;color:var(--sub);line-height:1.6;max-width:400px;margin-bottom:8px;}
+  .team{display:flex;gap:10px;justify-content:center;margin:14px 0;}
+  .chip{padding:6px 16px;border-radius:20px;font-weight:800;font-size:14px;}
+  .chip.p{background:rgba(79,163,224,.16);color:var(--peter);border:1px solid rgba(79,163,224,.4);}
+  .chip.s{background:rgba(224,145,62,.16);color:var(--sj);border:1px solid rgba(224,145,62,.4);}
+  .modes{display:flex;flex-direction:column;gap:14px;width:100%;max-width:380px;margin-top:18px;}
+  .mode{padding:20px;border-radius:16px;border:1px solid var(--line);background:#10233f;cursor:pointer;text-align:left;transition:.15s;}
+  .mode:active{transform:scale(.98);}
+  .mode .mt{font-size:19px;font-weight:900;margin-bottom:4px;}
+  .mode .md{font-size:13px;color:var(--sub);line-height:1.5;}
+  .mode .em{font-size:26px;float:right;margin-left:10px;}
+  .btn{margin-top:18px;padding:14px 38px;border-radius:13px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;font-size:16px;font-weight:900;letter-spacing:.5px;}
+  .btn:active{transform:scale(.97);}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--gold);margin-top:10px;}
+
+  /* HUD */
+  .hud{padding:14px 16px 8px;}
+  .scoreRow{display:flex;gap:10px;align-items:stretch;}
+  .pcard{flex:1;border-radius:13px;padding:10px 12px;border:1px solid transparent;background:#10233f;transition:.2s;position:relative;}
+  .pcard.peter{border-color:rgba(79,163,224,.3);} .pcard.sj{border-color:rgba(224,145,62,.3);}
+  .pcard.active{box-shadow:0 0 0 2px currentColor, 0 0 18px rgba(231,180,61,.2);transform:translateY(-2px);}
+  .pcard.peter.active{color:var(--peter);} .pcard.sj.active{color:var(--sj);}
+  .pcard .nm{font-size:13px;font-weight:800;letter-spacing:.5px;}
+  .pcard.peter .nm{color:var(--peter);} .pcard.sj .nm{color:var(--sj);}
+  .pcard .sc{font-size:26px;font-weight:900;color:var(--ink);line-height:1.1;}
+  .pcard .turn{position:absolute;top:8px;right:10px;font-size:10px;font-weight:800;letter-spacing:1px;opacity:0;}
+  .pcard.active .turn{opacity:1;}
+  .vs{display:flex;align-items:center;font-size:14px;font-weight:900;color:var(--sub);}
+  .timerbar{height:7px;border-radius:6px;background:rgba(255,255,255,.08);margin-top:10px;overflow:hidden;}
+  .timerfill{height:100%;width:100%;border-radius:6px;background:linear-gradient(90deg,#caa233,#e7b43d);transition:width .1s linear;}
+  .progress{font-size:12px;color:var(--sub);text-align:center;margin-top:8px;letter-spacing:.5px;}
+
+  /* QUESTION */
+  .qzone{flex:1;display:flex;flex-direction:column;padding:6px 18px 0;overflow-y:auto;}
+  .turnban{text-align:center;font-size:14px;font-weight:900;letter-spacing:1px;margin:8px 0 4px;padding:7px;border-radius:10px;}
+  .turnban.peter{background:rgba(79,163,224,.14);color:var(--peter);}
+  .turnban.sj{background:rgba(224,145,62,.14);color:var(--sj);}
+  .qhint{font-size:13px;color:var(--gold);font-weight:700;text-align:center;margin:10px 0 6px;}
+  .qtext{font-size:20px;font-weight:700;line-height:1.5;text-align:center;margin:6px 4px 16px;}
+  .qtext .bl{color:var(--gold);font-weight:900;letter-spacing:1px;}
+  .opts{display:flex;flex-direction:column;gap:9px;padding-bottom:14px;}
+  .opt{padding:14px 16px;border-radius:12px;background:#13263f;border:1px solid rgba(255,255,255,.09);
+    color:var(--ink);font-size:16px;font-weight:700;cursor:pointer;transition:.12s;text-align:left;}
+  .opt:active{transform:scale(.98);}
+  .opt.correct{background:rgba(63,208,138,.16);border-color:var(--good);}
+  .opt.wrong{background:rgba(255,107,107,.14);border-color:var(--bad);animation:shk .35s;}
+  .opt.dim{opacity:.4;}
+  @keyframes shk{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+  .fb{text-align:center;font-size:14px;font-weight:700;margin:4px 0 12px;min-height:20px;}
+  .fb.ok{color:var(--good);} .fb.no{color:var(--bad);}
+  .next{margin:0 18px 16px;padding:14px;border-radius:12px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;font-size:15px;font-weight:900;}
+
+  /* BUILDING (co-op) */
+  .buildwrap{flex:1;display:flex;align-items:flex-end;justify-content:center;padding:6px 0 0;min-height:200px;}
+  #building{width:200px;}
+  .floorlabel{text-align:center;font-size:12px;color:var(--sub);margin-top:4px;}
+
+  .pop{animation:pop .4s ease;}
+  @keyframes pop{0%{transform:translateY(-18px) scale(.8);opacity:0;}60%{transform:translateY(2px) scale(1.04);}100%{transform:none;opacity:1;}}
+  .hidden{display:none!important;}
+  .winner{font-size:40px;font-weight:900;margin:6px 0;}
+  .winner.peter{color:var(--peter);} .winner.sj{color:var(--sj);} .winner.tie{color:var(--gold);}
+  .finalScores{display:flex;gap:20px;justify-content:center;margin:12px 0;}
+  .fs{text-align:center;} .fs .v{font-size:28px;font-weight:900;} .fs .k{font-size:12px;color:var(--sub);}
+  .muteBtn{position:absolute;top:12px;right:14px;background:rgba(255,255,255,.06);border:1px solid var(--line);
+    color:var(--gold);width:34px;height:34px;border-radius:9px;font-size:15px;cursor:pointer;z-index:9;}
+</style>
+</head>
+<body>
+<div id="app">
+  <button class="muteBtn" id="muteBtn" onclick="toggleMute()">🔊</button>
+
+  <!-- START -->
+  <div id="start" class="screen">
+    <div class="kick">DO ENGLISH WITH BRIAN</div>
+    <h1>Gayang Team<br>Challenge</h1>
+    <div class="team"><span class="chip p">Peter</span><span class="chip s">SJ</span></div>
+    <div class="lead">Class 2 표현 30개로 겨루고, 함께 쌓는 두 가지 모드.</div>
+    <div class="modes">
+      <div class="mode" onclick="startVersus()"><span class="em">⚔️</span><div class="mt">대결 모드</div><div class="md">번갈아 한 문제씩 풀어 점수로 승부. 빠를수록 보너스 점수!</div></div>
+      <div class="mode" onclick="startCoop()"><span class="em">🏗️</span><div class="mt">협동 모드</div><div class="md">한 문제씩 맞힐 때마다 건물이 한 층씩! 함께 완공해요.</div></div>
+    </div>
+  </div>
+
+  <!-- VERSUS -->
+  <div id="versus" class="hidden" style="display:flex;flex-direction:column;flex:1;">
+    <div class="hud">
+      <div class="scoreRow">
+        <div class="pcard peter" id="vP"><div class="nm">PETER</div><div class="sc" id="vPS">0</div><div class="turn">▶ TURN</div></div>
+        <div class="vs">VS</div>
+        <div class="pcard sj" id="vS"><div class="nm">SJ</div><div class="sc" id="vSS">0</div><div class="turn">▶ TURN</div></div>
+      </div>
+      <div class="timerbar"><div class="timerfill" id="vTimer"></div></div>
+      <div class="progress" id="vProg">Round 1 / 16</div>
+    </div>
+    <div class="qzone" id="vQ"></div>
+    <button class="next hidden" id="vNext" onclick="vAdvance()">NEXT  ▶</button>
+  </div>
+
+  <!-- COOP -->
+  <div id="coop" class="hidden" style="display:flex;flex-direction:column;flex:1;">
+    <div class="hud">
+      <div class="progress" id="cProg" style="font-size:14px;font-weight:800;color:var(--gold);">FLOOR 0 / 12</div>
+      <div class="buildwrap"><div id="building"></div></div>
+    </div>
+    <div class="qzone" id="cQ"></div>
+    <button class="next hidden" id="cNext" onclick="cAdvance()">NEXT  ▶</button>
+  </div>
+
+  <!-- END -->
+  <div id="end" class="screen hidden"></div>
+</div>
+
+<script>
+// ---------- expressions ----------
+const EXPR=[
+ ["give it a shot","한번 해보다"],["on top of that","게다가"],["run into","우연히 마주치다"],["take care of","처리하다, 돌보다"],
+ ["read between the lines","행간을 읽다"],["play it by ear","임기응변으로 하다"],["in the same boat","같은 처지에 있다"],["against the clock","시간에 쫓겨"],
+ ["take a step back","한 발 물러서서 보다"],["cut to the chase","본론으로 들어가다"],["bite the bullet","마음먹고 받아들이다"],["call it a day","그만하기로 하다"],
+ ["read the room","분위기를 파악하다"],["throw in the towel","포기하다"],["burn bridges","관계를 완전히 끊다"],
+ ["bring something to the table","기여할 것을 제공하다"],["keep tabs on","계속 주시하다"],["keep someone posted","계속 업데이트해주다"],["get up to speed","따라잡다, 숙지하다"],
+ ["rule of thumb","경험상의 법칙"],["give the benefit of the doubt","의심보다는 믿어주다"],["low-hanging fruit","쉽게 얻을 수 있는 성과"],["raise red flags","우려를 불러일으키다"],
+ ["play devil's advocate","일부러 반대 입장을 취하다"],["push the envelope","한계를 넘어서다"],["get buy-in","동의를 얻다"],["drill down into","자세히 파고들다"],
+ ["have skin in the game","이해관계가 걸려 있다"],["throw someone under the bus","책임을 떠넘기다"],["corner the market","시장을 장악하다"],
+];
+const KO=Object.fromEntries(EXPR.map(e=>[e[0],e[1]]));
+// ---------- question bank (sentence, korean hint, answer) ----------
+const BANK=[
+ ["I haven't thought it through, but I'm willing to ___.","한번 해보다","give it a shot"],
+ ["___, the new system made things more efficient.","게다가","on top of that"],
+ ["Guess who I ___ at the airport yesterday!","우연히 마주치다","run into"],
+ ["Don't worry, I'll ___ the paperwork.","처리하다, 돌보다","take care of"],
+ ["She didn't say no outright, but if you ___, she's hesitant.","행간을 읽다","read between the lines"],
+ ["We don't have a fixed plan — let's just ___.","임기응변으로 하다","play it by ear"],
+ ["You're stressed about the deadline? I'm ___.","같은 처지에 있다","in the same boat"],
+ ["We're really ___ to ship this before Friday.","시간에 쫓겨","against the clock"],
+ ["We need to ___ before deciding on the budget.","한 발 물러서서 보다","take a step back"],
+ ["Let me ___ — are we still on budget?","본론으로 들어가다","cut to the chase"],
+ ["It's a tough call, but at some point you just have to ___.","마음먹고 받아들이다","bite the bullet"],
+ ["We've done enough for today — let's ___.","그만하기로 하다","call it a day"],
+ ["Before you pitch that, ___ — everyone's stressed right now.","분위기를 파악하다","read the room"],
+ ["It got hard, but I refused to ___.","포기하다","throw in the towel"],
+ ["Even if you leave the company, don't ___.","관계를 완전히 끊다","burn bridges"],
+ ["Every team member should ___.","기여할 것을 제공하다","bring something to the table"],
+ ["Let's ___ the competitor's pricing this quarter.","계속 주시하다","keep tabs on"],
+ ["I'll ___ once I hear back from the supplier.","계속 업데이트해주다","keep someone posted"],
+ ["New hires take a week or two to ___ with our tools.","따라잡다, 숙지하다","get up to speed"],
+ ["As a ___, reply to clients within one business day.","경험상의 법칙","rule of thumb"],
+ ["He's late sometimes, but let's ___.","의심보다는 믿어주다","give the benefit of the doubt"],
+ ["Let's start with the ___ before the hard stuff.","쉽게 얻을 수 있는 성과","low-hanging fruit"],
+ ["A few numbers in the report ___ for the investment team.","우려를 불러일으키다","raise red flags"],
+ ["Let me ___ for a second — what if the launch fails?","일부러 반대 입장을 취하다","play devil's advocate"],
+ ["This design really ___ for the whole industry.","한계를 넘어서다","push the envelope"],
+ ["We need to ___ from leadership before we start.","동의를 얻다","get buy-in"],
+ ["We need someone to ___ the data before the board meeting.","자세히 파고들다","drill down into"],
+ ["He's been here since day one, so he really ___.","이해관계가 걸려 있다","have skin in the game"],
+ ["Don't ___ just to save yourself.","책임을 떠넘기다","throw someone under the bus"],
+ ["With that patent, they've completely ___.","시장을 장악하다","corner the market"],
+];
+
+// ---------- audio ----------
+let actx=null,muted=false;
+function initA(){ if(!actx){try{actx=new(window.AudioContext||window.webkitAudioContext)();}catch(e){}} if(actx&&actx.state==='suspended')actx.resume(); }
+function tone(f,d,t,w,v){ if(!actx||muted)return; const tt=actx.currentTime+(w||0);const o=actx.createOscillator(),g=actx.createGain();
+  o.type=t||'sine';o.frequency.setValueAtTime(f,tt);g.gain.setValueAtTime(0.0001,tt);g.gain.exponentialRampToValueAtTime(v||.2,tt+.01);g.gain.exponentialRampToValueAtTime(.0001,tt+d);o.connect(g).connect(actx.destination);o.start(tt);o.stop(tt+d+.03);}
+function sOk(){tone(660,.12,'triangle',0,.22);tone(990,.15,'triangle',.08,.2);}
+function sNo(){tone(190,.2,'sawtooth',0,.16);tone(140,.22,'sawtooth',.08,.14);}
+function sFloor(){tone(440,.1,'square',0,.16);tone(660,.13,'square',.07,.14);tone(880,.16,'triangle',.15,.14);}
+function sWin(){[523,659,784,1047,1319].forEach((f,i)=>tone(f,.25,'triangle',i*.1,.2));}
+function toggleMute(){muted=!muted;document.getElementById("muteBtn").textContent=muted?"🔇":"🔊";if(!muted)initA();}
+
+const $=id=>document.getElementById(id);
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function makeOptions(ans){
+  const others=shuffle(EXPR.map(e=>e[0]).filter(e=>e!==ans)).slice(0,3);
+  return shuffle([ans,...others]);
+}
+function qHTML(item){
+  const parts=item[0].split("___");
+  return `<div class="qhint">힌트 · ${item[1]}</div>
+   <div class="qtext">${parts[0]}<span class="bl">______</span>${parts[1]||""}</div>`;
+}
+
+// =========== VERSUS ===========
+let vQs,vIdx,vTurn,vScore,vTimer,vTimeLeft,vAnswered,vTotal=16;
+function startVersus(){
+  initA(); hideAll(); $("versus").classList.remove("hidden");
+  vQs=shuffle(BANK).slice(0,vTotal); vIdx=0; vTurn=0; vScore=[0,0];
+  $("vPS").textContent=0; $("vSS").textContent=0;
+  vRender();
+}
+function vRender(){
+  vAnswered=false;
+  const item=vQs[vIdx];
+  $("vProg").textContent=`Round ${vIdx+1} / ${vTotal}`;
+  $("vP").classList.toggle("active",vTurn===0); $("vS").classList.toggle("active",vTurn===1);
+  $("vNext").classList.add("hidden");
+  const who=vTurn===0?"peter":"sj", name=vTurn===0?"PETER":"SJ";
+  const opts=makeOptions(item[2]);
+  $("vQ").innerHTML=`<div class="turnban ${who}">${name}'s turn</div>${qHTML(item)}
+    <div class="opts" id="vOpts"></div><div class="fb" id="vFb"></div>`;
+  const wrap=$("vOpts");
+  opts.forEach(o=>{ const b=document.createElement("button"); b.className="opt"; b.textContent=o; b.onclick=()=>vPick(o,b); wrap.appendChild(b); });
+  $("vQ").scrollTop=0;
+  vTimeLeft=12; $("vTimer").style.width="100%";
+  clearInterval(vTimer);
+  vTimer=setInterval(()=>{ vTimeLeft-=0.1; $("vTimer").style.width=Math.max(0,vTimeLeft/12*100)+"%";
+    if(vTimeLeft<=0){ clearInterval(vTimer); vTimeout(); } },100);
+}
+function vPick(o,btn){
+  if(vAnswered)return; vAnswered=true; clearInterval(vTimer);
+  const item=vQs[vIdx], correct=item[2];
+  document.querySelectorAll("#vOpts .opt").forEach(b=>{ b.onclick=null; if(b.textContent!==o)b.classList.add("dim"); });
+  if(o===correct){
+    btn.classList.add("correct");
+    const bonus=Math.round(Math.max(0,vTimeLeft)*5);
+    const pts=100+bonus; vScore[vTurn]+=pts;
+    $(vTurn===0?"vPS":"vSS").textContent=vScore[vTurn]; sOk();
+    $("vFb").className="fb ok"; $("vFb").innerHTML=`정답! +${pts} <span style="color:var(--sub)">(속도 보너스 +${bonus})</span>`;
+  } else {
+    btn.classList.add("wrong");
+    document.querySelectorAll("#vOpts .opt").forEach(b=>{ if(b.textContent===correct)b.classList.add("correct"); });
+    sNo(); $("vFb").className="fb no"; $("vFb").innerHTML=`아쉬워요 — 정답은 <b>${correct}</b> (${KO[correct]})`;
+  }
+  $("vNext").classList.remove("hidden");
+  $("vNext").textContent = (vIdx+1>=vTotal) ? "결과 보기  ▶" : "NEXT  ▶";
+}
+function vTimeout(){
+  if(vAnswered)return; vAnswered=true;
+  const correct=vQs[vIdx][2];
+  document.querySelectorAll("#vOpts .opt").forEach(b=>{ b.onclick=null; if(b.textContent===correct)b.classList.add("correct"); else b.classList.add("dim"); });
+  sNo(); $("vFb").className="fb no"; $("vFb").innerHTML=`시간 초과! 정답은 <b>${correct}</b> (${KO[correct]})`;
+  $("vNext").classList.remove("hidden");
+  $("vNext").textContent = (vIdx+1>=vTotal) ? "결과 보기  ▶" : "NEXT  ▶";
+}
+function vAdvance(){
+  vIdx++; vTurn=1-vTurn;
+  if(vIdx>=vTotal){ vEnd(); } else { vRender(); }
+}
+function vEnd(){
+  hideAll(); const e=$("end"); e.classList.remove("hidden");
+  let win,cls,msg;
+  if(vScore[0]>vScore[1]){win="PETER WINS!";cls="peter";}
+  else if(vScore[1]>vScore[0]){win="SJ WINS!";cls="sj";}
+  else{win="IT'S A TIE!";cls="tie";}
+  sWin();
+  e.innerHTML=`<div class="kick">⚔️ 대결 결과</div>
+    <div class="winner ${cls}">${win}</div>
+    <div class="finalScores">
+      <div class="fs"><div class="v" style="color:var(--peter)">${vScore[0]}</div><div class="k">PETER</div></div>
+      <div class="fs"><div class="v" style="color:var(--sj)">${vScore[1]}</div><div class="k">SJ</div></div>
+    </div>
+    <div class="lead">표현 ${vTotal}개를 실전 문장에서 겨뤘어요. 한 판 더?</div>
+    <button class="btn" onclick="startVersus()">⚔️ 다시 대결</button>
+    <button class="btn ghost" onclick="goHome()">모드 선택으로</button>`;
+}
+
+// =========== CO-OP BUILDER ===========
+let cQs,cIdx,cTurn,cFloors,cOwner,cTotal=12,cAnswered;
+function startCoop(){
+  initA(); hideAll(); $("coop").classList.remove("hidden");
+  cQs=shuffle(BANK).slice(0,cTotal); cIdx=0; cTurn=0; cFloors=0; cOwner=[];
+  drawBuilding(); cRender();
+}
+function drawBuilding(){
+  const W=200,floorH=20,baseY=300,roofH=cFloors>=cTotal?26:0;
+  const totalH=cTotal*floorH+30;
+  let svg=`<svg viewBox="0 0 ${W} ${totalH}" width="${W}" height="${totalH}" style="overflow:visible">`;
+  // ground
+  svg+=`<rect x="20" y="${totalH-12}" width="160" height="10" rx="3" fill="#1b3152"/>`;
+  for(let i=0;i<cFloors;i++){
+    const y=totalH-22-(i+1)*floorH;
+    const col=cOwner[i]==="peter"?"#4FA3E0":"#E0913E";
+    const colD=cOwner[i]==="peter"?"#3A82BC":"#BC7430";
+    const isNew=(i===cFloors-1);
+    svg+=`<g class="${isNew?'pop':''}">
+      <rect x="44" y="${y}" width="112" height="${floorH-3}" rx="3" fill="${col}" stroke="#0E1F3C" stroke-width="2"/>
+      <rect x="52" y="${y+4}" width="14" height="${floorH-11}" rx="2" fill="${colD}"/>
+      <rect x="74" y="${y+4}" width="14" height="${floorH-11}" rx="2" fill="${colD}"/>
+      <rect x="96" y="${y+4}" width="14" height="${floorH-11}" rx="2" fill="${colD}"/>
+      <rect x="118" y="${y+4}" width="14" height="${floorH-11}" rx="2" fill="${colD}"/>
+    </g>`;
+  }
+  if(cFloors>=cTotal){
+    const y=totalH-22-cTotal*floorH;
+    svg+=`<path d="M40 ${y} L100 ${y-26} L160 ${y} Z" fill="#E7B43D" stroke="#0E1F3C" stroke-width="2" class="pop"/>
+      <rect x="98" y="${y-52}" width="3" height="26" fill="#9DB0CC"/>
+      <path d="M101 ${y-52} l20 6 -20 6 z" fill="#3FD08A" class="pop"/>`;
+  }
+  svg+=`</svg>`;
+  $("building").innerHTML=svg;
+  $("cProg").textContent = cFloors>=cTotal ? "🎉 BUILDING COMPLETE!" : `FLOOR ${cFloors} / ${cTotal}`;
+}
+function cRender(){
+  cAnswered=false;
+  const item=cQs[cIdx];
+  $("cNext").classList.add("hidden");
+  const who=cTurn===0?"peter":"sj", name=cTurn===0?"PETER":"SJ";
+  const opts=makeOptions(item[2]);
+  $("cQ").innerHTML=`<div class="turnban ${who}">${name}, build the next floor!</div>${qHTML(item)}
+    <div class="opts" id="cOpts"></div><div class="fb" id="cFb"></div>`;
+  const wrap=$("cOpts");
+  opts.forEach(o=>{ const b=document.createElement("button"); b.className="opt"; b.textContent=o; b.onclick=()=>cPick(o,b); wrap.appendChild(b); });
+  $("cQ").scrollTop=0;
+}
+function cPick(o,btn){
+  if(cAnswered)return;
+  const item=cQs[cIdx], correct=item[2], who=cTurn===0?"peter":"sj";
+  if(o===correct){
+    cAnswered=true;
+    btn.classList.add("correct");
+    document.querySelectorAll("#cOpts .opt").forEach(b=>{ b.onclick=null; if(b.textContent!==o)b.classList.add("dim"); });
+    cOwner.push(who); cFloors++; drawBuilding(); sFloor();
+    $("cFb").className="fb ok"; $("cFb").innerHTML=`나이스! ${cTurn===0?"Peter":"SJ"}가 ${cFloors}층을 올렸어요 🧱`;
+    $("cNext").classList.remove("hidden");
+    $("cNext").textContent = (cFloors>=cTotal) ? "완공 보기  ▶" : "NEXT  ▶";
+  } else {
+    btn.classList.add("wrong"); btn.classList.add("dim"); btn.onclick=null;
+    sNo(); $("cFb").className="fb no"; $("cFb").innerHTML=`다시 골라봐요 — 힌트: ${item[1]}`;
+    setTimeout(()=>btn.classList.remove("wrong"),400);
+  }
+}
+function cAdvance(){
+  cIdx++; cTurn=1-cTurn;
+  if(cFloors>=cTotal || cIdx>=cQs.length){ cEnd(); } else { cRender(); }
+}
+function cEnd(){
+  hideAll(); const e=$("end"); e.classList.remove("hidden"); sWin();
+  const pc=cOwner.filter(x=>x==="peter").length, sc=cOwner.filter(x=>x==="sj").length;
+  e.innerHTML=`<div class="kick">🏗️ 협동 결과</div>
+    <h1 style="color:var(--gold)">완공! 🎉</h1>
+    <div style="margin:8px 0 4px">${miniBuilding()}</div>
+    <div class="lead">Peter와 SJ가 함께 ${cFloors}층 건물을 세웠어요.</div>
+    <div class="finalScores">
+      <div class="fs"><div class="v" style="color:var(--peter)">${pc}</div><div class="k">PETER 층</div></div>
+      <div class="fs"><div class="v" style="color:var(--sj)">${sc}</div><div class="k">SJ 층</div></div>
+    </div>
+    <button class="btn" onclick="startCoop()">🏗️ 다시 짓기</button>
+    <button class="btn ghost" onclick="goHome()">모드 선택으로</button>`;
+}
+function miniBuilding(){
+  const fh=12,W=120,total=cTotal*fh+30;
+  let svg=`<svg viewBox="0 0 ${W} ${total}" width="${W}" height="${total}" style="overflow:visible">`;
+  svg+=`<rect x="10" y="${total-10}" width="100" height="8" rx="3" fill="#1b3152"/>`;
+  for(let i=0;i<cFloors;i++){const y=total-18-(i+1)*fh;const col=cOwner[i]==="peter"?"#4FA3E0":"#E0913E";
+    svg+=`<rect x="32" y="${y}" width="56" height="${fh-2}" rx="2" fill="${col}" stroke="#0E1F3C" stroke-width="1.5"/>`;}
+  const ty=total-18-cTotal*fh;
+  svg+=`<path d="M28 ${ty} L60 ${ty-16} L92 ${ty} Z" fill="#E7B43D" stroke="#0E1F3C" stroke-width="1.5"/>
+    <path d="M60 ${ty-30} l14 4 -14 4 z" fill="#3FD08A"/><rect x="59" y="${ty-30}" width="2" height="14" fill="#9DB0CC"/></svg>`;
+  return svg;
+}
+
+function hideAll(){ ["start","versus","coop","end"].forEach(id=>$(id).classList.add("hidden")); }
+function goHome(){ hideAll(); $("start").classList.remove("hidden"); }
+</script>
+</body>
+</html>

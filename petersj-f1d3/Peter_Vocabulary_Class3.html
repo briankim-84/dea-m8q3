@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Peter — Vocabulary · Class 3 · Do English with Brian</title>
+<style>
+  :root{--navy:#0E2038;--navy2:#0A1830;--gold:#E7B43D;--ink:#F4F7FC;--sub:#9DB0CC;
+    --good:#3FD08A;--bad:#FF6B6B;--blue:#4FA3E0;--line:rgba(231,180,61,.22);--card:#13263f;}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#060f1f;color:var(--ink);display:flex;justify-content:center;min-height:100vh;}
+  #app{width:100%;max-width:540px;min-height:100vh;background:radial-gradient(120% 50% at 50% 0%,#12294a,#0a1830 55%,#060f1f);display:flex;flex-direction:column;}
+  header{padding:16px 18px 10px;position:sticky;top:0;z-index:5;background:linear-gradient(180deg,#0e2545,#0e2545ee 70%,transparent);}
+  .brand{font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:800;}
+  h1{font-size:20px;font-weight:900;margin-top:2px;}
+  .tabs{display:flex;gap:6px;margin-top:12px;}
+  .tab{flex:1;padding:10px 6px;border-radius:10px;border:1px solid var(--line);background:#10233f;color:var(--sub);font-weight:800;font-size:13px;cursor:pointer;text-align:center;transition:.12s;}
+  .tab.on{background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;border-color:transparent;}
+  .scope{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;}
+  .scope button{flex:1;min-width:80px;padding:7px 4px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--sub);font-weight:700;font-size:11.5px;cursor:pointer;}
+  .scope button.on{background:#16293f;color:var(--gold);border-color:rgba(231,180,61,.4);}
+  main{padding:12px 16px 40px;flex:1;}
+  .counter{font-size:12px;color:var(--sub);text-align:right;margin-bottom:6px;}
+  .bar{height:6px;border-radius:6px;background:rgba(255,255,255,.08);margin:0 0 14px;overflow:hidden;}
+  .barfill{height:100%;background:linear-gradient(90deg,#caa233,#e7b43d);transition:width .3s;}
+  /* flashcard */
+  .flash{perspective:1400px;}
+  .fcard{position:relative;width:100%;min-height:330px;cursor:pointer;transition:transform .55s;transform-style:preserve-3d;}
+  .fcard.flip{transform:rotateY(180deg);}
+  .fface{position:absolute;inset:0;backface-visibility:hidden;border-radius:18px;display:flex;flex-direction:column;padding:26px 22px;border:1px solid var(--line);}
+  .ffront{background:#13263f;align-items:center;justify-content:center;text-align:center;}
+  .fback{background:linear-gradient(165deg,#1b3a59,#102338);transform:rotateY(180deg);}
+  .word{font-size:34px;font-weight:900;color:var(--gold);}
+  .pos{font-size:13px;color:var(--sub);margin-top:8px;font-style:italic;}
+  .taptohint{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-size:12px;color:var(--sub);}
+  .bk-word{font-size:22px;font-weight:900;color:var(--gold);margin-bottom:2px;}
+  .bk-ko{font-size:17px;font-weight:700;color:var(--ink);margin-bottom:12px;}
+  .bk-label{font-size:11px;letter-spacing:1px;color:var(--blue);font-weight:800;margin-bottom:3px;}
+  .bk-def{font-size:14.5px;color:var(--ink);line-height:1.45;margin-bottom:12px;}
+  .bk-ex{font-size:14px;color:var(--sub);line-height:1.45;font-style:italic;}
+  .bk-ex b{color:var(--gold);font-style:normal;}
+  .pair{font-size:12px;color:var(--sub);margin-top:14px;border-top:1px solid rgba(255,255,255,.1);padding-top:10px;}
+  .pair b{color:var(--good);}
+  .row2{display:flex;gap:10px;margin-top:14px;}
+  .btn{flex:1;padding:13px;border-radius:11px;border:none;cursor:pointer;background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;font-size:15px;font-weight:900;}
+  .btn:active{transform:scale(.98);}
+  .btn.ghost{background:#16293f;color:var(--gold);border:1px solid var(--line);}
+  /* matching */
+  .qmeta{font-size:12px;color:var(--sub);font-weight:700;margin-bottom:10px;}
+  .matchwrap{display:flex;gap:10px;}
+  .mcol{flex:1;display:flex;flex-direction:column;gap:8px;}
+  .mitem{padding:13px 10px;border-radius:10px;background:#16293f;border:1px solid rgba(255,255,255,.1);font-size:14px;font-weight:700;cursor:pointer;text-align:center;transition:.12s;min-height:48px;display:flex;align-items:center;justify-content:center;}
+  .mitem.sel{border-color:var(--gold);background:#1d3a59;}
+  .mitem.done{opacity:.4;pointer-events:none;border-color:var(--good);}
+  .mitem.shake{animation:shk .35s;}
+  @keyframes shk{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+  .fb{text-align:center;font-size:14px;font-weight:800;margin-top:14px;min-height:20px;}
+  .fb.ok{color:var(--good);}
+  .result{text-align:center;padding:30px 10px;}
+  .result .big{font-size:40px;font-weight:900;color:var(--gold);}
+  .result .msg{color:var(--sub);margin:10px 0 18px;font-size:15px;}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="brand">DO ENGLISH WITH BRIAN</div>
+    <h1>Peter · Vocabulary — Class 3</h1>
+    <div class="tabs">
+      <div class="tab on" data-m="flash" onclick="setMode('flash')">🃏 카드</div>
+      <div class="tab" data-m="match" onclick="setMode('match')">🔗 매칭</div>
+    </div>
+    <div class="scope">
+      <button class="on" data-s="all" onclick="setScope('all')">전체 30</button>
+      <button data-s="g1" onclick="setScope('g1')">상황 단어</button>
+      <button data-s="g2" onclick="setScope('g2')">동의어</button>
+      <button data-s="g3" onclick="setScope('g3')">문장 단어</button>
+    </div>
+  </header>
+  <main id="main"></main>
+</div>
+
+<script>
+// w=word, pos, ko, def(English), ex(example with <b>), pair(related expression), g=group
+const WORDS=[
+ // group 1 — situational words around the expressions
+ {w:"supplier",pos:"noun",ko:"공급업체",def:"a company that provides goods or materials",ex:"I'll <b>follow up</b> with the supplier first thing tomorrow.",pair:"follow up",g:1},
+ {w:"vendor",pos:"noun",ko:"협력업체, 판매처",def:"a company that sells goods or services to others",ex:"I'm still <b>on the fence</b> about which vendor to choose.",pair:"on the fence",g:1},
+ {w:"estimate",pos:"noun",ko:"견적, 추정치",def:"a rough calculation of an amount or cost",ex:"Just give me a <b>ballpark figure</b> for the estimate.",pair:"ballpark figure",g:1},
+ {w:"requirement",pos:"noun",ko:"요구 사항",def:"something that is needed or officially demanded",ex:"They keep changing requirements and <b>move the goalposts</b>.",pair:"move the goalposts",g:1},
+ {w:"approval",pos:"noun",ko:"승인",def:"official permission or agreement to proceed",ex:"We can start as soon as we <b>get the green light</b>.",pair:"get the green light",g:1},
+ {w:"workload",pos:"noun",ko:"업무량",def:"the amount of work a person or team has",ex:"With this workload we can't <b>take on</b> anything else.",pair:"take on",g:1},
+ {w:"setback",pos:"noun",ko:"차질, 좌절",def:"a problem that delays or reverses progress",ex:"One more setback was <b>the last straw</b> for the client.",pair:"the last straw",g:1},
+ {w:"contract",pos:"noun",ko:"계약(서)",def:"a formal written agreement between parties",ex:"We need to <b>iron out</b> a few details in the contract.",pair:"iron out",g:1},
+ {w:"capacity",pos:"noun",ko:"생산 능력, 수용력",def:"the maximum amount something can produce or hold",ex:"Rising demand means we must <b>ramp up</b> capacity.",pair:"ramp up",g:1},
+ {w:"invitation",pos:"noun",ko:"초대",def:"a request for someone to attend or take part",ex:"Thanks for the invitation, but can I <b>take a rain check</b>?",pair:"take a rain check",g:1},
+ // group 2 — single-word synonyms of expressions
+ {w:"persevere",pos:"verb",ko:"버티다, 견디다",def:"to keep going despite difficulty",ex:"Persevere — <b>hang in there</b> a little longer.",pair:"= hang in there",g:2},
+ {w:"undecided",pos:"adj",ko:"결정을 못 내린",def:"not having made a choice yet",ex:"I'm undecided — still <b>on the fence</b>.",pair:"= on the fence",g:2},
+ {w:"undertake",pos:"verb",ko:"맡다, 착수하다",def:"to take on a task or responsibility",ex:"We can't undertake more — we can't <b>take on</b> more work.",pair:"= take on",g:2},
+ {w:"mention",pos:"verb",ko:"언급하다",def:"to refer to something briefly",ex:"I'll just mention it — <b>touch on</b> it quickly.",pair:"= touch on",g:2},
+ {w:"resolve",pos:"verb",ko:"해결하다",def:"to settle or solve a problem",ex:"Let's resolve the issues and <b>iron out</b> the details.",pair:"= iron out",g:2},
+ {w:"boost",pos:"verb",ko:"끌어올리다, 늘리다",def:"to increase or raise something",ex:"We need to boost output — <b>ramp up</b> production.",pair:"= ramp up",g:2},
+ {w:"simplify",pos:"verb",ko:"단순화하다",def:"to make something easier or less complex",ex:"Let's simplify this and <b>streamline</b> the process.",pair:"= streamline",g:2},
+ {w:"evade",pos:"verb",ko:"회피하다",def:"to avoid dealing with something directly",ex:"Don't evade it — stop <b>beating around the bush</b>.",pair:"= beat around the bush",g:2},
+ {w:"rush",pos:"verb",ko:"서두르다",def:"to act too quickly, without enough thought",ex:"Don't rush it — don't <b>jump the gun</b>.",pair:"= jump the gun",g:2},
+ {w:"defer",pos:"verb",ko:"미루다, 연기하다",def:"to put something off until later",ex:"Let's defer it — <b>put</b> it <b>on the back burner</b>.",pair:"= put on the back burner",g:2},
+ // group 3 — words that build sentences with the expressions
+ {w:"transparent",pos:"adj",ko:"투명한, 솔직한",def:"open and honest, hiding nothing",ex:"To stay transparent, let me <b>run it by you</b> first.",pair:"run it by you",g:3},
+ {w:"optimistic",pos:"adj",ko:"낙관적인",def:"expecting good outcomes",ex:"His numbers are optimistic, so <b>take it with a grain of salt</b>.",pair:"take it with a grain of salt",g:3},
+ {w:"temporarily",pos:"adv",ko:"일시적으로",def:"for a limited time only",ex:"I'll temporarily <b>fill in for</b> Peter next week.",pair:"fill in for",g:3},
+ {w:"swamped",pos:"adj",ko:"정신없이 바쁜",def:"overwhelmed with too much work",ex:"I've been too swamped to <b>get around to</b> the report.",pair:"get around to",g:3},
+ {w:"reliability",pos:"noun",ko:"신뢰성",def:"how dependable or consistent something is",ex:"In the end it all <b>boils down to</b> cost versus reliability.",pair:"boil down to",g:3},
+ {w:"reputation",pos:"noun",ko:"평판",def:"the general opinion people have of someone",ex:"I <b>draw the line</b> at anything that risks our reputation.",pair:"draw the line",g:3},
+ {w:"commitment",pos:"noun",ko:"약속, 헌신",def:"a promise or dedication to do something",ex:"He made the commitment but then <b>got cold feet</b>.",pair:"get cold feet",g:3},
+ {w:"proactive",pos:"adj",ko:"주도적인, 선제적인",def:"acting in advance rather than just reacting",ex:"She's proactive and very <b>hands-on</b>.",pair:"hands-on",g:3},
+ {w:"straightforward",pos:"adj",ko:"단도직입적인, 명료한",def:"honest and direct; easy to understand",ex:"A straightforward proposal helped us <b>get the green light</b>.",pair:"get the green light",g:3},
+ {w:"backup",pos:"noun",ko:"예비, 대비책",def:"an extra copy or plan kept in reserve",ex:"Keep a backup — it might <b>come in handy</b>.",pair:"come in handy",g:3},
+];
+
+let mode="flash", scope="all", pool=[], idx=0, score=0;
+const $=id=>document.getElementById(id);
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function curData(){ return scope==="all"?WORDS:WORDS.filter(d=>d.g===({g1:1,g2:2,g3:3}[scope])); }
+function setMode(m){ mode=m; document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.m===m)); start(); }
+function setScope(s){ scope=s; document.querySelectorAll('.scope button').forEach(b=>b.classList.toggle('on',b.dataset.s===s)); start(); }
+function start(){ pool=shuffle(curData()); idx=0; score=0; mode==="match"?renderMatch():renderFlash(); }
+
+// ===== FLASHCARD =====
+let flipped=false;
+function renderFlash(){
+  const it=pool[idx]; flipped=false;
+  $("main").innerHTML=`<div class="counter">${idx+1} / ${pool.length}</div>
+    <div class="bar"><div class="barfill" style="width:${(idx+1)/pool.length*100}%"></div></div>
+    <div class="flash">
+      <div class="fcard" id="fc" onclick="flipCard()">
+        <div class="fface ffront">
+          <div class="word">${it.w}</div><div class="pos">${it.pos}</div>
+          <div class="taptohint">탭하면 뜻과 예문이 나와요</div>
+        </div>
+        <div class="fface fback">
+          <div class="bk-word">${it.w}</div>
+          <div class="bk-ko">${it.ko}</div>
+          <div class="bk-label">DEFINITION</div>
+          <div class="bk-def">${it.def}</div>
+          <div class="bk-label">EXAMPLE</div>
+          <div class="bk-ex">${it.ex}</div>
+          <div class="pair">관련 표현 · <b>${it.pair}</b></div>
+        </div>
+      </div>
+    </div>
+    <div class="row2">
+      <button class="btn ghost" onclick="prevFlash()">◀ 이전</button>
+      <button class="btn" onclick="nextFlash()">${idx+1>=pool.length?"처음으로 ▶":"다음 ▶"}</button>
+    </div>`;
+}
+function flipCard(){ flipped=!flipped; $("fc").classList.toggle("flip",flipped); }
+function nextFlash(){ idx++; if(idx>=pool.length) idx=0; renderFlash(); }
+function prevFlash(){ idx--; if(idx<0) idx=pool.length-1; renderFlash(); }
+
+// ===== MATCHING =====
+let mBatch=[], mLeft=[], mRight=[], mSel=null, mDone=0;
+function renderMatch(){
+  const batch=Math.min(5,pool.length);
+  mBatch=pool.slice(idx,idx+batch);
+  if(mBatch.length===0){ return renderResult(); }
+  mLeft=shuffle(mBatch); mRight=shuffle(mBatch); mSel=null; mDone=0;
+  let lh="",rh="";
+  mLeft.forEach((d,i)=>{ lh+=`<div class="mitem" id="L${i}" onclick="pickL(${i})">${d.w}</div>`; });
+  mRight.forEach((d,i)=>{ rh+=`<div class="mitem" id="R${i}" onclick="pickR(${i})">${d.ko}</div>`; });
+  $("main").innerHTML=`<div class="counter">${Math.min(idx+batch,pool.length)} / ${pool.length}</div>
+    <div class="bar"><div class="barfill" style="width:${idx/pool.length*100}%"></div></div>
+    <div class="qmeta">단어와 뜻을 짝지어 보세요</div>
+    <div class="matchwrap"><div class="mcol">${lh}</div><div class="mcol">${rh}</div></div>
+    <div class="fb" id="fb"></div>`;
+}
+function pickL(i){ if($("L"+i).classList.contains("done"))return;
+  document.querySelectorAll('.mcol .mitem').forEach(m=>{ if(m.id[0]==="L")m.classList.remove("sel"); });
+  $("L"+i).classList.add("sel"); mSel={i,w:mLeft[i].w}; }
+function pickR(i){ if($("R"+i).classList.contains("done"))return;
+  if(mSel==null){ return; }
+  if(mLeft[mSel.i].w===mRight[i].w){
+    $("L"+mSel.i).classList.add("done"); $("R"+i).classList.add("done"); $("L"+mSel.i).classList.remove("sel");
+    mSel=null; mDone++;
+    if(mDone===mBatch.length){ idx+=mBatch.length;
+      $("fb").className="fb ok"; $("fb").textContent="다 맞혔어요! 🎉";
+      setTimeout(()=>{ idx>=pool.length?renderResult():renderMatch(); },700);
+    }
+  } else {
+    const l=$("L"+mSel.i), r=$("R"+i); l.classList.add("shake"); r.classList.add("shake");
+    setTimeout(()=>{ l.classList.remove("shake","sel"); r.classList.remove("shake"); },350); mSel=null;
+  }
+}
+function renderResult(){
+  $("main").innerHTML=`<div class="result"><div class="big">🎉</div>
+    <div class="msg">전부 짝지었어요! 잘하셨어요.</div>
+    <button class="btn" style="max-width:200px;margin:0 auto" onclick="start()">🔄 다시 하기</button></div>`;
+}
+
+start();
+</script>
+</body>
+</html>

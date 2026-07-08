@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sungmin · Class 3 복습</title>
+<style>
+  :root{
+    --navy:#1A2E4C; --navy2:#22395B; --line:#3A557E;
+    --gold:#C9A432; --cream:#F3EAD0; --sub:#AEB9CC; --white:#FFFFFF;
+    --good:#3FA66A; --bad:#C5544A;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Pretendard','Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+    background:var(--navy); color:var(--white);
+    min-height:100vh; padding:20px 16px 60px;
+  }
+  .wrap{max-width:640px;margin:0 auto;}
+  header{text-align:center;padding:8px 0 18px;border-bottom:1px solid var(--gold);margin-bottom:18px;}
+  header .kicker{color:var(--gold);font-size:13px;letter-spacing:3px;font-weight:700;}
+  header h1{font-size:22px;margin-top:6px;}
+  header p{color:var(--sub);font-size:13px;margin-top:6px;}
+  .tabs{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;justify-content:center;}
+  .tab{
+    flex:1;min-width:70px;padding:11px 6px;border:1px solid var(--line);
+    background:var(--navy2);color:var(--sub);border-radius:10px;
+    font-size:14px;font-weight:600;cursor:pointer;text-align:center;transition:.15s;
+  }
+  .tab.active{background:var(--gold);color:var(--navy);border-color:var(--gold);}
+  .panel{display:none;}
+  .panel.active{display:block;}
+  .card{
+    background:var(--navy2);border:1px solid var(--line);border-radius:14px;
+    padding:20px;margin-bottom:14px;
+  }
+  .meaning{color:var(--cream);font-size:18px;font-weight:700;margin-bottom:6px;}
+  .ex{color:var(--sub);font-size:14px;line-height:1.6;margin-bottom:14px;}
+  .ex b{color:var(--white);}
+  input[type=text]{
+    width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);
+    background:var(--navy);color:var(--white);font-size:16px;outline:none;
+  }
+  input[type=text]:focus{border-color:var(--gold);}
+  .row{display:flex;gap:8px;margin-top:12px;align-items:center;}
+  button.act{
+    background:var(--gold);color:var(--navy);border:none;border-radius:10px;
+    padding:12px 18px;font-size:15px;font-weight:700;cursor:pointer;
+  }
+  button.ghost{
+    background:transparent;color:var(--sub);border:1px solid var(--line);
+    border-radius:10px;padding:12px 16px;font-size:14px;cursor:pointer;
+  }
+  .fb{font-size:14px;font-weight:700;min-height:20px;}
+  .fb.ok{color:var(--good);} .fb.no{color:var(--bad);}
+  .prog{color:var(--sub);font-size:13px;text-align:center;margin-bottom:12px;}
+  /* matching */
+  .matchcols{display:flex;gap:10px;}
+  .mcol{flex:1;display:flex;flex-direction:column;gap:8px;}
+  .chip{
+    padding:13px 10px;border-radius:10px;border:1px solid var(--line);
+    background:var(--navy2);font-size:14px;cursor:pointer;text-align:center;transition:.12s;
+  }
+  .chip.sel{border-color:var(--gold);background:#2c466e;}
+  .chip.done{opacity:.35;pointer-events:none;border-color:var(--good);}
+  .chip.en{font-weight:700;}
+  /* flashcard */
+  .flash{
+    perspective:1000px;height:230px;margin-bottom:14px;cursor:pointer;
+  }
+  .flinner{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d;}
+  .flash.flip .flinner{transform:rotateY(180deg);}
+  .fside{
+    position:absolute;width:100%;height:100%;backface-visibility:hidden;
+    background:var(--navy2);border:1px solid var(--line);border-radius:16px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;
+  }
+  .fside.back{transform:rotateY(180deg);}
+  .fside .big{font-size:24px;font-weight:800;color:var(--cream);}
+  .fside .small{font-size:15px;color:var(--sub);margin-top:14px;line-height:1.6;}
+  .navbtns{display:flex;justify-content:space-between;gap:10px;}
+  .opt{
+    display:block;width:100%;text-align:left;padding:14px 16px;margin-bottom:10px;
+    border-radius:10px;border:1px solid var(--line);background:var(--navy2);
+    color:var(--white);font-size:15px;font-weight:600;cursor:pointer;transition:.12s;
+  }
+  .opt.ok{border-color:var(--good);background:#1f4533;}
+  .opt.no{border-color:var(--bad);background:#45221f;}
+  .score{text-align:center;color:var(--gold);font-weight:700;font-size:16px;margin-top:8px;}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:24px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">CLASS 3 · 복습</div>
+    <h1>What Made You Choose Special Education — 표현 10</h1>
+    <p>Do English with Brian</p>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" data-p="blank">빈칸</div>
+    <div class="tab" data-p="match">매칭</div>
+    <div class="tab" data-p="card">카드</div>
+    <div class="tab" data-p="mc">객관식</div>
+  </div>
+
+  <div id="blank" class="panel active"></div>
+  <div id="match" class="panel"></div>
+  <div id="card" class="panel"></div>
+  <div id="mc" class="panel"></div>
+
+  <footer>천천히, 소리 내어 — 맞히며 외우기.</footer>
+</div>
+
+<script>
+const DATA = [
+  {en:"what got me into", ko:"~을 시작하게 된 계기는", ex:"What got me into teaching was a documentary I saw in college."},
+  {en:"decide to",        ko:"~하기로 결심하다",        ex:"That experience helped me decide to become a special ed teacher."},
+  {en:"be drawn to",      ko:"~에 끌리다, 마음이 가다",  ex:"It's easy to be drawn to this kind of meaningful work."},
+  {en:"work with",        ko:"~와 함께 일하다, 상대하다", ex:"Every day I work with kids who need extra support."},
+  {en:"deal with",        ko:"(어려움을) 다루다, 감당하다", ex:"Some days I deal with really tough situations."},
+  {en:"figure out",       ko:"알아내다, 해결책을 찾다",   ex:"It takes time to figure out what each student needs."},
+  {en:"grow as",          ko:"~로서 성장하다",           ex:"I've really learned to grow as a teacher over the years."},
+  {en:"rewarding",        ko:"보람 있는",               ex:"It's hard work, but it's incredibly rewarding."},
+  {en:"no matter what",   ko:"무슨 일이 있어도",         ex:"I show up for my students no matter what."},
+  {en:"at the end of the day", ko:"결국, 무엇보다 중요한 건", ex:"At the end of the day, what matters most is helping them grow."},
+];
+
+function $(id){return document.getElementById(id);}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+function norm(s){return s.toLowerCase().replace(/[.,!?]/g,'').replace(/\s+/g,' ').trim();}
+
+/* tabs */
+document.querySelectorAll('.tab').forEach(t=>{
+  t.onclick=()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active'); $(t.dataset.p).classList.add('active');
+  };
+});
+
+/* ---------- 빈칸 ---------- */
+(function(){
+  const order = shuffle(DATA.map((_,i)=>i));
+  let pos=0, right=0;
+  const root=$('blank');
+  function render(){
+    if(pos>=order.length){
+      root.innerHTML=`<div class="card"><div class="score">완료! ${right} / ${order.length} 정답</div>
+      <div class="row"><button class="act" onclick="location.reload()">다시</button></div></div>`;
+      return;
+    }
+    const d=DATA[order[pos]];
+    const blanked=d.ex.replace(new RegExp(d.en.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'i'),'_______');
+    root.innerHTML=`
+      <div class="prog">${pos+1} / ${order.length}</div>
+      <div class="card">
+        <div class="meaning">${d.ko}</div>
+        <div class="ex">${blanked}</div>
+        <input id="bin" type="text" placeholder="빈칸에 들어갈 표현을 입력" autocomplete="off">
+        <div class="row"><button class="act" id="bchk">확인</button>
+          <button class="ghost" id="bskip">모르겠어요</button></div>
+        <div class="fb" id="bfb"></div>
+      </div>`;
+    const inp=$('bin');
+    inp.focus();
+    inp.addEventListener('keydown',e=>{if(e.key==='Enter')check();});
+    $('bchk').onclick=check; $('bskip').onclick=reveal;
+    function check(){
+      if(norm(inp.value)===norm(d.en)){ right++; $('bfb').className='fb ok'; $('bfb').textContent='정답! '+d.en;
+        setTimeout(()=>{pos++;render();},800);
+      } else { $('bfb').className='fb no'; $('bfb').textContent='다시 — 힌트: '+d.ko; }
+    }
+    function reveal(){ $('bfb').className='fb no'; $('bfb').textContent='정답: '+d.en;
+      setTimeout(()=>{pos++;render();},1100); }
+  }
+  render();
+})();
+
+/* ---------- 매칭 ---------- */
+(function(){
+  const root=$('match');
+  const ens=shuffle(DATA.map((d,i)=>({...d,i})));
+  const kos=shuffle(DATA.map((d,i)=>({...d,i})));
+  let sel=null, done=0;
+  root.innerHTML=`<div class="prog" id="mprog">짝을 맞춰 보세요 · 0 / ${DATA.length}</div>
+    <div class="matchcols">
+      <div class="mcol" id="menc"></div>
+      <div class="mcol" id="mkoc"></div>
+    </div>`;
+  const enc=$('menc'), koc=$('mkoc');
+  ens.forEach(d=>{const c=document.createElement('div');c.className='chip en';c.textContent=d.en;c.dataset.i=d.i;c.dataset.t='en';c.onclick=()=>pick(c);enc.appendChild(c);});
+  kos.forEach(d=>{const c=document.createElement('div');c.className='chip';c.textContent=d.ko;c.dataset.i=d.i;c.dataset.t='ko';c.onclick=()=>pick(c);koc.appendChild(c);});
+  function pick(c){
+    if(!sel){ sel=c; c.classList.add('sel'); return; }
+    if(sel===c){ c.classList.remove('sel'); sel=null; return; }
+    if(sel.dataset.t===c.dataset.t){ sel.classList.remove('sel'); sel=c; c.classList.add('sel'); return; }
+    if(sel.dataset.i===c.dataset.i){
+      sel.classList.add('done'); c.classList.add('done'); sel.classList.remove('sel');
+      done++; $('mprog').textContent=`짝을 맞춰 보세요 · ${done} / ${DATA.length}`;
+      sel=null;
+      if(done===DATA.length){ $('mprog').innerHTML=`<span style="color:var(--gold);font-weight:700">완료! 전부 맞췄어요 🎉</span>`; }
+    } else {
+      const a=sel,b=c; a.classList.add('no'); b.classList.add('no');
+      setTimeout(()=>{a.classList.remove('no','sel');b.classList.remove('no');},500); sel=null;
+    }
+  }
+})();
+/* small style for wrong match */
+const st=document.createElement('style');st.textContent='.chip.no{border-color:var(--bad);background:#45221f;}';document.head.appendChild(st);
+
+/* ---------- 카드 ---------- */
+(function(){
+  const root=$('card');
+  let pos=0, flipped=false;
+  const order=shuffle(DATA.map((_,i)=>i));
+  function render(){
+    const d=DATA[order[pos]];
+    root.innerHTML=`
+      <div class="prog">${pos+1} / ${order.length} · 카드를 눌러 뒤집기</div>
+      <div class="flash" id="fl">
+        <div class="flinner">
+          <div class="fside front"><div class="big">${d.en}</div></div>
+          <div class="fside back"><div class="big">${d.ko}</div><div class="small">${d.ex}</div></div>
+        </div>
+      </div>
+      <div class="navbtns">
+        <button class="ghost" id="prev">◀ 이전</button>
+        <button class="act" id="next">다음 ▶</button>
+      </div>`;
+    flipped=false;
+    $('fl').onclick=()=>{flipped=!flipped;$('fl').classList.toggle('flip',flipped);};
+    $('prev').onclick=()=>{pos=(pos-1+order.length)%order.length;render();};
+    $('next').onclick=()=>{pos=(pos+1)%order.length;render();};
+  }
+  render();
+})();
+
+/* ---------- 객관식 ---------- */
+(function(){
+  const root=$('mc');
+  const order=shuffle(DATA.map((_,i)=>i));
+  let pos=0, right=0;
+  function render(){
+    if(pos>=order.length){
+      root.innerHTML=`<div class="card"><div class="score">완료! ${right} / ${order.length} 정답</div>
+      <div class="row"><button class="act" onclick="location.reload()">다시</button></div></div>`;
+      return;
+    }
+    const d=DATA[order[pos]];
+    const wrongs=shuffle(DATA.filter(x=>x.en!==d.en)).slice(0,3);
+    const opts=shuffle([d,...wrongs]);
+    root.innerHTML=`<div class="prog">${pos+1} / ${order.length}</div>
+      <div class="card"><div class="meaning">${d.ko}</div>
+      <div class="ex">알맞은 표현을 고르세요.</div>
+      <div id="opts"></div><div class="fb" id="mcfb"></div></div>`;
+    const box=$('opts');
+    opts.forEach(o=>{
+      const b=document.createElement('button');b.className='opt';b.textContent=o.en;
+      b.onclick=()=>{
+        document.querySelectorAll('.opt').forEach(x=>x.style.pointerEvents='none');
+        if(o.en===d.en){ b.classList.add('ok'); right++; $('mcfb').className='fb ok'; $('mcfb').textContent='정답!'; }
+        else{ b.classList.add('no'); $('mcfb').className='fb no'; $('mcfb').textContent='정답: '+d.en;
+          [...box.children].forEach(c=>{if(c.textContent===d.en)c.classList.add('ok');}); }
+        setTimeout(()=>{pos++;render();},900);
+      };
+      box.appendChild(b);
+    });
+  }
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Seoul Bloom — Frank's Mission · Class 4</title>
+<style>
+  :root{
+    --navy:#0E2038; --navy2:#0A1828; --card:#16283f; --gold:#E7B43D; --gold2:#C9A432;
+    --ink:#F4F7FC; --sub:#9DB0CC; --good:#3FD08A; --bad:#FF6B6B; --line:rgba(231,180,61,.25);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#06101e;color:var(--ink);display:flex;justify-content:center;overscroll-behavior:none;}
+  #app{width:100%;max-width:440px;min-height:100vh;position:relative;overflow:hidden;display:flex;flex-direction:column;
+    background:radial-gradient(120% 60% at 50% 0%,#122a48 0%,#0b1a2e 45%,#06101e 100%);}
+
+  /* HUD */
+  .hud{padding:14px 16px 8px;}
+  .hudtop{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:9px;}
+  .brand{font-size:12px;letter-spacing:2px;color:var(--gold);font-weight:800;}
+  .brand small{display:block;font-size:9px;letter-spacing:1px;color:var(--sub);font-weight:600;margin-top:2px;}
+  .combo{min-width:52px;text-align:center;padding:5px 9px;border-radius:11px;
+    background:rgba(231,180,61,.10);border:1px solid var(--line);transition:.15s;}
+  .combo .n{font-size:18px;font-weight:900;color:var(--gold);line-height:1;}
+  .combo .l{font-size:8px;letter-spacing:1px;color:var(--sub);}
+  .combo.pulse{transform:scale(1.2);background:rgba(231,180,61,.30);box-shadow:0 0 18px rgba(231,180,61,.55);}
+
+  .satrow{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;}
+  .satrow .nm{font-size:12px;font-weight:800;color:var(--ink);}
+  .satrow .nm b{color:var(--gold);}
+  .satrow .pct{font-size:13px;font-weight:900;}
+  .gauge{height:13px;border-radius:8px;background:rgba(255,255,255,.07);overflow:hidden;border:1px solid rgba(255,255,255,.06);position:relative;}
+  .gfill{height:100%;width:100%;border-radius:8px;transition:width .55s cubic-bezier(.2,.8,.2,1),background .4s;}
+  .gfill.flash{animation:gflash .5s;}
+  @keyframes gflash{0%,100%{filter:brightness(1);}40%{filter:brightness(1.7);}}
+
+  .dots{display:flex;gap:5px;margin-top:9px;justify-content:center;}
+  .dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.15);transition:.2s;}
+  .dot.done{background:var(--gold);box-shadow:0 0 8px var(--gold);}
+
+  /* garden */
+  .garden{height:64px;margin:2px 12px 0;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(231,180,61,.05));
+    border:1px solid rgba(255,255,255,.05);display:flex;align-items:flex-end;justify-content:center;gap:2px;
+    flex-wrap:wrap;padding:4px 8px;overflow:hidden;position:relative;}
+  .garden .empty{font-size:10px;color:var(--sub);letter-spacing:1px;align-self:center;}
+  .flower{animation:bloom .5s cubic-bezier(.2,1.4,.4,1);transform-origin:bottom center;}
+  @keyframes bloom{0%{transform:scale(0) translateY(6px);opacity:0;}60%{transform:scale(1.15);}100%{transform:scale(1);opacity:1;}}
+  .burst{position:absolute;pointer-events:none;}
+  .spark{position:absolute;width:6px;height:6px;border-radius:50%;animation:spark .6s ease-out forwards;}
+  @keyframes spark{0%{opacity:1;transform:translate(0,0) scale(1);}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.3);}}
+
+  /* timer */
+  .timerwrap{margin:8px 16px 0;height:6px;border-radius:6px;background:rgba(255,255,255,.06);overflow:hidden;}
+  .timerbar{height:100%;width:100%;border-radius:6px;background:linear-gradient(90deg,var(--good),var(--gold));transition:width .1s linear;}
+  .timerbar.low{background:linear-gradient(90deg,var(--bad),#ff9d6b);}
+
+  /* scene */
+  .scene{flex:1;padding:12px 16px 0;display:flex;flex-direction:column;overflow-y:auto;}
+  .situ{font-size:11px;letter-spacing:1.5px;color:var(--gold);font-weight:800;text-transform:uppercase;margin:2px 2px 12px;}
+  .bubble{max-width:90%;padding:12px 15px;border-radius:16px;font-size:15px;line-height:1.45;margin-bottom:14px;animation:pop .25s ease;}
+  .npc{align-self:flex-start;background:#1b3050;border:1px solid rgba(255,255,255,.08);border-bottom-left-radius:5px;}
+  .npc .who{font-size:11px;color:#7CC6FF;font-weight:800;margin-bottom:3px;letter-spacing:.5px;}
+  .frank{align-self:flex-end;background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;border-bottom-right-radius:5px;font-weight:600;}
+  .frank .who{font-size:10px;color:#5a4410;font-weight:800;margin-bottom:2px;}
+  @keyframes pop{from{opacity:0;transform:translateY(8px) scale(.98);}to{opacity:1;transform:none;}}
+
+  .chips{display:flex;flex-direction:column;gap:10px;padding-bottom:16px;margin-top:2px;}
+  .chip{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:15px 16px;border-radius:14px;
+    background:#13263f;border:1px solid rgba(255,255,255,.10);color:var(--ink);cursor:pointer;transition:.12s;}
+  .chip:active{transform:scale(.98);}
+  .chip .en{font-size:17px;font-weight:800;}
+  .chip .ko{font-size:12px;color:var(--sub);font-weight:500;}
+  .chip.correct{background:rgba(63,208,138,.18);border-color:var(--good);box-shadow:0 0 16px rgba(63,208,138,.35);}
+  .chip.wrong{background:rgba(255,107,107,.15);border-color:var(--bad);animation:shake .35s;}
+  .chip.dim{opacity:.35;}
+  @keyframes shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-7px);}75%{transform:translateX(7px);}}
+
+  .float{position:absolute;font-size:20px;font-weight:900;pointer-events:none;animation:rise 1s ease forwards;text-shadow:0 0 10px rgba(0,0,0,.4);z-index:8;}
+  @keyframes rise{0%{opacity:0;transform:translateY(6px) scale(.8);}25%{opacity:1;}100%{opacity:0;transform:translateY(-42px) scale(1.15);}}
+
+  /* screens */
+  .screen{position:absolute;inset:0;background:radial-gradient(120% 70% at 50% 25%,#15314f,#08182b 70%,#06101e);
+    display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:26px;z-index:10;animation:fade .35s;overflow-y:auto;}
+  @keyframes fade{from{opacity:0;}to{opacity:1;}}
+  .screen .kick{font-size:13px;letter-spacing:3px;color:var(--gold);font-weight:800;margin-bottom:8px;}
+  .screen h1{font-size:32px;font-weight:900;margin-bottom:12px;line-height:1.12;}
+  .screen p{font-size:14.5px;color:var(--sub);line-height:1.6;max-width:330px;margin-bottom:8px;}
+  .tags{margin:10px 0 4px;}
+  .tag{display:inline-block;font-size:11px;padding:4px 11px;border-radius:20px;background:rgba(231,180,61,.14);
+    border:1px solid var(--line);color:var(--gold);margin:3px;font-weight:700;}
+  .btn{margin-top:20px;padding:15px 42px;border-radius:14px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;font-size:17px;font-weight:900;letter-spacing:.5px;}
+  .btn:active{transform:scale(.97);}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--gold);margin-top:12px;font-weight:700;padding:12px 30px;font-size:14px;}
+  .rank{font-size:44px;font-weight:900;background:linear-gradient(135deg,#e7b43d,#fff2c8,#caa233);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin:4px 0;}
+  .statgrid{display:flex;gap:24px;margin:12px 0 6px;}
+  .stat .v{font-size:26px;font-weight:900;color:var(--gold);}
+  .stat .k{font-size:10px;letter-spacing:1px;color:var(--sub);margin-top:2px;}
+  .recap{width:100%;max-width:340px;margin-top:6px;}
+  .recap .r{display:flex;justify-content:space-between;text-align:left;padding:8px 12px;margin:5px 0;border-radius:9px;
+    background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);font-size:13px;}
+  .recap .r b{color:var(--gold);}
+  .recap .r span{color:var(--sub);}
+  .mute{position:absolute;top:12px;right:14px;background:rgba(255,255,255,.06);border:1px solid var(--line);
+    color:var(--gold);width:34px;height:32px;border-radius:9px;font-size:12px;font-weight:800;cursor:pointer;z-index:12;}
+  .hidden{display:none !important;}
+</style>
+</head>
+<body>
+<div id="app">
+  <button class="mute" id="bgmBtn" onclick="toggleBgm()" style="right:54px;">BGM</button>
+  <button class="mute" id="mute" onclick="toggleMute()">SFX</button>
+
+  <!-- START -->
+  <div id="start" class="screen">
+    <div class="kick">SEOUL BLOOM · FRANK'S MISSION</div>
+    <h1>고객 만족도를<br>지켜라</h1>
+    <p>상황을 보고 <b style="color:var(--gold)">알맞은 표현</b>을 빠르게 고르세요. 시간 안에 정답을 이어가면 콤보가 쌓이고 꽃이 핍니다. 늦거나 틀리면 만족도가 떨어져요 — 하지만 잘 풀면 다시 채울 수 있어요.</p>
+    <div class="tags">
+      <span class="tag">Following Up</span><span class="tag">Pitching</span>
+      <span class="tag">Handling Problems</span><span class="tag">Closing</span>
+    </div>
+    <button class="btn" onclick="startGame()">▶  START MISSION</button>
+  </div>
+
+  <!-- GAME -->
+  <div id="game" class="hidden">
+    <div class="hud">
+      <div class="hudtop">
+        <div class="brand">SEOUL BLOOM<small id="stageName">STAGE 1 · FOLLOWING UP</small></div>
+        <div class="combo" id="comboBox"><div class="n" id="comboN">×1</div><div class="l">COMBO</div></div>
+      </div>
+      <div class="satrow">
+        <div class="nm">고객 <b>만족도</b></div>
+        <div class="pct" id="satPct">100%</div>
+      </div>
+      <div class="gauge"><div class="gfill" id="gFill"></div></div>
+      <div class="dots" id="dots"></div>
+    </div>
+    <div class="garden" id="garden"><span class="empty">꽃밭 — 콤보를 이어가면 꽃이 핍니다</span></div>
+    <div class="timerwrap"><div class="timerbar" id="timerBar"></div></div>
+    <div class="scene" id="scene"></div>
+  </div>
+
+  <!-- INTERSTITIAL -->
+  <div id="inter" class="screen hidden">
+    <div class="kick" id="iKick"></div>
+    <h1 id="iTitle"></h1>
+    <p id="iDesc"></p>
+    <div class="tags" id="iTags"></div>
+    <button class="btn" id="iBtn" onclick="nextStage()">▶  NEXT STAGE</button>
+  </div>
+
+  <!-- END -->
+  <div id="end" class="screen hidden">
+    <div class="kick">MISSION COMPLETE</div>
+    <div class="rank" id="eRank">CLOSER</div>
+    <p id="eMsg"></p>
+    <div class="statgrid">
+      <div class="stat"><div class="v" id="eSat">100%</div><div class="k">SATISFACTION</div></div>
+      <div class="stat"><div class="v" id="eCombo">×5</div><div class="k">BEST COMBO</div></div>
+      <div class="stat"><div class="v" id="eFlower">0</div><div class="k">FLOWERS</div></div>
+    </div>
+    <button class="btn ghost" onclick="toggleRecap()">표현 10개 다시 보기</button>
+    <div class="recap hidden" id="recap"></div>
+    <button class="btn" onclick="resetGame()">↻  PLAY AGAIN</button>
+  </div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+
+// ---------- expression pool (short chunks) ----------
+const KO={
+ "follow up on":"후속 조치를 하다","touch base":"간단히 연락하다","shoot you an email":"이메일을 보내다",
+ "stand out":"돋보이다","a game changer":"판도를 바꾸는 것","cater to":"~에 맞추다",
+ "sort out":"해결하다","on top of it":"잘 챙기고 있다","lock in":"확정하다","move forward with":"진행하다"
+};
+const ALL=Object.keys(KO);
+
+// ---------- stages / beats ----------
+// beat: {situ, who, npc, ans, wrongs[2], full}
+const STAGES=[
+ { title:"Following Up", kick:"STAGE 1", name:"STAGE 1 · FOLLOWING UP",
+   desc:"바이어와의 관계를 이어가는 후속 연락 상황.",
+   exprs:["follow up on","touch base","shoot you an email"],
+   beats:[
+    {situ:"Following Up", who:"BUYER", npc:"\"Great call. Can you send the sample details?\"",
+     ans:"follow up on", wrongs:["stand out","lock in"], full:"I'll follow up on the samples we discussed."},
+    {situ:"Following Up", who:"BUYER", npc:"\"Haven't heard from you in a while.\"",
+     ans:"touch base", wrongs:["cater to","sort out"], full:"I just wanted to touch base before the weekend."},
+    {situ:"Following Up", who:"BUYER", npc:"\"Can you send me the full price list?\"",
+     ans:"shoot you an email", wrongs:["move forward with","on top of it"], full:"Sure, I'll shoot you an email with the catalog."},
+    {situ:"Following Up", who:"BUYER", npc:"\"Did you check on my last request?\"",
+     ans:"follow up on", wrongs:["a game changer","touch base"], full:"Yes, I followed up on it this morning."},
+   ]},
+ { title:"Pitching a Product", kick:"STAGE 2", name:"STAGE 2 · PITCHING",
+   desc:"제품을 어필해 바이어의 마음을 얻는 상황.",
+   exprs:["stand out","a game changer","cater to"],
+   beats:[
+    {situ:"Pitching", who:"BUYER", npc:"\"Why should I pick your line?\"",
+     ans:"stand out", wrongs:["follow up on","on top of it"], full:"Our packaging really stands out on the shelf."},
+    {situ:"Pitching", who:"BUYER", npc:"\"What's special about this serum?\"",
+     ans:"a game changer", wrongs:["touch base","lock in"], full:"This serum has been a real game changer."},
+    {situ:"Pitching", who:"BUYER", npc:"\"Who is this product for?\"",
+     ans:"cater to", wrongs:["sort out","shoot you an email"], full:"It caters to customers with sensitive skin."},
+    {situ:"Pitching", who:"BUYER", npc:"\"Convince me it's worth the shelf space.\"",
+     ans:"a game changer", wrongs:["follow up on","move forward with"], full:"Trust me — it's a game changer for your store."},
+   ]},
+ { title:"Handling Problems", kick:"STAGE 3", name:"STAGE 3 · HANDLING PROBLEMS",
+   desc:"문제가 터졌을 때 침착하게 대응하는 상황.",
+   exprs:["sort out","on top of it"],
+   beats:[
+    {situ:"Handling Problems", who:"BUYER", npc:"\"The shipment is delayed. This is a problem.\"",
+     ans:"sort out", wrongs:["stand out","touch base"], full:"Don't worry — we'll sort out the delay right away."},
+    {situ:"Handling Problems", who:"BUYER", npc:"\"Are you even handling this?\"",
+     ans:"on top of it", wrongs:["a game changer","lock in"], full:"Absolutely — my team is on top of it."},
+    {situ:"Handling Problems", who:"BUYER", npc:"\"Customs is holding my order.\"",
+     ans:"sort out", wrongs:["cater to","follow up on"], full:"Give me a day and I'll sort it out."},
+    {situ:"Handling Problems", who:"BUYER", npc:"\"I need daily updates until this is fixed.\"",
+     ans:"on top of it", wrongs:["move forward with","stand out"], full:"Understood — we're on top of it."},
+   ]},
+ { title:"Closing the Deal", kick:"STAGE 4", name:"STAGE 4 · CLOSING",
+   desc:"거래를 확정하고 마무리 짓는 상황.",
+   exprs:["lock in","move forward with"],
+   beats:[
+    {situ:"Closing", who:"BUYER", npc:"\"Prices keep changing. I want certainty.\"",
+     ans:"lock in", wrongs:["touch base","cater to"], full:"Let's lock in the price before month-end."},
+    {situ:"Closing", who:"BUYER", npc:"\"Okay, I'm convinced.\"",
+     ans:"move forward with", wrongs:["sort out","a game changer"], full:"Great — let's move forward with the order."},
+    {situ:"Closing", who:"BUYER", npc:"\"Can you hold this quantity for me?\"",
+     ans:"lock in", wrongs:["follow up on","stand out"], full:"Sure — let's lock in the quantity today."},
+    {situ:"Closing", who:"BUYER", npc:"\"Send the contract and let's go.\"",
+     ans:"move forward with", wrongs:["on top of it","touch base"], full:"Perfect — we'll move forward with it now."},
+   ]},
+];
+
+// ---------- state ----------
+let st=0, beatIdx=0, sat=100, combo=0, bestCombo=0, flowers=0, totalBeats=16;
+const TIME=8000; let timer=null, tLeft=TIME, missedThisBeat=false, answered=false;
+
+function resetState(){ st=0;beatIdx=0;sat=100;combo=0;bestCombo=0;flowers=0;
+  $("garden").innerHTML='<span class="empty">꽃밭 — 콤보를 이어가면 꽃이 핍니다</span>'; }
+
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+// ---------- flow ----------
+function startGame(){ audioInit(); startBgm(); resetState(); $("start").classList.add("hidden");
+  $("game").classList.remove("hidden"); buildDots(); startStage(); }
+function buildDots(){ let h="";for(let i=0;i<STAGES[st].beats.length;i++)h+=`<span class="dot" id="dot${i}"></span>`;$("dots").innerHTML=h; }
+function startStage(){ beatIdx=0; buildDots(); $("stageName").textContent=STAGES[st].name; updateSat(false); renderBeat(); }
+
+function renderBeat(){
+  answered=false; missedThisBeat=false;
+  const b=STAGES[st].beats[beatIdx];
+  const sc=$("scene"); sc.innerHTML="";
+  const tag=document.createElement("div"); tag.className="situ"; tag.textContent="STAGE "+(st+1)+" · "+b.situ; sc.appendChild(tag);
+  const bub=document.createElement("div"); bub.className="bubble npc"; bub.innerHTML=`<div class="who">${b.who}</div>${b.npc}`; sc.appendChild(bub);
+  const chips=document.createElement("div"); chips.className="chips";
+  const opts=shuffle([{t:b.ans,ok:true},{t:b.wrongs[0],ok:false},{t:b.wrongs[1],ok:false}]);
+  opts.forEach((o,i)=>{
+    const c=document.createElement("button"); c.className="chip"; c.id="chip"+i;
+    c.innerHTML=`<span class="en">${o.t}</span><span class="ko">${KO[o.t]||""}</span>`;
+    c.onclick=()=>pick(o,c); chips.appendChild(c);
+  });
+  sc.appendChild(chips); sc.scrollTop=0;
+  startTimer();
+}
+
+function startTimer(){
+  tLeft=TIME; const bar=$("timerBar"); bar.style.width="100%"; bar.classList.remove("low");
+  clearInterval(timer);
+  timer=setInterval(()=>{
+    tLeft-=100; const p=Math.max(0,tLeft/TIME*100); bar.style.width=p+"%";
+    if(p<30) bar.classList.add("low");
+    if(tLeft<=0){ clearInterval(timer); onTimeout(); }
+  },100);
+}
+function stopTimer(){ clearInterval(timer); }
+
+function onTimeout(){
+  if(answered) return;
+  if(!missedThisBeat){ applyMiss(); }
+  // reveal: dim wrongs, keep correct clickable
+  const b=STAGES[st].beats[beatIdx];
+  document.querySelectorAll(".chip").forEach(c=>{ const en=c.querySelector(".en").textContent;
+    if(en!==b.ans){ c.classList.add("dim"); c.onclick=null; } });
+  toast("시간 초과 — 정답을 눌러 이어가세요", "no");
+}
+
+function pick(o,c){
+  const b=STAGES[st].beats[beatIdx];
+  if(o.ok){
+    answered=true; stopTimer();
+    c.classList.add("correct");
+    document.querySelectorAll(".chip").forEach(x=>{ if(x!==c)x.classList.add("dim"); x.onclick=null; });
+    // combo only if clean (in time + no wrong this beat)
+    if(!missedThisBeat){ combo++; bestCombo=Math.max(bestCombo,combo);
+      recover(5); sCorrect(); comboReward(); }
+    else { combo=0; recover(3); sCorrect(); }
+    updateCombo();
+    // Frank model reply (learning payoff, one line)
+    const sc=$("scene");
+    const fb=document.createElement("div"); fb.className="bubble frank"; fb.innerHTML=`<div class="who">FRANK</div>${b.full}`; sc.appendChild(fb);
+    $("dot"+beatIdx) && $("dot"+beatIdx).classList.add("done");
+    sc.scrollTop=sc.scrollHeight;
+    setTimeout(advance, 1350);
+  } else {
+    if(!missedThisBeat){ applyMiss(); }
+    c.classList.add("wrong"); sWrong();
+    setTimeout(()=>c.classList.remove("wrong"),380);
+    c.classList.add("dim"); c.onclick=null;
+  }
+}
+
+function applyMiss(){
+  missedThisBeat=true; combo=0; updateCombo();
+  drop(15);
+  floatTxt("−15%", "var(--bad)");
+}
+
+function advance(){
+  beatIdx++;
+  if(beatIdx>=STAGES[st].beats.length){
+    if(st<STAGES.length-1){ st++; showStageClear(); }
+    else showEnd();
+  } else { renderBeat(); }
+}
+
+// ---------- satisfaction ----------
+function drop(n){ sat=Math.max(0,sat-n); updateSat(true); }
+function recover(n){ if(sat<100){ sat=Math.min(100,sat+n); floatTxt("+"+n+"%","var(--good)"); } updateSat(true); }
+function bump(n){ sat=Math.min(100,sat+n); updateSat(true); }
+function updateSat(flash){
+  $("satPct").textContent=Math.round(sat)+"%";
+  const f=$("gFill"); f.style.width=sat+"%";
+  let col;
+  if(sat>=70) col="linear-gradient(90deg,#3FD08A,#E7B43D)";
+  else if(sat>=40) col="linear-gradient(90deg,#E7B43D,#F2A65A)";
+  else col="linear-gradient(90deg,#FF6B6B,#F2A65A)";
+  f.style.background=col;
+  $("satPct").style.color = sat>=70?"var(--good)":sat>=40?"var(--gold)":"var(--bad)";
+  if(flash){ f.classList.remove("flash"); void f.offsetWidth; f.classList.add("flash"); }
+}
+
+// ---------- combo reward: 3=small bloom, 5(multiple)=big bloom + satisfaction jump ----------
+function comboReward(){
+  if(combo%5===0){ bloom(true); bump(15); floatTxt("BLOOM! +15%","var(--gold)"); sBloomBig(); }
+  else if(combo%3===0){ bloom(false); bump(4); sBloomSmall(); }
+}
+const PETALS=["#E8709A","#F2A65A","#E7B43D","#EC8FB5","#B98AD9","#7FD1A6"];
+function flowerSVG(big){
+  const col=PETALS[Math.random()*PETALS.length|0];
+  const s=big?46:28, cx=s/2;
+  let petals="";
+  const n=big?6:5, R=big?12:8, r=big?7:5, pc=big?9:6;
+  for(let i=0;i<n;i++){ const a=i/n*Math.PI*2; const px=cx+Math.cos(a)*R, py=cx+Math.sin(a)*R;
+    petals+=`<ellipse cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" rx="${r}" ry="${pc}" fill="${col}" transform="rotate(${(a*180/Math.PI+90).toFixed(0)} ${px.toFixed(1)} ${py.toFixed(1)})" opacity=".92"/>`; }
+  return `<svg class="flower" width="${s}" height="${s}" viewBox="0 0 ${s} ${s}">${petals}<circle cx="${cx}" cy="${cx}" r="${big?6:4}" fill="#FFE6A0"/><circle cx="${cx}" cy="${cx}" r="${big?3:2}" fill="#C9791F"/></svg>`;
+}
+function bloom(big){
+  const g=$("garden"); const em=g.querySelector(".empty"); if(em) em.remove();
+  g.insertAdjacentHTML("beforeend", flowerSVG(big));
+  flowers++;
+  if(big){ // sparkle burst
+    for(let i=0;i<10;i++){ const sp=document.createElement("div"); sp.className="spark";
+      sp.style.left=(50+(Math.random()*40-20))+"%"; sp.style.bottom="20px";
+      sp.style.background=PETALS[i%PETALS.length];
+      sp.style.setProperty("--dx",(Math.random()*80-40)+"px");
+      sp.style.setProperty("--dy",(-30-Math.random()*40)+"px");
+      g.appendChild(sp); setTimeout(()=>sp.remove(),650); }
+  }
+  g.scrollLeft=g.scrollWidth;
+}
+
+// ---------- combo pill ----------
+function updateCombo(){
+  const mult=Math.max(1,combo);
+  $("comboN").textContent="×"+mult;
+  const box=$("comboBox"); box.classList.remove("pulse"); void box.offsetWidth; if(combo>1)box.classList.add("pulse");
+}
+
+// ---------- interstitial / end ----------
+function showStageClear(){
+  const prev=STAGES[st-1], nx=STAGES[st];
+  $("game").classList.add("hidden"); $("inter").classList.remove("hidden");
+  $("iKick").textContent=prev.kick+" CLEAR";
+  $("iTitle").textContent=prev.title+" 완료!";
+  $("iDesc").innerHTML=`현재 만족도 <b style="color:${sat>=70?'#3FD08A':'#E7B43D'}">${Math.round(sat)}%</b> · 꽃 ${flowers}송이<br>다음 — <b style="color:#e7b43d">${nx.title}</b>. ${nx.desc}`;
+  $("iTags").innerHTML=nx.exprs.map(e=>`<span class="tag">${e}</span>`).join("");
+}
+function nextStage(){ $("inter").classList.add("hidden"); $("game").classList.remove("hidden"); startStage(); }
+
+function showEnd(){
+  stopTimer(); stopBgm(); $("game").classList.add("hidden"); $("end").classList.remove("hidden"); sWin();
+  const s=Math.round(sat);
+  let rank,msg;
+  if(s>=90){ rank="RAINMAKER"; msg="고객 만족도 최상! 거래를 만들어내는 감각이에요."; }
+  else if(s>=65){ rank="CLOSER"; msg="안정적으로 딜을 닫아냈어요. 한 번 더 도전해 RAINMAKER로!"; }
+  else { rank="ROOKIE"; msg="좋은 출발! 표현을 한 번 더 익히고 다시 도전하면 만족도가 쑥 오릅니다."; }
+  $("eRank").textContent=rank; $("eMsg").textContent=msg;
+  $("eSat").textContent=s+"%"; $("eCombo").textContent="×"+bestCombo; $("eFlower").textContent=flowers;
+  const seen=[...new Set(STAGES.flatMap(x=>x.beats.map(b=>b.ans)))];
+  $("recap").innerHTML=seen.map(e=>`<div class="r"><b>${e}</b><span>${KO[e]}</span></div>`).join("");
+  $("recap").classList.add("hidden");
+}
+function toggleRecap(){ $("recap").classList.toggle("hidden"); }
+function resetGame(){ $("end").classList.add("hidden"); resetState(); startBgm(); $("game").classList.remove("hidden"); startStage(); }
+
+// ---------- toast / float ----------
+function toast(txt,kind){
+  const sc=$("scene"); const old=sc.querySelector(".toast"); if(old)old.remove();
+  const d=document.createElement("div"); d.className="bubble npc toast"; d.style.borderColor="rgba(255,107,107,.4)";
+  d.innerHTML=`<span style="color:#f2cccc;font-size:13px;">${txt}</span>`; sc.appendChild(d); sc.scrollTop=sc.scrollHeight;
+}
+function floatTxt(txt,color){
+  const f=document.createElement("div"); f.className="float"; f.textContent=txt; f.style.color=color;
+  f.style.right="20px"; f.style.top="92px"; $("app").appendChild(f); setTimeout(()=>f.remove(),1000);
+}
+
+// ---------- audio ----------
+let actx=null, muted=false;
+function audioInit(){ if(!actx){try{actx=new(window.AudioContext||window.webkitAudioContext)();}catch(e){}} if(actx&&actx.state==="suspended")actx.resume(); }
+function beep(fs,d,type,v,gap){ if(!actx||muted)return; let t=actx.currentTime; gap=gap||0;
+  fs.forEach((f,i)=>{ const o=actx.createOscillator(),g=actx.createGain(); o.type=type||"sine"; o.frequency.value=f;
+    o.connect(g); g.connect(actx.destination); const st=t+i*(d+gap);
+    g.gain.setValueAtTime(.0001,st); g.gain.exponentialRampToValueAtTime(v||.16,st+.01);
+    g.gain.exponentialRampToValueAtTime(.0001,st+d); o.start(st); o.stop(st+d+.03); }); }
+const sCorrect=()=>beep([660,880],.11,"sine",.16,.01);
+const sWrong=()=>beep([180,140],.16,"sawtooth",.13,0);
+const sBloomSmall=()=>beep([880,1180],.10,"triangle",.15,.02);
+const sBloomBig=()=>beep([660,880,1180,1568],.13,"triangle",.17,.03);
+const sWin=()=>beep([523,659,784,1047,1319],.16,"triangle",.18,.05);
+function toggleMute(){ muted=!muted; $("mute").textContent=muted?"OFF":"SFX"; $("mute").style.opacity=muted?.4:1; if(!muted){audioInit();} }
+
+// ---------- background music (gentle synth loop) ----------
+let bgmGain=null, bgmTimer=null, bgmStep=0, bgmOn=true;
+function mfreq(m){ return 440*Math.pow(2,(m-69)/12); }
+const BGM_PROG=[ {bass:45,arp:[69,72,76,72]}, {bass:40,arp:[64,67,71,67]},
+                 {bass:41,arp:[65,69,72,69]}, {bass:43,arp:[67,71,74,71]} ];
+function bgmNote(f,dur,type,vol){ if(!actx||!bgmGain)return; const o=actx.createOscillator(),g=actx.createGain();
+  o.type=type; o.frequency.value=f; o.connect(g); g.connect(bgmGain); const s=actx.currentTime;
+  g.gain.setValueAtTime(.0001,s); g.gain.exponentialRampToValueAtTime(vol,s+.04);
+  g.gain.exponentialRampToValueAtTime(.0001,s+dur); o.start(s); o.stop(s+dur+.05); }
+function startBgm(){ audioInit(); if(!actx||bgmTimer)return;
+  if(!bgmGain){ bgmGain=actx.createGain(); bgmGain.gain.value=bgmOn?.5:0; bgmGain.connect(actx.destination); }
+  const beat=0.5; bgmStep=0;
+  bgmTimer=setInterval(()=>{ const ch=BGM_PROG[Math.floor(bgmStep/4)%BGM_PROG.length];
+    if(bgmStep%4===0) bgmNote(mfreq(ch.bass),beat*3.6,"sine",.05);
+    bgmNote(mfreq(ch.arp[bgmStep%4]),beat*1.6,"triangle",.035);
+    bgmStep=(bgmStep+1)%(BGM_PROG.length*4); }, beat*1000); }
+function stopBgm(){ clearInterval(bgmTimer); bgmTimer=null; }
+function toggleBgm(){ bgmOn=!bgmOn; $("bgmBtn").style.opacity=bgmOn?1:.4;
+  if(bgmGain) bgmGain.gain.value=bgmOn?.5:0; if(bgmOn && !bgmTimer) startBgm(); }
+</script>
+</body>
+</html>

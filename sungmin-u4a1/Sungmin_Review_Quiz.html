@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Sungmin — Review Quiz · Do English with Brian</title>
+<style>
+  :root{--navy:#0E2038;--navy2:#0A1830;--gold:#E7B43D;--ink:#F4F7FC;--sub:#9DB0CC;
+    --good:#3FD08A;--bad:#FF6B6B;--line:rgba(231,180,61,.22);--card:#13263f;}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#060f1f;color:var(--ink);display:flex;justify-content:center;min-height:100vh;}
+  #app{width:100%;max-width:540px;min-height:100vh;background:radial-gradient(120% 50% at 50% 0%,#12294a,#0a1830 55%,#060f1f);display:flex;flex-direction:column;}
+  header{padding:16px 18px 10px;position:sticky;top:0;z-index:5;background:linear-gradient(180deg,#0e2545,#0e2545ee 70%,transparent);}
+  .brand{font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:800;}
+  h1{font-size:20px;font-weight:900;margin-top:2px;}
+  .tabs{display:flex;gap:6px;margin-top:12px;flex-wrap:wrap;}
+  .tab{flex:1;min-width:72px;padding:9px 6px;border-radius:10px;border:1px solid var(--line);background:#10233f;color:var(--sub);font-weight:800;font-size:12.5px;cursor:pointer;text-align:center;transition:.12s;}
+  .tab.on{background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;border-color:transparent;}
+  .scope{display:flex;gap:6px;margin-top:8px;}
+  .scope button{flex:1;padding:7px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--sub);font-weight:700;font-size:12px;cursor:pointer;}
+  .scope button.on{background:#16293f;color:var(--gold);border-color:rgba(231,180,61,.4);}
+  main{padding:10px 16px 40px;flex:1;}
+  .bar{height:6px;border-radius:6px;background:rgba(255,255,255,.08);margin:4px 0 14px;overflow:hidden;}
+  .barfill{height:100%;background:linear-gradient(90deg,#caa233,#e7b43d);width:0%;transition:width .3s;}
+  .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:20px 18px;}
+  .qmeta{font-size:12px;color:var(--sub);font-weight:700;letter-spacing:.5px;margin-bottom:10px;}
+  .ko{font-size:14px;color:var(--gold);font-weight:700;margin-bottom:6px;}
+  .sent{font-size:18px;font-weight:600;line-height:1.5;margin-bottom:14px;}
+  .sent .bl{color:var(--gold);font-weight:900;letter-spacing:1px;}
+  input.ans{width:100%;padding:12px 14px;border-radius:11px;border:1px solid rgba(255,255,255,.14);background:#0e1d33;color:var(--ink);font-size:16px;}
+  input.ans:focus{outline:none;border-color:var(--gold);}
+  input.ans.good{border-color:var(--good);} input.ans.bad{border-color:var(--bad);}
+  .btn{width:100%;margin-top:12px;padding:13px;border-radius:11px;border:none;cursor:pointer;background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;font-size:15px;font-weight:900;}
+  .btn:active{transform:scale(.99);}
+  .btn.ghost{background:#16293f;color:var(--gold);border:1px solid var(--line);}
+  .opts{display:flex;flex-direction:column;gap:9px;}
+  .opt{padding:13px 15px;border-radius:11px;background:#16293f;border:1px solid rgba(255,255,255,.09);color:var(--ink);font-size:15px;font-weight:700;cursor:pointer;text-align:left;transition:.12s;}
+  .opt:active{transform:scale(.98);}
+  .opt.correct{background:rgba(63,208,138,.16);border-color:var(--good);}
+  .opt.wrong{background:rgba(255,107,107,.14);border-color:var(--bad);}
+  .opt.dim{opacity:.45;}
+  .fb{text-align:center;font-size:14px;font-weight:800;margin-top:12px;min-height:20px;}
+  .fb.ok{color:var(--good);} .fb.no{color:var(--bad);}
+  .ansline{text-align:center;font-size:14px;color:var(--sub);margin-top:6px;}
+  .ansline b{color:var(--gold);}
+  /* matching */
+  .matchwrap{display:flex;gap:10px;}
+  .mcol{flex:1;display:flex;flex-direction:column;gap:8px;}
+  .mitem{padding:12px 10px;border-radius:10px;background:#16293f;border:1px solid rgba(255,255,255,.1);font-size:13.5px;font-weight:700;cursor:pointer;text-align:center;transition:.12s;}
+  .mitem.sel{border-color:var(--gold);background:#1d3a59;}
+  .mitem.done{opacity:.4;pointer-events:none;border-color:var(--good);}
+  .mitem.shake{animation:shk .35s;}
+  @keyframes shk{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+  /* flashcard */
+  .flash{perspective:1200px;}
+  .fcard{position:relative;width:100%;height:230px;cursor:pointer;transition:transform .5s;transform-style:preserve-3d;}
+  .fcard.flip{transform:rotateY(180deg);}
+  .fface{position:absolute;inset:0;backface-visibility:hidden;border-radius:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;border:1px solid var(--line);}
+  .ffront{background:#13263f;}
+  .fback{background:linear-gradient(160deg,#1b3a59,#13263f);transform:rotateY(180deg);}
+  .fface .big{font-size:26px;font-weight:900;}
+  .fface .small{font-size:14px;color:var(--sub);margin-top:10px;}
+  .fhint{text-align:center;color:var(--sub);font-size:12px;margin-top:10px;}
+  .row2{display:flex;gap:10px;margin-top:12px;}
+  .row2 .btn{margin-top:0;}
+  .result{text-align:center;padding:30px 10px;}
+  .result .big{font-size:40px;font-weight:900;color:var(--gold);}
+  .result .msg{color:var(--sub);margin:10px 0 18px;font-size:15px;}
+  .hidden{display:none!important;}
+  .counter{font-size:12px;color:var(--sub);text-align:right;margin-bottom:6px;}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="brand">DO ENGLISH WITH BRIAN</div>
+    <h1>Sungmin · Review Quiz</h1>
+    <div class="tabs">
+      <div class="tab on" data-m="blank" onclick="setMode('blank')">✏️ 빈칸</div>
+      <div class="tab" data-m="match" onclick="setMode('match')">🔗 매칭</div>
+      <div class="tab" data-m="flash" onclick="setMode('flash')">🃏 카드</div>
+      <div class="tab" data-m="choice" onclick="setMode('choice')">📝 객관식</div>
+    </div>
+    <div class="scope">
+      <button class="on" data-s="all" onclick="setScope('all')">전체 20</button>
+      <button data-s="c1" onclick="setScope('c1')">1회차</button>
+      <button data-s="c2" onclick="setScope('c2')">2회차</button>
+    </div>
+  </header>
+  <main id="main"></main>
+</div>
+
+<script>
+// ===== data: Class 1 & 2 expressions =====
+const DATA=[
+ // Class 1
+ {c:1,e:"to be honest",k:"솔직히 말하면",s:"___, I was nervous on my first day of teaching."},
+ {c:1,e:"end up",k:"결국 ~하게 되다",s:"I didn't plan it, but I ___ working in special education."},
+ {c:1,e:"every now and then",k:"가끔, 때때로",s:"___, a former student sends me a message."},
+ {c:1,e:"on top of that",k:"게다가",s:"The class was full, and ___, two teachers were out sick."},
+ {c:1,e:"the thing is",k:"사실은, 문제는",s:"I love the work, but ___, it can be exhausting."},
+ {c:1,e:"look into",k:"조사하다, 알아보다",s:"I want to ___ a few graduate programs this year."},
+ {c:1,e:"focus on",k:"집중하다, ~에 초점을 맞추다",s:"This year I want to ___ my research skills."},
+ {c:1,e:"in terms of",k:"~면에서, ~에 관해서",s:"___ experience, I've worked with all age groups."},
+ {c:1,e:"work toward",k:"목표를 향해 나아가다",s:"I'm ___ a master's degree in education."},
+ {c:1,e:"build on",k:"기반으로 발전시키다",s:"I want to ___ what I've learned in the classroom."},
+ // Class 2
+ {c:2,e:"stand out",k:"유독 기억에 남다",s:"That trip really ___ — I still think about it all the time."},
+ {c:2,e:"looking back",k:"돌이켜보면",s:"___, I realize how much that experience shaped me."},
+ {c:2,e:"it means a lot",k:"큰 의미가 있다",s:"Your support ___ to me — thank you for believing in me."},
+ {c:2,e:"stick with someone",k:"오래도록 기억에 남다",s:"Some of my students just ___, even years later."},
+ {c:2,e:"come a long way",k:"많이 발전하다",s:"His English has ___ since we started — huge progress."},
+ {c:2,e:"make a difference",k:"변화를 만들다, 영향을 주다",s:"Even a little encouragement can ___ in a child's life."},
+ {c:2,e:"be passionate about",k:"~에 열정이 있다",s:"I've always ___ helping kids reach their potential."},
+ {c:2,e:"specialize in",k:"~을 전문으로 하다",s:"I ___ supporting students with special needs."},
+ {c:2,e:"have an impact on",k:"~에 영향을 미치다",s:"A good teacher can ___ a student's entire future."},
+ {c:2,e:"go on to",k:"이후 ~하게 되다",s:"She ___ become a teacher herself — it still amazes me."},
+];
+
+let mode="blank", scope="all", pool=[], idx=0, score=0, answered=false;
+const $=id=>document.getElementById(id);
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function norm(t){return (t||"").toLowerCase().replace(/[.,!?'"]/g,"").replace(/\s+/g," ").trim();}
+function curData(){ return scope==="all"?DATA:DATA.filter(d=>d.c===(scope==="c1"?1:2)); }
+
+function setMode(m){ mode=m; document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.m===m)); start(); }
+function setScope(sc){ scope=sc; document.querySelectorAll('.scope button').forEach(b=>b.classList.toggle('on',b.dataset.s===sc)); start(); }
+
+function start(){
+  pool=shuffle(curData()); idx=0; score=0; answered=false;
+  if(mode==="match") renderMatch(); else render();
+}
+
+function progressBar(){
+  const total=pool.length;
+  return `<div class="counter">${Math.min(idx+1,total)} / ${total}</div><div class="bar"><div class="barfill" style="width:${idx/total*100}%"></div></div>`;
+}
+
+// ===== BLANK =====
+function render(){
+  if(idx>=pool.length){ return renderResult(); }
+  const it=pool[idx]; answered=false;
+  if(mode==="blank"){
+    const parts=it.s.split("___");
+    $("main").innerHTML=`${progressBar()}
+      <div class="card">
+        <div class="qmeta">빈칸 채우기 · Class ${it.c}</div>
+        <div class="ko">${it.k}</div>
+        <div class="sent">${parts[0]}<span class="bl">______</span>${parts[1]||""}</div>
+        <input class="ans" id="inp" placeholder="표현을 입력하세요..." autocomplete="off" autocapitalize="off">
+        <button class="btn" id="go" onclick="checkBlank()">확인</button>
+        <div class="fb" id="fb"></div>
+      </div>`;
+    const inp=$("inp"); inp.focus();
+    inp.addEventListener("keydown",e=>{ if(e.key==="Enter") checkBlank(); });
+  } else if(mode==="choice"){
+    const parts=it.s.split("___");
+    const opts=shuffle([it.e,...shuffle(DATA.filter(d=>d.e!==it.e)).slice(0,3).map(d=>d.e)]);
+    $("main").innerHTML=`${progressBar()}
+      <div class="card">
+        <div class="qmeta">객관식 · Class ${it.c}</div>
+        <div class="ko">${it.k}</div>
+        <div class="sent">${parts[0]}<span class="bl">______</span>${parts[1]||""}</div>
+        <div class="opts" id="opts"></div>
+        <div class="fb" id="fb"></div>
+      </div>`;
+    const wrap=$("opts");
+    opts.forEach(o=>{ const b=document.createElement("button"); b.className="opt"; b.textContent=o; b.onclick=()=>checkChoice(o,b); wrap.appendChild(b); });
+  } else if(mode==="flash"){
+    renderFlash();
+  }
+}
+function next(){ idx++; render(); }
+
+function checkBlank(){
+  if(answered) return;
+  const it=pool[idx], inp=$("inp"), val=norm(inp.value);
+  const ok = val===norm(it.e) || (it.e==="stick with someone"&&(val==="stick with me"||val==="stuck with me"||val.startsWith("stick with")||val.startsWith("stuck with")));
+  answered=true; inp.disabled=true;
+  if(ok){ inp.classList.add("good"); score++; $("fb").className="fb ok"; $("fb").textContent="정답! 🎉"; }
+  else { inp.classList.add("bad"); $("fb").className="fb no"; $("fb").innerHTML=`정답: <b style="color:var(--gold)">${it.e}</b>`; }
+  $("go").textContent = idx+1>=pool.length ? "결과 보기 ▶" : "다음 ▶";
+  $("go").onclick=next;
+}
+function checkChoice(o,btn){
+  if(answered) return; answered=true;
+  const it=pool[idx];
+  document.querySelectorAll("#opts .opt").forEach(b=>{ b.onclick=null; if(b.textContent===it.e)b.classList.add("correct"); else if(b===btn)b.classList.add("wrong"); else b.classList.add("dim"); });
+  if(o===it.e){ score++; $("fb").className="fb ok"; $("fb").textContent="정답! 🎉"; }
+  else { $("fb").className="fb no"; $("fb").innerHTML=`정답: <b style="color:var(--gold)">${it.e}</b>`; }
+  const b=document.createElement("button"); b.className="btn"; b.style.marginTop="14px";
+  b.textContent = idx+1>=pool.length ? "결과 보기 ▶" : "다음 ▶"; b.onclick=next;
+  $("main").querySelector(".card").appendChild(b);
+}
+
+// ===== FLASHCARD =====
+let flipped=false;
+function renderFlash(){
+  const it=pool[idx]; flipped=false;
+  $("main").innerHTML=`${progressBar()}
+    <div class="flash">
+      <div class="fcard" id="fc" onclick="flipCard()">
+        <div class="fface ffront"><div class="big" style="color:var(--gold)">${it.k}</div><div class="small">뜻을 보고 영어 표현을 떠올려 보세요</div></div>
+        <div class="fface fback"><div class="big">${it.e}</div><div class="small">${it.s.replace("___","______")}</div></div>
+      </div>
+    </div>
+    <div class="fhint">카드를 탭하면 뒤집힙니다</div>
+    <div class="row2">
+      <button class="btn ghost" onclick="prevFlash()">◀ 이전</button>
+      <button class="btn" id="nf" onclick="nextFlash()">${idx+1>=pool.length?"처음으로 ▶":"다음 ▶"}</button>
+    </div>`;
+}
+function flipCard(){ flipped=!flipped; $("fc").classList.toggle("flip",flipped); }
+function nextFlash(){ idx++; if(idx>=pool.length) idx=0; renderFlash(); }
+function prevFlash(){ idx--; if(idx<0) idx=pool.length-1; renderFlash(); }
+
+// ===== MATCHING =====
+let mLeft=[], mRight=[], mSel=null, mDone=0, mBatch=[];
+function renderMatch(){
+  const batchSize=Math.min(5,pool.length);
+  mBatch=pool.slice(idx,idx+batchSize);
+  if(mBatch.length===0){ return renderResult(); }
+  mLeft=shuffle(mBatch); mRight=shuffle(mBatch); mSel=null; mDone=0;
+  let lh="", rh="";
+  mLeft.forEach((d,i)=>{ lh+=`<div class="mitem" id="L${i}" data-e="${d.e}" onclick="pickLeft(${i})">${d.e}</div>`; });
+  mRight.forEach((d,i)=>{ rh+=`<div class="mitem" id="R${i}" data-e="${d.e}" onclick="pickRight(${i})">${d.k}</div>`; });
+  $("main").innerHTML=`<div class="counter">${Math.min(idx+batchSize,pool.length)} / ${pool.length}</div>
+    <div class="bar"><div class="barfill" style="width:${idx/pool.length*100}%"></div></div>
+    <div class="qmeta" style="margin-bottom:10px">영어 표현과 뜻을 짝지어 보세요</div>
+    <div class="matchwrap"><div class="mcol">${lh}</div><div class="mcol">${rh}</div></div>
+    <div class="fb" id="fb"></div>`;
+}
+function pickLeft(i){ if($("L"+i).classList.contains("done"))return;
+  document.querySelectorAll('.mcol .mitem').forEach(m=>{ if(m.id.startsWith("L"))m.classList.remove("sel"); });
+  $("L"+i).classList.add("sel"); mSel={side:"L",i,e:mLeft[i].e}; tryMatch(); }
+function pickRight(i){ if($("R"+i).classList.contains("done"))return;
+  if(!mSel){ document.querySelectorAll('.mcol .mitem').forEach(m=>{ if(m.id.startsWith("R"))m.classList.remove("sel"); }); $("R"+i).classList.add("sel"); mSel={side:"R",i,e:mRight[i].e}; return; }
+  if(mSel.side==="L"){ checkPair(mSel,{side:"R",i,e:mRight[i].e}); } }
+function tryMatch(){ /* wait for right pick */ }
+function checkPair(a,b){
+  if(a.e===b.e){
+    $("L"+a.i).classList.add("done"); $("R"+b.i).classList.add("done");
+    $("L"+a.i).classList.remove("sel"); mSel=null; mDone++;
+    if(mDone===mBatch.length){ idx+=mBatch.length;
+      $("fb").className="fb ok"; $("fb").textContent="다 맞혔어요! 🎉";
+      setTimeout(()=>{ if(idx>=pool.length) renderResult(); else renderMatch(); }, 700);
+    }
+  } else {
+    const lEl=$("L"+a.i), rEl=$("R"+b.i);
+    lEl.classList.add("shake"); rEl.classList.add("shake");
+    setTimeout(()=>{ lEl.classList.remove("shake","sel"); rEl.classList.remove("shake"); },350);
+    mSel=null;
+  }
+}
+
+// ===== RESULT =====
+function renderResult(){
+  const total=pool.length;
+  let msg = score===total?"완벽해요! 다 외웠네요 👏" : score>=total*0.7?"잘하고 있어요! 한 번 더 돌려볼까요?" : "조금만 더! 반복이 답이에요 💪";
+  $("main").innerHTML=`<div class="result">
+    <div class="big">${score} / ${total}</div>
+    <div class="msg">${msg}</div>
+    <button class="btn" onclick="start()">🔄 다시 풀기</button>
+  </div>`;
+}
+
+start();
+</script>
+</body>
+</html>
