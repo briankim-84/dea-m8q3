@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Seoul Bloom — Frank's Mission · Class 3</title>
+<style>
+  :root{
+    --navy:#0E2038; --navy2:#0A1828; --card:#16283f; --gold:#E7B43D; --gold2:#C9A432;
+    --ink:#F4F7FC; --sub:#9DB0CC; --good:#3FD08A; --bad:#FF6B6B; --line:rgba(231,180,61,.25);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#06101e; color:var(--ink); display:flex; justify-content:center; overscroll-behavior:none;
+  }
+  #app{width:100%;max-width:440px;min-height:100vh;background:
+    radial-gradient(120% 60% at 50% 0%, #122a48 0%, #0b1a2e 45%, #06101e 100%);
+    display:flex;flex-direction:column;position:relative;overflow:hidden;}
+
+  /* HUD */
+  .hud{padding:14px 16px 10px;}
+  .hudtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
+  .brand{font-size:12px;letter-spacing:2px;color:var(--gold);font-weight:800;}
+  .brand small{display:block;font-size:9px;letter-spacing:1px;color:var(--sub);font-weight:600;margin-top:2px;}
+  .scores{display:flex;gap:14px;align-items:center;}
+  .score{text-align:right;}
+  .score .n{font-size:22px;font-weight:900;color:var(--ink);line-height:1;}
+  .score .l{font-size:9px;letter-spacing:1px;color:var(--sub);}
+  .combo{min-width:54px;text-align:center;padding:5px 8px;border-radius:10px;
+    background:rgba(231,180,61,.10);border:1px solid var(--line);transition:.15s;}
+  .combo .n{font-size:18px;font-weight:900;color:var(--gold);line-height:1;}
+  .combo .l{font-size:8px;letter-spacing:1px;color:var(--sub);}
+  .combo.pulse{transform:scale(1.18);background:rgba(231,180,61,.28);box-shadow:0 0 18px rgba(231,180,61,.5);}
+
+  .stagebar{margin-top:4px;}
+  .stagebar .row{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;}
+  .stagebar .name{font-size:13px;font-weight:800;}
+  .stagebar .name b{color:var(--gold);}
+  .stagebar .pct{font-size:11px;color:var(--sub);}
+  .gauge{height:11px;border-radius:8px;background:rgba(255,255,255,.07);overflow:hidden;border:1px solid rgba(255,255,255,.06);}
+  .gfill{height:100%;width:0%;border-radius:8px;background:linear-gradient(90deg,var(--gold2),var(--gold));
+    box-shadow:0 0 12px rgba(231,180,61,.6);transition:width .5s cubic-bezier(.2,.8,.2,1);}
+  .dots{display:flex;gap:5px;margin-top:8px;justify-content:center;}
+  .dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.16);}
+  .dot.done{background:var(--gold);box-shadow:0 0 8px var(--gold);}
+  .dot.s1.done{background:#FF8A5B;box-shadow:0 0 8px #FF8A5B;}
+  .dot.s2.done{background:#7CC6FF;box-shadow:0 0 8px #7CC6FF;}
+  .dot.s3.done{background:#9BF0B0;box-shadow:0 0 8px #9BF0B0;}
+
+  /* SCENE */
+  .scene{flex:1;padding:8px 16px 0;display:flex;flex-direction:column;overflow-y:auto;}
+  .situ{font-size:11px;letter-spacing:1px;color:var(--gold);font-weight:700;text-transform:uppercase;margin:6px 2px 10px;}
+  .bubble{max-width:88%;padding:13px 15px;border-radius:16px;font-size:15px;line-height:1.5;margin-bottom:12px;animation:pop .25s ease;}
+  .npc{align-self:flex-start;background:#1b3050;border:1px solid rgba(255,255,255,.08);border-bottom-left-radius:5px;}
+  .npc .who{font-size:11px;color:#7CC6FF;font-weight:800;margin-bottom:3px;letter-spacing:.5px;}
+  .frank{align-self:flex-end;background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;border-bottom-right-radius:5px;font-weight:600;}
+  .frank .who{font-size:11px;color:#5a4410;font-weight:800;margin-bottom:3px;}
+  @keyframes pop{from{opacity:0;transform:translateY(8px) scale(.98);}to{opacity:1;transform:none;}}
+
+  .ko{align-self:flex-start;font-size:12px;color:var(--sub);margin:-6px 4px 12px;}
+
+  /* CHOICES */
+  .ask{font-size:13px;color:var(--sub);margin:2px 2px 9px;}
+  .choices{display:flex;flex-direction:column;gap:9px;padding-bottom:16px;}
+  .choice{display:flex;align-items:center;gap:10px;padding:14px 15px;border-radius:13px;
+    background:#13263f;border:1px solid rgba(255,255,255,.09);color:var(--ink);
+    font-size:15px;font-weight:600;text-align:left;cursor:pointer;transition:.12s;}
+  .choice:active{transform:scale(.98);}
+  .choice .en{font-weight:800;}
+  .choice.correct{background:rgba(63,208,138,.16);border-color:var(--good);box-shadow:0 0 14px rgba(63,208,138,.3);}
+  .choice.wrong{background:rgba(255,107,107,.14);border-color:var(--bad);animation:shake .35s;}
+  .choice.dim{opacity:.4;}
+  @keyframes shake{0%,100%{transform:translateX(0);}20%{transform:translateX(-7px);}40%{transform:translateX(7px);}60%{transform:translateX(-5px);}80%{transform:translateX(5px);}}
+
+  .note{font-size:13px;line-height:1.5;padding:11px 14px;border-radius:12px;margin:2px 0 14px;animation:pop .25s;}
+  .note.ok{background:rgba(63,208,138,.12);border:1px solid rgba(63,208,138,.4);color:#cdebda;}
+  .note.no{background:rgba(255,107,107,.10);border:1px solid rgba(255,107,107,.35);color:#f2cccc;}
+  .note b{color:var(--gold);}
+
+  .next{margin:0 16px 18px;padding:15px;border-radius:13px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;font-size:16px;font-weight:900;letter-spacing:.5px;}
+  .next:active{transform:scale(.98);}
+
+  /* FLOAT score */
+  .float{position:absolute;font-size:22px;font-weight:900;color:var(--gold);pointer-events:none;
+    animation:rise 1s ease forwards;text-shadow:0 0 10px rgba(231,180,61,.7);}
+  @keyframes rise{0%{opacity:0;transform:translateY(6px) scale(.8);}25%{opacity:1;}100%{opacity:0;transform:translateY(-40px) scale(1.1);}}
+
+  /* INTERSTITIAL / SCREENS */
+  .screen{position:absolute;inset:0;background:radial-gradient(120% 70% at 50% 30%,#15314f,#08182b 70%,#06101e);
+    display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:30px;z-index:5;animation:fade .35s;}
+  @keyframes fade{from{opacity:0;}to{opacity:1;}}
+  .screen .kick{font-size:13px;letter-spacing:3px;color:var(--gold);font-weight:800;margin-bottom:8px;}
+  .screen h1{font-size:34px;font-weight:900;margin-bottom:14px;line-height:1.1;}
+  .screen p{font-size:15px;color:var(--sub);line-height:1.6;max-width:320px;margin-bottom:10px;}
+  .screen .emoji{font-size:60px;margin-bottom:14px;}
+  .screen .btn{margin-top:22px;padding:15px 40px;border-radius:14px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;font-size:17px;font-weight:900;letter-spacing:.5px;}
+  .screen .btn:active{transform:scale(.97);}
+  .screen .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--gold);margin-top:12px;font-weight:700;}
+  .statgrid{display:flex;gap:22px;margin:14px 0 4px;}
+  .stat .v{font-size:30px;font-weight:900;color:var(--gold);}
+  .stat .k{font-size:11px;letter-spacing:1px;color:var(--sub);}
+  .rank{font-size:46px;font-weight:900;background:linear-gradient(135deg,#e7b43d,#fff2c8,#caa233);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin:6px 0 4px;}
+  .hidden{display:none !important;}
+  .exprtag{display:inline-block;font-size:11px;padding:3px 9px;border-radius:20px;background:rgba(231,180,61,.14);
+    border:1px solid var(--line);color:var(--gold);margin:3px;font-weight:700;}
+</style>
+</head>
+<body>
+<div id="app">
+  <!-- START SCREEN -->
+  <div id="start" class="screen">
+    <div class="emoji">💼</div>
+    <div class="kick">SEOUL BLOOM · OVERSEAS SALES</div>
+    <h1>Frank's Mission</h1>
+    <p>You're <b style="color:#e7b43d">Frank</b>, overseas sales manager at <b style="color:#e7b43d">Seoul Bloom</b>, a rising K-beauty brand.</p>
+    <p>Three stages. One account to save, grow, and win. Use the right expression at the right moment — keep your combo alive.</p>
+    <div style="margin:14px 0;">
+      <span class="exprtag">Damage Control</span>
+      <span class="exprtag">Upsell</span>
+      <span class="exprtag">New Account</span>
+    </div>
+    <button class="btn" onclick="startGame()">▶  START MISSION</button>
+  </div>
+
+  <!-- STAGE INTRO / CLEAR -->
+  <div id="inter" class="screen hidden">
+    <div class="emoji" id="iEmoji">🔥</div>
+    <div class="kick" id="iKick">STAGE 1</div>
+    <h1 id="iTitle">Damage Control</h1>
+    <p id="iDesc"></p>
+    <div id="iExpr" style="margin:8px 0;"></div>
+    <button class="btn" id="iBtn" onclick="interNext()">▶  GO</button>
+  </div>
+
+  <!-- END SCREEN -->
+  <div id="end" class="screen hidden">
+    <div class="kick">MISSION COMPLETE</div>
+    <div class="rank" id="eRank">CLOSER</div>
+    <p id="eMsg"></p>
+    <div class="statgrid">
+      <div class="stat"><div class="v" id="eScore">0</div><div class="k">SCORE</div></div>
+      <div class="stat"><div class="v" id="eCombo">0</div><div class="k">BEST COMBO</div></div>
+      <div class="stat"><div class="v" id="eAcc">0%</div><div class="k">ACCURACY</div></div>
+    </div>
+    <p style="font-size:13px;margin-top:6px;">오늘 표현 10개를 실전 상황에서 모두 써봤어요.</p>
+    <button class="btn" onclick="resetGame()">↻  PLAY AGAIN</button>
+    <button class="btn ghost" onclick="showExpr()">표현 10개 다시 보기</button>
+    <div id="exprList" class="hidden" style="margin-top:14px;"></div>
+  </div>
+
+  <!-- GAME HUD -->
+  <div id="game" class="hidden">
+    <div class="hud">
+      <div class="hudtop">
+        <div class="brand">SEOUL BLOOM<small>FRANK · OVERSEAS SALES</small></div>
+        <div class="scores">
+          <button id="muteBtn" onclick="toggleMute()" style="background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--gold);width:34px;height:34px;border-radius:9px;font-size:15px;cursor:pointer;">🔊</button>
+          <div class="combo" id="comboBox"><div class="n" id="comboN">×1</div><div class="l">COMBO</div></div>
+          <div class="score"><div class="n" id="scoreN">0</div><div class="l">SCORE</div></div>
+        </div>
+      </div>
+      <div class="stagebar">
+        <div class="row"><div class="name" id="stName">STAGE 1 · <b>신뢰 회복</b></div><div class="pct" id="stPct">0%</div></div>
+        <div class="gauge"><div class="gfill" id="gFill"></div></div>
+        <div class="dots" id="dots"></div>
+      </div>
+    </div>
+    <div class="scene" id="scene"></div>
+    <button class="next hidden" id="nextBtn" onclick="advance()">CONTINUE  ▶</button>
+  </div>
+</div>
+
+<script>
+const STAGES = [
+ {
+   key:"s1", emoji:"🔥", kick:"STAGE 1", title:"Damage Control",
+   gaugeName:"신뢰 회복", color:"#FF8A5B",
+   desc:"Camille from Belle Maison (Paris) is furious — last week's shipment never arrived. Calm her down and protect the relationship.",
+   exprs:["bear with me","on short notice","iron out","circle back"],
+   intro:{who:"Camille · Belle Maison", text:"Frank, the shipment was supposed to arrive last week. What is going on?!"},
+   beats:[
+     { situ:"On a Call · 진정시키기",
+       prompt:"You need a moment to check the order. What do you say?",
+       options:[
+         {en:"Bear with me",ko:"잠시만 기다려 주세요"},
+         {en:"On the same page",ko:"같은 이해를 공유하다"},
+         {en:"Get the ball rolling",ko:"일을 시작하다"}],
+       answer:0,
+       frank:"Bear with me for a moment while I pull up the order status.",
+       ok:"Perfect. <b>bear with me</b> buys you a moment without sounding rude — ideal on a live call.",
+       no:"On a call, you need to ask her to wait politely. <b>bear with me</b> = 잠시만 기다려 주세요." },
+     { situ:"On a Call · 책임 인정",
+       prompt:"She wonders if her own rushed timing caused it. How do you respond?",
+       npc:{who:"Camille · Belle Maison", text:"Did we place the order too late? I know it was urgent on our end, but still..."},
+       options:[
+         {en:"Nail down",ko:"확실히 정하다"},
+         {en:"On short notice",ko:"촉박하게, 급히"},
+         {en:"Out of the blue",ko:"갑자기, 뜬금없이"}],
+       answer:1,
+       frank:"It did come in on short notice, yes — but that's on us to manage. Next time I'll flag the timeline risk upfront so you're never caught off guard.",
+       ok:"Yes. She brought up the urgency, so <b>on short notice</b> lands naturally — and you take ownership instead of making excuses.",
+       no:"The order was rushed/urgent — that's <b>on short notice</b> (촉박하게, 급히)." },
+     { situ:"Delivery · 재발 방지",
+       prompt:"She asks how you'll fix delivery going forward.",
+       npc:{who:"Camille · Belle Maison", text:"So how do we make sure this doesn't happen again?"},
+       options:[
+         {en:"Take it easy",ko:"여유를 갖다"},
+         {en:"Loop you in",ko:"대화에 포함시키다"},
+         {en:"Iron out",ko:"세부사항을 조율하다"}],
+       answer:2,
+       frank:"Let's iron out a delivery schedule we can both rely on.",
+       ok:"Great. <b>iron out</b> signals you'll resolve the messy details together — exactly what she wants to hear.",
+       no:"You need to work out the details of a reliable schedule: <b>iron out</b> (세부사항을 조율·해결하다)." },
+     { situ:"On a Call · 보류",
+       prompt:"She brings up an old pricing issue, but now isn't the time.",
+       npc:{who:"Camille · Belle Maison", text:"And what about the pricing problem from before?"},
+       options:[
+         {en:"Circle back",ko:"나중에 다시 논의하다"},
+         {en:"Give or take",ko:"대략, ~정도"},
+         {en:"No wonder",ko:"어쩐지"}],
+       answer:0,
+       frank:"Let's circle back on pricing once the delivery is fully sorted.",
+       ok:"Smooth. <b>circle back</b> defers it politely without dropping it — you stay in control of the call.",
+       no:"You want to return to it later, not now: <b>circle back</b> (나중에 다시 논의하다)." },
+   ]
+ },
+ {
+   key:"s2", emoji:"📈", kick:"STAGE 2", title:"Upsell & Expand",
+   gaugeName:"거래 확장", color:"#7CC6FF",
+   desc:"The relationship is back on track. Now pitch Seoul Bloom's new line to Camille and grow the deal.",
+   exprs:["in the long run","give or take","more or less","fair enough"],
+   intro:{who:"Camille · Belle Maison", text:"Things feel smoother now. So — tell me about this new line you mentioned."},
+   beats:[
+     { situ:"Negotiation · 가치 제안",
+       prompt:"Pitch the long-term upside of adding the line.",
+       options:[
+         {en:"In the long run",ko:"장기적으로 보면"},
+         {en:"On short notice",ko:"촉박하게"},
+         {en:"Bear with me",ko:"잠시만 기다려 주세요"}],
+       answer:0,
+       frank:"Adding this line could really pay off in the long run.",
+       ok:"Nice. <b>in the long run</b> reframes it as an investment, not a cost.",
+       no:"You're selling future/long-term value: <b>in the long run</b> (장기적으로 보면)." },
+     { situ:"Negotiation · 수량 어림",
+       prompt:"She asks how many SKUs. You don't have an exact number.",
+       npc:{who:"Camille · Belle Maison", text:"How many SKUs are we talking about?"},
+       options:[
+         {en:"Circle back",ko:"다시 논의하다"},
+         {en:"Give or take",ko:"대략, ~정도"},
+         {en:"Get the hang of",ko:"요령을 잡다"}],
+       answer:1,
+       frank:"About twelve, give or take, depending on the market.",
+       ok:"Exactly. <b>give or take</b> gives an estimate without overcommitting.",
+       no:"You're giving a rough number, not exact: <b>give or take</b> (대략, ~정도)." },
+     { situ:"Negotiation · 조건 확인",
+       prompt:"She asks if the terms stay the same.",
+       npc:{who:"Camille · Belle Maison", text:"Would the terms be the same as our current deal?"},
+       options:[
+         {en:"More or less",ko:"대체로, 거의"},
+         {en:"Loop you in",ko:"대화에 포함시키다"},
+         {en:"Out of the blue",ko:"갑자기"}],
+       answer:0,
+       frank:"More or less the same — just a small change to the minimum order.",
+       ok:"Good. <b>more or less</b> = roughly the same, with one small caveat. Honest and smooth.",
+       no:"Roughly the same, with a small exception: <b>more or less</b> (대체로, 거의)." },
+     { situ:"Negotiation · 조건 수용",
+       prompt:"She's in — but she attaches a condition.",
+       npc:{who:"Camille · Belle Maison", text:"I'm in — but I'd want a small discount on the first order."},
+       options:[
+         {en:"Nail down",ko:"확실히 정하다"},
+         {en:"Take it easy",ko:"여유를 갖다"},
+         {en:"Fair enough",ko:"그 말도 맞네요 / 알겠습니다"}],
+       answer:2,
+       frank:"Fair enough. A first-order discount makes sense — let's build that in.",
+       ok:"Closed it. She made a reasonable ask, and <b>fair enough</b> accepts her point gracefully before moving to action.",
+       no:"You're accepting her reasonable condition: <b>fair enough</b> (그 말도 맞네요 / 알겠습니다)." },
+   ]
+ },
+ {
+   key:"s3", emoji:"🚀", kick:"STAGE 3", title:"New Account",
+   gaugeName:"딜 성사", color:"#9BF0B0",
+   desc:"At the K-Beauty Expo you spot Marco, a buyer you met only briefly. Break the ice and open the door to a new deal.",
+   exprs:["come to think of it","out of the blue"],
+   intro:{who:"You", text:"There's Marco from Glow Market across the hall. Time to make the first move."},
+   beats:[
+     { situ:"Small Talk · 말문 트기",
+       prompt:"He doesn't quite place you. How do you respond?",
+       npc:{who:"Marco · Glow Market", text:"Hi — sorry, have we met before?"},
+       options:[
+         {en:"Come to think of it",ko:"생각해보니"},
+         {en:"Bear with me",ko:"잠시만 기다려 주세요"},
+         {en:"Iron out",ko:"세부사항을 조율하다"}],
+       answer:0,
+       frank:"Come to think of it, yes — we spoke briefly at the K-Beauty Expo last spring.",
+       ok:"Warm open. He asked if you'd met, and <b>come to think of it</b> makes the memory feel natural and unforced.",
+       no:"You're recalling something on the spot: <b>come to think of it</b> (생각해보니)." },
+     { situ:"Small Talk · 자연스럽게 제안",
+       prompt:"He says the approach feels unexpected. Acknowledge it, then pitch.",
+       npc:{who:"Marco · Glow Market", text:"This is a bit unexpected — I don't usually get pitched right at the booth."},
+       options:[
+         {en:"More or less",ko:"대체로"},
+         {en:"Out of the blue",ko:"갑자기, 뜬금없이"},
+         {en:"Circle back",ko:"다시 논의하다"}],
+       answer:1,
+       frank:"I know it's a little out of the blue, but I genuinely think our new line fits Glow Market.",
+       ok:"Deal opened. He called it unexpected, so <b>out of the blue</b> names it and disarms the awkwardness — confident move.",
+       no:"It feels sudden/unexpected to him: <b>out of the blue</b> (갑자기, 뜬금없이)." },
+   ]
+ }
+];
+
+// ----- audio -----
+let actx=null, muted=false;
+function initAudio(){
+  if(!actx){ try{ actx=new (window.AudioContext||window.webkitAudioContext)(); }catch(e){ actx=null; } }
+  if(actx && actx.state==='suspended') actx.resume();
+}
+function tone(freq,dur,type,when,vol){
+  if(!actx||muted) return;
+  const t=actx.currentTime+(when||0);
+  const o=actx.createOscillator(), g=actx.createGain();
+  o.type=type||'sine'; o.frequency.setValueAtTime(freq,t);
+  g.gain.setValueAtTime(0.0001,t);
+  g.gain.exponentialRampToValueAtTime(vol||0.18,t+0.012);
+  g.gain.exponentialRampToValueAtTime(0.0001,t+dur);
+  o.connect(g).connect(actx.destination); o.start(t); o.stop(t+dur+0.03);
+}
+function sCorrect(){ tone(660,0.13,'triangle',0,.22); tone(990,0.17,'triangle',0.085,.20); }
+function sCombo(n){ const b=560+Math.min(n,5)*90; tone(b,0.09,'square',0,.14); tone(b*1.5,0.12,'square',0.05,.11); }
+function sWrong(){ tone(190,0.20,'sawtooth',0,.14); tone(140,0.24,'sawtooth',0.09,.12); }
+function sStage(){ [523,659,784,1047].forEach((f,i)=>tone(f,0.20,'triangle',i*0.1,.18)); }
+function sDeal(){ [523,659,784,1047,1319].forEach((f,i)=>tone(f,0.26,'triangle',i*0.1,.20)); tone(1047,0.6,'sine',0.62,.16); }
+function sClick(){ tone(420,0.05,'sine',0,.08); }
+function toggleMute(){ muted=!muted; document.getElementById("muteBtn").textContent=muted?"🔇":"🔊"; if(!muted) initAudio(); }
+
+// ----- state -----
+let st, beatIdx, score, combo, bestCombo, totalBeats, firstTryHits, answered;
+const $=id=>document.getElementById(id);
+
+function startGame(){ initAudio(); sClick(); $("start").classList.add("hidden"); resetState(); showInter(); }
+function resetState(){ st=0; beatIdx=0; score=0; combo=0; bestCombo=0;
+  totalBeats=STAGES.reduce((a,s)=>a+s.beats.length,0); firstTryHits=0; }
+
+function showInter(){
+  const s=STAGES[st];
+  $("game").classList.add("hidden"); $("end").classList.add("hidden");
+  const iv=$("inter"); iv.classList.remove("hidden");
+  $("iEmoji").textContent=s.emoji; $("iKick").textContent=s.kick;
+  $("iTitle").textContent=s.title; $("iDesc").textContent=s.desc;
+  $("iExpr").innerHTML=s.exprs.map(e=>`<span class="exprtag">${e}</span>`).join("");
+  $("iBtn").textContent = st===0 ? "▶  GO" : "▶  CONTINUE";
+}
+function interNext(){ $("inter").classList.add("hidden"); $("game").classList.remove("hidden");
+  beatIdx=0; renderStageHUD(); renderBeat(); }
+
+function renderStageHUD(){
+  const s=STAGES[st];
+  $("stName").innerHTML=`${s.kick} · <b>${s.gaugeName}</b>`;
+  document.documentElement.style.setProperty("--gold",getComputedStyle(document.documentElement).getPropertyValue("--gold"));
+  $("gFill").style.background=`linear-gradient(90deg, ${s.color}aa, ${s.color})`;
+  $("gFill").style.boxShadow=`0 0 12px ${s.color}99`;
+  setGauge(); buildDots();
+  $("scoreN").textContent=score; updateCombo();
+}
+function buildDots(){
+  const s=STAGES[st]; let h="";
+  for(let i=0;i<s.beats.length;i++){ h+=`<div class="dot ${s.key} ${i<beatIdx?'done':''}" id="dot${i}"></div>`; }
+  $("dots").innerHTML=h;
+}
+function setGauge(){
+  const s=STAGES[st]; const pct=Math.round(beatIdx/s.beats.length*100);
+  $("gFill").style.width=pct+"%"; $("stPct").textContent=pct+"%";
+}
+
+function renderBeat(){
+  answered=false;
+  const s=STAGES[st], b=s.beats[beatIdx];
+  const sc=$("scene"); sc.innerHTML="";
+  $("nextBtn").classList.add("hidden");
+  // situation tag
+  const tag=document.createElement("div"); tag.className="situ"; tag.textContent=b.situ; sc.appendChild(tag);
+  // intro bubble at first beat
+  if(beatIdx===0 && s.intro){ sc.appendChild(npcBubble(s.intro.who, s.intro.text)); }
+  // beat-specific npc line
+  if(b.npc){ sc.appendChild(npcBubble(b.npc.who, b.npc.text)); }
+  // ask
+  const ask=document.createElement("div"); ask.className="ask"; ask.textContent=b.prompt; sc.appendChild(ask);
+  // choices
+  const wrap=document.createElement("div"); wrap.className="choices";
+  b.options.forEach((o,i)=>{
+    const btn=document.createElement("button"); btn.className="choice"; btn.id="ch"+i;
+    btn.innerHTML=`<span class="en">${o.en}</span><span style="color:var(--sub);font-weight:500;font-size:13px;">${o.ko}</span>`;
+    btn.onclick=()=>pick(i); wrap.appendChild(btn);
+  });
+  sc.appendChild(wrap);
+  sc.scrollTop=0;
+}
+function npcBubble(who,text){
+  const d=document.createElement("div"); d.className="bubble npc";
+  d.innerHTML=`<div class="who">${who}</div>${text}`; return d;
+}
+
+let wrongThisBeat=false;
+function pick(i){
+  if(answered) return;
+  const s=STAGES[st], b=s.beats[beatIdx];
+  const btn=$("ch"+i);
+  if(i===b.answer){
+    answered=true;
+    btn.classList.add("correct");
+    // disable others
+    b.options.forEach((o,k)=>{ if(k!==i) $("ch"+k).classList.add("dim"); $("ch"+k).onclick=null; });
+    // scoring
+    let pts;
+    if(!wrongThisBeat){ combo++; bestCombo=Math.max(bestCombo,combo); firstTryHits++;
+      const mult=Math.min(combo,5); pts=100*mult; }
+    else { combo=0; pts=40; }
+    score+=pts; floatPts("+"+pts);
+    animateScore(); updateCombo();
+    if(!wrongThisBeat && combo>1){ sCorrect(); sCombo(combo); } else { sCorrect(); }
+    // Frank reply + note
+    const sc=$("scene");
+    sc.appendChild(frankBubble(b.frank));
+    const note=document.createElement("div"); note.className="note ok"; note.innerHTML=b.ok; sc.appendChild(note);
+    // gauge advance
+    beatIdx++; setGauge(); markDot();
+    $("nextBtn").classList.remove("hidden");
+    $("nextBtn").textContent = (beatIdx>=s.beats.length) ? "STAGE CLEAR  ▶" : "CONTINUE  ▶";
+    sc.scrollTop=sc.scrollHeight;
+    setTimeout(()=>{ $("nextBtn").scrollIntoView({behavior:"smooth",block:"nearest"}); },120);
+  } else {
+    wrongThisBeat=true; combo=0; updateCombo(); sWrong();
+    btn.classList.add("wrong");
+    const sc=$("scene");
+    // remove any prior correction note
+    const old=sc.querySelector(".note.no"); if(old) old.remove();
+    const note=document.createElement("div"); note.className="note no"; note.innerHTML="✗ "+b.no+"  다시 골라보세요."; sc.appendChild(note);
+    setTimeout(()=>btn.classList.remove("wrong"),400);
+    btn.classList.add("dim"); btn.onclick=null;
+    sc.scrollTop=sc.scrollHeight;
+  }
+}
+function frankBubble(text){
+  const d=document.createElement("div"); d.className="bubble frank";
+  d.innerHTML=`<div class="who">FRANK</div>${text}`; return d;
+}
+function markDot(){ const d=$("dot"+(beatIdx-1)); if(d) d.classList.add("done"); }
+
+function advance(){
+  wrongThisBeat=false;
+  const s=STAGES[st];
+  if(beatIdx>=s.beats.length){
+    // stage clear
+    if(st < STAGES.length-1){ st++; sStage(); showStageClear(); }
+    else { sDeal(); showEnd(); }
+  } else { sClick(); renderBeat(); }
+}
+function showStageClear(){
+  const prev=STAGES[st-1];
+  const iv=$("inter"); $("game").classList.add("hidden"); iv.classList.remove("hidden");
+  $("iEmoji").textContent="✅"; $("iKick").textContent=prev.kick+" CLEAR";
+  $("iTitle").textContent=prev.gaugeName+" 완료!";
+  $("iDesc").innerHTML=`Next up — <b style="color:#e7b43d">${STAGES[st].title}</b>.<br>${STAGES[st].desc}`;
+  $("iExpr").innerHTML=STAGES[st].exprs.map(e=>`<span class="exprtag">${e}</span>`).join("");
+  $("iBtn").textContent="▶  NEXT STAGE";
+}
+
+function showEnd(){
+  $("game").classList.add("hidden");
+  const e=$("end"); e.classList.remove("hidden");
+  const acc=Math.round(firstTryHits/totalBeats*100);
+  let rank,msg;
+  if(acc>=90){ rank="RAINMAKER"; msg="완벽에 가까운 실전 감각! 거래를 만들어내는 사람이에요."; }
+  else if(acc>=60){ rank="CLOSER"; msg="딜을 닫아내는 안정적인 협상력. 한 번 더 도전해 RAINMAKER에 도전해보세요."; }
+  else { rank="ROOKIE"; msg="좋은 출발! 표현을 한 번 더 익히고 다시 플레이하면 랭크가 쑥 오릅니다."; }
+  $("eRank").textContent=rank; $("eMsg").textContent=msg;
+  animateTo($("eScore"),score); $("eCombo").textContent="×"+bestCombo; $("eAcc").textContent=acc+"%";
+  // build expr list
+  const all=STAGES.flatMap(s=>s.beats.map(b=>({en:b.options[b.answer].en, ko:b.options[b.answer].ko})));
+  $("exprList").innerHTML=all.map(x=>`<div style="text-align:left;padding:7px 12px;margin:5px 0;background:rgba(255,255,255,.04);border-radius:9px;border:1px solid rgba(255,255,255,.06);"><b style="color:#e7b43d">${x.en}</b> <span style="color:var(--sub);font-size:13px;">— ${x.ko}</span></div>`).join("");
+  $("exprList").classList.add("hidden");
+}
+function showExpr(){ $("exprList").classList.toggle("hidden"); }
+function resetGame(){ $("end").classList.add("hidden"); $("exprList").classList.add("hidden"); resetState(); showInter(); }
+
+// ----- fx -----
+function updateCombo(){
+  const mult=Math.max(1,Math.min(combo,5));
+  $("comboN").textContent="×"+mult;
+  const box=$("comboBox");
+  box.classList.remove("pulse"); void box.offsetWidth; if(combo>1) box.classList.add("pulse");
+}
+function animateScore(){ animateTo($("scoreN"),score); }
+function animateTo(el,target){
+  let cur=parseInt(el.textContent.replace(/\D/g,''))||0; const step=Math.max(1,Math.round((target-cur)/14));
+  const t=setInterval(()=>{ cur+=step; if(cur>=target){cur=target;clearInterval(t);} el.textContent=cur; },22);
+}
+function floatPts(txt){
+  const f=document.createElement("div"); f.className="float"; f.textContent=txt;
+  f.style.right="24px"; f.style.top="58px"; $("app").appendChild(f);
+  setTimeout(()=>f.remove(),1000);
+}
+</script>
+</body>
+</html>
