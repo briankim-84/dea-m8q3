@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Review Trainer · Frank — Do English with Brian</title>
+<style>
+  :root{--navy:#0E2038;--gold:#E7B43D;--ink:#F4F7FC;--sub:#9DB0CC;
+    --good:#3FD08A;--bad:#FF6B6B;--line:rgba(231,180,61,.22);--card:#13263f;}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#060f1f;color:var(--ink);display:flex;justify-content:center;min-height:100vh;}
+  #app{width:100%;max-width:540px;min-height:100vh;background:
+    radial-gradient(120% 50% at 50% 0%,#12294a,#0a1830 55%,#060f1f);}
+  header{padding:18px 18px 0;}
+  .brand{font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:800;}
+  h1{font-size:20px;font-weight:900;margin-top:3px;}
+  .sub{font-size:12px;color:var(--sub);margin-top:4px;}
+  .tabs{display:flex;gap:8px;margin:14px 0 0;padding-bottom:12px;}
+  .tabs button{flex:1;padding:11px;border-radius:11px;border:1px solid var(--line);background:#10233f;color:var(--sub);font-weight:800;font-size:14px;cursor:pointer;}
+  .tabs button.on{background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;border-color:transparent;}
+  main{padding:4px 16px 40px;}
+  .meta{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--sub);margin:6px 2px 10px;}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;}
+  .chip{font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;border:1px solid var(--line);color:var(--sub);}
+  .chip b{color:var(--gold);}
+  .bar{height:5px;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden;margin:0 2px 14px;}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,#caa233,#e7b43d);width:0%;transition:width .25s;}
+  /* flashcard */
+  .fcard{background:var(--card);border:1px solid rgba(255,255,255,.1);border-radius:16px;min-height:230px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+    padding:26px 20px;cursor:pointer;user-select:none;position:relative;}
+  .fcard .tag{position:absolute;top:12px;left:14px;font-size:11px;font-weight:800;color:var(--gold);letter-spacing:1px;}
+  .fcard .flip{position:absolute;bottom:12px;font-size:11px;color:var(--sub);}
+  .fcard .ko{font-size:20px;font-weight:800;line-height:1.5;}
+  .fcard .en{font-size:22px;font-weight:900;color:var(--gold);line-height:1.4;}
+  .fcard .exm{font-size:14px;color:var(--sub);margin-top:12px;line-height:1.5;font-style:italic;}
+  .grades{display:flex;gap:8px;margin-top:12px;}
+  .grades button{flex:1;padding:13px 6px;border-radius:12px;border:1px solid var(--line);background:#10233f;color:var(--ink);font-weight:800;font-size:14px;cursor:pointer;}
+  .grades .g0{border-color:rgba(255,107,107,.5);color:var(--bad);}
+  .grades .g1{border-color:rgba(231,180,61,.5);color:var(--gold);}
+  .grades .g2{border-color:rgba(63,208,138,.5);color:var(--good);}
+  .grades button:active{transform:scale(.97);}
+  /* situation */
+  .scen{background:var(--card);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:16px;}
+  .scen .who{font-size:11px;font-weight:800;letter-spacing:1px;color:var(--gold);margin-bottom:8px;}
+  .bubble{background:#0e1d33;border:1px solid rgba(255,255,255,.1);border-radius:4px 16px 16px 16px;
+    padding:13px 14px;font-size:16px;line-height:1.55;font-weight:600;}
+  .bubble.scene{border-radius:12px;border-style:dashed;font-weight:500;color:var(--ink);}
+  textarea.ans{width:100%;margin-top:12px;padding:12px 13px;border-radius:11px;border:1px solid rgba(255,255,255,.14);
+    background:#0e1d33;color:var(--ink);font-size:16px;line-height:1.5;min-height:74px;resize:none;font-family:inherit;}
+  textarea.ans:focus{outline:none;border-color:var(--gold);}
+  textarea.ans.ok{border-color:var(--good);}
+  textarea.ans.no{border-color:var(--bad);animation:shake .3s;}
+  @keyframes shake{25%{transform:translateX(-5px);}75%{transform:translateX(5px);}}
+  .rowb{display:flex;gap:8px;margin-top:10px;}
+  .btn{flex:1;padding:13px;border-radius:12px;border:none;cursor:pointer;font-size:15px;font-weight:900;
+    background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;}
+  .btn.ghost{background:#10233f;color:var(--gold);border:1px solid var(--line);}
+  .btn[disabled]{opacity:.45;pointer-events:none;}
+  .hintbox{margin-top:10px;font-size:13px;color:var(--sub);line-height:1.6;background:#10233f;border:1px solid var(--line);border-radius:11px;padding:10px 12px;display:none;}
+  .result{margin-top:10px;border-radius:11px;padding:12px 13px;font-size:14px;line-height:1.6;display:none;}
+  .result.ok{background:rgba(63,208,138,.12);border:1px solid rgba(63,208,138,.4);}
+  .result.no{background:rgba(255,107,107,.1);border:1px solid rgba(255,107,107,.35);}
+  .result .mdl{font-weight:800;color:var(--gold);}
+  .done{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 20px;text-align:center;}
+  .done h2{font-size:20px;margin-bottom:8px;}
+  .done p{font-size:14px;color:var(--sub);line-height:1.7;margin-bottom:14px;}
+  .intro{font-size:13px;color:var(--sub);line-height:1.6;margin:0 0 12px;background:#10233f;border:1px solid var(--line);border-radius:12px;padding:11px 13px;}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="brand">DO ENGLISH WITH BRIAN</div>
+    <h1>Review Trainer · Frank</h1>
+    <div class="sub">표현 #31–50 · Business & Factory Tour</div>
+    <div class="tabs">
+      <button id="tabA" class="on" onclick="showTab('A')">🃏 카드 복습</button>
+      <button id="tabB" onclick="showTab('B')">💼 상황 훈련</button>
+    </div>
+  </header>
+  <main id="main"></main>
+</div>
+
+<script>
+// ================= DATA =================
+const ITEMS=[
+ {n:31,cat:"Following Up · 후속 연락",en:"follow up on",ko:"후속 조치를 하다",
+  ex:"I'll follow up on the samples we talked about.",
+  sc:{t:"buyer",txt:"We talked about samples last week, but I haven't heard anything since."},
+  model:"I'll follow up on the samples today and get back to you.",
+  re:/follow(s|ed|ing)? up/},
+ {n:32,cat:"Following Up · 후속 연락",en:"touch base",ko:"간단히 연락하다",
+  ex:"Just touching base to see how the review is going.",
+  sc:{t:"scene",txt:"A week has passed since your last meeting. Send the buyer a light, friendly check-in message."},
+  model:"Hi! Just touching base to see how the review is going.",
+  re:/touch(ing|ed)? base/},
+ {n:33,cat:"Following Up · 후속 연락",en:"shoot someone an email",ko:"이메일을 보내다",
+  ex:"I'll shoot you an email with the full catalog.",
+  sc:{t:"buyer",txt:"Could you send me the full catalog?"},
+  model:"Sure — I'll shoot you an email with the full catalog today.",
+  re:/shoot\b.{0,20}\bemail/},
+ {n:34,cat:"Pitching · 제품 어필",en:"stand out",ko:"돋보이다, 눈에 띄다",
+  ex:"This line really stands out on the shelf.",
+  sc:{t:"buyer",txt:"There are so many similar products out there. Why would yours get noticed?"},
+  model:"This line really stands out on the shelf — the design and the texture.",
+  re:/stand(s|ing)? out|stood out/},
+ {n:35,cat:"Pitching · 제품 어필",en:"a game changer",ko:"판도를 바꾸는 것",
+  ex:"Our new serum has been a real game changer.",
+  sc:{t:"buyer",txt:"Is this new serum really that special?"},
+  model:"It's been a real game changer for our brand.",
+  re:/game ?changer/},
+ {n:36,cat:"Pitching · 제품 어필",en:"cater to",ko:"(취향·요구에) 맞추다",
+  ex:"This product caters to sensitive skin.",
+  sc:{t:"buyer",txt:"Most of our customers have sensitive skin."},
+  model:"Perfect — this product caters to sensitive skin.",
+  re:/cater(s|ing|ed)? to/},
+ {n:37,cat:"Handling Problems · 문제 대응",en:"sort out",ko:"해결하다, 정리하다",
+  ex:"We'll sort out the shipping delay right away.",
+  sc:{t:"buyer",txt:"We just heard the shipment might be delayed. That's a real problem for us."},
+  model:"Don't worry — we'll sort out the delay right away.",
+  re:/sort(s|ing|ed)?\b.{0,25}\bout/},
+ {n:38,cat:"Handling Problems · 문제 대응",en:"on top of it",ko:"잘 챙기고 있다, 관리 중",
+  ex:"Don't worry — we're on top of it.",
+  sc:{t:"buyer",txt:"I'm still worried about the customs issue. Is anyone actually handling it?"},
+  model:"Don't worry — my team is on top of it.",
+  re:/on top of/},
+ {n:39,cat:"Closing · 마무리·확정",en:"lock in",ko:"확정하다, 고정하다",
+  ex:"Let's lock in the price before month-end.",
+  sc:{t:"buyer",txt:"Raw material prices keep moving these days."},
+  model:"Then let's lock in the price before month-end.",
+  re:/lock(s|ing|ed)?\b.{0,25}\bin\b/},
+ {n:40,cat:"Closing · 마무리·확정",en:"move forward with",ko:"~을 진행하다",
+  ex:"We're ready to move forward with the order.",
+  sc:{t:"buyer",txt:"Good news — the samples passed our internal review."},
+  model:"Great! Then we're ready to move forward with the first order.",
+  re:/mov(e|es|ing|ed) forward with/},
+ {n:41,cat:"Factory Tour · Welcome",en:"Thanks for coming all the way from ~",ko:"멀리 ~에서 와주셔서 감사합니다",
+  ex:"Thanks for coming all the way from India.",
+  sc:{t:"scene",txt:"Your Indian buyers have just arrived at the office after a ten-hour flight. Greet them."},
+  model:"Thanks for coming all the way from India — how was your flight?",
+  re:/(coming|came) all the way/},
+ {n:42,cat:"Factory Tour · Welcome",en:"show you around",ko:"안내해 드리다",
+  ex:"Let me show you around our facility.",
+  sc:{t:"scene",txt:"Greetings are done. It's time to start the factory tour — invite them."},
+  model:"Let me show you around our facility.",
+  re:/show (you|them) around/},
+ {n:43,cat:"Factory Tour · Welcome",en:"Right this way, please.",ko:"이쪽으로 오세요",
+  ex:"Right this way, please — we'll start with the filling line.",
+  sc:{t:"scene",txt:"You start walking toward the filling line. Guide your guests politely."},
+  model:"Right this way, please — we'll start with the filling line.",
+  re:/right this way/},
+ {n:44,cat:"Factory Tour · Explaining",en:"This is where we ~",ko:"여기가 저희가 ~하는 곳입니다",
+  ex:"This is where we fill and package the products.",
+  sc:{t:"scene",txt:"You've arrived at the packaging area. Explain what happens here."},
+  model:"This is where we fill and package the products.",
+  re:/this is where we/},
+ {n:45,cat:"Factory Tour · Explaining",en:"run",ko:"(라인이) 가동되다",
+  ex:"This line runs sixteen hours a day.",
+  sc:{t:"buyer",txt:"How many hours a day does this line operate?"},
+  model:"This line runs sixteen hours a day.",
+  re:/\brun(s|ning)?\b/},
+ {n:46,cat:"Factory Tour · Explaining",en:"capacity",ko:"생산 능력",
+  ex:"Our monthly capacity is about 500,000 units.",
+  sc:{t:"buyer",txt:"How many units can you produce in a month?"},
+  model:"Our monthly capacity is about 500,000 units.",
+  re:/capacity/},
+ {n:47,cat:"Factory Tour · Quality & Tech",en:"go through quality checks",ko:"품질 검사를 거치다",
+  ex:"Every batch goes through strict quality checks.",
+  sc:{t:"buyer",txt:"How do you keep the quality consistent?"},
+  model:"Every batch goes through strict quality checks.",
+  re:/quality (checks?|inspections?)/},
+ {n:48,cat:"Factory Tour · Quality & Tech",en:"state-of-the-art",ko:"최신식의",
+  ex:"This is our state-of-the-art mixing system.",
+  sc:{t:"scene",txt:"You're standing in front of your newest mixing system. Impress your guests."},
+  model:"This is our state-of-the-art mixing system.",
+  re:/state of the art/},
+ {n:49,cat:"Factory Tour · Guiding",en:"Watch your step.",ko:"발밑 조심하세요",
+  ex:"Watch your step — the floor can be slippery here.",
+  sc:{t:"scene",txt:"The stairs ahead are steep and a bit slippery. Warn your guests."},
+  model:"Watch your step — the stairs are steep here.",
+  re:/watch your step/},
+ {n:50,cat:"Factory Tour · Closing",en:"That wraps up our tour.",ko:"이것으로 견학을 마칩니다",
+  ex:"That wraps up our tour — any questions?",
+  sc:{t:"scene",txt:"The tour is finished and you're heading back to the meeting room. Close it out."},
+  model:"That wraps up our tour — any questions before we head back?",
+  re:/wrap(s|ped|ping)? up/},
+];
+
+// ================= STORAGE (IndexedDB) =================
+const DB='dewb_trainer', ST='kv', KEY='frank_31_50';
+function idb(){return new Promise((res,rej)=>{const r=indexedDB.open(DB,1);
+ r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(ST))r.result.createObjectStore(ST);};
+ r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error);});}
+async function save(){try{const d=await idb();await new Promise(r=>{const t=d.transaction(ST,'readwrite');
+ t.objectStore(ST).put(JSON.stringify(STATE),KEY); t.oncomplete=()=>r(1); t.onerror=()=>r(0);});}catch(e){}}
+async function load(){try{const d=await idb();return await new Promise(r=>{const t=d.transaction(ST,'readonly');
+ const q=t.objectStore(ST).get(KEY); q.onsuccess=()=>r(q.result?JSON.parse(q.result):null); q.onerror=()=>r(null);});}catch(e){return null;}}
+
+let STATE={box:{},seen:{},scOK:{},scTry:{}};  // box: 0새~3마스터
+const $=id=>document.getElementById(id);
+const BOXNAME=['새 카드','학습 중','익숙함','마스터'];
+
+let tab='A';
+function showTab(t){tab=t;$("tabA").classList.toggle('on',t==='A');$("tabB").classList.toggle('on',t==='B');
+ t==='A'?startCards():startScen();}
+
+window.addEventListener('load',async()=>{const s=await load(); if(s)STATE=Object.assign(STATE,s); startCards();});
+
+// ================= TAB A · FLASHCARDS =================
+let q=[],cur=null,flipped=false,doneCnt=0,total=0;
+function boxOf(n){return STATE.box[n]||0;}
+function startCards(){
+  q=ITEMS.slice().sort((a,b)=>{const d=boxOf(a.n)-boxOf(b.n); if(d)return d;
+    return (STATE.seen[a.n]||0)-(STATE.seen[b.n]||0);});
+  doneCnt=0; total=q.length; nextCard();
+}
+function boxChips(){const c=[0,0,0,0]; ITEMS.forEach(it=>c[boxOf(it.n)]++);
+  return c.map((v,i)=>`<span class="chip">${BOXNAME[i]} <b>${v}</b></span>`).join('');}
+function nextCard(){
+  if(!q.length){ $("main").innerHTML=`<div class="done"><h2>🎉 오늘 카드 완료!</h2>
+    <p>모든 카드를 한 바퀴 돌았어요.<br>몰랐던 카드는 다음 세션에서 먼저 나옵니다.</p>
+    <div class="chips" style="justify-content:center;margin-bottom:14px">${boxChips()}</div>
+    <button class="btn" onclick="startCards()">🔁 한 바퀴 더</button></div>`; return; }
+  cur=q.shift(); flipped=false; renderCard();
+}
+function renderCard(){
+  const pct=Math.round(doneCnt/total*100);
+  $("main").innerHTML=`
+   <div class="meta"><span>카드 ${doneCnt+1} / ${total}</span><div class="chips">${boxChips()}</div></div>
+   <div class="bar"><i style="width:${pct}%"></i></div>
+   <div class="fcard" onclick="flip()">
+     <span class="tag">#${cur.n} · ${cur.cat}</span>
+     ${flipped
+       ?`<div class="en">${cur.en}</div><div class="exm">"${cur.ex}"</div>`
+       :`<div class="ko">${cur.ko}</div>`}
+     <span class="flip">${flipped?'':'👆 탭해서 정답 확인'}</span>
+   </div>
+   ${flipped?`<div class="grades">
+     <button class="g0" onclick="grade(0)">😵 몰랐어요</button>
+     <button class="g1" onclick="grade(1)">🤔 애매해요</button>
+     <button class="g2" onclick="grade(2)">😎 알았어요</button></div>`
+   :`<div class="grades"><button style="opacity:.45;pointer-events:none">머릿속으로 영어 문장을 만든 뒤 카드를 탭!</button></div>`}`;
+}
+function flip(){ if(!flipped){flipped=true;renderCard();} }
+function grade(g){
+  STATE.seen[cur.n]=Date.now();
+  if(g===0){ STATE.box[cur.n]=0; q.splice(Math.min(3,q.length),0,cur); total++; }
+  else if(g===1){ STATE.box[cur.n]=Math.max(1,boxOf(cur.n)); q.splice(Math.min(7,q.length),0,cur); total++; }
+  else { STATE.box[cur.n]=Math.min(3,boxOf(cur.n)+1); }
+  doneCnt++; save(); nextCard();
+}
+
+// ================= TAB B · SITUATION TRAINING =================
+let sq=[],sc=null,hintStep=0,missed=[],okCnt=0,tryCnt=0;
+function norm(s){return (s||'').toLowerCase().replace(/[\u2018\u2019]/g,"'")
+  .replace(/[^a-z0-9' ]+/g,' ').replace(/\s+/g,' ').trim();}
+function startScen(){
+  sq=ITEMS.slice(); for(let i=sq.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[sq[i],sq[j]]=[sq[j],sq[i]];}
+  missed=[];okCnt=0;tryCnt=0; nextScen();
+}
+function nextScen(){
+  if(!sq.length){
+    if(missed.length){ const m=missed; missed=[]; sq=m;
+      $("main").innerHTML=`<div class="done"><h2>오답 라운드 🔥</h2>
+       <p>틀렸던 ${sq.length}개만 다시 돕니다. 이번엔 힌트 없이 가볼까요?</p>
+       <button class="btn" onclick="nextScen()">시작</button></div>`; return; }
+    $("main").innerHTML=`<div class="done"><h2>💼 상황 훈련 완료!</h2>
+     <p>정답 ${okCnt} / 시도 ${tryCnt}<br>표현이 상황에서 바로 나올 때까지 반복이 답이에요.</p>
+     <button class="btn" onclick="startScen()">🔁 다시 (새로 섞기)</button></div>`; return; }
+  sc=sq.shift(); hintStep=0; renderScen();
+}
+function renderScen(){
+  const isB=sc.sc.t==='buyer';
+  $("main").innerHTML=`
+   <div class="meta"><span>남은 상황 ${sq.length+1}</span><span>정답 ${okCnt} · 시도 ${tryCnt}</span></div>
+   <div class="intro">상황을 읽고 <b>Frank의 대답을 영어로</b> 입력하세요. 오늘 표현이 문장 안에 들어가면 정답 — 문장은 자유롭게!</div>
+   <div class="scen">
+     <div class="who">${isB?'🗣 BUYER SAYS':'📍 SITUATION'}</div>
+     <div class="bubble ${isB?'':'scene'}">${isB?'&quot;'+sc.sc.txt+'&quot;':sc.sc.txt}</div>
+     <textarea class="ans" id="ans" placeholder="Type Frank's response in English..." autocomplete="off"></textarea>
+     <div class="rowb">
+       <button class="btn" onclick="checkAns()">확인</button>
+       <button class="btn ghost" onclick="hint()">💡 힌트</button>
+     </div>
+     <div class="hintbox" id="hint"></div>
+     <div class="result" id="res"></div>
+   </div>`;
+  const ta=$("ans"); ta.focus();
+  ta.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();checkAns();}});
+}
+function hint(){
+  hintStep=Math.min(3,hintStep+1); const h=$("hint"); h.style.display='block';
+  const first=sc.model.split(' ').slice(0,3).join(' ');
+  const steps=[
+    `힌트 1 · 표현 <b>#${sc.n}</b> — ${sc.cat}`,
+    `힌트 2 · 이렇게 시작해요: <b>&quot;${first} ...&quot;</b>`,
+    `힌트 3 · 한국어 뜻: <b>${sc.ko}</b>`];
+  h.innerHTML=steps.slice(0,hintStep).join('<br>')
+    +(hintStep>=3?`<br><span style="color:var(--gold);cursor:pointer;font-weight:800" onclick="reveal()">👁 모범 답안 보기 (오답 처리)</span>`:'');
+}
+function reveal(){ tryCnt++; missed.push(sc); showResult(false,true); }
+function checkAns(){
+  const v=norm($("ans").value); if(!v)return;
+  tryCnt++;
+  if(sc.re.test(v)){ okCnt++; showResult(true,false); }
+  else{ const ta=$("ans"); ta.classList.remove('no'); void ta.offsetWidth; ta.classList.add('no');
+    const r=$("res"); r.className='result no'; r.style.display='block';
+    r.innerHTML=`아직이에요 — 오늘 표현 <b>#${sc.n}</b>이 문장에 안 보여요. 💡 힌트를 눌러보세요.`;
+    if(!missed.includes(sc)) missed.push(sc); }
+}
+function showResult(ok){
+  const r=$("res"); r.className='result ok'; r.style.display='block';
+  r.innerHTML=`${ok?'✅ 정답! 표현이 정확히 들어갔어요.':'📖 이 표현을 노렸던 상황이에요.'}<br>
+   <span class="mdl">#${sc.n} ${sc.en}</span> — ${sc.ko}<br>
+   모범 답안: <i>&quot;${sc.model}&quot;</i>`;
+  $("ans").classList.add('ok');
+  document.querySelector('.rowb').innerHTML=`<button class="btn" onclick="nextScen()">다음 →</button>`;
+}
+</script>
+</body>
+</html>
