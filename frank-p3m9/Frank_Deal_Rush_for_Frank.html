@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Deal Rush · Frank — Do English with Brian</title>
+<style>
+  :root{--gold:#FFC93C;--cyan:#38E8FF;--ink:#F5F8FF;--sub:#8FA3C8;--bad:#FF5D73;--good:#3FF0A0;}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#05070f;color:var(--ink);display:flex;justify-content:center;min-height:100vh;overflow-x:hidden;}
+  #app{width:100%;max-width:540px;min-height:100vh;position:relative;overflow:hidden;
+    background:radial-gradient(130% 60% at 50% -5%,#101c3d,#080d1e 60%,#05070f);}
+  #app.shake{animation:shk .35s;}
+  @keyframes shk{20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+  /* skyline backdrop */
+  .sky{position:absolute;bottom:0;left:0;right:0;height:150px;pointer-events:none;opacity:.5;z-index:0;}
+  .wrap{padding:18px 16px 40px;position:relative;z-index:1;}
+  .brand{font-size:11px;letter-spacing:2.5px;color:var(--gold);font-weight:800;text-align:center;}
+  .sndbtn{position:absolute;top:12px;right:12px;z-index:5;width:40px;height:40px;border-radius:50%;
+    border:1px solid rgba(255,255,255,.2);background:rgba(13,23,48,.8);color:var(--ink);font-size:17px;cursor:pointer;}
+  /* start / result */
+  .center{min-height:88vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:13px;}
+  .logo{font-size:46px;font-weight:900;line-height:1.05;
+    background:linear-gradient(180deg,#ffffff 15%,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 0 22px rgba(255,201,60,.35));}
+  .tagline{font-size:14px;color:var(--sub);line-height:1.7;}
+  .best{font-size:13px;color:var(--cyan);font-weight:800;letter-spacing:1px;}
+  .big{padding:16px 46px;border:none;border-radius:50px;font-size:18px;font-weight:900;cursor:pointer;
+    background:linear-gradient(135deg,#e0a52e,#ffc93c);color:#241703;box-shadow:0 0 28px rgba(255,201,60,.45);
+    animation:pulse 1.6s infinite;}
+  @keyframes pulse{50%{box-shadow:0 0 44px rgba(255,201,60,.75);}}
+  .big:active{transform:scale(.95);}
+  .roundtag{font-size:12px;font-weight:800;letter-spacing:2px;color:var(--cyan);}
+  .rank{font-size:26px;font-weight:900;color:var(--gold);}
+  /* hero characters */
+  .hero{display:flex;align-items:flex-end;gap:10px;font-size:52px;line-height:1;}
+  .hero .fr{animation:bob 1.4s ease-in-out infinite;}
+  .hero .vs{font-size:16px;font-weight:900;color:var(--bad);align-self:center;}
+  .hero .by{animation:bob 1.4s .7s ease-in-out infinite;}
+  @keyframes bob{50%{transform:translateY(-7px);}}
+  /* HUD */
+  .hud{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font-weight:900;}
+  .hud .score{font-size:21px;color:var(--gold);transition:transform .15s;}
+  .hud .score.pop{transform:scale(1.35);}
+  .hud .hearts{font-size:15px;letter-spacing:1px;}
+  .hud .hearts span.lost{animation:heartout .5s forwards;}
+  @keyframes heartout{to{transform:scale(2) rotate(30deg);opacity:0;}}
+  .combo{font-size:13px;font-weight:900;color:var(--cyan);text-align:center;min-height:18px;letter-spacing:1px;}
+  .combo.hot{animation:comboPop .35s;color:var(--gold);}
+  @keyframes comboPop{40%{transform:scale(1.5);}}
+  .qcount{font-size:12px;color:var(--sub);font-weight:700;}
+  .tbar{height:8px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden;margin:7px 0 12px;}
+  .tbar i{display:block;height:100%;width:100%;background:linear-gradient(90deg,#38e8ff,#3ff0a0);}
+  .tbar i.hurry{background:linear-gradient(90deg,#ff5d73,#ffc93c);}
+  /* buyer + question */
+  .stage{display:flex;gap:10px;align-items:flex-start;margin-bottom:12px;}
+  .avatar{font-size:44px;line-height:1;flex-shrink:0;filter:drop-shadow(0 4px 8px rgba(0,0,0,.5));animation:slideIn .3s;}
+  @keyframes slideIn{from{transform:translateX(-24px);opacity:0;}}
+  .qbox{flex:1;background:#0d1730;border:1px solid rgba(56,232,255,.25);border-radius:4px 16px 16px 16px;padding:14px;min-height:100px;
+    display:flex;flex-direction:column;justify-content:center;gap:7px;animation:slideIn .3s;}
+  .qtype{font-size:11px;font-weight:800;letter-spacing:1.5px;color:var(--cyan);}
+  .qmain{font-size:18px;font-weight:800;line-height:1.5;}
+  .qmain .bl{color:var(--gold);font-weight:900;}
+  .qsub{font-size:13px;color:var(--sub);}
+  .opts{display:grid;grid-template-columns:1fr;gap:9px;}
+  .opt{padding:14px;border-radius:13px;border:1px solid rgba(255,255,255,.14);background:#0c1428;
+    color:var(--ink);font-size:16px;font-weight:800;cursor:pointer;text-align:left;transition:transform .06s;}
+  .opt:active{transform:scale(.98);}
+  .opt.ok{background:rgba(63,240,160,.16);border-color:var(--good);color:var(--good);}
+  .opt.no{background:rgba(255,93,115,.14);border-color:var(--bad);color:var(--bad);}
+  .opt.dim{opacity:.35;pointer-events:none;}
+  .fb{text-align:center;font-size:14px;font-weight:800;min-height:24px;margin-top:11px;color:var(--sub);}
+  .fb .pts{color:var(--gold);font-size:19px;}
+  /* deal meter + stamp */
+  .deal{margin-top:14px;}
+  .deal .lbl{font-size:11px;font-weight:800;color:var(--sub);letter-spacing:1px;margin-bottom:5px;display:flex;justify-content:space-between;}
+  .dbar{height:12px;border-radius:6px;background:rgba(255,255,255,.07);overflow:hidden;border:1px solid rgba(255,201,60,.25);}
+  .dbar i{display:block;height:100%;width:0%;background:linear-gradient(90deg,#e0a52e,#ffc93c);transition:width .3s;}
+  .stamp{position:absolute;left:50%;top:38%;transform:translate(-50%,-50%) rotate(-14deg) scale(3);opacity:0;
+    border:4px solid var(--good);color:var(--good);border-radius:12px;padding:8px 18px;font-size:26px;font-weight:900;
+    letter-spacing:2px;pointer-events:none;z-index:9;background:rgba(5,7,15,.6);}
+  .stamp.show{animation:stampIn .6s forwards;}
+  @keyframes stampIn{60%{opacity:1;transform:translate(-50%,-50%) rotate(-14deg) scale(.95);}
+    75%{transform:translate(-50%,-50%) rotate(-14deg) scale(1.1);}100%{opacity:1;transform:translate(-50%,-50%) rotate(-14deg) scale(1);}}
+  .stat{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;font-size:14px;color:var(--sub);}
+  .stat b{color:var(--ink);}
+  /* particles */
+  .pt{position:absolute;font-size:20px;pointer-events:none;z-index:8;animation:fly .9s ease-out forwards;}
+  @keyframes fly{to{transform:translate(var(--dx),var(--dy)) rotate(var(--rot));opacity:0;}}
+</style>
+</head>
+<body>
+<div id="app">
+  <button class="sndbtn" id="snd" onclick="toggleSound()">🔊</button>
+  <svg class="sky" viewBox="0 0 540 150" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#0b1530">
+      <rect x="0" y="70" width="46" height="80"/><rect x="52" y="40" width="38" height="110"/>
+      <rect x="96" y="88" width="50" height="62"/><rect x="152" y="55" width="34" height="95"/>
+      <rect x="192" y="30" width="44" height="120"/><rect x="242" y="75" width="40" height="75"/>
+      <rect x="288" y="48" width="36" height="102"/><rect x="330" y="90" width="52" height="60"/>
+      <rect x="388" y="38" width="40" height="112"/><rect x="434" y="66" width="44" height="84"/>
+      <rect x="484" y="86" width="56" height="64"/>
+    </g>
+    <g fill="#FFC93C" opacity=".55">
+      <rect x="60" y="52" width="5" height="5"/><rect x="72" y="70" width="5" height="5"/><rect x="60" y="92" width="5" height="5"/>
+      <rect x="200" y="44" width="5" height="5"/><rect x="214" y="62" width="5" height="5"/><rect x="200" y="84" width="5" height="5"/>
+      <rect x="296" y="60" width="5" height="5"/><rect x="308" y="80" width="5" height="5"/>
+      <rect x="396" y="50" width="5" height="5"/><rect x="410" y="72" width="5" height="5"/><rect x="396" y="96" width="5" height="5"/>
+      <rect x="8" y="82" width="5" height="5"/><rect x="26" y="100" width="5" height="5"/>
+      <rect x="446" y="78" width="5" height="5"/><rect x="458" y="98" width="5" height="5"/>
+    </g>
+  </svg>
+  <div class="wrap" id="scr"></div>
+  <div class="stamp" id="stamp">DEAL! ✔</div>
+</div>
+
+<script>
+// ============ DATA (#31–50) ============
+const X=[
+ {n:31,en:"follow up on",ko:"후속 조치를 하다",ex:"I'll ____ the samples we talked about.",buyer:"We talked about samples last week, but I haven't heard anything since."},
+ {n:32,en:"touch base",ko:"간단히 연락하다",ex:"Just wanted to ____ before the weekend.",buyer:"Any particular reason for this call?"},
+ {n:33,en:"shoot you an email",ko:"이메일을 보내다",ex:"I'll ____ with the full catalog.",buyer:"Could you send me the full catalog?"},
+ {n:34,en:"stand out",ko:"돋보이다, 눈에 띄다",ex:"This line really ____s on the shelf.",buyer:"Why would your product get noticed among so many?"},
+ {n:35,en:"a game changer",ko:"판도를 바꾸는 것",ex:"Our new serum has been ____.",buyer:"Is this new serum really that special?"},
+ {n:36,en:"cater to",ko:"(취향·요구에) 맞추다",ex:"This product ____s sensitive skin.",buyer:"Most of our customers have sensitive skin."},
+ {n:37,en:"sort out",ko:"해결하다, 정리하다",ex:"We'll ____ the shipping delay right away.",buyer:"The shipment might be delayed. That's a problem for us."},
+ {n:38,en:"on top of it",ko:"잘 챙기고 있다",ex:"Don't worry — we're ____.",buyer:"Is anyone actually handling the customs issue?"},
+ {n:39,en:"lock in",ko:"확정하다, 고정하다",ex:"Let's ____ the price before month-end.",buyer:"Raw material prices keep moving these days."},
+ {n:40,en:"move forward with",ko:"~을 진행하다",ex:"We're ready to ____ the order.",buyer:"Good news — the samples passed our review."},
+ {n:41,en:"Thanks for coming all the way",ko:"멀리 와주셔서 감사합니다",ex:"____ from India — how was your flight?",buyer:"(인도에서 10시간 비행 후 막 도착한 바이어에게 첫마디)"},
+ {n:42,en:"show you around",ko:"안내해 드리다",ex:"Let me ____ our facility.",buyer:"(인사가 끝나고 공장 투어를 시작하려는 순간)"},
+ {n:43,en:"Right this way, please",ko:"이쪽으로 오세요",ex:"____ — we'll start with the filling line.",buyer:"(충전 라인 쪽으로 안내를 시작하며)"},
+ {n:44,en:"This is where we",ko:"여기가 저희가 ~하는 곳",ex:"____ fill and package the products.",buyer:"(포장 구역에 도착 — 무엇을 하는 곳인지 설명)"},
+ {n:45,en:"run",ko:"(라인이) 가동되다",ex:"This line ____s sixteen hours a day.",buyer:"How many hours a day does this line operate?"},
+ {n:46,en:"capacity",ko:"생산 능력",ex:"Our monthly ____ is about 500,000 units.",buyer:"How many units can you produce in a month?"},
+ {n:47,en:"go through quality checks",ko:"품질 검사를 거치다",ex:"Every batch ____s strict ____.",buyer:"How do you keep the quality consistent?"},
+ {n:48,en:"state-of-the-art",ko:"최신식의",ex:"This is our ____ mixing system.",buyer:"(최신 믹싱 설비 앞 — 자랑할 타이밍)"},
+ {n:49,en:"Watch your step",ko:"발밑 조심하세요",ex:"____ — the floor can be slippery here.",buyer:"(계단이 가파르고 바닥이 미끄러움 — 손님에게 한마디)"},
+ {n:50,en:"That wraps up our tour",ko:"이것으로 견학을 마칩니다",ex:"____ — any questions?",buyer:"(투어 종료, 회의실로 돌아가기 직전)"},
+];
+const ROUNDS=[
+ {tag:"ROUND 1 · BUSINESS DEALS",name:"딜 성사시키기",items:X.slice(0,10),avatars:["🤵","👩‍💼","🧔","👨‍💼"]},
+ {tag:"ROUND 2 · FACTORY TOUR",name:"공장 투어 접대",items:X.slice(10),avatars:["👷","👷‍♀️","🥽","🦺"]},
+];
+const RANKS=[[0,"인턴 🐣"],[2000,"주임 💼"],[4000,"대리 📈"],[6000,"과장 ✈️"],[8000,"글로벌 세일즈 킹 👑"]];
+
+// ============ SOUND (Web Audio 합성) ============
+let AC=null, soundOn=true, bgmTimer=null, bgmStep=0;
+function ac(){ if(!AC){ try{AC=new (window.AudioContext||window.webkitAudioContext)();}catch(e){} } 
+  if(AC&&AC.state==='suspended')AC.resume(); return AC;}
+function tone(f,dur,type,vol,when,slide){ const c=ac(); if(!c||!soundOn)return;
+  const t=c.currentTime+(when||0);
+  const o=c.createOscillator(),g=c.createGain();
+  o.type=type||'square'; o.frequency.setValueAtTime(f,t);
+  if(slide)o.frequency.exponentialRampToValueAtTime(slide,t+dur);
+  g.gain.setValueAtTime(0,t); g.gain.linearRampToValueAtTime(vol||.15,t+.01);
+  g.gain.exponentialRampToValueAtTime(.001,t+dur);
+  o.connect(g);g.connect(c.destination); o.start(t);o.stop(t+dur+.05);}
+function noise(dur,vol){ const c=ac(); if(!c||!soundOn)return;
+  const b=c.createBuffer(1,c.sampleRate*dur,c.sampleRate),d=b.getChannelData(0);
+  for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*(1-i/d.length);
+  const s=c.createBufferSource(),g=c.createGain(); s.buffer=b;
+  g.gain.value=vol||.12; s.connect(g);g.connect(c.destination); s.start();}
+const S={
+ pick(){tone(660,.06,'square',.08);},
+ ok(mult){ [523,659,784].forEach((f,i)=>tone(f*(1+(mult-1)*.12),.09,'square',.12,i*.06));
+   if(mult>=3)tone(1046,.15,'square',.12,.2);},
+ combo(m){tone(392+m*80,.07,'triangle',.14); tone(392+m*80,.07,'triangle',.12,.09);},
+ wrong(){tone(180,.25,'sawtooth',.16,0,110); noise(.15,.08);},
+ timeup(){tone(300,.12,'square',.14); tone(240,.2,'square',.14,.13);},
+ tick(){tone(880,.04,'square',.05);},
+ round(){[392,523,659,784].forEach((f,i)=>tone(f,.12,'triangle',.14,i*.1));},
+ clear(){[523,659,784,1046,1318].forEach((f,i)=>tone(f,.16,'triangle',.15,i*.11));
+   noise(.4,.05);},
+ over(){[392,330,262,196].forEach((f,i)=>tone(f,.2,'sawtooth',.13,i*.16));},
+ best(){[784,988,1175,1568].forEach((f,i)=>{tone(f,.12,'square',.13,i*.09);tone(f/2,.12,'triangle',.1,i*.09);});},
+ stamp(){tone(90,.15,'sine',.3,0,60); noise(.1,.15);},
+};
+// BGM: 가벼운 신스 루프 (게임 중에만)
+const BASS=[110,110,147,147,131,131,98,98], ARP=[440,554,659,554];
+function bgmStart(){ if(bgmTimer||!soundOn)return; bgmStep=0;
+  bgmTimer=setInterval(()=>{ if(!soundOn)return;
+    tone(BASS[bgmStep%8],.18,'triangle',.05);
+    if(bgmStep%2===0)tone(ARP[(bgmStep/2)%4],.1,'square',.025);
+    if(bgmStep%4===2)noise(.05,.02);
+    bgmStep++; },220);}
+function bgmStop(){clearInterval(bgmTimer);bgmTimer=null;}
+function toggleSound(){ soundOn=!soundOn; document.getElementById('snd').textContent=soundOn?'🔊':'🔇';
+  if(!soundOn)bgmStop(); else if(inGame)bgmStart(); }
+
+// ============ STORAGE ============
+const DB='dewb_trainer',ST='kv',KEY='frank_dealrush_best';
+function idb(){return new Promise((res,rej)=>{const r=indexedDB.open(DB,1);
+ r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(ST))r.result.createObjectStore(ST);};
+ r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});}
+async function saveBest(v){try{const d=await idb();d.transaction(ST,'readwrite').objectStore(ST).put(String(v),KEY);}catch(e){}}
+async function loadBest(){try{const d=await idb();return await new Promise(r=>{const q=d.transaction(ST,'readonly').objectStore(ST).get(KEY);
+ q.onsuccess=()=>r(parseInt(q.result||'0',10));q.onerror=()=>r(0);});}catch(e){return 0;}}
+
+// ============ GAME ============
+const $=id=>document.getElementById(id);
+let best=0,score=0,hearts=3,combo=0,round=0,qi=0,queue=[],timer=null,tLeft=0,answered=false,correctCnt=0,inGame=false,avatar='🤵';
+const QTIME=10;
+
+window.addEventListener('load',async()=>{best=await loadBest();start();});
+
+function particles(x,y,set){ const app=$("app"),r=app.getBoundingClientRect();
+  for(let i=0;i<10;i++){ const p=document.createElement('div'); p.className='pt';
+    p.textContent=set[Math.floor(Math.random()*set.length)];
+    p.style.left=(x-r.left)+'px'; p.style.top=(y-r.top)+'px';
+    p.style.setProperty('--dx',(Math.random()*220-110)+'px');
+    p.style.setProperty('--dy',(-Math.random()*200-40)+'px');
+    p.style.setProperty('--rot',(Math.random()*360-180)+'deg');
+    app.appendChild(p); setTimeout(()=>p.remove(),950);} }
+
+function start(){
+  inGame=false; bgmStop();
+  $("scr").innerHTML=`<div class="center">
+    <div class="brand">DO ENGLISH WITH BRIAN</div>
+    <div class="hero"><span class="fr">🕴️</span><span class="vs">VS</span><span class="by">🤵🏽</span></div>
+    <div class="logo">DEAL<br>RUSH</div>
+    <div class="tagline">바이어의 말이 날아온다 — 제한시간 안에<br>맞는 표현으로 딜을 성사시켜라! (#31–50)</div>
+    <div class="best">🏆 BEST ${best.toLocaleString()}</div>
+    <button class="big" onclick="newGame()">GAME START</button>
+    <div class="tagline" style="font-size:12px">❤️ 3 · 콤보 x4 · 빠를수록 보너스 · 🔊 사운드 ON 추천</div>
+  </div>`;
+}
+function newGame(){ ac(); score=0;hearts=3;combo=0;correctCnt=0;round=0; S.round(); roundIntro(); }
+function roundIntro(){
+  inGame=false; bgmStop();
+  const r=ROUNDS[round];
+  $("scr").innerHTML=`<div class="center">
+    <div class="roundtag">${r.tag}</div>
+    <div class="hero"><span class="fr">🕴️</span><span class="vs">VS</span><span class="by">${r.avatars[0]}</span></div>
+    <div class="logo" style="font-size:30px">${r.name}</div>
+    <div class="tagline">표현 ${r.items.length}개 · 문제당 ${QTIME}초</div>
+    <button class="big" onclick="beginRound()">GO!</button></div>`;
+}
+function beginRound(){ S.round(); inGame=true; bgmStart();
+  queue=shuffle(ROUNDS[round].items.slice()); qi=0; nextQ(); }
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function makeOptions(item){
+  const pool=shuffle(X.filter(x=>x.n!==item.n)).slice(0,3).map(x=>x.en);
+  return shuffle([item.en,...pool]);}
+
+function nextQ(){
+  if(hearts<=0)return gameOver(false);
+  if(qi>=queue.length){ round++; if(round>=ROUNDS.length)return gameOver(true); return roundIntro(); }
+  const item=queue[qi]; answered=false;
+  avatar=ROUNDS[round].avatars[qi%ROUNDS[round].avatars.length];
+  const mode=qi%3;
+  let qhtml='';
+  if(mode===0) qhtml=`<div class="qtype">💡 이 뜻의 표현은?</div><div class="qmain">${item.ko}</div>`;
+  else if(mode===1) qhtml=`<div class="qtype">🗣 이 상황, 어떤 표현으로 받을까?</div><div class="qmain" style="font-size:16px">${item.buyer}</div>`;
+  else qhtml=`<div class="qtype">✏️ 빈칸에 들어갈 표현은?</div><div class="qmain" style="font-size:16px">${item.ex.replace(/____/g,'<span class="bl">____</span>')}</div><div class="qsub">${item.ko}</div>`;
+  const opts=makeOptions(item), total=ROUNDS[round].items.length;
+  $("scr").innerHTML=`
+    <div class="hud">
+      <span class="score" id="sc">${score.toLocaleString()}</span>
+      <span class="qcount">${ROUNDS[round].tag.split('·')[0]}· Q${qi+1}/${total}</span>
+      <span class="hearts" id="hearts">${'❤️'.repeat(hearts)}${'🖤'.repeat(3-hearts)}</span>
+    </div>
+    <div class="combo" id="combo">${combo>1?'🔥 COMBO x'+Math.min(combo,4):''}</div>
+    <div class="tbar"><i id="tfill"></i></div>
+    <div class="stage"><div class="avatar">${avatar}</div><div class="qbox">${qhtml}</div></div>
+    <div class="opts">${opts.map(o=>`<button class="opt" onclick="pick(this,event)" data-v="${o.replace(/"/g,'&quot;')}">${o}</button>`).join('')}</div>
+    <div class="fb" id="fb"></div>
+    <div class="deal"><div class="lbl"><span>DEAL PROGRESS</span><span>${correctCnt}/${X.length}</span></div>
+      <div class="dbar"><i style="width:${correctCnt/X.length*100}%"></i></div></div>`;
+  startTimer(item);
+}
+function startTimer(item){
+  clearInterval(timer); tLeft=QTIME*10; let lastTick=99;
+  timer=setInterval(()=>{ tLeft--;
+    const f=$("tfill"); if(!f){clearInterval(timer);return;}
+    f.style.width=(tLeft/(QTIME*10)*100)+'%';
+    if(tLeft<=30){ f.classList.add('hurry');
+      const sec=Math.ceil(tLeft/10); if(sec<lastTick){lastTick=sec;S.tick();} }
+    if(tLeft<=0){clearInterval(timer); timeout(item);}
+  },100);}
+function timeout(item){
+  if(answered)return; answered=true; loseHeart(); S.timeup();
+  document.querySelectorAll('.opt').forEach(b=>{ b.classList.add(b.dataset.v===item.en?'ok':'dim'); b.style.pointerEvents='none';});
+  $("fb").innerHTML=`⏰ 시간 초과! 정답: <b style="color:var(--good)">${item.en}</b> (${item.ko})`;
+  shakeApp(); setTimeout(()=>{qi++;nextQ();},1700);}
+function loseHeart(){ combo=0;
+  const h=$("hearts"); if(h){ h.innerHTML='❤️'.repeat(Math.max(0,hearts-1))+'<span class="lost">❤️</span>'+'🖤'.repeat(3-hearts); }
+  hearts--; }
+function shakeApp(){ $("app").classList.add('shake'); setTimeout(()=>$("app").classList.remove('shake'),400); }
+function pick(btn,ev){
+  if(answered)return; answered=true; clearInterval(timer); S.pick();
+  const item=queue[qi], v=btn.dataset.v;
+  document.querySelectorAll('.opt').forEach(b=>b.style.pointerEvents='none');
+  if(v===item.en){
+    combo++; correctCnt++;
+    const mult=Math.min(combo,4), pts=100*mult+tLeft*2;
+    score+=pts;
+    btn.classList.add('ok');
+    document.querySelectorAll('.opt').forEach(b=>{if(b!==btn)b.classList.add('dim');});
+    S.ok(mult); if(mult>1){S.combo(mult); const c=$("combo"); c.textContent='🔥 COMBO x'+mult; c.classList.add('hot');}
+    const sc=$("sc"); sc.textContent=score.toLocaleString(); sc.classList.add('pop'); setTimeout(()=>sc.classList.remove('pop'),200);
+    particles(ev.clientX||innerWidth/2, ev.clientY||innerHeight/2, ['💰','✨','⭐','💵','🎉']);
+    if(correctCnt%5===0){ const st=$("stamp"); st.classList.remove('show'); void st.offsetWidth; st.classList.add('show'); S.stamp();
+      setTimeout(()=>st.classList.remove('show'),1100);}
+    $("fb").innerHTML=`<span class="pts">+${pts}</span> ${mult>1?'🔥 x'+mult:''} &nbsp; <i style="color:var(--sub);font-weight:600">"${item.ex.replace(/____/g,item.en)}"</i>`;
+    setTimeout(()=>{qi++;nextQ();},1300);
+  }else{
+    loseHeart(); S.wrong();
+    btn.classList.add('no');
+    document.querySelectorAll('.opt').forEach(b=>{ if(b.dataset.v===item.en)b.classList.add('ok'); else if(b!==btn)b.classList.add('dim');});
+    $("fb").innerHTML=`정답: <b style="color:var(--good)">${item.en}</b> (${item.ko})`;
+    shakeApp(); setTimeout(()=>{qi++;nextQ();},1700);
+  }
+}
+function rankOf(s){let r=RANKS[0][1]; for(const[min,name] of RANKS){if(s>=min)r=name;} return r;}
+function gameOver(clear){
+  clearInterval(timer); inGame=false; bgmStop();
+  const nb=score>best; if(nb){best=score;saveBest(best);}
+  if(clear)S.clear(); else S.over(); if(nb)setTimeout(()=>S.best(),700);
+  $("scr").innerHTML=`<div class="center">
+    <div class="roundtag">${clear?'🎉 ALL DEALS CLOSED!':'💥 GAME OVER'}</div>
+    <div class="hero" style="font-size:56px">${clear?'🕴️🤝'+ (round>0?'👷':'🤵🏽'):'🕴️💦'}</div>
+    <div class="logo" style="font-size:40px">${score.toLocaleString()}</div>
+    ${nb?'<div class="best">✨ NEW BEST!</div>':`<div class="best">🏆 BEST ${best.toLocaleString()}</div>`}
+    <div class="rank">${rankOf(score)}</div>
+    <div class="stat"><span>정답 <b>${correctCnt}/${X.length}</b></span><span>남은 하트 <b>${Math.max(0,hearts)}</b></span></div>
+    <button class="big" onclick="newGame()">RETRY</button>
+    <div class="tagline" style="font-size:12px">헷갈린 표현은 Review Trainer에서 다시 다지기!</div>
+  </div>`;
+  if(nb) setTimeout(()=>{ for(let i=0;i<3;i++) setTimeout(()=>particles(innerWidth/2, innerHeight/3,['🎉','✨','🏆','⭐']),i*250); },300);
+}
+</script>
+</body>
+</html>
