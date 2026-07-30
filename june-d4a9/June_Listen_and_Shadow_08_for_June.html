@@ -368,6 +368,21 @@ function stopPlayer(){
   if(player.btn){ player.btn.classList.remove('playing'); player.btn.innerHTML=player.label; }
   player={audio:null,btn:null,raf:0,label:""};
 }
+const durCache={};
+let _ac=null;
+function acGet(){ try{ if(!_ac) _ac=new (window.AudioContext||window.webkitAudioContext)(); return _ac; }catch(e){ return null; } }
+async function realDuration(src){
+  if(durCache[src]!==undefined) return durCache[src];
+  try{
+    const ac=acGet(); if(!ac) return (durCache[src]=null);
+    const res=await fetch(src); const buf=await res.arrayBuffer();
+    const decoded=await new Promise((ok,no)=>{
+      const r=ac.decodeAudioData(buf, ok, no);
+      if(r && r.then) r.then(ok, no);
+    });
+    return (durCache[src]=decoded.duration);
+  }catch(e){ return (durCache[src]=null); }
+}
 function playToggle(btn,src){
   if(!src||!btn) return;
   if(player.btn===btn){ stopPlayer(); return; }
@@ -377,16 +392,14 @@ function playToggle(btn,src){
   btn.classList.add('playing');
   btn.innerHTML='<span class="pbar"><span class="pfill"></span></span><span class="ptxt">■ 0:00</span>';
   const fill=btn.querySelector('.pfill'), txt=btn.querySelector('.ptxt');
-  audio.addEventListener('loadedmetadata',()=>{
-    if(audio.duration===Infinity || isNaN(audio.duration)){
-      audio.currentTime=1e101;
-      audio.addEventListener('timeupdate',function once(){ audio.currentTime=0; audio.removeEventListener('timeupdate',once); });
-    }
-  });
+  let knownDur=null;
+  realDuration(src).then(d=>{ if(d && isFinite(d) && d>0) knownDur=d; });
   function tick(){
     if(player.audio!==audio) return;
-    const d=audio.duration, c=audio.currentTime;
-    if(d && isFinite(d)){ fill.style.width=Math.min(100,c/d*100)+'%'; txt.textContent='■ '+fmtT(c)+' / '+fmtT(d); }
+    const c=audio.currentTime;
+    let d=audio.duration;
+    if(!(d && isFinite(d) && d>0)) d=knownDur;
+    if(d && isFinite(d) && d>0){ fill.style.width=Math.min(100,c/d*100)+'%'; txt.textContent='■ '+fmtT(c)+' / '+fmtT(d); }
     else { txt.textContent='■ '+fmtT(c); }
     player.raf=requestAnimationFrame(tick);
   }
