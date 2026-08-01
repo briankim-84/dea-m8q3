@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minkyung · Do English with Brian</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<style>
+  :root{ --navy:#1A2E4C; --gold:#C9A432; --paper:#FFFEF8; --line:#DCE4EE; --margin:#F2B8B8; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Pretendard',sans-serif;background:#CFC9BA;display:flex;justify-content:center;min-height:100vh;padding:20px 0;}
+  .note{width:100%;max-width:420px;margin:0 14px;background:var(--paper);border-radius:4px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);position:relative;overflow:hidden;
+    background-image:repeating-linear-gradient(transparent,transparent 31px,var(--line) 31px,var(--line) 32px);
+    padding:44px 26px 40px 58px;}
+  .note::before{content:'';position:absolute;left:42px;top:0;bottom:0;width:1px;background:var(--margin);}
+  .holes i{position:absolute;left:12px;width:12px;height:12px;border-radius:50%;background:#CFC9BA;box-shadow:inset 0 1px 2px rgba(0,0,0,.3);}
+  .tab{position:absolute;top:0;right:24px;background:var(--gold);color:#fff;font-size:10px;letter-spacing:2px;
+    font-weight:700;padding:10px 10px 12px;border-radius:0 0 6px 6px;writing-mode:vertical-rl;}
+  .date{font-family:'Nanum Pen Script';font-size:20px;color:#B0A78E;margin-bottom:2px;}
+  h1{font-family:'Nanum Pen Script';font-size:38px;color:var(--navy);line-height:1.15;margin-bottom:4px;}
+  h1 u{text-decoration-color:var(--gold);text-decoration-thickness:3px;text-underline-offset:5px;}
+  .sub{font-size:12px;color:#9B937E;margin-bottom:30px;}
+  .todo{display:flex;align-items:center;gap:14px;text-decoration:none;padding:14px 0;}
+  .chk{width:22px;height:22px;border:2px solid var(--navy);border-radius:5px;flex-shrink:0;background:#fff;}
+  .tx .t{font-size:16px;font-weight:700;color:var(--navy);}
+  .tx .d{font-size:11.5px;color:#A39A82;margin-top:2px;display:block;}
+  .go{margin-left:auto;font-family:'Nanum Pen Script';font-size:19px;color:var(--gold);white-space:nowrap;}
+  .memo{margin-top:30px;font-family:'Nanum Pen Script';font-size:21px;color:var(--navy);transform:rotate(-1deg);}
+  .memo b{background:linear-gradient(transparent 60%, rgba(201,164,50,.35) 60%);}
+  .foot{margin-top:20px;font-family:'Nanum Pen Script';font-size:20px;color:#B0A78E;}
+  .foot b{color:var(--gold);}
+</style>
+</head>
+<body>
+<div class="note">
+  <div class="holes"><i style="top:60px"></i><i style="top:200px"></i><i style="top:340px"></i><i style="top:480px"></i></div>
+  <div class="tab">MINKYUNG'S NOTE</div>
+  <div class="date">Do English with Brian ✎</div>
+  <h1><u>Minkyung의 오늘 할 일</u></h1>
+  <div class="sub">Minkyung님 전용 학습 노트</div>
+
+  <a class="todo" href="https://briankim-84.github.io/ss-x7q2m9/">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">Swipe &amp; Shadow</span><span class="d">영어 인터뷰 클립</span></span>
+    <span class="go">하러가기→</span>
+  </a>
+  <a class="todo" href="https://briankim-84.github.io/dea-shadow/shadow/">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">Listen &amp; Shadow · Movie</span><span class="d">영화 대사 쉐도잉</span></span>
+    <span class="go">하러가기→</span>
+  </a>
+  <a class="todo" href="after.html">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">After Class</span><span class="d">복습 자료 아카이브</span></span>
+    <span class="go">보러가기→</span>
+  </a>
+
+  <div class="memo">오늘 15분이면 충분해요. <b>소리 내서!</b></div>
+  <div class="foot">As always, <b>English with Brian</b> ✍</div>
+</div>
+</body>
+</html>
