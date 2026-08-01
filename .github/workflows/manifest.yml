@@ -1,0 +1,33 @@
+name: Update manifest
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["manifest.json"]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build manifest.json
+        run: |
+          python3 - << 'PY'
+          import os, json
+          out={}
+          for d in sorted(os.listdir('.')):
+              if os.path.isdir(d) and not d.startswith('.'):
+                  fs=[f for f in sorted(os.listdir(d))
+                      if f.lower().endswith('.html')
+                      and f.lower() not in ('index.html','after.html')]
+                  if fs: out[d]=fs
+          json.dump(out, open('manifest.json','w',encoding='utf-8'),
+                    ensure_ascii=False, indent=1)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "manifest-bot"
+          git config user.email "actions@github.com"
+          git add manifest.json
+          git diff --cached --quiet || git commit -m "manifest 자동 갱신 [skip ci]"
+          git push

@@ -49,12 +49,11 @@
 <script>
 const USER="briankim-84", REPO="dea-m8q3", FOLDER="frank-p3m9";
 
-// 파일명 → 표시 제목: 학생이름 접두어·"_for_이름"·버전꼬리(vf/vF2/v07)·확장자 제거, _ → 공백
 function labelOf(n){
   let s=n.replace(/\.html$/i,"")
          .replace(/^[A-Za-z]+_/, "")
          .replace(/_v[fF]?\d*$/,"")
-         .replace(/_for[_ ]*[A-Za-z]+$/i,"")
+         .replace(/_for[_ ]*[A-Za-z]+/gi,"")
          .replace(/_v[fF]?\d*$/,"")
          .replace(/_/g," ").replace(/\s+/g," ").trim();
   return s || n;
@@ -63,13 +62,13 @@ function kindOf(n){
   if(/listen.?and.?shadow/i.test(n)) return "쉐도잉";
   if(/quiz/i.test(n))                return "퀴즈";
   if(/vocab/i.test(n))               return "단어";
-  if(/game|quest|rush/i.test(n))     return "게임";
+  if(/game|quest|rush|world|tour|survive/i.test(n)) return "게임";
   if(/trainer/i.test(n))             return "트레이닝";
   return "자료";
 }
 function sortKey(n){
   const nums=(n.match(/\d+/g)||[]).map(Number);
-  return nums.length?Math.max(...nums):-1;   // 숫자 없는 파일은 맨 아래
+  return nums.length?Math.max(...nums):-1;
 }
 function render(files){
   const items=files
@@ -86,15 +85,23 @@ function render(files){
        <span class="k">${kindOf(f)}</span><span class="go">열기→</span></a>`).join("");
 }
 async function load(){
+  let files=null;
+  // 1순위: 같은 사이트의 manifest.json (한도 없음, Actions가 자동 갱신)
   try{
-    const r=await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/${FOLDER}`);
-    if(!r.ok) throw 0;
-    const d=await r.json();
-    render(d.filter(x=>x.type==="file").map(x=>x.name));
-  }catch(e){
+    const r=await fetch("../manifest.json?t="+Date.now());
+    if(r.ok){ const m=await r.json(); if(m[FOLDER]) files=m[FOLDER]; }
+  }catch(e){}
+  // 2순위: GitHub API 실시간 조회
+  if(files===null){
+    try{
+      const r=await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/${FOLDER}`);
+      if(r.ok){ const d=await r.json(); files=d.filter(x=>x.type==="file").map(x=>x.name); }
+    }catch(e){}
+  }
+  if(files===null){
     document.getElementById("list").innerHTML=
       '<div class="empty">목록을 불러오지 못했어요. 잠시 후 새로고침 해주세요.</div>';
-  }
+  } else render(files);
 }
 load();
 </script>
