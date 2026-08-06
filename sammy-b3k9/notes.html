@@ -79,13 +79,8 @@ function render(files){
 }
 async function load(){
   let files=null;
-  // 1순위: 같은 사이트의 manifest.json (한도 없음, Actions가 자동 갱신)
-  try{
-    const r=await fetch("../manifest.json?t="+Date.now());
-    if(r.ok){ const m=await r.json(); files=m[FOLDER]||[]; }   /* 키 없으면 = 자료 없음 */
-  }catch(e){}
-  // 2순위: GitHub API 실시간 조회
-  if(files===null){
+  // GitHub API로 폴더 목록 실시간 조회
+  {
     try{
       const r=await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/${FOLDER}`);
       if(r.ok){ const d=await r.json(); files=d.filter(x=>x.type==="file").map(x=>x.name); }
