@@ -72,7 +72,7 @@ function sortKey(n){
 }
 function render(files){
   const items=files
-    .filter(f=>/\.html$/i.test(f) && !/^(index|after)\.html$/i.test(f))
+    .filter(f=>/\.html$/i.test(f) && !/^(index|after|notes)\.html$/i.test(f))
     .sort((a,b)=>sortKey(b)-sortKey(a));
   if(!items.length){
     document.getElementById("list").innerHTML=
@@ -89,13 +89,14 @@ async function load(){
   // 1순위: 같은 사이트의 manifest.json (한도 없음, Actions가 자동 갱신)
   try{
     const r=await fetch("../manifest.json?t="+Date.now());
-    if(r.ok){ const m=await r.json(); if(m[FOLDER]) files=m[FOLDER]; }
+    if(r.ok){ const m=await r.json(); files=m[FOLDER]||[]; }
   }catch(e){}
   // 2순위: GitHub API 실시간 조회
   if(files===null){
     try{
       const r=await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/${FOLDER}`);
       if(r.ok){ const d=await r.json(); files=d.filter(x=>x.type==="file").map(x=>x.name); }
+      else if(r.status===404){ files=[]; }
     }catch(e){}
   }
   if(files===null){

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zini · After Class</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<style>
+  :root{ --navy:#1A2E4C; --gold:#C9A432; --paper:#FFFEF8; --line:#DCE4EE; --margin:#F2B8B8; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Pretendard',sans-serif;background:#CFC9BA;display:flex;justify-content:center;min-height:100vh;padding:20px 0;}
+  .note{width:100%;max-width:420px;margin:0 14px;background:var(--paper);border-radius:4px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);position:relative;overflow:hidden;
+    background-image:repeating-linear-gradient(transparent,transparent 31px,var(--line) 31px,var(--line) 32px);
+    padding:44px 26px 40px 58px;}
+  .note::before{content:'';position:absolute;left:42px;top:0;bottom:0;width:1px;background:var(--margin);}
+  .holes i{position:absolute;left:12px;width:12px;height:12px;border-radius:50%;background:#CFC9BA;box-shadow:inset 0 1px 2px rgba(0,0,0,.3);}
+  .tab{position:absolute;top:0;right:24px;background:var(--navy);color:#fff;font-size:10px;letter-spacing:2px;
+    font-weight:700;padding:10px 10px 12px;border-radius:0 0 6px 6px;writing-mode:vertical-rl;}
+  .back{font-family:'Nanum Pen Script';font-size:19px;color:#B0A78E;text-decoration:none;display:inline-block;margin-bottom:6px;}
+  .back:hover{color:var(--gold);}
+  h1{font-family:'Nanum Pen Script';font-size:38px;color:var(--navy);line-height:1.15;margin-bottom:4px;}
+  h1 u{text-decoration-color:var(--gold);text-decoration-thickness:3px;text-underline-offset:5px;}
+  .sub{font-size:12px;color:#9B937E;margin-bottom:24px;}
+  .item{display:flex;align-items:center;gap:12px;text-decoration:none;padding:11px 0 11px 4px;}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);flex-shrink:0;}
+  .item .t{font-size:14.5px;font-weight:700;color:var(--navy);line-height:1.35;}
+  .item .k{font-size:10.5px;color:#A39A82;background:rgba(201,164,50,.14);border-radius:4px;padding:2px 7px;margin-left:2px;white-space:nowrap;}
+  .item .go{margin-left:auto;font-family:'Nanum Pen Script';font-size:18px;color:var(--gold);white-space:nowrap;}
+  .empty,.loading{font-family:'Nanum Pen Script';font-size:21px;color:#B0A78E;padding:16px 0;}
+  .foot{margin-top:26px;font-family:'Nanum Pen Script';font-size:20px;color:#B0A78E;}
+  .foot b{color:var(--gold);}
+</style>
+</head>
+<body>
+<div class="note">
+  <div class="holes"><i style="top:60px"></i><i style="top:200px"></i><i style="top:340px"></i><i style="top:480px"></i></div>
+  <div class="tab">CLASS NOTES</div>
+  <a class="back" href="./">← 오늘 할 일로</a>
+  <h1><u>Zini의 Class Notes</u></h1>
+  <div class="sub">수업에서 함께 본 자료를 여기서 다시 볼 수 있어요 (최신순)</div>
+
+  <div id="list"><div class="loading">자료 불러오는 중… ✎</div></div>
+
+  <div class="foot">As always, <b>English with Brian</b> ✍</div>
+</div>
+
+<script>
+const USER="briankim-84", REPO="dea-m8q3", FOLDER="zini-q7m2";
+
+function labelOf(n){
+  let s=n.replace(/\.pdf$/i,"")
+         .replace(/^[A-Za-z]+_/, "")
+         .replace(/_v[fF]?\d*$/,"")
+         .replace(/_for[_ ]*[A-Za-z]+/gi,"")
+         .replace(/_v[fF]?\d*$/,"")
+         .replace(/_/g," ").replace(/\s+/g," ").trim();
+  return s || n;
+}
+function kindOf(n){ return "수업자료"; }
+function sortKey(n){
+  const nums=(n.match(/\d+/g)||[]).map(Number);
+  return nums.length?Math.max(...nums):-1;
+}
+function render(files){
+  const items=files
+    .filter(f=>/\.pdf$/i.test(f))
+    .sort((a,b)=>sortKey(b)-sortKey(a));
+  if(!items.length){
+    document.getElementById("list").innerHTML=
+      '<div class="empty">아직 올라온 수업 자료가 없어요. 곧 만나요! ✎</div>';
+    return;
+  }
+  document.getElementById("list").innerHTML=items.map(f=>
+    `<a class="item" href="${encodeURIComponent(f)}">
+       <span class="dot"></span><span class="t">${labelOf(f)}</span>
+       <span class="k">${kindOf(f)}</span><span class="go">열기→</span></a>`).join("");
+}
+async function load(){
+  let files=null;
+  // 1순위: 같은 사이트의 manifest.json (한도 없음, Actions가 자동 갱신)
+  try{
+    const r=await fetch("../manifest.json?t="+Date.now());
+    if(r.ok){ const m=await r.json(); files=m[FOLDER]||[]; }   /* 키 없으면 = 자료 없음 */
+  }catch(e){}
+  // 2순위: GitHub API 실시간 조회
+  if(files===null){
+    try{
+      const r=await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/${FOLDER}`);
+      if(r.ok){ const d=await r.json(); files=d.filter(x=>x.type==="file").map(x=>x.name); }
+      else if(r.status===404){ files=[]; }        /* 폴더 없음 = 아직 자료 없음 */
+    }catch(e){}
+  }
+  if(files===null){
+    document.getElementById("list").innerHTML=
+      '<div class="empty">목록을 불러오지 못했어요. 잠시 후 새로고침 해주세요.</div>';
+  } else render(files);
+}
+load();
+</script>
+</body>
+</html>

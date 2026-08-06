@@ -15,12 +15,13 @@ jobs:
           python3 - << 'PY'
           import os, json
           out={}
+          SKIP={'index.html','after.html','notes.html'}
           for d in sorted(os.listdir('.')):
-              if os.path.isdir(d) and not d.startswith('.'):
-                  fs=[f for f in sorted(os.listdir(d))
-                      if f.lower().endswith('.html')
-                      and f.lower() not in ('index.html','after.html')]
-                  if fs: out[d]=fs
+              if not os.path.isdir(d) or d.startswith('.'): continue
+              fs=[f for f in sorted(os.listdir(d))
+                  if (f.lower().endswith('.html') or f.lower().endswith('.pdf'))
+                  and f.lower() not in SKIP]
+              out[d]=fs
           json.dump(out, open('manifest.json','w',encoding='utf-8'),
                     ensure_ascii=False, indent=1)
           PY
