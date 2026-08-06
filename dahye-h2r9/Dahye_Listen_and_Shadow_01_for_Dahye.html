@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Listen &amp; Shadow 01 · Dahye · Do English with Brian</title>
+<style>
+  :root{--navy:#0E2038;--gold:#E7B43D;--ink:#F4F7FC;--sub:#9DB0CC;
+    --good:#3FD08A;--rec:#FF6B6B;--line:rgba(231,180,61,.22);--card:#13263f;--cust:#8FBCE8;}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#060f1f;color:var(--ink);display:flex;justify-content:center;min-height:100vh;}
+  #app{width:100%;max-width:540px;min-height:100vh;background:
+    radial-gradient(120% 50% at 50% 0%,#12294a,#0a1830 55%,#060f1f);}
+  header{padding:18px 18px 12px;position:sticky;top:0;z-index:5;
+    background:linear-gradient(180deg,#0e2545,#0e2545ee 70%,transparent);}
+  .brand{font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:800;}
+  h1{font-size:20px;font-weight:900;margin-top:3px;}
+  .sub{font-size:12.5px;color:var(--sub);margin-top:2px;}
+  .modeTag{display:inline-block;margin-top:6px;font-size:11px;font-weight:800;letter-spacing:1px;padding:3px 10px;border-radius:20px;}
+  .modeTag.rec{background:rgba(255,107,107,.16);color:var(--rec);border:1px solid rgba(255,107,107,.4);}
+  .modeTag.stu{background:rgba(63,208,138,.16);color:var(--good);border:1px solid rgba(63,208,138,.4);}
+  main{padding:8px 16px 150px;}
+  /* play-all bar */
+  #allbar{display:flex;gap:8px;align-items:center;margin:6px 0 14px;flex-wrap:wrap;}
+  #allbar .pill{flex:1;justify-content:center;}
+  #allCount{font-size:12.5px;color:var(--sub);font-weight:700;width:100%;text-align:center;}
+  .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px;margin-bottom:14px;transition:border-color .15s, box-shadow .15s;}
+  .card.active{border-color:var(--gold);box-shadow:0 0 0 2px rgba(231,180,61,.25);}
+  .top{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .num{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;
+    background:rgba(231,180,61,.16);color:var(--gold);font-weight:900;font-size:13px;}
+  .role{font-size:10.5px;font-weight:800;letter-spacing:1px;padding:2px 9px;border-radius:12px;}
+  .role.S{background:rgba(231,180,61,.14);color:var(--gold);}
+  .role.C{background:rgba(143,188,232,.14);color:var(--cust);}
+  .role.N{display:none;}
+  .ko{font-size:14px;color:var(--sub);margin-bottom:4px;}
+  .en{font-size:17px;font-weight:700;line-height:1.45;margin:4px 0 10px;}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0;}
+  .lbl{font-size:11px;color:var(--sub);font-weight:700;letter-spacing:.5px;width:100%;margin-bottom:-2px;}
+  .pill{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:11px;border:1px solid var(--line);
+    background:#16293f;color:var(--ink);font-size:14px;font-weight:700;cursor:pointer;transition:.12s;position:relative;overflow:hidden;}
+  .pill:active{transform:scale(.96);}
+  .pill:disabled{opacity:.35;cursor:default;}
+  .pill.gold{border-color:var(--gold);color:var(--gold);}
+  .pill.playing{border-color:var(--good);color:var(--good);}
+  .pill.recording{border-color:var(--rec);color:var(--rec);animation:pulse 1s infinite;}
+  .pill.done{border-color:var(--good);}
+  @keyframes pulse{50%{opacity:.6;}}
+  .pbar{position:absolute;left:0;bottom:0;height:3px;width:100%;background:rgba(255,255,255,.12);}
+  .pfill{display:block;height:100%;width:0%;background:var(--good);}
+  .ptxt{position:relative;}
+  footer{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:540px;
+    padding:12px 16px 18px;background:linear-gradient(0deg,#060f1f 65%,transparent);z-index:6;}
+  .bigbtn{width:100%;padding:14px;border-radius:12px;border:none;font-size:15px;font-weight:900;cursor:pointer;
+    background:linear-gradient(135deg,#caa233,#e7b43d);color:#1a1206;}
+  .bigbtn:disabled{opacity:.4;}
+  .hint{font-size:11.5px;color:var(--sub);text-align:center;margin-top:7px;}
+  .secHead{font-size:12px;font-weight:800;letter-spacing:1.5px;color:var(--gold);margin:18px 2px 10px;}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="brand">DO ENGLISH WITH BRIAN</div>
+    <h1>Listen &amp; Shadow 01 · Dahye</h1>
+    <div class="sub">Class 1 — Your Own Words</div>
+    <div id="modeTag"><span class="modeTag rec">🎙 선생님 녹음 모드</span></div>
+  </header>
+  <main id="main"><div class="secHead">PART 1 · ABOUT ME</div><div class="card" id="card-0">
+      <div class="top"><span class="num">1</span><span class="role N"></span></div>
+      <div class="ko">저는 1987년에 태어났어요.</div><div class="en">I was born in 1987.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill done" id="rec-0-slow" onclick="toggleRec(0,'slow')">↻ 다시 녹음</button>
+        <button class="pill gold" id="play-0-slow" onclick="playTeacher(this,0,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-0-normal" onclick="toggleRec(0,'normal')">● 녹음</button>
+        <button class="pill" id="play-0-normal" disabled="" onclick="playTeacher(this,0,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-1">
+      <div class="top"><span class="num">2</span><span class="role N"></span></div>
+      <div class="ko">11시부터 1시 사이엔 점심 먹을 여유가 있어요.</div><div class="en">I'm free for lunch between 11 and 1.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-1-slow" onclick="toggleRec(1,'slow')">● 녹음</button>
+        <button class="pill" id="play-1-slow" disabled="" onclick="playTeacher(this,1,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-1-normal" onclick="toggleRec(1,'normal')">● 녹음</button>
+        <button class="pill" id="play-1-normal" disabled="" onclick="playTeacher(this,1,'normal')">▶ 듣기</button></div>
+    </div><div class="secHead">PART 2 · MY WORK</div><div class="card" id="card-2">
+      <div class="top"><span class="num">3</span><span class="role N"></span></div>
+      <div class="ko">제일 힘들었던 건 현장과의 소통 차이였어요.</div><div class="en">The hardest part was the communication gap with the field.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-2-slow" onclick="toggleRec(2,'slow')">● 녹음</button>
+        <button class="pill" id="play-2-slow" disabled="" onclick="playTeacher(this,2,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-2-normal" onclick="toggleRec(2,'normal')">● 녹음</button>
+        <button class="pill" id="play-2-normal" disabled="" onclick="playTeacher(this,2,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-3">
+      <div class="top"><span class="num">4</span><span class="role N"></span></div>
+      <div class="ko">고객의 요청과 현장이 할 수 있는 것 사이를 조율해야 했어요.</div><div class="en">I had to manage between the customer's requests and what the field could do.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-3-slow" onclick="toggleRec(3,'slow')">● 녹음</button>
+        <button class="pill" id="play-3-slow" disabled="" onclick="playTeacher(this,3,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-3-normal" onclick="toggleRec(3,'normal')">● 녹음</button>
+        <button class="pill" id="play-3-normal" disabled="" onclick="playTeacher(this,3,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-4">
+      <div class="top"><span class="num">5</span><span class="role N"></span></div>
+      <div class="ko">저희 호텔은 매우 서비스 지향적이었어요.</div><div class="en">The hotel was very service-oriented.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-4-slow" onclick="toggleRec(4,'slow')">● 녹음</button>
+        <button class="pill" id="play-4-slow" disabled="" onclick="playTeacher(this,4,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-4-normal" onclick="toggleRec(4,'normal')">● 녹음</button>
+        <button class="pill" id="play-4-normal" disabled="" onclick="playTeacher(this,4,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-5">
+      <div class="top"><span class="num">6</span><span class="role N"></span></div>
+      <div class="ko">주말에는 극도로 바빴어요.</div><div class="en">It was extremely busy on weekends.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-5-slow" onclick="toggleRec(5,'slow')">● 녹음</button>
+        <button class="pill" id="play-5-slow" disabled="" onclick="playTeacher(this,5,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-5-normal" onclick="toggleRec(5,'normal')">● 녹음</button>
+        <button class="pill" id="play-5-normal" disabled="" onclick="playTeacher(this,5,'normal')">▶ 듣기</button></div>
+    </div><div class="secHead">PART 3 · SOLVING A PROBLEM</div><div class="card" id="card-6">
+      <div class="top"><span class="num">7</span><span class="role N"></span></div>
+      <div class="ko">먼저, 제가 해결해 봐요.</div><div class="en">First, I try to solve it myself.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-6-slow" onclick="toggleRec(6,'slow')">● 녹음</button>
+        <button class="pill" id="play-6-slow" disabled="" onclick="playTeacher(this,6,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-6-normal" onclick="toggleRec(6,'normal')">● 녹음</button>
+        <button class="pill" id="play-6-normal" disabled="" onclick="playTeacher(this,6,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-7">
+      <div class="top"><span class="num">8</span><span class="role N"></span></div>
+      <div class="ko">안 되면, 상사에게 보고해요.</div><div class="en">If it doesn't work, I raise it to my superior.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-7-slow" onclick="toggleRec(7,'slow')">● 녹음</button>
+        <button class="pill" id="play-7-slow" disabled="" onclick="playTeacher(this,7,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-7-normal" onclick="toggleRec(7,'normal')">● 녹음</button>
+        <button class="pill" id="play-7-normal" disabled="" onclick="playTeacher(this,7,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-8">
+      <div class="top"><span class="num">9</span><span class="role N"></span></div>
+      <div class="ko">그래도 안 되면, 고객에게 알리고 사과해요.</div><div class="en">If that also doesn't work, I inform the customer and apologize.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-8-slow" onclick="toggleRec(8,'slow')">● 녹음</button>
+        <button class="pill" id="play-8-slow" disabled="" onclick="playTeacher(this,8,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-8-normal" onclick="toggleRec(8,'normal')">● 녹음</button>
+        <button class="pill" id="play-8-normal" disabled="" onclick="playTeacher(this,8,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-9">
+      <div class="top"><span class="num">10</span><span class="role N"></span></div>
+      <div class="ko">그리고 대안이나 해결책을 제시해요.</div><div class="en">And I offer an alternative or a solution.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-9-slow" onclick="toggleRec(9,'slow')">● 녹음</button>
+        <button class="pill" id="play-9-slow" disabled="" onclick="playTeacher(this,9,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-9-normal" onclick="toggleRec(9,'normal')">● 녹음</button>
+        <button class="pill" id="play-9-normal" disabled="" onclick="playTeacher(this,9,'normal')">▶ 듣기</button></div>
+    </div><div class="secHead">PART 4 · GOOD WORDS</div><div class="card" id="card-10">
+      <div class="top"><span class="num">11</span><span class="role N"></span></div>
+      <div class="ko">긴 하루가 끝나면 가끔 멍해져요.</div><div class="en">Sometimes I space out after a long day.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-10-slow" onclick="toggleRec(10,'slow')">● 녹음</button>
+        <button class="pill" id="play-10-slow" disabled="" onclick="playTeacher(this,10,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-10-normal" onclick="toggleRec(10,'normal')">● 녹음</button>
+        <button class="pill" id="play-10-normal" disabled="" onclick="playTeacher(this,10,'normal')">▶ 듣기</button></div>
+    </div><div class="card" id="card-11">
+      <div class="top"><span class="num">12</span><span class="role N"></span></div>
+      <div class="ko">직접 만나서 설명드리는 게 좋아요.</div><div class="en">I'd rather explain it in person.</div>
+      <div class="row"><span class="lbl">🐢 느리게</span>
+        <button class="pill" id="rec-11-slow" onclick="toggleRec(11,'slow')">● 녹음</button>
+        <button class="pill" id="play-11-slow" disabled="" onclick="playTeacher(this,11,'slow')">▶ 듣기</button></div>
+      <div class="row"><span class="lbl">🚀 보통 속도</span>
+        <button class="pill" id="rec-11-normal" onclick="toggleRec(11,'normal')">● 녹음</button>
+        <button class="pill" id="play-11-normal" disabled="" onclick="playTeacher(this,11,'normal')">▶ 듣기</button></div>
+    </div></main>
+  <footer id="footer"><button class="bigbtn" onclick="makeStudentFile()">📤 학생용 파일 만들기</button>
+    <div class="hint">녹음 완료 1 / 24</div></footer>
+</div>
+<script>
+var MODE="student";/*__MODE__*/
+var DATA={"sentences":[{"sec":"PART 1 · ABOUT ME","ko":"저는 1987년에 태어났어요.","en":"I was born in 1987."},{"ko":"11시부터 1시 사이엔 점심 먹을 여유가 있어요.","en":"I'm free for lunch between 11 and 1."},{"sec":"PART 2 · MY WORK","ko":"제일 힘들었던 건 현장과의 소통 차이였어요.","en":"The hardest part was the communication gap with the field."},{"ko":"고객의 요청과 현장이 할 수 있는 것 사이를 조율해야 했어요.","en":"I had to manage between the customer's requests and what the field could do."},{"ko":"저희 호텔은 매우 서비스 지향적이었어요.","en":"The hotel was very service-oriented."},{"ko":"주말에는 극도로 바빴어요.","en":"It was extremely busy on weekends."},{"sec":"PART 3 · SOLVING A PROBLEM","ko":"먼저, 제가 해결해 봐요.","en":"First, I try to solve it myself."},{"ko":"안 되면, 상사에게 보고해요.","en":"If it doesn't work, I raise it to my superior."},{"ko":"그래도 안 되면, 고객에게 알리고 사과해요.","en":"If that also doesn't work, I inform the customer and apologize."},{"ko":"그리고 대안이나 해결책을 제시해요.","en":"And I offer an alternative or a solution."},{"sec":"PART 4 · GOOD WORDS","ko":"긴 하루가 끝나면 가끔 멍해져요.","en":"Sometimes I space out after a long day."},{"ko":"직접 만나서 설명드리는 게 좋아요.","en":"I'd rather explain it in person."}],"audio":{"0_slow":"data:audio/mp4;codecs=opus;base64,AAAAJGZ0eXBpc29tAAACAGlzb21pc282aXNvMnZwMDltcDQxAAACXW1vb3YAAAB4bXZoZAEAAAAAAAAA5pmdKAAAAADmmZ0oAAAD6AAAAAAAABC4AAEAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAG1dHJhawAAAGh0a2hkAQAAAwAAAADmmZ0oAAAAAOaZnSgAAAABAAAAAAAAAAAAABC4AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRW1kaWEAAAAsbWRoZAEAAAAAAAAA5pmdKAAAAADmmZ0oAAC7gAAAAAAAABC4VcQAAAAAAC1oZGxyAAAAAAAAAABzb3VuAAAAAAAAAAAAAAAAU291bmRIYW5kbGVyAAAAAORtaW5mAAAAEHNtaGQAAAAAAAAAAAAAACVkaW5mAAAAHWRyZWYAAAAAAAAAAQAAAA11cmwgAAAAAQAAAACnc3RibAAAABBzdHNjAAAAAAAAAAAAAAAQc3R0cwAAAAAAAAAAAAAAFHN0c3oAAAAAAAAAAAAAAAAAAAAQc3RjbwAAAAAAAAAAAAAAW3N0c2QAAAAAAAAAAQAAAEtPcHVzAAAAAAAAAAEAAAAAAAAAAAABABAAAAAAu4AAAAAAABRidHJ0AAAAAAAAAAAAAAAAAAAAE2RPcHMAAQ8AAAC7gAAAAAAAAChtdmV4AAAAIHRyZXgAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAKcbW9vZgAAABBtZmhkAAAAAAAAAAEAAAKEdHJhZgAAABR0ZmhkAAIAIAAAAAECAAAAAAAAFHRmZHQBAAAAAAAAAAAAAAAAAAJUdHJ1bgEAAwEAAABIAAACpAAAC0sAAAAIAAALTAAAAAgAAAs2AAAACAAACyUAAAAIAAALRwAAAAgAAAs0AAAACAAAC1gAAAAIAAALKQAAAAgAAAtDAAAACAAAC14AAAAIAAALKgAAAAgAAAtTAAAACAAACycAAAAIAAALYgAAAAgAAAspAAAACAAACzEAAAAIAAALVQAAAAgAAAsiAAAACAAAC1IAAAAIAAALPwAAAAgAAAs+AAAACAAAC08AAAAIAAALLAAAAAgAAAtEAAAACAAACzwAAAAIAAALWgAAAAgAAAseAAAACAAAC2MAAAAIAAALSAAAAAgAAAs/AAAACAAACzgAAAAIAAALFgAAAAgAAAtdAAAACAAACzEAAAAIAAALNQAAAAgAAAtFAAAACAAAC08AAAAIAAALNgAAAAgAAAtDAAAACAAACz8AAAAIAAALRAAAAAgAAAtBAAAACAAACy0AAAAIAAALZAAAAAgAAAs6AAAACAAACzgAAAAIAAALIAAAAAgAAAtMAAAACAAACzcAAAAIAAALVQAAAAgAAAtJAAAACAAACycAAAAIAAALQAAAAAgAAAtEAAAACAAAC08AAAAIAAALSwAAAAgAAAseAAAACAAAC10AAAAIAAALJAAAAAgAAAtPAAAACAAAC1MAAAAIAAALGQAAAAgAAAteAAAACAAACxsAAAAIAAALRQAAAAgAAAs4AAAACAAAC1sAAAAIAAALMwAAAAgAAAtXAAAACAAACzcAAAAIAAALKwAAAAgAAAPwAAAACAAAAkhtZGF0+wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/++wP//v/+//77A//+//7//vsD//7//v/+","0_normal":null,"1_slow":null,"1_normal":null,"2_slow":null,"2_normal":null,"3_slow":null,"3_normal":null,"4_slow":null,"4_normal":null,"5_slow":null,"5_normal":null,"6_slow":null,"6_normal":null,"7_slow":null,"7_normal":null,"8_slow":null,"8_normal":null,"9_slow":null,"9_normal":null,"10_slow":null,"10_normal":null,"11_slow":null,"11_normal":null}};/*__DATA__*/
+const SENTENCES=[{"sec": "PART 1 · ABOUT ME", "ko": "저는 1987년에 태어났어요.", "en": "I was born in 1987."}, {"ko": "11시부터 1시 사이엔 점심 먹을 여유가 있어요.", "en": "I'm free for lunch between 11 and 1."}, {"sec": "PART 2 · MY WORK", "ko": "제일 힘들었던 건 현장과의 소통 차이였어요.", "en": "The hardest part was the communication gap with the field."}, {"ko": "고객의 요청과 현장이 할 수 있는 것 사이를 조율해야 했어요.", "en": "I had to manage between the customer's requests and what the field could do."}, {"ko": "저희 호텔은 매우 서비스 지향적이었어요.", "en": "The hotel was very service-oriented."}, {"ko": "주말에는 극도로 바빴어요.", "en": "It was extremely busy on weekends."}, {"sec": "PART 3 · SOLVING A PROBLEM", "ko": "먼저, 제가 해결해 봐요.", "en": "First, I try to solve it myself."}, {"ko": "안 되면, 상사에게 보고해요.", "en": "If it doesn't work, I raise it to my superior."}, {"ko": "그래도 안 되면, 고객에게 알리고 사과해요.", "en": "If that also doesn't work, I inform the customer and apologize."}, {"ko": "그리고 대안이나 해결책을 제시해요.", "en": "And I offer an alternative or a solution."}, {"sec": "PART 4 · GOOD WORDS", "ko": "긴 하루가 끝나면 가끔 멍해져요.", "en": "Sometimes I space out after a long day."}, {"ko": "직접 만나서 설명드리는 게 좋아요.", "en": "I'd rather explain it in person."}];
+const EXPORT_NAME="Dahye_Listen_and_Shadow_01_for_Dahye.html";
+const IDB_NS="dahye01";
+
+const $=id=>document.getElementById(id);
+let teacherAudio={}, myRec={}, mediaRec=null, chunks=[], recKey=null;
+
+/* ===== IndexedDB (student self-recordings) ===== */
+function idb(){ return new Promise((res,rej)=>{ const r=indexedDB.open("dewb_ls",1);
+  r.onupgradeneeded=()=>r.result.createObjectStore("rec");
+  r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); }); }
+async function idbSet(k,v){ try{ const d=await idb(); return new Promise(res=>{ const t=d.transaction("rec","readwrite");
+  t.objectStore("rec").put(v,IDB_NS+"_"+k); t.oncomplete=()=>res(true); t.onerror=()=>res(false); }); }catch(e){ return false; } }
+async function idbGet(k){ try{ const d=await idb(); return new Promise(res=>{ const t=d.transaction("rec","readonly");
+  const q=t.objectStore("rec").get(IDB_NS+"_"+k); q.onsuccess=()=>res(q.result||null); q.onerror=()=>res(null); }); }catch(e){ return null; } }
+
+/* ===== duration via Web Audio (NO currentTime hack) ===== */
+let actx=null; const durCache={};
+async function getDuration(src){
+  if(durCache[src]!==undefined) return durCache[src];
+  try{
+    actx=actx||new (window.AudioContext||window.webkitAudioContext)();
+    const buf=await (await fetch(src)).arrayBuffer();
+    const ab=await actx.decodeAudioData(buf);
+    durCache[src]=ab.duration; return ab.duration;
+  }catch(e){ durCache[src]=0; return 0; }
+}
+function fmtT(t){ t=Math.max(0,Math.floor(t||0)); return Math.floor(t/60)+':'+String(t%60).padStart(2,'0'); }
+
+/* ===== mic / recording ===== */
+function pickMime(){
+  const c=['audio/mp4','audio/mp4;codecs=mp4a.40.2','audio/aac','audio/webm;codecs=opus','audio/webm'];
+  if(window.MediaRecorder && MediaRecorder.isTypeSupported){ for(const t of c){ if(MediaRecorder.isTypeSupported(t)) return t; } }
+  return '';
+}
+let sharedMic=null;
+function micAlive(s){ try{ return !!s && s.getAudioTracks().some(t=>t.readyState==='live'); }catch(e){ return false; } }
+async function freshMic(){
+  if(micAlive(sharedMic)) return sharedMic;
+  try{ sharedMic=await navigator.mediaDevices.getUserMedia({audio:true}); return sharedMic; }
+  catch(e){ alert("마이크 접근이 필요합니다. 브라우저 권한을 허용해주세요."); return null; }
+}
+
+/* ===== unified single player ===== */
+let player={audio:null,btn:null,raf:0,label:""};
+function stopPlayer(){
+  if(player.raf) cancelAnimationFrame(player.raf);
+  if(player.audio){ try{player.audio.pause();}catch(e){} }
+  if(player.btn){ player.btn.classList.remove('playing'); player.btn.innerHTML=player.label; }
+  player={audio:null,btn:null,raf:0,label:""};
+}
+async function playToggle(btn,src){
+  if(!src||!btn) return;
+  if(player.btn===btn){ stopPlayer(); return; }
+  stopAll(); // stops play-all too
+  const dur=await getDuration(src);
+  const audio=new Audio(src);
+  player.audio=audio; player.btn=btn; player.label=btn.innerHTML;
+  btn.classList.add('playing');
+  btn.innerHTML='<span class="pbar"><span class="pfill"></span></span><span class="ptxt">\u25a0 0:00</span>';
+  const fill=btn.querySelector('.pfill'), txt=btn.querySelector('.ptxt');
+  function tick(){
+    if(!player.audio) return;
+    const t=audio.currentTime;
+    if(dur>0){ fill.style.width=Math.min(100,t/dur*100)+'%'; }
+    txt.textContent='\u25a0 '+fmtT(t);
+    player.raf=requestAnimationFrame(tick);
+  }
+  audio.onended=()=>stopPlayer();
+  audio.play().then(()=>{ player.raf=requestAnimationFrame(tick); }).catch(()=>stopPlayer());
+}
+
+/* ===== continuous play-all (student mode) ===== */
+let seq={on:false,idx:0,speed:'normal',audio:null,timer:0};
+function stopSeq(){
+  seq.on=false;
+  if(seq.timer) clearTimeout(seq.timer);
+  if(seq.audio){ try{seq.audio.pause();}catch(e){} seq.audio=null; }
+  document.querySelectorAll('.card.active').forEach(c=>c.classList.remove('active'));
+  ['allSlow','allNorm'].forEach(id=>{ const b=$(id); if(b){ b.classList.remove('playing'); b.innerHTML=b.dataset.label; } });
+  updateCount('');
+}
+function stopAll(){ stopPlayer(); stopSeq(); }
+function updateCount(t){ const c=$('allCount'); if(c) c.textContent=t; }
+function playAll(speed){
+  const btn = speed==='slow'?$('allSlow'):$('allNorm');
+  if(seq.on && seq.speed===speed){ stopSeq(); return; }
+  stopAll();
+  seq={on:true,idx:0,speed:speed,audio:null,timer:0};
+  btn.classList.add('playing'); btn.innerHTML='\u25a0 정지';
+  playSeqStep();
+}
+function playSeqStep(){
+  if(!seq.on) return;
+  const N=DATA.sentences.length;
+  // skip sentences without audio
+  while(seq.idx<N && !DATA.audio[seq.idx+'_'+seq.speed]) seq.idx++;
+  if(seq.idx>=N){ stopSeq(); return; }
+  const i=seq.idx, src=DATA.audio[i+'_'+seq.speed];
+  document.querySelectorAll('.card.active').forEach(c=>c.classList.remove('active'));
+  const card=$('card-'+i);
+  if(card){ card.classList.add('active'); card.scrollIntoView({behavior:'smooth',block:'center'}); }
+  updateCount((i+1)+' / '+N);
+  const a=new Audio(src); seq.audio=a;
+  a.onended=()=>{ if(!seq.on) return; seq.idx++; seq.timer=setTimeout(playSeqStep,700); };
+  a.play().catch(()=>stopSeq());
+}
+
+/* ===== RECORD MODE ===== */
+function initRecord(){
+  $('modeTag').innerHTML='<span class="modeTag rec">\uD83C\uDF99 선생님 녹음 모드</span>';
+  const m=$('main'); let h='';
+  SENTENCES.forEach((s,i)=>{
+    if(s.sec) h+=`<div class="secHead">${s.sec}</div>`;
+    h+=`<div class="card" id="card-${i}">
+      <div class="top"><span class="num">${i+1}</span>${roleChip(s)}</div>
+      <div class="ko">${s.ko}</div><div class="en">${s.en}</div>
+      <div class="row"><span class="lbl">\uD83D\uDC22 느리게</span>
+        <button class="pill" id="rec-${i}-slow" onclick="toggleRec(${i},'slow')">\u25CF 녹음</button>
+        <button class="pill" id="play-${i}-slow" disabled onclick="playTeacher(this,${i},'slow')">\u25B6 듣기</button></div>
+      <div class="row"><span class="lbl">\uD83D\uDE80 보통 속도</span>
+        <button class="pill" id="rec-${i}-normal" onclick="toggleRec(${i},'normal')">\u25CF 녹음</button>
+        <button class="pill" id="play-${i}-normal" disabled onclick="playTeacher(this,${i},'normal')">\u25B6 듣기</button></div>
+    </div>`;
+  });
+  m.innerHTML=h; refreshFooter();
+}
+function roleChip(s){
+  if(!s.role) return '<span class="role N"></span>';
+  const cls=s.role==='C'?'C':'S';
+  const label=s.role==='C'?'\uD83D\uDC64 손님':'\uD83C\uDFE8 다혜';
+  return `<span class="role ${cls}">${label}</span>`;
+}
+async function toggleRec(i,speed){
+  const btn=$(`rec-${i}-${speed}`);
+  if(mediaRec && mediaRec.state==='recording'){ mediaRec.stop(); return; }
+  const mic=await freshMic(); if(!mic) return;
+  stopAll();
+  chunks=[]; recKey=i+'_'+speed;
+  const mt=pickMime();
+  mediaRec = mt ? new MediaRecorder(mic,{mimeType:mt}) : new MediaRecorder(mic);
+  mediaRec.ondataavailable=e=>{ if(e.data.size>0)chunks.push(e.data); };
+  mediaRec.onstop=()=>{
+    const blob=new Blob(chunks,{type:mediaRec.mimeType||mt||'audio/mp4'});
+    const fr=new FileReader();
+    fr.onload=()=>{ teacherAudio[recKey]=fr.result; markDone(recKey); refreshFooter(); };
+    fr.readAsDataURL(blob);
+    document.querySelectorAll('.pill.recording').forEach(b=>{b.classList.remove('recording');b.innerHTML='\u25CF 녹음';});
+  };
+  mediaRec.start();
+  document.querySelectorAll('.pill.recording').forEach(b=>{b.classList.remove('recording');b.innerHTML='\u25CF 녹음';});
+  btn.classList.add('recording'); btn.innerHTML='\u25A0 정지';
+}
+function markDone(key){
+  const [i,sp]=key.split('_');
+  const r=$(`rec-${i}-${sp}`), p=$(`play-${i}-${sp}`);
+  if(r){ r.classList.add('done'); r.innerHTML='\u21BB 다시 녹음'; }
+  if(p){ p.disabled=false; p.classList.add('gold'); }
+}
+function playTeacher(btn,i,speed){ playToggle(btn,teacherAudio[i+'_'+speed]); }
+function refreshFooter(){
+  const total=SENTENCES.length*2;
+  let done=0; SENTENCES.forEach((s,i)=>{ if(teacherAudio[i+'_slow'])done++; if(teacherAudio[i+'_normal'])done++; });
+  $('footer').innerHTML=`<button class="bigbtn" ${done===0?'disabled':''} onclick="makeStudentFile()">\uD83D\uDCE4 학생용 파일 만들기</button>
+    <div class="hint">녹음 완료 ${done} / ${total}</div>`;
+}
+function makeStudentFile(){
+  const data={ sentences:SENTENCES, audio:{} };
+  SENTENCES.forEach((s,i)=>{
+    data.audio[i+'_slow']=teacherAudio[i+'_slow']||null;
+    data.audio[i+'_normal']=teacherAudio[i+'_normal']||null;
+  });
+  let html=document.documentElement.outerHTML;
+  html=html.replace('var MODE="record";/*__'+'MODE__*/','var MODE="student";/*__'+'MODE__*/');
+  html=html.replace('var DATA=null;/*__'+'DATA__*/','var DATA='+JSON.stringify(data)+';/*__'+'DATA__*/');
+  html='<!DOCTYPE html>\n'+html;
+  const blob=new Blob([html],{type:'text/html'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=EXPORT_NAME;
+  document.body.appendChild(a); a.click(); a.remove();
+}
+
+/* ===== STUDENT MODE ===== */
+function initStudent(){
+  $('modeTag').innerHTML='<span class="modeTag stu">\uD83C\uDFA7 Listen & Shadow</span>';
+  const m=$('main'); 
+  let h=`<div id="allbar">
+    <button class="pill gold" id="allSlow" data-label="\u25B6 전체 느리게" onclick="playAll('slow')">\u25B6 전체 느리게</button>
+    <button class="pill gold" id="allNorm" data-label="\u25B6 전체 보통" onclick="playAll('normal')">\u25B6 전체 보통</button>
+    <div id="allCount"></div>
+  </div>`;
+  DATA.sentences.forEach((s,i)=>{
+    if(s.sec) h+=`<div class="secHead">${s.sec}</div>`;
+    const hasS=!!DATA.audio[i+'_slow'], hasN=!!DATA.audio[i+'_normal'];
+    h+=`<div class="card" id="card-${i}">
+      <div class="top"><span class="num">${i+1}</span>${roleChip(s)}</div>
+      <div class="ko">${s.ko}</div><div class="en">${s.en}</div>
+      <div class="row"><span class="lbl">\uD83C\uDFA7 선생님 발음</span>
+        <button class="pill ${hasS?'gold':''}" ${hasS?'':'disabled'} onclick="playStu(this,${i},'slow')">\uD83D\uDC22 느리게</button>
+        <button class="pill ${hasN?'gold':''}" ${hasN?'':'disabled'} onclick="playStu(this,${i},'normal')">\uD83D\uDE80 보통</button></div>
+      <div class="row"><span class="lbl">\uD83C\uDF99 따라 말하기</span>
+        <button class="pill" id="myrec-${i}" onclick="stuRec(${i})">\u25CF 녹음</button>
+        <button class="pill" id="myplay-${i}" disabled onclick="playMy(this,${i})">\u25B6 내 녹음</button></div>
+    </div>`;
+  });
+  m.innerHTML=h;
+  $('footer').innerHTML='<div class="hint">전체 재생으로 흐름을 익힌 뒤, 문장마다 따라 말해보세요!</div>';
+  loadSavedRecordings();
+}
+function playStu(btn,i,speed){ playToggle(btn,DATA.audio[i+'_'+speed]); }
+async function stuRec(i){
+  const btn=$('myrec-'+i);
+  if(mediaRec && mediaRec.state==='recording'){ mediaRec.stop(); return; }
+  const mic=await freshMic(); if(!mic) return;
+  stopAll();
+  chunks=[]; recKey=i;
+  const mt=pickMime();
+  mediaRec = mt ? new MediaRecorder(mic,{mimeType:mt}) : new MediaRecorder(mic);
+  mediaRec.ondataavailable=e=>{ if(e.data.size>0)chunks.push(e.data); };
+  mediaRec.onstop=()=>{
+    const blob=new Blob(chunks,{type:mediaRec.mimeType||mt||'audio/mp4'});
+    const fr=new FileReader();
+    fr.onload=async()=>{ myRec[recKey]=fr.result; await idbSet(recKey,fr.result);
+      const b=$('myrec-'+recKey), p=$('myplay-'+recKey);
+      if(b){ b.classList.remove('recording'); b.classList.add('done'); b.innerHTML='\u21BB 다시 녹음'; }
+      if(p){ p.disabled=false; p.classList.add('gold'); } };
+    fr.readAsDataURL(blob);
+  };
+  mediaRec.start();
+  btn.classList.add('recording'); btn.innerHTML='\u25A0 정지';
+}
+function playMy(btn,i){ playToggle(btn,myRec[i]); }
+async function loadSavedRecordings(){
+  for(let i=0;i<DATA.sentences.length;i++){
+    const v=await idbGet(i);
+    if(v){ myRec[i]=v;
+      const b=$('myrec-'+i), p=$('myplay-'+i);
+      if(b){ b.classList.add('done'); b.innerHTML='\u21BB 다시 녹음'; }
+      if(p){ p.disabled=false; p.classList.add('gold'); } }
+  }
+}
+
+/* ===== boot ===== */
+if(MODE==='record') initRecord(); else initStudent();
+</script>
+
+</body></html>
