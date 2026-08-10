@@ -31,6 +31,26 @@
   .memo b{background:linear-gradient(transparent 60%, rgba(201,164,50,.35) 60%);}
   .foot{margin-top:20px;font-family:'Nanum Pen Script';font-size:20px;color:#B0A78E;}
   .foot b{color:var(--gold);}
+
+  /* Weekly Quiz 강조 (이번 주 미완료일 때만) */
+  .todo.wq .t{position:relative;}
+  .badge{display:none;margin-left:8px;vertical-align:2px;background:var(--gold);color:#fff;
+    font-size:9.5px;font-weight:800;letter-spacing:1px;padding:2px 6px;border-radius:20px;}
+  .todo.wq.fresh .badge{display:inline-block;animation:pop .35s ease-out;}
+  .todo.wq.fresh .t{
+    background:linear-gradient(100deg,
+      var(--navy) 0%, var(--navy) 30%,
+      #E3C368 44%, #F3E2A8 50%, #E3C368 56%,
+      var(--navy) 70%, var(--navy) 100%);
+    background-size:300% 100%;-webkit-background-clip:text;background-clip:text;
+    color:transparent;-webkit-text-fill-color:transparent;
+    animation:shine 2.8s ease-in-out infinite;}
+  @keyframes shine{0%,8%{background-position:100% 0;}62%,100%{background-position:-40% 0;}}
+  @keyframes pop{from{transform:scale(.6);opacity:0;}to{transform:scale(1);opacity:1;}}
+  @media (prefers-reduced-motion: reduce){
+    .todo.wq.fresh .t{animation:none;-webkit-text-fill-color:var(--navy);color:var(--navy);}
+    .todo.wq.fresh .badge{animation:none;}
+  }
 </style>
 </head>
 <body>
@@ -41,6 +61,11 @@
   <h1><u>Sammy의 오늘 할 일</u></h1>
   <div class="sub">Sammy님 전용 학습 노트</div>
 
+  <a class="todo wq" href="../weekly/">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">Weekly Quiz</span><span class="badge">NEW</span><span class="d">이번 주 표현 퀴즈 · 월요일 업데이트</span></span>
+    <span class="go">풀러가기→</span>
+  </a>
   <a class="todo" href="https://briankim-84.github.io/ss-x7q2m9/">
     <span class="chk"></span>
     <span class="tx"><span class="t">Swipe &amp; Shadow</span><span class="d">영어 인터뷰 클립</span></span>
@@ -65,5 +90,22 @@
   <div class="memo">오늘 15분이면 충분해요. <b>소리 내서!</b></div>
   <div class="foot">As always, <b>English with Brian</b> ✍</div>
 </div>
+
+<script>
+/* 이번 주 퀴즈를 아직 안 풀었으면 NEW 배지 + 반짝임 표시 */
+(function(){
+  function isoWeek(d){
+    const t=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate()));
+    const day=t.getUTCDay()||7; t.setUTCDate(t.getUTCDate()+4-day);
+    const y0=new Date(Date.UTC(t.getUTCFullYear(),0,1));
+    return t.getUTCFullYear()+"-W"+String(Math.ceil(((t-y0)/86400000+1)/7)).padStart(2,"0");
+  }
+  try{
+    const el=document.querySelector(".todo.wq");
+    if(!el) return;
+    if(localStorage.getItem("dewb:quizdone")!==isoWeek(new Date())) el.classList.add("fresh");
+  }catch(e){}
+})();
+</script>
 </body>
 </html>

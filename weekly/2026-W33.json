@@ -1,0 +1,54 @@
+{
+  "week": "2026-W33",
+  "label": "8월 10일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        { "expr": "get back to you", "ko": "나중에 다시 연락드리다", "ex": "Let me check and get back to you tomorrow." },
+        { "expr": "feel like", "ko": "~하고 싶다, ~할 기분이다", "ex": "I don't feel like cooking tonight." },
+        { "expr": "make it", "ko": "시간 맞춰 가다, 참석하다", "ex": "Sorry, I can't make it on Friday." },
+        { "expr": "be into something", "ko": "~에 푹 빠져 있다", "ex": "He's really into cycling these days." },
+        { "expr": "circle back", "ko": "나중에 다시 논의하다", "ex": "Let's circle back on this next week." }
+      ],
+      "quiz": [
+        { "q": "Let me check the numbers and ___ tomorrow.", "options": ["get back to you", "get you back", "get back on you", "get to you back"], "answer": 0, "note": "get back to + 사람 순서로 씁니다." },
+        { "q": "I don't ___ going out tonight.", "options": ["feel to", "feel like", "feel for", "feel of"], "answer": 1, "note": "feel like 뒤에는 -ing 형태가 옵니다." },
+        { "q": "Sorry, I can't ___ to dinner on Friday.", "options": ["make out", "make up", "make it", "make in"], "answer": 2, "note": "약속에 못 간다고 할 때 쓰는 표현입니다." },
+        { "q": "She's really ___ Korean dramas lately.", "options": ["onto", "in for", "into", "up to"], "answer": 2, "note": "be into = 관심이 많다, 빠져 있다." },
+        { "q": "Let's ___ on this after the holiday.", "options": ["circle back", "circle around", "cycle back", "turn back"], "answer": 0, "note": "회의에서 '나중에 다시 얘기하자'로 자주 씁니다." }
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        { "expr": "touch base", "ko": "확인차 간단히 연락하다", "ex": "I'll touch base with you before the meeting." },
+        { "expr": "loop someone in", "ko": "논의에 포함시키다, 공유 대상에 넣다", "ex": "I'll loop in the design team." },
+        { "expr": "give someone a heads-up", "ko": "미리 귀띔해주다", "ex": "Just giving you a heads-up — I'll be late." },
+        { "expr": "be worn out", "ko": "완전히 지치다", "ex": "I'm totally worn out after this week." },
+        { "expr": "grow on someone", "ko": "점점 좋아지다", "ex": "I didn't like the song at first, but it's growing on me." }
+      ],
+      "quiz": [
+        { "q": "I'll ___ with you before the meeting.", "options": ["touch down", "touch base", "touch up", "touch on"], "answer": 1, "note": "touch on은 '간단히 언급하다'라 뜻이 다릅니다." },
+        { "q": "Could you ___ Jenny ___ on this thread?", "options": ["loop / in", "bring / on", "call / up", "put / through"], "answer": 0, "note": "loop in = 대화나 메일에 참여시키다." },
+        { "q": "Thanks for the ___ about the delay.", "options": ["head-up", "heads-on", "heads-up", "head-on"], "answer": 2, "note": "명사로 쓸 때 heads-up, 하이픈까지 함께 외워두세요." },
+        { "q": "I'm completely ___ after three classes today.", "options": ["worn off", "wear out", "worn out", "worn down"], "answer": 2, "note": "worn out = 기운이 다 빠진 상태." },
+        { "q": "This place is really ___ me.", "options": ["growing to", "grown on", "growing in", "growing on"], "answer": 3, "note": "처음엔 별로였는데 점점 좋아질 때 씁니다." }
+      ]
+    },
+    "challenge": {
+      "cards": [
+        { "expr": "drop someone a line", "ko": "가볍게 연락하다", "ex": "Drop me a line when you get there." },
+        { "expr": "play it by ear", "ko": "상황 봐가며 정하다", "ex": "We don't have a plan — let's play it by ear." },
+        { "expr": "on the back burner", "ko": "우선순위에서 밀려나다", "ex": "That project is on the back burner for now." },
+        { "expr": "have mixed feelings", "ko": "마음이 복잡하다", "ex": "I have mixed feelings about moving abroad." },
+        { "expr": "put my finger on it", "ko": "뭔지 딱 집어 말하다", "ex": "Something feels off, but I can't put my finger on it." }
+      ],
+      "quiz": [
+        { "q": "___ when you get to the hotel.", "hint": "가볍게 연락해 달라고 할 때", "accept": ["drop me a line", "drop me a line."], "note": "line은 '짧은 메모 한 줄'에서 온 표현입니다." },
+        { "q": "Nothing's fixed yet, so let's ___.", "hint": "상황 봐가며 정하자", "accept": ["play it by ear", "just play it by ear"], "note": "악보 없이 귀로 듣고 연주하던 데서 온 표현입니다." },
+        { "q": "That plan is ___ until next quarter.", "hint": "우선순위에서 밀려난 상태", "accept": ["on the back burner", "on back burner"], "note": "약한 불(뒷쪽 화구)에 올려둔다는 뜻에서 왔습니다." },
+        { "q": "I ___ about leaving this job.", "hint": "마음이 복잡하다", "accept": ["have mixed feelings", "have mixed feeling", "am having mixed feelings"], "note": "좋기도 하고 아쉽기도 할 때 씁니다." },
+        { "q": "Something's strange, but I can't ___.", "hint": "뭔지 딱 집어 말하다", "accept": ["put my finger on it", "put a finger on it", "put my finger on"], "note": "지도 위를 손가락으로 짚듯, 정확히 짚어낸다는 뜻입니다." }
+      ]
+    }
+  }
+}
