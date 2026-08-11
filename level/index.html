@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>내 단어 레벨 · Do English with Brian</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B1220; --ink2:#131E33; --ink3:#1D2C47;
+    --paper:#FAF6EC; --paper2:#EFE7D5;
+    --gold:#C9A432; --gold-lt:#E8CE73;
+    --know:#43A17A; --skip:#7C8AA0;
+    --txt:#F2EEE4; --dim:rgba(242,238,228,.5); --dim2:rgba(242,238,228,.3);
+    --disp:'Fraunces',Georgia,serif;
+    --ui:'Pretendard',sans-serif;
+    --mono:'IBM Plex Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{font-family:var(--ui);background:var(--ink);color:var(--txt);
+    display:flex;justify-content:center;overflow:hidden;
+    background-image:radial-gradient(120% 80% at 50% -10%, #1A2A47 0%, var(--ink) 60%);}
+  #app{width:100%;max-width:440px;height:100dvh;display:flex;flex-direction:column;
+    padding:calc(14px + env(safe-area-inset-top)) 20px calc(18px + env(safe-area-inset-bottom));}
+  .scroll{overflow-y:auto;-webkit-overflow-scrolling:touch;}
+
+  /* ── 공통 ── */
+  .eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--gold);
+    text-transform:uppercase;margin-bottom:14px;}
+  h1{font-family:var(--disp);font-weight:600;font-size:34px;line-height:1.12;letter-spacing:-.01em;margin-bottom:12px;}
+  h1 em{font-style:italic;color:var(--gold-lt);}
+  .lede{font-size:14px;line-height:1.75;color:var(--dim);}
+  .lede b{color:var(--txt);font-weight:600;}
+  .btn{display:block;width:100%;padding:16px;border:none;border-radius:14px;cursor:pointer;
+    font-family:var(--ui);font-size:15px;font-weight:700;transition:transform .12s, filter .12s;}
+  .btn:active{transform:scale(.985);}
+  .btn.pri{background:var(--gold);color:#14203A;}
+  .btn.ghost{background:transparent;color:var(--dim);border:1px solid rgba(242,238,228,.18);}
+  .btn:focus-visible{outline:2px solid var(--gold-lt);outline-offset:3px;}
+
+  /* ── 인트로 ── */
+  #intro{display:flex;flex-direction:column;height:100%;justify-content:center;gap:26px;}
+  .rules{border-top:1px solid rgba(242,238,228,.14);padding-top:18px;display:grid;gap:13px;}
+  .rule{display:flex;gap:12px;align-items:flex-start;font-size:13.5px;line-height:1.6;color:var(--dim);}
+  .rule i{font-style:normal;font-family:var(--mono);font-size:10.5px;color:var(--gold);
+    border:1px solid rgba(201,164,50,.45);border-radius:5px;padding:2px 6px;flex-shrink:0;margin-top:1px;}
+  .rule b{color:var(--txt);font-weight:600;}
+
+  /* ── 스와이프 ── */
+  #swipe{display:none;flex-direction:column;height:100%;}
+  .topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+  .spine{display:flex;gap:2px;flex:1;margin-right:12px;}
+  .spine i{height:3px;flex:1;background:rgba(242,238,228,.14);border-radius:2px;transition:background .3s;}
+  .spine i.done{background:var(--gold);}
+  .counter{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.06em;}
+  .counter b{color:var(--txt);}
+
+  .stage{flex:1;position:relative;display:flex;align-items:center;justify-content:center;}
+  .card{position:absolute;width:100%;max-width:330px;aspect-ratio:3/4;border-radius:22px;
+    background:linear-gradient(170deg,var(--paper) 0%, var(--paper2) 100%);
+    box-shadow:0 22px 50px rgba(0,0,0,.5), 0 2px 0 rgba(255,255,255,.5) inset;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:26px;text-align:center;touch-action:none;cursor:grab;user-select:none;}
+  .card:active{cursor:grabbing;}
+  .card .w{font-family:var(--disp);font-weight:600;font-size:clamp(34px,10vw,46px);
+    color:#16233C;line-height:1.1;letter-spacing:-.015em;word-break:break-word;}
+  .stamp{position:absolute;top:26px;font-family:var(--mono);font-size:13px;font-weight:600;
+    letter-spacing:.12em;padding:7px 13px;border-radius:8px;opacity:0;text-transform:uppercase;}
+  .stamp.yes{right:22px;color:var(--know);border:2px solid var(--know);transform:rotate(11deg);}
+  .stamp.no{left:22px;color:var(--skip);border:2px solid var(--skip);transform:rotate(-11deg);}
+
+  .actions{display:flex;gap:10px;align-items:center;margin-top:18px;}
+  .act{flex:1;padding:15px 10px;border-radius:14px;border:1px solid rgba(242,238,228,.16);
+    background:rgba(255,255,255,.04);color:var(--txt);font-family:var(--ui);font-size:14px;
+    font-weight:700;cursor:pointer;transition:.15s;}
+  .act small{display:block;font-family:var(--mono);font-size:9.5px;font-weight:400;
+    color:var(--dim2);letter-spacing:.1em;margin-top:3px;}
+  .act.no:hover{border-color:var(--skip);} .act.yes:hover{border-color:var(--know);}
+  .act.yes{color:#CFF0E1;} .act.no{color:#CBD4E1;}
+  .undo{width:46px;flex:none;padding:15px 0;font-size:15px;color:var(--dim);}
+  .undo:disabled{opacity:.3;cursor:default;}
+
+  /* ── 확인 퀴즈 ── */
+  #verify{display:none;flex-direction:column;height:100%;}
+  #bridge{display:none;flex-direction:column;height:100%;justify-content:center;}
+  .bwrap{padding-bottom:6vh;}
+  .vbody{flex:1;display:flex;flex-direction:column;justify-content:center;padding-bottom:8vh;}
+  .vhead{margin-bottom:20px;}
+  .vword{font-family:var(--disp);font-weight:600;font-size:40px;color:var(--gold-lt);
+    line-height:1.1;margin:8px 0 4px;}
+  .vsub{font-size:12.5px;color:var(--dim);}
+  .opts{display:grid;gap:9px;margin-top:6px;}
+  .opt{text-align:left;padding:15px 16px;border-radius:13px;border:1px solid rgba(242,238,228,.16);
+    background:rgba(255,255,255,.04);color:var(--txt);font-family:var(--ui);font-size:15px;cursor:pointer;transition:.15s;}
+  .opt:hover:not(:disabled){border-color:var(--gold);}
+  .opt:disabled{cursor:default;}
+  .opt.ok{border-color:var(--know);background:rgba(67,161,122,.16);}
+  .opt.no{border-color:#B4574E;background:rgba(180,87,78,.14);}
+
+  /* ── 결과 ── */
+  #result{display:none;flex-direction:column;height:100%;}
+  .bignum{font-family:var(--disp);font-weight:600;font-size:66px;line-height:1;letter-spacing:-.02em;}
+  .bignum span{font-size:24px;color:var(--dim);margin-left:6px;}
+  .bands{display:grid;gap:11px;margin:22px 0 24px;}
+  .band{display:grid;grid-template-columns:74px 1fr 42px;align-items:center;gap:11px;}
+  .band .nm{font-size:12px;color:var(--dim);}
+  .band .tr{display:block;height:6px;background:rgba(242,238,228,.11);border-radius:4px;overflow:hidden;}
+  .band .fl{display:block;height:100%;border-radius:4px;background:var(--gold);width:0;transition:width .9s cubic-bezier(.2,.8,.2,1);}
+  .band .pc{font-family:var(--mono);font-size:12px;color:var(--txt);text-align:right;}
+  .cov{border:1px solid rgba(242,238,228,.14);border-radius:16px;padding:17px 16px;background:rgba(255,255,255,.03);}
+  .cov h3{font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--gold);margin-bottom:12px;text-transform:uppercase;}
+  .para{font-size:15px;line-height:2.05;color:var(--txt);}
+  .para .b{filter:blur(4.5px);opacity:.55;transition:filter .55s, opacity .55s;}
+  .switch{display:flex;gap:6px;margin-top:15px;}
+  .sw{flex:1;padding:9px 6px;border-radius:9px;border:1px solid rgba(242,238,228,.16);
+    background:transparent;color:var(--dim);font-family:var(--ui);font-size:11.5px;cursor:pointer;}
+  .sw.on{background:var(--gold);color:#14203A;border-color:var(--gold);font-weight:700;}
+  .codebox{margin-top:20px;border:1px dashed rgba(201,164,50,.5);border-radius:13px;padding:15px;}
+  .codebox .lbl{font-size:11.5px;color:var(--dim);margin-bottom:8px;}
+  .code{font-family:var(--mono);font-size:14px;color:var(--gold-lt);word-break:break-all;line-height:1.5;}
+  .toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,14px);background:var(--gold);
+    color:#14203A;font-size:13px;font-weight:700;padding:11px 18px;border-radius:11px;
+    opacity:0;pointer-events:none;transition:.28s;}
+  .toast.on{opacity:1;transform:translate(-50%,0);}
+  .foot{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;color:var(--dim2);
+    text-align:center;padding-top:20px;text-transform:uppercase;}
+  @media (prefers-reduced-motion: reduce){ *{transition:none!important;animation:none!important;} }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- 인트로 -->
+  <section id="intro">
+    <div>
+      <div class="eyebrow">Do English with Brian</div>
+      <h1>지금 내가 아는<br>단어는 <em>몇 개일까</em></h1>
+      <p class="lede">영어 단어 60개를 빠르게 넘기면서 아는 것만 골라주세요.
+        시험이 아니라 <b>출발점을 찾는 과정</b>이라, 모른다고 답해도 손해가 없습니다.
+        솔직하게 답할수록 딱 맞는 단어를 받게 됩니다.</p>
+    </div>
+    <div class="rules">
+      <div class="rule"><i>→</i><span><b>오른쪽</b>으로 밀기 — 뜻을 말할 수 있는 단어</span></div>
+      <div class="rule"><i>←</i><span><b>왼쪽</b>으로 밀기 — 처음 보거나 애매한 단어</span></div>
+      <div class="rule"><i>2분</i><span>60장을 넘긴 뒤, 안다고 한 단어 몇 개만 확인합니다</span></div>
+      <div class="rule"><i>+</i><span>잘 맞히면 <b>더 어려운 단어</b>가 20장씩 이어집니다</span></div>
+    </div>
+    <button class="btn pri" id="start">시작하기</button>
+  </section>
+
+  <!-- 스와이프 -->
+  <section id="swipe">
+    <div class="topbar">
+      <div class="spine" id="spine"></div>
+      <div class="counter"><b id="cnow">1</b> / <span id="ctot">60</span></div>
+    </div>
+    <div class="stage" id="stage"></div>
+    <div class="actions">
+      <button class="act no" id="bNo">모르겠어요<small>SWIPE LEFT</small></button>
+      <button class="act undo" id="bUndo" title="되돌리기">↺</button>
+      <button class="act yes" id="bYes">알아요<small>SWIPE RIGHT</small></button>
+    </div>
+  </section>
+
+  <!-- 단계 상승 제안 -->
+  <section id="bridge">
+    <div class="bwrap">
+      <div class="eyebrow" id="bEyebrow">Level up</div>
+      <h1 id="bTitle">여기까지<br><em>가볍게</em> 넘기셨네요</h1>
+      <p class="lede" id="bLede">—</p>
+      <div style="margin-top:26px">
+        <button class="btn pri" id="bGo">더 해볼게요</button>
+        <button class="btn ghost" style="margin-top:10px" id="bStop">여기서 마칠게요</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 확인 -->
+  <section id="verify">
+    <div class="topbar">
+      <div class="spine" id="vspine"></div>
+      <div class="counter">확인 <b id="vnow">1</b>/<span id="vtot">10</span></div>
+    </div>
+    <div class="vbody">
+    <div class="vhead">
+      <div class="eyebrow">방금 안다고 하신 단어예요</div>
+      <div class="vword" id="vword">—</div>
+      <div class="vsub">뜻으로 알맞은 것을 골라주세요</div>
+    </div>
+    <div class="opts" id="vopts"></div>
+    </div>
+  </section>
+
+  <!-- 결과 -->
+  <section id="result" class="scroll">
+    <div class="eyebrow">Result</div>
+    <div class="bignum"><span id="estNum">0</span><span>단어</span></div>
+    <p class="lede" style="margin-top:10px" id="estMsg">—</p>
+
+    <div class="bands" id="bands"></div>
+
+    <div class="cov">
+      <h3>지금 이 정도로 보입니다</h3>
+      <p class="para" id="para"></p>
+      <div class="switch">
+        <button class="sw on" data-m="now">지금</button>
+        <button class="sw" data-m="2000">2,000단어</button>
+        <button class="sw" data-m="3000">3,000단어</button>
+      </div>
+    </div>
+
+    <div class="codebox">
+      <div class="lbl">아래 결과를 Brian 선생님께 보내주세요</div>
+      <div class="code" id="code">—</div>
+      <button class="btn pri" style="margin-top:13px" id="copy">결과 복사하기</button>
+    </div>
+    <button class="btn ghost" style="margin-top:10px" id="again">처음부터 다시</button>
+    <div class="foot">1:1 Business English · Brian</div>
+  </section>
+</div>
+<div class="toast" id="toast">복사했어요 — 카톡에 붙여넣기 하세요</div>
+
+<script>
+/* ═══════ 데이터 ═══════ */
+const DATA = {
+ "version": "2.0",
+ "bandSize": {
+  "A": 1000,
+  "B": 1000,
+  "C": 801,
+  "D": 1000,
+  "E": 1000
+ },
+ "bandLabel": {
+  "A": "기초 1000",
+  "B": "중급 2000",
+  "C": "상급 3000",
+  "D": "심화 4000",
+  "E": "고급 5000"
+ },
+ "gate": 0.8,
+ "base": [
+  {
+   "w": "intense",
+   "ko": "강렬한",
+   "band": "C",
+   "opts": [
+    "선호",
+    "철회하다",
+    "강렬한",
+    "탓하다"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "shoot",
+   "ko": "쏘다",
+   "band": "B",
+   "opts": [
+    "연간의",
+    "차고",
+    "쏘다",
+    "연장자"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "figure",
+   "ko": "수치·숫자",
+   "band": "A",
+   "opts": [
+    "수치·숫자",
+    "궁금해하다",
+    "지배하다",
+    "철회하다"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "perceive",
+   "ko": "인지하다",
+   "band": "C",
+   "opts": [
+    "운명",
+    "용기",
+    "정서",
+    "인지하다"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "temperature",
+   "ko": "온도",
+   "band": "B",
+   "opts": [
+    "붙잡다",
+    "온도",
+    "병원",
+    "중요하다"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "private",
+   "ko": "사적인",
+   "band": "A",
+   "opts": [
+    "의심",
+    "감독자",
+    "사적인",
+    "수치·숫자"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "avoid",
+   "ko": "피하다",
+   "band": "A",
+   "opts": [
+    "진실",
+    "턱",
+    "피하다",
+    "도전·과제"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "dominate",
+   "ko": "지배하다",
+   "band": "C",
+   "opts": [
+    "광대한",
+    "지배하다",
+    "도구",
+    "차고"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "ancient",
+   "ko": "고대의",
+   "band": "B",
+   "opts": [
+    "액체",
+    "적자",
+    "희생하다",
+    "고대의"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "preference",
+   "ko": "선호",
+   "band": "C",
+   "opts": [
+    "흩뿌리다",
+    "선호",
+    "통로",
+    "쏘다"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "apparently",
+   "ko": "보아하니",
+   "band": "B",
+   "opts": [
+    "정확한",
+    "고백하다",
+    "정의·뜻풀이",
+    "보아하니"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "touch",
+   "ko": "만지다",
+   "band": "A",
+   "opts": [
+    "만지다",
+    "적자",
+    "선호",
+    "대사"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "trail",
+   "ko": "자취·오솔길",
+   "band": "C",
+   "opts": [
+    "자취·오솔길",
+    "감시하다",
+    "시행하다",
+    "온도"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "forest",
+   "ko": "숲",
+   "band": "B",
+   "opts": [
+    "감시하다",
+    "연장자",
+    "숲",
+    "잠든"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "accept",
+   "ko": "받아들이다",
+   "band": "A",
+   "opts": [
+    "정확한",
+    "받아들이다",
+    "먼",
+    "야망"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "distant",
+   "ko": "먼",
+   "band": "C",
+   "opts": [
+    "먼",
+    "턱",
+    "뒤집다",
+    "솔질하다"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "matter",
+   "ko": "중요하다",
+   "band": "A",
+   "opts": [
+    "중요하다",
+    "병원",
+    "항구",
+    "널리 퍼진"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "monitor",
+   "ko": "감시하다",
+   "band": "B",
+   "opts": [
+    "지위·상태",
+    "경제",
+    "감시하다",
+    "손가락"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "mistake",
+   "ko": "실수",
+   "band": "B",
+   "opts": [
+    "턱",
+    "차고",
+    "붙잡다",
+    "실수"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "staff",
+   "ko": "직원",
+   "band": "A",
+   "opts": [
+    "턱",
+    "동맹",
+    "사망률",
+    "직원"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "fool",
+   "ko": "바보",
+   "band": "C",
+   "opts": [
+    "자취·오솔길",
+    "바보",
+    "도구",
+    "논리"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "deficit",
+   "ko": "적자",
+   "band": "C",
+   "opts": [
+    "감독자",
+    "한 줌",
+    "적자",
+    "탓하다"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "economy",
+   "ko": "경제",
+   "band": "A",
+   "opts": [
+    "만지다",
+    "손가락",
+    "경제",
+    "지배하다"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "flat",
+   "ko": "평평한",
+   "band": "B",
+   "opts": [
+    "지배하다",
+    "평평한",
+    "차고",
+    "대사"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "status",
+   "ko": "지위·상태",
+   "band": "B",
+   "opts": [
+    "자취·오솔길",
+    "필수적인",
+    "추측하다",
+    "지위·상태"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "grab",
+   "ko": "붙잡다",
+   "band": "C",
+   "opts": [
+    "턱",
+    "붙잡다",
+    "모양",
+    "뱀"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "hospital",
+   "ko": "병원",
+   "band": "A",
+   "opts": [
+    "깊은 인상을 주다",
+    "다양한",
+    "병원",
+    "광대한"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "reverse",
+   "ko": "뒤집다",
+   "band": "C",
+   "opts": [
+    "야망",
+    "고대의",
+    "뒤집다",
+    "왕국"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "compare",
+   "ko": "비교하다",
+   "band": "A",
+   "opts": [
+    "비교하다",
+    "가짜의",
+    "실행 가능한",
+    "다양한"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "annual",
+   "ko": "연간의",
+   "band": "B",
+   "opts": [
+    "턱",
+    "연간의",
+    "정서",
+    "철회하다"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "shape",
+   "ko": "모양",
+   "band": "A",
+   "opts": [
+    "항구",
+    "잠든",
+    "모양",
+    "정확한"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "regulate",
+   "ko": "규제하다",
+   "band": "C",
+   "opts": [
+    "대사",
+    "전투",
+    "사망률",
+    "규제하다"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "objective",
+   "ko": "목표",
+   "band": "B",
+   "opts": [
+    "항구",
+    "목표",
+    "비교하다",
+    "철회하다"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "harbor",
+   "ko": "항구",
+   "band": "C",
+   "opts": [
+    "손가락",
+    "항구",
+    "비교하다",
+    "붙잡다"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "truth",
+   "ko": "진실",
+   "band": "B",
+   "opts": [
+    "턱",
+    "바보",
+    "받아들이다",
+    "진실"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "weekend",
+   "ko": "주말",
+   "band": "A",
+   "opts": [
+    "주말",
+    "철회하다",
+    "널리 퍼진",
+    "의심"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "tight",
+   "ko": "꽉 끼는",
+   "band": "C",
+   "opts": [
+    "시행하다",
+    "꽉 끼는",
+    "항구",
+    "전투"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "local",
+   "ko": "지역의",
+   "band": "A",
+   "opts": [
+    "혜택",
+    "지역의",
+    "선호",
+    "주말"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "finger",
+   "ko": "손가락",
+   "band": "B",
+   "opts": [
+    "손가락",
+    "목표",
+    "중요하다",
+    "차고"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "vital",
+   "ko": "필수적인",
+   "band": "C",
+   "opts": [
+    "필수적인",
+    "혜택",
+    "피하다",
+    "용기"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "definition",
+   "ko": "정의·뜻풀이",
+   "band": "B",
+   "opts": [
+    "연장자",
+    "피하다",
+    "손가락",
+    "정의·뜻풀이"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "wonder",
+   "ko": "궁금해하다",
+   "band": "A",
+   "opts": [
+    "손가락",
+    "궁금해하다",
+    "온도",
+    "파산"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "tool",
+   "ko": "도구",
+   "band": "B",
+   "opts": [
+    "규제하다",
+    "도구",
+    "왕국",
+    "성격"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "certain",
+   "ko": "확실한",
+   "band": "A",
+   "opts": [
+    "확실한",
+    "성격",
+    "용기",
+    "솔질하다"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "impress",
+   "ko": "깊은 인상을 주다",
+   "band": "C",
+   "opts": [
+    "병원",
+    "먼",
+    "깊은 인상을 주다",
+    "한 줌"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "rival",
+   "ko": "경쟁자",
+   "band": "C",
+   "opts": [
+    "뒤집다",
+    "실행 가능한",
+    "경쟁자",
+    "동맹"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "various",
+   "ko": "다양한",
+   "band": "A",
+   "opts": [
+    "보아하니",
+    "다양한",
+    "경제",
+    "자정"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "blame",
+   "ko": "탓하다",
+   "band": "B",
+   "opts": [
+    "고대의",
+    "탓하다",
+    "온도",
+    "턱"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "challenge",
+   "ko": "도전·과제",
+   "band": "A",
+   "opts": [
+    "먼",
+    "잠든",
+    "도전·과제",
+    "필수적인"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "crisis",
+   "ko": "위기",
+   "band": "B",
+   "opts": [
+    "위기",
+    "바보",
+    "팔꿈치",
+    "의미 있는"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "brush",
+   "ko": "솔질하다",
+   "band": "C",
+   "opts": [
+    "솔질하다",
+    "파산",
+    "팔꿈치",
+    "지위·상태"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "withdraw",
+   "ko": "철회하다",
+   "band": "C",
+   "opts": [
+    "액체",
+    "바보",
+    "기둥·극",
+    "철회하다"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "personality",
+   "ko": "성격",
+   "band": "B",
+   "opts": [
+    "보아하니",
+    "자취·오솔길",
+    "고백하다",
+    "성격"
+   ],
+   "ans": 3
+  },
+  {
+   "w": "sense",
+   "ko": "감각·느낌",
+   "band": "A",
+   "opts": [
+    "모양",
+    "감각·느낌",
+    "강렬한",
+    "널리 퍼진"
+   ],
+   "ans": 1
+  },
+  {
+   "w": "logic",
+   "ko": "논리",
+   "band": "C",
+   "opts": [
+    "논리",
+    "보아하니",
+    "감독자",
+    "고백하다"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "benefit",
+   "ko": "혜택",
+   "band": "A",
+   "opts": [
+    "혜택",
+    "다가오는",
+    "가능하게 하다",
+    "자정"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "enable",
+   "ko": "가능하게 하다",
+   "band": "B",
+   "opts": [
+    "가능하게 하다",
+    "경제",
+    "고대의",
+    "이마"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "guess",
+   "ko": "추측하다",
+   "band": "A",
+   "opts": [
+    "방사선",
+    "논리",
+    "추측하다",
+    "증오"
+   ],
+   "ans": 2
+  },
+  {
+   "w": "vast",
+   "ko": "광대한",
+   "band": "B",
+   "opts": [
+    "광대한",
+    "조수·흐름",
+    "추측하다",
+    "증오"
+   ],
+   "ans": 0
+  },
+  {
+   "w": "accurate",
+   "ko": "정확한",
+   "band": "C",
+   "opts": [
+    "항구",
+    "정확한",
+    "뱀",
+    "조수·흐름"
+   ],
+   "ans": 1
+  }
+ ],
+ "ext": {
+  "D": [
+   {
+    "w": "garage",
+    "ko": "차고",
+    "band": "D",
+    "opts": [
+     "흩뿌리다",
+     "차고",
+     "강렬한",
+     "인지하다"
+    ],
+    "ans": 1
+   },
+   {
+    "w": "fate",
+    "ko": "운명",
+    "band": "D",
+    "opts": [
+     "운명",
+     "대사",
+     "항구",
+     "추측하다"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "bankruptcy",
+    "ko": "파산",
+    "band": "D",
+    "opts": [
+     "파산",
+     "모양",
+     "인지하다",
+     "받아들이다"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "pole",
+    "ko": "기둥·극",
+    "band": "D",
+    "opts": [
+     "사망률",
+     "감시하다",
+     "선호",
+     "기둥·극"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "enforce",
+    "ko": "시행하다",
+    "band": "D",
+    "opts": [
+     "바보",
+     "목표",
+     "시행하다",
+     "연장자"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "handful",
+    "ko": "한 줌",
+    "band": "D",
+    "opts": [
+     "차고",
+     "경제",
+     "한 줌",
+     "꽉 끼는"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "fake",
+    "ko": "가짜의",
+    "band": "D",
+    "opts": [
+     "흩뿌리다",
+     "진실",
+     "가짜의",
+     "적자"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "radiation",
+    "ko": "방사선",
+    "band": "D",
+    "opts": [
+     "필수적인",
+     "규제하다",
+     "뒤집다",
+     "방사선"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "meaningful",
+    "ko": "의미 있는",
+    "band": "D",
+    "opts": [
+     "항구",
+     "고백하다",
+     "붙잡다",
+     "의미 있는"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "courage",
+    "ko": "용기",
+    "band": "D",
+    "opts": [
+     "연간의",
+     "실행 가능한",
+     "용기",
+     "사라지다"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "kingdom",
+    "ko": "왕국",
+    "band": "D",
+    "opts": [
+     "중요하다",
+     "증오",
+     "왕국",
+     "시행하다"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "widespread",
+    "ko": "널리 퍼진",
+    "band": "D",
+    "opts": [
+     "직원",
+     "희생하다",
+     "연장자",
+     "널리 퍼진"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "asleep",
+    "ko": "잠든",
+    "band": "D",
+    "opts": [
+     "목표",
+     "잠든",
+     "비교하다",
+     "다가오는"
+    ],
+    "ans": 1
+   },
+   {
+    "w": "snake",
+    "ko": "뱀",
+    "band": "D",
+    "opts": [
+     "뱀",
+     "중요하다",
+     "턱",
+     "도전·과제"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "midnight",
+    "ko": "자정",
+    "band": "D",
+    "opts": [
+     "자정",
+     "턱",
+     "감각·느낌",
+     "중요하다"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "confess",
+    "ko": "고백하다",
+    "band": "D",
+    "opts": [
+     "고백하다",
+     "액체",
+     "도전·과제",
+     "적자"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "swallow",
+    "ko": "삼키다",
+    "band": "D",
+    "opts": [
+     "혜택",
+     "삼키다",
+     "감각·느낌",
+     "통로"
+    ],
+    "ans": 1
+   },
+   {
+    "w": "ambassador",
+    "ko": "대사",
+    "band": "D",
+    "opts": [
+     "방사선",
+     "고백하다",
+     "가짜의",
+     "대사"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "alliance",
+    "ko": "동맹",
+    "band": "D",
+    "opts": [
+     "항구",
+     "동맹",
+     "정확한",
+     "손가락"
+    ],
+    "ans": 1
+   },
+   {
+    "w": "combat",
+    "ko": "전투",
+    "band": "D",
+    "opts": [
+     "전투",
+     "감독자",
+     "피하다",
+     "대사"
+    ],
+    "ans": 0
+   }
+  ],
+  "E": [
+   {
+    "w": "chin",
+    "ko": "턱",
+    "band": "E",
+    "opts": [
+     "지위·상태",
+     "필수적인",
+     "턱",
+     "증오"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "suspicion",
+    "ko": "의심",
+    "band": "E",
+    "opts": [
+     "주말",
+     "뒤집다",
+     "인지하다",
+     "의심"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "hatred",
+    "ko": "증오",
+    "band": "E",
+    "opts": [
+     "평평한",
+     "만지다",
+     "이마",
+     "증오"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "viable",
+    "ko": "실행 가능한",
+    "band": "E",
+    "opts": [
+     "의심",
+     "솔질하다",
+     "실행 가능한",
+     "희생하다"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "jealous",
+    "ko": "질투하는",
+    "band": "E",
+    "opts": [
+     "질투하는",
+     "성격",
+     "자취·오솔길",
+     "논리"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "upcoming",
+    "ko": "다가오는",
+    "band": "E",
+    "opts": [
+     "다가오는",
+     "연장자",
+     "비교하다",
+     "질투하는"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "mortality",
+    "ko": "사망률",
+    "band": "E",
+    "opts": [
+     "연장자",
+     "의미 있는",
+     "사망률",
+     "모양"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "elder",
+    "ko": "연장자",
+    "band": "E",
+    "opts": [
+     "고백하다",
+     "감시하다",
+     "연장자",
+     "논리"
+    ],
+    "ans": 2
+   },
+   {
+    "w": "heal",
+    "ko": "치유하다",
+    "band": "E",
+    "opts": [
+     "고대의",
+     "동맹",
+     "위기",
+     "치유하다"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "elbow",
+    "ko": "팔꿈치",
+    "band": "E",
+    "opts": [
+     "질투하는",
+     "팔꿈치",
+     "논리",
+     "사라지다"
+    ],
+    "ans": 1
+   },
+   {
+    "w": "forehead",
+    "ko": "이마",
+    "band": "E",
+    "opts": [
+     "이마",
+     "비교하다",
+     "광대한",
+     "솔질하다"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "aisle",
+    "ko": "통로",
+    "band": "E",
+    "opts": [
+     "선호",
+     "통로",
+     "자정",
+     "의심"
+    ],
+    "ans": 1
+   },
+   {
+    "w": "tide",
+    "ko": "조수·흐름",
+    "band": "E",
+    "opts": [
+     "조수·흐름",
+     "추측하다",
+     "탓하다",
+     "병원"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "supervisor",
+    "ko": "감독자",
+    "band": "E",
+    "opts": [
+     "정서",
+     "통로",
+     "다양한",
+     "감독자"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "vanish",
+    "ko": "사라지다",
+    "band": "E",
+    "opts": [
+     "고대의",
+     "선호",
+     "널리 퍼진",
+     "사라지다"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "sacrifice",
+    "ko": "희생하다",
+    "band": "E",
+    "opts": [
+     "정확한",
+     "대사",
+     "진실",
+     "희생하다"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "sentiment",
+    "ko": "정서",
+    "band": "E",
+    "opts": [
+     "시행하다",
+     "철회하다",
+     "널리 퍼진",
+     "정서"
+    ],
+    "ans": 3
+   },
+   {
+    "w": "ambition",
+    "ko": "야망",
+    "band": "E",
+    "opts": [
+     "야망",
+     "모양",
+     "규제하다",
+     "한 줌"
+    ],
+    "ans": 0
+   },
+   {
+    "w": "fluid",
+    "ko": "액체",
+    "band": "E",
+    "opts": [
+     "자취·오솔길",
+     "액체",
+     "가능하게 하다",
+     "광대한"
+    ],
+    "ans": 1
+   },
+   {
+    "w": "scatter",
+    "ko": "흩뿌리다",
+    "band": "E",
+    "opts": [
+     "흩뿌리다",
+     "성격",
+     "의미 있는",
+     "정의·뜻풀이"
+    ],
+    "ans": 0
+   }
+  ]
+ }
+};
+
+/* 커버리지 문단 — 밴드 태그가 붙은 실제 문장 */
+const PARA = [
+ ["On",0],["Monday",0],["morning",0],["the",0],["team",0],["met",0],["to",0],["review",0],
+ ["the",0],["annual","B"],["budget","A"],[".",0],
+ ["The",0],["manager","A"],["explained","A"],["that",0],["costs","A"],["had",0],["increased","A"],[",",0],
+ ["so",0],["she",0],["asked",0],["everyone",0],["to",0],["compare","A"],["last",0],["year's",0],["figures","A"],[".",0],
+ ["Nobody",0],["wanted",0],["to",0],["blame","B"],["the",0],["supplier","B"],[",",0],["but",0],["the",0],
+ ["deficit","C"],["was",0],["obvious","B"],[".",0],
+ ["They",0],["agreed",0],["to",0],["monitor","B"],["the",0],["numbers",0],["every",0],["week",0],
+ ["and",0],["to",0],["withdraw","C"],["the",0],["smaller",0],["project",0],["until",0],["the",0],
+ ["situation","A"],["improved","A"],[".",0]
+];
+
+/* ═══════ 상태 ═══════ */
+const $=id=>document.getElementById(id);
+let DECK=[], idx=0, answers=[], vQueue=[], vIdx=0, vRight=0, RES=null;
+let tried=["A","B","C"];          /* 시도한 밴드 */
+const ORDER=["D","E"];
+
+/* ═══════ 화면 전환 ═══════ */
+function show(name){
+  ["intro","swipe","bridge","verify","result"].forEach(s=>{
+    $(s).style.display = (s===name) ? "flex" : "none";
+  });
+}
+
+/* ═══════ 스와이프 ═══════ */
+function spine(el,total,done){
+  el.innerHTML = Array.from({length:total},(_,i)=>
+    `<i class="${i<done?"done":""}"></i>`).join("");
+}
+
+function renderStack(){
+  const stage=$("stage"); stage.innerHTML="";
+  const rest=DECK.slice(idx, idx+3).reverse();
+  rest.forEach((c,i)=>{
+    const depth=rest.length-1-i;           // 0 = 맨 앞
+    const el=document.createElement("div");
+    el.className="card";
+    el.style.transform=`translateY(${depth*16}px) scale(${1-depth*0.055})`;
+    el.style.zIndex=10-depth;
+    el.style.opacity = depth===0 ? 1 : (depth===1 ? .82 : .55);
+    el.innerHTML=`<span class="stamp yes">알아요</span>
+                  <span class="stamp no">모름</span>
+                  <div class="w">${c.w}</div>`;
+    if(depth===0) bindDrag(el);
+    stage.appendChild(el);
+  });
+  spine($("spine"),DECK.length,idx);
+  $("cnow").textContent=Math.min(idx+1,DECK.length);
+  $("ctot").textContent=DECK.length;
+  $("bUndo").disabled = idx===0;
+}
+
+function bindDrag(el){
+  let sx=0,sy=0,dx=0,dy=0,down=false;
+  const yes=el.querySelector(".stamp.yes"), no=el.querySelector(".stamp.no");
+  const move=()=>{
+    const rot=dx/16;
+    el.style.transform=`translate(${dx}px,${dy*0.35}px) rotate(${rot}deg)`;
+    const p=Math.min(Math.abs(dx)/95,1);
+    yes.style.opacity = dx>0 ? p : 0;
+    no.style.opacity  = dx<0 ? p : 0;
+    el.style.boxShadow = dx>0
+      ? `0 22px 50px rgba(0,0,0,.5), 0 0 0 2px rgba(67,161,122,${p*.9}) inset`
+      : dx<0 ? `0 22px 50px rgba(0,0,0,.5), 0 0 0 2px rgba(124,138,160,${p*.9}) inset`
+             : `0 22px 50px rgba(0,0,0,.5), 0 2px 0 rgba(255,255,255,.5) inset`;
+  };
+  el.addEventListener("pointerdown",e=>{
+    down=true; sx=e.clientX; sy=e.clientY; el.setPointerCapture(e.pointerId);
+    el.style.transition="none";
+  });
+  el.addEventListener("pointermove",e=>{
+    if(!down) return; dx=e.clientX-sx; dy=e.clientY-sy; move();
+  });
+  const end=()=>{
+    if(!down) return; down=false;
+    el.style.transition="transform .32s cubic-bezier(.2,.7,.3,1), opacity .32s";
+    if(Math.abs(dx)>92){ fly(el, dx>0); }
+    else { dx=0;dy=0; el.style.transform="translateY(0) scale(1)";
+           yes.style.opacity=0; no.style.opacity=0;
+           el.style.boxShadow="0 22px 50px rgba(0,0,0,.5), 0 2px 0 rgba(255,255,255,.5) inset"; }
+  };
+  el.addEventListener("pointerup",end);
+  el.addEventListener("pointercancel",end);
+}
+
+function fly(el, known){
+  el.style.transform=`translate(${known?520:-520}px, 40px) rotate(${known?26:-26}deg)`;
+  el.style.opacity="0";
+  answers[idx]=known; idx++;
+  setTimeout(()=>{ idx>=DECK.length ? afterDeck() : renderStack(); },210);
+}
+function choose(known){
+  const front=$("stage").querySelector(".card:last-child");
+  if(!front) return;
+  front.style.transition="transform .32s cubic-bezier(.2,.7,.3,1), opacity .32s";
+  front.querySelector(known?".stamp.yes":".stamp.no").style.opacity="1";
+  fly(front,known);
+}
+function undo(){
+  if(idx===0) return;
+  idx--; answers.pop(); renderStack();
+}
+
+/* ═══════ 단계 상승 판정 ═══════ */
+function ratioOf(band){
+  let n=0,k=0;
+  DECK.forEach((c,i)=>{ if(c.band===band){ n++; if(answers[i]) k++; } });
+  return n ? k/n : 0;
+}
+function nextBand(){
+  const last=tried[tried.length-1];
+  const i=ORDER.indexOf(last);
+  const cand = last==="C" ? "D" : (i>=0 ? ORDER[i+1] : null);
+  return cand && DATA.ext[cand] ? cand : null;
+}
+function afterDeck(){
+  const last=tried[tried.length-1];
+  const nb=nextBand();
+  if(nb && ratioOf(last)>=DATA.gate){ showBridge(nb); }
+  else startVerify();
+}
+function showBridge(nb){
+  const pct=Math.round(ratioOf(tried[tried.length-1])*100);
+  $("bLede").innerHTML =
+    `방금 <b>${DATA.bandLabel[tried[tried.length-1]]}</b> 구간을 <b>${pct}%</b> 맞히셨어요.
+     여기서 멈추면 실제 실력보다 낮게 나옵니다.
+     <b>${DATA.bandLabel[nb]}</b> 단어 20장을 더 넘겨보면 더 정확해져요. (약 1분)`;
+  $("bGo").onclick=()=>{
+    tried.push(nb);
+    DECK=DECK.concat(DATA.ext[nb]);
+    show("swipe"); renderStack();
+  };
+  $("bStop").onclick=startVerify;
+  show("bridge");
+}
+
+/* ═══════ 확인 퀴즈 ═══════ */
+function startVerify(){
+  const right = DECK.map((c,i)=>({c,i})).filter(o=>answers[o.i]);
+  if(right.length===0){ finish([]); return; }
+  /* 밴드 비율대로 최대 10개 */
+  const byB={}; tried.forEach(b=>byB[b]=[]);
+  right.forEach(o=>byB[o.c.band].push(o.c));
+  const N=Math.min(Math.max(10, tried.length*3), right.length);
+  let quota={}, sum=0;
+  tried.forEach(b=>{ quota[b]=Math.round(N*byB[b].length/right.length); sum+=quota[b]; });
+  while(sum>N){ const b=tried.filter(x=>quota[x]>0).sort((x,y)=>quota[y]-quota[x])[0]; quota[b]--; sum--; }
+  while(sum<N){ const b=tried.filter(x=>byB[x].length>quota[x]).sort((x,y)=>byB[y].length-byB[x].length)[0];
+                if(!b) break; quota[b]++; sum++; }
+  vQueue=[];
+  tried.forEach(b=>{
+    const pool=[...byB[b]].sort(()=>Math.random()-.5);
+    vQueue.push(...pool.slice(0,quota[b]));
+  });
+  vQueue.sort(()=>Math.random()-.5);
+  vIdx=0; vRight=0;
+  $("vtot").textContent=vQueue.length;
+  show("verify"); renderVerify();
+}
+function renderVerify(){
+  const q=vQueue[vIdx];
+  spine($("vspine"),vQueue.length,vIdx);
+  $("vnow").textContent=vIdx+1;
+  $("vword").textContent=q.w;
+  $("vopts").innerHTML=q.opts.map((o,i)=>
+    `<button class="opt" data-i="${i}">${o}</button>`).join("");
+  $("vopts").querySelectorAll(".opt").forEach(b=>
+    b.addEventListener("click",()=>pickOpt(+b.dataset.i)));
+}
+function pickOpt(i){
+  const q=vQueue[vIdx];
+  const btns=$("vopts").querySelectorAll(".opt");
+  btns.forEach((b,n)=>{ b.disabled=true;
+    if(n===q.ans) b.classList.add("ok");
+    else if(n===i) b.classList.add("no"); });
+  if(i===q.ans) vRight++;
+  setTimeout(()=>{
+    vIdx++;
+    if(vIdx>=vQueue.length) finish(vQueue); else renderVerify();
+  },820);
+}
+
+/* ═══════ 결과 ═══════ */
+function finish(){
+  const V = vQueue.length ? vRight/vQueue.length : 1;
+  const ratio={}, pct={};
+  tried.forEach(b=>{ ratio[b]=ratioOf(b)*V; pct[b]=Math.round(ratio[b]*100); });
+  let raw=0; tried.forEach(b=>raw+=ratio[b]*DATA.bandSize[b]);
+  const est=Math.round(raw/10)*10;
+  RES={est,pct,V:Math.round(V*100),ratio};
+  show("result"); paintResult();
+}
+function paintResult(){
+  /* 숫자 카운트업 */
+  const t0=performance.now(), dur=900;
+  (function tick(t){
+    const p=Math.min((t-t0)/dur,1), e=1-Math.pow(1-p,3);
+    $("estNum").textContent=Math.round(RES.est*e).toLocaleString();
+    if(p<1) requestAnimationFrame(tick);
+  })(t0);
+
+  const nextGoal = RES.est<2000 ? 2000 : (RES.est<3000 ? 3000 : (RES.est<4000 ? 4000 : (RES.est<5000 ? 5000 : null)));
+  $("estMsg").innerHTML = nextGoal
+    ? `일상 영어의 약 <b>${cover(RES.est)}%</b>를 덮는 수준이에요.
+       다음 목표는 <b>${nextGoal.toLocaleString()}단어</b>입니다.`
+    : `일상 영어의 약 <b>${cover(RES.est)}%</b>를 덮는 수준이에요. 탄탄한 기반이 잡혔습니다.`;
+
+  $("bands").innerHTML=tried.map(b=>`
+    <div class="band">
+      <span class="nm">${DATA.bandLabel[b]}</span>
+      <span class="tr"><span class="fl" data-b="${b}"></span></span>
+      <span class="pc">${RES.pct[b]}%</span>
+    </div>`).join("");
+  requestAnimationFrame(()=>{
+    $("bands").querySelectorAll(".fl").forEach(f=>f.style.width=RES.pct[f.dataset.b]+"%");
+  });
+
+  drawPara("now");
+  const code=`LV2-${RES.est}-`+tried.map(b=>b+RES.pct[b]).join("-")+`-V${RES.V}`;
+  $("code").textContent=code;
+  $("copy").onclick=()=>{
+    const msg=`제 단어 레벨 결과예요 · 약 ${RES.est.toLocaleString()}단어\n${code}`;
+    navigator.clipboard?.writeText(msg).then(toast,toast);
+  };
+}
+function cover(est){
+  /* NGSL 커버리지 근사: 1000→78, 2000→86, 2800→90 */
+  if(est<=1000) return Math.round(est/1000*78);
+  if(est<=2000) return Math.round(78+(est-1000)/1000*8);
+  if(est<=3000) return Math.round(86+(est-2000)/1000*4);
+  if(est<=4000) return Math.round(90+(est-3000)/1000*3);
+  return Math.min(96,Math.round(93+(est-4000)/1000*2));
+}
+function drawPara(mode){
+  const base={A:0,B:0,C:0,D:0,E:0};
+  const r = mode==="now" ? Object.assign({},base,RES.ratio)
+          : mode==="2000" ? Object.assign({},base,{A:1,B:1,C:RES.ratio.C||0})
+          : Object.assign({},base,{A:1,B:1,C:1});
+  $("para").innerHTML = PARA.map(([w,b],i)=>{
+    if(!b) return /^[.,]$/.test(w) ? w : " "+w;
+    /* 밴드 비율만큼 결정론적으로 선명/흐림 */
+    const blur = ((i*37)%100)/100 >= r[b];
+    return " "+`<span class="${blur?"b":""}">${w}</span>`;
+  }).join("");
+}
+function toast(){
+  const t=$("toast"); t.classList.add("on");
+  setTimeout(()=>t.classList.remove("on"),1900);
+}
+
+/* ═══════ 이벤트 ═══════ */
+function reset(){ DECK=[...DATA.base]; idx=0; answers=[]; vQueue=[]; vIdx=0; vRight=0; tried=["A","B","C"]; }
+$("start").addEventListener("click",()=>{ reset(); show("swipe"); renderStack(); });
+$("bYes").addEventListener("click",()=>choose(true));
+$("bNo").addEventListener("click",()=>choose(false));
+$("bUndo").addEventListener("click",undo);
+$("again").addEventListener("click",()=>{ reset(); show("intro"); });
+document.addEventListener("keydown",e=>{
+  if($("swipe").style.display==="none") return;
+  if(e.key==="ArrowRight") choose(true);
+  if(e.key==="ArrowLeft")  choose(false);
+  if(e.key==="Backspace"){ e.preventDefault(); undo(); }
+});
+document.addEventListener("click",e=>{
+  const sw=e.target.closest(".sw"); if(!sw) return;
+  document.querySelectorAll(".sw").forEach(x=>x.classList.remove("on"));
+  sw.classList.add("on"); drawPara(sw.dataset.m);
+});
+reset(); show("intro");
+</script>
+</body>
+</html>
