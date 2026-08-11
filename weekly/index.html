@@ -175,6 +175,9 @@ const LV={ warmup:{t:"Warm-up", d:"가볍게 시작하기", m:"A", cls:""},
            intermediate:{t:"Intermediate", d:"한 단계 올려서", m:"B", cls:"b"},
            challenge:{t:"Challenge", d:"직접 써보기", m:"C", cls:"c"} };
 let DATA=null, DONE={}, S={};
+const DKEY=()=> "dewb:quiz:"+(DATA&&DATA.week?DATA.week:"x");
+function loadDone(){ try{ DONE=JSON.parse(localStorage.getItem(DKEY())||"{}")||{}; }catch(e){ DONE={}; } }
+function saveDone(){ try{ localStorage.setItem(DKEY(), JSON.stringify(DONE)); }catch(e){} }
 const app=()=>document.getElementById("app");
 const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
@@ -301,7 +304,7 @@ function after(ok, answer, q){
 
 function resultView(){
   beep("fin");
-  DONE[S.lv]=S.score;
+  DONE[S.lv]=S.score; saveDone();
   try{ if(DATA && DATA.week) localStorage.setItem("dewb:quizdone", DATA.week); }catch(e){}
   const m = S.score===5 ? "완벽해요! 다음 레벨도 도전해볼까요?"
           : S.score>=4 ? "좋아요! 거의 다 맞혔어요."
@@ -332,6 +335,7 @@ function resultView(){
       <div class="empty">이번 주 퀴즈가 아직 준비 중이에요. 월요일에 다시 만나요! ✎</div>`;
     return;
   }
+  loadDone();
   homeView();
 })();
 </script>
