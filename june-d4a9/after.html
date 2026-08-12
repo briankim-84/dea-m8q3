@@ -80,7 +80,7 @@ function render(files){
     return;
   }
   document.getElementById("list").innerHTML=items.map(f=>
-    `<a class="item" href="${encodeURIComponent(f)}">
+    `<a class="item" href="viewer.html?from=after&f=${encodeURIComponent(f)}">
        <span class="dot"></span><span class="t">${labelOf(f)}</span>
        <span class="k">${kindOf(f)}</span><span class="go">열기→</span></a>`).join("");
 }
