@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Interview Practice · Do English with Brian</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root{ --navy:#1A2E4C; --navy2:#22406B; --gold:#C9A432; --gold-l:#E8CE73;
+         --paper:#FBF8F1; --line:#E2DCCE; --dim:#8C8677; }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{font-family:'Pretendard',sans-serif;background:#EAE5DA;display:flex;justify-content:center;}
+  .wrap{width:100%;max-width:520px;background:var(--paper);min-height:100dvh;
+        padding-bottom:calc(30px + env(safe-area-inset-bottom));}
+
+  .top{background:var(--navy);color:#fff;padding:calc(16px + env(safe-area-inset-top)) 20px 16px;}
+  .back{display:inline-block;color:rgba(255,255,255,.65);text-decoration:none;font-size:12.5px;margin-bottom:10px;}
+  .back:hover{color:var(--gold-l);}
+  .eyebrow{font-size:10px;letter-spacing:.2em;color:var(--gold);margin-bottom:6px;}
+  h1{font-family:Georgia,serif;font-size:25px;font-weight:400;letter-spacing:.3px;}
+  h1 small{display:block;font-family:'Pretendard';font-size:12px;color:rgba(255,255,255,.6);margin-top:6px;}
+
+  .player{position:sticky;top:0;z-index:5;background:#000;box-shadow:0 3px 12px rgba(0,0,0,.18);}
+  video{width:100%;display:block;aspect-ratio:16/9;background:#000;}
+  .nowbar{background:var(--navy2);color:#fff;padding:9px 14px;font-size:12.5px;
+     display:flex;align-items:center;gap:8px;min-height:38px;}
+  .nowbar b{color:var(--gold-l);font-weight:700;flex:none;}
+  .nowbar span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+  .ctrl{display:flex;gap:7px;padding:12px 16px 4px;}
+  .ctrl button{flex:1;padding:12px 6px;border-radius:11px;border:1px solid var(--line);
+    background:#fff;color:var(--navy);font-family:inherit;font-size:13px;font-weight:700;cursor:pointer;}
+  .ctrl button:active{background:#F2EDE1;}
+  .ctrl button:disabled{opacity:.4;cursor:default;}
+  .ctrl .sp{flex:none;width:62px;}
+  .ctrl .sp.on{background:var(--gold);border-color:var(--gold);color:#1A2E4C;}
+
+  .list{padding:14px 16px 0;}
+  .q{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:15px 14px;
+     margin-bottom:9px;border-radius:13px;border:1px solid var(--line);background:#fff;
+     font-family:inherit;cursor:pointer;transition:.15s;}
+  .q:active{background:#F7F2E6;}
+  .q.on{border-color:var(--gold);background:#FDF8EA;box-shadow:0 0 0 1px var(--gold);}
+  .num{width:30px;height:30px;flex:none;border-radius:50%;border:1.5px solid var(--navy);
+    display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;
+    font-size:13px;color:var(--navy);background:#fff;}
+  .q.done .num{background:var(--navy);color:var(--gold-l);border-color:var(--navy);}
+  .q .t{display:block;font-size:14.5px;color:var(--navy);font-weight:600;line-height:1.45;}
+  .q .len{display:block;font-size:11px;color:var(--dim);margin-top:3px;}
+  .foot{text-align:center;font-size:10px;letter-spacing:.18em;color:#B5AE9C;padding:22px 0 6px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="./">← Back to my page</a>
+    <div class="eyebrow">DO ENGLISH WITH BRIAN</div>
+    <h1>Interview Practice<small>Tap a question. Listen, then say it out loud.</small></h1>
+  </div>
+
+  <div class="player">
+    <video id="v" playsinline webkit-playsinline preload="metadata" controls
+           src="interview.mp4"></video>
+    <div class="nowbar"><b id="nowNo">—</b><span id="nowQ">Choose a question below</span></div>
+  </div>
+
+  <div class="ctrl">
+    <button id="again" disabled>↻ Play again</button>
+    <button id="ansOnly" disabled>Answer only</button>
+    <button class="sp" id="sp">1×</button>
+  </div>
+
+  <div class="list" id="list"></div>
+  <div class="foot">DAHYE · INTERVIEW PREP</div>
+</div>
+
+<script>
+const Q=[
+ {i:1,q:"Tell me about yourself.",                        s:8.9,  a:11.1, e:48.2},
+ {i:2,q:"What are your strengths and weaknesses?",        s:48.3, a:56.9, e:88.2},
+ {i:3,q:"Why do you want to work here?",                  s:89.3, a:91.4, e:139.8},
+ {i:4,q:"What can you do for us?",                        s:140.0,a:143.0,e:186.1},
+ {i:5,q:"Tell me about a time you gave great service.",   s:186.2,a:192.8,e:229.5},
+ {i:6,q:"Tell me about working with your team.",          s:229.6,a:230.2,e:269.7},
+ {i:7,q:"Tell me about a difficult situation.",           s:270.7,a:276.0,e:319.2},
+ {i:8,q:"Where do you see yourself in five years?",       s:319.3,a:322.4,e:351.3},
+];
+const KEY="dewb:dahye:interview";
+const $=id=>document.getElementById(id);
+const v=$("v");
+let cur=null, stopAt=null, done={};
+try{ done=JSON.parse(localStorage.getItem(KEY)||"{}")||{}; }catch(e){}
+
+function render(){
+  $("list").innerHTML=Q.map(x=>{
+    const sec=Math.round(x.e-x.s);
+    return `<button class="q ${done[x.i]?"done":""} ${cur&&cur.i===x.i?"on":""}" data-i="${x.i}">
+      <span class="num">${done[x.i]?"✓":x.i}</span>
+      <span><span class="t">${x.q}</span><span class="len">${sec}s</span></span>
+    </button>`;
+  }).join("");
+  $("list").querySelectorAll(".q").forEach(b=>
+    b.addEventListener("click",()=>play(Q[+b.dataset.i-1], false)));
+}
+function play(item, answerOnly){
+  cur=item;
+  stopAt=item.e;
+  v.currentTime = answerOnly ? item.a : item.s;
+  v.play().catch(()=>{});
+  $("nowNo").textContent="Q"+item.i;
+  $("nowQ").textContent=item.q;
+  $("again").disabled=false; $("ansOnly").disabled=false;
+  done[item.i]=true;
+  try{ localStorage.setItem(KEY, JSON.stringify(done)); }catch(e){}
+  render();
+  document.querySelector(".player").scrollIntoView({block:"start",behavior:"smooth"});
+}
+v.addEventListener("timeupdate",()=>{
+  if(stopAt!==null && v.currentTime>=stopAt){ v.pause(); stopAt=null; }
+});
+$("again").addEventListener("click",()=>{ if(cur) play(cur,false); });
+$("ansOnly").addEventListener("click",()=>{ if(cur) play(cur,true); });
+$("sp").addEventListener("click",()=>{
+  const slow = v.playbackRate!==0.75;
+  v.playbackRate = slow ? 0.75 : 1;
+  $("sp").textContent = slow ? "0.75×" : "1×";
+  $("sp").classList.toggle("on", slow);
+});
+render();
+</script>
+</body>
+</html>
