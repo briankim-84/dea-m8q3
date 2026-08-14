@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Almost Right · Do English with Brian</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root{ --navy:#1A2E4C; --navy2:#22406B; --gold:#C9A432; --gold-l:#E8CE73;
+         --paper:#FBF8F1; --line:#E2DCCE; --dim:#8C8677; --ok:#2E7D5B; --off:#B4574E; }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{font-family:'Pretendard',sans-serif;background:#EAE5DA;display:flex;justify-content:center;}
+  .wrap{width:100%;max-width:520px;background:var(--paper);min-height:100dvh;
+        padding-bottom:calc(30px + env(safe-area-inset-bottom));}
+
+  .top{background:var(--navy);color:#fff;padding:calc(16px + env(safe-area-inset-top)) 20px 16px;}
+  .back{display:inline-block;color:rgba(255,255,255,.65);text-decoration:none;font-size:12.5px;margin-bottom:10px;}
+  .back:hover{color:var(--gold-l);}
+  .eyebrow{font-size:10px;letter-spacing:.2em;color:var(--gold);margin-bottom:6px;}
+  h1{font-family:Georgia,serif;font-size:27px;font-weight:400;letter-spacing:.3px;}
+  h1 small{display:block;font-family:'Pretendard';font-size:12px;color:rgba(255,255,255,.6);margin-top:7px;line-height:1.5;}
+
+  .player{position:sticky;top:0;z-index:5;background:#000;box-shadow:0 3px 12px rgba(0,0,0,.18);}
+  video{width:100%;display:block;aspect-ratio:16/9;background:#000;}
+  .nowbar{background:var(--navy2);color:#fff;padding:9px 14px;font-size:12.5px;
+     display:flex;align-items:center;gap:8px;min-height:38px;}
+  .nowbar b{color:var(--gold-l);font-weight:700;flex:none;}
+  .nowbar span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+  .ctrl{display:flex;gap:7px;padding:12px 16px 4px;}
+  .ctrl button{flex:1;padding:12px 6px;border-radius:11px;border:1px solid var(--line);
+    background:#fff;color:var(--navy);font-family:inherit;font-size:13px;font-weight:700;cursor:pointer;}
+  .ctrl button:active{background:#F2EDE1;}
+  .ctrl button:disabled{opacity:.4;cursor:default;}
+  .ctrl .sp{flex:none;width:62px;}
+  .ctrl .sp.on{background:var(--gold);border-color:var(--gold);color:#1A2E4C;}
+
+  .list{padding:14px 16px 0;}
+  .card{display:flex;gap:12px;width:100%;text-align:left;padding:14px;margin-bottom:9px;
+     border-radius:13px;border:1px solid var(--line);background:#fff;font-family:inherit;cursor:pointer;transition:.15s;}
+  .card:active{background:#F7F2E6;}
+  .card.on{border-color:var(--gold);background:#FDF8EA;box-shadow:0 0 0 1px var(--gold);}
+  .num{width:28px;height:28px;flex:none;border-radius:50%;border:1.5px solid var(--navy);
+    display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;
+    font-size:12.5px;color:var(--navy);background:#fff;margin-top:2px;}
+  .card.done .num{background:var(--navy);color:var(--gold-l);border-color:var(--navy);}
+  .body{flex:1;min-width:0;}
+  .row{display:flex;gap:8px;align-items:baseline;line-height:1.45;}
+  .row + .row{margin-top:6px;}
+  .tag{flex:none;font-size:9.5px;letter-spacing:.08em;font-weight:800;padding:2px 6px;border-radius:5px;}
+  .tag.x{color:var(--off);background:rgba(180,87,78,.11);}
+  .tag.o{color:var(--ok);background:rgba(46,125,91,.12);}
+  .x-txt{font-size:14px;color:#7B7466;text-decoration:line-through;text-decoration-color:rgba(180,87,78,.5);}
+  .o-txt{font-size:14.5px;color:var(--navy);font-weight:700;}
+  .foot{text-align:center;font-size:10px;letter-spacing:.18em;color:#B5AE9C;padding:22px 0 6px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="./">← Back to my page</a>
+    <div class="eyebrow">DO ENGLISH WITH BRIAN</div>
+    <h1>Almost Right<small>Grammatically perfect — but not quite native.<br>Tap one, listen, then say the native line out loud.</small></h1>
+  </div>
+
+  <div class="player">
+    <video id="v" playsinline webkit-playsinline preload="metadata" controls src="almostright.mp4"></video>
+    <div class="nowbar"><b id="nowNo">—</b><span id="nowQ">Choose an expression below</span></div>
+  </div>
+
+  <div class="ctrl">
+    <button id="again" disabled>↻ Play again</button>
+    <button id="nat" disabled>Native only</button>
+    <button class="sp" id="sp">1×</button>
+  </div>
+
+  <div class="list" id="list"></div>
+  <div class="foot">JUNE · ALMOST RIGHT</div>
+</div>
+
+<script>
+/* segs: 재생 구간 목록 [[시작,끝], ...]  nat: 원어민 표현 시작 시각 */
+const D=[
+ {i:1, x:"I have a promise tonight.",            o:"I have plans tonight.",              segs:[[0.0,22.2]],  nat:15.0},
+ {i:2, x:"I received a lot of stress.",          o:"I've been really stressed out.",      segs:[[22.3,44.3]], nat:35.6},
+ {i:3, x:"Please understand my situation.",      o:"I hope you can bear with me.",        segs:[[44.4,67.3]], nat:57.7},
+ {i:4, x:"I'll go first.",                       o:"I'm heading out.",                    segs:[[67.4,88.2]], nat:79.0},
+ {i:5, x:"Take a rest.",                         o:"Get some rest.",                      segs:[[88.3,103.4]],nat:96.8},
+ {i:6, x:"Do you know that new cafe?",           o:"Have you heard of that new cafe?",    segs:[[103.5,124.5]],nat:117.9},
+ {i:7, x:"I envy you.",                          o:"I'm so jealous.",                     segs:[[124.6,141.1]],nat:135.0},
+ {i:8, x:"My English skill is not enough yet.",  o:"My English isn't quite there yet.",   segs:[[141.2,159.4]],nat:151.2},
+ {i:9, x:"I have a schedule tomorrow.",          o:"I'm tied up tomorrow.",               segs:[[159.5,184.4]],nat:172.0},
+ {i:10,x:"I'm expecting the movie this weekend.",o:"I'm looking forward to the movie.",   segs:[[161.4,164.8],[184.5,200.4]],nat:192.8},
+ {i:11,x:"Don't feel burden.",                   o:"No pressure. / Don't feel obligated.",segs:[[200.5,217.6]],nat:210.3},
+ {i:12,x:"Cheer up.",                            o:"You've got this. / Hang in there.",   segs:[[217.7,238.8]],nat:230.9},
+ {i:13,x:"It can't be helped.",                  o:"It is what it is.",                   segs:[[239.0,262.3]],nat:251.6},
+ {i:14,x:"I played with my friends.",            o:"I hung out with my friends.",         segs:[[262.4,282.1]],nat:273.6},
+ {i:15,x:"She has a good style.",                o:"She dresses really well.",            segs:[[282.2,302.9]],nat:291.5},
+ {i:16,x:"Almost people in my team agreed.",     o:"Almost everyone on my team agreed.",  segs:[[303.0,321.4]],nat:312.5},
+ {i:17,x:"I know her face.",                     o:"I know her by sight.",                segs:[[321.5,338.7]],nat:329.5},
+];
+const KEY="dewb:june:almostright";
+const $=id=>document.getElementById(id);
+const v=$("v");
+let cur=null, queue=[], stopAt=null, done={};
+try{ done=JSON.parse(localStorage.getItem(KEY)||"{}")||{}; }catch(e){}
+
+function render(){
+  $("list").innerHTML=D.map(d=>`
+    <button class="card ${done[d.i]?"done":""} ${cur&&cur.i===d.i?"on":""}" data-i="${d.i}">
+      <span class="num">${done[d.i]?"✓":d.i}</span>
+      <span class="body">
+        <span class="row"><span class="tag x">JUNE</span><span class="x-txt">${d.x}</span></span>
+        <span class="row"><span class="tag o">NATIVE</span><span class="o-txt">${d.o}</span></span>
+      </span>
+    </button>`).join("");
+  $("list").querySelectorAll(".card").forEach(b=>
+    b.addEventListener("click",()=>play(D[+b.dataset.i-1])));
+}
+function runQueue(){
+  if(!queue.length){ stopAt=null; return; }
+  const [s,e]=queue.shift();
+  stopAt=e; v.currentTime=s; v.play().catch(()=>{});
+}
+function play(d, nativeOnly){
+  cur=d;
+  queue = nativeOnly ? [[d.nat, d.segs[d.segs.length-1][1]]] : d.segs.map(x=>[x[0],x[1]]);
+  runQueue();
+  $("nowNo").textContent="#"+d.i;
+  $("nowQ").textContent=d.o;
+  $("again").disabled=false; $("nat").disabled=false;
+  done[d.i]=true;
+  try{ localStorage.setItem(KEY, JSON.stringify(done)); }catch(e){}
+  render();
+  document.querySelector(".player").scrollIntoView({block:"start",behavior:"smooth"});
+}
+v.addEventListener("timeupdate",()=>{
+  if(stopAt!==null && v.currentTime>=stopAt){
+    if(queue.length) runQueue();
+    else { v.pause(); stopAt=null; }
+  }
+});
+$("again").addEventListener("click",()=>{ if(cur) play(cur,false); });
+$("nat").addEventListener("click",()=>{ if(cur) play(cur,true); });
+$("sp").addEventListener("click",()=>{
+  const slow = v.playbackRate!==0.75;
+  v.playbackRate = slow ? 0.75 : 1;
+  $("sp").textContent = slow ? "0.75×" : "1×";
+  $("sp").classList.toggle("on", slow);
+});
+render();
+</script>
+</body>
+</html>
