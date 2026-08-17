@@ -1,0 +1,507 @@
+{
+ "student": "Sungmin",
+ "folder": "sungmin-u4a1",
+ "band": "심화 4000",
+ "words": [
+  {
+   "w": "testimony",
+   "ko": "증언, 증거",
+   "ex": "Her recovery is a testimony to her effort.",
+   "exko": "그녀의 회복은 노력의 증거예요.",
+   "use": [
+    [
+     "The teacher's testimony supported the student.",
+     "교사의 증언이 그 학생에게 힘이 됐다."
+    ],
+    [
+     "His calm testimony convinced the jury.",
+     "그의 침착한 증언이 배심원을 설득했다."
+    ]
+   ],
+   "mcq": [
+    "Her success is a testimony to years of practice.",
+    "Her success is a testimony of to practice.",
+    "Her success testimonies years of practice.",
+    "Testimony her success is years to."
+   ],
+   "ans": 0,
+   "note": "a testimony to = ~을 입증하는 것. 격식 있는 칭찬 표현!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "testify",
+   "ko": "증언하다",
+   "ex": "Anyone who saw it can testify.",
+   "exko": "그걸 본 사람은 누구든 증언할 수 있어요.",
+   "use": [
+    [
+     "The expert testified about the child's needs.",
+     "전문가가 그 아이의 필요에 대해 증언했다."
+    ],
+    [
+     "I can testify to his dedication.",
+     "그의 헌신은 제가 보증합니다."
+    ]
+   ],
+   "mcq": [
+    "She testified before the committee.",
+    "She testified in front to the committee.",
+    "She testimonied before the committee.",
+    "The committee testified her before."
+   ],
+   "ans": 0,
+   "note": "testify before + 위원회/법정. 교육청 회의 상황에도 응용 가능!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "vulnerable",
+   "ko": "취약한",
+   "ex": "Some students are more vulnerable to stress.",
+   "exko": "어떤 학생들은 스트레스에 더 취약해요.",
+   "use": [
+    [
+     "We protect the most vulnerable children first.",
+     "가장 취약한 아이들을 먼저 보호한다."
+    ],
+    [
+     "Sharing feelings makes us vulnerable — and stronger.",
+     "감정을 나누면 약해지지만 동시에 강해진다."
+    ]
+   ],
+   "mcq": [
+    "Young children are vulnerable to noise.",
+    "Young children are vulnerable at noise.",
+    "Young children vulnerable to noise.",
+    "Noise is vulnerable to young children."
+   ],
+   "ans": 0,
+   "note": "vulnerable to + 요인. 특수교육 현장에서 핵심 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "myth",
+   "ko": "근거 없는 통념, 신화",
+   "ex": "It's a myth that ADHD means low intelligence.",
+   "exko": "ADHD가 낮은 지능을 뜻한다는 건 잘못된 통념이에요.",
+   "use": [
+    [
+     "The workshop busted myths about autism.",
+     "그 워크숍은 자폐에 대한 통념을 깼다."
+    ],
+    [
+     "Every culture has creation myths.",
+     "모든 문화에는 창조 신화가 있다."
+    ]
+   ],
+   "mcq": [
+    "It's a myth that sugar causes hyperactivity.",
+    "It's a myth story about sugar causes.",
+    "The myth is sugar that causing.",
+    "Sugar myths that hyperactivity causes."
+   ],
+   "ans": 0,
+   "note": "It's a myth that... — 잘못된 통념을 바로잡을 때 쓰는 강력한 틀!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "rumor",
+   "ko": "소문",
+   "ex": "The rumor turned out to be false.",
+   "exko": "그 소문은 사실이 아닌 걸로 밝혀졌어요.",
+   "use": [
+    [
+     "Rumor has it that the school is expanding.",
+     "소문에 의하면 학교가 확장한대요."
+    ],
+    [
+     "Don't spread rumors about colleagues.",
+     "동료에 대한 소문을 퍼뜨리지 마세요."
+    ]
+   ],
+   "mcq": [
+    "Rumor has it that he's transferring.",
+    "Rumor has it to he's transferring.",
+    "Rumor is having that he transfers.",
+    "It rumors he that transferring is."
+   ],
+   "ans": 0,
+   "note": "Rumor has it that... = 소문으로는. 회화에서 진짜 자주 나와요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "flame",
+   "ko": "불꽃",
+   "ex": "Keep children away from open flames.",
+   "exko": "아이들을 화기에서 멀리 두세요.",
+   "use": [
+    [
+     "The campfire flames danced in the dark.",
+     "모닥불 불꽃이 어둠 속에서 일렁였다."
+    ],
+    [
+     "Simmer the soup over a low flame.",
+     "수프를 약불에서 뭉근히 끓이세요."
+    ]
+   ],
+   "mcq": [
+    "The flames spread quickly through the building.",
+    "The flames spread quick through building.",
+    "The flame fires spread quickly.",
+    "Quickly the spreading flames building through."
+   ],
+   "ans": 0,
+   "note": "flames(복수) = 화염. 안전 교육 필수 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "radiation",
+   "ko": "방사선",
+   "ex": "X-rays use a small amount of radiation.",
+   "exko": "엑스레이는 소량의 방사선을 사용해요.",
+   "use": [
+    [
+     "He's receiving radiation treatment.",
+     "그는 방사선 치료를 받고 있다."
+    ],
+    [
+     "The screen filter reduces blue light radiation.",
+     "그 필터는 블루라이트를 줄여준다."
+    ]
+   ],
+   "mcq": [
+    "The device emits almost no radiation.",
+    "The device emits almost no radiations.",
+    "The device radiates no emit.",
+    "No radiation emits the device almost."
+   ],
+   "ans": 0,
+   "note": "radiation은 셀 수 없는 명사. emit radiation = 방사선을 내뿜다.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "donate",
+   "ko": "기부하다",
+   "ex": "Parents donated books to the classroom.",
+   "exko": "학부모들이 교실에 책을 기부했어요.",
+   "use": [
+    [
+     "The alumni donated funds for the new gym.",
+     "동문들이 새 체육관 기금을 기부했다."
+    ],
+    [
+     "Consider donating your time, not just money.",
+     "돈만이 아니라 시간을 기부하는 것도 생각해 보세요."
+    ]
+   ],
+   "mcq": [
+    "They donated supplies to the school.",
+    "They donated supplies for to the school.",
+    "They donated the school at supplies.",
+    "The school donated them supplies to."
+   ],
+   "ans": 0,
+   "note": "donate A to B. donate time(시간 기부)이라는 확장도!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "deadly",
+   "ko": "치명적인",
+   "ex": "Some mushrooms are deadly.",
+   "exko": "어떤 버섯은 치명적이에요.",
+   "use": [
+    [
+     "The virus can be deadly for the elderly.",
+     "그 바이러스는 노인에게 치명적일 수 있다."
+    ],
+    [
+     "She gave me a deadly serious look.",
+     "그녀가 아주 진지한 표정으로 나를 봤다."
+    ]
+   ],
+   "mcq": [
+    "Peanut allergies can be deadly.",
+    "Peanut allergies can be deathly killed.",
+    "Peanut allergies can deadly.",
+    "Deadly can peanut allergies be it."
+   ],
+   "ans": 0,
+   "note": "deadly는 -ly로 끝나지만 형용사! 알레르기 안전 교육에 중요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "melt",
+   "ko": "녹다",
+   "ex": "The chocolate melted in my pocket.",
+   "exko": "주머니에서 초콜릿이 녹아버렸어요.",
+   "use": [
+    [
+     "The kids watched the ice melt in the sun.",
+     "아이들이 햇빛에 얼음이 녹는 걸 지켜봤다."
+    ],
+    [
+     "His kind words melted her anger away.",
+     "그의 다정한 말에 그녀의 화가 녹아내렸다."
+    ]
+   ],
+   "mcq": [
+    "The snowman melted by noon.",
+    "The snowman melted himself by noon.",
+    "The snowman made melt by noon.",
+    "By noon melting the snowman was gone it."
+   ],
+   "ans": 0,
+   "note": "melt = 녹다. 과학 수업 시연에도, 감정 표현에도!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "resemble",
+   "ko": "닮다",
+   "ex": "The twins resemble each other closely.",
+   "exko": "그 쌍둥이는 서로 많이 닮았어요.",
+   "use": [
+    [
+     "His teaching style resembles my old mentor's.",
+     "그의 교육 방식은 옛 멘토와 비슷하다."
+    ],
+    [
+     "The symptoms resemble a common cold.",
+     "그 증상은 감기와 비슷하다."
+    ]
+   ],
+   "mcq": [
+    "This case resembles one from last year.",
+    "This case resembles to one from last year.",
+    "This case resembles with last year one.",
+    "This case is resembled last year."
+   ],
+   "ans": 0,
+   "note": "resemble + 대상 바로 — 전치사 금지! 시험 단골 포인트.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "eager",
+   "ko": "열심인, 간절한",
+   "ex": "The new students are eager to learn.",
+   "exko": "신입생들이 배움에 열심이에요.",
+   "use": [
+    [
+     "He's eager to show what he can do.",
+     "그는 자기 능력을 보여주고 싶어 한다."
+    ],
+    [
+     "Eager hands went up all over the class.",
+     "교실 곳곳에서 손이 번쩍번쩍 올라왔다."
+    ]
+   ],
+   "mcq": [
+    "She's eager to join the program.",
+    "She's eager for join the program.",
+    "She's eager joining the program.",
+    "She eagers to join program."
+   ],
+   "ans": 0,
+   "note": "eager to + 동사. 학생 추천서에 쓰기 좋은 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "ethical",
+   "ko": "윤리적인",
+   "ex": "Is it ethical to use AI for grading?",
+   "exko": "채점에 AI를 쓰는 게 윤리적일까요?",
+   "use": [
+    [
+     "Teachers face ethical questions daily.",
+     "교사는 매일 윤리적 질문에 부딪힌다."
+    ],
+    [
+     "The company promotes ethical business practices.",
+     "그 회사는 윤리 경영을 추구한다."
+    ]
+   ],
+   "mcq": [
+    "We discussed the ethical issues involved.",
+    "We discussed the ethic issues involved.",
+    "We discussed ethically the issues.",
+    "The issues ethical discussed we."
+   ],
+   "ans": 0,
+   "note": "ethical(형용사) vs ethics(윤리학·명사) 구분!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "diagnose",
+   "ko": "진단하다",
+   "ex": "He was diagnosed with dyslexia at seven.",
+   "exko": "그는 일곱 살에 난독증 진단을 받았어요.",
+   "use": [
+    [
+     "Early diagnosis makes a huge difference.",
+     "조기 진단이 큰 차이를 만든다."
+    ],
+    [
+     "The doctor diagnosed the problem quickly.",
+     "의사가 문제를 빠르게 진단했다."
+    ]
+   ],
+   "mcq": [
+    "She was diagnosed with ADHD last year.",
+    "She was diagnosed by ADHD last year.",
+    "She diagnosed ADHD to her last year.",
+    "ADHD diagnosed her with last year."
+   ],
+   "ans": 0,
+   "note": "be diagnosed with + 질환명. 특수교육 서류·상담의 핵심 표현!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "subtle",
+   "ko": "미묘한",
+   "ex": "Watch for subtle signs of frustration.",
+   "exko": "좌절의 미묘한 신호를 살피세요.",
+   "use": [
+    [
+     "The change in his behavior was subtle.",
+     "그의 행동 변화는 미묘했다."
+    ],
+    [
+     "She has a subtle sense of humor.",
+     "그녀는 은근한 유머 감각이 있다."
+    ]
+   ],
+   "mcq": [
+    "There were subtle signs of improvement.",
+    "There were subtly signs of improvement.",
+    "Subtle there were improvement signs of.",
+    "The signs subtled of improvement."
+   ],
+   "ans": 0,
+   "note": "subtle — b는 묵음(/서틀/)! 관찰 기록에 자주 쓰는 단어.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "rhythm",
+   "ko": "리듬",
+   "ex": "Clapping helps kids feel the rhythm.",
+   "exko": "박수는 아이들이 리듬을 느끼게 도와줘요.",
+   "use": [
+    [
+     "Find your own study rhythm.",
+     "자기만의 공부 리듬을 찾으세요."
+    ],
+    [
+     "The rhythm of the poem is easy to follow.",
+     "그 시의 리듬은 따라가기 쉽다."
+    ]
+   ],
+   "mcq": [
+    "Music therapy uses rhythm and repetition.",
+    "Music therapy uses rhythm beats and repetition.",
+    "Rhythm uses music therapy repetition and.",
+    "The repetition rhythms music therapy."
+   ],
+   "ans": 0,
+   "note": "rhythm — 철자 어려운 단어 대표(모음이 y 하나)! 발음 도전각.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "utilize",
+   "ko": "활용하다",
+   "ex": "We utilize visual aids in every lesson.",
+   "exko": "저희는 모든 수업에 시각 자료를 활용해요.",
+   "use": [
+    [
+     "The app utilizes AI to adjust difficulty.",
+     "그 앱은 AI를 활용해 난이도를 조절한다."
+    ],
+    [
+     "Utilize your strengths in the interview.",
+     "면접에서 당신의 강점을 활용하세요."
+    ]
+   ],
+   "mcq": [
+    "Teachers utilize games to engage students.",
+    "Teachers utilize of games to engage.",
+    "Teachers utilizes game for engaging.",
+    "Games utilize teachers to engagement."
+   ],
+   "ans": 0,
+   "note": "utilize = use의 격식 버전. 보고서·계획서에서 빛나는 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "grocery",
+   "ko": "식료품",
+   "ex": "I do my grocery shopping on Sundays.",
+   "exko": "장은 일요일마다 봐요.",
+   "use": [
+    [
+     "The grocery store closes at 11.",
+     "그 식료품점은 11시에 닫는다."
+    ],
+    [
+     "We taught money skills using grocery lists.",
+     "장보기 목록으로 돈 개념을 가르쳤다."
+    ]
+   ],
+   "mcq": [
+    "I need to pick up some groceries.",
+    "I need to pick up some grocery.",
+    "I need to grocery some pickings.",
+    "Some groceries need to pick I up."
+   ],
+   "ans": 0,
+   "note": "장 본 물건들 = groceries(복수)! 생활 자립 교육에 딱 맞는 단어.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "patch",
+   "ko": "부분, 조각, 덧대다",
+   "ex": "We planted a small vegetable patch.",
+   "exko": "작은 텃밭을 만들었어요.",
+   "use": [
+    [
+     "He's going through a rough patch.",
+     "그는 힘든 시기를 지나고 있다."
+    ],
+    [
+     "Patch the hole before it gets bigger.",
+     "구멍이 커지기 전에 메우세요."
+    ]
+   ],
+   "mcq": [
+    "She's been through a rough patch lately.",
+    "She's been through a rough patch time lately.",
+    "A rough patch has been she through.",
+    "Lately rough patches through she has."
+   ],
+   "ans": 0,
+   "note": "a rough patch = 힘든 시기. 학생 상담에서 부드럽게 쓸 수 있는 표현!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "seemingly",
+   "ko": "겉보기에",
+   "ex": "It was a seemingly simple question.",
+   "exko": "겉보기엔 단순한 질문이었어요.",
+   "use": [
+    [
+     "Seemingly small habits shape big outcomes.",
+     "사소해 보이는 습관이 큰 결과를 만든다."
+    ],
+    [
+     "The seemingly shy student loves the stage.",
+     "수줍어 보이는 그 학생이 무대를 좋아한다."
+    ]
+   ],
+   "mcq": [
+    "The task was seemingly easy but tricky.",
+    "The task was seeming easy but tricky.",
+    "The task seemingly was easy tricking.",
+    "Seemingly the easy task but was tricky."
+   ],
+   "ans": 0,
+   "note": "seemingly + 형용사 = 겉보기엔 ~한. 반전을 만들 때 쓰는 부사!",
+   "wk": "2026-W34"
+  }
+ ]
+}

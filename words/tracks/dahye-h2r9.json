@@ -1,0 +1,507 @@
+{
+ "student": "Dahye",
+ "folder": "dahye-h2r9",
+ "band": "기초 1000",
+ "words": [
+  {
+   "w": "especially",
+   "ko": "특히",
+   "ex": "I love fruit, especially strawberries.",
+   "exko": "과일을 좋아하는데, 특히 딸기요.",
+   "use": [
+    [
+     "The hotel is busy, especially on weekends.",
+     "호텔은 특히 주말에 바빠요."
+    ],
+    [
+     "Be careful, especially at night.",
+     "특히 밤에는 조심하세요."
+    ]
+   ],
+   "mcq": [
+    "I like summer, especially August.",
+    "I like summer, specially August season.",
+    "I especially am liking August.",
+    "Especially, I like the August most."
+   ],
+   "ans": 0,
+   "note": "especially는 예시 앞에 붙어요. specially(특별히 맞춤으로)와 구분!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "despite",
+   "ko": "~에도 불구하고",
+   "ex": "We went out despite the rain.",
+   "exko": "비가 오는데도 우리는 나갔어요.",
+   "use": [
+    [
+     "Despite the price, the room was small.",
+     "가격에 비해 방이 작았다."
+    ],
+    [
+     "She smiled despite being tired.",
+     "그녀는 피곤한데도 미소 지었다."
+    ]
+   ],
+   "mcq": [
+    "Despite of the rain, we went out.",
+    "Despite the rain, we went out.",
+    "Despite it rained, we went out.",
+    "Despite for the rain, we went out."
+   ],
+   "ans": 1,
+   "note": "despite + 명사 바로 연결! 'despite of'는 정말 흔한 오류예요(in spite of와 혼동).",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "variety",
+   "ko": "다양성, 여러 가지",
+   "ex": "The buffet has a variety of dishes.",
+   "exko": "뷔페에 다양한 요리가 있어요.",
+   "use": [
+    [
+     "We offer a variety of room types.",
+     "다양한 객실 타입을 제공합니다."
+    ],
+    [
+     "I eat a variety of vegetables.",
+     "여러 가지 채소를 먹어요."
+    ]
+   ],
+   "mcq": [
+    "They sell variety of drinks.",
+    "They sell a variety of drinks.",
+    "They sell varieties drink.",
+    "They sell drink variety much."
+   ],
+   "ans": 1,
+   "note": "a variety of + 복수명사. 관사 a를 빼먹기 쉬워요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "prepare",
+   "ko": "준비하다",
+   "ex": "I'm preparing for a job interview.",
+   "exko": "면접 준비 중이에요.",
+   "use": [
+    [
+     "She prepared dinner for the guests.",
+     "그녀는 손님들을 위해 저녁을 준비했다."
+    ],
+    [
+     "We need to prepare for the busy season.",
+     "성수기를 대비해야 해요."
+    ]
+   ],
+   "mcq": [
+    "I'm preparing for the exam.",
+    "I'm preparing to the exam.",
+    "I'm preparing about the exam.",
+    "I'm preparing with the exam."
+   ],
+   "ans": 0,
+   "note": "prepare for + 대비할 일. prepare + 명사(직접 만들 것)도 가능해요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "remain",
+   "ko": "남다, 계속 ~이다",
+   "ex": "Only two rooms remain available.",
+   "exko": "객실이 두 개만 남아 있어요.",
+   "use": [
+    [
+     "Please remain seated.",
+     "자리에 앉아 계세요."
+    ],
+    [
+     "The store remains open until 10.",
+     "가게는 10시까지 열려 있어요."
+    ]
+   ],
+   "mcq": [
+    "Please remain calm.",
+    "Please remain calmly.",
+    "Please remain to calm.",
+    "Please remaining calm."
+   ],
+   "ans": 0,
+   "note": "remain + 형용사 = ~한 상태로 있다. 부사가 아니라 형용사!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "describe",
+   "ko": "묘사하다, 설명하다",
+   "ex": "Can you describe the problem?",
+   "exko": "문제를 설명해 주시겠어요?",
+   "use": [
+    [
+     "She described the room in detail.",
+     "그녀는 방을 자세히 설명했다."
+    ],
+    [
+     "How would you describe yourself?",
+     "자신을 어떻게 소개하시겠어요?"
+    ]
+   ],
+   "mcq": [
+    "Describe about your experience.",
+    "Describe your experience.",
+    "Describe on your experience.",
+    "Describe to your experience."
+   ],
+   "ans": 1,
+   "note": "describe + 대상 바로 연결! describe about은 대표적인 한국식 오류.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "manage",
+   "ko": "관리하다, 해내다",
+   "ex": "She manages a small hotel.",
+   "exko": "그녀는 작은 호텔을 운영해요.",
+   "use": [
+    [
+     "I managed to finish on time.",
+     "가까스로 제시간에 끝냈어요."
+    ],
+    [
+     "He manages a team of ten people.",
+     "그는 10명 팀을 관리한다."
+    ]
+   ],
+   "mcq": [
+    "I managed to catch the bus.",
+    "I managed catching the bus.",
+    "I managed catch the bus.",
+    "I managed for catching the bus."
+   ],
+   "ans": 0,
+   "note": "manage to + 동사 = (힘들었지만) 해내다. -ing가 아니에요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "allow",
+   "ko": "허락하다",
+   "ex": "Pets are not allowed in this hotel.",
+   "exko": "이 호텔은 반려동물 출입이 안 돼요.",
+   "use": [
+    [
+     "My parents allowed me to travel alone.",
+     "부모님이 혼자 여행하는 걸 허락하셨다."
+    ],
+    [
+     "Smoking is not allowed here.",
+     "여기는 금연입니다."
+    ]
+   ],
+   "mcq": [
+    "They allowed me to enter.",
+    "They allowed me entering.",
+    "They allowed that I enter.",
+    "They allowed to me enter."
+   ],
+   "ans": 0,
+   "note": "allow + 사람 + to부정사. 수동태 be allowed to도 자주 써요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "decide",
+   "ko": "결정하다",
+   "ex": "I decided to learn English.",
+   "exko": "영어를 배우기로 결심했어요.",
+   "use": [
+    [
+     "Have you decided what to order?",
+     "뭐 주문할지 정했어요?"
+    ],
+    [
+     "We decided not to go.",
+     "우리는 가지 않기로 했다."
+    ]
+   ],
+   "mcq": [
+    "I decided to change my job.",
+    "I decided changing my job.",
+    "I decided change my job.",
+    "I decided that changing job."
+   ],
+   "ans": 0,
+   "note": "decide + to부정사. decide -ing는 안 돼요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "explain",
+   "ko": "설명하다",
+   "ex": "Let me explain the check-in process.",
+   "exko": "체크인 절차를 설명드릴게요.",
+   "use": [
+    [
+     "Can you explain it again slowly?",
+     "다시 천천히 설명해 주시겠어요?"
+    ],
+    [
+     "She explained the rules to the guests.",
+     "그녀는 손님들에게 규정을 설명했다."
+    ]
+   ],
+   "mcq": [
+    "Please explain me the rule.",
+    "Please explain the rule to me.",
+    "Please explain to me it the rule.",
+    "Please explain me about rule."
+   ],
+   "ans": 1,
+   "note": "explain A to B! 'explain me'는 안 돼요 — 꼭 to가 필요해요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "notice",
+   "ko": "알아차리다, 공지",
+   "ex": "Did you notice anything strange?",
+   "exko": "뭔가 이상한 거 못 느꼈어요?",
+   "use": [
+    [
+     "I noticed a small stain on the sheet.",
+     "시트에 작은 얼룩이 있는 걸 발견했다."
+    ],
+    [
+     "Thank you for the notice.",
+     "공지해 주셔서 감사해요."
+    ]
+   ],
+   "mcq": [
+    "I noticed that he was tired.",
+    "I noticed to his tiredness.",
+    "I noticed about he was tired.",
+    "I was notice his tired."
+   ],
+   "ans": 0,
+   "note": "notice + that절 / notice + 명사. notice about은 어색해요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "order",
+   "ko": "주문(하다), 순서",
+   "ex": "Are you ready to order?",
+   "exko": "주문하시겠어요?",
+   "use": [
+    [
+     "I ordered room service last night.",
+     "어젯밤 룸서비스를 시켰다."
+    ],
+    [
+     "The names are in alphabetical order.",
+     "이름이 가나다순으로 되어 있어요."
+    ]
+   ],
+   "mcq": [
+    "I ordered a pasta and a salad.",
+    "I ordered to a pasta.",
+    "I made order pasta.",
+    "I ordered for eat pasta."
+   ],
+   "ans": 0,
+   "note": "order + 음식 바로 연결. 식당·호텔에서 매일 쓰는 동사예요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "serve",
+   "ko": "제공하다, 응대하다",
+   "ex": "Breakfast is served from 7 to 10.",
+   "exko": "조식은 7시부터 10시까지 제공됩니다.",
+   "use": [
+    [
+     "This restaurant serves Italian food.",
+     "이 식당은 이탈리안 음식을 해요."
+    ],
+    [
+     "I served customers all day.",
+     "하루 종일 손님 응대를 했다."
+    ]
+   ],
+   "mcq": [
+    "Dinner is served at 6.",
+    "Dinner is serving at 6 by us.",
+    "We serve to dinner at 6.",
+    "Dinner serves us at 6."
+   ],
+   "ans": 0,
+   "note": "be served = 제공되다. 호텔·식당 영어의 핵심 동사!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "share",
+   "ko": "공유하다, 나누다",
+   "ex": "Let me share my screen.",
+   "exko": "화면 공유할게요.",
+   "use": [
+    [
+     "We shared a room during the trip.",
+     "여행 중에 방을 같이 썼다."
+    ],
+    [
+     "Thanks for sharing your story.",
+     "이야기를 들려줘서 고마워요."
+    ]
+   ],
+   "mcq": [
+    "Can you share the file with me?",
+    "Can you share me the file?",
+    "Can you share the file to I?",
+    "Can you share for me the file?"
+   ],
+   "ans": 0,
+   "note": "share A with B. 'share me'는 안 돼요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "support",
+   "ko": "지원하다, 지지하다",
+   "ex": "Thank you for your support.",
+   "exko": "응원해 주셔서 감사해요.",
+   "use": [
+    [
+     "My family supports my decision.",
+     "가족이 내 결정을 지지해 준다."
+    ],
+    [
+     "The team supports each other.",
+     "팀원들이 서로 돕는다."
+    ]
+   ],
+   "mcq": [
+    "I support your idea.",
+    "I support to your idea.",
+    "I support with your idea.",
+    "I am support your idea."
+   ],
+   "ans": 0,
+   "note": "support + 대상 바로 연결. be동사 넣지 않기!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "offer",
+   "ko": "제안하다, 제공하다",
+   "ex": "They offered me the job!",
+   "exko": "그 회사에서 저를 뽑겠대요!",
+   "use": [
+    [
+     "The hotel offers free parking.",
+     "호텔은 무료 주차를 제공한다."
+    ],
+    [
+     "He offered to help me.",
+     "그가 도와주겠다고 했다."
+    ]
+   ],
+   "mcq": [
+    "She offered to drive me home.",
+    "She offered driving me home.",
+    "She offered that drive me.",
+    "She offered for driving me."
+   ],
+   "ans": 0,
+   "note": "offer + to부정사 = ~해 주겠다고 하다.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "receive",
+   "ko": "받다",
+   "ex": "Did you receive my email?",
+   "exko": "제 이메일 받으셨어요?",
+   "use": [
+    [
+     "I received a gift from a guest.",
+     "손님에게 선물을 받았다."
+    ],
+    [
+     "You'll receive a confirmation message.",
+     "확인 메시지를 받으실 거예요."
+    ]
+   ],
+   "mcq": [
+    "I received your message well.",
+    "I well received your message.",
+    "I received well your message.",
+    "Your message received to me."
+   ],
+   "ans": 0,
+   "note": "'잘 받았습니다'는 I received it (well은 문장 끝에, 또는 생략이 더 자연스러워요).",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "improve",
+   "ko": "나아지다, 개선하다",
+   "ex": "Your English is improving fast!",
+   "exko": "영어 실력이 빠르게 늘고 있어요!",
+   "use": [
+    [
+     "I want to improve my service skills.",
+     "서비스 스킬을 키우고 싶어요."
+    ],
+    [
+     "The situation improved a lot.",
+     "상황이 많이 좋아졌다."
+    ]
+   ],
+   "mcq": [
+    "My English is improving.",
+    "My English is improving up.",
+    "I improve up my English.",
+    "My English improves me."
+   ],
+   "ans": 0,
+   "note": "improve 하나로 충분! improve up 같은 군더더기는 필요 없어요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "depend",
+   "ko": "의존하다, ~에 달려 있다",
+   "ex": "It depends on the weather.",
+   "exko": "날씨에 달려 있어요.",
+   "use": [
+    [
+     "The price depends on the season.",
+     "가격은 시즌에 따라 달라요."
+    ],
+    [
+     "You can depend on me.",
+     "저만 믿으세요."
+    ]
+   ],
+   "mcq": [
+    "It depends on your choice.",
+    "It depends of your choice.",
+    "It depends to your choice.",
+    "It is depend on your choice."
+   ],
+   "ans": 0,
+   "note": "depend on! of/to가 아니고, be동사도 넣지 않아요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "introduce",
+   "ko": "소개하다",
+   "ex": "Let me introduce myself.",
+   "exko": "제 소개를 할게요.",
+   "use": [
+    [
+     "She introduced me to her manager.",
+     "그녀가 매니저에게 나를 소개해 줬다."
+    ],
+    [
+     "The hotel introduced a new service.",
+     "호텔이 새 서비스를 선보였다."
+    ]
+   ],
+   "mcq": [
+    "Let me introduce my friend to you.",
+    "Let me introduce you my friend.",
+    "Let me introduce my friend for you.",
+    "Let me introduce to my friend you."
+   ],
+   "ans": 0,
+   "note": "introduce A to B = A를 B에게 소개하다. 순서와 to가 핵심!",
+   "wk": "2026-W34"
+  }
+ ]
+}

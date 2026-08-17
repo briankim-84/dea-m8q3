@@ -105,6 +105,13 @@
   .foot b{color:var(--gold);}
   .loading{font-family:'Nanum Pen Script';font-size:21px;color:#B0A78E;padding:20px 0;}
   .small{font-size:11px;color:var(--mute);line-height:1.6;margin-top:10px;}
+  .howbtn{display:block;width:100%;margin-top:14px;background:none;border:none;cursor:pointer;
+    font-family:'Nanum Pen Script';font-size:19px;color:#B0A78E;text-align:left;padding:4px 0;}
+  .how{background:#fff;border:1.5px dashed var(--gold-l);border-radius:12px;padding:14px 15px;margin-top:6px;}
+  .how p{font-size:12.5px;color:#4A4536;line-height:1.75;margin:0;}
+  .how p+p{margin-top:10px;}
+  .how b{color:var(--navy);}
+  .how .dim{font-size:11px;color:var(--mute);}
 </style>
 </head>
 <body>
@@ -130,6 +137,11 @@ let TRACK=null, ST={}, session=[], cur=null, phase=null, mcqPicked=false;
 const $=id=>document.getElementById(id);
 const app=()=>$("app");
 const now=()=>Date.now();
+function isoWeek(d){ d=new Date(d); d.setHours(0,0,0,0);
+  d.setDate(d.getDate()+3-((d.getDay()+6)%7));
+  const w1=new Date(d.getFullYear(),0,4);
+  return d.getFullYear()+"-W"+String(1+Math.round(((d-w1)/86400000-3+((w1.getDay()+6)%7))/7)).padStart(2,"0"); }
+const THIS_WEEK=isoWeek(new Date());
 const days=n=>n*86400000;
 const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
@@ -141,17 +153,18 @@ function S(w){ return ST[w] || (ST[w]={st:0,box:0,due:0,known:false,pron:1}); }
 function buildQueues(){
   const words=TRACK.words;
   const reviews=[], news=[];
-  let unlockedCount=0;
+  let locked=0;
   for(const item of words){
     const s=S(item.w);
     if(s.known) continue;
+    if(item.wk && item.wk > THIS_WEEK){ locked++; continue; }   /* 아직 안 열린 주차 */
     if(s.st>=4){                                  /* 학습 완료 → 복습 대상 */
       if(s.box<4 && s.due<=now()) reviews.push(item);
     }else{
-      if(news.length + unlockedCount < NEW_BATCH) news.push(item);
+      if(news.length < NEW_BATCH) news.push(item);
     }
   }
-  return {reviews, news};
+  return {reviews, news, locked};
 }
 
 /* ═══════════ 홈 ═══════════ */
@@ -165,14 +178,32 @@ function home(){
     <div class="eyebrow">Do English with Brian ✎</div>
     <h1><u>My Words</u></h1>
     <div class="sub">${esc(TRACK.student)}님의 단어 트랙 · ${esc(TRACK.band)} 구간<br>
-      한 단어씩 4단계로 익혀요: 뜻 → 쓰임 → 고르기 → 발음</div>
+      매주 월요일 새 단어 20개가 열려요</div>
     <div class="stat">
       <div class="stbox ${q.reviews.length?'hot':''}"><b>${q.reviews.length}</b><span>오늘 복습</span></div>
       <div class="stbox"><b>${doneN}</b><span>익힌 단어 / ${total}</span></div>
       <div class="stbox"><b>${masterN}</b><span>완전히 내 것</span></div>
     </div>
     <button class="btn gold" id="go">${q.reviews.length? "복습부터 시작" : "새 단어 배우기"}</button>
-    <div class="small">원하는 만큼 이어서 할 수 있어요. 중간에 멈춰도 진행은 저장됩니다.</div>`;
+    <div class="small">원하는 만큼 이어서 할 수 있어요. 중간에 멈춰도 진행은 저장됩니다.</div>
+    <button class="howbtn" id="howT">어떻게 하는 건가요? ▾</button>
+    <div class="how" id="how" style="display:none">
+      <p><b>새 단어는 4단계</b>로 익혀요.<br>
+      ① <b>뜻</b> — 단어와 뜻, 예문을 확인해요. 이미 아는 단어는 "이미 알아요"로 건너뛰어요.<br>
+      ② <b>쓰임</b> — 문장 속에서 어떻게 쓰이는지 봐요.<br>
+      ③ <b>고르기</b> — 올바르게 쓰인 문장을 골라요. 틀리면 ②부터 다시!<br>
+      ④ <b>발음</b> — 🔊 원어민 발음을 듣고 🎙️ 직접 발음해요. 기계가 알아들으면 통과!<br>
+      <span class="dim">(처음 한 번만 판정 엔진을 내려받아요 · 약 40MB)</span></p>
+      <p><b>복습</b> — 완료한 단어는 <b>3일 → 7일 → 14일</b> 뒤에 다시 나와요.
+      한국어 뜻을 보고 영어를 소리 내어 떠올린 뒤 탭해서 확인하세요.
+      4번 연속 기억하면 그 단어는 완전히 내 것! 🎓</p>
+      <p><b>수업과 연결</b> — 이번 주 단어들이 다음 수업에 자연스럽게 등장해요. 어디서 나오는지 찾아보세요 😉</p>
+    </div>`;
+  $("howT").addEventListener("click",()=>{
+    const h=$("how"), on=h.style.display==="none";
+    h.style.display=on?"block":"none";
+    $("howT").textContent="어떻게 하는 건가요? "+(on?"▴":"▾");
+  });
   $("go").addEventListener("click",()=>{ session=[...q.reviews.map(x=>({t:"rev",item:x})),
                                                    ...q.news.map(x=>({t:"new",item:x}))];
                                           next(); });

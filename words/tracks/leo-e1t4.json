@@ -1,0 +1,507 @@
+{
+ "student": "Leo",
+ "folder": "leo-e1t4",
+ "band": "심화 잔여 + 고급 5000",
+ "words": [
+  {
+   "w": "resemble",
+   "ko": "닮다",
+   "ex": "This bug resembles the one we fixed last week.",
+   "exko": "이 버그는 지난주에 고친 것과 비슷해요.",
+   "use": [
+    [
+     "The new UI resembles the competitor's app.",
+     "새 UI가 경쟁사 앱과 비슷하다."
+    ],
+    [
+     "Their architecture resembles a microservice pattern.",
+     "그들의 아키텍처는 마이크로서비스 패턴과 닮았다."
+    ]
+   ],
+   "mcq": [
+    "The error resembles a memory leak.",
+    "The error resembles to a memory leak.",
+    "The error resembles with a leak.",
+    "The error is resembled a leak."
+   ],
+   "ans": 0,
+   "note": "resemble + 대상 바로 — 전치사 없음! look like의 격식 버전.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "eager",
+   "ko": "간절한, 열심인",
+   "ex": "I'm eager to hear about the role.",
+   "exko": "그 포지션에 대해 정말 듣고 싶습니다.",
+   "use": [
+    [
+     "We're eager to ship this feature.",
+     "이 기능을 빨리 출시하고 싶어요."
+    ],
+    [
+     "She's eager to take on more responsibility.",
+     "그녀는 더 많은 책임을 맡고 싶어 한다."
+    ]
+   ],
+   "mcq": [
+    "I'm eager to contribute from day one.",
+    "I'm eager for contribute from day one.",
+    "I'm eager contributing from day one.",
+    "I eager to contribute day one."
+   ],
+   "ans": 0,
+   "note": "eager to + 동사. 면접에서 열정을 보여주는 단어 — interested보다 강해요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "subtle",
+   "ko": "미묘한",
+   "ex": "There's a subtle bug in this logic.",
+   "exko": "이 로직에 미묘한 버그가 있어요.",
+   "use": [
+    [
+     "The performance difference is subtle but real.",
+     "성능 차이는 미묘하지만 실재한다."
+    ],
+    [
+     "He gave subtle feedback without criticizing.",
+     "그는 비난 없이 부드럽게 피드백을 줬다."
+    ]
+   ],
+   "mcq": [
+    "The race condition causes subtle errors.",
+    "The race condition causes subtly errors.",
+    "The race condition subtles errors.",
+    "Subtle causes the race condition errors."
+   ],
+   "ans": 0,
+   "note": "subtle — b는 묵음(/서틀/)! subtle bug는 개발자 일상 표현.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "diagnose",
+   "ko": "진단하다",
+   "ex": "We diagnosed the issue in production.",
+   "exko": "프로덕션에서 문제를 진단했어요.",
+   "use": [
+    [
+     "The tool helps diagnose memory issues.",
+     "그 툴은 메모리 문제 진단을 돕는다."
+    ],
+    [
+     "It took hours to diagnose the root cause.",
+     "근본 원인을 찾는 데 몇 시간이 걸렸다."
+    ]
+   ],
+   "mcq": [
+    "We diagnosed the crash using logs.",
+    "We diagnosed the crash by using of logs.",
+    "We diagnosed by the crash logs using.",
+    "The crash diagnosed us using logs."
+   ],
+   "ans": 0,
+   "note": "diagnose + 문제. 디버깅 스토리를 말할 때 troubleshoot과 함께 쓰세요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "utilize",
+   "ko": "활용하다",
+   "ex": "We utilize caching to reduce latency.",
+   "exko": "지연을 줄이려고 캐싱을 활용해요.",
+   "use": [
+    [
+     "The system utilizes idle servers at night.",
+     "그 시스템은 밤에 유휴 서버를 활용한다."
+    ],
+    [
+     "Utilize your strengths in the interview.",
+     "면접에서 강점을 활용하세요."
+    ]
+   ],
+   "mcq": [
+    "We utilized existing APIs to save time.",
+    "We utilized of existing APIs to save.",
+    "We utilized with existing APIs saving.",
+    "Existing APIs utilized us to save."
+   ],
+   "ans": 0,
+   "note": "utilize = use의 격식형. 이력서·기술 문서에서 효율적 활용의 뉘앙스!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "realm",
+   "ko": "영역, 분야",
+   "ex": "That's outside my realm of expertise.",
+   "exko": "그건 제 전문 영역 밖이에요.",
+   "use": [
+    [
+     "AI has entered the realm of art.",
+     "AI가 예술의 영역에 들어섰다."
+    ],
+    [
+     "In the realm of backend systems, he's the expert.",
+     "백엔드 시스템 영역에선 그가 전문가다."
+    ]
+   ],
+   "mcq": [
+    "This falls within the realm of possibility.",
+    "This falls within the realm of possible.",
+    "This falls in realm to possibility.",
+    "The realm falls this within possibility."
+   ],
+   "ans": 0,
+   "note": "the realm of + 분야. within the realm of possibility = 가능한 범위!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "condemn",
+   "ko": "비난하다, 규탄하다",
+   "ex": "The community condemned the data breach.",
+   "exko": "커뮤니티가 그 데이터 유출을 강하게 비판했어요.",
+   "use": [
+    [
+     "Critics condemned the company's response.",
+     "비평가들이 회사의 대응을 규탄했다."
+    ],
+    [
+     "We shouldn't condemn new ideas too quickly.",
+     "새 아이디어를 너무 빨리 매도해선 안 된다."
+    ]
+   ],
+   "mcq": [
+    "Users condemned the sudden policy change.",
+    "Users condemned to the policy change.",
+    "Users condemned about the change.",
+    "The change condemned users suddenly."
+   ],
+   "ans": 0,
+   "note": "condemn + 대상 = 강하게 비난하다. criticize보다 무거운 단어.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "entrepreneur",
+   "ko": "창업가",
+   "ex": "Silicon Valley is full of entrepreneurs.",
+   "exko": "실리콘밸리는 창업가로 가득해요.",
+   "use": [
+    [
+     "She became an entrepreneur after ten years at Google.",
+     "그녀는 구글 10년 후 창업가가 됐다."
+    ],
+    [
+     "Entrepreneurs take risks others avoid.",
+     "창업가는 남들이 피하는 위험을 감수한다."
+    ]
+   ],
+   "mcq": [
+    "He's a serial entrepreneur with three startups.",
+    "He's a serial entrepreneurship with startups.",
+    "He entrepreneurs three startups serially.",
+    "Three startups entrepreneur him serial."
+   ],
+   "ans": 0,
+   "note": "serial entrepreneur = 연쇄 창업가. 발음 도전각: /안트러프러너/!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "manipulate",
+   "ko": "조작하다, 다루다",
+   "ex": "The library manipulates large datasets fast.",
+   "exko": "그 라이브러리는 대용량 데이터를 빠르게 다뤄요.",
+   "use": [
+    [
+     "The script manipulates the DOM directly.",
+     "그 스크립트는 DOM을 직접 조작한다."
+    ],
+    [
+     "Don't let numbers be manipulated to mislead.",
+     "숫자가 오도하도록 조작되게 두지 마세요."
+    ]
+   ],
+   "mcq": [
+    "The function manipulates the input string.",
+    "The function manipulates to the string.",
+    "The function manipulates with string input.",
+    "The string manipulates the function input."
+   ],
+   "ans": 0,
+   "note": "manipulate + 데이터/객체 = 다루다·조작하다. 기술 맥락에선 중립적인 뜻!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "lobby",
+   "ko": "로비(하다), 압력을 가하다",
+   "ex": "Tech companies lobby for lighter regulation.",
+   "exko": "테크 기업들은 규제 완화를 위해 로비해요.",
+   "use": [
+    [
+     "Meet me in the hotel lobby at 9.",
+     "9시에 호텔 로비에서 만나요."
+    ],
+    [
+     "Engineers lobbied management for better tools.",
+     "엔지니어들이 더 나은 툴을 위해 경영진을 설득했다."
+    ]
+   ],
+   "mcq": [
+    "The team lobbied for more server budget.",
+    "The team lobbied to for more budget.",
+    "The team made lobby more budget.",
+    "More budget lobbied the team for."
+   ],
+   "ans": 0,
+   "note": "lobby for = ~을 위해 조직적으로 설득하다. 사내 정치에도 쓰는 동사!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "sensor",
+   "ko": "센서",
+   "ex": "The sensor detects motion in the dark.",
+   "exko": "그 센서는 어둠 속 움직임을 감지해요.",
+   "use": [
+    [
+     "The app reads data from the phone's sensors.",
+     "앱이 폰 센서 데이터를 읽는다."
+    ],
+    [
+     "A faulty sensor triggered the false alarm.",
+     "불량 센서가 오경보를 일으켰다."
+    ]
+   ],
+   "mcq": [
+    "The sensor sends data every second.",
+    "The sensor sends datas every second.",
+    "The sensor sensors data per second.",
+    "Data sends the sensor every second."
+   ],
+   "ans": 0,
+   "note": "data는 이미 복수 취급 — datas는 없어요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "jurisdiction",
+   "ko": "관할권",
+   "ex": "That falls under EU jurisdiction.",
+   "exko": "그건 EU 관할이에요.",
+   "use": [
+    [
+     "Data laws differ by jurisdiction.",
+     "데이터 법은 관할 지역마다 다르다."
+    ],
+    [
+     "The court has no jurisdiction over this case.",
+     "그 법원은 이 사건에 관할권이 없다."
+    ]
+   ],
+   "mcq": [
+    "Privacy rules vary by jurisdiction.",
+    "Privacy rules vary by jurisdictional place.",
+    "Privacy rules jurisdiction by vary.",
+    "Jurisdiction varies privacy by rules."
+   ],
+   "ans": 0,
+   "note": "jurisdiction = 법적 관할. GDPR 같은 규정 얘기에서 필수!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "drift",
+   "ko": "표류하다, 흘러가다",
+   "ex": "The conversation drifted off topic.",
+   "exko": "대화가 주제에서 벗어났어요.",
+   "use": [
+    [
+     "Config drift causes deployment issues.",
+     "설정 드리프트는 배포 문제를 일으킨다."
+    ],
+    [
+     "He drifted from job to job for years.",
+     "그는 몇 년간 이 직장 저 직장을 떠돌았다."
+    ]
+   ],
+   "mcq": [
+    "My attention drifted during the long meeting.",
+    "My attention drifted away itself during meeting.",
+    "My attention made drift the meeting.",
+    "The meeting drifted my attention during."
+   ],
+   "ans": 0,
+   "note": "drift = 서서히 벗어나다. config drift는 데브옵스 실무 용어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "workplace",
+   "ko": "직장, 일터",
+   "ex": "Remote work changed the modern workplace.",
+   "exko": "원격근무가 현대의 일터를 바꿨어요.",
+   "use": [
+    [
+     "Workplace culture matters as much as salary.",
+     "직장 문화는 연봉만큼 중요하다."
+    ],
+    [
+     "The workplace has become more flexible.",
+     "일터가 더 유연해졌다."
+    ]
+   ],
+   "mcq": [
+    "A healthy workplace boosts productivity.",
+    "A healthy workplace place boosts productivity.",
+    "Workplace healthy boosts the productivity.",
+    "Productivity workplaces a healthy boost."
+   ],
+   "ans": 0,
+   "note": "workplace culture, workplace safety — 면접 단골 합성어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "clever",
+   "ko": "영리한, 기발한",
+   "ex": "That's a clever workaround!",
+   "exko": "기발한 우회책이네요!",
+   "use": [
+    [
+     "She found a clever way to cache the results.",
+     "그녀는 결과를 캐싱하는 영리한 방법을 찾았다."
+    ],
+    [
+     "The clever design hides the complexity.",
+     "그 영리한 설계가 복잡성을 숨긴다."
+    ]
+   ],
+   "mcq": [
+    "He wrote a clever one-line solution.",
+    "He wrote a cleverly one-line solution.",
+    "He clevered a one-line solution.",
+    "A solution clever wrote he one-line."
+   ],
+   "ans": 0,
+   "note": "clever solution/trick = 기발한 해법. 코드 리뷰 칭찬 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "diplomatic",
+   "ko": "외교적인, 세련되게 처신하는",
+   "ex": "Be diplomatic when giving feedback.",
+   "exko": "피드백할 땐 세련되게 하세요.",
+   "use": [
+    [
+     "She gave a diplomatic answer to avoid conflict.",
+     "그녀는 갈등을 피하려 외교적으로 답했다."
+    ],
+    [
+     "His diplomatic reply satisfied both teams.",
+     "그의 원만한 답변이 양 팀을 만족시켰다."
+    ]
+   ],
+   "mcq": [
+    "He was diplomatic about the design flaws.",
+    "He was diplomatic to the design flaws.",
+    "He diplomatics the design flaws.",
+    "The flaws diplomatic was he about."
+   ],
+   "ans": 0,
+   "note": "diplomatic about = ~에 대해 원만하게 말하는. 코드리뷰·면접 소프트스킬!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "tolerate",
+   "ko": "참다, 허용하다",
+   "ex": "The system tolerates up to 3 node failures.",
+   "exko": "이 시스템은 노드 3개 장애까지 견뎌요.",
+   "use": [
+    [
+     "I can't tolerate flaky tests anymore.",
+     "불안정한 테스트는 더 못 참겠어요."
+    ],
+    [
+     "Good teams don't tolerate toxic behavior.",
+     "좋은 팀은 유해한 행동을 용납하지 않는다."
+    ]
+   ],
+   "mcq": [
+    "The design tolerates network delays.",
+    "The design tolerates to network delays.",
+    "The design tolerates with delays.",
+    "Network delays tolerate the design."
+   ],
+   "ans": 0,
+   "note": "tolerate + 대상. fault-tolerant(장애 허용)의 그 tolerate!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "verify",
+   "ko": "검증하다",
+   "ex": "Please verify your email address.",
+   "exko": "이메일 주소를 인증해 주세요.",
+   "use": [
+    [
+     "The tests verify the edge cases.",
+     "그 테스트들은 엣지 케이스를 검증한다."
+    ],
+    [
+     "Always verify user input on the server.",
+     "사용자 입력은 항상 서버에서 검증하세요."
+    ]
+   ],
+   "mcq": [
+    "We verify the data before saving.",
+    "We verify about the data before saving.",
+    "We make verify the data saving.",
+    "The data verifies us before saving."
+   ],
+   "ans": 0,
+   "note": "verify + 대상. validate와 함께 개발자 필수 동사!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "willingness",
+   "ko": "기꺼이 하려는 마음",
+   "ex": "They valued my willingness to learn.",
+   "exko": "그들은 제 배우려는 자세를 높이 샀어요.",
+   "use": [
+    [
+     "Willingness to relocate is a plus.",
+     "이주할 의향이 있으면 가점이다."
+    ],
+    [
+     "Her willingness to help impressed everyone.",
+     "기꺼이 돕는 그녀의 태도가 모두를 감동시켰다."
+    ]
+   ],
+   "mcq": [
+    "He showed willingness to take feedback.",
+    "He showed willing to take feedback.",
+    "He showed willingness for take feedback.",
+    "Willingness showed he taking feedback."
+   ],
+   "ans": 0,
+   "note": "willingness to + 동사. 면접·추천서의 킬러 단어 — 태도를 명사로!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "spark",
+   "ko": "불꽃, 촉발하다",
+   "ex": "The demo sparked interest from investors.",
+   "exko": "그 데모가 투자자들의 관심을 불러일으켰어요.",
+   "use": [
+    [
+     "A small idea sparked the whole project.",
+     "작은 아이디어가 프로젝트 전체를 촉발했다."
+    ],
+    [
+     "The debate sparked new questions.",
+     "그 토론이 새로운 질문들을 낳았다."
+    ]
+   ],
+   "mcq": [
+    "The talk sparked a great discussion.",
+    "The talk sparked up a discussion into.",
+    "The talk made spark a discussion.",
+    "A discussion sparked the talk great."
+   ],
+   "ans": 0,
+   "note": "spark + 관심/토론 = 촉발하다. 'what sparked your interest in coding?'은 면접 단골 질문!",
+   "wk": "2026-W34"
+  }
+ ]
+}

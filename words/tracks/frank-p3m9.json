@@ -1,0 +1,507 @@
+{
+ "student": "Frank",
+ "folder": "frank-p3m9",
+ "band": "기초 마무리 + 중급 진입",
+ "words": [
+  {
+   "w": "achieve",
+   "ko": "달성하다",
+   "ex": "We achieved our export target this quarter.",
+   "exko": "이번 분기 수출 목표를 달성했어요.",
+   "use": [
+    [
+     "She achieved great results in the new market.",
+     "그녀는 새 시장에서 좋은 성과를 냈다."
+    ],
+    [
+     "What do you want to achieve this year?",
+     "올해 이루고 싶은 게 뭐예요?"
+    ]
+   ],
+   "mcq": [
+    "He achieved to increase sales.",
+    "He achieved a 20% increase in sales.",
+    "He achieved in the sales target.",
+    "He was achieved the target."
+   ],
+   "ans": 1,
+   "note": "achieve + 명사(목표·성과). achieve to는 쓰지 않아요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "career",
+   "ko": "경력",
+   "ex": "I built my career in overseas sales.",
+   "exko": "해외영업에서 경력을 쌓았어요.",
+   "use": [
+    [
+     "This project was a turning point in my career.",
+     "이 프로젝트가 내 커리어의 전환점이었다."
+    ],
+    [
+     "She started her career as an intern.",
+     "그녀는 인턴으로 커리어를 시작했다."
+    ]
+   ],
+   "mcq": [
+    "My career is a salesperson.",
+    "I've spent my career in cosmetics.",
+    "I am career in sales.",
+    "My career works in sales field."
+   ],
+   "ans": 1,
+   "note": "career는 직업명이 아니라 '경력의 흐름'. My job is~ 와 구분!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "goal",
+   "ko": "목표",
+   "ex": "Our goal is to enter the US market.",
+   "exko": "우리 목표는 미국 시장 진출이에요.",
+   "use": [
+    [
+     "We set clear goals for each quarter.",
+     "분기마다 명확한 목표를 세운다."
+    ],
+    [
+     "The team reached its sales goal early.",
+     "팀이 판매 목표를 일찍 달성했다."
+    ]
+   ],
+   "mcq": [
+    "We set a goal for next year.",
+    "We made a goal for next year.",
+    "We built a goal for next year.",
+    "We put a goal to next year."
+   ],
+   "ans": 0,
+   "note": "set a goal이 정확한 짝(collocation)이에요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "contact",
+   "ko": "연락(하다)",
+   "ex": "Feel free to contact me anytime.",
+   "exko": "언제든 편하게 연락 주세요.",
+   "use": [
+    [
+     "I'll contact the buyer this week.",
+     "이번 주에 바이어에게 연락할게요."
+    ],
+    [
+     "Here's my contact information.",
+     "제 연락처입니다."
+    ]
+   ],
+   "mcq": [
+    "Please contact to me by email.",
+    "Please contact with me by email.",
+    "Please contact me by email.",
+    "Please contact for me by email."
+   ],
+   "ans": 2,
+   "note": "contact + 사람 바로! contact to/with는 한국식 오류의 대표주자.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "regard",
+   "ko": "~로 여기다, 안부",
+   "ex": "I regard him as a mentor.",
+   "exko": "저는 그분을 멘토로 여겨요.",
+   "use": [
+    [
+     "She is regarded as an expert in K-beauty.",
+     "그녀는 K뷰티 전문가로 인정받는다."
+    ],
+    [
+     "Please give my regards to your team.",
+     "팀에 안부 전해 주세요."
+    ]
+   ],
+   "mcq": [
+    "I regard him as a good partner.",
+    "I regard him a good partner.",
+    "I regard him to a good partner.",
+    "I regard him being good partner."
+   ],
+   "ans": 0,
+   "note": "regard A as B. as를 빼먹기 쉬워요! 이메일 끝 Best regards도 이 단어.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "experience",
+   "ko": "경험(하다)",
+   "ex": "I have 10 years of experience in sales.",
+   "exko": "영업 경력이 10년이에요.",
+   "use": [
+    [
+     "This job requires overseas experience.",
+     "이 일은 해외 경험이 필요하다."
+    ],
+    [
+     "We experienced some delays in shipping.",
+     "배송에 지연이 좀 있었어요."
+    ]
+   ],
+   "mcq": [
+    "I have many experiences of sales.",
+    "I have a lot of experience in sales.",
+    "I have much experience about sales.",
+    "I am experienced of sales."
+   ],
+   "ans": 1,
+   "note": "경력의 experience는 셀 수 없는 명사! experience in + 분야.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "inform",
+   "ko": "알리다",
+   "ex": "Please inform us of any changes.",
+   "exko": "변경 사항이 있으면 알려 주세요.",
+   "use": [
+    [
+     "I'll inform the client about the delay.",
+     "지연 건을 고객에게 알리겠습니다."
+    ],
+    [
+     "We were informed that the meeting was canceled.",
+     "회의가 취소됐다고 전달받았다."
+    ]
+   ],
+   "mcq": [
+    "I informed the schedule to him.",
+    "I informed him of the schedule.",
+    "I informed to him the schedule.",
+    "I informed about him the schedule."
+   ],
+   "ans": 1,
+   "note": "inform + 사람 + of/about + 내용. 사람이 먼저 와요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "examine",
+   "ko": "검토하다, 살펴보다",
+   "ex": "Let's examine the contract carefully.",
+   "exko": "계약서를 꼼꼼히 검토합시다.",
+   "use": [
+    [
+     "The team examined the market data.",
+     "팀이 시장 데이터를 분석했다."
+    ],
+    [
+     "The doctor examined the patient.",
+     "의사가 환자를 진찰했다."
+    ]
+   ],
+   "mcq": [
+    "We examined the samples closely.",
+    "We examined about the samples.",
+    "We examined on the samples.",
+    "We made examine the samples."
+   ],
+   "ans": 0,
+   "note": "examine + 대상 바로 연결. review보다 더 꼼꼼히 보는 느낌이에요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "negative",
+   "ko": "부정적인",
+   "ex": "We received some negative feedback.",
+   "exko": "부정적인 피드백을 좀 받았어요.",
+   "use": [
+    [
+     "Don't be so negative about the plan.",
+     "그 계획에 너무 부정적이지 마."
+    ],
+    [
+     "The test result was negative.",
+     "검사 결과는 음성이었다."
+    ]
+   ],
+   "mcq": [
+    "The feedback was negative.",
+    "The feedback was negatively.",
+    "The feedback did negative.",
+    "The feedback was in negative."
+   ],
+   "ans": 0,
+   "note": "be + negative(형용사). 검사 결과 '음성'도 negative예요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "partner",
+   "ko": "파트너, 협력사",
+   "ex": "They're our biggest business partner.",
+   "exko": "그쪽이 우리 최대 협력사예요.",
+   "use": [
+    [
+     "We partnered with a local distributor.",
+     "현지 유통사와 제휴했다."
+    ],
+    [
+     "Finding the right partner takes time.",
+     "맞는 파트너를 찾는 데는 시간이 걸린다."
+    ]
+   ],
+   "mcq": [
+    "We partnered with a Chinese company.",
+    "We partnered to a Chinese company.",
+    "We made partner a company.",
+    "We partnered a company together with."
+   ],
+   "ans": 0,
+   "note": "partner with + 회사 = ~와 제휴하다. 동사로도 써요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "procedure",
+   "ko": "절차",
+   "ex": "What's the procedure for customs clearance?",
+   "exko": "통관 절차가 어떻게 되나요?",
+   "use": [
+    [
+     "Please follow the standard procedure.",
+     "표준 절차를 따라 주세요."
+    ],
+    [
+     "The visa procedure takes two weeks.",
+     "비자 절차는 2주 걸린다."
+    ]
+   ],
+   "mcq": [
+    "Follow the safety procedure.",
+    "Follow the safety proceed.",
+    "Follow the safety procession.",
+    "Follow the safety process of procedure."
+   ],
+   "ans": 0,
+   "note": "procedure(절차) vs process(과정) vs proceed(진행하다) — 셋을 구분!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "conduct",
+   "ko": "수행하다, 실시하다",
+   "ex": "We conducted a customer survey.",
+   "exko": "고객 설문을 실시했어요.",
+   "use": [
+    [
+     "The company conducts market research every year.",
+     "회사는 매년 시장 조사를 한다."
+    ],
+    [
+     "The interview was conducted in English.",
+     "면접은 영어로 진행됐다."
+    ]
+   ],
+   "mcq": [
+    "We conducted a meeting with the buyer.",
+    "We conducted to a meeting.",
+    "We were conduct a meeting.",
+    "We conducted for a meeting."
+   ],
+   "ans": 0,
+   "note": "conduct + 조사/회의/실험. do보다 격식 있는 비즈니스 동사!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "confidence",
+   "ko": "자신감, 신뢰",
+   "ex": "Speak with confidence in the meeting.",
+   "exko": "회의에서 자신 있게 말하세요.",
+   "use": [
+    [
+     "I have confidence in our product.",
+     "우리 제품에 자신 있어요."
+    ],
+    [
+     "The buyer lost confidence in the supplier.",
+     "바이어가 그 공급사에 대한 신뢰를 잃었다."
+    ]
+   ],
+   "mcq": [
+    "I have confidence in this plan.",
+    "I have confidence to this plan.",
+    "I have confidence about this plan well.",
+    "I am confidence in this plan."
+   ],
+   "ans": 0,
+   "note": "confidence in + 대상. 형용사는 confident (I am confident)!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "permit",
+   "ko": "허가(하다)",
+   "ex": "You need a permit to sell here.",
+   "exko": "여기서 팔려면 허가가 필요해요.",
+   "use": [
+    [
+     "The law doesn't permit this kind of ad.",
+     "법이 이런 광고를 허용하지 않는다."
+    ],
+    [
+     "Weather permitting, we'll visit the factory.",
+     "날씨가 괜찮으면 공장을 방문할 거예요."
+    ]
+   ],
+   "mcq": [
+    "Smoking is not permitted here.",
+    "Smoking is not permitting here.",
+    "Smoking does not permit here.",
+    "Smoking is not permit in here."
+   ],
+   "ans": 0,
+   "note": "be permitted = 허용되다. allow의 격식 버전이에요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "device",
+   "ko": "기기, 장치",
+   "ex": "This app works on any device.",
+   "exko": "이 앱은 어떤 기기에서든 작동해요.",
+   "use": [
+    [
+     "Please turn off all electronic devices.",
+     "모든 전자기기를 꺼 주세요."
+    ],
+    [
+     "The device measures skin moisture.",
+     "이 기기는 피부 수분을 측정한다."
+    ]
+   ],
+   "mcq": [
+    "I bought a new device for testing.",
+    "I bought a new device machine.",
+    "I bought a device equipment.",
+    "I bought a machinery device tool."
+   ],
+   "ans": 0,
+   "note": "device 하나면 충분! 비슷한 말을 겹쳐 쓰지 않아요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "journey",
+   "ko": "여정, 긴 이동",
+   "ex": "It's been a long journey to this success.",
+   "exko": "이 성공까지 긴 여정이었어요.",
+   "use": [
+    [
+     "The journey from Seoul to Paris takes 14 hours.",
+     "서울에서 파리까지 14시간 걸린다."
+    ],
+    [
+     "Learning English is a journey, not a race.",
+     "영어 공부는 경주가 아니라 여정이에요."
+    ]
+   ],
+   "mcq": [
+    "How was your journey?",
+    "How was your journey trip?",
+    "Did you journey well travel?",
+    "How did your journey travel?"
+   ],
+   "ans": 0,
+   "note": "journey는 긴 이동·여정. trip(짧은 여행)과 겹쳐 쓰지 않기!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "reject",
+   "ko": "거절하다",
+   "ex": "They rejected our first offer.",
+   "exko": "그쪽이 우리 첫 제안을 거절했어요.",
+   "use": [
+    [
+     "The buyer rejected the samples due to quality.",
+     "바이어가 품질 문제로 샘플을 거부했다."
+    ],
+    [
+     "My proposal was rejected again.",
+     "내 제안이 또 반려됐다."
+    ]
+   ],
+   "mcq": [
+    "They rejected our proposal.",
+    "They rejected to our proposal.",
+    "They rejected about our proposal.",
+    "They made reject our proposal."
+   ],
+   "ans": 0,
+   "note": "reject + 대상 바로 연결. refuse보다 공식적인 거절 느낌.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "faith",
+   "ko": "믿음, 신뢰",
+   "ex": "Have faith in yourself.",
+   "exko": "자신을 믿으세요.",
+   "use": [
+    [
+     "I have faith in this team.",
+     "이 팀을 믿어요."
+    ],
+    [
+     "We negotiated in good faith.",
+     "우리는 성실하게(선의로) 협상했다."
+    ]
+   ],
+   "mcq": [
+    "I have faith in our new product.",
+    "I have faith to our new product.",
+    "I have faith about our product.",
+    "I am faith in our product."
+   ],
+   "ans": 0,
+   "note": "faith in + 대상. 비즈니스에서 in good faith(선의로)도 자주 나와요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "gap",
+   "ko": "격차, 틈",
+   "ex": "There's a big gap between the two prices.",
+   "exko": "두 가격 사이에 차이가 커요.",
+   "use": [
+    [
+     "We need to close the gap with competitors.",
+     "경쟁사와의 격차를 줄여야 한다."
+    ],
+    [
+     "There's a gap in the market for men's skincare.",
+     "남성 스킨케어 시장에 빈틈이 있다."
+    ]
+   ],
+   "mcq": [
+    "There's a gap between price and quality.",
+    "There's a gap among price and quality.",
+    "There's a gap of between prices.",
+    "The gap is between to prices."
+   ],
+   "ans": 0,
+   "note": "gap between A and B. 둘 사이는 between!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "emotion",
+   "ko": "감정",
+   "ex": "Don't let emotions drive your decisions.",
+   "exko": "감정으로 결정하지 마세요.",
+   "use": [
+    [
+     "Her voice was full of emotion.",
+     "그녀의 목소리에 감정이 가득했다."
+    ],
+    [
+     "Good ads connect with customers' emotions.",
+     "좋은 광고는 고객의 감정을 건드린다."
+    ]
+   ],
+   "mcq": [
+    "He couldn't hide his emotions.",
+    "He couldn't hide his emotional.",
+    "He couldn't hide emotionally his.",
+    "His emotion was hide."
+   ],
+   "ans": 0,
+   "note": "emotion(명사) vs emotional(형용사) 구분이 포인트!",
+   "wk": "2026-W34"
+  }
+ ]
+}

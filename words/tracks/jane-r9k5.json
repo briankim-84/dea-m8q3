@@ -1,0 +1,507 @@
+{
+ "student": "Jane",
+ "folder": "jane-r9k5",
+ "band": "중급 잔여 + 상급 진입",
+ "words": [
+  {
+   "w": "judgment",
+   "ko": "판단",
+   "ex": "I trust your judgment on this.",
+   "exko": "이 건은 당신 판단을 믿을게요.",
+   "use": [
+    [
+     "Use your best judgment.",
+     "알아서 잘 판단하세요."
+    ],
+    [
+     "In my judgment, the plan is too risky.",
+     "제 판단으로는 그 계획은 너무 위험해요."
+    ]
+   ],
+   "mcq": [
+    "It was an error of judgment.",
+    "It was an error of judging mind.",
+    "It was a judgment mistake error.",
+    "The judgment made an error to me."
+   ],
+   "ans": 0,
+   "note": "an error of judgment = 판단 착오. 비즈니스에서 자주 쓰는 표현!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "legislation",
+   "ko": "법률, 입법",
+   "ex": "New legislation on privacy was passed.",
+   "exko": "개인정보 관련 새 법이 통과됐어요.",
+   "use": [
+    [
+     "The legislation takes effect next year.",
+     "그 법은 내년에 시행된다."
+    ],
+    [
+     "They're pushing for stricter legislation.",
+     "그들은 더 엄격한 법 제정을 추진 중이다."
+    ]
+   ],
+   "mcq": [
+    "The new legislation was passed last week.",
+    "The new legislations were passed.",
+    "A legislation passed the law.",
+    "They legislationed the new rule."
+   ],
+   "ans": 0,
+   "note": "legislation은 셀 수 없는 명사 — 복수형 없이 써요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "sufficient",
+   "ko": "충분한",
+   "ex": "We have sufficient time to prepare.",
+   "exko": "준비할 시간은 충분해요.",
+   "use": [
+    [
+     "One example is sufficient.",
+     "예시 하나면 충분합니다."
+    ],
+    [
+     "The evidence wasn't sufficient to prove it.",
+     "그걸 입증하기엔 증거가 부족했다."
+    ]
+   ],
+   "mcq": [
+    "The budget is sufficient for the project.",
+    "The budget is sufficient to the project.",
+    "The budget sufficients the project.",
+    "The budget is sufficiently for project."
+   ],
+   "ans": 0,
+   "note": "sufficient for + 명사 / sufficient to + 동사. enough의 격식 버전!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "academic",
+   "ko": "학업의, 학문적인",
+   "ex": "She has a strong academic background.",
+   "exko": "그녀는 학업 배경이 탄탄해요.",
+   "use": [
+    [
+     "The academic year starts in March.",
+     "학년도는 3월에 시작한다."
+    ],
+    [
+     "His writing is too academic for beginners.",
+     "그의 글은 초보자에게 너무 학술적이다."
+    ]
+   ],
+   "mcq": [
+    "He has an excellent academic record.",
+    "He has an excellent academical record.",
+    "He is academic recorded well.",
+    "His record is academically excellent one."
+   ],
+   "ans": 0,
+   "note": "academic record = 학업 성적. academical이란 단어는 잘 안 써요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "significantly",
+   "ko": "상당히, 크게",
+   "ex": "Sales increased significantly this year.",
+   "exko": "올해 매출이 크게 늘었어요.",
+   "use": [
+    [
+     "The new method significantly reduced errors.",
+     "새 방법이 오류를 크게 줄였다."
+    ],
+    [
+     "Prices vary significantly by region.",
+     "가격이 지역마다 상당히 다르다."
+    ]
+   ],
+   "mcq": [
+    "Costs dropped significantly last month.",
+    "Costs dropped significant last month.",
+    "Costs significantly were drop.",
+    "Costs dropped with significantly."
+   ],
+   "ans": 0,
+   "note": "동사를 꾸미는 부사 — significant(형용사)와 구분!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "specifically",
+   "ko": "구체적으로, 특별히",
+   "ex": "I specifically asked for a window seat.",
+   "exko": "제가 분명히 창가 자리를 요청했는데요.",
+   "use": [
+    [
+     "This app was designed specifically for beginners.",
+     "이 앱은 초보자 전용으로 설계됐다."
+    ],
+    [
+     "What specifically do you need?",
+     "구체적으로 뭐가 필요하세요?"
+    ]
+   ],
+   "mcq": [
+    "This course is specifically for nurses.",
+    "This course is specific for nurses only made.",
+    "This course specifics for nurses.",
+    "Specifically course is for nurses."
+   ],
+   "ans": 0,
+   "note": "specifically for = ~을 위해 특별히. 강조할 때 아주 유용!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "arrangement",
+   "ko": "준비, 합의, 배치",
+   "ex": "I'll make the arrangements for the trip.",
+   "exko": "여행 준비는 제가 할게요.",
+   "use": [
+    [
+     "We have an arrangement with that company.",
+     "그 회사와 협의된 게 있어요."
+    ],
+    [
+     "The flower arrangement was beautiful.",
+     "꽃꽂이가 아름다웠다."
+    ]
+   ],
+   "mcq": [
+    "I'll make arrangements for the meeting.",
+    "I'll do arrangements for the meeting.",
+    "I'll take arrangements to the meeting.",
+    "I'll get arrangement of meeting."
+   ],
+   "ans": 0,
+   "note": "make arrangements = 준비하다, 채비하다. make와 짝!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "resolution",
+   "ko": "결심, 해결",
+   "ex": "My New Year's resolution is to read more.",
+   "exko": "새해 결심은 책을 더 읽는 거예요.",
+   "use": [
+    [
+     "We reached a resolution after long talks.",
+     "오랜 대화 끝에 합의에 도달했다."
+    ],
+    [
+     "The conflict needs a quick resolution.",
+     "그 갈등은 빠른 해결이 필요하다."
+    ]
+   ],
+   "mcq": [
+    "Did you keep your New Year's resolution?",
+    "Did you keep your New Year's resolve mind?",
+    "Did you resolution this year?",
+    "Is your resolution kept by year?"
+   ],
+   "ans": 0,
+   "note": "keep a resolution = 결심을 지키다.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "motion",
+   "ko": "움직임, 동작",
+   "ex": "The boat's motion made me sleepy.",
+   "exko": "배의 흔들림에 잠이 왔어요.",
+   "use": [
+    [
+     "He explained the exercise in slow motion.",
+     "그는 그 동작을 슬로모션으로 설명했다."
+    ],
+    [
+     "The camera detects motion at night.",
+     "그 카메라는 밤에 움직임을 감지한다."
+    ]
+   ],
+   "mcq": [
+    "Repeat the motion ten times.",
+    "Repeat the motion movement ten times.",
+    "Motion the repeat ten times.",
+    "Repeat ten motions of times."
+   ],
+   "ans": 0,
+   "note": "motion = 동작. 운동 지도할 때 movement와 함께 핵심 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "dispute",
+   "ko": "분쟁, 이의를 제기하다",
+   "ex": "They're in a dispute over the contract.",
+   "exko": "그들은 계약 문제로 분쟁 중이에요.",
+   "use": [
+    [
+     "I disputed the extra charge on my bill.",
+     "청구서의 추가 요금에 이의를 제기했다."
+    ],
+    [
+     "The dispute was settled out of court.",
+     "그 분쟁은 법정 밖에서 해결됐다."
+    ]
+   ],
+   "mcq": [
+    "I disputed the charge with my card company.",
+    "I disputed to the charge.",
+    "I made dispute the charge.",
+    "I disputed about with the charge."
+   ],
+   "ans": 0,
+   "note": "dispute + 대상 = ~에 이의를 제기하다. 해외직구·카드 문제에서 실용적!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "devote",
+   "ko": "바치다, 쏟다",
+   "ex": "She devotes her weekends to volunteering.",
+   "exko": "그녀는 주말을 봉사활동에 쏟아요.",
+   "use": [
+    [
+     "He devoted his life to teaching.",
+     "그는 평생을 가르치는 데 바쳤다."
+    ],
+    [
+     "I devote an hour a day to English.",
+     "하루 한 시간을 영어에 투자해요."
+    ]
+   ],
+   "mcq": [
+    "She devoted herself to her studies.",
+    "She devoted herself for her studies.",
+    "She devoted to herself studies.",
+    "She devoted her studies herself."
+   ],
+   "ans": 0,
+   "note": "devote A to B — to가 핵심! devote oneself to = 전념하다.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "boundary",
+   "ko": "경계",
+   "ex": "It's important to set boundaries at work.",
+   "exko": "일에서 선을 긋는 게 중요해요.",
+   "use": [
+    [
+     "The river forms the boundary between the two cities.",
+     "그 강이 두 도시의 경계를 이룬다."
+    ],
+    [
+     "Respect other people's boundaries.",
+     "다른 사람의 경계를 존중하세요."
+    ]
+   ],
+   "mcq": [
+    "You need to set clear boundaries.",
+    "You need to make clear boundaries built.",
+    "You need to put boundaries clear.",
+    "Set the boundary lines borders."
+   ],
+   "ans": 0,
+   "note": "set boundaries = 선을 긋다. 워라밸 얘기할 때 필수 표현!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "consult",
+   "ko": "상담하다, 참고하다",
+   "ex": "Consult your doctor before exercising.",
+   "exko": "운동 전에 의사와 상담하세요.",
+   "use": [
+    [
+     "I consulted a lawyer about the contract.",
+     "계약 건으로 변호사와 상담했다."
+    ],
+    [
+     "Consult the manual if you're not sure.",
+     "확실하지 않으면 설명서를 참고하세요."
+    ]
+   ],
+   "mcq": [
+    "Consult a specialist about your back pain.",
+    "Consult with to a specialist.",
+    "Consult about a specialist.",
+    "Make consult a specialist for pain."
+   ],
+   "ans": 0,
+   "note": "consult + 전문가 바로 연결 (consult with도 가능). 의료·법률 상황 필수!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "approval",
+   "ko": "승인",
+   "ex": "We're waiting for final approval.",
+   "exko": "최종 승인을 기다리고 있어요.",
+   "use": [
+    [
+     "The plan needs the manager's approval.",
+     "그 계획은 매니저 승인이 필요하다."
+    ],
+    [
+     "She nodded in approval.",
+     "그녀는 동의의 뜻으로 고개를 끄덕였다."
+    ]
+   ],
+   "mcq": [
+    "The budget got approval from the board.",
+    "The budget got approve from the board.",
+    "The budget was approval by board.",
+    "The board made approval the budget to."
+   ],
+   "ans": 0,
+   "note": "approval(명사) vs approve(동사) 구분! get/need approval 형태로 자주 써요.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "advocate",
+   "ko": "옹호하다, 옹호자",
+   "ex": "She advocates for patient rights.",
+   "exko": "그녀는 환자 권리를 옹호해요.",
+   "use": [
+    [
+     "He's a strong advocate of healthy eating.",
+     "그는 건강한 식습관의 강력한 지지자다."
+    ],
+    [
+     "The group advocates using less plastic.",
+     "그 단체는 플라스틱 줄이기를 주장한다."
+    ]
+   ],
+   "mcq": [
+    "She advocates for better working conditions.",
+    "She advocates to better conditions.",
+    "She advocates about better conditions.",
+    "She makes advocate better conditions."
+   ],
+   "ans": 0,
+   "note": "advocate for + 대상 = ~를 위해 목소리를 내다.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "precisely",
+   "ko": "정확히",
+   "ex": "That's precisely what I meant.",
+   "exko": "바로 그게 제 말이에요.",
+   "use": [
+    [
+     "The train left at precisely 9:00.",
+     "기차는 정확히 9시에 출발했다."
+    ],
+    [
+     "Measure the ingredients precisely.",
+     "재료를 정확하게 계량하세요."
+    ]
+   ],
+   "mcq": [
+    "That's precisely the point.",
+    "That's precise the point.",
+    "That's the point precisely being.",
+    "Precisely that point is."
+   ],
+   "ans": 0,
+   "note": "That's precisely... = 바로 그거예요. exactly의 세련된 버전!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "rescue",
+   "ko": "구조(하다)",
+   "ex": "Firefighters rescued the cat from the tree.",
+   "exko": "소방관들이 나무에서 고양이를 구조했어요.",
+   "use": [
+    [
+     "He came to my rescue when I was lost.",
+     "길을 잃었을 때 그가 도와주러 왔다."
+    ],
+    [
+     "The rescue team arrived quickly.",
+     "구조대가 빨리 도착했다."
+    ]
+   ],
+   "mcq": [
+    "They rescued the hikers from the mountain.",
+    "They rescued the hikers out the mountain.",
+    "They made rescue the hikers.",
+    "The hikers rescued by them from."
+   ],
+   "ans": 0,
+   "note": "rescue A from B. come to one's rescue(구하러 오다)도 기억!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "embrace",
+   "ko": "받아들이다, 껴안다",
+   "ex": "Embrace change instead of fearing it.",
+   "exko": "변화를 두려워하지 말고 받아들이세요.",
+   "use": [
+    [
+     "The company embraced new technology early.",
+     "그 회사는 신기술을 일찍 받아들였다."
+    ],
+    [
+     "She embraced her daughter warmly.",
+     "그녀는 딸을 따뜻하게 안았다."
+    ]
+   ],
+   "mcq": [
+    "We should embrace new ideas.",
+    "We should embrace to new ideas.",
+    "We should embrace with new ideas.",
+    "We should make embrace ideas."
+   ],
+   "ans": 0,
+   "note": "embrace + 대상 바로 연결. '적극 수용하다'는 뜻으로 비즈니스에서 인기!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "stake",
+   "ko": "지분, 걸린 것",
+   "ex": "There's a lot at stake in this decision.",
+   "exko": "이 결정에는 걸린 게 많아요.",
+   "use": [
+    [
+     "She owns a 20% stake in the company.",
+     "그녀는 회사 지분 20%를 갖고 있다."
+    ],
+    [
+     "Our reputation is at stake.",
+     "우리 평판이 걸려 있다."
+    ]
+   ],
+   "mcq": [
+    "Millions of dollars are at stake.",
+    "Millions of dollars are on stake.",
+    "Millions of dollars stake now.",
+    "The stake is at millions."
+   ],
+   "ans": 0,
+   "note": "at stake = 걸려 있는, 위태로운. 고정 표현이라 전치사 바꾸면 안 돼요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "flexible",
+   "ko": "유연한",
+   "ex": "My schedule is pretty flexible this week.",
+   "exko": "이번 주 일정은 꽤 자유로워요.",
+   "use": [
+    [
+     "We offer flexible working hours.",
+     "우리는 유연근무제를 운영한다."
+    ],
+    [
+     "Stay flexible — plans might change.",
+     "계획이 바뀔 수 있으니 유연하게 있어요."
+    ]
+   ],
+   "mcq": [
+    "I'm flexible about the meeting time.",
+    "I'm flexible to the meeting time.",
+    "I flexible the meeting time.",
+    "The time is flexible me."
+   ],
+   "ans": 0,
+   "note": "flexible about = ~에 대해 유연한. '아무 때나 괜찮아요'를 세련되게!",
+   "wk": "2026-W34"
+  }
+ ]
+}

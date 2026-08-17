@@ -1,0 +1,507 @@
+{
+ "student": "Lucy",
+ "folder": "lucy-t4b8",
+ "band": "상급 잔여 + 심화 4000",
+ "words": [
+  {
+   "w": "embrace",
+   "ko": "받아들이다, 껴안다",
+   "ex": "Embrace the challenge — you're ready.",
+   "exko": "그 도전을 받아들이세요, 준비됐으니까요.",
+   "use": [
+    [
+     "The team embraced the new workflow quickly.",
+     "팀은 새 업무 방식을 빠르게 받아들였다."
+    ],
+    [
+     "She embraced him at the airport.",
+     "그녀는 공항에서 그를 껴안았다."
+    ]
+   ],
+   "mcq": [
+    "We should embrace uncertainty as part of growth.",
+    "We should embrace to uncertainty for growth.",
+    "We should embrace with uncertainty.",
+    "Uncertainty should embrace by us."
+   ],
+   "ans": 0,
+   "note": "embrace + 대상 바로. 추상적인 것(변화·도전)을 목적어로 쓰면 세련돼요!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "stake",
+   "ko": "지분, 걸린 것",
+   "ex": "What's at stake if we fail?",
+   "exko": "실패하면 뭐가 걸려 있는 거죠?",
+   "use": [
+    [
+     "Investors hold a major stake in the startup.",
+     "투자자들이 그 스타트업의 주요 지분을 갖고 있다."
+    ],
+    [
+     "National pride was at stake in the final.",
+     "결승전엔 국가의 자존심이 걸려 있었다."
+    ]
+   ],
+   "mcq": [
+    "Everything we built is at stake.",
+    "Everything we built is on stake.",
+    "Everything stakes at we built.",
+    "At stake builds everything we."
+   ],
+   "ans": 0,
+   "note": "at stake — 전치사 at 고정!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "flexible",
+   "ko": "유연한",
+   "ex": "Keep your plans flexible when abroad.",
+   "exko": "해외에선 계획을 유연하게 두세요.",
+   "use": [
+    [
+     "The job offers flexible hours.",
+     "그 일은 근무 시간이 자유롭다."
+    ],
+    [
+     "A flexible mindset helps in negotiations.",
+     "유연한 사고방식은 협상에 도움이 된다."
+    ]
+   ],
+   "mcq": [
+    "I'm flexible on the schedule.",
+    "I'm flexible at the schedule.",
+    "I flexible the schedule well.",
+    "The schedule flexibles for me."
+   ],
+   "ans": 0,
+   "note": "flexible on/about + 대상.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "guideline",
+   "ko": "지침",
+   "ex": "The style guidelines are in the shared folder.",
+   "exko": "스타일 지침은 공유 폴더에 있어요.",
+   "use": [
+    [
+     "Follow the brand guidelines for all posts.",
+     "모든 게시물은 브랜드 지침을 따르세요."
+    ],
+    [
+     "The guidelines were updated last month.",
+     "지침이 지난달에 개정됐다."
+    ]
+   ],
+   "mcq": [
+    "The team follows strict guidelines.",
+    "The team follows strict guideline rule.",
+    "Guidelines follow the team strictly.",
+    "The strict follows team guidelines."
+   ],
+   "ans": 0,
+   "note": "follow guidelines — 복수형이 기본!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "athlete",
+   "ko": "운동선수",
+   "ex": "Olympic athletes train for years.",
+   "exko": "올림픽 선수들은 수년간 훈련해요.",
+   "use": [
+    [
+     "She interviews athletes for a sports channel.",
+     "그녀는 스포츠 채널에서 선수들을 인터뷰한다."
+    ],
+    [
+     "Athletes need both discipline and rest.",
+     "선수에겐 훈련과 휴식이 모두 필요하다."
+    ]
+   ],
+   "mcq": [
+    "The athletes gathered for the ceremony.",
+    "The athletics gathered for the ceremony.",
+    "The athlete peoples gathered there.",
+    "Athletes was gathering the ceremony."
+   ],
+   "ans": 0,
+   "note": "athlete(선수) vs athletics(육상 경기) — 다른 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "testimony",
+   "ko": "증언",
+   "ex": "Her testimony changed the case.",
+   "exko": "그녀의 증언이 사건을 뒤집었어요.",
+   "use": [
+    [
+     "The witness gave testimony in court.",
+     "증인이 법정에서 증언했다."
+    ],
+    [
+     "His success is a testimony to hard work.",
+     "그의 성공은 노력의 증거다."
+    ]
+   ],
+   "mcq": [
+    "The witness gave testimony yesterday.",
+    "The witness gave a testimony speech talk.",
+    "The witness testimonied yesterday.",
+    "Testimony gave the witness yesterday."
+   ],
+   "ans": 0,
+   "note": "give testimony = 증언하다. a testimony to = ~의 증거, 고급 표현!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "testify",
+   "ko": "증언하다",
+   "ex": "She agreed to testify at the trial.",
+   "exko": "그녀는 재판에서 증언하기로 했어요.",
+   "use": [
+    [
+     "Three witnesses testified against him.",
+     "세 명의 증인이 그에게 불리한 증언을 했다."
+    ],
+    [
+     "I can testify to her honesty.",
+     "그녀의 정직함은 내가 보증할 수 있어요."
+    ]
+   ],
+   "mcq": [
+    "He testified in court last week.",
+    "He testified the court last week.",
+    "He testimonied in court.",
+    "The court testified him last week."
+   ],
+   "ans": 0,
+   "note": "testify in court / testify to + 사실. 미드 법정 장면 단골!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "assembly",
+   "ko": "조립, 집회",
+   "ex": "The furniture requires assembly.",
+   "exko": "그 가구는 조립이 필요해요.",
+   "use": [
+    [
+     "The school holds an assembly every Monday.",
+     "학교는 매주 월요일 조회를 연다."
+    ],
+    [
+     "The car assembly line runs 24 hours.",
+     "자동차 조립 라인은 24시간 돌아간다."
+    ]
+   ],
+   "mcq": [
+    "The desk comes with assembly instructions.",
+    "The desk comes with assembling instruction papers.",
+    "The desk assemblies with instructions.",
+    "Assembly the desk comes with."
+   ],
+   "ans": 0,
+   "note": "assembly instructions = 조립 설명서. IKEA 필수 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "vulnerable",
+   "ko": "취약한",
+   "ex": "Old systems are vulnerable to hacking.",
+   "exko": "오래된 시스템은 해킹에 취약해요.",
+   "use": [
+    [
+     "Being vulnerable takes courage.",
+     "약한 모습을 보이는 데는 용기가 필요하다."
+    ],
+    [
+     "The elderly are vulnerable to heat waves.",
+     "노약자는 폭염에 취약하다."
+    ]
+   ],
+   "mcq": [
+    "The app is vulnerable to attacks.",
+    "The app is vulnerable at attacks.",
+    "The app vulnerables to attacks.",
+    "Attacks are vulnerable to the app."
+   ],
+   "ans": 0,
+   "note": "vulnerable to + 위협. 심리 얘기(솔직히 약해지기)에도 써서 활용도 최고!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "myth",
+   "ko": "신화, 근거 없는 통념",
+   "ex": "That's a common myth about dieting.",
+   "exko": "그건 다이어트에 관한 흔한 오해예요.",
+   "use": [
+    [
+     "The article busts five myths about sleep.",
+     "그 기사는 수면에 관한 통념 다섯 개를 깬다."
+    ],
+    [
+     "Greek myths are full of great stories.",
+     "그리스 신화엔 멋진 이야기가 가득하다."
+    ]
+   ],
+   "mcq": [
+    "It's a myth that we use only 10% of our brain.",
+    "It's a myth story that brain 10% use.",
+    "The myth is that used brain only.",
+    "A 10% brain myth uses that."
+   ],
+   "ans": 0,
+   "note": "It's a myth that... = ~는 사실이 아니다. 통념 깰 때 쓰는 세련된 틀!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "flavor",
+   "ko": "맛, 풍미",
+   "ex": "Which flavor do you want — mint or mango?",
+   "exko": "민트랑 망고 중 어떤 맛으로 할래요?",
+   "use": [
+    [
+     "The soup has a rich, deep flavor.",
+     "그 수프는 풍미가 깊다."
+    ],
+    [
+     "Local markets give you a flavor of the culture.",
+     "현지 시장에 가면 그 문화의 맛을 느낄 수 있다."
+    ]
+   ],
+   "mcq": [
+    "This tea has a subtle flavor.",
+    "This tea has a subtle taste flavor.",
+    "This tea flavors subtle.",
+    "Subtle flavors this tea has it."
+   ],
+   "ans": 0,
+   "note": "flavor = 특유의 맛·풍미. a flavor of + 문화/도시 = ~의 분위기 맛보기!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "rumor",
+   "ko": "소문",
+   "ex": "Don't believe every rumor you hear.",
+   "exko": "들리는 소문을 다 믿지 마세요.",
+   "use": [
+    [
+     "Rumor has it that they're moving abroad.",
+     "소문에 따르면 그들이 해외로 이주한대요."
+    ],
+    [
+     "The rumor spread fast on social media.",
+     "그 소문은 SNS에서 빠르게 퍼졌다."
+    ]
+   ],
+   "mcq": [
+    "Rumor has it that she got promoted.",
+    "Rumor has it to she got promoted.",
+    "The rumor is having she promoted.",
+    "It rumors that she has promoted."
+   ],
+   "ans": 0,
+   "note": "Rumor has it that... = 소문에 의하면. 원어민이 진짜 자주 쓰는 틀!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "flame",
+   "ko": "불꽃",
+   "ex": "The candle flame flickered in the wind.",
+   "exko": "촛불이 바람에 흔들렸어요.",
+   "use": [
+    [
+     "Cook it over a low flame.",
+     "약불에서 조리하세요."
+    ],
+    [
+     "Old flames sometimes reconnect — that means ex-lovers!",
+     "old flame은 옛 연인이라는 뜻!"
+    ]
+   ],
+   "mcq": [
+    "Lower the flame before adding oil.",
+    "Lower the flame fire before oil.",
+    "Flame the lower before adding.",
+    "Before oil the flame lowers add."
+   ],
+   "ans": 0,
+   "note": "low/high flame = 약불/센불. 요리 영어 필수!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "radiation",
+   "ko": "방사선, 복사",
+   "ex": "The phone emits low levels of radiation.",
+   "exko": "휴대폰은 낮은 수준의 전자파를 방출해요.",
+   "use": [
+    [
+     "Sunscreen blocks UV radiation.",
+     "선크림은 자외선을 차단한다."
+    ],
+    [
+     "The plant was checked for radiation leaks.",
+     "그 발전소는 방사선 누출 검사를 받았다."
+    ]
+   ],
+   "mcq": [
+    "UV radiation damages the skin.",
+    "UV radiation damages to the skin.",
+    "UV radiates damage the skin.",
+    "The skin radiations UV damage."
+   ],
+   "ans": 0,
+   "note": "UV radiation = 자외선. 피부·건강 대화에 실용적!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "donate",
+   "ko": "기부하다",
+   "ex": "We donated old clothes to charity.",
+   "exko": "헌 옷을 자선단체에 기부했어요.",
+   "use": [
+    [
+     "He donates blood twice a year.",
+     "그는 1년에 두 번 헌혈한다."
+    ],
+    [
+     "The company donated 1% of profits.",
+     "그 회사는 수익의 1%를 기부했다."
+    ]
+   ],
+   "mcq": [
+    "She donated money to the shelter.",
+    "She donated money for to the shelter.",
+    "She donated the shelter money at.",
+    "The shelter donated her money."
+   ],
+   "ans": 0,
+   "note": "donate A to B. donate blood = 헌혈, 뜻밖의 활용!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "kingdom",
+   "ko": "왕국",
+   "ex": "The animal kingdom is full of surprises.",
+   "exko": "동물의 왕국엔 놀라운 일이 가득해요.",
+   "use": [
+    [
+     "The old kingdom lasted 500 years.",
+     "그 옛 왕국은 500년간 지속됐다."
+    ],
+    [
+     "The UK stands for the United Kingdom.",
+     "UK는 United Kingdom의 약자다."
+    ]
+   ],
+   "mcq": [
+    "The kingdom prospered under her rule.",
+    "The kingdom prospered under her ruling reign time.",
+    "The kingdom prospering under she ruled.",
+    "Under prospered the kingdom her rule."
+   ],
+   "ans": 0,
+   "note": "kingdom — the United Kingdom(영국), animal kingdom(동물계)까지!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "melt",
+   "ko": "녹다, 녹이다",
+   "ex": "The ice cream is melting fast!",
+   "exko": "아이스크림이 빨리 녹고 있어요!",
+   "use": [
+    [
+     "Melt the butter before adding flour.",
+     "밀가루 넣기 전에 버터를 녹이세요."
+    ],
+    [
+     "Her smile melted my heart.",
+     "그녀의 미소에 마음이 녹았다."
+    ]
+   ],
+   "mcq": [
+    "The snow melted overnight.",
+    "The snow melted away itself overnight gone.",
+    "The snow made melt overnight.",
+    "Overnight melted the snow it."
+   ],
+   "ans": 0,
+   "note": "melt = 녹다(자동사)·녹이다(타동사) 둘 다. melt one's heart도 로맨틱하게!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "resemble",
+   "ko": "닮다",
+   "ex": "She resembles her mother a lot.",
+   "exko": "그녀는 엄마를 많이 닮았어요.",
+   "use": [
+    [
+     "The building resembles a ship.",
+     "그 건물은 배를 닮았다."
+    ],
+    [
+     "Your situation resembles mine from last year.",
+     "네 상황이 작년의 내 상황과 비슷해."
+    ]
+   ],
+   "mcq": [
+    "He resembles his grandfather.",
+    "He resembles with his grandfather.",
+    "He resembles to his grandfather.",
+    "He is resembled his grandfather."
+   ],
+   "ans": 0,
+   "note": "resemble + 대상 바로! 전치사 없이. look like의 격식 버전.",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "eager",
+   "ko": "간절히 바라는, 열심인",
+   "ex": "She's eager to start the new job.",
+   "exko": "그녀는 새 일을 시작하고 싶어 안달이에요.",
+   "use": [
+    [
+     "The students were eager to learn.",
+     "학생들은 배움에 열심이었다."
+    ],
+    [
+     "He's always eager to help.",
+     "그는 늘 기꺼이 도와주려 한다."
+    ]
+   ],
+   "mcq": [
+    "I'm eager to hear your feedback.",
+    "I'm eager for hear your feedback.",
+    "I'm eager hearing your feedback.",
+    "I eager to hear feedback."
+   ],
+   "ans": 0,
+   "note": "eager to + 동사. '~하고 싶어 못 참는' 긍정 에너지 단어!",
+   "wk": "2026-W34"
+  },
+  {
+   "w": "subtle",
+   "ko": "미묘한, 은은한",
+   "ex": "There's a subtle difference between the two.",
+   "exko": "둘 사이엔 미묘한 차이가 있어요.",
+   "use": [
+    [
+     "The perfume has a subtle scent.",
+     "그 향수는 은은한 향이 난다."
+    ],
+    [
+     "He gave me a subtle hint.",
+     "그가 슬며시 힌트를 줬다."
+    ]
+   ],
+   "mcq": [
+    "The change was subtle but important.",
+    "The change was subtly but important.",
+    "The change subtled but important.",
+    "Subtle was changing the important."
+   ],
+   "ans": 0,
+   "note": "subtle — b는 묵음! /서틀/로 발음해요. 4단계에서 도전해 보세요.",
+   "wk": "2026-W34"
+  }
+ ]
+}
