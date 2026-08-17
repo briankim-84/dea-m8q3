@@ -52,6 +52,20 @@
     .todo.wq.fresh .t{animation:none;-webkit-text-fill-color:var(--navy);color:var(--navy);}
     .todo.wq.fresh .badge{animation:none;}
   }
+
+  /* ── 오늘의 나 ── */
+  .me{background:#fff;border:1.5px solid #E4DCC8;border-radius:14px;padding:13px 14px 11px;margin:14px 0 4px;display:none;}
+  .me .mehead{display:flex;align-items:baseline;gap:8px;margin-bottom:9px;}
+  .me .metitle{font-family:'Nanum Pen Script';font-size:20px;color:#1A2E4C;}
+  .me .streak{margin-left:auto;font-size:11.5px;font-weight:800;color:#C9A432;background:#FBF4DE;border-radius:20px;padding:3px 10px;}
+  .me .mrow{display:flex;gap:7px;}
+  .mstat{flex:1;text-align:center;border-radius:10px;padding:8px 2px 7px;background:#FAF7EE;}
+  .mstat b{display:block;font-size:15px;color:#1A2E4C;line-height:1.25;}
+  .mstat span{font-size:9.5px;color:#9B937E;}
+  .mstat.done b{color:#2E7D5B;}
+  .mstat.todo{background:#FDF6E3;box-shadow:inset 0 0 0 1.5px #E8D9A8;}
+  .mstat.todo b{color:#B08A1E;}
+  .me .meline{margin-top:9px;font-family:'Nanum Pen Script';font-size:16.5px;color:#8A8268;text-align:center;}
 </style>
 </head>
 <body>
@@ -62,6 +76,16 @@
   <h1><u>June의 오늘 할 일</u></h1>
   <div class="sub">June님 전용 학습 노트</div>
 
+
+  <div class="me" id="me">
+    <div class="mehead"><span class="metitle">오늘의 나</span><span class="streak" id="mstreak" style="display:none"></span></div>
+    <div class="mrow">
+      <div class="mstat" id="mq"><b>…</b><span>Weekly Quiz</span></div>
+      <div class="mstat" id="mw"><b>…</b><span>이번 주 새 단어</span></div>
+      <div class="mstat" id="mr"><b>…</b><span>오늘 복습</span></div>
+    </div>
+    <div class="meline" id="mline"></div>
+  </div>
   <a class="todo" href="almostright.html">
     <span class="chk"></span>
     <span class="tx"><span class="t">Almost Right</span><span class="d">원어민은 이렇게 말해요 · 17개 표현</span></span>
@@ -145,6 +169,66 @@
         if(t && !el.querySelector(".badge")) t.insertAdjacentHTML("beforeend",' <span class="badge">NEW</span>');
       }
     }
+  }catch(e){}
+})();
+/* 오늘의 나 요약 */
+(async function(){
+  const FOLDER="june-d4a9";
+  const $=id=>document.getElementById(id);
+  function isoW(d){ d=new Date(d); d.setHours(0,0,0,0);
+    d.setDate(d.getDate()+3-((d.getDay()+6)%7));
+    const w1=new Date(d.getFullYear(),0,4);
+    return d.getFullYear()+"-W"+String(1+Math.round(((d-w1)/86400000-3+((w1.getDay()+6)%7))/7)).padStart(2,"0"); }
+  const WK=isoW(new Date());
+  function set(id,val,ok){ const el=$(id); el.querySelector("b").textContent=val;
+    el.classList.remove("done","todo"); el.classList.add(ok?"done":"todo"); }
+  try{
+    /* 퀴즈 */
+    const qdone = localStorage.getItem("dewb:quizdone")===WK;
+    let qtxt="풀기 전";
+    if(qdone){ try{ const sc=JSON.parse(localStorage.getItem("dewb:quiz:"+WK)||"{}");
+        const n=Object.keys(sc).length; qtxt = n>1 ? "✓ "+n+"레벨" : "✓ 완료"; }catch(e){ qtxt="✓ 완료"; } }
+    set("mq", qtxt, qdone);
+    /* 단어 */
+    let wtxt="—", wok=false, rtxt="—", rok=false, hasTrack=false, wLeft=0, rN=0;
+    try{
+      const r=await fetch("../words/tracks/"+FOLDER+".json?t="+Date.now());
+      if(r.ok){
+        hasTrack=true;
+        const tk=await r.json();
+        let st={}; try{ st=JSON.parse(localStorage.getItem("dewb:words:"+FOLDER)||"{}")||{}; }catch(e){}
+        const S=w=>st[w]||{st:0,box:0,due:0,known:false};
+        const wkWords=tk.words.filter(x=>x.wk===WK);
+        const base = wkWords.length? wkWords : tk.words.filter(x=>!x.wk || x.wk<=WK);
+        const doneW=base.filter(x=>{const s=S(x.w); return s.st>=4||s.known;}).length;
+        wLeft=base.length-doneW;
+        set("mw", doneW+"/"+base.length, wLeft===0);
+        rN=tk.words.filter(x=>{const s=S(x.w);
+          return !s.known && s.st>=4 && s.box<4 && s.due<=Date.now() && (!x.wk||x.wk<=WK);}).length;
+        set("mr", rN===0?"✓ 0개":rN+"개", rN===0);
+      }else{ $("mw").style.display="none"; $("mr").style.display="none"; }
+    }catch(e){ $("mw").style.display="none"; $("mr").style.display="none"; }
+    /* 스트릭 */
+    try{
+      const ds=JSON.parse(localStorage.getItem("dewb:days")||"[]").sort();
+      if(ds.length){
+        const day=d=>{const x=new Date(d); x.setHours(0,0,0,0); return x.getTime();};
+        const today=day(new Date()), one=86400000;
+        let n=0, cur = ds.includes(new Date().toISOString().slice(0,10)) ||
+          (function(){const d=new Date();return ds.includes(d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"));})() ? today : today-one;
+        const setD=new Set(ds.map(day));
+        while(setD.has(cur)){ n++; cur-=one; }
+        if(n>=2){ $("mstreak").textContent="🔥 "+n+"일 연속"; $("mstreak").style.display="inline-block"; }
+      }
+    }catch(e){}
+    /* 한 줄 안내 */
+    let line="";
+    if(!qdone) line="이번 주 퀴즈가 기다리고 있어요 ✎";
+    else if(hasTrack && rN>0) line="복습 "+rN+"개만 하면 오늘 끝!";
+    else if(hasTrack && wLeft>0) line="새 단어 "+wLeft+"개 남았어요";
+    else line="오늘 할 일 끝! 최고예요 🎉";
+    $("mline").textContent=line;
+    $("me").style.display="block";
   }catch(e){}
 })();
 </script>

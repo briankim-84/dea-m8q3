@@ -114,6 +114,23 @@
   .how p+p{margin-top:10px;}
   .how b{color:var(--navy);}
   .how .dim{font-size:11px;color:var(--mute);}
+  .dsearch{width:100%;margin:10px 0 6px;padding:11px 13px;border:1.5px solid var(--line);
+    border-radius:11px;font-family:inherit;font-size:14px;background:#fff;color:var(--navy);}
+  .dsearch:focus{outline:none;border-color:var(--gold);}
+  .dgroup{font-family:'Nanum Pen Script';font-size:19px;color:#8A8268;margin:14px 0 6px;}
+  .dgroup i{font-style:normal;color:var(--gold);}
+  .drow{display:flex;align-items:center;gap:10px;background:#fff;border:1.5px solid var(--line);
+    border-radius:11px;padding:10px 12px;margin-bottom:6px;cursor:pointer;}
+  .drow.dknown{opacity:.55;}
+  .dspk{background:none;border:none;font-size:16px;cursor:pointer;padding:2px;flex:none;}
+  .dw{font-family:Georgia,serif;font-weight:700;font-size:16px;color:var(--navy);flex:none;}
+  .dpron{font-size:11px;}
+  .dko{font-size:12.5px;color:var(--mute);margin-left:auto;text-align:right;}
+  .ddet{background:#FBF8EE;border:1.5px dashed var(--gold-l);border-radius:11px;
+    padding:11px 13px;margin:-2px 0 8px;}
+  .den{font-size:13.5px;color:var(--navy);font-weight:600;line-height:1.55;}
+  .dexko{font-size:11.5px;color:var(--mute);margin-top:3px;}
+  .dnote{font-size:11.5px;color:#8A6D1F;margin-top:6px;line-height:1.55;}
 </style>
 </head>
 <body>
@@ -148,7 +165,11 @@ const days=n=>n*86400000;
 const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
 function load(){ try{ ST=JSON.parse(localStorage.getItem(KEY)||"{}")||{}; }catch(e){ ST={}; } }
-function save(){ try{ localStorage.setItem(KEY, JSON.stringify(ST)); }catch(e){} }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(ST)); }catch(e){}
+  try{ const d=new Date(), t=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+    let ds=JSON.parse(localStorage.getItem("dewb:days")||"[]");
+    if(!ds.includes(t)){ ds.push(t); if(ds.length>90) ds=ds.slice(-90);
+      localStorage.setItem("dewb:days", JSON.stringify(ds)); } }catch(e){} }
 function S(w){ return ST[w] || (ST[w]={st:0,box:0,due:0,known:false,pron:1}); }
 
 /* ═══════════ 큐 구성 ═══════════ */
@@ -188,6 +209,7 @@ function home(){
     </div>
     <button class="btn gold" id="go">${q.reviews.length? "복습부터 시작" : "새 단어 배우기"}</button>
     <div class="small">원하는 만큼 이어서 할 수 있어요. 중간에 멈춰도 진행은 저장됩니다.</div>
+    <button class="btn ghost" id="dict" style="margin-top:9px">📖 내 단어장</button>
     ${doneN>0?`<button class="btn ghost" id="fp" style="margin-top:9px">🔁 자유 연습 — 익힌 단어 훑어보기</button>`:""}
     <button class="howbtn" id="howT">어떻게 하는 건가요? ▾</button>
     <div class="how" id="how" style="display:none">
@@ -210,6 +232,7 @@ function home(){
   $("go").addEventListener("click",()=>{ session=[...q.reviews.map(x=>({t:"rev",item:x})),
                                                    ...q.news.map(x=>({t:"new",item:x}))];
                                           next(); });
+  $("dict").addEventListener("click",dictView);
   const fp=$("fp");
   if(fp) fp.addEventListener("click",()=>{
     fpQueue=TRACK.words.filter(x=>{const st=S(x.w); return st.st>=4 && !st.known;});
@@ -428,6 +451,71 @@ function completeWord(pronOk){
   bindBack();
   $("nx").addEventListener("click",next);
   $("stop").addEventListener("click",()=>{ save(); home(); });
+}
+
+/* ═══════════ 내 단어장 ═══════════ */
+function dictView(){
+  const groups={learn:[],rev:[],master:[],known:[]};
+  TRACK.words.forEach(x=>{
+    const st=S(x.w);
+    if(st.known) groups.known.push(x);
+    else if(st.box>=4) groups.master.push(x);
+    else if(st.st>=4) groups.rev.push(x);
+    else if(st.st>=1) groups.learn.push(x);
+  });
+  const total=groups.learn.length+groups.rev.length+groups.master.length+groups.known.length;
+  const G=[["learn","✏️ 배우는 중"],["rev","⏳ 복습 중"],["master","🎓 완전히 익힘"],["known","💡 원래 알던 단어"]];
+  const row=x=>{
+    const st=S(x.w);
+    const pron=st.pron===0?' <span class="dpron">🔁</span>':"";
+    return `<div class="drow ${st.known?"dknown":""}" data-w="${esc(x.w)}">
+      <button class="dspk" data-w="${esc(x.w)}">🔊</button>
+      <span class="dw">${esc(x.w)}${pron}</span>
+      <span class="dko">${esc(x.ko)}</span>
+    </div>
+    <div class="ddet" id="d_${esc(x.w)}" style="display:none">
+      <div class="den">${esc(x.ex)}</div><div class="dexko">${esc(x.exko)}</div>
+      ${x.note?`<div class="dnote">${esc(x.note)}</div>`:""}
+    </div>`;
+  };
+  app().innerHTML=shell(`
+    <h1 style="font-size:28px;margin-bottom:2px"><u>내 단어장</u></h1>
+    <div class="sub">지금까지 만난 단어 ${total}개 · 단어를 누르면 예문이 보여요</div>
+    <input class="dsearch" id="dq" placeholder="검색 (영어·한국어)" autocomplete="off">
+    <div id="dlist">
+    ${total===0?'<div class="sub" style="margin-top:14px">아직 만난 단어가 없어요. 새 단어부터 시작해 보세요! ✎</div>':""}
+    ${G.map(([k,label])=>groups[k].length?`
+      <div class="dgroup">${label} <i>${groups[k].length}</i></div>
+      ${groups[k].map(row).join("")}`:"").join("")}
+    </div>`,"MY DICTIONARY");
+  bindBack();
+  $("dq").addEventListener("input",()=>{
+    const q=$("dq").value.trim().toLowerCase();
+    app().querySelectorAll(".drow").forEach(r=>{
+      const hit=!q || r.textContent.toLowerCase().includes(q);
+      r.style.display=hit?"":"none";
+      const det=document.getElementById("d_"+r.dataset.w);
+      if(det && !hit) det.style.display="none";
+    });
+    app().querySelectorAll(".dgroup").forEach(g=>{
+      let el=g.nextElementSibling, any=false;
+      while(el && !el.classList.contains("dgroup")){
+        if(el.classList.contains("drow") && el.style.display!=="none") any=true;
+        el=el.nextElementSibling;
+      }
+      g.style.display=any?"":"none";
+    });
+  });
+  app().querySelectorAll(".dspk").forEach(b=>b.addEventListener("click",e=>{
+    e.stopPropagation();
+    try{ speechSynthesis.cancel();
+      const u=new SpeechSynthesisUtterance(b.dataset.w); u.lang="en-US"; u.rate=.85;
+      speechSynthesis.speak(u); }catch(err){}
+  }));
+  app().querySelectorAll(".drow").forEach(r=>r.addEventListener("click",()=>{
+    const d=document.getElementById("d_"+r.dataset.w);
+    if(d) d.style.display=d.style.display==="none"?"block":"none";
+  }));
 }
 
 /* ═══════════ 자유 연습 (진도 영향 없음) ═══════════ */
