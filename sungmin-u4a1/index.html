@@ -37,6 +37,7 @@
   .badge{display:none;margin-left:8px;vertical-align:2px;background:var(--gold);color:#fff;
     font-size:9.5px;font-weight:800;letter-spacing:1px;padding:2px 6px;border-radius:20px;}
   .todo.wq.fresh .badge{display:inline-block;animation:pop .35s ease-out;}
+  .todo.fresh2 .badge{display:inline-block;animation:pop .35s ease-out;}
   .todo.wq.fresh .t{
     background:linear-gradient(100deg,
       var(--navy) 0%, var(--navy) 30%,
@@ -114,6 +115,31 @@
     const el=document.querySelector(".todo.wq");
     if(!el) return;
     if(localStorage.getItem("dewb:quizdone")!==isoWeek(new Date())) el.classList.add("fresh");
+  }catch(e){}
+})();
+
+/* Class Notes / After Class 새 자료 배지 */
+(async function(){
+  const FOLDER="sungmin-u4a1";
+  try{
+    const r=await fetch("https://api.github.com/repos/briankim-84/dea-m8q3/contents/"+FOLDER,{cache:"no-store"});
+    if(!r.ok) return;
+    const files=(await r.json()).filter(x=>x.type==="file").map(x=>x.name);
+    const notes=files.filter(f=>/\.pdf$/i.test(f)).sort();
+    const after=files.filter(f=>/\.html$/i.test(f)&&!/^(index|after|notes|viewer|interview|almostright)\.html$/i.test(f)).sort();
+    mark('a.todo[href="notes.html"]',"dewb:seen:"+FOLDER+":notes",notes);
+    mark('a.todo[href="after.html"]',"dewb:seen:"+FOLDER+":after",after);
+    function mark(sel,key,list){
+      const el=document.querySelector(sel); if(!el) return;
+      const seen=localStorage.getItem(key);
+      if(seen===null){ try{localStorage.setItem(key,JSON.stringify(list));}catch(e){} return; }
+      let old=[]; try{ old=JSON.parse(seen)||[]; }catch(e){}
+      if(list.some(f=>!old.includes(f))){
+        el.classList.add("fresh2");
+        const t=el.querySelector(".t");
+        if(t && !el.querySelector(".badge")) t.insertAdjacentHTML("beforeend",' <span class="badge">NEW</span>');
+      }
+    }
   }catch(e){}
 })();
 </script>

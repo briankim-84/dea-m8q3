@@ -188,6 +188,7 @@ function home(){
     </div>
     <button class="btn gold" id="go">${q.reviews.length? "복습부터 시작" : "새 단어 배우기"}</button>
     <div class="small">원하는 만큼 이어서 할 수 있어요. 중간에 멈춰도 진행은 저장됩니다.</div>
+    ${doneN>0?`<button class="btn ghost" id="fp" style="margin-top:9px">🔁 자유 연습 — 익힌 단어 훑어보기</button>`:""}
     <button class="howbtn" id="howT">어떻게 하는 건가요? ▾</button>
     <div class="how" id="how" style="display:none">
       <p><b>새 단어는 4단계</b>로 익혀요.<br>
@@ -209,6 +210,12 @@ function home(){
   $("go").addEventListener("click",()=>{ session=[...q.reviews.map(x=>({t:"rev",item:x})),
                                                    ...q.news.map(x=>({t:"new",item:x}))];
                                           next(); });
+  const fp=$("fp");
+  if(fp) fp.addEventListener("click",()=>{
+    fpQueue=TRACK.words.filter(x=>{const st=S(x.w); return st.st>=4 && !st.known;});
+    for(let i=fpQueue.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [fpQueue[i],fpQueue[j]]=[fpQueue[j],fpQueue[i]]; }
+    fpIdx=0; fpView();
+  });
 }
 
 /* ═══════════ 세션 진행 ═══════════ */
@@ -421,6 +428,36 @@ function completeWord(pronOk){
   bindBack();
   $("nx").addEventListener("click",next);
   $("stop").addEventListener("click",()=>{ save(); home(); });
+}
+
+/* ═══════════ 자유 연습 (진도 영향 없음) ═══════════ */
+let fpQueue=[], fpIdx=0;
+function fpView(){
+  if(fpIdx>=fpQueue.length){
+    app().innerHTML=shell(`
+      <div class="done-badge">자유 연습 끝! 수고했어요 ✓</div>
+      <div class="sub center">복습 기록에는 영향이 없어요. 예정된 복습은 그대로 진행됩니다.</div>
+      <button class="btn gold" id="ok">처음으로</button>`,"FREE PRACTICE");
+    bindBack(); $("ok").addEventListener("click",home); return;
+  }
+  const item=fpQueue[fpIdx]; cur=item;
+  let revealed=false;
+  app().innerHTML=shell(`
+    <div class="sub" style="margin-bottom:8px">${fpIdx+1} / ${fpQueue.length} · 부담 없이 훑어보기</div>
+    <div class="recall" id="rc">
+      <div class="k">${esc(item.ko)}</div>
+      <div class="hint" id="hint">영어로 떠올린 뒤 탭 ↻</div>
+      <div class="e" id="en" style="display:none">${esc(item.w)}</div>
+      <div class="ko" id="exx" style="display:none;font-size:12.5px;color:var(--mute);margin-top:10px">${esc(item.ex)}</div>
+    </div>
+    <button class="btn pri" id="nx2">다음 →</button>`,"FREE PRACTICE · 자유 연습");
+  bindBack();
+  $("rc").addEventListener("click",()=>{
+    if(revealed) return; revealed=true;
+    $("en").style.display="block"; $("exx").style.display="block"; $("hint").style.display="none";
+    try{ const u=new SpeechSynthesisUtterance(item.w); u.lang="en-US"; u.rate=.9; speechSynthesis.speak(u); }catch(e){}
+  });
+  $("nx2").addEventListener("click",()=>{ fpIdx++; fpView(); });
 }
 
 /* ═══════════ 복습 ═══════════ */

@@ -85,6 +85,8 @@ async function load(){
       const r=await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/${FOLDER}`);
       if(r.ok){ const d=await r.json(); files=d.filter(x=>x.type==="file").map(x=>x.name); }
       else if(r.status===404){ files=[]; }        /* 폴더 없음 = 아직 자료 없음 */
+      if(files!==null) try{ localStorage.setItem("dewb:seen:"+FOLDER+":notes",
+        JSON.stringify(files.filter(f=>/\.pdf$/i.test(f)).sort())); }catch(e){}
     }catch(e){}
   }
   if(files===null){

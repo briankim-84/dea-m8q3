@@ -184,6 +184,7 @@ const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[
 function homeView(){
   const wk = DATA.label ? `${esc(DATA.label)} 퀴즈` : "이번 주 퀴즈";
   app().innerHTML = `
+    <a class="back" id="hubback" style="display:none;text-decoration:none">← 내 노트로</a>
     <div class="eyebrow">Do English with Brian ✎</div>
     <h1><u>Weekly Quiz</u></h1>
     <div class="sub">${wk} · 레벨을 골라 시작하세요</div>
@@ -197,6 +198,16 @@ function homeView(){
     }).join("")}`;
   app().querySelectorAll(".lv").forEach(b=>
     b.addEventListener("click",()=>startLevel(b.dataset.lv)));
+  try{
+    let hub=sessionStorage.getItem("dewb:hubref");
+    if(!hub && document.referrer){
+      try{ const u=new URL(document.referrer);
+        if(u.origin===location.origin && !u.pathname.includes("/weekly")){
+          hub=document.referrer; sessionStorage.setItem("dewb:hubref",hub);
+        } }catch(e){}
+    }
+    if(hub){ const a=document.getElementById("hubback"); a.href=hub; a.style.display="inline-block"; }
+  }catch(e){}
 }
 
 function startLevel(lv){
