@@ -52,7 +52,9 @@
   /* 단계 표시 */
   .stages{display:flex;gap:5px;margin:4px 0 16px;}
   .stg{flex:1;text-align:center;font-size:10px;color:#C3BBA6;padding:7px 2px;border-radius:8px;
-       background:#F2EDE0;font-weight:700;letter-spacing:.4px;}
+       background:#F2EDE0;font-weight:700;letter-spacing:.4px;border:none;font-family:inherit;cursor:default;}
+  .stg.done{cursor:pointer;}
+  .stg.done:active{transform:scale(.96);}
   .stg.on{background:var(--gold);color:#fff;}
   .stg.done{background:var(--navy);color:var(--gold-l);}
 
@@ -237,8 +239,14 @@ function stagesBar(){
   const names=["① 뜻","② 쓰임","③ 고르기","④ 발음"];
   return `<div class="stages">${names.map((n,i)=>{
     const st=i+1;
-    return `<span class="stg ${st<phase?"done":st===phase?"on":""}">${n}</span>`;
+    const cls = st<phase?"done":st===phase?"on":"";
+    return `<button class="stg ${cls}" data-st="${st}" ${st<phase?"":"disabled"}>${n}</button>`;
   }).join("")}</div>`;
+}
+function bindStages(){
+  app().querySelectorAll(".stg.done").forEach(b=>b.addEventListener("click",()=>{
+    phase=+b.dataset.st; stageView();
+  }));
 }
 
 function stageView(){
@@ -259,7 +267,7 @@ function stage1(){
       <button class="btn ghost" id="known">이미 알아요</button>
       <button class="btn pri" id="nx">다음 단계 →</button>
     </div>`,"STEP 1 · 뜻 확인");
-  bindBack(); bindTTS();
+  bindBack(); bindTTS(); bindStages();
   $("known").addEventListener("click",()=>{ S(cur.w).known=true; save(); next(); });
   $("nx").addEventListener("click",()=>{ S(cur.w).st=Math.max(S(cur.w).st,1); save(); phase=2; stageView(); });
 }
@@ -271,8 +279,12 @@ function stage2(){
     <div class="sub center">문장 속에서 어떻게 쓰이는지 보세요</div>
     ${cur.use.map(u=>`<div class="card"><div class="en">${hl(u[0])}</div><div class="ko">${esc(u[1])}</div></div>`).join("")}
     <div class="center" style="margin:4px 0 12px"><button class="speak" id="tts">🔊 단어 다시 듣기</button></div>
-    <button class="btn pri" id="nx">다음 단계 →</button>`,"STEP 2 · 쓰임 확인");
-  bindBack(); bindTTS();
+    <div class="row2">
+      <button class="btn ghost" id="pv">← 뜻 다시</button>
+      <button class="btn pri" id="nx">다음 단계 →</button>
+    </div>`,"STEP 2 · 쓰임 확인");
+  bindBack(); bindTTS(); bindStages();
+  $("pv").addEventListener("click",()=>{ phase=1; stageView(); });
   $("nx").addEventListener("click",()=>{ S(cur.w).st=Math.max(S(cur.w).st,2); save(); phase=3; stageView(); });
 }
 
@@ -283,13 +295,16 @@ function stage3(){
     <div class="word" style="font-size:30px">${esc(cur.w)}</div>
     <div class="sub center"><b style="color:var(--navy)">${esc(cur.w)}</b>가 올바르게 쓰인 문장을 고르세요</div>
     ${cur.mcq.map((m,i)=>`<button class="opt" data-i="${i}">${esc(m)}</button>`).join("")}
-    <div id="fb"></div>`,"STEP 3 · 고르기");
-  bindBack();
+    <div id="fb"></div>
+    <button class="btn ghost" id="pv" style="margin-top:2px">← 쓰임 다시 보기</button>`,"STEP 3 · 고르기");
+  bindBack(); bindStages();
+  $("pv").addEventListener("click",()=>{ phase=2; stageView(); });
   app().querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{
     if(mcqPicked) return; mcqPicked=true;
     const i=+b.dataset.i, ok=(i===cur.ans);
     app().querySelectorAll(".opt").forEach((x,n)=>{ x.disabled=true;
       if(n===cur.ans) x.classList.add("ok"); else if(n===i) x.classList.add("no"); });
+    const pv=$("pv"); if(pv) pv.style.display="none";
     $("fb").innerHTML=`<div class="fb ${ok?"ok":"no"}">${ok?"정답!":"아쉬워요."} ${esc(cur.note||"")}</div>
       <button class="btn pri" id="nx" style="margin-top:10px">${ok?"다음 단계 →":"다시 보고 넘어가기 →"}</button>`;
     $("nx").addEventListener("click",()=>{
@@ -311,8 +326,10 @@ function stage4(){
       <button class="micbtn" id="mic">🎙️</button>
       <div class="micstate" id="ms">버튼을 누르고 <b>${esc(cur.w)}</b>를 또렷하게 발음해 보세요</div>
       <div class="loadbar" id="lb" style="display:none"><i id="lbi"></i></div>
-    </div>`,"STEP 4 · 발음");
-  bindBack(); bindTTS();
+    </div>
+    <button class="btn ghost" id="pv">← 이전 단계</button>`,"STEP 4 · 발음");
+  bindBack(); bindTTS(); bindStages();
+  $("pv").addEventListener("click",()=>{ phase=3; stageView(); });
   $("mic").addEventListener("click",pronounce);
 }
 
