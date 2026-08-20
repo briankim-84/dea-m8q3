@@ -146,7 +146,7 @@ input.dict:focus{outline:none;border-color:var(--gold);}
 </div>
 <div id="exportBar"><span id="recStat">느리게 14/14 · 보통 14/14</span><button id="exportBtn">학생용 파일 내보내기</button></div>
 <script>
-const SENTENCES=[{"sec": "THE QUESTION", "role": "C", "ko": "일이 삶을 잡아먹지 않게 어떻게 해요?", "en": "How do you keep work from taking over?"}, {"role": "L", "ko": "웬만하면 7시까지는 로그아웃하려고 해요.", "en": "I try to log off by seven most days.", "vocab": "log off — 업무를 끝내다, 접속을 끊다"}, {"role": "L", "ko": "노트북을 닫으면 다시 안 열어요.", "en": "Once I close the laptop, I don't open it again.", "vocab": "once ~ — 일단 ~하면"}, {"role": "L", "ko": "저녁 이후엔 슬랙을 안 봐요.", "en": "I don't check Slack after dinner.", "vocab": "check — (알림·메시지를) 확인하다"}, {"role": "L", "ko": "주말은 화면 아닌 것들을 위한 시간이에요.", "en": "Weekends are for anything that isn't a screen.", "vocab": "weekends are for ~ — 주말은 ~를 위한 시간"}, {"role": "L", "ko": "근데 솔직히, 그 주가 얼마나 바쁜지에 따라 달라요.", "en": "But honestly, it depends on how busy things are that week.", "vocab": "it depends on how ~ — ~가 어떤지에 달려 있다"}, {"sec": "WHEN IT DOESN'T WORK", "role": "C", "ko": "그게 실제로 지켜져요?", "en": "Does that actually work?"}, {"role": "L", "ko": "어떤 주는 그게 전부 무너져요.", "en": "Some weeks, all of that goes out the window.", "vocab": "go out the window — 다 소용없어지다, 무너지다"}, {"role": "L", "ko": "침대에서 나도 모르게 슬랙을 보고 있더라고요.", "en": "I catch myself checking Slack in bed.", "vocab": "catch myself -ing — 나도 모르게 ~하고 있다"}, {"role": "L", "ko": "운영 환경에 뭔가 터져 있으면 머리가 잘 안 꺼져요.", "en": "It's hard to switch off when something's broken in production.", "vocab": "switch off — (머리·긴장을) 끄다 · production — 실서비스 환경"}, {"role": "L", "ko": "도움이 되는 건, 퇴근 전에 내일 할 일을 적어두는 거예요.", "en": "What helps is writing tomorrow's list before I leave.", "vocab": "what helps is ~ — 도움이 되는 건 ~"}, {"sec": "GETTING BETTER", "role": "C", "ko": "마지막으로 진짜 일에서 손 뗐던 게 언제예요?", "en": "When was the last time you really unplugged?"}, {"role": "L", "ko": "작은 일은 기다리게 두는 게 예전보다 나아졌어요.", "en": "I've gotten better at letting the small stuff wait.", "vocab": "get better at -ing — ~하는 게 나아지다 · let ~ wait — ~를 미뤄두다"}, {"role": "L", "ko": "완벽하진 않아요. 근데 방향은 맞아요.", "en": "It's not perfect. But it's heading the right way.", "vocab": "head the right way — 옳은 방향으로 가다"}];
+const SENTENCES=[{"sec": "THE QUESTION", "role": "C", "ko": "일이 삶을 잡아먹지 않게 어떻게 해요?", "en": "How do you keep work from taking over?"}, {"role": "L", "ko": "웬만하면 7시까지는 로그아웃하려고 해요.", "en": "I try to log off by seven most days.", "vocab": "log off — 접속을 끊다, 일을 끝내다 · most days — 웬만한 날은"}, {"role": "L", "ko": "노트북을 닫으면 다시 안 열어요.", "en": "Once I close the laptop, I don't open it again.", "vocab": "once ~ — 일단 ~하면"}, {"role": "L", "ko": "저녁 이후엔 슬랙을 안 봐요.", "en": "I don't check Slack after dinner.", "vocab": "check — (메시지를) 확인하다"}, {"role": "L", "ko": "주말은 화면 아닌 것들을 위한 시간이에요.", "en": "Weekends are for anything that isn't a screen.", "vocab": "screen — 화면 · anything that isn't ~ — ~가 아닌 모든 것"}, {"role": "L", "ko": "근데 솔직히, 그 주가 얼마나 바쁜지에 따라 달라요.", "en": "But honestly, it depends on how busy things are that week.", "vocab": "honestly — 솔직히 · depend on — ~에 달려 있다"}, {"sec": "WHEN IT DOESN'T WORK", "role": "C", "ko": "그게 실제로 지켜져요?", "en": "Does that actually work?"}, {"role": "L", "ko": "어떤 주는 그게 전부 무너져요.", "en": "Some weeks, all of that goes out the window.", "vocab": "go out the window — 다 무너지다, 소용없어지다"}, {"role": "L", "ko": "침대에서 나도 모르게 슬랙을 보고 있더라고요.", "en": "I catch myself checking Slack in bed.", "vocab": "catch myself -ing — 나도 모르게 ~하고 있다"}, {"role": "L", "ko": "운영 환경에 뭔가 터져 있으면 머리가 잘 안 꺼져요.", "en": "It's hard to switch off when something's broken in production.", "vocab": "switch off — (머리를) 끄다 · broken — 고장 난 · production — 실서비스 환경"}, {"role": "L", "ko": "도움이 되는 건, 퇴근 전에 내일 할 일을 적어두는 거예요.", "en": "What helps is writing tomorrow's list before I leave.", "vocab": "what helps is ~ — 도움이 되는 건 ~ · list — 할 일 목록"}, {"sec": "GETTING BETTER", "role": "C", "ko": "마지막으로 진짜 일에서 손 뗐던 게 언제예요?", "en": "When was the last time you really unplugged?"}, {"role": "L", "ko": "작은 일은 기다리게 두는 게 예전보다 나아졌어요.", "en": "I've gotten better at letting the small stuff wait.", "vocab": "get better at — 나아지다 · the small stuff — 사소한 것들 · let ~ wait — 미뤄두다"}, {"role": "L", "ko": "완벽하진 않아요. 근데 방향은 맞아요.", "en": "It's not perfect. But it's heading the right way.", "vocab": "perfect — 완벽한 · head — (방향으로) 가다"}];
 const ROLES={"C": "👤 Colleague", "L": "💻 Leo"};
 const EXPORT_NAME="Leo_Listen_and_Shadow_17_for_Leo.html";
 const IDB_NS="leo17";
@@ -336,8 +336,10 @@ SENTENCES.forEach((s,i)=>{
       <button class="rec recnorm teacheronly" onclick="toggleRec(${i},'normal')">● 보통 녹음</button>
     </div><div class="pbar"><div></div></div></div>`;
   }else{
-    html+=`<div class="ko">${esc(s.ko)}</div>
-    <div class="ctr"><span class="lbl" style="margin-top:0">선생님 음성 듣기</span>
+    html+=`<div class="ko">${esc(s.ko)}</div>`;
+    if(s.vocab)html+=`<div class="vocab">${esc(s.vocab)}</div>`;
+    if(s.vary)html+=`<div class="vary"><b>같은 패턴으로</b> — ${esc(s.vary)}</div>`;
+    html+=`<div class="ctr"><span class="lbl" style="margin-top:0">선생님 음성 듣기</span>
       <button class="pslow" onclick="singlePlay(${i},'slow')">🐢 느리게</button>
       <button class="pnorm" onclick="singlePlay(${i},'normal')">🔊 일반속도</button>
       <button class="rep" onclick="repeat10(${i})">🔁 일반 10회</button><span class="cnt"></span>
@@ -345,10 +347,8 @@ SENTENCES.forEach((s,i)=>{
     <div class="lbl">받아쓰기 — 들리는 문장을 적어보세요</div>
     <input class="dict" id="dict${i}" placeholder="여기에 적어보세요..." autocomplete="off">
     <div class="ansbox" id="ans${i}" style="display:none">
-      <div class="en">${esc(s.en)}</div>`;
-    if(s.vocab)html+=`<div class="vocab">${esc(s.vocab)}</div>`;
-    if(s.vary)html+=`<div class="vary"><b>같은 패턴으로</b> — ${esc(s.vary)}</div>`;
-    html+=`</div>
+      <div class="en">${esc(s.en)}</div>
+    </div>
     <span class="check" onclick="reveal(${i})" id="rev${i}">👁 정답 확인</span>
     <div class="lbl">따라 말하기 — 녹음해서 비교해 보세요</div>
     <div class="ctr" style="margin-top:5px">
