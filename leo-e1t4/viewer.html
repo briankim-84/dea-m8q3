@@ -42,6 +42,20 @@ const FROM=P.get("from")==="notes" ? "notes.html" : "after.html";
 document.getElementById("ttl").textContent=decodeURIComponent(FILE);
 document.getElementById("back").addEventListener("click",()=>{ location.href=FROM; });
 
+/* 같은 이름의 PPTX가 있으면 다운로드 버튼 표시 */
+(function(){
+  if(!/\.pdf$/i.test(FILE)) return;
+  const ppt=FILE.replace(/\.pdf$/i,".pptx");
+  fetch(ppt,{method:"HEAD"}).then(r=>{
+    if(!r.ok) return;
+    const a=document.createElement("a");
+    a.className="raw"; a.href=ppt; a.download="";
+    a.textContent="⬇ PPT";
+    a.style.marginLeft="8px";
+    document.querySelector(".bar").appendChild(a);
+  }).catch(()=>{});
+})();
+
 const stage=document.getElementById("stage");
 function fail(m){ stage.innerHTML=`<div class="msg">${m}<br><br>
   <a href="${FILE}">파일 직접 열기</a></div>`; }
