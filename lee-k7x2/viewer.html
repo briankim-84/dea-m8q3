@@ -16,7 +16,7 @@
     font-family:inherit;font-size:14px;font-weight:700;padding:9px 14px;border-radius:10px;cursor:pointer;
     flex:none;white-space:nowrap;}
   .back:active{background:rgba(255,255,255,.25);}
-  .ttl{font-size:13.5px;color:rgba(255,255,255,.75);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .ttl{flex:1;min-width:0;font-size:13.5px;color:rgba(255,255,255,.75);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .raw{display:none;margin-left:auto;flex:none;color:var(--gold);font-size:12.5px;
     text-decoration:none;border:1px solid rgba(201,164,50,.5);border-radius:8px;padding:7px 10px;white-space:nowrap;}
   .stage{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;}
@@ -51,6 +51,7 @@ document.getElementById("back").addEventListener("click",()=>{ location.href=FRO
     const a=document.createElement("a");
     a.className="raw"; a.href=ppt; a.download="";
     a.textContent="⬇ PPT";
+    a.style.display="inline-block";
     a.style.marginLeft="8px";
     document.querySelector(".bar").appendChild(a);
   }).catch(()=>{});
