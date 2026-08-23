@@ -502,6 +502,506 @@
    "ans": 0,
    "note": "seemingly + 형용사 = 겉보기엔 ~한. 반전을 만들 때 쓰는 부사!",
    "wk": "2026-W34"
+  },
+  {
+   "w": "confront",
+   "ko": "직면하다, 맞서다",
+   "ex": "We need to confront the problem directly.",
+   "exko": "문제를 직접 마주해야 해요.",
+   "use": [
+    [
+     "She confronted her fear of public speaking.",
+     "그녀는 발표 공포에 정면으로 맞섰다."
+    ],
+    [
+     "Teachers confront new challenges every day.",
+     "교사는 매일 새로운 어려움에 부딪힌다."
+    ]
+   ],
+   "mcq": [
+    "He confronted the issue calmly.",
+    "He confronted with the issue calmly.",
+    "He confronted to the issue.",
+    "The issue confronted him it calmly."
+   ],
+   "ans": 0,
+   "note": "confront + 문제/사람 바로 연결. face보다 강한 '정면 대응'의 느낌!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "violate",
+   "ko": "위반하다",
+   "ex": "He violated the school rules.",
+   "exko": "그는 교칙을 위반했어요.",
+   "use": [
+    [
+     "The app violates privacy guidelines.",
+     "그 앱은 개인정보 지침을 위반한다."
+    ],
+    [
+     "Parking here violates city rules.",
+     "여기 주차하면 시 규정 위반이다."
+    ]
+   ],
+   "mcq": [
+    "The company violated safety regulations.",
+    "The company violated against regulations.",
+    "The company violated to the rules.",
+    "The rules violated the company safety."
+   ],
+   "ans": 0,
+   "note": "violate + 규칙/법 바로 연결. break the rules의 격식 버전.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "elite",
+   "ko": "엘리트, 정예의",
+   "ex": "She trains with an elite swim team.",
+   "exko": "그녀는 정예 수영팀과 훈련해요.",
+   "use": [
+    [
+     "Only elite athletes reach the Olympics.",
+     "정예 선수만 올림픽에 간다."
+    ],
+    [
+     "The school has an elite math program.",
+     "그 학교엔 수재반 수학 프로그램이 있다."
+    ]
+   ],
+   "mcq": [
+    "He joined an elite research group.",
+    "He joined an elites research group.",
+    "He joined an elite of group research.",
+    "An elite joined he the group."
+   ],
+   "ans": 0,
+   "note": "elite = 명사·형용사 둘 다. elite athletes, elite schools처럼 형용사로 잘 써요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "lifetime",
+   "ko": "일생, 평생",
+   "ex": "This is a once-in-a-lifetime chance.",
+   "exko": "평생 한 번뿐인 기회예요.",
+   "use": [
+    [
+     "He saw huge changes in his lifetime.",
+     "그는 일생 동안 큰 변화를 목격했다."
+    ],
+    [
+     "The camera has a lifetime warranty.",
+     "그 카메라는 평생 보증이다."
+    ]
+   ],
+   "mcq": [
+    "It was the trip of a lifetime.",
+    "It was the trip of a lifetime long.",
+    "It was a lifetime trip of the.",
+    "The lifetime was it a trip of."
+   ],
+   "ans": 0,
+   "note": "of a lifetime = 평생 최고의. the chance/trip of a lifetime으로 자주 써요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "ongoing",
+   "ko": "진행 중인",
+   "ex": "The investigation is still ongoing.",
+   "exko": "조사가 아직 진행 중이에요.",
+   "use": [
+    [
+     "Learning is an ongoing process.",
+     "배움은 계속되는 과정이다."
+    ],
+    [
+     "We have an ongoing project with the city.",
+     "시와 진행 중인 프로젝트가 있다."
+    ]
+   ],
+   "mcq": [
+    "Support for the students is ongoing.",
+    "Support for the students is ongoing now still yet.",
+    "The ongoing is support for students.",
+    "Students are ongoing the support."
+   ],
+   "ans": 0,
+   "note": "ongoing = 지금도 계속되는. ongoing process/support가 대표 짝!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "wisdom",
+   "ko": "지혜",
+   "ex": "Experience brings wisdom.",
+   "exko": "경험이 지혜를 가져다줘요.",
+   "use": [
+    [
+     "She shared her wisdom with young teachers.",
+     "그녀는 젊은 교사들에게 지혜를 나눠줬다."
+    ],
+    [
+     "There's wisdom in asking for help.",
+     "도움을 청하는 것에도 지혜가 있다."
+    ]
+   ],
+   "mcq": [
+    "I doubt the wisdom of that decision.",
+    "I doubt the wisdom of that decide.",
+    "I doubt that wisdom decision of.",
+    "The wisdom doubts me of decision."
+   ],
+   "ans": 0,
+   "note": "the wisdom of ~ = ~이 현명한지. doubt the wisdom of = 현명한 판단인지 의심하다.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "ingredient",
+   "ko": "재료, 요소",
+   "ex": "Check the ingredients before buying.",
+   "exko": "사기 전에 성분을 확인하세요.",
+   "use": [
+    [
+     "Trust is a key ingredient of teamwork.",
+     "신뢰는 팀워크의 핵심 요소다."
+    ],
+    [
+     "The recipe needs only five ingredients.",
+     "그 요리는 재료가 다섯 개면 된다."
+    ]
+   ],
+   "mcq": [
+    "Patience is a key ingredient of teaching.",
+    "Patience is a key ingredient for of teaching.",
+    "Patience ingredients the key teaching.",
+    "A key teaching is patience ingredient."
+   ],
+   "ans": 0,
+   "note": "음식 재료뿐 아니라 '성공의 요소'처럼 은유로도 최고!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "shame",
+   "ko": "수치심, 아쉬운 일",
+   "ex": "What a shame you can't come!",
+   "exko": "못 온다니 정말 아쉽네요!",
+   "use": [
+    [
+     "There's no shame in making mistakes.",
+     "실수하는 건 부끄러운 일이 아니다."
+    ],
+    [
+     "It's a shame the event was canceled.",
+     "행사가 취소돼서 아쉽다."
+    ]
+   ],
+   "mcq": [
+    "It's a shame we missed the show.",
+    "It's a shame that missing we the show.",
+    "A shame is it we missed show.",
+    "We shame it missed the show."
+   ],
+   "ans": 0,
+   "note": "It's a shame (that)~ = ~라니 아쉽다. '수치'보다 '아쉬움' 용법이 회화 핵심!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "fate",
+   "ko": "운명",
+   "ex": "They met by fate, she says.",
+   "exko": "그들은 운명처럼 만났대요.",
+   "use": [
+    [
+     "The team's fate depends on this game.",
+     "팀의 운명이 이 경기에 달렸다."
+    ],
+    [
+     "He accepted his fate calmly.",
+     "그는 담담하게 운명을 받아들였다."
+    ]
+   ],
+   "mcq": [
+    "The decision sealed the project's fate.",
+    "The decision sealed to the project's fate.",
+    "The fate sealed the decision project.",
+    "The project fated the decision seal."
+   ],
+   "ans": 0,
+   "note": "seal one's fate = 운명을 결정짓다. destiny보다 중립~어두운 뉘앙스.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "worried",
+   "ko": "걱정하는",
+   "ex": "I'm worried about the test results.",
+   "exko": "검사 결과가 걱정돼요.",
+   "use": [
+    [
+     "Her parents were worried sick.",
+     "부모님이 걱정이 태산이었다."
+    ],
+    [
+     "Don't look so worried — it'll be fine.",
+     "그렇게 걱정스러운 표정 짓지 마, 잘될 거야."
+    ]
+   ],
+   "mcq": [
+    "I'm worried about his progress.",
+    "I'm worried for about his progress.",
+    "I worry about being his progress.",
+    "His progress is worried about me."
+   ],
+   "ans": 0,
+   "note": "worried about + 대상. worried sick(걱정이 태산)도 함께!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "ceiling",
+   "ko": "천장, 상한선",
+   "ex": "The ball hit the ceiling.",
+   "exko": "공이 천장에 맞았어요.",
+   "use": [
+    [
+     "There's a leak in the ceiling.",
+     "천장에서 물이 샌다."
+    ],
+    [
+     "The budget has a ceiling of 5 million won.",
+     "예산 상한선은 500만 원이다."
+    ]
+   ],
+   "mcq": [
+    "Prices hit the ceiling last month.",
+    "Prices hit to the ceiling last month.",
+    "The ceiling hit prices last month.",
+    "Prices ceiling hit the last month."
+   ],
+   "ans": 0,
+   "note": "'상한선' 뜻이 보너스 — price ceiling, glass ceiling(보이지 않는 승진 장벽)!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "beg",
+   "ko": "간청하다, 빌다",
+   "ex": "I beg you to reconsider.",
+   "exko": "다시 생각해 주시길 간청합니다.",
+   "use": [
+    [
+     "The dog begged for food at the table.",
+     "개가 식탁에서 먹을 걸 조르며 애원했다."
+    ],
+    [
+     "I beg your pardon?",
+     "다시 말씀해 주시겠어요?"
+    ]
+   ],
+   "mcq": [
+    "He begged me to stay longer.",
+    "He begged me staying longer.",
+    "He begged that me stay longer.",
+    "He begged to me for stay."
+   ],
+   "ans": 0,
+   "note": "beg + 사람 + to부정사. I beg your pardon(정중한 되묻기)도 세트로!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "asleep",
+   "ko": "잠든",
+   "ex": "The baby is finally asleep.",
+   "exko": "아기가 드디어 잠들었어요.",
+   "use": [
+    [
+     "He fell asleep during the movie.",
+     "그는 영화 보다가 잠들었다."
+    ],
+    [
+     "My leg is asleep — it feels tingly!",
+     "다리가 저려요!"
+    ]
+   ],
+   "mcq": [
+    "She fell asleep on the sofa.",
+    "She fell into asleep on the sofa.",
+    "She slept asleep on the sofa.",
+    "Asleep she fell the sofa on."
+   ],
+   "ans": 0,
+   "note": "fall asleep = 잠들다. '다리가 저리다'도 my leg is asleep — 재밌는 용법!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "clue",
+   "ko": "단서, 실마리",
+   "ex": "The teacher gave us a clue.",
+   "exko": "선생님이 힌트를 하나 주셨어요.",
+   "use": [
+    [
+     "I have no clue what he means.",
+     "그가 무슨 말인지 전혀 모르겠어."
+    ],
+    [
+     "The test results gave doctors a clue.",
+     "검사 결과가 의사들에게 단서를 줬다."
+    ]
+   ],
+   "mcq": [
+    "I have no clue where she went.",
+    "I have no clue that where she went.",
+    "I have not clue where she went.",
+    "No clue has I where she went."
+   ],
+   "ans": 0,
+   "note": "have no clue = 전혀 모르다. I don't know의 생생한 회화 버전!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "script",
+   "ko": "대본",
+   "ex": "The actors practiced with the script.",
+   "exko": "배우들이 대본으로 연습했어요.",
+   "use": [
+    [
+     "I wrote a script for the role-play lesson.",
+     "역할극 수업용 대본을 썼다."
+    ],
+    [
+     "Don't just read the script — feel it!",
+     "대본을 읽지만 말고 느껴 봐!"
+    ]
+   ],
+   "mcq": [
+    "Follow the script for the first practice.",
+    "Follow the script paper for practice first.",
+    "The script follows for you practice.",
+    "Practice the following script for first."
+   ],
+   "ans": 0,
+   "note": "script = 대본. 수업 role-play, 발표 준비에서 실용 만점!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "fiber",
+   "ko": "섬유질, 섬유",
+   "ex": "Vegetables are high in fiber.",
+   "exko": "채소는 섬유질이 풍부해요.",
+   "use": [
+    [
+     "Eat more fiber for better digestion.",
+     "소화를 위해 섬유질을 더 드세요."
+    ],
+    [
+     "The jacket is made of natural fibers.",
+     "그 재킷은 천연 섬유로 만들어졌다."
+    ]
+   ],
+   "mcq": [
+    "This cereal is rich in fiber.",
+    "This cereal is rich of fiber.",
+    "This cereal riches in fiber.",
+    "Fiber is rich this cereal in."
+   ],
+   "ans": 0,
+   "note": "rich/high in fiber = 섬유질이 풍부한. 건강 얘기 필수 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "lifestyle",
+   "ko": "생활 방식",
+   "ex": "Exercise is part of a healthy lifestyle.",
+   "exko": "운동은 건강한 생활의 일부예요.",
+   "use": [
+    [
+     "City lifestyle doesn't suit everyone.",
+     "도시 생활이 모두에게 맞는 건 아니다."
+    ],
+    [
+     "He changed his lifestyle after the checkup.",
+     "그는 건강검진 후 생활 방식을 바꿨다."
+    ]
+   ],
+   "mcq": [
+    "A balanced lifestyle keeps you healthy.",
+    "A balanced lifestyle keeps you healthy life.",
+    "A lifestyle balances keep you healthy.",
+    "You keep healthy a balanced lifestyle it."
+   ],
+   "ans": 0,
+   "note": "healthy/active/busy lifestyle처럼 형용사와 짝지어 써요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "bake",
+   "ko": "굽다",
+   "ex": "I baked cookies for the class.",
+   "exko": "반 아이들 주려고 쿠키를 구웠어요.",
+   "use": [
+    [
+     "She bakes bread every Sunday.",
+     "그녀는 일요일마다 빵을 굽는다."
+    ],
+    [
+     "The cake needs to bake for 40 minutes.",
+     "케이크는 40분 구워야 한다."
+    ]
+   ],
+   "mcq": [
+    "We baked muffins together in class.",
+    "We baked muffins together by oven in class.",
+    "We made bake muffins in class.",
+    "Muffins baked we together class."
+   ],
+   "ans": 0,
+   "note": "bake = 오븐에 굽다. fry(기름)·grill(불판)과 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "scary",
+   "ko": "무서운",
+   "ex": "That movie was really scary.",
+   "exko": "그 영화 정말 무서웠어요.",
+   "use": [
+    [
+     "Speaking in public is scary at first.",
+     "사람들 앞에서 말하는 건 처음엔 무섭다."
+    ],
+    [
+     "The first day of school can be scary for kids.",
+     "개학 첫날은 아이들에게 무서울 수 있다."
+    ]
+   ],
+   "mcq": [
+    "The thunder was scary last night.",
+    "The thunder was scared last night.",
+    "The thunder was scaring to me last night.",
+    "Scary was the thunder night last."
+   ],
+   "ans": 0,
+   "note": "scary(무섭게 하는) vs scared(무서워하는) — 주어가 무엇인지가 갈림길!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "odds",
+   "ko": "가능성, 확률",
+   "ex": "The odds are in our favor.",
+   "exko": "승산이 우리 쪽에 있어요.",
+   "use": [
+    [
+     "What are the odds of rain today?",
+     "오늘 비 올 확률이 얼마나 돼?"
+    ],
+    [
+     "Against all odds, she finished the race.",
+     "온갖 악조건에도 그녀는 완주했다."
+    ]
+   ],
+   "mcq": [
+    "The odds of success are high.",
+    "The odd of success are high.",
+    "The odds of success is high many.",
+    "Success odds the are high of."
+   ],
+   "ans": 0,
+   "note": "odds는 항상 복수형! against all odds = 온갖 역경을 이기고.",
+   "wk": "2026-W35"
   }
  ]
 }

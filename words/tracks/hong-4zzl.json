@@ -502,6 +502,506 @@
    "ans": 1,
    "note": "translate A into B(언어). from A into B로 출발 언어도 붙일 수 있어요.",
    "wk": "2026-W34"
+  },
+  {
+   "w": "inform",
+   "ko": "알리다",
+   "ex": "Please inform us of any changes.",
+   "exko": "변경 사항이 있으면 알려 주세요.",
+   "use": [
+    [
+     "I'll inform you when it's ready.",
+     "준비되면 알려 드릴게요."
+    ],
+    [
+     "We were informed of the schedule change.",
+     "일정 변경을 통보받았다."
+    ]
+   ],
+   "mcq": [
+    "I informed the news to her.",
+    "I informed her of the news.",
+    "I informed to her the news.",
+    "I informed about her the news."
+   ],
+   "ans": 1,
+   "note": "inform + 사람 + of + 내용. 사람이 먼저!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "examine",
+   "ko": "검토하다, 살펴보다",
+   "ex": "Let me examine the details first.",
+   "exko": "먼저 세부 사항을 살펴볼게요.",
+   "use": [
+    [
+     "The doctor examined my eyes.",
+     "의사가 내 눈을 검사했다."
+    ],
+    [
+     "We examined every option carefully.",
+     "모든 선택지를 신중히 검토했다."
+    ]
+   ],
+   "mcq": [
+    "We examined the report closely.",
+    "We examined about the report.",
+    "We examined on the report.",
+    "We took examine the report."
+   ],
+   "ans": 0,
+   "note": "examine + 대상 바로 연결.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "partner",
+   "ko": "파트너, 짝",
+   "ex": "Find a partner for this activity.",
+   "exko": "이 활동을 위해 짝을 찾으세요.",
+   "use": [
+    [
+     "She's my business partner.",
+     "그녀는 내 사업 파트너다."
+    ],
+    [
+     "We partnered with a local company.",
+     "현지 회사와 제휴했다."
+    ]
+   ],
+   "mcq": [
+    "We partnered with them last year.",
+    "We partnered to them last year.",
+    "We made partner them.",
+    "We partnered them together with."
+   ],
+   "ans": 0,
+   "note": "partner with = ~와 제휴하다. 동사로도 쓴다는 게 포인트!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "mistake",
+   "ko": "실수",
+   "ex": "Don't be afraid of making mistakes.",
+   "exko": "실수하는 걸 두려워하지 마세요.",
+   "use": [
+    [
+     "I made a mistake in the report.",
+     "보고서에서 실수를 했다."
+    ],
+    [
+     "Everyone makes mistakes.",
+     "누구나 실수를 해요."
+    ]
+   ],
+   "mcq": [
+    "I made a mistake yesterday.",
+    "I did a mistake yesterday.",
+    "I took a mistake yesterday.",
+    "I got a mistake yesterday."
+   ],
+   "ans": 0,
+   "note": "make a mistake! do가 아니라 make — 최고 빈출 짝(collocation)이에요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "conflict",
+   "ko": "갈등, 충돌",
+   "ex": "There's a schedule conflict on Friday.",
+   "exko": "금요일에 일정이 겹쳐요.",
+   "use": [
+    [
+     "They resolved the conflict peacefully.",
+     "그들은 갈등을 평화롭게 해결했다."
+    ],
+    [
+     "The meeting conflicts with my class.",
+     "회의가 수업이랑 겹쳐요."
+    ]
+   ],
+   "mcq": [
+    "The two meetings conflict with each other.",
+    "The two meetings conflict to each other.",
+    "The meetings are conflict together.",
+    "The meetings make conflict each."
+   ],
+   "ans": 0,
+   "note": "conflict with = ~와 겹치다/충돌하다. 일정 얘기할 때 아주 유용!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "insurance",
+   "ko": "보험",
+   "ex": "Does your insurance cover this?",
+   "exko": "보험이 이거 보장돼요?",
+   "use": [
+    [
+     "I need travel insurance for the trip.",
+     "여행자 보험이 필요해요."
+    ],
+    [
+     "Health insurance is important.",
+     "건강보험은 중요하다."
+    ]
+   ],
+   "mcq": [
+    "I bought travel insurance.",
+    "I bought a travel insurance.",
+    "I bought travel insurances one.",
+    "I bought one insurance of travel."
+   ],
+   "ans": 0,
+   "note": "insurance는 셀 수 없는 명사! a를 붙이지 않아요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "finance",
+   "ko": "재정, 자금",
+   "ex": "She works in finance.",
+   "exko": "그녀는 금융 쪽에서 일해요.",
+   "use": [
+    [
+     "The company's finances are healthy.",
+     "회사 재정이 탄탄하다."
+    ],
+    [
+     "Who will finance the project?",
+     "누가 그 프로젝트 자금을 대나요?"
+    ]
+   ],
+   "mcq": [
+    "The bank financed the new building.",
+    "The bank financed to the building.",
+    "The bank made finance the building.",
+    "The building financed by bank."
+   ],
+   "ans": 0,
+   "note": "finance는 동사로 '자금을 대다'로도 써요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "confidence",
+   "ko": "자신감, 신뢰",
+   "ex": "She answered with confidence.",
+   "exko": "그녀는 자신 있게 대답했다.",
+   "use": [
+    [
+     "I'm gaining confidence in speaking.",
+     "말하기에 자신감이 붙고 있어요."
+    ],
+    [
+     "He has confidence in his team.",
+     "그는 팀을 신뢰한다."
+    ]
+   ],
+   "mcq": [
+    "I have confidence in my English now.",
+    "I have confidence to my English.",
+    "I am confidence in English.",
+    "I have confident in my English."
+   ],
+   "ans": 0,
+   "note": "confidence(명사) in + 대상. confident는 형용사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "device",
+   "ko": "기기",
+   "ex": "Put your devices away during dinner.",
+   "exko": "저녁 먹을 땐 기기 좀 치워요.",
+   "use": [
+    [
+     "This device tracks your sleep.",
+     "이 기기는 수면을 추적한다."
+    ],
+    [
+     "Charge your device before the flight.",
+     "비행 전에 기기를 충전하세요."
+    ]
+   ],
+   "mcq": [
+    "My device is running out of battery.",
+    "My device is running out battery.",
+    "My device runs out of the battery now going.",
+    "My device battery is run out going."
+   ],
+   "ans": 0,
+   "note": "run out of battery = 배터리가 다 되어가다.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "concentrate",
+   "ko": "집중하다",
+   "ex": "I can't concentrate with this noise.",
+   "exko": "이 소음 때문에 집중이 안 돼요.",
+   "use": [
+    [
+     "Let's concentrate on the main issue.",
+     "핵심 문제에 집중합시다."
+    ],
+    [
+     "She concentrated hard on the test.",
+     "그녀는 시험에 몰두했다."
+    ]
+   ],
+   "mcq": [
+    "Concentrate on your goal.",
+    "Concentrate to your goal.",
+    "Concentrate in your goal.",
+    "Concentrate at your goal."
+   ],
+   "ans": 0,
+   "note": "concentrate on! focus on과 같은 전치사예요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "definitely",
+   "ko": "확실히, 분명히",
+   "ex": "I'll definitely be there!",
+   "exko": "꼭 갈게요!",
+   "use": [
+    [
+     "This is definitely the best option.",
+     "이게 확실히 최선이에요."
+    ],
+    [
+     "Would you go again? — Definitely!",
+     "또 갈 거냐고요? 당연하죠!"
+    ]
+   ],
+   "mcq": [
+    "I will definitely call you.",
+    "I will definitely to call you.",
+    "I definitely am call you.",
+    "I will call definitely be you."
+   ],
+   "ans": 0,
+   "note": "definitely는 조동사와 본동사 사이! 대답 한마디로도 자주 써요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "judgment",
+   "ko": "판단",
+   "ex": "I trust your judgment.",
+   "exko": "당신 판단을 믿어요.",
+   "use": [
+    [
+     "Don't rush to judgment.",
+     "성급하게 판단하지 마세요."
+    ],
+    [
+     "In my judgment, we should wait.",
+     "제 판단으로는 기다려야 해요."
+    ]
+   ],
+   "mcq": [
+    "Use your best judgment.",
+    "Use your best judging.",
+    "Use your best judgement mind.",
+    "Judge your best judgment."
+   ],
+   "ans": 0,
+   "note": "use one's judgment = 알아서 판단하다. 업무에서 아주 자주 쓰는 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "journey",
+   "ko": "여정",
+   "ex": "Enjoy the journey, not just the destination.",
+   "exko": "목적지만이 아니라 여정을 즐기세요.",
+   "use": [
+    [
+     "The train journey takes three hours.",
+     "기차로 세 시간 걸린다."
+    ],
+    [
+     "My English journey started last year.",
+     "내 영어 여정은 작년에 시작됐다."
+    ]
+   ],
+   "mcq": [
+    "How was your journey?",
+    "How was your journey trip?",
+    "Did your journey travel well?",
+    "How did you journey the trip?"
+   ],
+   "ans": 0,
+   "note": "journey는 긴 이동·과정. trip과 겹쳐 쓰지 않아요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "careful",
+   "ko": "조심하는, 신중한",
+   "ex": "Be careful with that glass.",
+   "exko": "그 유리잔 조심하세요.",
+   "use": [
+    [
+     "She's very careful about spending money.",
+     "그녀는 돈 쓰는 데 신중하다."
+    ],
+    [
+     "Careful planning saved us time.",
+     "꼼꼼한 계획 덕에 시간을 아꼈다."
+    ]
+   ],
+   "mcq": [
+    "Be careful of the wet floor.",
+    "Be careful the wet floor.",
+    "Be carefully of the floor.",
+    "Careful to the wet floor."
+   ],
+   "ans": 0,
+   "note": "be careful of/with + 대상. carefully는 부사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "reject",
+   "ko": "거절하다",
+   "ex": "She rejected my suggestion.",
+   "exko": "그녀가 내 제안을 거절했어요.",
+   "use": [
+    [
+     "The idea was rejected by the team.",
+     "그 아이디어는 팀에서 반려됐다."
+    ],
+    [
+     "He rejected the job offer.",
+     "그는 그 일자리 제안을 거절했다."
+    ]
+   ],
+   "mcq": [
+    "They rejected my application.",
+    "They rejected to my application.",
+    "They rejected about my application.",
+    "They made reject my application."
+   ],
+   "ans": 0,
+   "note": "reject + 대상 바로 연결.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "excuse",
+   "ko": "변명, 양해",
+   "ex": "Excuse me, can I ask you something?",
+   "exko": "실례지만 뭐 좀 여쭤봐도 될까요?",
+   "use": [
+    [
+     "Stop making excuses and just do it.",
+     "변명 그만하고 그냥 해."
+    ],
+    [
+     "That's no excuse for being late.",
+     "그건 지각의 이유가 못 돼요."
+    ]
+   ],
+   "mcq": [
+    "He made an excuse for being late.",
+    "He did an excuse for being late.",
+    "He took an excuse for late.",
+    "He got excuse to being late."
+   ],
+   "ans": 0,
+   "note": "make an excuse = 변명하다. mistake처럼 make와 짝!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "calm",
+   "ko": "침착한, 진정시키다",
+   "ex": "Stay calm and think clearly.",
+   "exko": "침착하게 잘 생각해 보세요.",
+   "use": [
+    [
+     "The sea was calm this morning.",
+     "오늘 아침 바다가 잔잔했다."
+    ],
+    [
+     "Take a deep breath and calm down.",
+     "심호흡하고 진정하세요."
+    ]
+   ],
+   "mcq": [
+    "Please calm down, everything is fine.",
+    "Please calm down yourself up.",
+    "Please be calm down.",
+    "Please make calm yourself down."
+   ],
+   "ans": 0,
+   "note": "calm down 그 자체로 '진정하다'. be calm down처럼 섞지 않기!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "gift",
+   "ko": "선물, 재능",
+   "ex": "I got a small gift for you.",
+   "exko": "작은 선물 하나 준비했어요.",
+   "use": [
+    [
+     "She has a gift for languages.",
+     "그녀는 언어에 재능이 있다."
+    ],
+    [
+     "This watch was a gift from my father.",
+     "이 시계는 아버지께 받은 선물이다."
+    ]
+   ],
+   "mcq": [
+    "He has a gift for music.",
+    "He has a gift of doing music at.",
+    "He is a gift for music.",
+    "He gifts music well."
+   ],
+   "ans": 0,
+   "note": "have a gift for = ~에 재능이 있다. '선물' 말고 이 뜻도 기억!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "blow",
+   "ko": "불다, 타격",
+   "ex": "The wind is blowing hard today.",
+   "exko": "오늘 바람이 세게 불어요.",
+   "use": [
+    [
+     "Losing the deal was a big blow to us.",
+     "그 계약을 놓친 건 우리에게 큰 타격이었다."
+    ],
+    [
+     "He blew out the candles.",
+     "그는 촛불을 불어 껐다."
+    ]
+   ],
+   "mcq": [
+    "The news was a big blow to him.",
+    "The news was a big blow at him.",
+    "The news blew him a big.",
+    "The news was blowing big him."
+   ],
+   "ans": 0,
+   "note": "a blow to + 대상 = ~에게 타격. 명사 blow도 자주 써요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "abroad",
+   "ko": "해외로, 해외에서",
+   "ex": "She's studying abroad in Canada.",
+   "exko": "그녀는 캐나다에서 유학 중이에요.",
+   "use": [
+    [
+     "Have you ever lived abroad?",
+     "해외에서 살아본 적 있어요?"
+    ],
+    [
+     "We're traveling abroad this summer.",
+     "이번 여름에 해외여행 가요."
+    ]
+   ],
+   "mcq": [
+    "I want to work abroad.",
+    "I want to work in abroad.",
+    "I want to work to abroad.",
+    "I want to work at the abroad."
+   ],
+   "ans": 0,
+   "note": "abroad 앞에 전치사 금지! 그 자체가 '해외로/에서'예요.",
+   "wk": "2026-W35"
   }
  ]
 }

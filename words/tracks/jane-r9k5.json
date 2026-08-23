@@ -502,6 +502,506 @@
    "ans": 0,
    "note": "flexible about = ~에 대해 유연한. '아무 때나 괜찮아요'를 세련되게!",
    "wk": "2026-W34"
+  },
+  {
+   "w": "hence",
+   "ko": "따라서",
+   "ex": "It rained; hence, the game was canceled.",
+   "exko": "비가 왔고, 따라서 경기가 취소됐어요.",
+   "use": [
+    [
+     "The demand rose; hence the higher price.",
+     "수요가 늘었고, 그래서 가격이 올랐다."
+    ],
+    [
+     "He's new here, hence all the questions.",
+     "여기 처음이라 질문이 많은 거예요."
+    ]
+   ],
+   "mcq": [
+    "The flight was delayed; hence, we missed the meeting.",
+    "The flight delayed hence so we missed it.",
+    "Hence the flight, we missed the meeting because.",
+    "We missed hence because the flight."
+   ],
+   "ans": 0,
+   "note": "hence = 그래서(격식). 'hence + 명사'로 동사 없이도 써요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "anymore",
+   "ko": "더 이상",
+   "ex": "I don't drink coffee anymore.",
+   "exko": "이제 커피 안 마셔요.",
+   "use": [
+    [
+     "We don't live there anymore.",
+     "우리는 더 이상 거기 안 살아요."
+    ],
+    [
+     "She doesn't work here anymore.",
+     "그녀는 이제 여기서 일하지 않아요."
+    ]
+   ],
+   "mcq": [
+    "I don't use that app anymore.",
+    "I don't use that app no more anymore.",
+    "I use that app anymore.",
+    "Anymore I don't use that app not."
+   ],
+   "ans": 0,
+   "note": "anymore는 부정문과 짝! 긍정문에는 still을 써요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "initially",
+   "ko": "처음에는",
+   "ex": "Initially, I didn't like the idea.",
+   "exko": "처음엔 그 아이디어가 별로였어요.",
+   "use": [
+    [
+     "The project was initially planned for March.",
+     "그 프로젝트는 원래 3월로 계획됐었다."
+    ],
+    [
+     "Initially free, the app now charges a fee.",
+     "처음엔 무료였던 앱이 이제 유료다."
+    ]
+   ],
+   "mcq": [
+    "Initially, the plan seemed perfect.",
+    "Initial, the plan seemed perfect.",
+    "The plan initially was seeming perfect at first beginning.",
+    "At initially the plan was perfect."
+   ],
+   "ans": 0,
+   "note": "initially(부사) = at first. initial은 형용사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "occasionally",
+   "ko": "가끔",
+   "ex": "I occasionally work from home.",
+   "exko": "가끔 재택근무를 해요.",
+   "use": [
+    [
+     "We occasionally eat out on weekends.",
+     "주말에 가끔 외식한다."
+    ],
+    [
+     "Occasionally, the system needs a restart.",
+     "가끔 시스템 재시작이 필요하다."
+    ]
+   ],
+   "mcq": [
+    "I occasionally check my old emails.",
+    "I occasional check my old emails.",
+    "I check occasionally sometimes my emails.",
+    "Occasionally times I check emails."
+   ],
+   "ans": 0,
+   "note": "occasionally = sometimes보다 빈도 낮음. occasional(형용사)과 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "universal",
+   "ko": "보편적인",
+   "ex": "Music is a universal language.",
+   "exko": "음악은 만국 공통어예요.",
+   "use": [
+    [
+     "The charger has a universal plug.",
+     "그 충전기는 만능 플러그가 달려 있다."
+    ],
+    [
+     "There was universal agreement on the plan.",
+     "그 계획에 모두가 동의했다."
+    ]
+   ],
+   "mcq": [
+    "Smartphones have become universal.",
+    "Smartphones have become universally.",
+    "Smartphones universal became now.",
+    "The universal became smartphones."
+   ],
+   "ans": 0,
+   "note": "universal(형용사) = 어디에나 적용되는. universally는 부사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "successfully",
+   "ko": "성공적으로",
+   "ex": "The update was installed successfully.",
+   "exko": "업데이트가 성공적으로 설치됐어요.",
+   "use": [
+    [
+     "She successfully completed the marathon.",
+     "그녀는 마라톤을 완주했다."
+    ],
+    [
+     "We successfully launched the new service.",
+     "우리는 새 서비스를 성공적으로 출시했다."
+    ]
+   ],
+   "mcq": [
+    "He successfully passed the exam.",
+    "He successful passed the exam.",
+    "He passed successful the exam.",
+    "He success passed the exam fully."
+   ],
+   "ans": 0,
+   "note": "successfully(부사)가 동사를 꾸며요. successful은 형용사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "champion",
+   "ko": "챔피언, 옹호하다",
+   "ex": "She's a champion of small businesses.",
+   "exko": "그녀는 소상공인의 든든한 지지자예요.",
+   "use": [
+    [
+     "He championed the new policy from day one.",
+     "그는 첫날부터 그 정책을 강력히 지지했다."
+    ],
+    [
+     "The team became national champions.",
+     "그 팀은 전국 챔피언이 됐다."
+    ]
+   ],
+   "mcq": [
+    "She championed the recycling campaign.",
+    "She championed for the campaign to.",
+    "She made champion the campaign.",
+    "The campaign championed her by."
+   ],
+   "ans": 0,
+   "note": "champion을 동사로! = 앞장서서 지지하다. 뜻밖의 고급 용법이에요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "wise",
+   "ko": "현명한",
+   "ex": "That was a wise decision.",
+   "exko": "현명한 결정이었어요.",
+   "use": [
+    [
+     "It's wise to save before spending.",
+     "쓰기 전에 저축하는 게 현명하다."
+    ],
+    [
+     "My grandmother gave me wise advice.",
+     "할머니가 지혜로운 조언을 해주셨다."
+    ]
+   ],
+   "mcq": [
+    "It would be wise to wait.",
+    "It would be wisely to wait.",
+    "Waiting is wise to be it.",
+    "To wait wise would be it."
+   ],
+   "ans": 0,
+   "note": "It is wise to + 동사 = ~하는 게 현명하다. 조언할 때 유용한 틀!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "amendment",
+   "ko": "수정, 개정",
+   "ex": "They made an amendment to the contract.",
+   "exko": "계약서에 수정을 가했어요.",
+   "use": [
+    [
+     "The amendment takes effect next month.",
+     "그 개정안은 다음 달 발효된다."
+    ],
+    [
+     "Small amendments improved the proposal a lot.",
+     "작은 수정들이 제안서를 크게 개선했다."
+    ]
+   ],
+   "mcq": [
+    "We proposed an amendment to the rules.",
+    "We proposed an amendment of to the rules.",
+    "We amended an amendment the rules.",
+    "The rules amendment proposed us."
+   ],
+   "ans": 0,
+   "note": "amendment to + 문서. amend(동사)의 명사형!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "sanction",
+   "ko": "제재, 승인",
+   "ex": "The country faces economic sanctions.",
+   "exko": "그 나라는 경제 제재를 받고 있어요.",
+   "use": [
+    [
+     "New sanctions were imposed last week.",
+     "지난주 새 제재가 부과됐다."
+    ],
+    [
+     "The plan was sanctioned by the board.",
+     "그 계획은 이사회의 승인을 받았다."
+    ]
+   ],
+   "mcq": [
+    "Sanctions were imposed on the company.",
+    "Sanctions were imposed to the company.",
+    "Sanctions imposed the company on.",
+    "The company sanctions were imposing."
+   ],
+   "ans": 0,
+   "note": "impose sanctions on = ~에 제재를 가하다. 뉴스 필수 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "immigrant",
+   "ko": "이민자",
+   "ex": "Her parents were immigrants from Vietnam.",
+   "exko": "그녀의 부모님은 베트남 이민자였어요.",
+   "use": [
+    [
+     "The city has a large immigrant community.",
+     "그 도시엔 큰 이민자 커뮤니티가 있다."
+    ],
+    [
+     "Many immigrants start their own businesses.",
+     "많은 이민자들이 자기 사업을 시작한다."
+    ]
+   ],
+   "mcq": [
+    "He's a first-generation immigrant.",
+    "He's a first-generation immigration.",
+    "He immigrants from his country first.",
+    "He's an immigrate person first."
+   ],
+   "ans": 0,
+   "note": "immigrant(사람) vs immigration(제도·이민 자체) vs immigrate(동사) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "guideline",
+   "ko": "지침",
+   "ex": "Please follow the safety guidelines.",
+   "exko": "안전 지침을 따라 주세요.",
+   "use": [
+    [
+     "The new guidelines take effect Monday.",
+     "새 지침은 월요일부터 적용된다."
+    ],
+    [
+     "We set clear guidelines for remote work.",
+     "재택근무에 대한 명확한 지침을 만들었다."
+    ]
+   ],
+   "mcq": [
+    "Follow the guidelines carefully.",
+    "Follow the guideline lines carefully.",
+    "Guideline the follows carefully.",
+    "The following guidelines careful."
+   ],
+   "ans": 0,
+   "note": "보통 복수 guidelines로 써요. follow/set guidelines가 기본 짝!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "cluster",
+   "ko": "무리, 모이다",
+   "ex": "A cluster of shops opened near the station.",
+   "exko": "역 근처에 가게들이 무리지어 생겼어요.",
+   "use": [
+    [
+     "Tourists clustered around the fountain.",
+     "관광객들이 분수 주위에 모여들었다."
+    ],
+    [
+     "The tech cluster attracts young talent.",
+     "그 테크 단지는 젊은 인재를 끌어들인다."
+    ]
+   ],
+   "mcq": [
+    "People clustered around the screen.",
+    "People clustered at around to the screen.",
+    "People made cluster the screen.",
+    "The screen clustered people around."
+   ],
+   "ans": 0,
+   "note": "cluster around = ~주위에 모이다. 명사·동사 둘 다!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "storage",
+   "ko": "저장, 보관",
+   "ex": "My phone is out of storage.",
+   "exko": "폰 저장공간이 다 찼어요.",
+   "use": [
+    [
+     "We rented a storage unit for our furniture.",
+     "가구 보관용 창고를 빌렸다."
+    ],
+    [
+     "Cloud storage makes file sharing easy.",
+     "클라우드 저장소 덕에 파일 공유가 쉽다."
+    ]
+   ],
+   "mcq": [
+    "I need more storage on my laptop.",
+    "I need more storages on my laptop.",
+    "I need storage more in laptop many.",
+    "My laptop storages need more."
+   ],
+   "ans": 0,
+   "note": "storage는 셀 수 없는 명사! 복수형 없어요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "athlete",
+   "ko": "운동선수",
+   "ex": "She trains like a professional athlete.",
+   "exko": "그녀는 프로 선수처럼 훈련해요.",
+   "use": [
+    [
+     "The athletes arrived for the tournament.",
+     "선수들이 대회를 위해 도착했다."
+    ],
+    [
+     "He was a natural athlete in school.",
+     "그는 학창 시절 타고난 운동선수였다."
+    ]
+   ],
+   "mcq": [
+    "He's the best athlete on the team.",
+    "He's the best athletic on the team.",
+    "He athletes best on the team.",
+    "The team athletes him best."
+   ],
+   "ans": 0,
+   "note": "athlete(선수·명사) vs athletic(운동 잘하는·형용사) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "fade",
+   "ko": "바래다, 희미해지다",
+   "ex": "The color faded after many washes.",
+   "exko": "여러 번 빨았더니 색이 바랬어요.",
+   "use": [
+    [
+     "The music faded out slowly.",
+     "음악이 서서히 잦아들었다."
+    ],
+    [
+     "Memories fade, but photos remain.",
+     "기억은 흐려져도 사진은 남는다."
+    ]
+   ],
+   "mcq": [
+    "The jeans faded over time.",
+    "The jeans faded away over time going.",
+    "The jeans made fade over time.",
+    "Time faded over the jeans."
+   ],
+   "ans": 0,
+   "note": "fade = 서서히 옅어지다. fade out(점점 사라지다)도 함께!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "shelf",
+   "ko": "선반",
+   "ex": "The book is on the top shelf.",
+   "exko": "그 책은 맨 위 선반에 있어요.",
+   "use": [
+    [
+     "I built a shelf for my plants.",
+     "화분용 선반을 만들었다."
+    ],
+    [
+     "Check the shelf life before buying.",
+     "사기 전에 유통기한을 확인하세요."
+    ]
+   ],
+   "mcq": [
+    "Put the boxes on the shelf.",
+    "Put the boxes on the shelves one.",
+    "Shelf the boxes on it.",
+    "The shelf puts boxes on."
+   ],
+   "ans": 0,
+   "note": "shelf(단수)-shelves(복수). shelf life = 유통기한, 보너스 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "loose",
+   "ko": "헐거운, 풀린",
+   "ex": "This shirt is a bit loose on me.",
+   "exko": "이 셔츠는 저한테 좀 헐렁해요.",
+   "use": [
+    [
+     "The door handle is loose.",
+     "문손잡이가 헐겁다."
+    ],
+    [
+     "My dog got loose in the park.",
+     "우리 개가 공원에서 풀려났다(도망쳤다)."
+    ]
+   ],
+   "mcq": [
+    "The knot came loose during the hike.",
+    "The knot came lose during the hike.",
+    "The knot loosed came hiking.",
+    "Loose the knot came during."
+   ],
+   "ans": 0,
+   "note": "loose(헐거운/luːs/) vs lose(잃다/luːz/) — 철자·발음 모두 다른 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "eastern",
+   "ko": "동쪽의",
+   "ex": "They live on the eastern coast.",
+   "exko": "그들은 동해안에 살아요.",
+   "use": [
+    [
+     "Eastern Europe has beautiful old cities.",
+     "동유럽엔 아름다운 옛 도시가 많다."
+    ],
+    [
+     "The eastern sky turned orange at dawn.",
+     "새벽에 동쪽 하늘이 주황빛으로 물들었다."
+    ]
+   ],
+   "mcq": [
+    "We traveled through eastern Canada.",
+    "We traveled through east-side Canada parts.",
+    "We traveled Canada of eastern.",
+    "Eastern we traveled through Canada."
+   ],
+   "ans": 0,
+   "note": "eastern + 지역명. east(동쪽·명사)와 eastern(동쪽의·형용사) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "testimony",
+   "ko": "증언",
+   "ex": "Her testimony changed the case.",
+   "exko": "그녀의 증언이 사건을 뒤집었어요.",
+   "use": [
+    [
+     "The witness gave testimony in court.",
+     "증인이 법정에서 증언했다."
+    ],
+    [
+     "His success is a testimony to hard work.",
+     "그의 성공은 노력의 증거다."
+    ]
+   ],
+   "mcq": [
+    "The witness gave testimony yesterday.",
+    "The witness gave a testimony speech talk.",
+    "The witness testimonied yesterday.",
+    "Testimony gave the witness yesterday."
+   ],
+   "ans": 0,
+   "note": "give testimony = 증언하다. a testimony to = ~의 증거, 고급 표현!",
+   "wk": "2026-W35"
   }
  ]
 }

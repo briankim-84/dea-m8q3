@@ -502,6 +502,506 @@
    "ans": 0,
    "note": "spark + 관심/토론 = 촉발하다. 'what sparked your interest in coding?'은 면접 단골 질문!",
    "wk": "2026-W34"
+  },
+  {
+   "w": "await",
+   "ko": "기다리다",
+   "ex": "We await the committee's decision.",
+   "exko": "위원회의 결정을 기다리고 있습니다.",
+   "use": [
+    [
+     "The results are awaiting review.",
+     "결과는 검토를 기다리는 중이다."
+    ],
+    [
+     "A warm welcome awaits you in Seoul.",
+     "서울에서 따뜻한 환영이 당신을 기다려요."
+    ]
+   ],
+   "mcq": [
+    "We await your reply.",
+    "We await for your reply.",
+    "We await to your reply.",
+    "Your reply awaits by us."
+   ],
+   "ans": 0,
+   "note": "await = wait for를 한 단어로! 전치사 없이 목적어 바로. 학회 이메일에서 세련되게.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "stumble",
+   "ko": "비틀거리다, 우연히 발견하다",
+   "ex": "I stumbled during the demonstration.",
+   "exko": "시연 중에 비틀거렸어요.",
+   "use": [
+    [
+     "She stumbled over a few words in her talk.",
+     "그녀는 발표에서 몇 단어를 더듬었다."
+    ],
+    [
+     "I stumbled upon a great paper on recovery.",
+     "회복에 관한 좋은 논문을 우연히 발견했다."
+    ]
+   ],
+   "mcq": [
+    "He stumbled on the last step.",
+    "He stumbled to the last step.",
+    "He made stumble the last step.",
+    "The last step stumbled him on."
+   ],
+   "ans": 0,
+   "note": "stumble over words = 말을 더듬다, stumble upon = 우연히 발견하다. 발표 얘기에 딱!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "enroll",
+   "ko": "등록하다",
+   "ex": "I enrolled in an advanced anatomy course.",
+   "exko": "고급 해부학 과정에 등록했어요.",
+   "use": [
+    [
+     "Over 200 people enrolled in the workshop.",
+     "200명 넘게 워크숍에 등록했다."
+    ],
+    [
+     "Enroll early to get the discount.",
+     "일찍 등록하면 할인을 받아요."
+    ]
+   ],
+   "mcq": [
+    "She enrolled in the certification program.",
+    "She enrolled to the certification program.",
+    "She enrolled the program in it.",
+    "The program enrolled her in."
+   ],
+   "ans": 0,
+   "note": "enroll in + 과정. register와 함께 학회·강좌 필수 동사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "artificial",
+   "ko": "인공적인",
+   "ex": "The gym uses artificial turf.",
+   "exko": "그 체육관은 인조 잔디를 써요.",
+   "use": [
+    [
+     "Artificial joints have improved a lot.",
+     "인공 관절이 많이 발전했다."
+    ],
+    [
+     "Avoid drinks with artificial sweeteners.",
+     "인공 감미료가 든 음료는 피하세요."
+    ]
+   ],
+   "mcq": [
+    "The knee was replaced with an artificial joint.",
+    "The knee was replaced with an artificially joint.",
+    "The knee replaced artificial a joint with.",
+    "An artificial replaced the knee joint with."
+   ],
+   "ans": 0,
+   "note": "artificial joint(인공관절), artificial intelligence(AI) — 스포츠의학 직결 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "diminish",
+   "ko": "줄어들다, 약해지다",
+   "ex": "Muscle mass diminishes with age.",
+   "exko": "근육량은 나이 들며 줄어들어요.",
+   "use": [
+    [
+     "The pain diminished after two weeks of therapy.",
+     "2주 치료 후 통증이 줄었다."
+    ],
+    [
+     "Don't diminish your own achievements.",
+     "자신의 성취를 깎아내리지 마세요."
+    ]
+   ],
+   "mcq": [
+    "Flexibility diminishes without regular stretching.",
+    "Flexibility diminishes down without stretching.",
+    "Flexibility makes diminish without stretch.",
+    "Without stretching diminishes the flexibility it."
+   ],
+   "ans": 0,
+   "note": "diminish = 점점 줄다. decrease보다 학술적 — 논문·발표에 잘 어울려요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "verbal",
+   "ko": "말로 하는, 언어의",
+   "ex": "Give clear verbal cues during the session.",
+   "exko": "세션 중에 명확한 구두 지시를 주세요.",
+   "use": [
+    [
+     "We had a verbal agreement, nothing written.",
+     "서면 없이 구두 합의만 있었다."
+    ],
+    [
+     "Verbal feedback works better than written notes here.",
+     "여기선 서면보다 구두 피드백이 효과적이다."
+    ]
+   ],
+   "mcq": [
+    "Use simple verbal instructions with beginners.",
+    "Use simple verbally instructions with beginners.",
+    "Use verbal simply instructions beginner.",
+    "Verbal instructions use simple with them."
+   ],
+   "ans": 0,
+   "note": "verbal cues = 구두 큐. 필라테스 티칭의 핵심 용어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "suspicious",
+   "ko": "의심스러운, 수상한",
+   "ex": "The swelling looks suspicious — get it checked.",
+   "exko": "부기가 심상치 않아요, 검사받아 보세요.",
+   "use": [
+    [
+     "I'm suspicious of studies with tiny samples.",
+     "표본이 작은 연구는 의심스럽다."
+    ],
+    [
+     "He gave me a suspicious look.",
+     "그가 나를 의심스럽게 쳐다봤다."
+    ]
+   ],
+   "mcq": [
+    "Doctors were suspicious of the test results.",
+    "Doctors were suspicious to the test results.",
+    "Doctors suspicious the results were.",
+    "The results suspicious doctors were of."
+   ],
+   "ans": 0,
+   "note": "suspicious of + 대상 = ~을 의심하는. 비판적 읽기에 유용!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "midst",
+   "ko": "한가운데",
+   "ex": "We're in the midst of conference season.",
+   "exko": "지금 학회 시즌 한복판이에요.",
+   "use": [
+    [
+     "She stayed calm in the midst of chaos.",
+     "그녀는 혼란의 한가운데서도 침착했다."
+    ],
+    [
+     "In the midst of the pandemic, research went online.",
+     "팬데믹 와중에 연구는 온라인으로 옮겨갔다."
+    ]
+   ],
+   "mcq": [
+    "We're in the midst of a busy season.",
+    "We're at the midst of a busy season.",
+    "We're in midst of busy the season.",
+    "The midst is in a busy season we."
+   ],
+   "ans": 0,
+   "note": "in the midst of = ~의 한가운데. in the middle of의 격식 버전!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "inherit",
+   "ko": "물려받다",
+   "ex": "Some conditions are inherited from parents.",
+   "exko": "어떤 질환은 부모에게서 유전돼요.",
+   "use": [
+    [
+     "She inherited her height from her father.",
+     "그녀는 아버지에게서 큰 키를 물려받았다."
+    ],
+    [
+     "I inherited this project from my predecessor.",
+     "전임자에게서 이 프로젝트를 물려받았다."
+    ]
+   ],
+   "mcq": [
+    "He inherited a talent for sports.",
+    "He inherited a talent by sports from.",
+    "He was inherit a talent sports.",
+    "A talent inherited him for sports."
+   ],
+   "ans": 0,
+   "note": "inherit + 특성/재산. 유전 얘기(genetic factors)에 필수!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "foster",
+   "ko": "기르다, 촉진하다",
+   "ex": "Group classes foster a sense of community.",
+   "exko": "그룹 수업은 공동체 의식을 길러줘요.",
+   "use": [
+    [
+     "The program fosters independence in patients.",
+     "그 프로그램은 환자의 자립심을 키운다."
+    ],
+    [
+     "Good coaches foster confidence, not fear.",
+     "좋은 코치는 두려움이 아니라 자신감을 키운다."
+    ]
+   ],
+   "mcq": [
+    "Team sports foster cooperation among kids.",
+    "Team sports foster up cooperation kids.",
+    "Team sports make foster cooperation.",
+    "Cooperation fosters team sports among."
+   ],
+   "ans": 0,
+   "note": "foster + 추상명사(신뢰·성장·협력) = 길러주다. 발표에서 빛나는 동사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "enact",
+   "ko": "제정하다, 실행하다",
+   "ex": "The city enacted a new fitness policy.",
+   "exko": "시가 새 체육 정책을 시행했어요.",
+   "use": [
+    [
+     "The law was enacted in 2024.",
+     "그 법은 2024년에 제정됐다."
+    ],
+    [
+     "We enacted the new safety protocol immediately.",
+     "새 안전 프로토콜을 즉시 실행했다."
+    ]
+   ],
+   "mcq": [
+    "The government enacted stricter rules.",
+    "The government enacted to stricter rules.",
+    "The government made enact stricter rules.",
+    "Stricter rules enacted the government."
+   ],
+   "ans": 0,
+   "note": "enact a law/policy = 법·정책을 제정하다. 정책 관련 발표 용어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "intimate",
+   "ko": "친밀한, 깊은",
+   "ex": "She has an intimate knowledge of anatomy.",
+   "exko": "그녀는 해부학을 속속들이 알아요.",
+   "use": [
+    [
+     "The workshop had an intimate, small-group feel.",
+     "그 워크숍은 소규모의 친밀한 분위기였다."
+    ],
+    [
+     "They're intimate friends from grad school.",
+     "그들은 대학원 시절부터 절친이다."
+    ]
+   ],
+   "mcq": [
+    "He has an intimate understanding of the field.",
+    "He has an intimately understanding of field.",
+    "He intimates the field understanding.",
+    "The field intimate understands him an."
+   ],
+   "ans": 0,
+   "note": "intimate knowledge/understanding = 깊고 상세한 지식. '친밀한' 외의 고급 용법!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "loyal",
+   "ko": "충성스러운",
+   "ex": "She has very loyal clients.",
+   "exko": "그녀에겐 아주 충성도 높은 고객들이 있어요.",
+   "use": [
+    [
+     "Loyal members renewed without hesitation.",
+     "충성 회원들은 망설임 없이 재등록했다."
+    ],
+    [
+     "He stayed loyal to his team through hard times.",
+     "그는 힘든 시기에도 팀 곁을 지켰다."
+    ]
+   ],
+   "mcq": [
+    "Her students remained loyal for years.",
+    "Her students remained loyal to for years.",
+    "Her students loyaled for years.",
+    "Loyal remained her students years for."
+   ],
+   "ans": 0,
+   "note": "loyal to + 대상. loyal clients = 단골 — 비즈니스에도 딱!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "plea",
+   "ko": "간청, 호소",
+   "ex": "The charity made a plea for donations.",
+   "exko": "그 단체가 기부를 호소했어요.",
+   "use": [
+    [
+     "Her plea for more research funding was heard.",
+     "연구비 증액 호소가 받아들여졌다."
+    ],
+    [
+     "He ignored my repeated pleas to rest.",
+     "쉬라는 내 거듭된 호소를 그는 무시했다."
+    ]
+   ],
+   "mcq": [
+    "She made a plea for patient safety.",
+    "She made a plea to for patient safety.",
+    "She pleaed for patient safety.",
+    "A plea made she for safety."
+   ],
+   "ans": 0,
+   "note": "make a plea for = ~을 간곡히 호소하다. 발표 마무리 호소에 유용!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "tragic",
+   "ko": "비극적인",
+   "ex": "It was a tragic accident on the field.",
+   "exko": "경기장에서 일어난 비극적 사고였어요.",
+   "use": [
+    [
+     "The tragic news shocked the sports world.",
+     "그 비보는 스포츠계를 충격에 빠뜨렸다."
+    ],
+    [
+     "Ignoring early symptoms can have tragic results.",
+     "초기 증상을 무시하면 비극적 결과가 올 수 있다."
+    ]
+   ],
+   "mcq": [
+    "The injury had tragic consequences.",
+    "The injury had tragical consequences.",
+    "The injury tragiced consequences.",
+    "Tragic the injury consequences had."
+   ],
+   "ans": 0,
+   "note": "tragic(형용사)! tragical은 현대 영어에서 안 써요. tragedy가 명사.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "shield",
+   "ko": "방패, 보호하다",
+   "ex": "Proper form shields the spine from injury.",
+   "exko": "올바른 자세가 척추를 부상에서 지켜줘요.",
+   "use": [
+    [
+     "Sunscreen shields your skin from UV rays.",
+     "선크림은 피부를 자외선으로부터 보호한다."
+    ],
+    [
+     "Parents can't shield kids from every failure.",
+     "부모가 아이를 모든 실패로부터 막아줄 순 없다."
+    ]
+   ],
+   "mcq": [
+    "The brace shields the knee from impact.",
+    "The brace shields the knee by impact from.",
+    "The brace shields to the knee impact.",
+    "The knee shields the brace from impact."
+   ],
+   "ans": 0,
+   "note": "shield A from B = A를 B로부터 보호하다. protect의 생생한 버전!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "orbit",
+   "ko": "궤도",
+   "ex": "The satellite entered orbit successfully.",
+   "exko": "위성이 성공적으로 궤도에 진입했어요.",
+   "use": [
+    [
+     "The Moon orbits the Earth once a month.",
+     "달은 한 달에 한 번 지구를 돈다."
+    ],
+    [
+     "New researchers entered her orbit at the conference.",
+     "학회에서 새 연구자들이 그녀의 영향권에 들어왔다."
+    ]
+   ],
+   "mcq": [
+    "The Earth orbits the Sun.",
+    "The Earth orbits around to the Sun.",
+    "The Earth makes orbit the Sun around.",
+    "The Sun orbits the Earth by."
+   ],
+   "ans": 0,
+   "note": "orbit + 대상 = ~의 궤도를 돌다. in one's orbit = ~의 영향권, 은유로도!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "sibling",
+   "ko": "형제자매",
+   "ex": "Do you have any siblings?",
+   "exko": "형제자매가 있으세요?",
+   "use": [
+    [
+     "Sibling rivalry is completely normal.",
+     "형제간 경쟁은 지극히 정상이다."
+    ],
+    [
+     "She's the youngest of four siblings.",
+     "그녀는 4남매 중 막내다."
+    ]
+   ],
+   "mcq": [
+    "I have two siblings — a brother and a sister.",
+    "I have two sibling brothers and sister.",
+    "I have siblings two of brother sister.",
+    "Two siblings have I brother and."
+   ],
+   "ans": 0,
+   "note": "sibling = 성별 구분 없는 형제자매. 스몰토크 필수 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "insert",
+   "ko": "삽입하다",
+   "ex": "Insert the needle at a 45-degree angle.",
+   "exko": "바늘을 45도 각도로 삽입하세요.",
+   "use": [
+    [
+     "Insert your card and enter the PIN.",
+     "카드를 넣고 비밀번호를 입력하세요."
+    ],
+    [
+     "The muscle inserts into the upper arm bone.",
+     "그 근육은 위팔뼈에 부착된다."
+    ]
+   ],
+   "mcq": [
+    "Insert the key and turn it slowly.",
+    "Insert in the key and turn it.",
+    "Insert to the key turning slowly.",
+    "The key inserts you slowly turn."
+   ],
+   "ans": 0,
+   "note": "insert + 대상. 해부학에선 근육의 '부착(insertion)'이라는 전문 용법도!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "laundry",
+   "ko": "세탁물, 빨래",
+   "ex": "I need to do laundry this weekend.",
+   "exko": "이번 주말엔 빨래해야 해요.",
+   "use": [
+    [
+     "The hotel offers same-day laundry service.",
+     "호텔은 당일 세탁 서비스를 제공한다."
+    ],
+    [
+     "Separate the gym clothes from regular laundry.",
+     "운동복은 일반 빨래와 분리하세요."
+    ]
+   ],
+   "mcq": [
+    "I do laundry twice a week.",
+    "I do laundries twice a week.",
+    "I make laundry twice a week.",
+    "I wash laundry doing twice week."
+   ],
+   "ans": 0,
+   "note": "do laundry — do와 짝, 셀 수 없는 명사! 출장·일상 회화 필수.",
+   "wk": "2026-W35"
   }
  ]
 }

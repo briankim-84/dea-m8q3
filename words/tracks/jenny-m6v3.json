@@ -1,0 +1,507 @@
+{
+ "student": "Jenny",
+ "folder": "jenny-m6v3",
+ "band": "상급 3000 잔여 + 심화 4000",
+ "words": [
+  {
+   "w": "dominate",
+   "ko": "지배하다, 압도하다",
+   "ex": "One company dominates the market.",
+   "exko": "한 회사가 시장을 장악하고 있어요.",
+   "use": [
+    [
+     "The tower dominates the city skyline.",
+     "그 타워가 도시 스카이라인을 압도한다."
+    ],
+    [
+     "He dominated the conversation all night.",
+     "그가 밤새 대화를 독차지했다."
+    ]
+   ],
+   "mcq": [
+    "Their firm dominates the construction market.",
+    "Their firm dominates over to the market.",
+    "Their firm is dominate the market.",
+    "Their firm dominated by the market."
+   ],
+   "ans": 0,
+   "note": "dominate + 대상 바로 연결. 전치사 없이!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "slight",
+   "ko": "약간의",
+   "ex": "There's been a slight change in the plan.",
+   "exko": "계획에 약간 변경이 있었어요.",
+   "use": [
+    [
+     "I have a slight headache.",
+     "머리가 살짝 아파요."
+    ],
+    [
+     "There was a slight delay in delivery.",
+     "배송이 약간 지연됐다."
+    ]
+   ],
+   "mcq": [
+    "There's a slight difference between the two.",
+    "There's a slightly difference between them.",
+    "The difference is slight little between.",
+    "A slight of difference is there."
+   ],
+   "ans": 0,
+   "note": "slight(형용사) + 명사. slightly는 부사예요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "uniform",
+   "ko": "균일한, 유니폼",
+   "ex": "The bricks should be uniform in size.",
+   "exko": "벽돌은 크기가 균일해야 해요.",
+   "use": [
+    [
+     "The quality must be uniform across all units.",
+     "전 세대에 걸쳐 품질이 균일해야 한다."
+    ],
+    [
+     "Workers wear safety uniforms on site.",
+     "현장에서 작업자들은 안전복을 입는다."
+    ]
+   ],
+   "mcq": [
+    "The panels are uniform in thickness.",
+    "The panels are uniform with thickness.",
+    "The panels uniform the thickness.",
+    "The thickness uniforms the panels."
+   ],
+   "ans": 0,
+   "note": "uniform in + 기준(크기·두께). '균일한'이라는 형용사 뜻이 핵심!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "crack",
+   "ko": "금, 갈라지다",
+   "ex": "There's a crack in the wall.",
+   "exko": "벽에 금이 갔어요.",
+   "use": [
+    [
+     "Inspect the concrete for cracks.",
+     "콘크리트에 균열이 있는지 점검하세요."
+    ],
+    [
+     "The glass cracked in the cold.",
+     "추위에 유리가 갈라졌다."
+    ]
+   ],
+   "mcq": [
+    "We found a crack in the foundation.",
+    "We found a crack on into the foundation.",
+    "The foundation cracked us a line.",
+    "A crack was find in foundation."
+   ],
+   "ans": 0,
+   "note": "a crack in + 구조물. 건설 필수 어휘 — hairline crack(실금)도 알아두세요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "satisfaction",
+   "ko": "만족",
+   "ex": "Customer satisfaction is our priority.",
+   "exko": "고객 만족이 최우선입니다.",
+   "use": [
+    [
+     "He smiled with satisfaction at the finished building.",
+     "그는 완공된 건물을 보며 만족스럽게 웃었다."
+    ],
+    [
+     "Job satisfaction matters more than salary sometimes.",
+     "때로는 연봉보다 직무 만족이 더 중요하다."
+    ]
+   ],
+   "mcq": [
+    "The result gave me great satisfaction.",
+    "The result gave me great satisfying.",
+    "I satisfactioned with the result.",
+    "The satisfaction resulted me greatly."
+   ],
+   "ans": 0,
+   "note": "satisfaction(명사) vs satisfying(형용사) vs satisfied(만족한) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "dimension",
+   "ko": "치수, 차원",
+   "ex": "Check the dimensions of the room first.",
+   "exko": "먼저 방 치수를 확인하세요.",
+   "use": [
+    [
+     "The dimensions are listed on the drawing.",
+     "치수는 도면에 표기되어 있다."
+    ],
+    [
+     "This adds a new dimension to the problem.",
+     "이건 문제에 새로운 차원을 더한다."
+    ]
+   ],
+   "mcq": [
+    "Measure the dimensions of the beam.",
+    "Measure the dimension sizes of beam.",
+    "Dimension the measures of the beam.",
+    "The beam dimensions its measure."
+   ],
+   "ans": 0,
+   "note": "dimensions(보통 복수) = 가로×세로×높이 치수. 현장 필수!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "blind",
+   "ko": "눈먼, 가려진",
+   "ex": "Watch out for the blind spot.",
+   "exko": "사각지대 조심하세요.",
+   "use": [
+    [
+     "The corner creates a blind spot for drivers.",
+     "그 모퉁이는 운전자 사각지대를 만든다."
+    ],
+    [
+     "Don't be blind to the risks.",
+     "위험을 못 본 척하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "There's a blind spot at the corner.",
+    "There's a blind point at the corner.",
+    "The corner blinds a spot.",
+    "A spot is blind at cornering."
+   ],
+   "ans": 0,
+   "note": "blind spot = 사각지대. 현장 안전 교육 단골 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "operator",
+   "ko": "기사, 운영자",
+   "ex": "The crane operator is very experienced.",
+   "exko": "크레인 기사가 아주 숙련됐어요.",
+   "use": [
+    [
+     "Only licensed operators can use this machine.",
+     "자격증 있는 기사만 이 장비를 쓸 수 있다."
+    ],
+    [
+     "Contact the site operator for access.",
+     "출입은 현장 운영자에게 문의하세요."
+    ]
+   ],
+   "mcq": [
+    "The excavator operator arrived early.",
+    "The excavator operating man arrived.",
+    "The operator of excavating machine man came.",
+    "The excavator operates the man early."
+   ],
+   "ans": 0,
+   "note": "장비명 + operator = ~기사. 현장에서 사람 부를 때 바로 쓰는 형태!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "therapy",
+   "ko": "치료, 요법",
+   "ex": "Physical therapy helped my back pain.",
+   "exko": "물리치료가 허리 통증에 도움이 됐어요.",
+   "use": [
+    [
+     "He's in therapy for his shoulder injury.",
+     "그는 어깨 부상으로 치료를 받고 있다."
+    ],
+    [
+     "Retail therapy — shopping to feel better!",
+     "기분 전환용 쇼핑을 retail therapy라고 해요."
+    ]
+   ],
+   "mcq": [
+    "She's getting therapy for her knee.",
+    "She's getting therapy to her knee.",
+    "She therapies her knee now.",
+    "Her knee is therapy getting."
+   ],
+   "ans": 0,
+   "note": "get/be in therapy = 치료받다. 현장 부상 얘기에 실용적!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "counsel",
+   "ko": "조언(하다), 변호인",
+   "ex": "He gave me wise counsel.",
+   "exko": "그가 현명한 조언을 해줬어요.",
+   "use": [
+    [
+     "Seek legal counsel before signing.",
+     "서명 전에 법률 자문을 구하세요."
+    ],
+    [
+     "She counseled patience during the dispute.",
+     "그녀는 분쟁 중에 인내를 권했다."
+    ]
+   ],
+   "mcq": [
+    "We sought counsel from a construction lawyer.",
+    "We sought counsel to a lawyer.",
+    "We counseled from a lawyer us.",
+    "A lawyer was sought counsel by."
+   ],
+   "ans": 0,
+   "note": "seek counsel = 자문을 구하다. counsel(자문) vs council(의회) 철자 주의!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "ethical",
+   "ko": "윤리적인",
+   "ex": "Is it ethical to use AI for grading?",
+   "exko": "채점에 AI를 쓰는 게 윤리적일까요?",
+   "use": [
+    [
+     "Teachers face ethical questions daily.",
+     "교사는 매일 윤리적 질문에 부딪힌다."
+    ],
+    [
+     "The company promotes ethical business practices.",
+     "그 회사는 윤리 경영을 추구한다."
+    ]
+   ],
+   "mcq": [
+    "We discussed the ethical issues involved.",
+    "We discussed the ethic issues involved.",
+    "We discussed ethically the issues.",
+    "The issues ethical discussed we."
+   ],
+   "ans": 0,
+   "note": "ethical(형용사) vs ethics(윤리학·명사) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "diagnose",
+   "ko": "진단하다",
+   "ex": "He was diagnosed with dyslexia at seven.",
+   "exko": "그는 일곱 살에 난독증 진단을 받았어요.",
+   "use": [
+    [
+     "Early diagnosis makes a huge difference.",
+     "조기 진단이 큰 차이를 만든다."
+    ],
+    [
+     "The doctor diagnosed the problem quickly.",
+     "의사가 문제를 빠르게 진단했다."
+    ]
+   ],
+   "mcq": [
+    "She was diagnosed with ADHD last year.",
+    "She was diagnosed by ADHD last year.",
+    "She diagnosed ADHD to her last year.",
+    "ADHD diagnosed her with last year."
+   ],
+   "ans": 0,
+   "note": "be diagnosed with + 질환명. 특수교육 서류·상담의 핵심 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "rhythm",
+   "ko": "리듬",
+   "ex": "Clapping helps kids feel the rhythm.",
+   "exko": "박수는 아이들이 리듬을 느끼게 도와줘요.",
+   "use": [
+    [
+     "Find your own study rhythm.",
+     "자기만의 공부 리듬을 찾으세요."
+    ],
+    [
+     "The rhythm of the poem is easy to follow.",
+     "그 시의 리듬은 따라가기 쉽다."
+    ]
+   ],
+   "mcq": [
+    "Music therapy uses rhythm and repetition.",
+    "Music therapy uses rhythm beats and repetition.",
+    "Rhythm uses music therapy repetition and.",
+    "The repetition rhythms music therapy."
+   ],
+   "ans": 0,
+   "note": "rhythm — 철자 어려운 단어 대표(모음이 y 하나)! 발음 도전각.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "utilize",
+   "ko": "활용하다",
+   "ex": "We utilize visual aids in every lesson.",
+   "exko": "저희는 모든 수업에 시각 자료를 활용해요.",
+   "use": [
+    [
+     "The app utilizes AI to adjust difficulty.",
+     "그 앱은 AI를 활용해 난이도를 조절한다."
+    ],
+    [
+     "Utilize your strengths in the interview.",
+     "면접에서 당신의 강점을 활용하세요."
+    ]
+   ],
+   "mcq": [
+    "Teachers utilize games to engage students.",
+    "Teachers utilize of games to engage.",
+    "Teachers utilizes game for engaging.",
+    "Games utilize teachers to engagement."
+   ],
+   "ans": 0,
+   "note": "utilize = use의 격식 버전. 보고서·계획서에서 빛나는 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "grocery",
+   "ko": "식료품",
+   "ex": "I do my grocery shopping on Sundays.",
+   "exko": "장은 일요일마다 봐요.",
+   "use": [
+    [
+     "The grocery store closes at 11.",
+     "그 식료품점은 11시에 닫는다."
+    ],
+    [
+     "We taught money skills using grocery lists.",
+     "장보기 목록으로 돈 개념을 가르쳤다."
+    ]
+   ],
+   "mcq": [
+    "I need to pick up some groceries.",
+    "I need to pick up some grocery.",
+    "I need to grocery some pickings.",
+    "Some groceries need to pick I up."
+   ],
+   "ans": 0,
+   "note": "장 본 물건들 = groceries(복수)! 생활 자립 교육에 딱 맞는 단어.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "patch",
+   "ko": "부분, 조각, 덧대다",
+   "ex": "We planted a small vegetable patch.",
+   "exko": "작은 텃밭을 만들었어요.",
+   "use": [
+    [
+     "He's going through a rough patch.",
+     "그는 힘든 시기를 지나고 있다."
+    ],
+    [
+     "Patch the hole before it gets bigger.",
+     "구멍이 커지기 전에 메우세요."
+    ]
+   ],
+   "mcq": [
+    "She's been through a rough patch lately.",
+    "She's been through a rough patch time lately.",
+    "A rough patch has been she through.",
+    "Lately rough patches through she has."
+   ],
+   "ans": 0,
+   "note": "a rough patch = 힘든 시기. 학생 상담에서 부드럽게 쓸 수 있는 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "seemingly",
+   "ko": "겉보기에",
+   "ex": "It was a seemingly simple question.",
+   "exko": "겉보기엔 단순한 질문이었어요.",
+   "use": [
+    [
+     "Seemingly small habits shape big outcomes.",
+     "사소해 보이는 습관이 큰 결과를 만든다."
+    ],
+    [
+     "The seemingly shy student loves the stage.",
+     "수줍어 보이는 그 학생이 무대를 좋아한다."
+    ]
+   ],
+   "mcq": [
+    "The task was seemingly easy but tricky.",
+    "The task was seeming easy but tricky.",
+    "The task seemingly was easy tricking.",
+    "Seemingly the easy task but was tricky."
+   ],
+   "ans": 0,
+   "note": "seemingly + 형용사 = 겉보기엔 ~한. 반전을 만들 때 쓰는 부사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "deadly",
+   "ko": "치명적인",
+   "ex": "Some mushrooms are deadly.",
+   "exko": "어떤 버섯은 치명적이에요.",
+   "use": [
+    [
+     "The virus can be deadly for the elderly.",
+     "그 바이러스는 노인에게 치명적일 수 있다."
+    ],
+    [
+     "She gave me a deadly serious look.",
+     "그녀가 아주 진지한 표정으로 나를 봤다."
+    ]
+   ],
+   "mcq": [
+    "Peanut allergies can be deadly.",
+    "Peanut allergies can be deathly killed.",
+    "Peanut allergies can deadly.",
+    "Deadly can peanut allergies be it."
+   ],
+   "ans": 0,
+   "note": "deadly는 -ly로 끝나지만 형용사! 알레르기 안전 교육에 중요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "assembly",
+   "ko": "조립, 집회",
+   "ex": "The furniture requires assembly.",
+   "exko": "그 가구는 조립이 필요해요.",
+   "use": [
+    [
+     "The school holds an assembly every Monday.",
+     "학교는 매주 월요일 조회를 연다."
+    ],
+    [
+     "The car assembly line runs 24 hours.",
+     "자동차 조립 라인은 24시간 돌아간다."
+    ]
+   ],
+   "mcq": [
+    "The desk comes with assembly instructions.",
+    "The desk comes with assembling instruction papers.",
+    "The desk assemblies with instructions.",
+    "Assembly the desk comes with."
+   ],
+   "ans": 0,
+   "note": "assembly instructions = 조립 설명서. IKEA 필수 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "flavor",
+   "ko": "맛, 풍미",
+   "ex": "Which flavor do you want — mint or mango?",
+   "exko": "민트랑 망고 중 어떤 맛으로 할래요?",
+   "use": [
+    [
+     "The soup has a rich, deep flavor.",
+     "그 수프는 풍미가 깊다."
+    ],
+    [
+     "Local markets give you a flavor of the culture.",
+     "현지 시장에 가면 그 문화의 맛을 느낄 수 있다."
+    ]
+   ],
+   "mcq": [
+    "This tea has a subtle flavor.",
+    "This tea has a subtle taste flavor.",
+    "This tea flavors subtle.",
+    "Subtle flavors this tea has it."
+   ],
+   "ans": 0,
+   "note": "flavor = 특유의 맛·풍미. a flavor of + 문화/도시 = ~의 분위기 맛보기!",
+   "wk": "2026-W35"
+  }
+ ]
+}

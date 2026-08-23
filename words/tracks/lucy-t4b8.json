@@ -502,6 +502,506 @@
    "ans": 0,
    "note": "subtle — b는 묵음! /서틀/로 발음해요. 4단계에서 도전해 보세요.",
    "wk": "2026-W34"
+  },
+  {
+   "w": "deadly",
+   "ko": "치명적인",
+   "ex": "Some mushrooms are deadly.",
+   "exko": "어떤 버섯은 치명적이에요.",
+   "use": [
+    [
+     "The virus can be deadly for the elderly.",
+     "그 바이러스는 노인에게 치명적일 수 있다."
+    ],
+    [
+     "She gave me a deadly serious look.",
+     "그녀가 아주 진지한 표정으로 나를 봤다."
+    ]
+   ],
+   "mcq": [
+    "Peanut allergies can be deadly.",
+    "Peanut allergies can be deathly killed.",
+    "Peanut allergies can deadly.",
+    "Deadly can peanut allergies be it."
+   ],
+   "ans": 0,
+   "note": "deadly는 -ly로 끝나지만 형용사! 알레르기 안전 교육에 중요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "ethical",
+   "ko": "윤리적인",
+   "ex": "Is it ethical to use AI for grading?",
+   "exko": "채점에 AI를 쓰는 게 윤리적일까요?",
+   "use": [
+    [
+     "Teachers face ethical questions daily.",
+     "교사는 매일 윤리적 질문에 부딪힌다."
+    ],
+    [
+     "The company promotes ethical business practices.",
+     "그 회사는 윤리 경영을 추구한다."
+    ]
+   ],
+   "mcq": [
+    "We discussed the ethical issues involved.",
+    "We discussed the ethic issues involved.",
+    "We discussed ethically the issues.",
+    "The issues ethical discussed we."
+   ],
+   "ans": 0,
+   "note": "ethical(형용사) vs ethics(윤리학·명사) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "diagnose",
+   "ko": "진단하다",
+   "ex": "He was diagnosed with dyslexia at seven.",
+   "exko": "그는 일곱 살에 난독증 진단을 받았어요.",
+   "use": [
+    [
+     "Early diagnosis makes a huge difference.",
+     "조기 진단이 큰 차이를 만든다."
+    ],
+    [
+     "The doctor diagnosed the problem quickly.",
+     "의사가 문제를 빠르게 진단했다."
+    ]
+   ],
+   "mcq": [
+    "She was diagnosed with ADHD last year.",
+    "She was diagnosed by ADHD last year.",
+    "She diagnosed ADHD to her last year.",
+    "ADHD diagnosed her with last year."
+   ],
+   "ans": 0,
+   "note": "be diagnosed with + 질환명. 특수교육 서류·상담의 핵심 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "rhythm",
+   "ko": "리듬",
+   "ex": "Clapping helps kids feel the rhythm.",
+   "exko": "박수는 아이들이 리듬을 느끼게 도와줘요.",
+   "use": [
+    [
+     "Find your own study rhythm.",
+     "자기만의 공부 리듬을 찾으세요."
+    ],
+    [
+     "The rhythm of the poem is easy to follow.",
+     "그 시의 리듬은 따라가기 쉽다."
+    ]
+   ],
+   "mcq": [
+    "Music therapy uses rhythm and repetition.",
+    "Music therapy uses rhythm beats and repetition.",
+    "Rhythm uses music therapy repetition and.",
+    "The repetition rhythms music therapy."
+   ],
+   "ans": 0,
+   "note": "rhythm — 철자 어려운 단어 대표(모음이 y 하나)! 발음 도전각.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "utilize",
+   "ko": "활용하다",
+   "ex": "We utilize visual aids in every lesson.",
+   "exko": "저희는 모든 수업에 시각 자료를 활용해요.",
+   "use": [
+    [
+     "The app utilizes AI to adjust difficulty.",
+     "그 앱은 AI를 활용해 난이도를 조절한다."
+    ],
+    [
+     "Utilize your strengths in the interview.",
+     "면접에서 당신의 강점을 활용하세요."
+    ]
+   ],
+   "mcq": [
+    "Teachers utilize games to engage students.",
+    "Teachers utilize of games to engage.",
+    "Teachers utilizes game for engaging.",
+    "Games utilize teachers to engagement."
+   ],
+   "ans": 0,
+   "note": "utilize = use의 격식 버전. 보고서·계획서에서 빛나는 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "grocery",
+   "ko": "식료품",
+   "ex": "I do my grocery shopping on Sundays.",
+   "exko": "장은 일요일마다 봐요.",
+   "use": [
+    [
+     "The grocery store closes at 11.",
+     "그 식료품점은 11시에 닫는다."
+    ],
+    [
+     "We taught money skills using grocery lists.",
+     "장보기 목록으로 돈 개념을 가르쳤다."
+    ]
+   ],
+   "mcq": [
+    "I need to pick up some groceries.",
+    "I need to pick up some grocery.",
+    "I need to grocery some pickings.",
+    "Some groceries need to pick I up."
+   ],
+   "ans": 0,
+   "note": "장 본 물건들 = groceries(복수)! 생활 자립 교육에 딱 맞는 단어.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "patch",
+   "ko": "부분, 조각, 덧대다",
+   "ex": "We planted a small vegetable patch.",
+   "exko": "작은 텃밭을 만들었어요.",
+   "use": [
+    [
+     "He's going through a rough patch.",
+     "그는 힘든 시기를 지나고 있다."
+    ],
+    [
+     "Patch the hole before it gets bigger.",
+     "구멍이 커지기 전에 메우세요."
+    ]
+   ],
+   "mcq": [
+    "She's been through a rough patch lately.",
+    "She's been through a rough patch time lately.",
+    "A rough patch has been she through.",
+    "Lately rough patches through she has."
+   ],
+   "ans": 0,
+   "note": "a rough patch = 힘든 시기. 학생 상담에서 부드럽게 쓸 수 있는 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "seemingly",
+   "ko": "겉보기에",
+   "ex": "It was a seemingly simple question.",
+   "exko": "겉보기엔 단순한 질문이었어요.",
+   "use": [
+    [
+     "Seemingly small habits shape big outcomes.",
+     "사소해 보이는 습관이 큰 결과를 만든다."
+    ],
+    [
+     "The seemingly shy student loves the stage.",
+     "수줍어 보이는 그 학생이 무대를 좋아한다."
+    ]
+   ],
+   "mcq": [
+    "The task was seemingly easy but tricky.",
+    "The task was seeming easy but tricky.",
+    "The task seemingly was easy tricking.",
+    "Seemingly the easy task but was tricky."
+   ],
+   "ans": 0,
+   "note": "seemingly + 형용사 = 겉보기엔 ~한. 반전을 만들 때 쓰는 부사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "realm",
+   "ko": "영역, 분야",
+   "ex": "That's outside my realm of expertise.",
+   "exko": "그건 제 전문 영역 밖이에요.",
+   "use": [
+    [
+     "AI has entered the realm of art.",
+     "AI가 예술의 영역에 들어섰다."
+    ],
+    [
+     "In the realm of backend systems, he's the expert.",
+     "백엔드 시스템 영역에선 그가 전문가다."
+    ]
+   ],
+   "mcq": [
+    "This falls within the realm of possibility.",
+    "This falls within the realm of possible.",
+    "This falls in realm to possibility.",
+    "The realm falls this within possibility."
+   ],
+   "ans": 0,
+   "note": "the realm of + 분야. within the realm of possibility = 가능한 범위!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "condemn",
+   "ko": "비난하다, 규탄하다",
+   "ex": "The community condemned the data breach.",
+   "exko": "커뮤니티가 그 데이터 유출을 강하게 비판했어요.",
+   "use": [
+    [
+     "Critics condemned the company's response.",
+     "비평가들이 회사의 대응을 규탄했다."
+    ],
+    [
+     "We shouldn't condemn new ideas too quickly.",
+     "새 아이디어를 너무 빨리 매도해선 안 된다."
+    ]
+   ],
+   "mcq": [
+    "Users condemned the sudden policy change.",
+    "Users condemned to the policy change.",
+    "Users condemned about the change.",
+    "The change condemned users suddenly."
+   ],
+   "ans": 0,
+   "note": "condemn + 대상 = 강하게 비난하다. criticize보다 무거운 단어.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "entrepreneur",
+   "ko": "창업가",
+   "ex": "Silicon Valley is full of entrepreneurs.",
+   "exko": "실리콘밸리는 창업가로 가득해요.",
+   "use": [
+    [
+     "She became an entrepreneur after ten years at Google.",
+     "그녀는 구글 10년 후 창업가가 됐다."
+    ],
+    [
+     "Entrepreneurs take risks others avoid.",
+     "창업가는 남들이 피하는 위험을 감수한다."
+    ]
+   ],
+   "mcq": [
+    "He's a serial entrepreneur with three startups.",
+    "He's a serial entrepreneurship with startups.",
+    "He entrepreneurs three startups serially.",
+    "Three startups entrepreneur him serial."
+   ],
+   "ans": 0,
+   "note": "serial entrepreneur = 연쇄 창업가. 발음 도전각: /안트러프러너/!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "manipulate",
+   "ko": "조작하다, 다루다",
+   "ex": "The library manipulates large datasets fast.",
+   "exko": "그 라이브러리는 대용량 데이터를 빠르게 다뤄요.",
+   "use": [
+    [
+     "The script manipulates the DOM directly.",
+     "그 스크립트는 DOM을 직접 조작한다."
+    ],
+    [
+     "Don't let numbers be manipulated to mislead.",
+     "숫자가 오도하도록 조작되게 두지 마세요."
+    ]
+   ],
+   "mcq": [
+    "The function manipulates the input string.",
+    "The function manipulates to the string.",
+    "The function manipulates with string input.",
+    "The string manipulates the function input."
+   ],
+   "ans": 0,
+   "note": "manipulate + 데이터/객체 = 다루다·조작하다. 기술 맥락에선 중립적인 뜻!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "lobby",
+   "ko": "로비(하다), 압력을 가하다",
+   "ex": "Tech companies lobby for lighter regulation.",
+   "exko": "테크 기업들은 규제 완화를 위해 로비해요.",
+   "use": [
+    [
+     "Meet me in the hotel lobby at 9.",
+     "9시에 호텔 로비에서 만나요."
+    ],
+    [
+     "Engineers lobbied management for better tools.",
+     "엔지니어들이 더 나은 툴을 위해 경영진을 설득했다."
+    ]
+   ],
+   "mcq": [
+    "The team lobbied for more server budget.",
+    "The team lobbied to for more budget.",
+    "The team made lobby more budget.",
+    "More budget lobbied the team for."
+   ],
+   "ans": 0,
+   "note": "lobby for = ~을 위해 조직적으로 설득하다. 사내 정치에도 쓰는 동사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "sensor",
+   "ko": "센서",
+   "ex": "The sensor detects motion in the dark.",
+   "exko": "그 센서는 어둠 속 움직임을 감지해요.",
+   "use": [
+    [
+     "The app reads data from the phone's sensors.",
+     "앱이 폰 센서 데이터를 읽는다."
+    ],
+    [
+     "A faulty sensor triggered the false alarm.",
+     "불량 센서가 오경보를 일으켰다."
+    ]
+   ],
+   "mcq": [
+    "The sensor sends data every second.",
+    "The sensor sends datas every second.",
+    "The sensor sensors data per second.",
+    "Data sends the sensor every second."
+   ],
+   "ans": 0,
+   "note": "data는 이미 복수 취급 — datas는 없어요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "jurisdiction",
+   "ko": "관할권",
+   "ex": "That falls under EU jurisdiction.",
+   "exko": "그건 EU 관할이에요.",
+   "use": [
+    [
+     "Data laws differ by jurisdiction.",
+     "데이터 법은 관할 지역마다 다르다."
+    ],
+    [
+     "The court has no jurisdiction over this case.",
+     "그 법원은 이 사건에 관할권이 없다."
+    ]
+   ],
+   "mcq": [
+    "Privacy rules vary by jurisdiction.",
+    "Privacy rules vary by jurisdictional place.",
+    "Privacy rules jurisdiction by vary.",
+    "Jurisdiction varies privacy by rules."
+   ],
+   "ans": 0,
+   "note": "jurisdiction = 법적 관할. GDPR 같은 규정 얘기에서 필수!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "drift",
+   "ko": "표류하다, 흘러가다",
+   "ex": "The conversation drifted off topic.",
+   "exko": "대화가 주제에서 벗어났어요.",
+   "use": [
+    [
+     "Config drift causes deployment issues.",
+     "설정 드리프트는 배포 문제를 일으킨다."
+    ],
+    [
+     "He drifted from job to job for years.",
+     "그는 몇 년간 이 직장 저 직장을 떠돌았다."
+    ]
+   ],
+   "mcq": [
+    "My attention drifted during the long meeting.",
+    "My attention drifted away itself during meeting.",
+    "My attention made drift the meeting.",
+    "The meeting drifted my attention during."
+   ],
+   "ans": 0,
+   "note": "drift = 서서히 벗어나다. config drift는 데브옵스 실무 용어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "workplace",
+   "ko": "직장, 일터",
+   "ex": "Remote work changed the modern workplace.",
+   "exko": "원격근무가 현대의 일터를 바꿨어요.",
+   "use": [
+    [
+     "Workplace culture matters as much as salary.",
+     "직장 문화는 연봉만큼 중요하다."
+    ],
+    [
+     "The workplace has become more flexible.",
+     "일터가 더 유연해졌다."
+    ]
+   ],
+   "mcq": [
+    "A healthy workplace boosts productivity.",
+    "A healthy workplace place boosts productivity.",
+    "Workplace healthy boosts the productivity.",
+    "Productivity workplaces a healthy boost."
+   ],
+   "ans": 0,
+   "note": "workplace culture, workplace safety — 면접 단골 합성어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "clever",
+   "ko": "영리한, 기발한",
+   "ex": "That's a clever workaround!",
+   "exko": "기발한 우회책이네요!",
+   "use": [
+    [
+     "She found a clever way to cache the results.",
+     "그녀는 결과를 캐싱하는 영리한 방법을 찾았다."
+    ],
+    [
+     "The clever design hides the complexity.",
+     "그 영리한 설계가 복잡성을 숨긴다."
+    ]
+   ],
+   "mcq": [
+    "He wrote a clever one-line solution.",
+    "He wrote a cleverly one-line solution.",
+    "He clevered a one-line solution.",
+    "A solution clever wrote he one-line."
+   ],
+   "ans": 0,
+   "note": "clever solution/trick = 기발한 해법. 코드 리뷰 칭찬 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "diplomatic",
+   "ko": "외교적인, 세련되게 처신하는",
+   "ex": "Be diplomatic when giving feedback.",
+   "exko": "피드백할 땐 세련되게 하세요.",
+   "use": [
+    [
+     "She gave a diplomatic answer to avoid conflict.",
+     "그녀는 갈등을 피하려 외교적으로 답했다."
+    ],
+    [
+     "His diplomatic reply satisfied both teams.",
+     "그의 원만한 답변이 양 팀을 만족시켰다."
+    ]
+   ],
+   "mcq": [
+    "He was diplomatic about the design flaws.",
+    "He was diplomatic to the design flaws.",
+    "He diplomatics the design flaws.",
+    "The flaws diplomatic was he about."
+   ],
+   "ans": 0,
+   "note": "diplomatic about = ~에 대해 원만하게 말하는. 코드리뷰·면접 소프트스킬!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "tolerate",
+   "ko": "참다, 허용하다",
+   "ex": "The system tolerates up to 3 node failures.",
+   "exko": "이 시스템은 노드 3개 장애까지 견뎌요.",
+   "use": [
+    [
+     "I can't tolerate flaky tests anymore.",
+     "불안정한 테스트는 더 못 참겠어요."
+    ],
+    [
+     "Good teams don't tolerate toxic behavior.",
+     "좋은 팀은 유해한 행동을 용납하지 않는다."
+    ]
+   ],
+   "mcq": [
+    "The design tolerates network delays.",
+    "The design tolerates to network delays.",
+    "The design tolerates with delays.",
+    "Network delays tolerate the design."
+   ],
+   "ans": 0,
+   "note": "tolerate + 대상. fault-tolerant(장애 허용)의 그 tolerate!",
+   "wk": "2026-W35"
   }
  ]
 }

@@ -1,0 +1,89 @@
+{
+ "week": "2026-W35",
+ "label": "8월 24일 주",
+ "levels": {
+  "warmup": {
+   "cards": [
+    {"expr": "in a row", "ko": "연속으로", "ex": "We won three games in a row."},
+    {"expr": "by the way", "ko": "그런데, 참", "ex": "By the way, did you see my message?"},
+    {"expr": "for a while", "ko": "한동안", "ex": "I haven't seen him for a while."},
+    {"expr": "can't wait", "ko": "너무 기대되다", "ex": "I can't wait to see you!"},
+    {"expr": "it's up to you", "ko": "네가 정하기 나름이야", "ex": "Pizza or chicken? It's up to you."}
+   ],
+   "quiz": [
+    {"q": "It rained five days ___ this week.",
+     "options": ["in a row", "on a row", "in a line", "by a row"],
+     "answer": 0, "note": "in a row = 연속으로. 전치사 in이 고정!"},
+    {"q": "___ , what time is the meeting tomorrow?",
+     "options": ["On the way", "By the way", "In the way", "At the way"],
+     "answer": 1, "note": "by the way = 화제 전환 '그런데'. on my way(가는 중)와 구분!"},
+    {"q": "She lived in Busan ___ before moving to Seoul.",
+     "options": ["for a while", "during a while", "since a while", "at a while"],
+     "answer": 0, "note": "for + 기간. for a while = 한동안."},
+    {"q": "I ___ to start my vacation next week!",
+     "options": ["can't wait", "don't wait", "won't wait", "not wait"],
+     "answer": 0, "note": "can't wait to + 동사 = 빨리 하고 싶어 못 참겠다!"},
+    {"q": "Where should we eat? — ___ .",
+     "options": ["It's up to you", "It's on to you", "It's for you up", "It depends to you"],
+     "answer": 0, "note": "up to you = 네 선택에 달렸어. 결정권을 넘길 때!"}
+   ]
+  },
+  "intermediate": {
+   "cards": [
+    {"expr": "on the same page", "ko": "같은 이해를 하고 있는", "ex": "Let's make sure we're on the same page."},
+    {"expr": "long story short", "ko": "요약하자면", "ex": "Long story short, we missed the flight."},
+    {"expr": "hit the road", "ko": "출발하다", "ex": "It's getting late — let's hit the road."},
+    {"expr": "under the weather", "ko": "몸이 안 좋은", "ex": "I'm feeling a bit under the weather today."},
+    {"expr": "take a rain check", "ko": "다음으로 미루다", "ex": "Can I take a rain check on dinner?"}
+   ],
+   "quiz": [
+    {"q": "Before we start, let's get everyone ___ .",
+     "options": ["on the same page", "in the same page", "at the same paper", "on the same paper"],
+     "answer": 0, "note": "on the same page = 모두 같은 그림을 보고 있다. 회의 필수 표현!"},
+    {"q": "___ , the deal fell through at the last minute.",
+     "options": ["Long story short", "Short story long", "Long short story", "Story long short"],
+     "answer": 0, "note": "long story short = 긴 얘기 줄이면. 요약 신호탄!"},
+    {"q": "We should ___ before traffic gets bad.",
+     "options": ["hit the road", "hit the street", "beat the road", "take the road"],
+     "answer": 0, "note": "hit the road = 출발하다. hit이 핵심!"},
+    {"q": "He's ___ today, so he's working from home.",
+     "options": ["under the weather", "below the weather", "under the cloud", "in the weather"],
+     "answer": 0, "note": "under the weather = 컨디션이 안 좋은. 아플 때 부드러운 표현."},
+    {"q": "I'm busy tonight. Can I ___ on the movie?",
+     "options": ["take a rain check", "make a rain check", "get a rain ticket", "take a rain ticket"],
+     "answer": 0, "note": "take a rain check = 다음을 기약하다. 야구 우천 교환권에서 온 말!"}
+   ]
+  },
+  "challenge": {
+   "cards": [
+    {"expr": "the ball is in your court", "ko": "이제 네 차례야(결정권이 너에게)", "ex": "I made my offer — the ball is in your court."},
+    {"expr": "once in a blue moon", "ko": "아주 드물게", "ex": "We only meet once in a blue moon."},
+    {"expr": "speak of the devil", "ko": "호랑이도 제 말 하면 온다", "ex": "Speak of the devil — here he comes!"},
+    {"expr": "cut to the chase", "ko": "본론으로 들어가다", "ex": "Let's cut to the chase: what's the price?"},
+    {"expr": "hit the nail on the head", "ko": "정곡을 찌르다", "ex": "You hit the nail on the head with that analysis."}
+   ],
+   "quiz": [
+    {"q": "I've sent the proposal. Now ___ .",
+     "hint": "결정권이 상대에게 넘어갔다는 테니스 코트 표현",
+     "accept": ["the ball is in your court", "the ball is in your court."],
+     "note": "공이 상대 코트에 있다 = 다음 행동은 네 몫."},
+    {"q": "My uncle visits us ___ — maybe once a year.",
+     "hint": "파란 달이 뜰 만큼 드물게",
+     "accept": ["once in a blue moon", "once in a blue moon."],
+     "note": "blue moon = 한 달에 두 번째 뜨는 보름달. 그만큼 드물다!"},
+    {"q": "___ ! We were just talking about you.",
+     "hint": "호랑이도 제 말 하면 — 영어에선 악마가 옵니다",
+     "accept": ["speak of the devil", "speak of the devil.", "speak of the devil!"],
+     "note": "누군가 얘기하던 중 그 사람이 나타났을 때!"},
+    {"q": "We don't have much time, so let's ___ .",
+     "hint": "추격 장면으로 바로 건너뛰다 → 본론으로",
+     "accept": ["cut to the chase", "cut to the chase."],
+     "note": "옛 영화의 지루한 부분을 잘라내고 추격신으로 간 데서 유래."},
+    {"q": "You ___ — that's exactly the problem.",
+     "hint": "못 머리를 정확히 때리다 (과거형)",
+     "accept": ["hit the nail on the head", "hit the nail on the head."],
+     "note": "hit-hit-hit 무변화 동사! 정확히 맞는 지적에 쓰는 최고의 칭찬."}
+   ]
+  }
+ }
+}

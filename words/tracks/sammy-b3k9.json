@@ -502,6 +502,506 @@
    "ans": 0,
    "note": "eastern + 지역명. east(동쪽·명사)와 eastern(동쪽의·형용사) 구분!",
    "wk": "2026-W34"
+  },
+  {
+   "w": "dominate",
+   "ko": "지배하다, 압도하다",
+   "ex": "One company dominates the market.",
+   "exko": "한 회사가 시장을 장악하고 있어요.",
+   "use": [
+    [
+     "The tower dominates the city skyline.",
+     "그 타워가 도시 스카이라인을 압도한다."
+    ],
+    [
+     "He dominated the conversation all night.",
+     "그가 밤새 대화를 독차지했다."
+    ]
+   ],
+   "mcq": [
+    "Their firm dominates the construction market.",
+    "Their firm dominates over to the market.",
+    "Their firm is dominate the market.",
+    "Their firm dominated by the market."
+   ],
+   "ans": 0,
+   "note": "dominate + 대상 바로 연결. 전치사 없이!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "dispute",
+   "ko": "분쟁",
+   "ex": "The contract dispute lasted two years.",
+   "exko": "그 계약 분쟁은 2년을 끌었어요.",
+   "use": [
+    [
+     "There's a dispute over the construction schedule.",
+     "공사 일정을 두고 분쟁이 있다."
+    ],
+    [
+     "They settled the dispute through mediation.",
+     "그들은 조정을 통해 분쟁을 해결했다."
+    ]
+   ],
+   "mcq": [
+    "The two firms are in a dispute over payment.",
+    "The two firms are in a dispute for over payment.",
+    "The firms dispute in over the payment.",
+    "The dispute is over between firms payment."
+   ],
+   "ans": 0,
+   "note": "in a dispute over + 쟁점. 건설 현장에서 자주 마주치는 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "slight",
+   "ko": "약간의",
+   "ex": "There's been a slight change in the plan.",
+   "exko": "계획에 약간 변경이 있었어요.",
+   "use": [
+    [
+     "I have a slight headache.",
+     "머리가 살짝 아파요."
+    ],
+    [
+     "There was a slight delay in delivery.",
+     "배송이 약간 지연됐다."
+    ]
+   ],
+   "mcq": [
+    "There's a slight difference between the two.",
+    "There's a slightly difference between them.",
+    "The difference is slight little between.",
+    "A slight of difference is there."
+   ],
+   "ans": 0,
+   "note": "slight(형용사) + 명사. slightly는 부사예요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "uniform",
+   "ko": "균일한, 유니폼",
+   "ex": "The bricks should be uniform in size.",
+   "exko": "벽돌은 크기가 균일해야 해요.",
+   "use": [
+    [
+     "The quality must be uniform across all units.",
+     "전 세대에 걸쳐 품질이 균일해야 한다."
+    ],
+    [
+     "Workers wear safety uniforms on site.",
+     "현장에서 작업자들은 안전복을 입는다."
+    ]
+   ],
+   "mcq": [
+    "The panels are uniform in thickness.",
+    "The panels are uniform with thickness.",
+    "The panels uniform the thickness.",
+    "The thickness uniforms the panels."
+   ],
+   "ans": 0,
+   "note": "uniform in + 기준(크기·두께). '균일한'이라는 형용사 뜻이 핵심!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "crack",
+   "ko": "금, 갈라지다",
+   "ex": "There's a crack in the wall.",
+   "exko": "벽에 금이 갔어요.",
+   "use": [
+    [
+     "Inspect the concrete for cracks.",
+     "콘크리트에 균열이 있는지 점검하세요."
+    ],
+    [
+     "The glass cracked in the cold.",
+     "추위에 유리가 갈라졌다."
+    ]
+   ],
+   "mcq": [
+    "We found a crack in the foundation.",
+    "We found a crack on into the foundation.",
+    "The foundation cracked us a line.",
+    "A crack was find in foundation."
+   ],
+   "ans": 0,
+   "note": "a crack in + 구조물. 건설 필수 어휘 — hairline crack(실금)도 알아두세요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "devote",
+   "ko": "바치다, 쏟다",
+   "ex": "He devoted 20 years to this company.",
+   "exko": "그는 이 회사에 20년을 바쳤어요.",
+   "use": [
+    [
+     "She devotes every morning to exercise.",
+     "그녀는 매일 아침을 운동에 쓴다."
+    ],
+    [
+     "The team devoted extra time to safety checks.",
+     "팀은 안전 점검에 추가 시간을 들였다."
+    ]
+   ],
+   "mcq": [
+    "He devoted himself to the project.",
+    "He devoted himself for the project.",
+    "He devoted the project to himself.",
+    "He devoted at the project himself."
+   ],
+   "ans": 0,
+   "note": "devote A to B — to가 핵심!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "satisfaction",
+   "ko": "만족",
+   "ex": "Customer satisfaction is our priority.",
+   "exko": "고객 만족이 최우선입니다.",
+   "use": [
+    [
+     "He smiled with satisfaction at the finished building.",
+     "그는 완공된 건물을 보며 만족스럽게 웃었다."
+    ],
+    [
+     "Job satisfaction matters more than salary sometimes.",
+     "때로는 연봉보다 직무 만족이 더 중요하다."
+    ]
+   ],
+   "mcq": [
+    "The result gave me great satisfaction.",
+    "The result gave me great satisfying.",
+    "I satisfactioned with the result.",
+    "The satisfaction resulted me greatly."
+   ],
+   "ans": 0,
+   "note": "satisfaction(명사) vs satisfying(형용사) vs satisfied(만족한) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "boundary",
+   "ko": "경계",
+   "ex": "The fence marks the property boundary.",
+   "exko": "울타리가 대지 경계를 표시해요.",
+   "use": [
+    [
+     "Check the site boundary before excavation.",
+     "굴착 전에 부지 경계를 확인하세요."
+    ],
+    [
+     "Set boundaries between work and rest.",
+     "일과 휴식 사이에 선을 그으세요."
+    ]
+   ],
+   "mcq": [
+    "The wall sits on the boundary line.",
+    "The wall sits on the boundary of line.",
+    "The boundary lines on the wall sits.",
+    "The wall boundaries on the line."
+   ],
+   "ans": 0,
+   "note": "boundary line = 경계선. 부동산·건설에서 매일 쓰는 말!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "consult",
+   "ko": "상담하다, 참고하다",
+   "ex": "Consult the blueprint before you start.",
+   "exko": "시작 전에 도면을 확인하세요.",
+   "use": [
+    [
+     "We consulted a structural engineer.",
+     "구조 엔지니어에게 자문을 구했다."
+    ],
+    [
+     "Consult the safety manual for details.",
+     "자세한 건 안전 매뉴얼을 참고하세요."
+    ]
+   ],
+   "mcq": [
+    "Consult an expert before deciding.",
+    "Consult to an expert before deciding.",
+    "Consult about an expert first.",
+    "Make consult an expert before."
+   ],
+   "ans": 0,
+   "note": "consult + 전문가/자료 바로 연결.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "dimension",
+   "ko": "치수, 차원",
+   "ex": "Check the dimensions of the room first.",
+   "exko": "먼저 방 치수를 확인하세요.",
+   "use": [
+    [
+     "The dimensions are listed on the drawing.",
+     "치수는 도면에 표기되어 있다."
+    ],
+    [
+     "This adds a new dimension to the problem.",
+     "이건 문제에 새로운 차원을 더한다."
+    ]
+   ],
+   "mcq": [
+    "Measure the dimensions of the beam.",
+    "Measure the dimension sizes of beam.",
+    "Dimension the measures of the beam.",
+    "The beam dimensions its measure."
+   ],
+   "ans": 0,
+   "note": "dimensions(보통 복수) = 가로×세로×높이 치수. 현장 필수!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "blind",
+   "ko": "눈먼, 가려진",
+   "ex": "Watch out for the blind spot.",
+   "exko": "사각지대 조심하세요.",
+   "use": [
+    [
+     "The corner creates a blind spot for drivers.",
+     "그 모퉁이는 운전자 사각지대를 만든다."
+    ],
+    [
+     "Don't be blind to the risks.",
+     "위험을 못 본 척하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "There's a blind spot at the corner.",
+    "There's a blind point at the corner.",
+    "The corner blinds a spot.",
+    "A spot is blind at cornering."
+   ],
+   "ans": 0,
+   "note": "blind spot = 사각지대. 현장 안전 교육 단골 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "approval",
+   "ko": "승인",
+   "ex": "The design got final approval.",
+   "exko": "설계가 최종 승인됐어요.",
+   "use": [
+    [
+     "We need city approval before construction.",
+     "착공 전에 시 승인이 필요하다."
+    ],
+    [
+     "The permit approval took three months.",
+     "허가 승인에 석 달이 걸렸다."
+    ]
+   ],
+   "mcq": [
+    "The plan is waiting for approval.",
+    "The plan is waiting for approve.",
+    "The plan waits approval to come it.",
+    "Approval is waited by the plan for."
+   ],
+   "ans": 0,
+   "note": "approval(명사)! 건축 인허가 대화에서 매일 나오는 단어.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "operator",
+   "ko": "기사, 운영자",
+   "ex": "The crane operator is very experienced.",
+   "exko": "크레인 기사가 아주 숙련됐어요.",
+   "use": [
+    [
+     "Only licensed operators can use this machine.",
+     "자격증 있는 기사만 이 장비를 쓸 수 있다."
+    ],
+    [
+     "Contact the site operator for access.",
+     "출입은 현장 운영자에게 문의하세요."
+    ]
+   ],
+   "mcq": [
+    "The excavator operator arrived early.",
+    "The excavator operating man arrived.",
+    "The operator of excavating machine man came.",
+    "The excavator operates the man early."
+   ],
+   "ans": 0,
+   "note": "장비명 + operator = ~기사. 현장에서 사람 부를 때 바로 쓰는 형태!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "precisely",
+   "ko": "정확히",
+   "ex": "The parts must fit precisely.",
+   "exko": "부품이 정확히 맞아야 해요.",
+   "use": [
+    [
+     "Cut the panel precisely to size.",
+     "패널을 치수대로 정확히 자르세요."
+    ],
+    [
+     "That's precisely why we double-check.",
+     "바로 그래서 우리가 재확인하는 거예요."
+    ]
+   ],
+   "mcq": [
+    "Align the frames precisely.",
+    "Align the frames precise.",
+    "Align precisely frames the.",
+    "The frames align precise them."
+   ],
+   "ans": 0,
+   "note": "precisely(부사)가 동사를 꾸며요. 시공 품질 얘기에 딱!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "rescue",
+   "ko": "구조(하다)",
+   "ex": "The rescue team practiced on site.",
+   "exko": "구조팀이 현장에서 훈련했어요.",
+   "use": [
+    [
+     "Workers were rescued from the collapsed structure.",
+     "무너진 구조물에서 작업자들이 구조됐다."
+    ],
+    [
+     "He came to my rescue during the presentation.",
+     "발표 때 그가 나를 구해줬다."
+    ]
+   ],
+   "mcq": [
+    "They rescued two workers from the site.",
+    "They rescued two workers out at the site from.",
+    "Two workers rescued them from site.",
+    "The rescue made two workers from."
+   ],
+   "ans": 0,
+   "note": "rescue A from B. 안전 교육의 핵심 동사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "embrace",
+   "ko": "받아들이다",
+   "ex": "The industry is embracing new technology.",
+   "exko": "업계가 신기술을 받아들이고 있어요.",
+   "use": [
+    [
+     "Our firm embraced modular construction early.",
+     "우리 회사는 모듈러 공법을 일찍 도입했다."
+    ],
+    [
+     "Embrace feedback — it makes you better.",
+     "피드백을 받아들이세요, 성장하게 해주니까요."
+    ]
+   ],
+   "mcq": [
+    "We embraced the new safety standards.",
+    "We embraced to the new standards.",
+    "We embraced with new standards.",
+    "We made embrace the standards."
+   ],
+   "ans": 0,
+   "note": "embrace + 대상 바로. '적극 수용'의 뉘앙스!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "therapy",
+   "ko": "치료, 요법",
+   "ex": "Physical therapy helped my back pain.",
+   "exko": "물리치료가 허리 통증에 도움이 됐어요.",
+   "use": [
+    [
+     "He's in therapy for his shoulder injury.",
+     "그는 어깨 부상으로 치료를 받고 있다."
+    ],
+    [
+     "Retail therapy — shopping to feel better!",
+     "기분 전환용 쇼핑을 retail therapy라고 해요."
+    ]
+   ],
+   "mcq": [
+    "She's getting therapy for her knee.",
+    "She's getting therapy to her knee.",
+    "She therapies her knee now.",
+    "Her knee is therapy getting."
+   ],
+   "ans": 0,
+   "note": "get/be in therapy = 치료받다. 현장 부상 얘기에 실용적!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "stake",
+   "ko": "지분, 걸린 것, 말뚝",
+   "ex": "Our reputation is at stake.",
+   "exko": "우리 평판이 걸려 있어요.",
+   "use": [
+    [
+     "The firm holds a 30% stake in the project.",
+     "그 회사는 프로젝트 지분 30%를 갖고 있다."
+    ],
+    [
+     "Survey stakes mark the building corners.",
+     "측량 말뚝이 건물 모서리를 표시한다."
+    ]
+   ],
+   "mcq": [
+    "Safety is at stake on every site.",
+    "Safety is on stake at every site.",
+    "Safety stakes at every site.",
+    "The stake safety is at site."
+   ],
+   "ans": 0,
+   "note": "at stake = 걸려 있는. 건설에선 '말뚝' 뜻도 실제로 써요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "counsel",
+   "ko": "조언(하다), 변호인",
+   "ex": "He gave me wise counsel.",
+   "exko": "그가 현명한 조언을 해줬어요.",
+   "use": [
+    [
+     "Seek legal counsel before signing.",
+     "서명 전에 법률 자문을 구하세요."
+    ],
+    [
+     "She counseled patience during the dispute.",
+     "그녀는 분쟁 중에 인내를 권했다."
+    ]
+   ],
+   "mcq": [
+    "We sought counsel from a construction lawyer.",
+    "We sought counsel to a lawyer.",
+    "We counseled from a lawyer us.",
+    "A lawyer was sought counsel by."
+   ],
+   "ans": 0,
+   "note": "seek counsel = 자문을 구하다. counsel(자문) vs council(의회) 철자 주의!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "academic",
+   "ko": "학업의, 학문적인",
+   "ex": "She has a strong academic background.",
+   "exko": "그녀는 학업 배경이 탄탄해요.",
+   "use": [
+    [
+     "The academic year starts in March.",
+     "학년도는 3월에 시작한다."
+    ],
+    [
+     "His writing is too academic for beginners.",
+     "그의 글은 초보자에게 너무 학술적이다."
+    ]
+   ],
+   "mcq": [
+    "He has an excellent academic record.",
+    "He has an excellent academical record.",
+    "He is academic recorded well.",
+    "His record is academically excellent one."
+   ],
+   "ans": 0,
+   "note": "academic record = 학업 성적. academical이란 단어는 잘 안 써요!",
+   "wk": "2026-W35"
   }
  ]
 }
