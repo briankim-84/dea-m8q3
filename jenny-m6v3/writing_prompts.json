@@ -1,0 +1,24 @@
+{
+ "prompts": [
+  {
+   "id": "w35",
+   "q": "If Seoul hosted a global book festival, which district would fit best — and why?",
+   "hint": "이번 주 숙제 ✎ 구 하나를 고르고, 이유를 2~3개로(접근성·분위기·공간 등). 다른 후보를 하나 언급하고 왜 아닌지까지 쓰면 훨씬 설득력 있어요. 150 words 목표!"
+  },
+  {
+   "id": "p1",
+   "q": "Tell me about yourself — as a professional.",
+   "hint": "이직 에세이의 출발점. 경력을 나열하지 말고, 나를 한 문단으로 소개한다면?"
+  },
+  {
+   "id": "p2",
+   "q": "Describe a project or achievement you're proud of.",
+   "hint": "STAR 구조로: 상황 → 내 역할 → 한 일 → 결과. 숫자가 있으면 더 좋아요."
+  },
+  {
+   "id": "p3",
+   "q": "Why are you looking for a new opportunity?",
+   "hint": "불만이 아니라 방향으로. 지금까지 배운 것 + 다음으로 가고 싶은 이유."
+  }
+ ]
+}

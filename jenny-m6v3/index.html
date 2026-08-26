@@ -86,6 +86,11 @@
     </div>
     <div class="meline" id="mline"></div>
   </div>
+  <a class="todo" href="writing.html">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">First Draft</span><span class="d">이직 에세이 연습장 · 편하게 쓰는 공간</span></span>
+    <span class="go">쓰러가기→</span>
+  </a>
   <a class="todo wq" href="../weekly/">
     <span class="chk"></span>
     <span class="tx"><span class="t">Weekly Quiz</span><span class="badge">NEW</span><span class="d">이번 주 표현 퀴즈 · 월요일 업데이트</span></span>
@@ -150,7 +155,7 @@
     if(!r.ok) return;
     const files=(await r.json()).filter(x=>x.type==="file").map(x=>x.name);
     const notes=files.filter(f=>/\.pdf$/i.test(f)).sort();
-    const after=files.filter(f=>/\.html$/i.test(f)&&!/^(index|after|notes|viewer|interview|almostright)\.html$/i.test(f)).sort();
+    const after=files.filter(f=>/\.html$/i.test(f)&&!/^(index|after|notes|viewer|interview|almostright|writing)\.html$/i.test(f)).sort();
     mark('a.todo[href="notes.html"]',"dewb:seen:"+FOLDER+":notes",notes);
     mark('a.todo[href="after.html"]',"dewb:seen:"+FOLDER+":after",after);
     function mark(sel,key,list){

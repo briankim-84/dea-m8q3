@@ -78,7 +78,7 @@ function sortKey(n){
 }
 function render(files){
   const items=files
-    .filter(f=>/\.html$/i.test(f) && !/^(index|after|notes|viewer|interview|almostright)\.html$/i.test(f))
+    .filter(f=>/\.html$/i.test(f) && !/^(index|after|notes|viewer|interview|almostright|writing)\.html$/i.test(f))
     .sort((a,b)=>sortKey(b)-sortKey(a));
   if(!items.length){
     document.getElementById("list").innerHTML=
@@ -98,7 +98,7 @@ async function load(){
       if(r.ok){ const d=await r.json(); files=d.filter(x=>x.type==="file").map(x=>x.name); }
       else if(r.status===404){ files=[]; }
       if(files!==null) try{ localStorage.setItem("dewb:seen:"+FOLDER+":after",
-        JSON.stringify(files.filter(f=>/\.html$/i.test(f)&&!/^(index|after|notes|viewer|interview|almostright)\.html$/i.test(f)).sort())); }catch(e){}
+        JSON.stringify(files.filter(f=>/\.html$/i.test(f)&&!/^(index|after|notes|viewer|interview|almostright|writing)\.html$/i.test(f)).sort())); }catch(e){}
     }catch(e){}
   }
   if(files===null){

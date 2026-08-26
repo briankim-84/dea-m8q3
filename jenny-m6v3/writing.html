@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>First Draft · Do English with Brian</title>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#1A2E4C;--gold:#C9A432;--gold-l:#E8D9A8;--cream:#FBF8EE;--line:#E4DCC8;--mute:#9B937E;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Gowun Dodum',sans-serif;background:#EFE9DA;min-height:100vh;
+    padding:calc(14px + env(safe-area-inset-top)) 14px 40px;}
+  .sheet{max-width:560px;margin:0 auto;background:var(--cream);border-radius:16px;
+    box-shadow:0 4px 18px rgba(70,60,30,.14);padding:22px 20px 26px;position:relative;}
+  .back{display:inline-block;font-family:'Nanum Pen Script';font-size:19px;color:#B0A78E;
+    text-decoration:none;margin-bottom:6px;background:none;border:none;cursor:pointer;padding:0;}
+  .eyebrow{font-family:'Nanum Pen Script';font-size:20px;color:var(--gold);}
+  h1{font-family:Georgia,serif;font-size:30px;color:var(--navy);margin:2px 0 4px;}
+  h1 u{text-decoration-color:var(--gold);text-decoration-thickness:3px;text-underline-offset:6px;}
+  .sub{font-size:12.5px;color:var(--mute);line-height:1.7;margin-bottom:14px;}
+  .pcard{display:block;width:100%;text-align:left;background:#fff;border:1.5px solid var(--line);
+    border-radius:13px;padding:14px 15px;margin-bottom:9px;cursor:pointer;font-family:inherit;}
+  .pcard:active{transform:scale(.99);}
+  .pcard .pt{display:block;font-size:14.5px;font-weight:700;color:var(--navy);line-height:1.5;}
+  .pcard .ps{display:block;font-size:11.5px;color:var(--mute);margin-top:4px;}
+  .pcard .sent{color:#2E7D5B;font-weight:700;}
+  .pcard.free{border-style:dashed;border-color:var(--gold-l);background:#FDFBF2;}
+  .prompt{background:#fff;border:1.5px solid var(--line);border-radius:13px;padding:13px 15px;margin-bottom:10px;}
+  .prompt .pq{font-size:14.5px;font-weight:700;color:var(--navy);line-height:1.55;}
+  .prompt .ph{font-size:11.5px;color:var(--mute);margin-top:5px;line-height:1.6;}
+  .hintbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 10px;}
+  .hintbar .hl{font-family:'Nanum Pen Script';font-size:16.5px;color:#8A8268;}
+  .chip{font-size:11px;font-weight:700;color:#8A6D1F;background:#FBF4DE;border:1px solid var(--gold-l);
+    border-radius:14px;padding:3px 9px;}
+  textarea{width:100%;min-height:280px;background:#fff;border:1.5px solid var(--line);border-radius:13px;
+    padding:14px;font-family:Georgia,'Gowun Dodum',serif;font-size:15px;line-height:1.8;color:#2A2A26;resize:vertical;}
+  textarea:focus{outline:none;border-color:var(--gold);}
+  .meta{display:flex;align-items:center;margin:8px 0 14px;font-size:11.5px;color:var(--mute);}
+  .meta .wc{font-weight:800;color:var(--navy);}
+  .meta .sv{margin-left:auto;}
+  .btn{display:block;width:100%;border:none;border-radius:13px;padding:15px;font-family:inherit;
+    font-size:15.5px;font-weight:700;cursor:pointer;margin-top:9px;}
+  .gold{background:var(--gold);color:#fff;box-shadow:0 3px 10px rgba(201,164,50,.35);}
+  .ghost{background:#fff;color:var(--navy);border:1.5px solid var(--line);}
+  .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:var(--navy);color:#fff;
+    font-size:13px;padding:11px 18px;border-radius:22px;box-shadow:0 4px 14px rgba(0,0,0,.25);
+    opacity:0;transition:opacity .25s;pointer-events:none;white-space:nowrap;}
+  .toast.on{opacity:1;}
+  .foot{font-family:'Nanum Pen Script';font-size:19px;color:#B0A78E;margin-top:22px;}
+  .foot b{color:var(--gold);}
+</style>
+</head>
+<body>
+<div class="sheet"><div id="app"></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const FOLDER="jenny-m6v3";
+const KEY="dewb:writing:"+FOLDER;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function isoW(d){ d=new Date(d); d.setHours(0,0,0,0);
+  d.setDate(d.getDate()+3-((d.getDay()+6)%7));
+  const w1=new Date(d.getFullYear(),0,4);
+  return d.getFullYear()+"-W"+String(1+Math.round(((d-w1)/86400000-3+((w1.getDay()+6)%7))/7)).padStart(2,"0"); }
+const THIS_WEEK=isoW(new Date());
+
+let ST={drafts:{}};
+try{ ST=JSON.parse(localStorage.getItem(KEY))||{drafts:{}}; }catch(e){}
+if(!ST.drafts) ST.drafts={};
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(ST)); }catch(e){}
+  try{ const d=new Date(), t=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+    let ds=JSON.parse(localStorage.getItem("dewb:days")||"[]");
+    if(!ds.includes(t)){ ds.push(t); if(ds.length>90) ds=ds.slice(-90);
+      localStorage.setItem("dewb:days", JSON.stringify(ds)); } }catch(e){} }
+
+let PROMPTS=[], HINTWORDS=[];
+const FREE={id:"free", q:"자유 주제 — 오늘 쓰고 싶은 이야기", hint:"주제도 형식도 자유. 영어로 생각을 꺼내는 연습이 목적이에요."};
+
+function wcount(t){ const m=t.trim().match(/[A-Za-z0-9'’-]+/g); return m?m.length:0; }
+function toast(msg){ const t=$("toast"); t.textContent=msg; t.classList.add("on");
+  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("on"),1800); }
+
+async function boot(){
+  try{
+    const r=await fetch("writing_prompts.json?t="+Date.now());
+    if(r.ok){ const d=await r.json(); PROMPTS=d.prompts||[]; }
+  }catch(e){}
+  try{
+    const r=await fetch("../words/tracks/"+FOLDER+".json?t="+Date.now());
+    if(r.ok){ const tk=await r.json();
+      const cur=tk.words.filter(x=>x.wk===THIS_WEEK).map(x=>x.w);
+      const pool=cur.length?cur:tk.words.map(x=>x.w);
+      HINTWORDS=pool.sort(()=>Math.random()-.5).slice(0,3); }
+  }catch(e){}
+  home();
+}
+
+function home(){
+  const items=[...PROMPTS, FREE];
+  $("app") || null;
+  document.getElementById("app").innerHTML=`
+    <a class="back" href="index.html">← 오늘 할 일로</a>
+    <div class="eyebrow">Do English with Brian ✎</div>
+    <h1><u>First Draft</u></h1>
+    <div class="sub">완벽한 글이 아니라 초안이면 충분해요.<br>
+      쓰다 멈춰도 저장됩니다. 완성되면 선생님께 보내주세요.</div>
+    ${items.map(p=>{
+      const d=ST.drafts[p.id]||{};
+      const n=d.text?wcount(d.text):0;
+      const status = d.sentAt ? `<span class="sent">보냄 ✓</span> · ${n} words`
+                   : n ? `쓰는 중 · ${n} words` : "아직 빈 종이";
+      return `<button class="pcard ${p.id==='free'?'free':''}" data-id="${esc(p.id)}">
+        <span class="pt">${esc(p.q)}</span>
+        <span class="ps">${status}</span>
+      </button>`;
+    }).join("")}
+    <div class="foot">As always, <b>English with Brian</b> ✍️</div>`;
+  document.querySelectorAll(".pcard").forEach(b=>b.addEventListener("click",()=>editor(b.dataset.id)));
+}
+
+function editor(id){
+  const p=[...PROMPTS, FREE].find(x=>x.id===id); if(!p) return home();
+  const d=ST.drafts[id]||(ST.drafts[id]={text:""});
+  document.getElementById("app").innerHTML=`
+    <button class="back" id="bk">← 글 목록으로</button>
+    <div class="prompt">
+      <div class="pq">${esc(p.q)}</div>
+      ${p.hint?`<div class="ph">${esc(p.hint)}</div>`:""}
+    </div>
+    ${HINTWORDS.length?`<div class="hintbar"><span class="hl">이번 주 단어 도전 →</span>
+      ${HINTWORDS.map(w=>`<span class="chip">${esc(w)}</span>`).join("")}</div>`:""}
+    <textarea id="tx" placeholder="Start writing... 한 문장이면 충분한 시작이에요.">${esc(d.text||"")}</textarea>
+    <div class="meta"><span><span class="wc" id="wc">0</span> words</span><span class="sv" id="sv"></span></div>
+    <button class="btn gold" id="send">📮 선생님께 보내기 (복사)</button>
+    <button class="btn ghost" id="done">저장하고 나가기</button>`;
+  const tx=$("tx"), wc=$("wc"), sv=$("sv");
+  const upd=()=>{ wc.textContent=wcount(tx.value); };
+  upd();
+  let t=null;
+  tx.addEventListener("input",()=>{
+    upd();
+    sv.textContent="쓰는 중…";
+    clearTimeout(t);
+    t=setTimeout(()=>{ d.text=tx.value; save(); sv.textContent="자동 저장됨 ✓"; },600);
+  });
+  $("bk").addEventListener("click",()=>{ d.text=tx.value; save(); home(); });
+  $("done").addEventListener("click",()=>{ d.text=tx.value; save(); toast("저장됐어요"); home(); });
+  $("send").addEventListener("click",async()=>{
+    d.text=tx.value; 
+    const n=wcount(d.text);
+    if(n<10){ toast("조금만 더 써볼까요? (10 words부터 전송)"); return; }
+    const today=new Date(), ds=`${today.getFullYear()}.${String(today.getMonth()+1).padStart(2,"0")}.${String(today.getDate()).padStart(2,"0")}`;
+    const msg=`✍️ First Draft · Jenny\n${ds} · ${n} words\n\n[${p.q}]\n\n${d.text.trim()}`;
+    let ok=false;
+    try{ await navigator.clipboard.writeText(msg); ok=true; }catch(e){
+      try{ const ta=document.createElement("textarea"); ta.value=msg; document.body.appendChild(ta);
+        ta.select(); ok=document.execCommand("copy"); document.body.removeChild(ta); }catch(e2){}
+    }
+    if(ok){ d.sentAt=Date.now(); save(); toast("복사 완료! 카톡에 붙여넣어 주세요 📮"); }
+    else toast("복사가 안 됐어요. 길게 눌러 전체 선택해 주세요.");
+  });
+}
+boot();
+</script>
+</body>
+</html>
