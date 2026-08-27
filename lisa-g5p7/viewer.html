@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>자료 보기 · Do English with Brian</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root{ --navy:#1A2E4C; --gold:#C9A432; }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{font-family:'Pretendard',sans-serif;background:#3A3A38;display:flex;flex-direction:column;}
+  .bar{flex:none;background:var(--navy);color:#fff;display:flex;align-items:center;gap:10px;
+    padding:calc(10px + env(safe-area-inset-top)) 14px 10px;box-shadow:0 2px 10px rgba(0,0,0,.3);z-index:10;}
+  .back{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;
+    font-family:inherit;font-size:14px;font-weight:700;padding:9px 14px;border-radius:10px;cursor:pointer;
+    flex:none;white-space:nowrap;}
+  .back:active{background:rgba(255,255,255,.25);}
+  .ttl{flex:1;min-width:0;font-size:13.5px;color:rgba(255,255,255,.75);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .raw{display:none;margin-left:auto;flex:none;color:var(--gold);font-size:12.5px;
+    text-decoration:none;border:1px solid rgba(201,164,50,.5);border-radius:8px;padding:7px 10px;white-space:nowrap;}
+  .stage{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;}
+  #pdf{padding:12px 0 40px;display:flex;flex-direction:column;align-items:center;gap:12px;}
+  #pdf canvas{width:100%;max-width:900px;height:auto;background:#fff;box-shadow:0 3px 14px rgba(0,0,0,.35);}
+  iframe{width:100%;height:100%;border:0;display:block;background:#fff;}
+  .msg{color:#EDE7D8;font-size:14px;line-height:1.7;padding:28px 22px;text-align:center;}
+  .msg a{color:var(--gold);}
+</style>
+</head>
+<body>
+  <div class="bar">
+    <button class="back" id="back">← 목록으로</button>
+    <span class="ttl" id="ttl"></span>
+    <a class="raw" id="raw" target="_blank" rel="noopener" href="#">원본</a>
+  </div>
+  <div class="stage" id="stage"></div>
+
+<script>
+const P=new URLSearchParams(location.search);
+const FILE=P.get("f")||"";
+const FROM=P.get("from")==="notes" ? "notes.html" : "after.html";
+document.getElementById("ttl").textContent=decodeURIComponent(FILE);
+document.getElementById("back").addEventListener("click",()=>{ location.href=FROM; });
+
+/* 같은 이름의 PPTX가 있으면 다운로드 버튼 표시 */
+(function(){
+  if(!/\.pdf$/i.test(FILE)) return;
+  const ppt=FILE.replace(/\.pdf$/i,".pptx");
+  fetch(ppt,{method:"HEAD"}).then(r=>{
+    if(!r.ok) return;
+    const a=document.createElement("a");
+    a.className="raw"; a.href=ppt; a.download="";
+    a.textContent="⬇ PPT";
+    a.style.display="inline-block";
+    a.style.marginLeft="8px";
+    document.querySelector(".bar").appendChild(a);
+  }).catch(()=>{});
+})();
+
+const stage=document.getElementById("stage");
+function fail(m){ stage.innerHTML=`<div class="msg">${m}<br><br>
+  <a href="${FILE}">파일 직접 열기</a></div>`; }
+
+if(!FILE){ fail("파일을 찾을 수 없어요."); }
+else if(/\.pdf$/i.test(FILE)){
+  const box=document.createElement("div"); box.id="pdf"; stage.appendChild(box);
+  const s=document.createElement("script");
+  s.src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js";
+  s.onload=async()=>{
+    try{
+      pdfjsLib.GlobalWorkerOptions.workerSrc=
+        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+      const pdf=await pdfjsLib.getDocument(FILE).promise;
+      const dpr=Math.min(window.devicePixelRatio||1, 2);
+      for(let i=1;i<=pdf.numPages;i++){
+        const page=await pdf.getPage(i);
+        const vp=page.getViewport({scale:1});
+        const w=Math.min(box.clientWidth-24, 900);
+        const scale=(w/vp.width)*dpr;
+        const v2=page.getViewport({scale});
+        const c=document.createElement("canvas");
+        c.width=v2.width; c.height=v2.height;
+        box.appendChild(c);
+        await page.render({canvasContext:c.getContext("2d"),viewport:v2}).promise;
+      }
+    }catch(e){ fail("자료를 불러오지 못했어요."); }
+  };
+  s.onerror=()=>fail("자료를 불러오지 못했어요.");
+  document.head.appendChild(s);
+}else{
+  const raw=document.getElementById("raw");
+  raw.href=FILE; raw.style.display="inline-block";
+  const f=document.createElement("iframe");
+  f.src=FILE;
+  f.setAttribute("allow","microphone; camera; autoplay; fullscreen; clipboard-write");
+  f.setAttribute("allowfullscreen","");
+  stage.appendChild(f);
+}
+</script>
+</body>
+</html>
