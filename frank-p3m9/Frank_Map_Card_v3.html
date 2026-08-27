@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frank의 영어 지도 · Do English with Brian</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<style>
+  :root{ --navy:#1A2E4C; --gold:#C9A432; --paper:#FFFEF8; --line:#DCE4EE; --margin:#F2B8B8; --pencil:#A9A290; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Pretendard',sans-serif;background:#CFC9BA;display:flex;justify-content:center;min-height:100vh;padding:20px 0;}
+  .note{width:100%;max-width:420px;margin:0 14px;background:var(--paper);border-radius:4px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);position:relative;overflow:hidden;
+    background-image:repeating-linear-gradient(transparent,transparent 31px,var(--line) 31px,var(--line) 32px);
+    padding:44px 24px 36px 56px;}
+  .note::before{content:'';position:absolute;left:42px;top:0;bottom:0;width:1px;background:var(--margin);}
+  .holes i{position:absolute;left:12px;width:12px;height:12px;border-radius:50%;background:#CFC9BA;box-shadow:inset 0 1px 2px rgba(0,0,0,.3);}
+  .holes i:nth-child(1){top:60px}.holes i:nth-child(2){top:50%}.holes i:nth-child(3){bottom:60px}
+  .tab{position:absolute;top:0;right:24px;background:var(--gold);color:#fff;font-size:10px;letter-spacing:2px;
+    font-weight:700;padding:10px 10px 12px;border-radius:0 0 6px 6px;writing-mode:vertical-rl;}
+  .date{font-family:'Nanum Pen Script';font-size:20px;color:#B0A78E;margin-bottom:2px;}
+  h1{font-family:'Nanum Pen Script';font-size:36px;color:var(--navy);line-height:1.15;}
+  h1 u{text-decoration-color:var(--gold);text-decoration-thickness:3px;text-underline-offset:5px;}
+  .sub{font-size:12px;color:#9B937E;margin:4px 0 2px;}
+  .total{font-family:'Nanum Pen Script';font-size:23px;color:var(--navy);margin:2px 0 14px;}
+  .total b{background:linear-gradient(transparent 60%, rgba(201,164,50,.35) 60%);font-weight:400;}
+
+  .mapwrap{position:relative;margin:0 -6px;}
+  svg{width:100%;height:auto;display:block;}
+  .terr{cursor:pointer;-webkit-tap-highlight-color:transparent;}
+  .terr:focus{outline:none;}
+  .terr:focus-visible path{stroke-width:3.4;}
+  .terr.on path{filter:drop-shadow(0 2px 3px rgba(26,46,76,.35));stroke-width:3;}
+  @media (prefers-reduced-motion: no-preference){
+    .terr{opacity:0;animation:ink .8s ease forwards;}
+    .terr:nth-of-type(1){animation-delay:.1s}.terr:nth-of-type(2){animation-delay:.28s}
+    .terr:nth-of-type(3){animation-delay:.46s}.terr:nth-of-type(4){animation-delay:.62s}
+    .terr:nth-of-type(5){animation-delay:.76s}.terr:nth-of-type(6){animation-delay:.9s}
+    @keyframes ink{to{opacity:1}}
+  }
+  .legend{display:flex;gap:14px;justify-content:center;margin:6px 0 14px;font-size:10.5px;color:#9B937E;}
+  .legend span{display:flex;align-items:center;gap:5px;}
+  .sw{width:14px;height:10px;border-radius:2px;border:1.5px solid var(--navy);}
+  .sw.deep{background:rgba(201,164,50,.55);}
+  .sw.light{background:rgba(201,164,50,.22);}
+  .sw.fog{border:1.5px dashed var(--pencil);background:transparent;}
+
+  .panel{border:2px solid var(--navy);border-radius:8px;background:rgba(255,254,248,.92);
+    padding:14px 44px 14px 16px;min-height:150px;position:relative;}
+  .pgbtn{position:absolute;top:50%;transform:translateY(-50%);width:32px;height:32px;border:none;background:none;
+    font-family:'Nanum Pen Script';font-size:30px;color:var(--gold);cursor:pointer;line-height:1;padding:0;}
+  .pgbtn.next{right:6px;}
+  .pgbtn.prev{left:6px;}
+  .pgbtn[hidden]{display:none;}
+  .panel.haspv{padding-left:44px;}
+  .panel .ph{font-size:13.5px;color:#9B937E;text-align:center;padding:26px 0;}
+  .panel h3{font-size:14.5px;font-weight:800;color:var(--navy);margin-bottom:6px;}
+  .panel h3 s{font-weight:600;color:var(--gold);text-decoration:none;font-size:12.5px;margin-left:6px;}
+  .panel p{font-size:13.5px;color:#4A4636;line-height:1.55;}
+  .panel ul{list-style:none;margin:7px 0 4px;}
+  .panel li{font-size:12.5px;color:var(--navy);padding:5px 0;line-height:1.4;border-top:1px dashed #E2DCC8;}
+  .panel li:first-child{border-top:0;}
+  .panel li b{font-weight:700;}
+  .panel li em{font-style:normal;color:#8D856E;display:block;font-size:11.5px;}
+  .panel .more{font-family:'Nanum Pen Script';font-size:19px;color:var(--gold);margin-top:6px;}
+
+  .dl{display:flex;align-items:center;gap:12px;margin-top:20px;padding:13px 16px;border:2px solid var(--navy);
+    border-radius:8px;text-decoration:none;background:#fff;}
+  .dl .ic{font-size:20px;}
+  .dl .t{font-size:14.5px;font-weight:800;color:var(--navy);}
+  .dl .d{font-size:11px;color:#A39A82;display:block;margin-top:1px;}
+  .dl .go{margin-left:auto;font-family:'Nanum Pen Script';font-size:19px;color:var(--gold);white-space:nowrap;}
+
+  .memo{margin-top:22px;font-family:'Nanum Pen Script';font-size:21px;color:var(--navy);transform:rotate(-1deg);line-height:1.35;}
+  .memo b{background:linear-gradient(transparent 60%, rgba(201,164,50,.35) 60%);font-weight:400;}
+  .foot{margin-top:16px;font-family:'Nanum Pen Script';font-size:17px;color:#B0A78E;text-align:right;}
+</style>
+</head>
+<body>
+<main class="note">
+  <div class="holes"><i></i><i></i><i></i></div>
+  <div class="tab">YOUR MAP</div>
+
+  <div class="date">2026. 8. 지도 갱신</div>
+  <h1>Frank의 <u>영어 지도</u></h1>
+  <p class="sub">여기까지 왔어요. 다음은 어디를 갈까요?</p>
+  <p class="total">지금까지 배운 표현 <b>139개</b></p>
+
+  <div class="mapwrap">
+  <svg viewBox="0 0 340 292" xmlns="http://www.w3.org/2000/svg">
+    <!-- 나침반 낙서 -->
+    <g stroke="#A9A290" stroke-width="1.4" fill="none" opacity=".8">
+      <circle cx="311" cy="26" r="12"/>
+      <path d="M311 15 L311 37 M300 26 L322 26"/>
+      <path d="M311 15 L308 22 L314 22 Z" fill="#A9A290"/>
+    </g>
+
+    <!-- 업무 소통 -->
+    <g class="terr" data-key="work" tabindex="0" role="button" aria-label="업무 소통, 표현 37개, 자세히 보기">
+      <path d="M52 52 Q78 30 122 36 Q158 40 162 66 Q164 92 128 100 Q84 108 58 92 Q36 78 52 52 Z"
+            fill="rgba(201,164,50,.22)" stroke="#1A2E4C" stroke-width="2" stroke-linejoin="round"/>
+      <text x="97" y="66" text-anchor="middle" font-family="Pretendard" font-weight="800" font-size="14" fill="#1A2E4C">업무 소통</text>
+      <text x="97" y="83" text-anchor="middle" font-family="Pretendard" font-size="10" fill="#8D856E">표현 37</text>
+    </g>
+
+    <!-- 협상·거래 -->
+    <g class="terr" data-key="deal" tabindex="0" role="button" aria-label="협상 거래, 표현 61개, 제일 깊이 판 곳, 자세히 보기">
+      <path d="M44 132 Q60 108 112 112 Q170 116 178 150 Q184 186 140 200 Q88 214 56 192 Q26 170 44 132 Z"
+            fill="rgba(201,164,50,.55)" stroke="#1A2E4C" stroke-width="2.4" stroke-linejoin="round"/>
+      <text x="110" y="150" text-anchor="middle" font-family="Pretendard" font-weight="800" font-size="15" fill="#1A2E4C">협상 · 거래</text>
+      <text x="110" y="168" text-anchor="middle" font-family="Pretendard" font-size="10" fill="#6E6547">표현 61 · 제일 깊이 판 곳</text>
+    </g>
+
+    <!-- 발표·설명 -->
+    <g class="terr" data-key="pres" tabindex="0" role="button" aria-label="발표 설명, 표현 41개, 자세히 보기">
+      <path d="M206 118 Q232 96 272 104 Q306 112 304 146 Q302 180 262 186 Q220 190 204 164 Q192 140 206 118 Z"
+            fill="rgba(201,164,50,.38)" stroke="#1A2E4C" stroke-width="2.2" stroke-linejoin="round"/>
+      <text x="254" y="140" text-anchor="middle" font-family="Pretendard" font-weight="800" font-size="14" fill="#1A2E4C">발표 · 설명</text>
+      <text x="254" y="157" text-anchor="middle" font-family="Pretendard" font-size="10" fill="#6E6547">표현 41</text>
+    </g>
+
+    <!-- 일상·사교 (미탐험) -->
+    <g class="terr" data-key="daily" tabindex="0" role="button" aria-label="일상 사교, 아직 남은 곳, 자세히 보기">
+      <path d="M46 232 Q66 214 104 220 Q136 226 132 250 Q126 272 88 272 Q52 270 44 254 Q40 242 46 232 Z"
+            fill="rgba(255,255,255,.01)" stroke="#A9A290" stroke-width="1.6" stroke-dasharray="5 5" stroke-linejoin="round"/>
+      <text x="88" y="250" text-anchor="middle" font-family="Nanum Pen Script" font-size="17" fill="#A9A290">일상 · 사교 ?</text>
+    </g>
+
+    <!-- 업계 특수 (미탐험) -->
+    <g class="terr" data-key="ind" tabindex="0" role="button" aria-label="업계 특수, 아직 남은 곳, 자세히 보기">
+      <path d="M168 232 Q190 216 226 222 Q256 228 252 252 Q246 272 208 272 Q174 270 164 254 Q160 242 168 232 Z"
+            fill="rgba(255,255,255,.01)" stroke="#A9A290" stroke-width="1.6" stroke-dasharray="5 5" stroke-linejoin="round"/>
+      <text x="208" y="250" text-anchor="middle" font-family="Nanum Pen Script" font-size="17" fill="#A9A290">업계 특수 ?</text>
+    </g>
+
+    <!-- 면접·자기 PR (미탐험) -->
+    <g class="terr" data-key="intv" tabindex="0" role="button" aria-label="면접 자기 PR, 아직 남은 곳, 자세히 보기">
+      <path d="M276 210 Q296 198 318 206 Q334 214 330 236 Q324 258 296 256 Q272 252 270 232 Q270 220 276 210 Z"
+            fill="rgba(255,255,255,.01)" stroke="#A9A290" stroke-width="1.6" stroke-dasharray="5 5" stroke-linejoin="round"/>
+      <text x="301" y="234" text-anchor="middle" font-family="Nanum Pen Script" font-size="15" fill="#A9A290">면접 ?</text>
+    </g>
+  </svg>
+  </div>
+
+  <div class="legend">
+    <span><i class="sw deep"></i>많이 연습한 곳</span>
+    <span><i class="sw light"></i>시작한 곳</span>
+    <span><i class="sw fog"></i>아직 남은 곳</span>
+  </div>
+
+  <div class="panel" id="panel" aria-live="polite">
+    <button class="pgbtn prev" id="pv" hidden aria-label="이전 페이지">‹</button>
+    <div id="pbody"><p class="ph">궁금한 영역을 눌러보세요.</p></div>
+    <button class="pgbtn next" id="nx" hidden aria-label="다음 페이지">›</button>
+  </div>
+
+  <a class="dl" href="Frank_My_Expressions.xlsx" download>
+    <span class="ic">📒</span>
+    <span><span class="t">내가 배운 표현 받기</span>
+    <span class="d">139개 전부 · 엑셀 파일</span></span>
+    <span class="go">저장 →</span>
+  </a>
+
+  <p class="memo">어디가 궁금한지, <b>다음 수업에서 얘기해요.</b></p>
+  <div class="foot">— Brian</div>
+
+<script>
+const DATA = {
+  deal: {
+    title: '협상 · 거래', tag: '제일 깊이 판 곳',
+    can: [
+      ["Field a tough price question.", '가격 반론이 들어와도 받아칠 수 있어요.'],
+      ["Work a trade-show booth — yours, and theirs.", '우리 부스를 지키고, 남의 부스에서 정보를 캐낼 수 있어요.']
+    ],
+    lead: '표현 61개로요. 이런 것들 —',
+    items: [
+      ["I'd rather not waste your time if ~", '~라면 시간 뺏고 싶지 않습니다'],
+      ["Who signs off on this on your end?", '그쪽에선 누가 최종 결정하나요?'],
+      ["I hear you're getting a lot of traction with ~", '~로 반응이 좋다고 들었어요']
+    ],
+    more: '여기 더 파도 돼요.'
+  },
+  pres: {
+    title: '발표 · 설명', tag: '',
+    can: [
+      ["Present your product to a full room.", '여러 명 앞에서 제품 발표를 끝까지 끌고 갈 수 있어요.'],
+      ["Take questions after the talk.", '발표 뒤 질문을 받아서 답할 수 있어요.']
+    ],
+    lead: '표현 41개로요. 이런 것들 —',
+    items: [
+      ["If I understand correctly, you're asking about ~", '제가 맞게 이해했다면, ~에 대한 질문이시죠'],
+      ["That ties back to ~", '그건 아까 말씀드린 ~와 연결됩니다']
+    ],
+    more: '여기 더 파도 돼요.'
+  },
+  work: {
+    title: '업무 소통', tag: '',
+    can: [
+      ["Follow up without being pushy.", '부담스럽지 않게 후속 연락을 이어갈 수 있어요.']
+    ],
+    lead: '표현 37개로요. 이런 것들 —',
+    items: [
+      ["loop someone in", '누군가를 대화에 포함시키다'],
+      ["touch base", '간단히 연락하다']
+    ],
+    more: '여기 더 파도 돼요.'
+  },
+  daily: { title: '일상 · 사교', tag: '아직 남은 곳',
+    lead: '바이어랑 밥 먹을 때, 회의 시작 전 몇 마디. 관계는 이런 데서 쌓이죠.' },
+  ind: { title: '업계 특수', tag: '아직 남은 곳',
+    lead: '성분이며 제형이며 공정이며 — 우리 제품 얘기를 영어로 하는 연습이에요.' },
+  intv: { title: '면접 · 자기 PR', tag: '아직 남은 곳',
+    lead: '영어로 나를 소개할 일은 언젠가 생겨요. 미리 만들어두면 든든하죠.' }
+};
+const panel = document.getElementById('panel');
+const pbody = document.getElementById('pbody');
+const pv = document.getElementById('pv'), nx = document.getElementById('nx');
+let cur = null, page = 0;
+function head(d){ return `<h3>${d.title}${d.tag ? `<s>— ${d.tag}</s>` : ''}</h3>`; }
+function render(){
+  const d = DATA[cur];
+  let html = head(d);
+  if (d.can && page === 0){
+    html += `<p style="font-family:'Nanum Pen Script';font-size:21px;color:var(--navy);margin:2px 0 4px;">You can now —</p>`;
+    html += '<ul>' + d.can.map(([en,ko]) => `<li><b>✓ ${en}</b><em>${ko}</em></li>`).join('') + '</ul>';
+  } else if (d.items){
+    html += `<p>${d.lead}</p>`;
+    html += '<ul>' + d.items.map(([en,ko]) => `<li><b>${en}</b><em>${ko}</em></li>`).join('') + '</ul>';
+    html += `<p class="more">${d.more}</p>`;
+  } else {
+    html += `<p>${d.lead}</p>`;
+  }
+  pbody.innerHTML = html;
+  const two = !!(d.can && d.items);
+  nx.hidden = !(two && page === 0);
+  pv.hidden = !(two && page === 1);
+  panel.classList.toggle('haspv', !pv.hidden);
+}
+function show(key){
+  cur = key; page = 0; render();
+  document.querySelectorAll('.terr').forEach(t => t.classList.toggle('on', t.dataset.key === key));
+  panel.scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+nx.addEventListener('click', () => { page = 1; render(); });
+pv.addEventListener('click', () => { page = 0; render(); });
+document.querySelectorAll('.terr').forEach(t => {
+  t.addEventListener('click', () => show(t.dataset.key));
+  t.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(t.dataset.key); } });
+});
+</script>
+</main>
+</body>
+</html>
