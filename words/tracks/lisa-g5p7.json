@@ -1,0 +1,507 @@
+{
+ "student": "Lisa",
+ "folder": "lisa-g5p7",
+ "band": "상급 3000",
+ "words": [
+  {
+   "w": "consult",
+   "ko": "상담하다, 참고하다",
+   "ex": "Consult the blueprint before you start.",
+   "exko": "시작 전에 도면을 확인하세요.",
+   "use": [
+    [
+     "We consulted a structural engineer.",
+     "구조 엔지니어에게 자문을 구했다."
+    ],
+    [
+     "Consult the safety manual for details.",
+     "자세한 건 안전 매뉴얼을 참고하세요."
+    ]
+   ],
+   "mcq": [
+    "Consult an expert before deciding.",
+    "Consult to an expert before deciding.",
+    "Consult about an expert first.",
+    "Make consult an expert before."
+   ],
+   "ans": 0,
+   "note": "consult + 전문가/자료 바로 연결.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "approval",
+   "ko": "승인",
+   "ex": "The design got final approval.",
+   "exko": "설계가 최종 승인됐어요.",
+   "use": [
+    [
+     "We need city approval before construction.",
+     "착공 전에 시 승인이 필요하다."
+    ],
+    [
+     "The permit approval took three months.",
+     "허가 승인에 석 달이 걸렸다."
+    ]
+   ],
+   "mcq": [
+    "The plan is waiting for approval.",
+    "The plan is waiting for approve.",
+    "The plan waits approval to come it.",
+    "Approval is waited by the plan for."
+   ],
+   "ans": 0,
+   "note": "approval(명사)! 건축 인허가 대화에서 매일 나오는 단어.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "satisfaction",
+   "ko": "만족",
+   "ex": "Customer satisfaction is our priority.",
+   "exko": "고객 만족이 최우선입니다.",
+   "use": [
+    [
+     "He smiled with satisfaction at the finished building.",
+     "그는 완공된 건물을 보며 만족스럽게 웃었다."
+    ],
+    [
+     "Job satisfaction matters more than salary sometimes.",
+     "때로는 연봉보다 직무 만족이 더 중요하다."
+    ]
+   ],
+   "mcq": [
+    "The result gave me great satisfaction.",
+    "The result gave me great satisfying.",
+    "I satisfactioned with the result.",
+    "The satisfaction resulted me greatly."
+   ],
+   "ans": 0,
+   "note": "satisfaction(명사) vs satisfying(형용사) vs satisfied(만족한) 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "precisely",
+   "ko": "정확히",
+   "ex": "The parts must fit precisely.",
+   "exko": "부품이 정확히 맞아야 해요.",
+   "use": [
+    [
+     "Cut the panel precisely to size.",
+     "패널을 치수대로 정확히 자르세요."
+    ],
+    [
+     "That's precisely why we double-check.",
+     "바로 그래서 우리가 재확인하는 거예요."
+    ]
+   ],
+   "mcq": [
+    "Align the frames precisely.",
+    "Align the frames precise.",
+    "Align precisely frames the.",
+    "The frames align precise them."
+   ],
+   "ans": 0,
+   "note": "precisely(부사)가 동사를 꾸며요. 시공 품질 얘기에 딱!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "dispute",
+   "ko": "분쟁",
+   "ex": "The contract dispute lasted two years.",
+   "exko": "그 계약 분쟁은 2년을 끌었어요.",
+   "use": [
+    [
+     "There's a dispute over the construction schedule.",
+     "공사 일정을 두고 분쟁이 있다."
+    ],
+    [
+     "They settled the dispute through mediation.",
+     "그들은 조정을 통해 분쟁을 해결했다."
+    ]
+   ],
+   "mcq": [
+    "The two firms are in a dispute over payment.",
+    "The two firms are in a dispute for over payment.",
+    "The firms dispute in over the payment.",
+    "The dispute is over between firms payment."
+   ],
+   "ans": 0,
+   "note": "in a dispute over + 쟁점. 건설 현장에서 자주 마주치는 단어!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "slight",
+   "ko": "약간의",
+   "ex": "There's been a slight change in the plan.",
+   "exko": "계획에 약간 변경이 있었어요.",
+   "use": [
+    [
+     "I have a slight headache.",
+     "머리가 살짝 아파요."
+    ],
+    [
+     "There was a slight delay in delivery.",
+     "배송이 약간 지연됐다."
+    ]
+   ],
+   "mcq": [
+    "There's a slight difference between the two.",
+    "There's a slightly difference between them.",
+    "The difference is slight little between.",
+    "A slight of difference is there."
+   ],
+   "ans": 0,
+   "note": "slight(형용사) + 명사. slightly는 부사예요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "shelf",
+   "ko": "선반",
+   "ex": "The book is on the top shelf.",
+   "exko": "그 책은 맨 위 선반에 있어요.",
+   "use": [
+    [
+     "I built a shelf for my plants.",
+     "화분용 선반을 만들었다."
+    ],
+    [
+     "Check the shelf life before buying.",
+     "사기 전에 유통기한을 확인하세요."
+    ]
+   ],
+   "mcq": [
+    "Put the boxes on the shelf.",
+    "Put the boxes on the shelves one.",
+    "Shelf the boxes on it.",
+    "The shelf puts boxes on."
+   ],
+   "ans": 0,
+   "note": "shelf(단수)-shelves(복수). shelf life = 유통기한, 보너스 표현!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "storage",
+   "ko": "저장, 보관",
+   "ex": "My phone is out of storage.",
+   "exko": "폰 저장공간이 다 찼어요.",
+   "use": [
+    [
+     "We rented a storage unit for our furniture.",
+     "가구 보관용 창고를 빌렸다."
+    ],
+    [
+     "Cloud storage makes file sharing easy.",
+     "클라우드 저장소 덕에 파일 공유가 쉽다."
+    ]
+   ],
+   "mcq": [
+    "I need more storage on my laptop.",
+    "I need more storages on my laptop.",
+    "I need storage more in laptop many.",
+    "My laptop storages need more."
+   ],
+   "ans": 0,
+   "note": "storage는 셀 수 없는 명사! 복수형 없어요.",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "hence",
+   "ko": "따라서",
+   "ex": "It rained; hence, the game was canceled.",
+   "exko": "비가 왔고, 따라서 경기가 취소됐어요.",
+   "use": [
+    [
+     "The demand rose; hence the higher price.",
+     "수요가 늘었고, 그래서 가격이 올랐다."
+    ],
+    [
+     "He's new here, hence all the questions.",
+     "여기 처음이라 질문이 많은 거예요."
+    ]
+   ],
+   "mcq": [
+    "The flight was delayed; hence, we missed the meeting.",
+    "The flight delayed hence so we missed it.",
+    "Hence the flight, we missed the meeting because.",
+    "We missed hence because the flight."
+   ],
+   "ans": 0,
+   "note": "hence = 그래서(격식). 'hence + 명사'로 동사 없이도 써요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "initially",
+   "ko": "처음에는",
+   "ex": "Initially, I didn't like the idea.",
+   "exko": "처음엔 그 아이디어가 별로였어요.",
+   "use": [
+    [
+     "The project was initially planned for March.",
+     "그 프로젝트는 원래 3월로 계획됐었다."
+    ],
+    [
+     "Initially free, the app now charges a fee.",
+     "처음엔 무료였던 앱이 이제 유료다."
+    ]
+   ],
+   "mcq": [
+    "Initially, the plan seemed perfect.",
+    "Initial, the plan seemed perfect.",
+    "The plan initially was seeming perfect at first beginning.",
+    "At initially the plan was perfect."
+   ],
+   "ans": 0,
+   "note": "initially(부사) = at first. initial은 형용사!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "occasionally",
+   "ko": "가끔",
+   "ex": "I occasionally work from home.",
+   "exko": "가끔 재택근무를 해요.",
+   "use": [
+    [
+     "We occasionally eat out on weekends.",
+     "주말에 가끔 외식한다."
+    ],
+    [
+     "Occasionally, the system needs a restart.",
+     "가끔 시스템 재시작이 필요하다."
+    ]
+   ],
+   "mcq": [
+    "I occasionally check my old emails.",
+    "I occasional check my old emails.",
+    "I check occasionally sometimes my emails.",
+    "Occasionally times I check emails."
+   ],
+   "ans": 0,
+   "note": "occasionally = sometimes보다 빈도 낮음. occasional(형용사)과 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "guideline",
+   "ko": "지침",
+   "ex": "Please follow the safety guidelines.",
+   "exko": "안전 지침을 따라 주세요.",
+   "use": [
+    [
+     "The new guidelines take effect Monday.",
+     "새 지침은 월요일부터 적용된다."
+    ],
+    [
+     "We set clear guidelines for remote work.",
+     "재택근무에 대한 명확한 지침을 만들었다."
+    ]
+   ],
+   "mcq": [
+    "Follow the guidelines carefully.",
+    "Follow the guideline lines carefully.",
+    "Guideline the follows carefully.",
+    "The following guidelines careful."
+   ],
+   "ans": 0,
+   "note": "보통 복수 guidelines로 써요. follow/set guidelines가 기본 짝!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "embrace",
+   "ko": "받아들이다, 껴안다",
+   "ex": "Embrace change instead of fearing it.",
+   "exko": "변화를 두려워하지 말고 받아들이세요.",
+   "use": [
+    [
+     "The company embraced new technology early.",
+     "그 회사는 신기술을 일찍 받아들였다."
+    ],
+    [
+     "She embraced her daughter warmly.",
+     "그녀는 딸을 따뜻하게 안았다."
+    ]
+   ],
+   "mcq": [
+    "We should embrace new ideas.",
+    "We should embrace to new ideas.",
+    "We should embrace with new ideas.",
+    "We should make embrace ideas."
+   ],
+   "ans": 0,
+   "note": "embrace + 대상 바로 연결. '적극 수용하다'는 뜻으로 비즈니스에서 인기!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "stake",
+   "ko": "지분, 걸린 것",
+   "ex": "There's a lot at stake in this decision.",
+   "exko": "이 결정에는 걸린 게 많아요.",
+   "use": [
+    [
+     "She owns a 20% stake in the company.",
+     "그녀는 회사 지분 20%를 갖고 있다."
+    ],
+    [
+     "Our reputation is at stake.",
+     "우리 평판이 걸려 있다."
+    ]
+   ],
+   "mcq": [
+    "Millions of dollars are at stake.",
+    "Millions of dollars are on stake.",
+    "Millions of dollars stake now.",
+    "The stake is at millions."
+   ],
+   "ans": 0,
+   "note": "at stake = 걸려 있는, 위태로운. 고정 표현이라 전치사 바꾸면 안 돼요!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "flexible",
+   "ko": "유연한",
+   "ex": "My schedule is pretty flexible this week.",
+   "exko": "이번 주 일정은 꽤 자유로워요.",
+   "use": [
+    [
+     "We offer flexible working hours.",
+     "우리는 유연근무제를 운영한다."
+    ],
+    [
+     "Stay flexible — plans might change.",
+     "계획이 바뀔 수 있으니 유연하게 있어요."
+    ]
+   ],
+   "mcq": [
+    "I'm flexible about the meeting time.",
+    "I'm flexible to the meeting time.",
+    "I flexible the meeting time.",
+    "The time is flexible me."
+   ],
+   "ans": 0,
+   "note": "flexible about = ~에 대해 유연한. '아무 때나 괜찮아요'를 세련되게!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "sufficient",
+   "ko": "충분한",
+   "ex": "We have sufficient time to prepare.",
+   "exko": "준비할 시간은 충분해요.",
+   "use": [
+    [
+     "One example is sufficient.",
+     "예시 하나면 충분합니다."
+    ],
+    [
+     "The evidence wasn't sufficient to prove it.",
+     "그걸 입증하기엔 증거가 부족했다."
+    ]
+   ],
+   "mcq": [
+    "The budget is sufficient for the project.",
+    "The budget is sufficient to the project.",
+    "The budget sufficients the project.",
+    "The budget is sufficiently for project."
+   ],
+   "ans": 0,
+   "note": "sufficient for + 명사 / sufficient to + 동사. enough의 격식 버전!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "significantly",
+   "ko": "상당히, 크게",
+   "ex": "Sales increased significantly this year.",
+   "exko": "올해 매출이 크게 늘었어요.",
+   "use": [
+    [
+     "The new method significantly reduced errors.",
+     "새 방법이 오류를 크게 줄였다."
+    ],
+    [
+     "Prices vary significantly by region.",
+     "가격이 지역마다 상당히 다르다."
+    ]
+   ],
+   "mcq": [
+    "Costs dropped significantly last month.",
+    "Costs dropped significant last month.",
+    "Costs significantly were drop.",
+    "Costs dropped with significantly."
+   ],
+   "ans": 0,
+   "note": "동사를 꾸미는 부사 — significant(형용사)와 구분!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "specifically",
+   "ko": "구체적으로, 특별히",
+   "ex": "I specifically asked for a window seat.",
+   "exko": "제가 분명히 창가 자리를 요청했는데요.",
+   "use": [
+    [
+     "This app was designed specifically for beginners.",
+     "이 앱은 초보자 전용으로 설계됐다."
+    ],
+    [
+     "What specifically do you need?",
+     "구체적으로 뭐가 필요하세요?"
+    ]
+   ],
+   "mcq": [
+    "This course is specifically for nurses.",
+    "This course is specific for nurses only made.",
+    "This course specifics for nurses.",
+    "Specifically course is for nurses."
+   ],
+   "ans": 0,
+   "note": "specifically for = ~을 위해 특별히. 강조할 때 아주 유용!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "arrangement",
+   "ko": "준비, 합의, 배치",
+   "ex": "I'll make the arrangements for the trip.",
+   "exko": "여행 준비는 제가 할게요.",
+   "use": [
+    [
+     "We have an arrangement with that company.",
+     "그 회사와 협의된 게 있어요."
+    ],
+    [
+     "The flower arrangement was beautiful.",
+     "꽃꽂이가 아름다웠다."
+    ]
+   ],
+   "mcq": [
+    "I'll make arrangements for the meeting.",
+    "I'll do arrangements for the meeting.",
+    "I'll take arrangements to the meeting.",
+    "I'll get arrangement of meeting."
+   ],
+   "ans": 0,
+   "note": "make arrangements = 준비하다, 채비하다. make와 짝!",
+   "wk": "2026-W35"
+  },
+  {
+   "w": "flavor",
+   "ko": "맛, 풍미",
+   "ex": "Which flavor do you want — mint or mango?",
+   "exko": "민트랑 망고 중 어떤 맛으로 할래요?",
+   "use": [
+    [
+     "The soup has a rich, deep flavor.",
+     "그 수프는 풍미가 깊다."
+    ],
+    [
+     "Local markets give you a flavor of the culture.",
+     "현지 시장에 가면 그 문화의 맛을 느낄 수 있다."
+    ]
+   ],
+   "mcq": [
+    "This tea has a subtle flavor.",
+    "This tea has a subtle taste flavor.",
+    "This tea flavors subtle.",
+    "Subtle flavors this tea has it."
+   ],
+   "ans": 0,
+   "note": "flavor = 특유의 맛·풍미. a flavor of + 문화/도시 = ~의 분위기 맛보기!",
+   "wk": "2026-W35"
+  }
+ ]
+}
