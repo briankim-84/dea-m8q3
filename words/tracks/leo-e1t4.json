@@ -1002,6 +1002,506 @@
    "ans": 0,
    "note": "do laundry — do와 짝, 셀 수 없는 명사! 출장·일상 회화 필수.",
    "wk": "2026-W35"
+  },
+  {
+   "w": "wrist",
+   "ko": "손목",
+   "ex": "She sprained her wrist playing tennis.",
+   "exko": "그녀는 테니스 치다 손목을 삐었어요.",
+   "use": [
+    [
+     "Keep your wrists neutral during planks.",
+     "플랭크 중엔 손목을 중립으로 유지하세요."
+    ],
+    [
+     "He wears a watch on his left wrist.",
+     "그는 왼 손목에 시계를 찬다."
+    ]
+   ],
+   "mcq": [
+    "Rotate your wrists slowly before lifting.",
+    "Rotate your wrist arms slowly before lifting.",
+    "Rotate slowly your wrists hand before.",
+    "Your wrists rotate you slowly before."
+   ],
+   "ans": 0,
+   "note": "wrist = 손목. 필라테스 큐잉 필수 부위 명칭!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "trauma",
+   "ko": "외상, 트라우마",
+   "ex": "The scan showed no head trauma.",
+   "exko": "스캔상 두부 외상은 없었어요.",
+   "use": [
+    [
+     "Repeated trauma weakens the joint.",
+     "반복된 외상은 관절을 약화시킨다."
+    ],
+    [
+     "She specializes in sports trauma care.",
+     "그녀는 스포츠 외상 치료 전문이다."
+    ]
+   ],
+   "mcq": [
+    "The knee showed signs of old trauma.",
+    "The knee showed signs of old traumas injury.",
+    "Old trauma signed the knee shows.",
+    "The trauma knee showed old signs it."
+   ],
+   "ans": 0,
+   "note": "의학에선 '물리적 외상', 일상에선 '심리적 상처' — 둘 다 trauma!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "rebuild",
+   "ko": "재건하다, 되살리다",
+   "ex": "It takes months to rebuild muscle strength.",
+   "exko": "근력을 되살리는 데 몇 달이 걸려요.",
+   "use": [
+    [
+     "She rebuilt her career after the injury.",
+     "그녀는 부상 후 커리어를 다시 일으켰다."
+    ],
+    [
+     "The therapy helps rebuild confidence.",
+     "그 치료는 자신감 회복을 돕는다."
+    ]
+   ],
+   "mcq": [
+    "We rebuild strength step by step.",
+    "We rebuild up strength step by step.",
+    "We rebuild to strength steps.",
+    "Strength rebuilds we step by."
+   ],
+   "ans": 0,
+   "note": "rebuild + 근력/신뢰/커리어. 재활(rehab) 대화의 핵심 동사!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "conscious",
+   "ko": "의식이 있는, 의식하는",
+   "ex": "The patient was conscious the whole time.",
+   "exko": "환자는 내내 의식이 있었어요.",
+   "use": [
+    [
+     "Be conscious of your breathing during the exercise.",
+     "운동 중엔 호흡을 의식하세요."
+    ],
+    [
+     "She's very health-conscious.",
+     "그녀는 건강에 아주 신경 쓴다."
+    ]
+   ],
+   "mcq": [
+    "Stay conscious of your posture all day.",
+    "Stay conscious for your posture all day.",
+    "Stay consciously of posture all day.",
+    "Your posture stays conscious of you."
+   ],
+   "ans": 0,
+   "note": "conscious of = ~을 의식하는. health-conscious처럼 합성어로도!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "vitamin",
+   "ko": "비타민",
+   "ex": "Vitamin D helps bone health.",
+   "exko": "비타민 D는 뼈 건강에 도움 돼요.",
+   "use": [
+    [
+     "Get your vitamins from real food first.",
+     "비타민은 우선 실제 음식으로 섭취하세요."
+    ],
+    [
+     "She takes a vitamin supplement daily.",
+     "그녀는 매일 비타민 보충제를 먹는다."
+    ]
+   ],
+   "mcq": [
+    "Oranges are rich in vitamin C.",
+    "Oranges are rich in vitamins C.",
+    "Oranges rich are in vitamin C.",
+    "Vitamin C riches oranges in."
+   ],
+   "ans": 0,
+   "note": "vitamin C/D처럼 특정 비타민은 단수! 발음은 미국식 /바이러민/에 가까워요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "grip",
+   "ko": "쥐는 힘, 움켜쥐다",
+   "ex": "Loosen your grip on the bar.",
+   "exko": "바를 쥔 힘을 좀 푸세요.",
+   "use": [
+    [
+     "Grip strength predicts overall health.",
+     "악력은 전반적 건강의 지표다."
+    ],
+    [
+     "He gripped the rail on the icy stairs.",
+     "그는 얼어붙은 계단에서 난간을 꽉 잡았다."
+    ]
+   ],
+   "mcq": [
+    "Keep a light grip on the handle.",
+    "Keep a light grip to the handle.",
+    "Keep grip lightly the handle on.",
+    "The handle grips a light keep."
+   ],
+   "ans": 0,
+   "note": "grip on + 대상. 필라테스 기구 지도에서 매일 쓰는 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "crawl",
+   "ko": "기다, 기어가다",
+   "ex": "Babies crawl before they walk.",
+   "exko": "아기는 걷기 전에 기어요.",
+   "use": [
+    [
+     "Bear crawls are great for core strength.",
+     "베어 크롤은 코어 강화에 최고다."
+    ],
+    [
+     "Traffic crawled along the highway.",
+     "차들이 고속도로에서 기어갔다."
+    ]
+   ],
+   "mcq": [
+    "The baby crawled across the room.",
+    "The baby crawled acrossing the room.",
+    "The baby made crawl the room across.",
+    "Across the room crawled it baby the."
+   ],
+   "ans": 0,
+   "note": "crawl = 기다. 운동명(bear crawl), 수영 자유형(the crawl)까지!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "bounce",
+   "ko": "튀다, 회복하다",
+   "ex": "The ball bounced twice before the line.",
+   "exko": "공이 라인 앞에서 두 번 튀었어요.",
+   "use": [
+    [
+     "Don't bounce at the bottom of a squat.",
+     "스쿼트 최저점에서 반동 주지 마세요."
+    ],
+    [
+     "She bounced back quickly from the surgery.",
+     "그녀는 수술에서 빠르게 회복했다."
+    ]
+   ],
+   "mcq": [
+    "He bounced back from the injury fast.",
+    "He bounced back himself from the injury.",
+    "He bounced from back the injury.",
+    "The injury bounced him back fast from."
+   ],
+   "ans": 0,
+   "note": "bounce back = (부상·실패에서) 회복하다. 재활 대화의 희망 동사!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "immune",
+   "ko": "면역의, 영향받지 않는",
+   "ex": "Exercise strengthens the immune system.",
+   "exko": "운동은 면역 체계를 강화해요.",
+   "use": [
+    [
+     "Sleep is key to immune health.",
+     "수면은 면역 건강의 핵심이다."
+    ],
+    [
+     "No one is immune to stress.",
+     "스트레스에 영향 안 받는 사람은 없다."
+    ]
+   ],
+   "mcq": [
+    "Athletes aren't immune to burnout.",
+    "Athletes aren't immune from to burnout.",
+    "Athletes immune aren't burnout to.",
+    "Burnout isn't immune athletes to."
+   ],
+   "ans": 0,
+   "note": "immune to = ~에 면역인/영향받지 않는. immune system(면역계)과 세트!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "sweat",
+   "ko": "땀 (흘리다)",
+   "ex": "Don't sweat the small stuff.",
+   "exko": "사소한 일에 애태우지 마세요.",
+   "use": [
+    [
+     "A good workout makes you sweat.",
+     "제대로 운동하면 땀이 난다."
+    ],
+    [
+     "He was sweating before the presentation.",
+     "그는 발표 전에 진땀을 흘리고 있었다."
+    ]
+   ],
+   "mcq": [
+    "I sweat a lot during hot yoga.",
+    "I sweat much lot during hot yoga.",
+    "I make sweat during hot yoga.",
+    "Hot yoga sweats me a lot during."
+   ],
+   "ans": 0,
+   "note": "Don't sweat it = 걱정 마! 땀에서 나온 회화 표현까지 챙기세요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "limb",
+   "ko": "팔다리, 사지",
+   "ex": "Stretch all four limbs slowly.",
+   "exko": "팔다리를 천천히 쭉 뻗으세요.",
+   "use": [
+    [
+     "The exercise works every limb.",
+     "그 운동은 팔다리 전부를 쓴다."
+    ],
+    [
+     "He went out on a limb to defend her.",
+     "그는 위험을 무릅쓰고 그녀를 옹호했다."
+    ]
+   ],
+   "mcq": [
+    "Keep your limbs relaxed in this pose.",
+    "Keep your limb arms relaxed in pose.",
+    "Keep relaxed your limbs the pose in.",
+    "Your limbs keep you relaxed pose."
+   ],
+   "ans": 0,
+   "note": "limb = 팔·다리 통칭. go out on a limb(위험 감수)도 고급 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "ankle",
+   "ko": "발목",
+   "ex": "He twisted his ankle on the trail.",
+   "exko": "그는 산길에서 발목을 접질렸어요.",
+   "use": [
+    [
+     "Ankle mobility affects your squat depth.",
+     "발목 가동성이 스쿼트 깊이를 좌우한다."
+    ],
+    [
+     "She wore a brace on her ankle.",
+     "그녀는 발목에 보호대를 찼다."
+    ]
+   ],
+   "mcq": [
+    "Circle your ankles ten times each way.",
+    "Circle your ankle foots ten times.",
+    "Circle ten your ankles times each.",
+    "Your ankles circle you ten times."
+   ],
+   "ans": 0,
+   "note": "ankle = 발목. twist/sprain one's ankle(접질리다)이 실전 짝!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "runner",
+   "ko": "달리는 사람, 주자",
+   "ex": "She's a serious marathon runner.",
+   "exko": "그녀는 진지한 마라토너예요.",
+   "use": [
+    [
+     "Runners often neglect hip strength.",
+     "러너들은 고관절 근력을 소홀히 하기 쉽다."
+    ],
+    [
+     "The runner stretched before the race.",
+     "주자는 경기 전에 스트레칭했다."
+    ]
+   ],
+   "mcq": [
+    "Many runners get knee pain.",
+    "Many runner peoples get knee pain.",
+    "Many runners gets knee pain.",
+    "Knee pain get many runners it."
+   ],
+   "ans": 0,
+   "note": "동사+er = 사람. runner's knee(러너 무릎)라는 의학 용어도!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "oral",
+   "ko": "구두의, 입의",
+   "ex": "The oral exam is next week.",
+   "exko": "구술시험이 다음 주예요.",
+   "use": [
+    [
+     "She gave an oral presentation at the conference.",
+     "그녀는 학회에서 구두 발표를 했다."
+    ],
+    [
+     "Good oral hygiene prevents many problems.",
+     "구강 위생이 많은 문제를 예방한다."
+    ]
+   ],
+   "mcq": [
+    "The results were given in an oral report.",
+    "The results were given in an orally report.",
+    "The oral gave results in report.",
+    "An oral report given the results in were."
+   ],
+   "ans": 0,
+   "note": "oral presentation = 구두 발표(학회 필수!), oral hygiene = 구강 위생.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "retrieve",
+   "ko": "되찾다, 회수하다",
+   "ex": "I retrieved the file from the backup.",
+   "exko": "백업에서 파일을 되찾았어요.",
+   "use": [
+    [
+     "The dog loves retrieving the ball.",
+     "그 개는 공 물어오기를 좋아한다."
+    ],
+    [
+     "She retrieved her bag from the locker.",
+     "그녀는 사물함에서 가방을 찾아왔다."
+    ]
+   ],
+   "mcq": [
+    "He retrieved the data from the old drive.",
+    "He retrieved back the data from drive.",
+    "He retrieved to the data old drive.",
+    "The data retrieved him from the drive."
+   ],
+   "ans": 0,
+   "note": "retrieve = 가서 되찾아오다. get back의 격식 버전!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "deadline",
+   "ko": "마감일",
+   "ex": "The abstract deadline is Friday.",
+   "exko": "초록 마감이 금요일이에요.",
+   "use": [
+    [
+     "We're working against a tight deadline.",
+     "빡빡한 마감에 맞춰 일하는 중이다."
+    ],
+    [
+     "She never misses a deadline.",
+     "그녀는 마감을 어긴 적이 없다."
+    ]
+   ],
+   "mcq": [
+    "Can we extend the deadline by a week?",
+    "Can we extend the deadline until by a week?",
+    "Can the deadline extend we a week by?",
+    "A week extends the deadline can we?"
+   ],
+   "ans": 0,
+   "note": "meet/miss/extend a deadline 삼총사로 기억! 학회 시즌 필수.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "outstanding",
+   "ko": "뛰어난, 미결제의",
+   "ex": "Her presentation was outstanding.",
+   "exko": "그녀의 발표는 탁월했어요.",
+   "use": [
+    [
+     "He received the outstanding researcher award.",
+     "그는 우수 연구자상을 받았다."
+    ],
+    [
+     "You have an outstanding balance of 30,000 won.",
+     "미납 잔액이 3만 원 있습니다."
+    ]
+   ],
+   "mcq": [
+    "The team did an outstanding job.",
+    "The team did an outstanded job.",
+    "The team outstanding did a job.",
+    "An outstanding did the team job."
+   ],
+   "ans": 0,
+   "note": "뛰어난! + '미결제된'이라는 뜻도(outstanding balance) — 청구서에서 만나요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "profound",
+   "ko": "깊은, 심오한",
+   "ex": "The injury had a profound effect on him.",
+   "exko": "그 부상은 그에게 깊은 영향을 줬어요.",
+   "use": [
+    [
+     "Sleep has a profound impact on recovery.",
+     "수면은 회복에 지대한 영향을 미친다."
+    ],
+    [
+     "She asked a profound question.",
+     "그녀는 심오한 질문을 던졌다."
+    ]
+   ],
+   "mcq": [
+    "The study had a profound influence on the field.",
+    "The study had a profoundly influence on field.",
+    "The profound had a study influence.",
+    "A profound influence the study had on it."
+   ],
+   "ans": 0,
+   "note": "profound effect/impact/influence — deep의 학술 버전. 논문·발표용!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "ritual",
+   "ko": "의식, 루틴",
+   "ex": "Morning stretching is my daily ritual.",
+   "exko": "아침 스트레칭은 제 하루 의식이에요.",
+   "use": [
+    [
+     "Pre-game rituals calm the athletes.",
+     "경기 전 루틴이 선수들을 진정시킨다."
+    ],
+    [
+     "Tea time is a family ritual for us.",
+     "티타임은 우리 가족의 의식이다."
+    ]
+   ],
+   "mcq": [
+    "Warming up became a ritual for the team.",
+    "Warming up became a ritual habit for team.",
+    "A ritual became warming up team for.",
+    "The team ritualed warming up became."
+   ],
+   "ans": 0,
+   "note": "ritual = 의미가 담긴 반복 루틴. routine보다 정서적인 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "cheer",
+   "ko": "응원하다, 환호",
+   "ex": "The crowd cheered for the runners.",
+   "exko": "관중이 주자들을 응원했어요.",
+   "use": [
+    [
+     "We cheered her on at the finish line.",
+     "우리는 결승선에서 그녀를 응원했다."
+    ],
+    [
+     "The good news cheered everyone up.",
+     "좋은 소식에 모두 기운이 났다."
+    ]
+   ],
+   "mcq": [
+    "Everyone cheered when she finished.",
+    "Everyone cheered up her when finished.",
+    "Everyone cheered to when she finished.",
+    "When she finished cheered everyone it."
+   ],
+   "ans": 0,
+   "note": "cheer for(응원하다), cheer up(기운 내다/내게 하다) — 전치사로 뜻이 갈려요!",
+   "wk": "2026-W36"
   }
  ]
 }

@@ -1002,6 +1002,506 @@
    "ans": 0,
    "note": "vulnerable to + 위협. 심리 얘기(솔직히 약해지기)에도 써서 활용도 최고!",
    "wk": "2026-W35"
+  },
+  {
+   "w": "judgment",
+   "ko": "판단",
+   "ex": "I trust your judgment on this.",
+   "exko": "이 건은 당신 판단을 믿을게요.",
+   "use": [
+    [
+     "Use your best judgment.",
+     "알아서 잘 판단하세요."
+    ],
+    [
+     "In my judgment, the plan is too risky.",
+     "제 판단으로는 그 계획은 너무 위험해요."
+    ]
+   ],
+   "mcq": [
+    "It was an error of judgment.",
+    "It was an error of judging mind.",
+    "It was a judgment mistake error.",
+    "The judgment made an error to me."
+   ],
+   "ans": 0,
+   "note": "an error of judgment = 판단 착오. 비즈니스에서 자주 쓰는 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "legislation",
+   "ko": "법률, 입법",
+   "ex": "New legislation on privacy was passed.",
+   "exko": "개인정보 관련 새 법이 통과됐어요.",
+   "use": [
+    [
+     "The legislation takes effect next year.",
+     "그 법은 내년에 시행된다."
+    ],
+    [
+     "They're pushing for stricter legislation.",
+     "그들은 더 엄격한 법 제정을 추진 중이다."
+    ]
+   ],
+   "mcq": [
+    "The new legislation was passed last week.",
+    "The new legislations were passed.",
+    "A legislation passed the law.",
+    "They legislationed the new rule."
+   ],
+   "ans": 0,
+   "note": "legislation은 셀 수 없는 명사 — 복수형 없이 써요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "sufficient",
+   "ko": "충분한",
+   "ex": "We have sufficient time to prepare.",
+   "exko": "준비할 시간은 충분해요.",
+   "use": [
+    [
+     "One example is sufficient.",
+     "예시 하나면 충분합니다."
+    ],
+    [
+     "The evidence wasn't sufficient to prove it.",
+     "그걸 입증하기엔 증거가 부족했다."
+    ]
+   ],
+   "mcq": [
+    "The budget is sufficient for the project.",
+    "The budget is sufficient to the project.",
+    "The budget sufficients the project.",
+    "The budget is sufficiently for project."
+   ],
+   "ans": 0,
+   "note": "sufficient for + 명사 / sufficient to + 동사. enough의 격식 버전!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "academic",
+   "ko": "학업의, 학문적인",
+   "ex": "She has a strong academic background.",
+   "exko": "그녀는 학업 배경이 탄탄해요.",
+   "use": [
+    [
+     "The academic year starts in March.",
+     "학년도는 3월에 시작한다."
+    ],
+    [
+     "His writing is too academic for beginners.",
+     "그의 글은 초보자에게 너무 학술적이다."
+    ]
+   ],
+   "mcq": [
+    "He has an excellent academic record.",
+    "He has an excellent academical record.",
+    "He is academic recorded well.",
+    "His record is academically excellent one."
+   ],
+   "ans": 0,
+   "note": "academic record = 학업 성적. academical이란 단어는 잘 안 써요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "significantly",
+   "ko": "상당히, 크게",
+   "ex": "Sales increased significantly this year.",
+   "exko": "올해 매출이 크게 늘었어요.",
+   "use": [
+    [
+     "The new method significantly reduced errors.",
+     "새 방법이 오류를 크게 줄였다."
+    ],
+    [
+     "Prices vary significantly by region.",
+     "가격이 지역마다 상당히 다르다."
+    ]
+   ],
+   "mcq": [
+    "Costs dropped significantly last month.",
+    "Costs dropped significant last month.",
+    "Costs significantly were drop.",
+    "Costs dropped with significantly."
+   ],
+   "ans": 0,
+   "note": "동사를 꾸미는 부사 — significant(형용사)와 구분!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "specifically",
+   "ko": "구체적으로, 특별히",
+   "ex": "I specifically asked for a window seat.",
+   "exko": "제가 분명히 창가 자리를 요청했는데요.",
+   "use": [
+    [
+     "This app was designed specifically for beginners.",
+     "이 앱은 초보자 전용으로 설계됐다."
+    ],
+    [
+     "What specifically do you need?",
+     "구체적으로 뭐가 필요하세요?"
+    ]
+   ],
+   "mcq": [
+    "This course is specifically for nurses.",
+    "This course is specific for nurses only made.",
+    "This course specifics for nurses.",
+    "Specifically course is for nurses."
+   ],
+   "ans": 0,
+   "note": "specifically for = ~을 위해 특별히. 강조할 때 아주 유용!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "arrangement",
+   "ko": "준비, 합의, 배치",
+   "ex": "I'll make the arrangements for the trip.",
+   "exko": "여행 준비는 제가 할게요.",
+   "use": [
+    [
+     "We have an arrangement with that company.",
+     "그 회사와 협의된 게 있어요."
+    ],
+    [
+     "The flower arrangement was beautiful.",
+     "꽃꽂이가 아름다웠다."
+    ]
+   ],
+   "mcq": [
+    "I'll make arrangements for the meeting.",
+    "I'll do arrangements for the meeting.",
+    "I'll take arrangements to the meeting.",
+    "I'll get arrangement of meeting."
+   ],
+   "ans": 0,
+   "note": "make arrangements = 준비하다, 채비하다. make와 짝!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "resolution",
+   "ko": "결심, 해결",
+   "ex": "My New Year's resolution is to read more.",
+   "exko": "새해 결심은 책을 더 읽는 거예요.",
+   "use": [
+    [
+     "We reached a resolution after long talks.",
+     "오랜 대화 끝에 합의에 도달했다."
+    ],
+    [
+     "The conflict needs a quick resolution.",
+     "그 갈등은 빠른 해결이 필요하다."
+    ]
+   ],
+   "mcq": [
+    "Did you keep your New Year's resolution?",
+    "Did you keep your New Year's resolve mind?",
+    "Did you resolution this year?",
+    "Is your resolution kept by year?"
+   ],
+   "ans": 0,
+   "note": "keep a resolution = 결심을 지키다.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "motion",
+   "ko": "움직임, 동작",
+   "ex": "The boat's motion made me sleepy.",
+   "exko": "배의 흔들림에 잠이 왔어요.",
+   "use": [
+    [
+     "He explained the exercise in slow motion.",
+     "그는 그 동작을 슬로모션으로 설명했다."
+    ],
+    [
+     "The camera detects motion at night.",
+     "그 카메라는 밤에 움직임을 감지한다."
+    ]
+   ],
+   "mcq": [
+    "Repeat the motion ten times.",
+    "Repeat the motion movement ten times.",
+    "Motion the repeat ten times.",
+    "Repeat ten motions of times."
+   ],
+   "ans": 0,
+   "note": "motion = 동작. 운동 지도할 때 movement와 함께 핵심 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "advocate",
+   "ko": "옹호하다, 옹호자",
+   "ex": "She advocates for patient rights.",
+   "exko": "그녀는 환자 권리를 옹호해요.",
+   "use": [
+    [
+     "He's a strong advocate of healthy eating.",
+     "그는 건강한 식습관의 강력한 지지자다."
+    ],
+    [
+     "The group advocates using less plastic.",
+     "그 단체는 플라스틱 줄이기를 주장한다."
+    ]
+   ],
+   "mcq": [
+    "She advocates for better working conditions.",
+    "She advocates to better conditions.",
+    "She advocates about better conditions.",
+    "She makes advocate better conditions."
+   ],
+   "ans": 0,
+   "note": "advocate for + 대상 = ~를 위해 목소리를 내다.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "testimony",
+   "ko": "증언",
+   "ex": "Her testimony changed the case.",
+   "exko": "그녀의 증언이 사건을 뒤집었어요.",
+   "use": [
+    [
+     "The witness gave testimony in court.",
+     "증인이 법정에서 증언했다."
+    ],
+    [
+     "His success is a testimony to hard work.",
+     "그의 성공은 노력의 증거다."
+    ]
+   ],
+   "mcq": [
+    "The witness gave testimony yesterday.",
+    "The witness gave a testimony speech talk.",
+    "The witness testimonied yesterday.",
+    "Testimony gave the witness yesterday."
+   ],
+   "ans": 0,
+   "note": "give testimony = 증언하다. a testimony to = ~의 증거, 고급 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "testify",
+   "ko": "증언하다",
+   "ex": "She agreed to testify at the trial.",
+   "exko": "그녀는 재판에서 증언하기로 했어요.",
+   "use": [
+    [
+     "Three witnesses testified against him.",
+     "세 명의 증인이 그에게 불리한 증언을 했다."
+    ],
+    [
+     "I can testify to her honesty.",
+     "그녀의 정직함은 내가 보증할 수 있어요."
+    ]
+   ],
+   "mcq": [
+    "He testified in court last week.",
+    "He testified the court last week.",
+    "He testimonied in court.",
+    "The court testified him last week."
+   ],
+   "ans": 0,
+   "note": "testify in court / testify to + 사실. 미드 법정 장면 단골!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "assembly",
+   "ko": "조립, 집회",
+   "ex": "The furniture requires assembly.",
+   "exko": "그 가구는 조립이 필요해요.",
+   "use": [
+    [
+     "The school holds an assembly every Monday.",
+     "학교는 매주 월요일 조회를 연다."
+    ],
+    [
+     "The car assembly line runs 24 hours.",
+     "자동차 조립 라인은 24시간 돌아간다."
+    ]
+   ],
+   "mcq": [
+    "The desk comes with assembly instructions.",
+    "The desk comes with assembling instruction papers.",
+    "The desk assemblies with instructions.",
+    "Assembly the desk comes with."
+   ],
+   "ans": 0,
+   "note": "assembly instructions = 조립 설명서. IKEA 필수 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "myth",
+   "ko": "신화, 근거 없는 통념",
+   "ex": "That's a common myth about dieting.",
+   "exko": "그건 다이어트에 관한 흔한 오해예요.",
+   "use": [
+    [
+     "The article busts five myths about sleep.",
+     "그 기사는 수면에 관한 통념 다섯 개를 깬다."
+    ],
+    [
+     "Greek myths are full of great stories.",
+     "그리스 신화엔 멋진 이야기가 가득하다."
+    ]
+   ],
+   "mcq": [
+    "It's a myth that we use only 10% of our brain.",
+    "It's a myth story that brain 10% use.",
+    "The myth is that used brain only.",
+    "A 10% brain myth uses that."
+   ],
+   "ans": 0,
+   "note": "It's a myth that... = ~는 사실이 아니다. 통념 깰 때 쓰는 세련된 틀!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "flavor",
+   "ko": "맛, 풍미",
+   "ex": "Which flavor do you want — mint or mango?",
+   "exko": "민트랑 망고 중 어떤 맛으로 할래요?",
+   "use": [
+    [
+     "The soup has a rich, deep flavor.",
+     "그 수프는 풍미가 깊다."
+    ],
+    [
+     "Local markets give you a flavor of the culture.",
+     "현지 시장에 가면 그 문화의 맛을 느낄 수 있다."
+    ]
+   ],
+   "mcq": [
+    "This tea has a subtle flavor.",
+    "This tea has a subtle taste flavor.",
+    "This tea flavors subtle.",
+    "Subtle flavors this tea has it."
+   ],
+   "ans": 0,
+   "note": "flavor = 특유의 맛·풍미. a flavor of + 문화/도시 = ~의 분위기 맛보기!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "rumor",
+   "ko": "소문",
+   "ex": "Don't believe every rumor you hear.",
+   "exko": "들리는 소문을 다 믿지 마세요.",
+   "use": [
+    [
+     "Rumor has it that they're moving abroad.",
+     "소문에 따르면 그들이 해외로 이주한대요."
+    ],
+    [
+     "The rumor spread fast on social media.",
+     "그 소문은 SNS에서 빠르게 퍼졌다."
+    ]
+   ],
+   "mcq": [
+    "Rumor has it that she got promoted.",
+    "Rumor has it to she got promoted.",
+    "The rumor is having she promoted.",
+    "It rumors that she has promoted."
+   ],
+   "ans": 0,
+   "note": "Rumor has it that... = 소문에 의하면. 원어민이 진짜 자주 쓰는 틀!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "flame",
+   "ko": "불꽃",
+   "ex": "The candle flame flickered in the wind.",
+   "exko": "촛불이 바람에 흔들렸어요.",
+   "use": [
+    [
+     "Cook it over a low flame.",
+     "약불에서 조리하세요."
+    ],
+    [
+     "Old flames sometimes reconnect — that means ex-lovers!",
+     "old flame은 옛 연인이라는 뜻!"
+    ]
+   ],
+   "mcq": [
+    "Lower the flame before adding oil.",
+    "Lower the flame fire before oil.",
+    "Flame the lower before adding.",
+    "Before oil the flame lowers add."
+   ],
+   "ans": 0,
+   "note": "low/high flame = 약불/센불. 요리 영어 필수!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "radiation",
+   "ko": "방사선, 복사",
+   "ex": "The phone emits low levels of radiation.",
+   "exko": "휴대폰은 낮은 수준의 전자파를 방출해요.",
+   "use": [
+    [
+     "Sunscreen blocks UV radiation.",
+     "선크림은 자외선을 차단한다."
+    ],
+    [
+     "The plant was checked for radiation leaks.",
+     "그 발전소는 방사선 누출 검사를 받았다."
+    ]
+   ],
+   "mcq": [
+    "UV radiation damages the skin.",
+    "UV radiation damages to the skin.",
+    "UV radiates damage the skin.",
+    "The skin radiations UV damage."
+   ],
+   "ans": 0,
+   "note": "UV radiation = 자외선. 피부·건강 대화에 실용적!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "donate",
+   "ko": "기부하다",
+   "ex": "We donated old clothes to charity.",
+   "exko": "헌 옷을 자선단체에 기부했어요.",
+   "use": [
+    [
+     "He donates blood twice a year.",
+     "그는 1년에 두 번 헌혈한다."
+    ],
+    [
+     "The company donated 1% of profits.",
+     "그 회사는 수익의 1%를 기부했다."
+    ]
+   ],
+   "mcq": [
+    "She donated money to the shelter.",
+    "She donated money for to the shelter.",
+    "She donated the shelter money at.",
+    "The shelter donated her money."
+   ],
+   "ans": 0,
+   "note": "donate A to B. donate blood = 헌혈, 뜻밖의 활용!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "kingdom",
+   "ko": "왕국",
+   "ex": "The animal kingdom is full of surprises.",
+   "exko": "동물의 왕국엔 놀라운 일이 가득해요.",
+   "use": [
+    [
+     "The old kingdom lasted 500 years.",
+     "그 옛 왕국은 500년간 지속됐다."
+    ],
+    [
+     "The UK stands for the United Kingdom.",
+     "UK는 United Kingdom의 약자다."
+    ]
+   ],
+   "mcq": [
+    "The kingdom prospered under her rule.",
+    "The kingdom prospered under her ruling reign time.",
+    "The kingdom prospering under she ruled.",
+    "Under prospered the kingdom her rule."
+   ],
+   "ans": 0,
+   "note": "kingdom — the United Kingdom(영국), animal kingdom(동물계)까지!",
+   "wk": "2026-W36"
   }
  ]
 }

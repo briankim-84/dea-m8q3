@@ -1002,6 +1002,506 @@
    "ans": 0,
    "note": "realize + that절. '실감하다'와 '꿈을 실현하다' 두 뜻 모두!",
    "wk": "2026-W35"
+  },
+  {
+   "w": "believe",
+   "ko": "믿다",
+   "ex": "I believe you can do it.",
+   "exko": "당신이 할 수 있다고 믿어요.",
+   "use": [
+    [
+     "I can't believe it's already September!",
+     "벌써 9월이라니 믿기지 않아요!"
+    ],
+    [
+     "She believes in working hard.",
+     "그녀는 성실함의 힘을 믿는다."
+    ]
+   ],
+   "mcq": [
+    "I believe that he is honest.",
+    "I believe to he is honest.",
+    "I believe in that his honest.",
+    "He believes me that honest."
+   ],
+   "ans": 0,
+   "note": "believe + that절. believe in + 대상 = ~의 가치/존재를 믿다.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "increase",
+   "ko": "늘다, 늘리다",
+   "ex": "Prices increased again this month.",
+   "exko": "이번 달에 물가가 또 올랐어요.",
+   "use": [
+    [
+     "We increased sales by 20%.",
+     "매출을 20% 늘렸다."
+    ],
+    [
+     "Stress can increase health risks.",
+     "스트레스는 건강 위험을 높일 수 있다."
+    ]
+   ],
+   "mcq": [
+    "Sales increased by 10% last year.",
+    "Sales increased up 10% last year.",
+    "Sales were increase 10% last year.",
+    "Sales increased themselves 10%."
+   ],
+   "ans": 0,
+   "note": "increase by + 수치 = ~만큼 증가. 반대말 decrease도 세트로!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "plan",
+   "ko": "계획(하다)",
+   "ex": "What's your plan for the weekend?",
+   "exko": "주말 계획이 뭐예요?",
+   "use": [
+    [
+     "We're planning to visit Jeju.",
+     "제주에 갈 계획이에요."
+    ],
+    [
+     "Everything went according to plan.",
+     "모든 게 계획대로 됐다."
+    ]
+   ],
+   "mcq": [
+    "I'm planning to buy a new phone.",
+    "I'm planning buying a new phone.",
+    "I'm planning buy a new phone.",
+    "I plan that buying new phone."
+   ],
+   "ans": 0,
+   "note": "plan to + 동사. according to plan(계획대로)도 유용!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "result",
+   "ko": "결과",
+   "ex": "The test results come out Friday.",
+   "exko": "검사 결과는 금요일에 나와요.",
+   "use": [
+    [
+     "Hard work brings good results.",
+     "노력은 좋은 결과를 가져온다."
+    ],
+    [
+     "As a result, the meeting was canceled.",
+     "그 결과 회의가 취소됐다."
+    ]
+   ],
+   "mcq": [
+    "As a result, we changed the plan.",
+    "As the result of, we changed plan.",
+    "Resulting as, we changed the plan.",
+    "As result, we changed the plan it."
+   ],
+   "ans": 0,
+   "note": "as a result = 그 결과. 문장 연결의 필수 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "happen",
+   "ko": "일어나다, 생기다",
+   "ex": "What happened to your phone?",
+   "exko": "폰이 왜 그래요? (무슨 일 있었어요?)",
+   "use": [
+    [
+     "Accidents happen — don't worry.",
+     "그럴 수도 있죠, 걱정 마세요."
+    ],
+    [
+     "It happened so fast.",
+     "순식간에 일어난 일이었다."
+    ]
+   ],
+   "mcq": [
+    "What happened to your car?",
+    "What happened your car?",
+    "What was happened to your car?",
+    "What did happened to your car?"
+   ],
+   "ans": 0,
+   "note": "happen to + 대상. 수동태 없이! was happened는 안 돼요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "understand",
+   "ko": "이해하다",
+   "ex": "Now I understand what you mean.",
+   "exko": "이제 무슨 말인지 알겠어요.",
+   "use": [
+    [
+     "I understand how you feel.",
+     "그 마음 이해해요."
+    ],
+    [
+     "Sorry, I don't understand this part.",
+     "죄송한데 이 부분이 이해가 안 돼요."
+    ]
+   ],
+   "mcq": [
+    "I understand your point.",
+    "I am understanding your point now well.",
+    "I understand to your point.",
+    "Your point understands to me."
+   ],
+   "ans": 0,
+   "note": "understand는 진행형(-ing)으로 잘 안 써요! I understand로 충분.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "spend",
+   "ko": "(돈·시간을) 쓰다",
+   "ex": "Don't spend too much on clothes.",
+   "exko": "옷에 너무 많이 쓰지 마세요.",
+   "use": [
+    [
+     "I spent two hours cleaning the house.",
+     "집 청소에 두 시간을 썼다."
+    ],
+    [
+     "We spent the holiday at home.",
+     "연휴를 집에서 보냈다."
+    ]
+   ],
+   "mcq": [
+    "I spent an hour reading the report.",
+    "I spent an hour to read the report.",
+    "I spent an hour for read report.",
+    "An hour spent me reading report."
+   ],
+   "ans": 0,
+   "note": "spend + 시간 + -ing! 'spend to read'가 최다 오류예요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "learn",
+   "ko": "배우다",
+   "ex": "I'm learning English with Brian!",
+   "exko": "Brian이랑 영어 배우는 중이에요!",
+   "use": [
+    [
+     "She learned to drive last year.",
+     "그녀는 작년에 운전을 배웠다."
+    ],
+    [
+     "We learn from our mistakes.",
+     "우리는 실수에서 배운다."
+    ]
+   ],
+   "mcq": [
+    "I'm learning to cook Italian food.",
+    "I'm learning cook Italian food.",
+    "I'm learning for cooking Italian.",
+    "Italian food learns me to cook."
+   ],
+   "ans": 0,
+   "note": "learn to + 동사. study(공부하다)와 달리 '할 줄 알게 되다'!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "hope",
+   "ko": "바라다, 희망",
+   "ex": "I hope you feel better soon.",
+   "exko": "빨리 낫길 바라요.",
+   "use": [
+    [
+     "We hope to see you again.",
+     "또 뵙기를 바랍니다."
+    ],
+    [
+     "Don't give up hope.",
+     "희망을 버리지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I hope that you pass the test.",
+    "I hope you to pass the test.",
+    "I hope your passing test.",
+    "You hope me that pass test."
+   ],
+   "ans": 0,
+   "note": "hope + that절 / hope to + 동사. hope 사람 to는 안 돼요(wish와 다름)!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "reason",
+   "ko": "이유",
+   "ex": "What's the reason for the delay?",
+   "exko": "지연된 이유가 뭐예요?",
+   "use": [
+    [
+     "There's a reason for everything.",
+     "모든 일에는 이유가 있다."
+    ],
+    [
+     "The main reason is the cost.",
+     "가장 큰 이유는 비용이다."
+    ]
+   ],
+   "mcq": [
+    "The reason for the change is simple.",
+    "The reason of the change is simple.",
+    "The reason to change is simply.",
+    "Simple is the reason changing for."
+   ],
+   "ans": 0,
+   "note": "reason for + 명사. reason of는 어색해요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "cost",
+   "ko": "비용(이 들다)",
+   "ex": "How much does it cost?",
+   "exko": "이거 얼마예요?",
+   "use": [
+    [
+     "The repair cost 50,000 won.",
+     "수리비가 5만 원 들었다."
+    ],
+    [
+     "Living costs keep going up.",
+     "생활비가 계속 오른다."
+    ]
+   ],
+   "mcq": [
+    "The ticket costs 20 dollars.",
+    "The ticket costs for 20 dollars.",
+    "The ticket is cost 20 dollars.",
+    "20 dollars costs the ticket to."
+   ],
+   "ans": 0,
+   "note": "cost + 금액 바로 연결. cost-cost-cost 무변화 동사!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "able",
+   "ko": "~할 수 있는",
+   "ex": "I wasn't able to sleep last night.",
+   "exko": "어젯밤에 잠을 못 잤어요.",
+   "use": [
+    [
+     "Will you be able to come?",
+     "올 수 있어요?"
+    ],
+    [
+     "She's able to speak three languages.",
+     "그녀는 3개 국어를 할 수 있다."
+    ]
+   ],
+   "mcq": [
+    "I'll be able to help you tomorrow.",
+    "I'll able to help you tomorrow.",
+    "I'll be able helping you tomorrow.",
+    "I be able to help tomorrow you."
+   ],
+   "ans": 0,
+   "note": "be able to — be동사 빼먹지 않기! can의 미래·완료형 대타.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "sure",
+   "ko": "확신하는",
+   "ex": "Are you sure about that?",
+   "exko": "그거 확실해요?",
+   "use": [
+    [
+     "I'm not sure what to choose.",
+     "뭘 골라야 할지 모르겠어요."
+    ],
+    [
+     "Make sure to lock the door.",
+     "문 꼭 잠그세요."
+    ]
+   ],
+   "mcq": [
+    "Make sure to bring your ID.",
+    "Make sure bringing your ID.",
+    "Make surely to bring ID.",
+    "Sure make to bring your ID."
+   ],
+   "ans": 0,
+   "note": "make sure to + 동사 = 꼭 ~하세요. 당부의 필수 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "speak",
+   "ko": "말하다",
+   "ex": "Could you speak more slowly?",
+   "exko": "좀 더 천천히 말씀해 주시겠어요?",
+   "use": [
+    [
+     "She speaks English very well.",
+     "그녀는 영어를 아주 잘한다."
+    ],
+    [
+     "May I speak to Mr. Kim?",
+     "김 선생님과 통화할 수 있을까요?"
+    ]
+   ],
+   "mcq": [
+    "Can I speak to the manager?",
+    "Can I speak the manager?",
+    "Can I speak at the manager?",
+    "Can the manager speak me to?"
+   ],
+   "ans": 0,
+   "note": "speak to + 사람. 전화 영어의 첫 문장!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "process",
+   "ko": "과정, 처리하다",
+   "ex": "Learning is a slow process.",
+   "exko": "배움은 느린 과정이에요.",
+   "use": [
+    [
+     "The visa process takes two weeks.",
+     "비자 처리에 2주 걸린다."
+    ],
+    [
+     "We're in the process of moving.",
+     "우리는 이사하는 중이다."
+    ]
+   ],
+   "mcq": [
+    "We're in the process of hiring.",
+    "We're in the process to hiring.",
+    "We're at process of hire.",
+    "The process is in we of hiring."
+   ],
+   "ans": 0,
+   "note": "in the process of + -ing = ~하는 중. 격식 있는 '진행 중' 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "lead",
+   "ko": "이끌다, 이어지다",
+   "ex": "She leads a team of five.",
+   "exko": "그녀는 5명 팀을 이끌어요.",
+   "use": [
+    [
+     "Practice leads to improvement.",
+     "연습이 향상으로 이어진다."
+    ],
+    [
+     "This road leads to the station.",
+     "이 길은 역으로 이어진다."
+    ]
+   ],
+   "mcq": [
+    "Small habits lead to big changes.",
+    "Small habits lead big changes.",
+    "Small habits lead for big changes.",
+    "Big changes lead small habits to."
+   ],
+   "ans": 0,
+   "note": "lead to + 결과 = ~로 이어지다. lead-led-led!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "build",
+   "ko": "짓다, 쌓다",
+   "ex": "They're building a new mall nearby.",
+   "exko": "근처에 새 쇼핑몰을 짓고 있어요.",
+   "use": [
+    [
+     "It takes time to build trust.",
+     "신뢰를 쌓는 데는 시간이 걸린다."
+    ],
+    [
+     "He built his business from nothing.",
+     "그는 맨손으로 사업을 일궜다."
+    ]
+   ],
+   "mcq": [
+    "We're building a good habit together.",
+    "We're building up a good habit together grow.",
+    "We build a good habit be together.",
+    "A good habit builds we together."
+   ],
+   "ans": 0,
+   "note": "build trust/habit/career — 물건만이 아니라 추상적인 것도 '쌓다'!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "hold",
+   "ko": "잡다, 열다, 유지하다",
+   "ex": "Can you hold my bag for a second?",
+   "exko": "잠깐 가방 좀 들어줄래요?",
+   "use": [
+    [
+     "The meeting will be held on Friday.",
+     "회의는 금요일에 열린다."
+    ],
+    [
+     "Please hold the line.",
+     "(전화) 끊지 말고 기다려 주세요."
+    ]
+   ],
+   "mcq": [
+    "The event will be held next month.",
+    "The event will be hold next month.",
+    "The event will hold next month itself.",
+    "Next month holds the event will."
+   ],
+   "ans": 0,
+   "note": "be held = 열리다(행사). hold the line(전화 대기)도 실전 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "pay",
+   "ko": "지불하다",
+   "ex": "I'll pay for lunch today.",
+   "exko": "오늘 점심은 제가 살게요.",
+   "use": [
+    [
+     "Can I pay by card?",
+     "카드로 계산돼요?"
+    ],
+    [
+     "Hard work pays off.",
+     "노력은 결실을 맺는다."
+    ]
+   ],
+   "mcq": [
+    "I paid for the coffee.",
+    "I paid the coffee for her money.",
+    "I paid to the coffee.",
+    "The coffee paid me for."
+   ],
+   "ans": 0,
+   "note": "pay for + 물건. pay off(결실을 맺다)는 보너스 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "present",
+   "ko": "선물, 현재의, 발표하다",
+   "ex": "This is a present for you.",
+   "exko": "이거 당신 선물이에요.",
+   "use": [
+    [
+     "Everyone was present at the meeting.",
+     "전원이 회의에 참석했다."
+    ],
+    [
+     "She presented her idea to the team.",
+     "그녀는 팀에 아이디어를 발표했다."
+    ]
+   ],
+   "mcq": [
+    "He presented the plan to the boss.",
+    "He presented the plan at the boss.",
+    "He presented to the plan the boss.",
+    "The plan presented him to boss."
+   ],
+   "ans": 0,
+   "note": "present A to B = 발표하다. 선물·현재·발표, 삼형제 뜻!",
+   "wk": "2026-W36"
   }
  ]
 }

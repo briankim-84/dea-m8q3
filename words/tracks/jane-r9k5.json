@@ -1002,6 +1002,506 @@
    "ans": 0,
    "note": "give testimony = 증언하다. a testimony to = ~의 증거, 고급 표현!",
    "wk": "2026-W35"
+  },
+  {
+   "w": "dominate",
+   "ko": "지배하다, 압도하다",
+   "ex": "One company dominates the market.",
+   "exko": "한 회사가 시장을 장악하고 있어요.",
+   "use": [
+    [
+     "The tower dominates the city skyline.",
+     "그 타워가 도시 스카이라인을 압도한다."
+    ],
+    [
+     "He dominated the conversation all night.",
+     "그가 밤새 대화를 독차지했다."
+    ]
+   ],
+   "mcq": [
+    "Their firm dominates the construction market.",
+    "Their firm dominates over to the market.",
+    "Their firm is dominate the market.",
+    "Their firm dominated by the market."
+   ],
+   "ans": 0,
+   "note": "dominate + 대상 바로 연결. 전치사 없이!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "slight",
+   "ko": "약간의",
+   "ex": "There's been a slight change in the plan.",
+   "exko": "계획에 약간 변경이 있었어요.",
+   "use": [
+    [
+     "I have a slight headache.",
+     "머리가 살짝 아파요."
+    ],
+    [
+     "There was a slight delay in delivery.",
+     "배송이 약간 지연됐다."
+    ]
+   ],
+   "mcq": [
+    "There's a slight difference between the two.",
+    "There's a slightly difference between them.",
+    "The difference is slight little between.",
+    "A slight of difference is there."
+   ],
+   "ans": 0,
+   "note": "slight(형용사) + 명사. slightly는 부사예요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "uniform",
+   "ko": "균일한, 유니폼",
+   "ex": "The bricks should be uniform in size.",
+   "exko": "벽돌은 크기가 균일해야 해요.",
+   "use": [
+    [
+     "The quality must be uniform across all units.",
+     "전 세대에 걸쳐 품질이 균일해야 한다."
+    ],
+    [
+     "Workers wear safety uniforms on site.",
+     "현장에서 작업자들은 안전복을 입는다."
+    ]
+   ],
+   "mcq": [
+    "The panels are uniform in thickness.",
+    "The panels are uniform with thickness.",
+    "The panels uniform the thickness.",
+    "The thickness uniforms the panels."
+   ],
+   "ans": 0,
+   "note": "uniform in + 기준(크기·두께). '균일한'이라는 형용사 뜻이 핵심!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "crack",
+   "ko": "금, 갈라지다",
+   "ex": "There's a crack in the wall.",
+   "exko": "벽에 금이 갔어요.",
+   "use": [
+    [
+     "Inspect the concrete for cracks.",
+     "콘크리트에 균열이 있는지 점검하세요."
+    ],
+    [
+     "The glass cracked in the cold.",
+     "추위에 유리가 갈라졌다."
+    ]
+   ],
+   "mcq": [
+    "We found a crack in the foundation.",
+    "We found a crack on into the foundation.",
+    "The foundation cracked us a line.",
+    "A crack was find in foundation."
+   ],
+   "ans": 0,
+   "note": "a crack in + 구조물. 건설 필수 어휘 — hairline crack(실금)도 알아두세요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "satisfaction",
+   "ko": "만족",
+   "ex": "Customer satisfaction is our priority.",
+   "exko": "고객 만족이 최우선입니다.",
+   "use": [
+    [
+     "He smiled with satisfaction at the finished building.",
+     "그는 완공된 건물을 보며 만족스럽게 웃었다."
+    ],
+    [
+     "Job satisfaction matters more than salary sometimes.",
+     "때로는 연봉보다 직무 만족이 더 중요하다."
+    ]
+   ],
+   "mcq": [
+    "The result gave me great satisfaction.",
+    "The result gave me great satisfying.",
+    "I satisfactioned with the result.",
+    "The satisfaction resulted me greatly."
+   ],
+   "ans": 0,
+   "note": "satisfaction(명사) vs satisfying(형용사) vs satisfied(만족한) 구분!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "dimension",
+   "ko": "치수, 차원",
+   "ex": "Check the dimensions of the room first.",
+   "exko": "먼저 방 치수를 확인하세요.",
+   "use": [
+    [
+     "The dimensions are listed on the drawing.",
+     "치수는 도면에 표기되어 있다."
+    ],
+    [
+     "This adds a new dimension to the problem.",
+     "이건 문제에 새로운 차원을 더한다."
+    ]
+   ],
+   "mcq": [
+    "Measure the dimensions of the beam.",
+    "Measure the dimension sizes of beam.",
+    "Dimension the measures of the beam.",
+    "The beam dimensions its measure."
+   ],
+   "ans": 0,
+   "note": "dimensions(보통 복수) = 가로×세로×높이 치수. 현장 필수!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "blind",
+   "ko": "눈먼, 가려진",
+   "ex": "Watch out for the blind spot.",
+   "exko": "사각지대 조심하세요.",
+   "use": [
+    [
+     "The corner creates a blind spot for drivers.",
+     "그 모퉁이는 운전자 사각지대를 만든다."
+    ],
+    [
+     "Don't be blind to the risks.",
+     "위험을 못 본 척하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "There's a blind spot at the corner.",
+    "There's a blind point at the corner.",
+    "The corner blinds a spot.",
+    "A spot is blind at cornering."
+   ],
+   "ans": 0,
+   "note": "blind spot = 사각지대. 현장 안전 교육 단골 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "operator",
+   "ko": "기사, 운영자",
+   "ex": "The crane operator is very experienced.",
+   "exko": "크레인 기사가 아주 숙련됐어요.",
+   "use": [
+    [
+     "Only licensed operators can use this machine.",
+     "자격증 있는 기사만 이 장비를 쓸 수 있다."
+    ],
+    [
+     "Contact the site operator for access.",
+     "출입은 현장 운영자에게 문의하세요."
+    ]
+   ],
+   "mcq": [
+    "The excavator operator arrived early.",
+    "The excavator operating man arrived.",
+    "The operator of excavating machine man came.",
+    "The excavator operates the man early."
+   ],
+   "ans": 0,
+   "note": "장비명 + operator = ~기사. 현장에서 사람 부를 때 바로 쓰는 형태!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "therapy",
+   "ko": "치료, 요법",
+   "ex": "Physical therapy helped my back pain.",
+   "exko": "물리치료가 허리 통증에 도움이 됐어요.",
+   "use": [
+    [
+     "He's in therapy for his shoulder injury.",
+     "그는 어깨 부상으로 치료를 받고 있다."
+    ],
+    [
+     "Retail therapy — shopping to feel better!",
+     "기분 전환용 쇼핑을 retail therapy라고 해요."
+    ]
+   ],
+   "mcq": [
+    "She's getting therapy for her knee.",
+    "She's getting therapy to her knee.",
+    "She therapies her knee now.",
+    "Her knee is therapy getting."
+   ],
+   "ans": 0,
+   "note": "get/be in therapy = 치료받다. 현장 부상 얘기에 실용적!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "counsel",
+   "ko": "조언(하다), 변호인",
+   "ex": "He gave me wise counsel.",
+   "exko": "그가 현명한 조언을 해줬어요.",
+   "use": [
+    [
+     "Seek legal counsel before signing.",
+     "서명 전에 법률 자문을 구하세요."
+    ],
+    [
+     "She counseled patience during the dispute.",
+     "그녀는 분쟁 중에 인내를 권했다."
+    ]
+   ],
+   "mcq": [
+    "We sought counsel from a construction lawyer.",
+    "We sought counsel to a lawyer.",
+    "We counseled from a lawyer us.",
+    "A lawyer was sought counsel by."
+   ],
+   "ans": 0,
+   "note": "seek counsel = 자문을 구하다. counsel(자문) vs council(의회) 철자 주의!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "testify",
+   "ko": "증언하다",
+   "ex": "She agreed to testify at the trial.",
+   "exko": "그녀는 재판에서 증언하기로 했어요.",
+   "use": [
+    [
+     "Three witnesses testified against him.",
+     "세 명의 증인이 그에게 불리한 증언을 했다."
+    ],
+    [
+     "I can testify to her honesty.",
+     "그녀의 정직함은 내가 보증할 수 있어요."
+    ]
+   ],
+   "mcq": [
+    "He testified in court last week.",
+    "He testified the court last week.",
+    "He testimonied in court.",
+    "The court testified him last week."
+   ],
+   "ans": 0,
+   "note": "testify in court / testify to + 사실. 미드 법정 장면 단골!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "assembly",
+   "ko": "조립, 집회",
+   "ex": "The furniture requires assembly.",
+   "exko": "그 가구는 조립이 필요해요.",
+   "use": [
+    [
+     "The school holds an assembly every Monday.",
+     "학교는 매주 월요일 조회를 연다."
+    ],
+    [
+     "The car assembly line runs 24 hours.",
+     "자동차 조립 라인은 24시간 돌아간다."
+    ]
+   ],
+   "mcq": [
+    "The desk comes with assembly instructions.",
+    "The desk comes with assembling instruction papers.",
+    "The desk assemblies with instructions.",
+    "Assembly the desk comes with."
+   ],
+   "ans": 0,
+   "note": "assembly instructions = 조립 설명서. IKEA 필수 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "vulnerable",
+   "ko": "취약한",
+   "ex": "Old systems are vulnerable to hacking.",
+   "exko": "오래된 시스템은 해킹에 취약해요.",
+   "use": [
+    [
+     "Being vulnerable takes courage.",
+     "약한 모습을 보이는 데는 용기가 필요하다."
+    ],
+    [
+     "The elderly are vulnerable to heat waves.",
+     "노약자는 폭염에 취약하다."
+    ]
+   ],
+   "mcq": [
+    "The app is vulnerable to attacks.",
+    "The app is vulnerable at attacks.",
+    "The app vulnerables to attacks.",
+    "Attacks are vulnerable to the app."
+   ],
+   "ans": 0,
+   "note": "vulnerable to + 위협. 심리 얘기(솔직히 약해지기)에도 써서 활용도 최고!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "myth",
+   "ko": "신화, 근거 없는 통념",
+   "ex": "That's a common myth about dieting.",
+   "exko": "그건 다이어트에 관한 흔한 오해예요.",
+   "use": [
+    [
+     "The article busts five myths about sleep.",
+     "그 기사는 수면에 관한 통념 다섯 개를 깬다."
+    ],
+    [
+     "Greek myths are full of great stories.",
+     "그리스 신화엔 멋진 이야기가 가득하다."
+    ]
+   ],
+   "mcq": [
+    "It's a myth that we use only 10% of our brain.",
+    "It's a myth story that brain 10% use.",
+    "The myth is that used brain only.",
+    "A 10% brain myth uses that."
+   ],
+   "ans": 0,
+   "note": "It's a myth that... = ~는 사실이 아니다. 통념 깰 때 쓰는 세련된 틀!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "flavor",
+   "ko": "맛, 풍미",
+   "ex": "Which flavor do you want — mint or mango?",
+   "exko": "민트랑 망고 중 어떤 맛으로 할래요?",
+   "use": [
+    [
+     "The soup has a rich, deep flavor.",
+     "그 수프는 풍미가 깊다."
+    ],
+    [
+     "Local markets give you a flavor of the culture.",
+     "현지 시장에 가면 그 문화의 맛을 느낄 수 있다."
+    ]
+   ],
+   "mcq": [
+    "This tea has a subtle flavor.",
+    "This tea has a subtle taste flavor.",
+    "This tea flavors subtle.",
+    "Subtle flavors this tea has it."
+   ],
+   "ans": 0,
+   "note": "flavor = 특유의 맛·풍미. a flavor of + 문화/도시 = ~의 분위기 맛보기!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "rumor",
+   "ko": "소문",
+   "ex": "Don't believe every rumor you hear.",
+   "exko": "들리는 소문을 다 믿지 마세요.",
+   "use": [
+    [
+     "Rumor has it that they're moving abroad.",
+     "소문에 따르면 그들이 해외로 이주한대요."
+    ],
+    [
+     "The rumor spread fast on social media.",
+     "그 소문은 SNS에서 빠르게 퍼졌다."
+    ]
+   ],
+   "mcq": [
+    "Rumor has it that she got promoted.",
+    "Rumor has it to she got promoted.",
+    "The rumor is having she promoted.",
+    "It rumors that she has promoted."
+   ],
+   "ans": 0,
+   "note": "Rumor has it that... = 소문에 의하면. 원어민이 진짜 자주 쓰는 틀!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "flame",
+   "ko": "불꽃",
+   "ex": "The candle flame flickered in the wind.",
+   "exko": "촛불이 바람에 흔들렸어요.",
+   "use": [
+    [
+     "Cook it over a low flame.",
+     "약불에서 조리하세요."
+    ],
+    [
+     "Old flames sometimes reconnect — that means ex-lovers!",
+     "old flame은 옛 연인이라는 뜻!"
+    ]
+   ],
+   "mcq": [
+    "Lower the flame before adding oil.",
+    "Lower the flame fire before oil.",
+    "Flame the lower before adding.",
+    "Before oil the flame lowers add."
+   ],
+   "ans": 0,
+   "note": "low/high flame = 약불/센불. 요리 영어 필수!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "radiation",
+   "ko": "방사선, 복사",
+   "ex": "The phone emits low levels of radiation.",
+   "exko": "휴대폰은 낮은 수준의 전자파를 방출해요.",
+   "use": [
+    [
+     "Sunscreen blocks UV radiation.",
+     "선크림은 자외선을 차단한다."
+    ],
+    [
+     "The plant was checked for radiation leaks.",
+     "그 발전소는 방사선 누출 검사를 받았다."
+    ]
+   ],
+   "mcq": [
+    "UV radiation damages the skin.",
+    "UV radiation damages to the skin.",
+    "UV radiates damage the skin.",
+    "The skin radiations UV damage."
+   ],
+   "ans": 0,
+   "note": "UV radiation = 자외선. 피부·건강 대화에 실용적!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "donate",
+   "ko": "기부하다",
+   "ex": "We donated old clothes to charity.",
+   "exko": "헌 옷을 자선단체에 기부했어요.",
+   "use": [
+    [
+     "He donates blood twice a year.",
+     "그는 1년에 두 번 헌혈한다."
+    ],
+    [
+     "The company donated 1% of profits.",
+     "그 회사는 수익의 1%를 기부했다."
+    ]
+   ],
+   "mcq": [
+    "She donated money to the shelter.",
+    "She donated money for to the shelter.",
+    "She donated the shelter money at.",
+    "The shelter donated her money."
+   ],
+   "ans": 0,
+   "note": "donate A to B. donate blood = 헌혈, 뜻밖의 활용!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "kingdom",
+   "ko": "왕국",
+   "ex": "The animal kingdom is full of surprises.",
+   "exko": "동물의 왕국엔 놀라운 일이 가득해요.",
+   "use": [
+    [
+     "The old kingdom lasted 500 years.",
+     "그 옛 왕국은 500년간 지속됐다."
+    ],
+    [
+     "The UK stands for the United Kingdom.",
+     "UK는 United Kingdom의 약자다."
+    ]
+   ],
+   "mcq": [
+    "The kingdom prospered under her rule.",
+    "The kingdom prospered under her ruling reign time.",
+    "The kingdom prospering under she ruled.",
+    "Under prospered the kingdom her rule."
+   ],
+   "ans": 0,
+   "note": "kingdom — the United Kingdom(영국), animal kingdom(동물계)까지!",
+   "wk": "2026-W36"
   }
  ]
 }

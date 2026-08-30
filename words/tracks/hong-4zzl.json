@@ -1002,6 +1002,506 @@
    "ans": 0,
    "note": "abroad 앞에 전치사 금지! 그 자체가 '해외로/에서'예요.",
    "wk": "2026-W35"
+  },
+  {
+   "w": "announce",
+   "ko": "발표하다, 알리다",
+   "ex": "They announced the winner last night.",
+   "exko": "어젯밤 우승자를 발표했어요.",
+   "use": [
+    [
+     "The company announced a new product.",
+     "회사가 신제품을 발표했다."
+    ],
+    [
+     "We're happy to announce our wedding!",
+     "저희 결혼 소식을 알립니다!"
+    ]
+   ],
+   "mcq": [
+    "They announced the schedule change.",
+    "They announced about the schedule change.",
+    "They announced to the schedule.",
+    "The schedule announced them change."
+   ],
+   "ans": 0,
+   "note": "announce + 내용 바로 연결. announce about은 군더더기!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "request",
+   "ko": "요청(하다)",
+   "ex": "I'd like to request a refund.",
+   "exko": "환불을 요청하고 싶어요.",
+   "use": [
+    [
+     "She requested a window seat.",
+     "그녀는 창가 자리를 요청했다."
+    ],
+    [
+     "Your request has been approved.",
+     "요청이 승인되었습니다."
+    ]
+   ],
+   "mcq": [
+    "I requested a day off.",
+    "I requested for a day off.",
+    "I requested to a day off.",
+    "A day off requested me."
+   ],
+   "ans": 0,
+   "note": "request + 대상 바로! request for는 명사일 때만(a request for help).",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "budget",
+   "ko": "예산",
+   "ex": "We're on a tight budget this month.",
+   "exko": "이번 달은 예산이 빠듯해요.",
+   "use": [
+    [
+     "The trip is within our budget.",
+     "그 여행은 예산 안에서 가능하다."
+    ],
+    [
+     "They cut the marketing budget.",
+     "마케팅 예산이 깎였다."
+    ]
+   ],
+   "mcq": [
+    "We need to stay within budget.",
+    "We need to stay inside of budget in.",
+    "We need staying within budgets.",
+    "Budget needs to stay within we."
+   ],
+   "ans": 0,
+   "note": "within budget = 예산 안에서, on a tight budget = 예산이 빠듯한.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "exchange",
+   "ko": "교환(하다), 환전",
+   "ex": "Can I exchange this for a bigger size?",
+   "exko": "이거 큰 사이즈로 교환돼요?",
+   "use": [
+    [
+     "Where can I exchange money?",
+     "환전은 어디서 해요?"
+    ],
+    [
+     "We exchanged contact information.",
+     "우리는 연락처를 교환했다."
+    ]
+   ],
+   "mcq": [
+    "I exchanged the shirt for a new one.",
+    "I exchanged the shirt to a new one.",
+    "I exchanged the shirt with new.",
+    "The shirt exchanged me for new one."
+   ],
+   "ans": 0,
+   "note": "exchange A for B = A를 B로 교환. 쇼핑·여행 필수!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "invite",
+   "ko": "초대하다",
+   "ex": "They invited us to the housewarming.",
+   "exko": "집들이에 우리를 초대했어요.",
+   "use": [
+    [
+     "Did you invite everyone from the team?",
+     "팀원 전부 초대했어요?"
+    ],
+    [
+     "Thanks for inviting me!",
+     "초대해 줘서 고마워요!"
+    ]
+   ],
+   "mcq": [
+    "She invited me to her party.",
+    "She invited me her party.",
+    "She invited to me the party.",
+    "Her party invited she me to."
+   ],
+   "ans": 0,
+   "note": "invite + 사람 + to + 행사. 어순이 핵심!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "effective",
+   "ko": "효과적인",
+   "ex": "This method is really effective.",
+   "exko": "이 방법 정말 효과 있어요.",
+   "use": [
+    [
+     "Short breaks make studying more effective.",
+     "짧은 휴식이 공부를 더 효과적으로 만든다."
+    ],
+    [
+     "The new rule is effective from Monday.",
+     "새 규정은 월요일부터 시행된다."
+    ]
+   ],
+   "mcq": [
+    "Exercise is effective for stress relief.",
+    "Exercise is effect for stress relief.",
+    "Exercise effectives stress relief for.",
+    "Stress relief effective is exercise."
+   ],
+   "ans": 0,
+   "note": "effective(형용사) vs effect(명사·효과) 구분! effective from = ~부터 시행.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "correct",
+   "ko": "올바른, 고치다",
+   "ex": "That's the correct answer!",
+   "exko": "정답이에요!",
+   "use": [
+    [
+     "Please correct me if I'm wrong.",
+     "제가 틀리면 고쳐 주세요."
+    ],
+    [
+     "Is this the correct address?",
+     "이 주소가 맞나요?"
+    ]
+   ],
+   "mcq": [
+    "Please correct my mistakes.",
+    "Please correct about my mistakes.",
+    "Please correct to my mistakes.",
+    "My mistakes correct please me."
+   ],
+   "ans": 0,
+   "note": "correct = 고치다(동사)로도! Please correct me — 영어 수업 필수 문장.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "aware",
+   "ko": "알고 있는, 인식하는",
+   "ex": "Are you aware of the schedule change?",
+   "exko": "일정 바뀐 거 알고 계세요?",
+   "use": [
+    [
+     "I wasn't aware of the problem.",
+     "그 문제를 몰랐어요."
+    ],
+    [
+     "Be aware of pickpockets in tourist areas.",
+     "관광지에선 소매치기를 조심하세요."
+    ]
+   ],
+   "mcq": [
+    "I'm aware of the risks.",
+    "I'm aware the risks.",
+    "I'm aware to the risks.",
+    "The risks aware me of."
+   ],
+   "ans": 0,
+   "note": "aware of + 대상 — of 필수! know보다 격식 있는 '인지하다'.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "advice",
+   "ko": "조언",
+   "ex": "Can I ask for some advice?",
+   "exko": "조언 좀 구해도 될까요?",
+   "use": [
+    [
+     "She gave me great advice.",
+     "그녀가 좋은 조언을 해줬다."
+    ],
+    [
+     "My advice is to wait a little.",
+     "제 조언은 조금 기다리라는 거예요."
+    ]
+   ],
+   "mcq": [
+    "He gave me a piece of advice.",
+    "He gave me an advice.",
+    "He gave me advices two.",
+    "Advice gave he me a piece."
+   ],
+   "ans": 0,
+   "note": "advice는 셀 수 없어요! a piece of advice. 동사는 advise(z 발음).",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "handle",
+   "ko": "다루다, 처리하다",
+   "ex": "Don't worry, I can handle it.",
+   "exko": "걱정 마세요, 제가 처리할게요.",
+   "use": [
+    [
+     "She handles customer complaints.",
+     "그녀는 고객 불만을 처리한다."
+    ],
+    [
+     "Handle the box with care.",
+     "상자를 조심히 다뤄 주세요."
+    ]
+   ],
+   "mcq": [
+    "I'll handle the problem myself.",
+    "I'll handle with the problem myself.",
+    "I'll handle to the problem.",
+    "The problem handles me myself."
+   ],
+   "ans": 0,
+   "note": "handle + 문제/일 바로 연결. I can handle it = 제가 알아서 할게요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "stress",
+   "ko": "스트레스, 강조하다",
+   "ex": "Exercise helps me manage stress.",
+   "exko": "운동이 스트레스 관리에 도움 돼요.",
+   "use": [
+    [
+     "He stressed the importance of sleep.",
+     "그는 수면의 중요성을 강조했다."
+    ],
+    [
+     "Don't stress about it too much.",
+     "너무 스트레스 받지 마."
+    ]
+   ],
+   "mcq": [
+    "I'm stressed about the exam.",
+    "I'm stress about the exam.",
+    "I'm stressing the exam about.",
+    "The exam stresses about me."
+   ],
+   "ans": 0,
+   "note": "be stressed = 스트레스 받은. '강조하다' 동사 뜻도 알아두면 고급!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "directly",
+   "ko": "직접, 곧바로",
+   "ex": "You can contact me directly.",
+   "exko": "저한테 직접 연락하셔도 돼요.",
+   "use": [
+    [
+     "The bus goes directly to the airport.",
+     "그 버스는 공항으로 직행한다."
+    ],
+    [
+     "Let's talk directly, not through email.",
+     "이메일 말고 직접 얘기합시다."
+    ]
+   ],
+   "mcq": [
+    "Please send it directly to my email.",
+    "Please send it direct way to my email.",
+    "Please send directly it my email to.",
+    "My email sends it directly please."
+   ],
+   "ans": 0,
+   "note": "directly = 중간 단계 없이 바로. 비즈니스 소통 필수 부사!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "remove",
+   "ko": "제거하다, 치우다",
+   "ex": "Please remove your shoes here.",
+   "exko": "여기서 신발을 벗어 주세요.",
+   "use": [
+    [
+     "This app removes background noise.",
+     "이 앱은 배경 소음을 제거한다."
+    ],
+    [
+     "They removed the old wallpaper.",
+     "오래된 벽지를 뜯어냈다."
+    ]
+   ],
+   "mcq": [
+    "Remove the pan from the heat.",
+    "Remove the pan out the heat.",
+    "Remove from the pan the heat.",
+    "The heat removes the pan from."
+   ],
+   "ans": 0,
+   "note": "remove A from B = A를 B에서 제거. delete보다 넓게 쓰여요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "equipment",
+   "ko": "장비",
+   "ex": "The gym has new equipment.",
+   "exko": "헬스장에 새 장비가 들어왔어요.",
+   "use": [
+    [
+     "Camping equipment is expensive.",
+     "캠핑 장비는 비싸다."
+    ],
+    [
+     "Check the equipment before use.",
+     "사용 전에 장비를 점검하세요."
+    ]
+   ],
+   "mcq": [
+    "We bought new kitchen equipment.",
+    "We bought new kitchen equipments.",
+    "We bought a new equipment kitchen.",
+    "New equipments kitchen we bought."
+   ],
+   "ans": 0,
+   "note": "equipment는 셀 수 없는 명사 — 복수형 금지! a piece of equipment.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "deliver",
+   "ko": "배달하다, 전달하다",
+   "ex": "They deliver until 10 p.m.",
+   "exko": "밤 10시까지 배달해요.",
+   "use": [
+    [
+     "The package was delivered this morning.",
+     "택배가 오늘 아침에 도착했다."
+    ],
+    [
+     "She delivered a great speech.",
+     "그녀는 훌륭한 연설을 했다."
+    ]
+   ],
+   "mcq": [
+    "They delivered the food in 30 minutes.",
+    "They delivered the food during 30 minutes inside.",
+    "They delivered in the food 30 minutes.",
+    "The food delivered them 30 minutes in."
+   ],
+   "ans": 0,
+   "note": "deliver = 배달·전달. deliver a speech(연설하다)까지 알면 고급!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "collect",
+   "ko": "모으다, 수거하다",
+   "ex": "He collects old coins.",
+   "exko": "그는 옛날 동전을 모아요.",
+   "use": [
+    [
+     "I'll collect the documents by Friday.",
+     "금요일까지 서류를 모을게요."
+    ],
+    [
+     "The trash is collected on Mondays.",
+     "쓰레기는 월요일에 수거된다."
+    ]
+   ],
+   "mcq": [
+    "We collected donations for the cause.",
+    "We collected up donations for cause.",
+    "We made collect donations for.",
+    "Donations collected we for the cause."
+   ],
+   "ans": 0,
+   "note": "collect = 목적을 갖고 모으다. gather보다 체계적인 느낌!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "trust",
+   "ko": "신뢰(하다)",
+   "ex": "Trust me, it works.",
+   "exko": "믿어봐요, 효과 있어요.",
+   "use": [
+    [
+     "It takes years to build trust.",
+     "신뢰를 쌓는 데는 몇 년이 걸린다."
+    ],
+    [
+     "I trust her judgment completely.",
+     "나는 그녀의 판단을 전적으로 믿는다."
+    ]
+   ],
+   "mcq": [
+    "You can trust him with the key.",
+    "You can trust him at the key.",
+    "You can trust to him the key.",
+    "The key trusts you him with."
+   ],
+   "ans": 0,
+   "note": "trust A with B = A에게 B를 믿고 맡기다. 관계의 핵심 동사!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "appropriate",
+   "ko": "적절한",
+   "ex": "Is this dress appropriate for the wedding?",
+   "exko": "이 옷 결혼식에 입어도 괜찮을까요?",
+   "use": [
+    [
+     "Choose an appropriate time to call.",
+     "전화하기 적절한 시간을 고르세요."
+    ],
+    [
+     "That joke wasn't appropriate for work.",
+     "그 농담은 회사에서 할 만한 게 아니었다."
+    ]
+   ],
+   "mcq": [
+    "Wear clothes appropriate for the occasion.",
+    "Wear clothes appropriate to at the occasion.",
+    "Wear appropriate the clothes occasion for.",
+    "The occasion wears appropriate clothes for."
+   ],
+   "ans": 0,
+   "note": "appropriate for + 상황 = ~에 알맞은. 격식 있는 suitable!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "expensive",
+   "ko": "비싼",
+   "ex": "That restaurant is too expensive.",
+   "exko": "그 식당은 너무 비싸요.",
+   "use": [
+    [
+     "Seoul rent is getting more expensive.",
+     "서울 월세가 점점 비싸진다."
+    ],
+    [
+     "It looks expensive but it wasn't.",
+     "비싸 보이는데 안 비쌌어요."
+    ]
+   ],
+   "mcq": [
+    "The hotel was more expensive than expected.",
+    "The hotel was expensiver than expected.",
+    "The hotel was more expensive than expect.",
+    "Expected was more expensive the hotel than."
+   ],
+   "ans": 0,
+   "note": "more expensive (expensiver 아님!). 반대말 cheap·affordable도 세트.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "extra",
+   "ko": "추가의, 여분의",
+   "ex": "Can I get extra sauce, please?",
+   "exko": "소스 추가해 주시겠어요?",
+   "use": [
+    [
+     "There's no extra charge for delivery.",
+     "배달 추가 요금은 없어요."
+    ],
+    [
+     "Bring an extra battery just in case.",
+     "혹시 모르니 여분 배터리를 챙기세요."
+    ]
+   ],
+   "mcq": [
+    "Is there an extra fee for luggage?",
+    "Is there an extra fee for luggages more?",
+    "Is an extra there fee luggage for?",
+    "Luggage is there for an extra fee?"
+   ],
+   "ans": 0,
+   "note": "extra charge/fee = 추가 요금. 여행·쇼핑 방어 필수 단어!",
+   "wk": "2026-W36"
   }
  ]
 }

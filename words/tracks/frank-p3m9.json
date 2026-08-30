@@ -1002,6 +1002,506 @@
    "ans": 1,
    "note": "recommend + 명사/-ing가 자연스러워요. 'recommend you to 장소'는 어색합니다.",
    "wk": "2026-W35"
+  },
+  {
+   "w": "expect",
+   "ko": "기대하다, 예상하다",
+   "ex": "I didn't expect to see you here!",
+   "exko": "여기서 만날 줄은 몰랐어요!",
+   "use": [
+    [
+     "We expect the package to arrive tomorrow.",
+     "택배가 내일 도착할 것으로 예상해요."
+    ],
+    [
+     "Don't expect too much from the movie.",
+     "그 영화에 너무 기대하지 마."
+    ]
+   ],
+   "mcq": [
+    "I expect that he will come.",
+    "I expect him coming here.",
+    "I am expecting to him.",
+    "He expects me that I go."
+   ],
+   "ans": 0,
+   "note": "expect + that절 / expect + to부정사. 'expect him coming'은 어색해요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "suggest",
+   "ko": "제안하다",
+   "ex": "Can I suggest a different plan?",
+   "exko": "다른 계획을 제안해도 될까요?",
+   "use": [
+    [
+     "She suggested meeting at 3 o'clock.",
+     "그녀는 3시에 만나자고 제안했다."
+    ],
+    [
+     "I suggest that we take a break.",
+     "잠깐 쉬는 게 어떨까요."
+    ]
+   ],
+   "mcq": [
+    "I suggest you to go home early.",
+    "I suggest going home early.",
+    "I suggest to go home early.",
+    "I suggest you going home."
+   ],
+   "ans": 1,
+   "note": "suggest + -ing! 'suggest to go'는 한국인이 가장 많이 틀리는 형태예요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "agree",
+   "ko": "동의하다",
+   "ex": "I totally agree with you.",
+   "exko": "전적으로 동의해요.",
+   "use": [
+    [
+     "We agreed to meet next week.",
+     "다음 주에 만나기로 합의했다."
+    ],
+    [
+     "I don't agree with that idea.",
+     "그 의견에는 동의하지 않아요."
+    ]
+   ],
+   "mcq": [
+    "I agree your opinion.",
+    "I agree to your face.",
+    "I agree with your opinion.",
+    "I am agree with you."
+   ],
+   "ans": 2,
+   "note": "agree with + 사람/의견. 'I am agree'는 be동사 없이 I agree!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "arrive",
+   "ko": "도착하다",
+   "ex": "What time does the train arrive?",
+   "exko": "기차가 몇 시에 도착해요?",
+   "use": [
+    [
+     "We arrived at the hotel around noon.",
+     "정오쯤 호텔에 도착했다."
+    ],
+    [
+     "She arrived in Seoul last night.",
+     "그녀는 어젯밤 서울에 도착했다."
+    ]
+   ],
+   "mcq": [
+    "We arrived to the airport.",
+    "We arrived at the airport.",
+    "We arrived the airport.",
+    "We arrived on the airport."
+   ],
+   "ans": 1,
+   "note": "arrive at + 장소(건물), arrive in + 도시/나라. arrive to는 없어요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "attend",
+   "ko": "참석하다",
+   "ex": "Will you attend the meeting tomorrow?",
+   "exko": "내일 회의에 참석하세요?",
+   "use": [
+    [
+     "About fifty people attended the seminar.",
+     "세미나에 50명 정도가 참석했다."
+    ],
+    [
+     "I can't attend the wedding this Saturday.",
+     "이번 토요일 결혼식에 못 가요."
+    ]
+   ],
+   "mcq": [
+    "I will attend to the meeting.",
+    "I will attend at the meeting.",
+    "I will attend the meeting.",
+    "I will attend in the meeting."
+   ],
+   "ans": 2,
+   "note": "attend + 행사 바로 연결! 전치사를 넣는 게 대표적인 실수예요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "raise",
+   "ko": "올리다, 들어올리다",
+   "ex": "Please raise your hand if you have a question.",
+   "exko": "질문 있으면 손을 들어 주세요.",
+   "use": [
+    [
+     "They raised the price again.",
+     "가격을 또 올렸다."
+    ],
+    [
+     "Can I raise one more question?",
+     "질문 하나 더 해도 될까요?"
+    ]
+   ],
+   "mcq": [
+    "The price raised last month.",
+    "They raised the price last month.",
+    "The price was raise by them.",
+    "They rose the price last month."
+   ],
+   "ans": 1,
+   "note": "raise는 목적어가 필요(올리다). 스스로 오르는 건 rise! rise-rose-risen과 혼동 주의.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "reach",
+   "ko": "도달하다, 닿다",
+   "ex": "We finally reached the top of the mountain.",
+   "exko": "드디어 산 정상에 도착했어요.",
+   "use": [
+    [
+     "You can reach me by email anytime.",
+     "언제든 이메일로 연락 주세요."
+    ],
+    [
+     "The sales reached 1 million won.",
+     "매출이 100만 원에 도달했다."
+    ]
+   ],
+   "mcq": [
+    "We reached to the station at 9.",
+    "We reached at the station at 9.",
+    "We reached the station at 9.",
+    "We reached in the station at 9."
+   ],
+   "ans": 2,
+   "note": "reach + 장소 바로 연결! arrive at과 헷갈려서 reach to로 쓰기 쉬워요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "trouble",
+   "ko": "문제, 곤란",
+   "ex": "I'm having trouble with my computer.",
+   "exko": "컴퓨터가 말썽이에요.",
+   "use": [
+    [
+     "Sorry for the trouble.",
+     "번거롭게 해서 죄송해요."
+    ],
+    [
+     "He got into trouble at school.",
+     "그는 학교에서 문제를 일으켰다."
+    ]
+   ],
+   "mcq": [
+    "I have trouble to sleep at night.",
+    "I have trouble sleeping at night.",
+    "I have a trouble for sleeping.",
+    "I am trouble with sleeping."
+   ],
+   "ans": 1,
+   "note": "have trouble + -ing! 'trouble to sleep'이 아니에요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "value",
+   "ko": "가치",
+   "ex": "This watch has great sentimental value.",
+   "exko": "이 시계는 정서적 가치가 커요.",
+   "use": [
+    [
+     "The value of the house went up.",
+     "집값이 올랐다."
+    ],
+    [
+     "I value your honest opinion.",
+     "당신의 솔직한 의견을 소중하게 생각해요."
+    ]
+   ],
+   "mcq": [
+    "This experience is value to me.",
+    "This experience has value to me.",
+    "This experience values to me.",
+    "This is a value experience."
+   ],
+   "ans": 1,
+   "note": "have value = 가치가 있다. valuable(형용사)과 구분하세요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "attempt",
+   "ko": "시도(하다)",
+   "ex": "This is my second attempt at the test.",
+   "exko": "이번이 두 번째 시험 도전이에요.",
+   "use": [
+    [
+     "He attempted to fix it himself.",
+     "그는 직접 고쳐 보려고 했다."
+    ],
+    [
+     "The first attempt failed.",
+     "첫 시도는 실패했다."
+    ]
+   ],
+   "mcq": [
+    "I attempted solving it hardly.",
+    "I attempted to solve it.",
+    "I attempted that I solve it.",
+    "I made attempt for solving."
+   ],
+   "ans": 1,
+   "note": "attempt + to부정사. try보다 격식 있는 말이에요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "advance",
+   "ko": "발전(하다), 미리",
+   "ex": "Please let me know in advance.",
+   "exko": "미리 알려 주세요.",
+   "use": [
+    [
+     "Technology advances so fast these days.",
+     "요즘 기술이 정말 빠르게 발전한다."
+    ],
+    [
+     "Thank you in advance for your help.",
+     "도와주실 것에 미리 감사드려요."
+    ]
+   ],
+   "mcq": [
+    "Book the ticket in advance.",
+    "Book the ticket at advance.",
+    "Book the ticket by advance.",
+    "Book the ticket on advance."
+   ],
+   "ans": 0,
+   "note": "in advance = 미리. 전치사 in이 고정이에요.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "employee",
+   "ko": "직원",
+   "ex": "The company has about 200 employees.",
+   "exko": "그 회사는 직원이 200명 정도예요.",
+   "use": [
+    [
+     "She's our newest employee.",
+     "그녀는 우리 회사의 신입 직원이다."
+    ],
+    [
+     "Employees get a discount here.",
+     "직원들은 여기서 할인을 받아요."
+    ]
+   ],
+   "mcq": [
+    "I am an employee at a bank.",
+    "I am an employer at a bank as staff.",
+    "My employee is Samsung.",
+    "I work as an employer for my boss."
+   ],
+   "ans": 0,
+   "note": "employee = 고용된 직원, employer = 고용주(회사). -ee가 '받는 쪽'!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "exercise",
+   "ko": "운동(하다)",
+   "ex": "I try to exercise three times a week.",
+   "exko": "일주일에 세 번은 운동하려고 해요.",
+   "use": [
+    [
+     "Regular exercise keeps you healthy.",
+     "규칙적인 운동이 건강을 지켜준다."
+    ],
+    [
+     "Swimming is good exercise.",
+     "수영은 좋은 운동이다."
+    ]
+   ],
+   "mcq": [
+    "I do exercise every morning.",
+    "I play exercise every morning.",
+    "I make exercise every morning.",
+    "I take exercise hardly."
+   ],
+   "ans": 0,
+   "note": "do exercise 또는 그냥 exercise(동사). play는 구기 종목에만!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "push",
+   "ko": "밀다, 밀어붙이다",
+   "ex": "Push the door, don't pull it.",
+   "exko": "문을 당기지 말고 미세요.",
+   "use": [
+    [
+     "Don't push me, I need time.",
+     "재촉하지 마, 시간이 필요해."
+    ],
+    [
+     "She pushed herself to finish the race.",
+     "그녀는 완주하려고 자신을 밀어붙였다."
+    ]
+   ],
+   "mcq": [
+    "He pushed me to try again.",
+    "He pushed me trying again.",
+    "He pushed that I try again.",
+    "He pushed to me for trying."
+   ],
+   "ans": 0,
+   "note": "push + 사람 + to부정사 = ~하도록 밀어붙이다.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "improve",
+   "ko": "나아지다, 개선하다",
+   "ex": "Your English is improving fast!",
+   "exko": "영어 실력이 빠르게 늘고 있어요!",
+   "use": [
+    [
+     "I want to improve my speaking skills.",
+     "말하기 실력을 키우고 싶어요."
+    ],
+    [
+     "The weather improved in the afternoon.",
+     "오후에 날씨가 좋아졌다."
+    ]
+   ],
+   "mcq": [
+    "My English is improving.",
+    "My English is improving up.",
+    "I improve up my English.",
+    "My English improves me."
+   ],
+   "ans": 0,
+   "note": "improve 하나로 충분해요. improve up 같은 군더더기 불필요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "provide",
+   "ko": "제공하다",
+   "ex": "The hotel provides free breakfast.",
+   "exko": "호텔에서 무료 조식을 제공해요.",
+   "use": [
+    [
+     "We provide customers with fast service.",
+     "고객에게 빠른 서비스를 제공합니다."
+    ],
+    [
+     "The company provided lunch for everyone.",
+     "회사가 모두에게 점심을 제공했다."
+    ]
+   ],
+   "mcq": [
+    "They provide us good service.",
+    "They provide us with good service.",
+    "They provide to us good service.",
+    "They provide good service for we."
+   ],
+   "ans": 1,
+   "note": "provide A with B = A에게 B를 제공하다. with를 빼먹기 쉬워요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "especially",
+   "ko": "특히",
+   "ex": "I love fruit, especially strawberries.",
+   "exko": "과일을 좋아하는데, 특히 딸기요.",
+   "use": [
+    [
+     "The hotel is busy, especially on weekends.",
+     "호텔은 특히 주말에 바빠요."
+    ],
+    [
+     "Be careful, especially at night.",
+     "특히 밤에는 조심하세요."
+    ]
+   ],
+   "mcq": [
+    "I like summer, especially August.",
+    "I like summer, specially August season.",
+    "I especially am liking August.",
+    "Especially, I like the August most."
+   ],
+   "ans": 0,
+   "note": "especially는 예시 앞에 붙어요. specially(특별히 맞춤으로)와 구분!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "despite",
+   "ko": "~에도 불구하고",
+   "ex": "We went out despite the rain.",
+   "exko": "비가 오는데도 우리는 나갔어요.",
+   "use": [
+    [
+     "Despite the price, the room was small.",
+     "가격에 비해 방이 작았다."
+    ],
+    [
+     "She smiled despite being tired.",
+     "그녀는 피곤한데도 미소 지었다."
+    ]
+   ],
+   "mcq": [
+    "Despite of the rain, we went out.",
+    "Despite the rain, we went out.",
+    "Despite it rained, we went out.",
+    "Despite for the rain, we went out."
+   ],
+   "ans": 1,
+   "note": "despite + 명사 바로 연결! 'despite of'는 정말 흔한 오류예요(in spite of와 혼동).",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "variety",
+   "ko": "다양성, 여러 가지",
+   "ex": "The buffet has a variety of dishes.",
+   "exko": "뷔페에 다양한 요리가 있어요.",
+   "use": [
+    [
+     "We offer a variety of room types.",
+     "다양한 객실 타입을 제공합니다."
+    ],
+    [
+     "I eat a variety of vegetables.",
+     "여러 가지 채소를 먹어요."
+    ]
+   ],
+   "mcq": [
+    "They sell variety of drinks.",
+    "They sell a variety of drinks.",
+    "They sell varieties drink.",
+    "They sell drink variety much."
+   ],
+   "ans": 1,
+   "note": "a variety of + 복수명사. 관사 a를 빼먹기 쉬워요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "prepare",
+   "ko": "준비하다",
+   "ex": "I'm preparing for a job interview.",
+   "exko": "면접 준비 중이에요.",
+   "use": [
+    [
+     "She prepared dinner for the guests.",
+     "그녀는 손님들을 위해 저녁을 준비했다."
+    ],
+    [
+     "We need to prepare for the busy season.",
+     "성수기를 대비해야 해요."
+    ]
+   ],
+   "mcq": [
+    "I'm preparing for the exam.",
+    "I'm preparing to the exam.",
+    "I'm preparing about the exam.",
+    "I'm preparing with the exam."
+   ],
+   "ans": 0,
+   "note": "prepare for + 대비할 일. prepare + 명사(직접 만들 것)도 가능해요.",
+   "wk": "2026-W36"
   }
  ]
 }

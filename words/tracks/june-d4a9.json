@@ -1002,6 +1002,506 @@
    "ans": 0,
    "note": "cheer for(응원하다), cheer up(기운 내다/내게 하다) — 전치사로 뜻이 갈려요!",
    "wk": "2026-W35"
+  },
+  {
+   "w": "assemble",
+   "ko": "조립하다, 모이다",
+   "ex": "It took an hour to assemble the desk.",
+   "exko": "책상 조립에 한 시간 걸렸어요.",
+   "use": [
+    [
+     "The team assembled for the briefing.",
+     "팀이 브리핑을 위해 모였다."
+    ],
+    [
+     "She assembled a great research group.",
+     "그녀는 훌륭한 연구팀을 꾸렸다."
+    ]
+   ],
+   "mcq": [
+    "We assembled the equipment before class.",
+    "We assembled up the equipment before.",
+    "We made assemble the equipment.",
+    "The equipment assembled we before class."
+   ],
+   "ans": 0,
+   "note": "assemble = 부품을 조립하다 + 사람들이 모이다. assembly의 동사형!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "parameter",
+   "ko": "매개변수, 조건 범위",
+   "ex": "We set clear parameters for the study.",
+   "exko": "연구의 조건 범위를 명확히 정했어요.",
+   "use": [
+    [
+     "Stay within the parameters of the protocol.",
+     "프로토콜의 범위 안에서 진행하세요."
+    ],
+    [
+     "Adjust the parameters and test again.",
+     "조건을 조정해 다시 테스트하세요."
+    ]
+   ],
+   "mcq": [
+    "The study has strict parameters.",
+    "The study has strict parameter rules.",
+    "Strict has the study parameters.",
+    "Parameters strict the study has."
+   ],
+   "ans": 0,
+   "note": "parameters = 정해진 조건·범위. 연구 설계 대화의 필수 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "anchor",
+   "ko": "닻, 고정하다, 중심",
+   "ex": "Anchor your core before lifting.",
+   "exko": "들기 전에 코어를 단단히 고정하세요.",
+   "use": [
+    [
+     "The ship dropped anchor near the island.",
+     "배가 섬 근처에 닻을 내렸다."
+    ],
+    [
+     "She anchors the evening news.",
+     "그녀는 저녁 뉴스를 진행한다."
+    ]
+   ],
+   "mcq": [
+    "Anchor your feet to the floor.",
+    "Anchor your feet at to the floor.",
+    "Anchor to your feet the floor.",
+    "The floor anchors your feet to."
+   ],
+   "ans": 0,
+   "note": "anchor = 고정하다. 필라테스 큐잉(anchor your pelvis)에 바로 쓰는 동사!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "laptop",
+   "ko": "노트북",
+   "ex": "I left my laptop at the office.",
+   "exko": "노트북을 사무실에 두고 왔어요.",
+   "use": [
+    [
+     "Her laptop died during the presentation.",
+     "발표 중에 노트북이 꺼졌다."
+    ],
+    [
+     "I work from cafes with my laptop.",
+     "노트북 들고 카페에서 일해요."
+    ]
+   ],
+   "mcq": [
+    "My laptop battery drains fast.",
+    "My laptop computer notebook drains fast.",
+    "My laptop drains battery it fast.",
+    "Fast drains my laptop the battery."
+   ],
+   "ans": 0,
+   "note": "한국어 '노트북'=영어 laptop! notebook은 공책이에요 — 대표적 콩글리시 주의.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "portfolio",
+   "ko": "포트폴리오, 작품집",
+   "ex": "Update your portfolio before applying.",
+   "exko": "지원 전에 포트폴리오를 업데이트하세요.",
+   "use": [
+    [
+     "Her research portfolio is impressive.",
+     "그녀의 연구 실적이 인상적이다."
+    ],
+    [
+     "The fund has a diverse portfolio.",
+     "그 펀드는 포트폴리오가 다양하다."
+    ]
+   ],
+   "mcq": [
+    "He built a strong portfolio of cases.",
+    "He built a strong portfolio case of.",
+    "A strong portfolio built he of cases.",
+    "Cases built a strong portfolio he of."
+   ],
+   "ans": 0,
+   "note": "portfolio = 작품·실적 모음. 이직·연구 실적 대화에 그대로!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "outlet",
+   "ko": "콘센트, 배출구, 매장",
+   "ex": "Is there an outlet near this seat?",
+   "exko": "이 자리 근처에 콘센트 있어요?",
+   "use": [
+    [
+     "Exercise is my stress outlet.",
+     "운동은 내 스트레스 배출구다."
+    ],
+    [
+     "We visited the outlet mall for deals.",
+     "할인하러 아울렛에 갔다."
+    ]
+   ],
+   "mcq": [
+    "Running is a healthy outlet for stress.",
+    "Running is a healthy outlet of for stress.",
+    "Running outlets healthy stress for.",
+    "Stress is a healthy outlet running for."
+   ],
+   "ans": 0,
+   "note": "콘센트=outlet(미국)! an outlet for stress(배출구) 용법이 고급 포인트.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "arena",
+   "ko": "경기장, 무대(분야)",
+   "ex": "The concert is at the Olympic arena.",
+   "exko": "콘서트는 올림픽 경기장에서 해요.",
+   "use": [
+    [
+     "She entered the political arena at 40.",
+     "그녀는 마흔에 정치 무대에 뛰어들었다."
+    ],
+    [
+     "The arena holds 15,000 people.",
+     "그 경기장은 1만 5천 명을 수용한다."
+    ]
+   ],
+   "mcq": [
+    "He's new to the research arena.",
+    "He's new at to the research arena.",
+    "The research arena new he is to.",
+    "New is he the arena research to."
+   ],
+   "ans": 0,
+   "note": "arena = 경기장 + '활동 무대'. the sports medicine arena처럼 은유로!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "rally",
+   "ko": "집회, 랠리, 회복하다",
+   "ex": "The team rallied in the second half.",
+   "exko": "팀이 후반에 반격했어요.",
+   "use": [
+    [
+     "Thousands joined the peace rally.",
+     "수천 명이 평화 집회에 모였다."
+    ],
+    [
+     "The patient rallied after treatment.",
+     "환자가 치료 후 기력을 회복했다."
+    ]
+   ],
+   "mcq": [
+    "The crowd rallied behind the team.",
+    "The crowd rallied at behind the team.",
+    "The team rallied the crowd behind it.",
+    "Behind rallied the crowd the team."
+   ],
+   "ans": 0,
+   "note": "rally behind = ~를 결집해 응원하다. 테니스 랠리도 이 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "unity",
+   "ko": "단결, 통일성",
+   "ex": "Team unity matters more than talent.",
+   "exko": "팀 단결이 재능보다 중요해요.",
+   "use": [
+    [
+     "The coach emphasized unity before the final.",
+     "감독은 결승 전 단결을 강조했다."
+    ],
+    [
+     "The design lacks visual unity.",
+     "그 디자인은 시각적 통일성이 부족하다."
+    ]
+   ],
+   "mcq": [
+    "The event promoted national unity.",
+    "The event promoted national unite.",
+    "The event promoted to unity national.",
+    "National unity promoted the event it."
+   ],
+   "ans": 0,
+   "note": "unity(명사) vs unite(동사) 구분. team unity는 스포츠 인터뷰 단골!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "quest",
+   "ko": "탐구, 추구",
+   "ex": "Her quest for the perfect form continues.",
+   "exko": "완벽한 자세를 향한 그녀의 탐구는 계속돼요.",
+   "use": [
+    [
+     "The quest for knowledge never ends.",
+     "앎을 향한 탐구는 끝이 없다."
+    ],
+    [
+     "He's on a quest to run a sub-3 marathon.",
+     "그는 3시간 벽 돌파를 향해 도전 중이다."
+    ]
+   ],
+   "mcq": [
+    "She's on a quest for better health.",
+    "She's on a quest of for better health.",
+    "A quest she's on better health for.",
+    "Better health quests she on for."
+   ],
+   "ans": 0,
+   "note": "on a quest for = ~을 찾아 나선. 게임 퀘스트의 그 quest — 원뜻은 '탐구'!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "delicious",
+   "ko": "맛있는",
+   "ex": "This bibimbap is delicious!",
+   "exko": "이 비빔밥 정말 맛있어요!",
+   "use": [
+    [
+     "The bakery smells delicious.",
+     "그 빵집은 냄새부터 맛있다."
+    ],
+    [
+     "She made a delicious post-workout meal.",
+     "그녀는 맛있는 운동 후 식사를 만들었다."
+    ]
+   ],
+   "mcq": [
+    "The soup tastes delicious.",
+    "The soup tastes deliciously.",
+    "The soup is tasted delicious.",
+    "Delicious tastes the soup it."
+   ],
+   "ans": 0,
+   "note": "taste + 형용사(delicious)! 부사 아님. smell/look도 같은 패턴.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "someday",
+   "ko": "언젠가",
+   "ex": "I'd love to visit Napa someday.",
+   "exko": "언젠가 나파밸리에 가보고 싶어요.",
+   "use": [
+    [
+     "Someday this hard work will pay off.",
+     "언젠가 이 노력이 결실을 맺을 거예요."
+    ],
+    [
+     "We'll look back and laugh someday.",
+     "언젠가 돌아보며 웃을 날이 올 거야."
+    ]
+   ],
+   "mcq": [
+    "I want to open a clinic someday.",
+    "I want to open a clinic some day time.",
+    "Someday I want opening a clinic.",
+    "A clinic wants me to open someday."
+   ],
+   "ans": 0,
+   "note": "someday = 미래의 언젠가(한 단어). some day(어느 하루)와 미묘하게 달라요!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "cruise",
+   "ko": "크루즈, 순항하다",
+   "ex": "They went on a Mediterranean cruise.",
+   "exko": "그들은 지중해 크루즈 여행을 갔어요.",
+   "use": [
+    [
+     "The car cruised along the coast road.",
+     "차가 해안도로를 순항했다."
+    ],
+    [
+     "She cruised to victory in the final.",
+     "그녀는 결승에서 낙승했다."
+    ]
+   ],
+   "mcq": [
+    "He cruised through the first round.",
+    "He cruised at through the first round.",
+    "The first round cruised him through.",
+    "Through cruised he the first round."
+   ],
+   "ans": 0,
+   "note": "cruise through = 수월하게 통과하다. 스포츠 기사 단골 표현!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "outfit",
+   "ko": "옷차림, 복장",
+   "ex": "I love your outfit today!",
+   "exko": "오늘 옷 너무 예뻐요!",
+   "use": [
+    [
+     "Pick a comfortable outfit for the workshop.",
+     "워크숍엔 편한 복장을 고르세요."
+    ],
+    [
+     "Her workout outfits are always stylish.",
+     "그녀의 운동복은 늘 스타일리시하다."
+    ]
+   ],
+   "mcq": [
+    "That's a perfect outfit for the event.",
+    "That's a perfect outfit clothes for event.",
+    "A perfect outfit that's the event for.",
+    "The event outfits that perfect for."
+   ],
+   "ans": 0,
+   "note": "outfit = 한 벌의 코디 전체. clothes(옷 일반)와 뉘앙스 차이!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "needle",
+   "ko": "바늘, 주삿바늘",
+   "ex": "I'm not afraid of needles anymore.",
+   "exko": "이제 주사 안 무서워요.",
+   "use": [
+    [
+     "The acupuncture needles don't hurt much.",
+     "침은 그렇게 아프지 않다."
+    ],
+    [
+     "Finding it was like a needle in a haystack.",
+     "그건 백사장에서 바늘 찾기였다."
+    ]
+   ],
+   "mcq": [
+    "The nurse prepared a clean needle.",
+    "The nurse prepared a clean needle pin.",
+    "A clean needle prepared the nurse.",
+    "Needle a clean the nurse prepared."
+   ],
+   "ans": 0,
+   "note": "a needle in a haystack = 건초더미 속 바늘(찾기 불가능). 의료+관용구 일석이조!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "hidden",
+   "ko": "숨겨진",
+   "ex": "The cafe is a hidden gem.",
+   "exko": "그 카페는 숨은 명소예요.",
+   "use": [
+    [
+     "The injury had hidden causes.",
+     "그 부상에는 숨은 원인이 있었다."
+    ],
+    [
+     "Watch out for hidden fees.",
+     "숨은 수수료를 조심하세요."
+    ]
+   ],
+   "mcq": [
+    "There are no hidden charges.",
+    "There are no hiding charges.",
+    "There are no hidden charge.",
+    "No charges hidden there are."
+   ],
+   "ans": 0,
+   "note": "hidden gem(숨은 명소), hidden fees(숨은 비용) — 짝으로 기억!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "suburb",
+   "ko": "교외",
+   "ex": "They moved to a quiet suburb.",
+   "exko": "그들은 조용한 교외로 이사했어요.",
+   "use": [
+    [
+     "She grew up in the suburbs of Busan.",
+     "그녀는 부산 교외에서 자랐다."
+    ],
+    [
+     "Rent is cheaper in the suburbs.",
+     "교외는 월세가 더 싸다."
+    ]
+   ],
+   "mcq": [
+    "We live in the suburbs of Seoul.",
+    "We live in the suburb areas of Seoul.",
+    "We live at suburbs in Seoul of.",
+    "Seoul lives in the suburbs of we."
+   ],
+   "ans": 0,
+   "note": "보통 the suburbs(복수)로! 도심=downtown과 세트.",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "toxic",
+   "ko": "유독한, 해로운",
+   "ex": "Avoid toxic cleaning products.",
+   "exko": "유독성 세제는 피하세요.",
+   "use": [
+    [
+     "A toxic workplace drains your energy.",
+     "유해한 직장 문화는 에너지를 갉아먹는다."
+    ],
+    [
+     "Some plants are toxic to pets.",
+     "어떤 식물은 반려동물에게 유독하다."
+    ]
+   ],
+   "mcq": [
+    "That chemical is toxic to humans.",
+    "That chemical is toxic at humans.",
+    "That chemical toxics to humans.",
+    "Humans are toxic that chemical to."
+   ],
+   "ans": 0,
+   "note": "toxic to + 대상. toxic relationship(해로운 관계)처럼 은유로도 대세!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "deploy",
+   "ko": "배치하다, 투입하다",
+   "ex": "The team deployed extra staff for the event.",
+   "exko": "행사에 추가 인력을 투입했어요.",
+   "use": [
+    [
+     "Deploy your energy wisely in a marathon.",
+     "마라톤에선 에너지를 현명하게 배분하세요."
+    ],
+    [
+     "The app update was deployed last night.",
+     "앱 업데이트가 어젯밤 배포됐다."
+    ]
+   ],
+   "mcq": [
+    "They deployed resources where needed.",
+    "They deployed out resources where needed.",
+    "They made deploy resources needed where.",
+    "Resources deployed they where needed."
+   ],
+   "ans": 0,
+   "note": "deploy = 전략적으로 배치·투입. 군사→IT→일상으로 확장된 단어!",
+   "wk": "2026-W36"
+  },
+  {
+   "w": "treasure",
+   "ko": "보물, 소중히 여기다",
+   "ex": "I treasure our Sunday classes.",
+   "exko": "우리 일요일 수업을 소중히 생각해요.",
+   "use": [
+    [
+     "This old photo is a family treasure.",
+     "이 옛 사진은 집안의 보물이다."
+    ],
+    [
+     "Treasure your health while you're young.",
+     "젊을 때 건강을 소중히 하세요."
+    ]
+   ],
+   "mcq": [
+    "She treasures every moment with them.",
+    "She treasures at every moment with them.",
+    "Every moment treasures she with them.",
+    "With them treasures she every moment."
+   ],
+   "ans": 0,
+   "note": "treasure를 동사로 = 아끼고 소중히 여기다. 감사 표현의 품격!",
+   "wk": "2026-W36"
   }
  ]
 }

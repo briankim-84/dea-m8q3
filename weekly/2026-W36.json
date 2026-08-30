@@ -1,0 +1,89 @@
+{
+ "week": "2026-W36",
+ "label": "8월 31일 주",
+ "levels": {
+  "warmup": {
+   "cards": [
+    {"expr": "make sure", "ko": "꼭 확인하다", "ex": "Make sure you lock the door."},
+    {"expr": "right away", "ko": "곧바로", "ex": "I'll send it right away."},
+    {"expr": "no big deal", "ko": "별일 아니야", "ex": "Don't worry, it's no big deal."},
+    {"expr": "sounds good", "ko": "좋아요, 그렇게 해요", "ex": "Lunch at noon? Sounds good!"},
+    {"expr": "take your time", "ko": "천천히 하세요", "ex": "No rush — take your time."}
+   ],
+   "quiz": [
+    {"q": "___ you bring your passport tomorrow.",
+     "options": ["Make sure", "Make sure of", "Be sure of that", "Sure make"],
+     "answer": 0, "note": "make sure (that) + 문장 = 꼭 ~하도록 하세요."},
+    {"q": "The client needs the file — please send it ___ .",
+     "options": ["right away", "away right", "in right away", "at right away"],
+     "answer": 0, "note": "right away = 지금 바로. immediately의 회화 버전!"},
+    {"q": "Sorry I'm late! — It's ___ , we just started.",
+     "options": ["no big deal", "not big deal", "no deal big", "none big deal"],
+     "answer": 0, "note": "It's no big deal = 별일 아니에요. 상대 마음을 풀어주는 말!"},
+    {"q": "How about meeting at 3? — ___ !",
+     "options": ["Sounds good", "Sound good", "It sound good", "Good sounds"],
+     "answer": 0, "note": "(That) sounds good — 3인칭 s 필수! 승낙의 만능 표현."},
+    {"q": "There's no hurry, so ___ .",
+     "options": ["take your time", "take a time", "take the time yours", "spend your time slow"],
+     "answer": 0, "note": "take your time = 서두르지 마세요. 배려의 한마디!"}
+   ]
+  },
+  "intermediate": {
+   "cards": [
+    {"expr": "on short notice", "ko": "갑작스러운 통보에도", "ex": "Thanks for coming on such short notice."},
+    {"expr": "in the long run", "ko": "장기적으로 보면", "ex": "It'll save money in the long run."},
+    {"expr": "get the hang of it", "ko": "요령을 익히다", "ex": "You'll get the hang of it soon."},
+    {"expr": "slip one's mind", "ko": "깜빡하다", "ex": "Sorry, it totally slipped my mind."},
+    {"expr": "keep an eye on", "ko": "지켜보다, 봐주다", "ex": "Can you keep an eye on my bag?"}
+   ],
+   "quiz": [
+    {"q": "Thank you for helping us ___ such short notice.",
+     "options": ["on", "in", "at", "by"],
+     "answer": 0, "note": "on short notice = 급한 요청에도. 전치사 on!"},
+    {"q": "Exercise costs time now but pays off ___ .",
+     "options": ["in the long run", "on the long run", "at the long run", "for the long running"],
+     "answer": 0, "note": "in the long run = 길게 보면. 장기 vs 단기 얘기의 필수 표현."},
+    {"q": "Driving feels hard at first, but you'll ___ of it.",
+     "options": ["get the hang", "get the handle", "take the hang", "catch the hold"],
+     "answer": 0, "note": "get the hang of it = 감을 잡다. hang이 핵심!"},
+    {"q": "I meant to call you, but it completely ___ my mind.",
+     "options": ["slipped", "slid", "dropped", "fell"],
+     "answer": 0, "note": "slip one's mind = 깜빡 잊다. 주어가 '그 일'이라는 게 포인트!"},
+    {"q": "Could you ___ on the kids while I cook?",
+     "options": ["keep an eye", "keep the eyes", "put an eye", "hold an eye"],
+     "answer": 0, "note": "keep an eye on = 계속 지켜보다. 부탁할 때 최고 빈도!"}
+   ]
+  },
+  "challenge": {
+   "cards": [
+    {"expr": "break the ice", "ko": "어색함을 깨다", "ex": "A joke helps break the ice."},
+    {"expr": "on the fence", "ko": "결정을 못 내린", "ex": "I'm still on the fence about the offer."},
+    {"expr": "cost an arm and a leg", "ko": "엄청나게 비싸다", "ex": "That bag costs an arm and a leg."},
+    {"expr": "burn the midnight oil", "ko": "밤늦게까지 일하다", "ex": "We burned the midnight oil to finish."},
+    {"expr": "a blessing in disguise", "ko": "전화위복", "ex": "Losing that job was a blessing in disguise."}
+   ],
+   "quiz": [
+    {"q": "He told a funny story to ___ at the meeting.",
+     "hint": "얼음을 깨다 — 어색한 분위기를 푸는 표현",
+     "accept": ["break the ice", "break the ice."],
+     "note": "첫 만남·회의 시작의 어색함을 깨는 것 = break the ice."},
+    {"q": "I can't decide yet — I'm still ___ about moving abroad.",
+     "hint": "울타리 위에 앉아 양쪽을 보는 중",
+     "accept": ["on the fence", "on the fence."],
+     "note": "on the fence = 이쪽도 저쪽도 결정 못 한 상태."},
+    {"q": "Rent in Gangnam ___ — it's incredibly expensive.",
+     "hint": "팔 하나와 다리 하나 값 (costs로 시작)",
+     "accept": ["costs an arm and a leg", "costs an arm and a leg."],
+     "note": "cost an arm and a leg = 팔다리를 내줄 만큼 비싸다!"},
+    {"q": "We had to ___ to meet the deadline.",
+     "hint": "자정의 기름을 태우다",
+     "accept": ["burn the midnight oil", "burn the midnight oil."],
+     "note": "전등 없던 시절 밤새 기름등을 태운 데서 — 야근·밤샘 작업."},
+    {"q": "Missing that flight was ___ — the plane had engine trouble.",
+     "hint": "변장한 축복 (a로 시작)",
+     "accept": ["a blessing in disguise", "a blessing in disguise."],
+     "note": "a blessing in disguise = 전화위복. 나쁜 일이 알고 보니 행운!"}
+   ]
+  }
+ }
+}
