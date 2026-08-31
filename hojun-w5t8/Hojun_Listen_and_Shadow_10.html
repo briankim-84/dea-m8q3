@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hojun · Listen & Shadow 10</title>
+<style>
+:root{--ink:#10203A;--card:#16273F;--edge:#3E5A82;--gold:#C9A432;--gold2:#E4C05C;--white:#F4F6FA;--muted:#AEB9CC;--dim:#7E8CA0;--teal:#2E4A52;--tealL:#A0D8E8;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--ink);color:var(--white);font-family:'Segoe UI',-apple-system,'Malgun Gothic',sans-serif;padding:24px 14px 90px;}
+.wrap{max-width:760px;margin:0 auto;}
+h1{font-family:Georgia,serif;font-size:1.5rem;color:var(--white);text-align:center;}
+.sub{text-align:center;color:var(--gold2);font-style:italic;margin:6px 0 4px;font-size:.95rem;}
+.brand{text-align:center;color:var(--dim);font-size:.72rem;letter-spacing:3px;margin-bottom:18px;}
+.gbar{position:sticky;top:0;z-index:50;background:var(--ink);padding:10px 0;border-bottom:1px solid var(--edge);margin-bottom:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+.gbar button{background:var(--card);border:1px solid var(--gold);color:var(--gold2);border-radius:8px;padding:8px 14px;font-size:.85rem;cursor:pointer;font-weight:600;}
+.gbar button:disabled{opacity:.4;cursor:default;}
+.gbar .stop{border-color:#B45B5B;color:#E8A0A0;display:none;}
+button.on{background:var(--gold);color:var(--ink);}
+.gbar #grepeat.on{background:var(--gold);color:var(--ink);}
+#gprog{color:var(--muted);font-size:.8rem;margin-left:auto;}
+.sec{font-size:.72rem;font-weight:700;letter-spacing:2.5px;color:var(--gold);margin:26px 4px 10px;}
+.card{background:var(--card);border:1px solid var(--edge);border-radius:12px;padding:12px 14px;margin-bottom:10px;transition:box-shadow .2s,border-color .2s;}
+.card.playing{border-color:var(--gold2);box-shadow:0 0 0 2px rgba(228,192,92,.35);}
+.role{font-size:.72rem;color:var(--tealL);font-weight:700;margin-bottom:4px;letter-spacing:1px;}
+.en{font-size:1.02rem;line-height:1.5;font-weight:600;}
+.ko{color:var(--muted);font-size:.85rem;margin-top:3px;line-height:1.4;}
+.vocab{margin-top:7px;font-size:.78rem;color:var(--gold2);background:rgba(201,164,50,.08);border-left:3px solid var(--gold);padding:5px 8px;border-radius:4px;line-height:1.45;}
+.vary{margin-top:6px;font-size:.78rem;color:var(--tealL);background:rgba(160,216,232,.07);border-left:3px solid var(--tealL);padding:5px 8px;border-radius:4px;line-height:1.5;}
+.vary b{color:var(--white);font-weight:600;}
+.ctr{display:flex;gap:6px;margin-top:9px;align-items:center;flex-wrap:wrap;}
+.ctr button{background:var(--ink);border:1px solid var(--edge);color:var(--white);border-radius:7px;padding:6px 11px;font-size:.8rem;cursor:pointer;}
+.ctr button.rec{border-color:#B45B5B;color:#E8A0A0;}
+.ctr button.rec.on{background:#B45B5B;color:#fff;}
+.ctr button.rep.on{background:var(--gold);color:var(--ink);font-weight:700;}
+.ctr .cnt{font-size:.75rem;color:var(--gold2);min-width:38px;}
+.pbar{height:4px;background:var(--ink);border-radius:2px;margin-top:8px;overflow:hidden;}
+.pbar>div{height:100%;width:0%;background:var(--gold2);transition:width .1s linear;}
+.nofile{opacity:.45;}
+.en.hidden-en{display:none;}
+.lbl{font-size:.72rem;color:var(--dim);font-weight:700;margin-top:10px;letter-spacing:1px;}
+input.dict{width:100%;padding:10px 12px;border-radius:9px;border:1px solid rgba(255,255,255,.12);background:#0e1d33;color:var(--white);font-size:.95rem;margin:7px 0 4px;}
+input.dict:focus{outline:none;border-color:var(--gold);}
+.check{font-size:.8rem;color:#7BC98A;font-weight:700;cursor:pointer;}
+.saved{display:none;font-size:.7rem;color:#7BC98A;font-weight:700;margin-left:4px;}
+#exportBar{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--edge);padding:10px;display:flex;justify-content:center;gap:10px;z-index:60;}
+#exportBar button{background:var(--gold);color:var(--ink);border:none;border-radius:8px;padding:9px 18px;font-weight:700;cursor:pointer;font-size:.88rem;}
+#exportBar span{align-self:center;color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Hojun · Listen & Shadow 10</h1>
+<div class="sub">The Friday Report — reporting back, rebuilding trust</div>
+<div class="brand">D O &nbsp; E N G L I S H &nbsp; W I T H &nbsp; B R I A N</div>
+<div class="gbar">
+  <button id="playAllSlow">▶ 전체 느리게</button>
+  <button id="playAllNorm">▶ 전체 보통</button>
+  <button id="grepeat">🔁 반복</button>
+  <button id="gstop" class="stop">■ 정지</button>
+  <span id="gprog"></span>
+</div>
+<div id="list"></div>
+</div>
+<div id="exportBar"><span id="recStat"></span><button id="exportBtn">학생용 파일 내보내기</button></div>
+<script>
+const SENTENCES=[{"sec": "PART 1 · THE SITES", "role": "C", "ko": "싱가포르 매립 현장은 어떻게 봤어요?", "en": "What did you make of the Singapore project?", "vocab": "make of ~ — ~를 어떻게 보다, 평가하다"}, {"role": "H", "ko": "싱가포르는 해양 구조물 공사예요 — 케이슨을 썼죠.", "en": "Singapore is a maritime structure project — they used caissons.", "vocab": "maritime — 해양의 · caisson — 케이슨(수중 기초 구조물)", "vary": "It's a reclamation project — they used dredgers. · The bridge used precast segments."}, {"role": "H", "ko": "국내 프로젝트에서 비슷한 경험을 해봤어요.", "en": "I had a similar experience on a domestic project.", "vocab": "similar — 비슷한 · domestic — 국내의", "vary": "I had a similar issue on the last job. · She had a similar role on the metro project."}, {"role": "C", "ko": "쿠웨이트 대교는요?", "en": "And the Kuwait causeway?", "vocab": "causeway — 둑길, 해상 연결 도로"}, {"role": "H", "ko": "제가 입사했을 때 회사의 첫 대형 프로젝트였어요.", "en": "That was the company's first big project when I joined.", "vocab": "join — 입사하다", "vary": "That was my first site when I joined. · It was our biggest job when I started."}, {"role": "H", "ko": "우리 팀원 몇 명이 그 프로젝트에 참여했었죠.", "en": "Some of my team members worked on that project.", "vocab": "work on ~ — ~에 참여하다, ~를 맡다", "vary": "Some of my classmates worked on that study. · Two of us worked on the design package."}, {"role": "H", "ko": "인공섬도 포함돼 있었고요.", "en": "It included an artificial island.", "vocab": "artificial — 인공의 · include — 포함하다", "vary": "It included a temporary jetty. · The scope included two access roads."}, {"role": "C", "ko": "남극 기지는 우리 쪽 일이었나요?", "en": "Was Jang Bogo our division's work?", "vocab": "division — 사업부"}, {"role": "H", "ko": "장보고는 다른 사업부에서 했어요.", "en": "Jang Bogo was done by another division.", "vocab": "another — 다른", "vary": "That tunnel was done by another team. · The survey was done by a partner firm."}, {"role": "H", "ko": "HDEC는 KTX·SRT 고속철 교량도 지었어요.", "en": "HDEC also built the high-speed railway bridges for KTX and SRT.", "vocab": "railway — 철도 · high-speed — 고속의"}, {"role": "H", "ko": "교량을 짓는 게 토목의 꽃이죠.", "en": "Building a bridge is the beauty of civil engineering.", "vocab": "civil engineering — 토목공학", "vary": "Designing the foundation is the heart of the job. · Pouring the deck is the best part of the work."}, {"sec": "PART 2 · YOUR PICK", "role": "C", "ko": "고를 수 있다면 어디로 갈 거예요?", "en": "If you could pick, where would you go?", "vocab": "pick — 고르다"}, {"role": "H", "ko": "미국이나 싱가포르요. 영어를 배우기 좋은 곳이니까요.", "en": "I'd go with the USA or Singapore, because they're good places to learn English.", "vocab": "go with ~ — ~를 택하다", "vary": "I'd go with the metro job, because it's close to home. · I'd go with the smaller team, because I'd learn more."}, {"role": "H", "ko": "그 두 나라에 끌리는 건, 일하기에도 가족과 살기에도 좋아서예요.", "en": "What draws me to those two is that they're good for work and for living with family.", "vocab": "draw — 끌다 · living — 생활", "vary": "What draws me to that site is the scale. · What draws me to this role is the design work."}, {"role": "H", "ko": "까다로운 부분은 영어 소통일 거예요 — 설계를 에이전시에 설명하는 것.", "en": "The tricky part would be English communication — explaining the design to agencies.", "vocab": "tricky — 까다로운 · agency — 에이전시, 대행 기관", "vary": "The tricky part would be the tides. · The hard part would be the winter schedule."}, {"sec": "PART 3 · BACK TO WANDO", "role": "C", "ko": "완도랑 제일 다른 점은 뭐예요?", "en": "What's the biggest difference from Wando?", "vocab": "difference — 차이점"}, {"role": "H", "ko": "제일 큰 차이는 터빈이에요.", "en": "The biggest difference is the turbine.", "vocab": "turbine — 터빈", "vary": "The biggest difference is the water depth. · The biggest issue is the soil condition."}, {"role": "H", "ko": "해상풍력 프로젝트는 터빈 공급사의 영향을 크게 받아요.", "en": "An offshore wind project is heavily influenced by the turbine supplier.", "vocab": "influence — 영향을 주다 · supplier — 공급사", "vary": "The schedule is heavily influenced by the weather. · The cost is driven by the steel price."}];
+const ROLES={"C": "👤 Colleague", "H": "💬 Hojun"};
+const EXPORT_NAME="Hojun_Listen_and_Shadow_10_for_Hojun.html";
+const IDB_NS="hojun10";
+const EMBEDDED=null;
+const TEACHER=EMBEDDED===null;
+
+/* ---------- IndexedDB ---------- */
+let db=null;
+function idb(){return new Promise((res,rej)=>{if(db)return res(db);
+  const q=indexedDB.open("ls_"+IDB_NS,1);
+  q.onupgradeneeded=e=>{e.target.result.createObjectStore("audio");};
+  q.onsuccess=e=>{db=e.target.result;res(db);};q.onerror=rej;});}
+function idbPut(k,blob){return idb().then(d=>new Promise((res,rej)=>{const t=d.transaction("audio","readwrite");t.objectStore("audio").put(blob,k);t.oncomplete=res;t.onerror=rej;}));}
+function idbGet(k){return idb().then(d=>new Promise((res,rej)=>{const r=d.transaction("audio").objectStore("audio").get(k);r.onsuccess=()=>res(r.result||null);r.onerror=rej;}));}
+
+/* ---------- audio state ---------- */
+const AC=new (window.AudioContext||window.webkitAudioContext)();
+const cache={};      // idx -> {url,dur}
+let current=null;    // {audio, idx, kind}   kind: single|repeat|global
+let repeatState=null;// {idx,count,stop}
+let globalState=null;// {stop}
+
+async function loadClip(i,speed){
+  const key=i+"_"+speed;
+  if(cache[key])return cache[key];
+  let blob=null;
+  if(TEACHER){blob=await idbGet("s"+key);}
+  else{const b64=EMBEDDED["s"+key];if(b64){const bin=atob(b64);const u8=new Uint8Array(bin.length);for(let j=0;j<bin.length;j++)u8[j]=bin.charCodeAt(j);blob=new Blob([u8],{type:EMBEDDED["t"+key]||"audio/webm"});}}
+  if(!blob)return null;
+  const buf=await blob.arrayBuffer();
+  let dur=0;
+  try{const dec=await AC.decodeAudioData(buf.slice(0));dur=dec.duration;}catch(e){}
+  const url=URL.createObjectURL(blob);
+  cache[key]={url,dur,blob};
+  return cache[key];
+}
+function stopAll(except){
+  if(current&&current.kind!==except){try{current.audio.pause();}catch(e){}markPlaying(-1);current=null;}
+  if(repeatState&&except!=="repeat"){repeatState.stop=true;updateRepBtn(repeatState.idx,false,0);repeatState=null;}
+  if(globalState&&except!=="global"){globalState.stop=true;globalUI(false);globalState=null;markPlaying(-1);}
+  if(recState&&except!=="rec"){stopRec();}
+  if(typeof myRecState!=="undefined"&&myRecState&&except!=="myrec"){stopMyRec();}
+}
+function markPlaying(i){document.querySelectorAll(".card").forEach((c,j)=>{c.classList.toggle("playing",j===i);});
+  if(i>=0){const el=document.querySelectorAll(".card")[i];const r=el.getBoundingClientRect();if(r.top<70||r.bottom>window.innerHeight-90)el.scrollIntoView({behavior:"smooth",block:"center"});}}
+function playIdx(i,speed,kind){return new Promise(async res=>{
+  const c=await loadClip(i,speed);if(!c){res(false);return;}
+  const a=new Audio(c.url);
+  current={audio:a,idx:i,kind};
+  markPlaying(i);
+  const bar=document.querySelector(`#card${i} .pbar>div`);
+  const tick=setInterval(()=>{if(c.dur>0&&bar)bar.style.width=Math.min(100,a.currentTime/c.dur*100)+"%";},80);
+  a.onended=()=>{clearInterval(tick);if(bar)bar.style.width="0%";if(current&&current.audio===a)current=null;res(true);};
+  a.onpause=()=>{clearInterval(tick);if(bar)bar.style.width="0%";};
+  a.onerror=()=>{clearInterval(tick);res(false);};
+  a.play().catch(()=>res(false));
+});}
+
+/* ---------- single play ---------- */
+async function singlePlay(i,speed){
+  if(current&&current.kind==="single"&&current.idx===i){stopAll();return;}
+  stopAll();await playIdx(i,speed,"single");markPlaying(-1);}
+
+/* ---------- 10-repeat ---------- */
+function updateRepBtn(i,on,n){const b=document.querySelector(`#card${i} .rep`);const c=document.querySelector(`#card${i} .cnt`);
+  if(b)b.classList.toggle("on",on);if(c)c.textContent=on?`${n}/10`:"";}
+async function repeat10(i){
+  if(repeatState&&repeatState.idx===i){stopAll();return;}
+  stopAll("repeat");
+  const st={idx:i,count:0,stop:false};repeatState=st;
+  for(let n=1;n<=10;n++){
+    if(st.stop)break;
+    updateRepBtn(i,true,n);
+    const ok=await playIdx(i,"normal","repeat");
+    if(!ok||st.stop)break;
+    await new Promise(r=>setTimeout(r,450));
+  }
+  updateRepBtn(i,false,0);
+  if(repeatState===st)repeatState=null;
+  markPlaying(-1);
+}
+
+/* ---------- global sequential ---------- */
+function globalUI(on){document.getElementById("gstop").style.display=on?"":"none";
+  document.getElementById("playAllSlow").disabled=on;document.getElementById("playAllNorm").disabled=on;
+  if(!on)document.getElementById("gprog").textContent="";}
+let loopOn=false;
+async function playAll(speed){
+  stopAll("global");
+  const st={stop:false};globalState=st;globalUI(true);
+  let round=0;
+  do{
+    round++;
+    for(let i=0;i<SENTENCES.length;i++){
+      if(st.stop)break;
+      document.getElementById("gprog").textContent=(loopOn?`${round}회차 · `:"")+`${i+1} / ${SENTENCES.length}`;
+      const ok=await playIdx(i,speed,"global");
+      if(st.stop)break;
+      if(ok)await new Promise(r=>setTimeout(r,700));
+    }
+  }while(loopOn&&!st.stop);
+  globalUI(false);markPlaying(-1);
+  if(globalState===st)globalState=null;
+}
+document.getElementById("grepeat").onclick=()=>{loopOn=!loopOn;document.getElementById("grepeat").classList.toggle("on",loopOn);};
+document.getElementById("playAllSlow").onclick=()=>playAll("slow");
+document.getElementById("playAllNorm").onclick=()=>playAll("normal");
+document.getElementById("gstop").onclick=()=>stopAll();
+
+/* ---------- recording (teacher only) ---------- */
+function pickMime(){
+  const c=['audio/mp4','audio/mp4;codecs=mp4a.40.2','audio/aac','audio/webm;codecs=opus','audio/webm'];
+  if(window.MediaRecorder&&MediaRecorder.isTypeSupported){for(const t of c){if(MediaRecorder.isTypeSupported(t))return t;}}
+  return '';
+}
+let recState=null, sharedMic=null;
+function micAlive(s){try{return !!s&&s.getAudioTracks().some(t=>t.readyState==='live');}catch(e){return false;}}
+async function freshMic(){
+  if(micAlive(sharedMic))return sharedMic;
+  try{sharedMic=await navigator.mediaDevices.getUserMedia({audio:true});return sharedMic;}
+  catch(e){alert("마이크 접근이 필요합니다. 브라우저 권한을 허용해주세요.");return null;}
+}
+async function toggleRec(i,speed){
+  if(recState){const same=recState.idx===i&&recState.speed===speed;stopRec();if(same)return;}
+  stopAll("rec");
+  const stream=await freshMic();
+  if(!stream)return;
+  const mt=pickMime();
+  const mr=mt?new MediaRecorder(stream,{mimeType:mt}):new MediaRecorder(stream);
+  const chunks=[];
+  mr.ondataavailable=e=>{if(e.data.size>0)chunks.push(e.data);};
+  mr.onstop=async()=>{
+    const blob=new Blob(chunks,{type:mr.mimeType||"audio/webm"});
+    await idbPut("s"+i+"_"+speed,blob);
+    delete cache[i+"_"+speed];
+    const card=document.getElementById("card"+i);
+    const a=await idbGet("s"+i+"_slow"),b=await idbGet("s"+i+"_normal");
+    if(a&&b)card.classList.remove("nofile");
+    updateStat();
+  };
+  mr.start();
+  recState={idx:i,speed,mr};
+  const rb=document.querySelector(`#card${i} .rec${speed==='slow'?'slow':'norm'}`);
+  rb.classList.add("on");rb.dataset.label=rb.textContent;rb.textContent="● 정지";
+}
+function stopRec(){if(!recState)return;const{idx,speed,mr}=recState;try{mr.stop();}catch(e){}
+  const b=document.querySelector(`#card${idx} .rec${speed==='slow'?'slow':'norm'}`);if(b){b.classList.remove("on");if(b.dataset.label)b.textContent=b.dataset.label;}recState=null;}
+async function updateStat(){
+  if(!TEACHER)return;
+  let ns=0,nn=0;for(let i=0;i<SENTENCES.length;i++){if(await idbGet("s"+i+"_slow"))ns++;if(await idbGet("s"+i+"_normal"))nn++;}
+  document.getElementById("recStat").textContent=`느리게 ${ns}/${SENTENCES.length} · 보통 ${nn}/${SENTENCES.length}`;
+}
+
+/* ---------- export ---------- */
+async function exportStudent(){
+  const map={};
+  for(let i=0;i<SENTENCES.length;i++){
+    for(const sp of ["slow","normal"]){
+      const blob=await idbGet("s"+i+"_"+sp);
+      if(!blob){alert(`문장 ${i+1} ${sp==="slow"?"느리게":"보통"} 녹음이 없어요.`);return;}
+      const b64=await new Promise(res=>{const r=new FileReader();r.onload=()=>res(r.result.split(",")[1]);r.readAsDataURL(blob);});
+      map["s"+i+"_"+sp]=b64;map["t"+i+"_"+sp]=blob.type||"audio/webm";
+    }
+  }
+  let html=document.documentElement.outerHTML;
+  html=html.replace(/const EMBEDDED=.*?;/,"const EMBEDDED="+JSON.stringify(map)+";");
+  html="<!DOCTYPE html>\n"+html;
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([html],{type:"text/html"}));
+  a.download=EXPORT_NAME;
+  a.click();
+}
+document.getElementById("exportBtn").onclick=exportStudent;
+
+/* ---------- render ---------- */
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+const list=document.getElementById("list");
+let html="";
+SENTENCES.forEach((s,i)=>{
+  if(s.sec)html+=`<div class="sec">${esc(s.sec)}</div>`;
+  html+=`<div class="card" id="card${i}">
+    <div class="role">${esc(ROLES[s.role]||s.role)}</div>`;
+  if(TEACHER){
+    html+=`<div class="en">${esc(s.en)}</div><div class="ko">${esc(s.ko)}</div>`;
+    if(s.vocab)html+=`<div class="vocab">${esc(s.vocab)}</div>`;
+    if(s.vary)html+=`<div class="vary"><b>같은 패턴으로</b> — ${esc(s.vary)}</div>`;
+    html+=`<div class="ctr">
+      <button class="pslow" onclick="singlePlay(${i},'slow')">🐢 느리게</button>
+      <button class="pnorm" onclick="singlePlay(${i},'normal')">🔊 일반속도</button>
+      <button class="rec recslow teacheronly" onclick="toggleRec(${i},'slow')">● 느리게 녹음</button>
+      <button class="rec recnorm teacheronly" onclick="toggleRec(${i},'normal')">● 보통 녹음</button>
+    </div><div class="pbar"><div></div></div></div>`;
+  }else{
+    html+=`<div class="ko">${esc(s.ko)}</div>`;
+    if(s.vocab)html+=`<div class="vocab">${esc(s.vocab)}</div>`;
+    if(s.vary)html+=`<div class="vary"><b>같은 패턴으로</b> — ${esc(s.vary)}</div>`;
+    html+=`<div class="ctr"><span class="lbl" style="margin-top:0">선생님 음성 듣기</span>
+      <button class="pslow" onclick="singlePlay(${i},'slow')">🐢 느리게</button>
+      <button class="pnorm" onclick="singlePlay(${i},'normal')">🔊 일반속도</button>
+      <button class="rep" onclick="repeat10(${i})">🔁 일반 10회</button><span class="cnt"></span>
+    </div>
+    <div class="lbl">받아쓰기 — 들리는 문장을 적어보세요</div>
+    <input class="dict" id="dict${i}" placeholder="여기에 적어보세요..." autocomplete="off">
+    <div class="ansbox" id="ans${i}" style="display:none">
+      <div class="en">${esc(s.en)}</div>
+    </div>
+    <span class="check" onclick="reveal(${i})" id="rev${i}">👁 정답 확인</span>
+    <div class="lbl">따라 말하기 — 녹음해서 비교해 보세요</div>
+    <div class="ctr" style="margin-top:5px">
+      <button class="rec" id="myrec${i}" onclick="toggleMyRec(${i})">🎤 내 녹음</button>
+      <button id="myplay${i}" disabled onclick="playMine(${i})">▶ 내 목소리</button>
+      <button onclick="singlePlay(${i},'normal')">🔊 선생님</button>
+      <span class="saved" id="saved${i}">✓ 저장됨</span>
+    </div>
+    <div class="pbar"><div></div></div></div>`;
+  }
+});
+list.innerHTML=html;
+
+if(!TEACHER){
+  document.getElementById("exportBar").style.display="none";
+  document.querySelectorAll(".teacheronly").forEach(b=>b.style.display="none");
+}else{
+  (async()=>{for(let i=0;i<SENTENCES.length;i++){const a=await idbGet("s"+i+"_slow"),b=await idbGet("s"+i+"_normal");if(!a||!b)document.getElementById("card"+i).classList.add("nofile");}updateStat();})();
+}
+
+/* ===== 학생 모드: 정답 확인 · 내 녹음 ===== */
+function reveal(i){const a=document.getElementById("ans"+i),r=document.getElementById("rev"+i);
+  if(!a)return;const on=a.style.display==="none";a.style.display=on?"":"none";r.textContent=on?"🙈 정답 가리기":"👁 정답 확인";}
+let myRecState=null;
+function myKey(i){return "myrec_"+i;}
+function stopMyRec(){
+  if(!myRecState)return;
+  const idx=myRecState.idx;
+  try{myRecState.mr.stop();}catch(e){}
+  const pb=document.getElementById("myrec"+idx);if(pb)pb.textContent="🎤 내 녹음";
+  myRecState=null;
+}
+async function toggleMyRec(i){
+  if(myRecState){const same=myRecState.idx===i;stopMyRec();if(same)return;}
+  stopAll("myrec");
+  const stream=await freshMic();if(!stream)return;
+  const mt=pickMime();
+  const mr=mt?new MediaRecorder(stream,{mimeType:mt}):new MediaRecorder(stream);
+  const chunks=[];
+  mr.ondataavailable=e=>{if(e.data.size>0)chunks.push(e.data);};
+  mr.onstop=async()=>{
+    const blob=new Blob(chunks,{type:mr.mimeType||mt||"audio/mp4"});
+    await idbPut(myKey(i),blob);
+    const p=document.getElementById("myplay"+i);if(p)p.disabled=false;
+    const sv=document.getElementById("saved"+i);if(sv)sv.style.display="inline";
+  };
+  mr.start();myRecState={idx:i,mr};
+  document.getElementById("myrec"+i).textContent="● 정지";
+}
+async function blobDur(blob){
+  try{const buf=await blob.arrayBuffer();const ab=await AC.decodeAudioData(buf.slice(0));return ab.duration;}
+  catch(e){return 0;}
+}
+async function playMine(i){
+  if(current&&current.kind==="mine"&&current.idx===i){stopAll();return;}
+  stopAll();
+  const blob=await idbGet(myKey(i));if(!blob)return;
+  const dur=await blobDur(blob);
+  const a=new Audio(URL.createObjectURL(blob));
+  current={audio:a,idx:i,kind:"mine"};
+  const btn=document.getElementById("myplay"+i);
+  if(btn){if(!btn.dataset.lbl)btn.dataset.lbl=btn.textContent;btn.textContent="■ 정지";btn.classList.add("on");}
+  const bar=document.querySelector(`#card${i} .pbar>div`);
+  const tick=setInterval(()=>{if(dur>0&&bar)bar.style.width=Math.min(100,a.currentTime/dur*100)+"%";},80);
+  const done=()=>{clearInterval(tick);if(bar)bar.style.width="0%";
+    if(btn&&btn.dataset.lbl){btn.textContent=btn.dataset.lbl;btn.classList.remove("on");}
+    if(current&&current.audio===a)current=null;};
+  a.onended=done;a.onpause=done;a.onerror=done;
+  a.play().catch(done);
+}
+window.addEventListener("beforeunload",()=>{if(typeof myRecState!=="undefined"&&myRecState){try{myRecState.mr.stop();}catch(e){}}});
+if(!TEACHER){
+  (async()=>{for(let i=0;i<SENTENCES.length;i++){
+    if(await idbGet(myKey(i))){const p=document.getElementById("myplay"+i);if(p)p.disabled=false;
+      const sv=document.getElementById("saved"+i);if(sv)sv.style.display="inline";}}})();
+}
+
+</script>
+</body>
+</html>
