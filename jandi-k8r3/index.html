@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jandi · Do English with Brian</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<style>
+  :root{ --navy:#1A2E4C; --gold:#C9A432; --paper:#FFFEF8; --line:#DCE4EE; --margin:#F2B8B8; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Pretendard',sans-serif;background:#CFC9BA;display:flex;justify-content:center;min-height:100vh;padding:20px 0;}
+  .note{width:100%;max-width:420px;margin:0 14px;background:var(--paper);border-radius:4px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);position:relative;overflow:hidden;
+    background-image:repeating-linear-gradient(transparent,transparent 31px,var(--line) 31px,var(--line) 32px);
+    padding:44px 26px 40px 58px;}
+  .note::before{content:'';position:absolute;left:42px;top:0;bottom:0;width:1px;background:var(--margin);}
+  .holes i{position:absolute;left:12px;width:12px;height:12px;border-radius:50%;background:#CFC9BA;box-shadow:inset 0 1px 2px rgba(0,0,0,.3);}
+  .tab{position:absolute;top:0;right:24px;background:var(--gold);color:#fff;font-size:10px;letter-spacing:2px;
+    font-weight:700;padding:10px 10px 12px;border-radius:0 0 6px 6px;writing-mode:vertical-rl;}
+  .date{font-family:'Nanum Pen Script';font-size:20px;color:#B0A78E;margin-bottom:2px;}
+  h1{font-family:'Nanum Pen Script';font-size:38px;color:var(--navy);line-height:1.15;margin-bottom:4px;}
+  h1 u{text-decoration-color:var(--gold);text-decoration-thickness:3px;text-underline-offset:5px;}
+  .sub{font-size:12px;color:#9B937E;margin-bottom:30px;}
+  .todo{display:flex;align-items:center;gap:14px;text-decoration:none;padding:14px 0;}
+  .chk{width:22px;height:22px;border:2px solid var(--navy);border-radius:5px;flex-shrink:0;background:#fff;}
+  .tx .t{font-size:16px;font-weight:700;color:var(--navy);}
+  .tx .d{font-size:11.5px;color:#A39A82;margin-top:2px;display:block;}
+  .go{margin-left:auto;font-family:'Nanum Pen Script';font-size:19px;color:var(--gold);white-space:nowrap;}
+  .memo{margin-top:30px;font-family:'Nanum Pen Script';font-size:21px;color:var(--navy);transform:rotate(-1deg);}
+  .memo b{background:linear-gradient(transparent 60%, rgba(201,164,50,.35) 60%);}
+  .foot{margin-top:20px;font-family:'Nanum Pen Script';font-size:20px;color:#B0A78E;}
+  .foot b{color:var(--gold);}
+
+  /* Weekly Quiz 강조 (이번 주 미완료일 때만) */
+  .todo.wq .t{position:relative;}
+  .badge{display:none;margin-left:8px;vertical-align:2px;background:var(--gold);color:#fff;
+    font-size:9.5px;font-weight:800;letter-spacing:1px;padding:2px 6px;border-radius:20px;}
+  .todo.wq.fresh .badge{display:inline-block;animation:pop .35s ease-out;}
+  .todo.fresh2 .badge{display:inline-block;animation:pop .35s ease-out;}
+  .todo.wq.fresh .t{
+    background:linear-gradient(100deg,
+      var(--navy) 0%, var(--navy) 30%,
+      #E3C368 44%, #F3E2A8 50%, #E3C368 56%,
+      var(--navy) 70%, var(--navy) 100%);
+    background-size:300% 100%;-webkit-background-clip:text;background-clip:text;
+    color:transparent;-webkit-text-fill-color:transparent;
+    animation:shine 2.8s ease-in-out infinite;}
+  @keyframes shine{0%,8%{background-position:100% 0;}62%,100%{background-position:-40% 0;}}
+  @keyframes pop{from{transform:scale(.6);opacity:0;}to{transform:scale(1);opacity:1;}}
+  @media (prefers-reduced-motion: reduce){
+    .todo.wq.fresh .t{animation:none;-webkit-text-fill-color:var(--navy);color:var(--navy);}
+    .todo.wq.fresh .badge{animation:none;}
+  }
+
+  /* ── 오늘의 나 ── */
+  .me{background:#fff;border:1.5px solid #E4DCC8;border-radius:14px;padding:13px 14px 11px;margin:14px 0 4px;display:none;}
+  .me .mehead{display:flex;align-items:baseline;gap:8px;margin-bottom:9px;}
+  .me .metitle{font-family:'Nanum Pen Script';font-size:20px;color:#1A2E4C;}
+  .me .streak{margin-left:auto;font-size:11.5px;font-weight:800;color:#C9A432;background:#FBF4DE;border-radius:20px;padding:3px 10px;}
+  .me .mrow{display:flex;gap:7px;}
+  .mstat{flex:1;text-align:center;border-radius:10px;padding:8px 2px 7px;background:#FAF7EE;}
+  .mstat b{display:block;font-size:15px;color:#1A2E4C;line-height:1.25;}
+  .mstat span{font-size:9.5px;color:#9B937E;}
+  .mstat.done b{color:#2E7D5B;}
+  .mstat.todo{background:#FDF6E3;box-shadow:inset 0 0 0 1.5px #E8D9A8;}
+  .mstat.todo b{color:#B08A1E;}
+  .me .meline{margin-top:9px;font-family:'Nanum Pen Script';font-size:16.5px;color:#8A8268;text-align:center;}
+</style>
+</head>
+<body>
+<div class="note">
+  <div class="holes"><i style="top:60px"></i><i style="top:200px"></i><i style="top:340px"></i><i style="top:480px"></i></div>
+  <div class="tab">JANDI'S NOTE</div>
+  <div class="date">Do English with Brian ✎</div>
+  <h1><u>Jandi의 오늘 할 일</u></h1>
+  <div class="sub">Jandi님 전용 학습 노트</div>
+
+
+  <div class="me" id="me">
+    <div class="mehead"><span class="metitle">오늘의 나</span><span class="streak" id="mstreak" style="display:none"></span></div>
+    <div class="mrow">
+      <div class="mstat" id="mq"><b>…</b><span>Weekly Quiz</span></div>
+      <div class="mstat" id="mw"><b>…</b><span>이번 주 새 단어</span></div>
+      <div class="mstat" id="mr"><b>…</b><span>오늘 복습</span></div>
+    </div>
+    <div class="meline" id="mline"></div>
+  </div>
+  <a class="todo wq" href="../weekly/">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">Weekly Quiz</span><span class="badge">NEW</span><span class="d">이번 주 표현 퀴즈 · 월요일 업데이트</span></span>
+    <span class="go">풀러가기→</span>
+  </a>
+  <a class="todo" href="../words/?s=jandi-k8r3">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">My Words</span><span class="d">내 단어 트랙 · 매주 월요일 새 단어 20개</span></span>
+    <span class="go">외우러→</span>
+  </a>
+  <a class="todo" href="https://briankim-84.github.io/ss-x7q2m9/">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">Swipe &amp; Shadow</span><span class="d">영어 인터뷰 클립</span></span>
+    <span class="go">하러가기→</span>
+  </a>
+  <a class="todo" href="https://briankim-84.github.io/dea-shadow/shadow/">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">Listen &amp; Shadow · Movie</span><span class="d">영화 대사 쉐도잉</span></span>
+    <span class="go">하러가기→</span>
+  </a>
+  <a class="todo" href="notes.html">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">Class Notes</span><span class="d">수업 자료</span></span>
+    <span class="go">보러가기→</span>
+  </a>
+  <a class="todo" href="after.html">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">After Class</span><span class="d">복습 자료 아카이브</span></span>
+    <span class="go">보러가기→</span>
+  </a>
+  <a class="todo" href="../level/">
+    <span class="chk"></span>
+    <span class="tx"><span class="t">내 단어 레벨</span><span class="d">5분 진단 · 지금 아는 단어 수 확인</span></span>
+    <span class="go">해보기→</span>
+  </a>
+
+    <div class="memo">오늘 15분이면 충분해요. <b>소리 내서!</b></div>
+  <div class="foot">As always, <b>English with Brian</b> ✍</div>
+</div>
+
+<script>
+/* 이번 주 퀴즈를 아직 안 풀었으면 NEW 배지 + 반짝임 표시 */
+(function(){
+  function isoWeek(d){
+    const t=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate()));
+    const day=t.getUTCDay()||7; t.setUTCDate(t.getUTCDate()+4-day);
+    const y0=new Date(Date.UTC(t.getUTCFullYear(),0,1));
+    return t.getUTCFullYear()+"-W"+String(Math.ceil(((t-y0)/86400000+1)/7)).padStart(2,"0");
+  }
+  try{
+    const el=document.querySelector(".todo.wq");
+    if(!el) return;
+    if(localStorage.getItem("dewb:quizdone")!==isoWeek(new Date())) el.classList.add("fresh");
+  }catch(e){}
+})();
+
+/* Class Notes / After Class 새 자료 배지 */
+(async function(){
+  const FOLDER="jandi-k8r3";
+  try{
+    const r=await fetch("https://api.github.com/repos/briankim-84/dea-m8q3/contents/"+FOLDER,{cache:"no-store"});
+    if(!r.ok) return;
+    const files=(await r.json()).filter(x=>x.type==="file").map(x=>x.name);
+    const notes=files.filter(f=>/\.pdf$/i.test(f)).sort();
+    const after=files.filter(f=>/\.html$/i.test(f)&&!/^(index|after|notes|viewer|interview|almostright)\.html$/i.test(f)).sort();
+    mark('a.todo[href="notes.html"]',"dewb:seen:"+FOLDER+":notes",notes);
+    mark('a.todo[href="after.html"]',"dewb:seen:"+FOLDER+":after",after);
+    function mark(sel,key,list){
+      const el=document.querySelector(sel); if(!el) return;
+      const seen=localStorage.getItem(key);
+      if(seen===null){ try{localStorage.setItem(key,JSON.stringify(list));}catch(e){} return; }
+      let old=[]; try{ old=JSON.parse(seen)||[]; }catch(e){}
+      if(list.some(f=>!old.includes(f))){
+        el.classList.add("fresh2");
+        const t=el.querySelector(".t");
+        if(t && !el.querySelector(".badge")) t.insertAdjacentHTML("beforeend",' <span class="badge">NEW</span>');
+      }
+    }
+  }catch(e){}
+})();
+/* 오늘의 나 요약 */
+(async function(){
+  const FOLDER="jandi-k8r3";
+  const $=id=>document.getElementById(id);
+  function isoW(d){ d=new Date(d); d.setHours(0,0,0,0);
+    d.setDate(d.getDate()+3-((d.getDay()+6)%7));
+    const w1=new Date(d.getFullYear(),0,4);
+    return d.getFullYear()+"-W"+String(1+Math.round(((d-w1)/86400000-3+((w1.getDay()+6)%7))/7)).padStart(2,"0"); }
+  const WK=isoW(new Date());
+  function set(id,val,ok){ const el=$(id); el.querySelector("b").textContent=val;
+    el.classList.remove("done","todo"); el.classList.add(ok?"done":"todo"); }
+  try{
+    /* 퀴즈 */
+    const qdone = localStorage.getItem("dewb:quizdone")===WK;
+    let qtxt="풀기 전";
+    if(qdone){ try{ const sc=JSON.parse(localStorage.getItem("dewb:quiz:"+WK)||"{}");
+        const n=Object.keys(sc).length; qtxt = n>1 ? "✓ "+n+"레벨" : "✓ 완료"; }catch(e){ qtxt="✓ 완료"; } }
+    set("mq", qtxt, qdone);
+    /* 단어 */
+    let wtxt="—", wok=false, rtxt="—", rok=false, hasTrack=false, wLeft=0, rN=0;
+    try{
+      const r=await fetch("../words/tracks/"+FOLDER+".json?t="+Date.now());
+      if(r.ok){
+        hasTrack=true;
+        const tk=await r.json();
+        let st={}; try{ st=JSON.parse(localStorage.getItem("dewb:words:"+FOLDER)||"{}")||{}; }catch(e){}
+        const S=w=>st[w]||{st:0,box:0,due:0,known:false};
+        const wkWords=tk.words.filter(x=>x.wk===WK);
+        const base = wkWords.length? wkWords : tk.words.filter(x=>!x.wk || x.wk<=WK);
+        const doneW=base.filter(x=>{const s=S(x.w); return s.st>=4||s.known;}).length;
+        wLeft=base.length-doneW;
+        set("mw", doneW+"/"+base.length, wLeft===0);
+        rN=tk.words.filter(x=>{const s=S(x.w);
+          return !s.known && s.st>=4 && s.box<4 && s.due<=Date.now() && (!x.wk||x.wk<=WK);}).length;
+        set("mr", rN===0?"✓ 0개":rN+"개", rN===0);
+      }else{ $("mw").style.display="none"; $("mr").style.display="none"; }
+    }catch(e){ $("mw").style.display="none"; $("mr").style.display="none"; }
+    /* 스트릭 */
+    try{
+      const ds=JSON.parse(localStorage.getItem("dewb:days")||"[]").sort();
+      if(ds.length){
+        const day=d=>{const x=new Date(d); x.setHours(0,0,0,0); return x.getTime();};
+        const today=day(new Date()), one=86400000;
+        let n=0, cur = ds.includes(new Date().toISOString().slice(0,10)) ||
+          (function(){const d=new Date();return ds.includes(d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"));})() ? today : today-one;
+        const setD=new Set(ds.map(day));
+        while(setD.has(cur)){ n++; cur-=one; }
+        if(n>=2){ $("mstreak").textContent="🔥 "+n+"일 연속"; $("mstreak").style.display="inline-block"; }
+      }
+    }catch(e){}
+    /* 한 줄 안내 */
+    let line="";
+    if(!qdone) line="이번 주 퀴즈가 기다리고 있어요 ✎";
+    else if(hasTrack && rN>0) line="복습 "+rN+"개만 하면 오늘 끝!";
+    else if(hasTrack && wLeft>0) line="새 단어 "+wLeft+"개 남았어요";
+    else line="오늘 할 일 끝! 최고예요 🎉";
+    $("mline").textContent=line;
+    $("me").style.display="block";
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
