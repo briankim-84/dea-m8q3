@@ -253,8 +253,9 @@ function cardView(){
 function quizView(){
   const q=DATA.levels[S.lv].quiz[S.i];
   S.answered=false;
+  const order = q.options ? q.options.map((_,n)=>n).sort(()=>Math.random()-.5) : null;
   const body = q.options
-    ? q.options.map((o,n)=>`<button class="opt" data-n="${n}">${esc(o)}</button>`).join("")
+    ? order.map(n=>`<button class="opt" data-n="${n}">${esc(q.options[n])}</button>`).join("")
     : `<div class="hintline">힌트 · <span>${esc(q.hint||"")}</span></div>
        <input class="type" id="ti" autocomplete="off" autocapitalize="off" autocorrect="off"
               spellcheck="false" placeholder="빈칸에 들어갈 표현을 써보세요">
@@ -283,10 +284,11 @@ function norm(s){
 function pick(n){
   if(S.answered) return; S.answered=true;
   const q=DATA.levels[S.lv].quiz[S.i], ok=(n===q.answer);
-  app().querySelectorAll(".opt").forEach((b,i)=>{
+  app().querySelectorAll(".opt").forEach(b=>{
     b.disabled=true;
-    if(i===q.answer) b.classList.add("ok");
-    else if(i===n) b.classList.add("no");
+    const k=+b.dataset.n;
+    if(k===q.answer) b.classList.add("ok");
+    else if(k===n) b.classList.add("no");
   });
   after(ok, q.options[q.answer], q);
 }

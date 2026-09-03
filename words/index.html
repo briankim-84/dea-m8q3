@@ -324,7 +324,7 @@ function stage3(){
     ${stagesBar()}
     <div class="word" style="font-size:30px">${esc(cur.w)}</div>
     <div class="sub center"><b style="color:var(--navy)">${esc(cur.w)}</b>가 올바르게 쓰인 문장을 고르세요</div>
-    ${cur.mcq.map((m,i)=>`<button class="opt" data-i="${i}">${esc(m)}</button>`).join("")}
+    ${cur.mcq.map((_,i)=>i).sort(()=>Math.random()-.5).map(i=>`<button class="opt" data-i="${i}">${esc(cur.mcq[i])}</button>`).join("")}
     <div id="fb"></div>
     <button class="btn ghost" id="pv" style="margin-top:2px">← 쓰임 다시 보기</button>`,"STEP 3 · 고르기");
   bindBack(); bindStages();
@@ -332,8 +332,8 @@ function stage3(){
   app().querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{
     if(mcqPicked) return; mcqPicked=true;
     const i=+b.dataset.i, ok=(i===cur.ans);
-    app().querySelectorAll(".opt").forEach((x,n)=>{ x.disabled=true;
-      if(n===cur.ans) x.classList.add("ok"); else if(n===i) x.classList.add("no"); });
+    app().querySelectorAll(".opt").forEach(x=>{ x.disabled=true; const k=+x.dataset.i;
+      if(k===cur.ans) x.classList.add("ok"); else if(k===i) x.classList.add("no"); });
     const pv=$("pv"); if(pv) pv.style.display="none";
     $("fb").innerHTML=`<div class="fb ${ok?"ok":"no"}">${ok?"정답!":"아쉬워요."} ${esc(cur.note||"")}</div>
       <button class="btn pri" id="nx" style="margin-top:10px">${ok?"다음 단계 →":"다시 보고 넘어가기 →"}</button>`;
