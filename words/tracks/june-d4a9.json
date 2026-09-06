@@ -1502,6 +1502,506 @@
    "ans": 0,
    "note": "treasure를 동사로 = 아끼고 소중히 여기다. 감사 표현의 품격!",
    "wk": "2026-W36"
+  },
+  {
+   "w": "mild",
+   "ko": "가벼운, 온화한",
+   "ex": "It's just a mild sprain.",
+   "exko": "가벼운 염좌예요.",
+   "use": [
+    [
+     "The patient reported mild pain.",
+     "환자가 경미한 통증을 호소했다."
+    ],
+    [
+     "We had a mild winter this year.",
+     "올겨울은 포근했다."
+    ]
+   ],
+   "mcq": [
+    "She has mild symptoms.",
+    "She has mildly symptoms.",
+    "She has symptoms mild.",
+    "Mild has she symptoms."
+   ],
+   "ans": 0,
+   "note": "mild ↔ severe. 증상 정도 표현의 기본!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "bleed",
+   "ko": "피가 나다",
+   "ex": "The cut is still bleeding.",
+   "exko": "베인 데서 아직 피가 나요.",
+   "use": [
+    [
+     "Apply pressure if it bleeds.",
+     "피가 나면 압박하세요."
+    ],
+    [
+     "My gums bleed when I brush.",
+     "양치할 때 잇몸에서 피가 난다."
+    ]
+   ],
+   "mcq": [
+    "His nose bled after the hit.",
+    "His nose bleeded after the hit.",
+    "His nose was bleed after hit.",
+    "After the hit bled his nose it."
+   ],
+   "ans": 0,
+   "note": "bleed-bled-bled. blood(명사)와 구분!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "drain",
+   "ko": "배수(하다), 소모시키다",
+   "ex": "Long meetings drain my energy.",
+   "exko": "긴 회의는 기력을 빼앗아요.",
+   "use": [
+    [
+     "Drain the pasta and add sauce.",
+     "파스타 물을 빼고 소스를 넣으세요."
+    ],
+    [
+     "The sink won't drain properly.",
+     "싱크대 물이 잘 안 빠진다."
+    ]
+   ],
+   "mcq": [
+    "Travel can drain your energy.",
+    "Travel can drain out your energy away.",
+    "Travel can drain to your energy.",
+    "Your energy drains travel can."
+   ],
+   "ans": 0,
+   "note": "drain = 물을 빼다 → 기력을 빼다. feel drained = 기진맥진!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "crush",
+   "ko": "으깨다, 짓누르다",
+   "ex": "Crush the garlic before cooking.",
+   "exko": "요리 전에 마늘을 으깨세요.",
+   "use": [
+    [
+     "The loss crushed the team's spirit.",
+     "그 패배가 팀 사기를 짓눌렀다."
+    ],
+    [
+     "I had a crush on him in college.",
+     "대학 때 그를 짝사랑했다."
+    ]
+   ],
+   "mcq": [
+    "The box was crushed in delivery.",
+    "The box was crush in delivery.",
+    "The box crushed in delivery itself.",
+    "Delivery crushed in the box."
+   ],
+   "ans": 0,
+   "note": "crush = 으깨다·짓누르다. have a crush on = 짝사랑(보너스)!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "deem",
+   "ko": "여기다, 간주하다",
+   "ex": "The area was deemed unsafe.",
+   "exko": "그 지역은 안전하지 않다고 판단됐어요.",
+   "use": [
+    [
+     "The test was deemed unnecessary.",
+     "그 검사는 불필요하다고 판단됐다."
+    ],
+    [
+     "We deem this the best option.",
+     "우리는 이걸 최선으로 본다."
+    ]
+   ],
+   "mcq": [
+    "The plan was deemed too risky.",
+    "The plan was deemed as too risky.",
+    "The plan deemed too risky was.",
+    "Too risky deemed the plan was."
+   ],
+   "ans": 0,
+   "note": "be deemed + 형용사 = ~로 간주되다. 공식 문서·논문의 consider!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "disclose",
+   "ko": "공개하다, 밝히다",
+   "ex": "She didn't disclose her injury.",
+   "exko": "그녀는 부상을 밝히지 않았어요.",
+   "use": [
+    [
+     "Companies must disclose risks.",
+     "기업은 위험 요소를 공개해야 한다."
+    ],
+    [
+     "He disclosed the results to the press.",
+     "그는 결과를 언론에 공개했다."
+    ]
+   ],
+   "mcq": [
+    "The clinic won't disclose patient data.",
+    "The clinic won't disclose about patient data.",
+    "The clinic won't disclose to patient data.",
+    "Patient data won't disclose the clinic."
+   ],
+   "ans": 0,
+   "note": "disclose + 정보. reveal의 격식 버전 — 계약·의료 문서 단골!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "sneak",
+   "ko": "몰래 가다, 슬쩍 하다",
+   "ex": "I sneaked a look at the results.",
+   "exko": "결과를 슬쩍 훔쳐봤어요.",
+   "use": [
+    [
+     "He sneaked out during the lecture.",
+     "그는 강의 중에 몰래 빠져나갔다."
+    ],
+    [
+     "Here's a sneak peek at the new program.",
+     "새 프로그램 살짝 미리보기예요."
+    ]
+   ],
+   "mcq": [
+    "She sneaked into the room quietly.",
+    "She sneaked to into the room quietly.",
+    "She sneaked the room quietly in.",
+    "The room sneaked she quietly into."
+   ],
+   "ans": 0,
+   "note": "sneak = 몰래 움직이다. sneak peek(살짝 미리보기)는 마케팅 단골!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "tuck",
+   "ko": "밀어 넣다, 끼워 넣다",
+   "ex": "Tuck your chin slightly.",
+   "exko": "턱을 살짝 당기세요.",
+   "use": [
+    [
+     "Tuck your shirt in.",
+     "셔츠를 넣어 입으세요."
+    ],
+    [
+     "She tucked the note into her pocket.",
+     "그녀는 쪽지를 주머니에 넣었다."
+    ]
+   ],
+   "mcq": [
+    "Tuck your pelvis under in this pose.",
+    "Tuck up your pelvis under in pose.",
+    "Tuck under your the pelvis pose.",
+    "Your pelvis tucks you under pose."
+   ],
+   "ans": 0,
+   "note": "tuck = 밀어 넣다. 필라테스 큐잉(chin tuck, pelvic tuck)의 그 단어!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "hug",
+   "ko": "껴안다, 포옹",
+   "ex": "She gave me a big hug.",
+   "exko": "그녀가 꼭 안아줬어요.",
+   "use": [
+    [
+     "The road hugs the coastline.",
+     "그 도로는 해안선을 따라 붙어 간다."
+    ],
+    [
+     "Kids need hugs, not lectures.",
+     "아이들에겐 잔소리 아니라 포옹이 필요하다."
+    ]
+   ],
+   "mcq": [
+    "He hugged his mom at the airport.",
+    "He hugged with his mom at airport.",
+    "He hugged to his mom at airport.",
+    "His mom hugged at he airport."
+   ],
+   "ans": 0,
+   "note": "hug + 사람 바로. 'hug the wall'처럼 '바짝 붙다'로도!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "frozen",
+   "ko": "얼어붙은, 냉동의",
+   "ex": "My shoulder feels frozen.",
+   "exko": "어깨가 굳은 것 같아요.",
+   "use": [
+    [
+     "Frozen shoulder is common after 40.",
+     "오십견은 40대 이후 흔하다."
+    ],
+    [
+     "I keep frozen berries for smoothies.",
+     "스무디용으로 냉동 베리를 둔다."
+    ]
+   ],
+   "mcq": [
+    "The lake was frozen solid.",
+    "The lake was freezed solid.",
+    "The lake frozen was solid.",
+    "Solid frozen was the lake."
+   ],
+   "ans": 0,
+   "note": "freeze-froze-frozen. frozen shoulder(오십견) — 스포츠의학 필수!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "magnitude",
+   "ko": "규모, 크기",
+   "ex": "We didn't realize the magnitude of the problem.",
+   "exko": "문제의 규모를 몰랐어요.",
+   "use": [
+    [
+     "A magnitude 6 earthquake hit the coast.",
+     "규모 6 지진이 해안을 강타했다."
+    ],
+    [
+     "The magnitude of the change surprised everyone.",
+     "변화의 크기가 모두를 놀라게 했다."
+    ]
+   ],
+   "mcq": [
+    "The magnitude of the loss was huge.",
+    "The magnitude for the loss was huge.",
+    "The magnitude loss of was huge.",
+    "Huge was magnitude the loss of."
+   ],
+   "ans": 0,
+   "note": "the magnitude of = ~의 규모. 논문·발표의 size!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "enthusiasm",
+   "ko": "열정",
+   "ex": "Her enthusiasm is contagious.",
+   "exko": "그녀의 열정은 전염돼요.",
+   "use": [
+    [
+     "The kids showed great enthusiasm for the game.",
+     "아이들은 경기에 큰 열의를 보였다."
+    ],
+    [
+     "He lost enthusiasm halfway through.",
+     "그는 중간에 열정을 잃었다."
+    ]
+   ],
+   "mcq": [
+    "She has real enthusiasm for teaching.",
+    "She has real enthusiasm to teaching.",
+    "She has enthusiasm real for teach.",
+    "Teaching has real enthusiasm she for."
+   ],
+   "ans": 0,
+   "note": "enthusiasm for + 대상. enthusiastic(형용사)과 세트!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "loyalty",
+   "ko": "충성심, 의리",
+   "ex": "Customer loyalty takes years to build.",
+   "exko": "고객 충성도는 쌓는 데 몇 년 걸려요.",
+   "use": [
+    [
+     "I admire her loyalty to the team.",
+     "팀에 대한 그녀의 의리를 존경한다."
+    ],
+    [
+     "The store has a loyalty program.",
+     "그 가게엔 멤버십(포인트) 제도가 있다."
+    ]
+   ],
+   "mcq": [
+    "His loyalty to the club never changed.",
+    "His loyalty for the club never changed.",
+    "His loyalty the club to never changed.",
+    "The club never changed his loyalty to."
+   ],
+   "ans": 0,
+   "note": "loyalty to + 대상. loyalty program = 단골 포인트 제도!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "grief",
+   "ko": "슬픔, 비탄",
+   "ex": "Grief takes time to heal.",
+   "exko": "슬픔은 아무는 데 시간이 걸려요.",
+   "use": [
+    [
+     "She was overwhelmed with grief.",
+     "그녀는 슬픔에 압도됐다."
+    ],
+    [
+     "Athletes feel grief after retirement, too.",
+     "은퇴 후 선수들도 상실감을 겪는다."
+    ]
+   ],
+   "mcq": [
+    "He's still dealing with grief.",
+    "He's still dealing with griefs.",
+    "He's still dealing grief with.",
+    "Grief still deals with he."
+   ],
+   "ans": 0,
+   "note": "grief = 깊은 슬픔(셀 수 없음). sadness보다 무겁고 상실에 쓰는 단어.",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "teammate",
+   "ko": "팀 동료",
+   "ex": "My teammates supported me all season.",
+   "exko": "팀 동료들이 시즌 내내 응원해 줬어요.",
+   "use": [
+    [
+     "She's a great teammate — always positive.",
+     "그녀는 최고의 팀 동료다, 늘 긍정적이다."
+    ],
+    [
+     "I trust my teammates completely.",
+     "팀 동료들을 전적으로 믿는다."
+    ]
+   ],
+   "mcq": [
+    "He thanked his teammates after the win.",
+    "He thanked his team mates peoples after win.",
+    "He thanked teammates his after the win.",
+    "After the win thanked he his teammates."
+   ],
+   "ans": 0,
+   "note": "teammate = 팀 동료. 스포츠·회사 둘 다!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "debut",
+   "ko": "데뷔",
+   "ex": "She made her debut at 19.",
+   "exko": "그녀는 19살에 데뷔했어요.",
+   "use": [
+    [
+     "The new product makes its debut next week.",
+     "신제품이 다음 주에 첫선을 보인다."
+    ],
+    [
+     "His debut season was impressive.",
+     "그의 데뷔 시즌은 인상적이었다."
+    ]
+   ],
+   "mcq": [
+    "The rookie made his debut last night.",
+    "The rookie made his debut out last night.",
+    "The rookie debuted his made last night.",
+    "Last night made the rookie his debut."
+   ],
+   "ans": 0,
+   "note": "make one's debut = 데뷔하다. t는 묵음(/데뷰/)!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "gifted",
+   "ko": "재능 있는",
+   "ex": "She's a gifted athlete.",
+   "exko": "그녀는 타고난 운동선수예요.",
+   "use": [
+    [
+     "The school has a program for gifted students.",
+     "그 학교엔 영재 프로그램이 있다."
+    ],
+    [
+     "He's gifted with numbers.",
+     "그는 숫자에 재능이 있다."
+    ]
+   ],
+   "mcq": [
+    "He's a gifted young runner.",
+    "He's a gift young runner.",
+    "He's gifted a young runner.",
+    "A young runner gifted he's."
+   ],
+   "ans": 0,
+   "note": "gifted = 타고난 재능이 있는. talented와 같은 급!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "outdoor",
+   "ko": "야외의",
+   "ex": "I prefer outdoor workouts.",
+   "exko": "야외 운동을 더 좋아해요.",
+   "use": [
+    [
+     "The gym has an outdoor training area.",
+     "그 체육관엔 야외 훈련장이 있다."
+    ],
+    [
+     "Outdoor activities boost mood.",
+     "야외 활동은 기분을 좋게 한다."
+    ]
+   ],
+   "mcq": [
+    "We held the class outdoors.",
+    "We held the class outdoor.",
+    "We held the class at outdoors.",
+    "Outdoors held the class we."
+   ],
+   "ans": 0,
+   "note": "outdoor(형용사) + 명사 / outdoors(부사) = 야외에서. s 하나 차이!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "reception",
+   "ko": "접수처, 환영회, 수신",
+   "ex": "Please check in at reception.",
+   "exko": "접수처에서 체크인해 주세요.",
+   "use": [
+    [
+     "The wedding reception starts at 6.",
+     "결혼 피로연은 6시에 시작한다."
+    ],
+    [
+     "The new policy got a warm reception.",
+     "새 정책은 좋은 반응을 얻었다."
+    ]
+   ],
+   "mcq": [
+    "Leave your key at reception.",
+    "Leave your key at the reception desk place.",
+    "Leave reception your key at.",
+    "Reception leaves your key at."
+   ],
+   "ans": 0,
+   "note": "reception = 접수처·환영회·(전파)수신·반응. 상황별로 뜻이 갈리는 다의어!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "backup",
+   "ko": "백업, 예비",
+   "ex": "Always keep a backup of your data.",
+   "exko": "데이터는 항상 백업해 두세요.",
+   "use": [
+    [
+     "We need a backup plan for rain.",
+     "비 올 때를 대비한 예비 계획이 필요하다."
+    ],
+    [
+     "The backup goalkeeper played well.",
+     "후보 골키퍼가 잘했다."
+    ]
+   ],
+   "mcq": [
+    "Do you have a backup plan?",
+    "Do you have a back up plans?",
+    "Do you have backup a plan?",
+    "A backup plan do you have it?"
+   ],
+   "ans": 0,
+   "note": "backup plan = 예비 계획, backup(후보 선수). back up(동사)은 두 단어!",
+   "wk": "2026-W37"
   }
  ]
 }

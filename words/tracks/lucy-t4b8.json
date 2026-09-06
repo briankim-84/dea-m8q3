@@ -1502,6 +1502,506 @@
    "ans": 0,
    "note": "odds는 항상 복수형! against all odds = 온갖 역경을 이기고.",
    "wk": "2026-W36"
+  },
+  {
+   "w": "legitimate",
+   "ko": "정당한, 합법적인",
+   "ex": "That's a legitimate concern.",
+   "exko": "그건 타당한 우려예요.",
+   "use": [
+    [
+     "Is this a legitimate website?",
+     "이거 정식 사이트 맞아요?"
+    ],
+    [
+     "She has a legitimate reason to complain.",
+     "그녀가 불만을 가질 정당한 이유가 있다."
+    ]
+   ],
+   "mcq": [
+    "He raised a legitimate question.",
+    "He raised a legitimately question.",
+    "He raised legitimate a question.",
+    "A question raised he legitimate."
+   ],
+   "ans": 0,
+   "note": "legitimate = 정당한·합법적인. 회의에서 반대 의견을 인정할 때 세련된 단어!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "desperate",
+   "ko": "절박한, 간절한",
+   "ex": "I'm desperate for a vacation.",
+   "exko": "휴가가 절실해요.",
+   "use": [
+    [
+     "They were desperate to find a solution.",
+     "그들은 해결책을 찾기에 필사적이었다."
+    ],
+    [
+     "Desperate times call for desperate measures.",
+     "극한 상황엔 극한 조치가 필요하다."
+    ]
+   ],
+   "mcq": [
+    "She was desperate to win.",
+    "She was desperate for win.",
+    "She was desperately to win.",
+    "Win was desperate she to."
+   ],
+   "ans": 0,
+   "note": "desperate to + 동사 / desperate for + 명사. 간절함의 최상급!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "decent",
+   "ko": "괜찮은, 품위 있는",
+   "ex": "It's a decent restaurant for the price.",
+   "exko": "가격 대비 괜찮은 식당이에요.",
+   "use": [
+    [
+     "He earns a decent salary.",
+     "그는 꽤 괜찮은 월급을 받는다."
+    ],
+    [
+     "Be decent — apologize to her.",
+     "예의를 지켜, 그녀에게 사과해."
+    ]
+   ],
+   "mcq": [
+    "They offer decent pay and benefits.",
+    "They offer decently pay and benefits.",
+    "They offer pay decent and benefits.",
+    "Pay decent they offer benefits and."
+   ],
+   "ans": 0,
+   "note": "decent = 나쁘지 않은, 꽤 괜찮은. good보다 절제된 칭찬!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "painful",
+   "ko": "고통스러운, 아픈",
+   "ex": "The injection was painful.",
+   "exko": "주사가 아팠어요.",
+   "use": [
+    [
+     "It was a painful decision to close the store.",
+     "가게를 닫는 건 뼈아픈 결정이었다."
+    ],
+    [
+     "My knee is still painful when I run.",
+     "뛰면 아직 무릎이 아프다."
+    ]
+   ],
+   "mcq": [
+    "It was a painful lesson for the team.",
+    "It was a painfully lesson for the team.",
+    "It was painful a lesson for team.",
+    "A lesson painful it was team for."
+   ],
+   "ans": 0,
+   "note": "painful = 몸도 마음도 아픈. a painful lesson(뼈아픈 교훈)!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "frankly",
+   "ko": "솔직히",
+   "ex": "Frankly, I don't think it'll work.",
+   "exko": "솔직히 잘 안 될 것 같아요.",
+   "use": [
+    [
+     "Frankly speaking, the plan needs work.",
+     "솔직히 말해 계획은 손볼 데가 있다."
+    ],
+    [
+     "I frankly don't care.",
+     "솔직히 관심 없어요."
+    ]
+   ],
+   "mcq": [
+    "Frankly, I was disappointed.",
+    "Frank, I was disappointed.",
+    "Frankly I disappointed was.",
+    "I was frank disappointed."
+   ],
+   "ans": 0,
+   "note": "frankly = honestly보다 직설적. 뒤에 쓴소리가 올 때!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "ridiculous",
+   "ko": "말도 안 되는, 우스운",
+   "ex": "That price is ridiculous!",
+   "exko": "그 가격은 말도 안 돼요!",
+   "use": [
+    [
+     "Don't be ridiculous — of course I'll help.",
+     "무슨 소리야, 당연히 도와줘야지."
+    ],
+    [
+     "The traffic this morning was ridiculous.",
+     "오늘 아침 교통은 말도 안 되게 막혔다."
+    ]
+   ],
+   "mcq": [
+    "It's ridiculous to wait three hours.",
+    "It's ridiculous waiting for three hours to.",
+    "It's ridiculously to wait hours.",
+    "Wait three hours is ridiculous to it."
+   ],
+   "ans": 0,
+   "note": "ridiculous = 어이없는. Don't be ridiculous = 무슨 소리야!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "flee",
+   "ko": "달아나다, 피난하다",
+   "ex": "People fled the city after the earthquake.",
+   "exko": "지진 후 사람들이 도시를 떠났어요.",
+   "use": [
+    [
+     "The suspect fled on foot.",
+     "용의자는 걸어서 도주했다."
+    ],
+    [
+     "Many families fled to the countryside.",
+     "많은 가족이 시골로 피난했다."
+    ]
+   ],
+   "mcq": [
+    "They fled the country during the war.",
+    "They fleed the country during the war.",
+    "They fled from to the country war.",
+    "The country fled they during war."
+   ],
+   "ans": 0,
+   "note": "flee-fled-fled. run away의 격식·뉴스 버전!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "sue",
+   "ko": "고소하다",
+   "ex": "He threatened to sue the company.",
+   "exko": "그는 회사를 고소하겠다고 했어요.",
+   "use": [
+    [
+     "She sued her landlord for the deposit.",
+     "그녀는 보증금 문제로 집주인을 고소했다."
+    ],
+    [
+     "You can't sue over a bad review.",
+     "나쁜 리뷰로는 고소할 수 없어요."
+    ]
+   ],
+   "mcq": [
+    "They sued the airline for damages.",
+    "They sued to the airline for damages.",
+    "They sued the airline of damages.",
+    "The airline sued for damages them."
+   ],
+   "ans": 0,
+   "note": "sue + 상대 + for + 사유. 미드·뉴스 단골!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "rub",
+   "ko": "문지르다",
+   "ex": "Rub the cream into your skin.",
+   "exko": "크림을 피부에 문질러 바르세요.",
+   "use": [
+    [
+     "He rubbed his eyes and yawned.",
+     "그는 눈을 비비고 하품했다."
+    ],
+    [
+     "Don't rub it in — I know I lost.",
+     "약 올리지 마, 진 거 알아."
+    ]
+   ],
+   "mcq": [
+    "She rubbed her hands to warm them.",
+    "She rubbed on her hands to warm them.",
+    "She rubbed her hands warming them to.",
+    "Her hands rubbed she to warm."
+   ],
+   "ans": 0,
+   "note": "rub = 문지르다. rub it in = 아픈 데 소금 뿌리다(관용구)!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "feedback",
+   "ko": "피드백, 의견",
+   "ex": "Thanks for the feedback!",
+   "exko": "의견 고마워요!",
+   "use": [
+    [
+     "We collect feedback after every class.",
+     "매 수업 후 피드백을 모은다."
+    ],
+    [
+     "Give me honest feedback on the draft.",
+     "초안에 대해 솔직한 의견 주세요."
+    ]
+   ],
+   "mcq": [
+    "I'd like some feedback on my essay.",
+    "I'd like some feedbacks on my essay.",
+    "I'd like a feedback on my essay.",
+    "My essay would like feedback some on."
+   ],
+   "ans": 0,
+   "note": "feedback은 셀 수 없는 명사! feedback on + 대상.",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "legacy",
+   "ko": "유산, 남긴 것",
+   "ex": "Her legacy lives on in her students.",
+   "exko": "그녀의 유산은 제자들 안에 살아 있어요.",
+   "use": [
+    [
+     "The coach left a lasting legacy.",
+     "그 감독은 오래 남을 유산을 남겼다."
+    ],
+    [
+     "We still use a legacy system at work.",
+     "회사에서 아직 구식 시스템을 쓴다."
+    ]
+   ],
+   "mcq": [
+    "He wants to leave a positive legacy.",
+    "He wants to leave a positive legacy behind him back.",
+    "He wants leaving legacy positive.",
+    "A positive legacy wants he to leave."
+   ],
+   "ans": 0,
+   "note": "leave a legacy = 유산을 남기다. IT에선 legacy = 구식!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "tactic",
+   "ko": "전술, 수법",
+   "ex": "That's a common sales tactic.",
+   "exko": "그건 흔한 영업 수법이에요.",
+   "use": [
+    [
+     "The team changed tactics at halftime.",
+     "팀이 하프타임에 전술을 바꿨다."
+    ],
+    [
+     "Scare tactics don't work on kids.",
+     "겁주기 수법은 아이들에게 안 통한다."
+    ]
+   ],
+   "mcq": [
+    "We need a new tactic for this client.",
+    "We need a new tactics for this client.",
+    "We need new tactic this client for.",
+    "This client needs a new tactic we."
+   ],
+   "ans": 0,
+   "note": "tactic(단기 전술) vs strategy(장기 전략). 스포츠·영업 필수!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "miracle",
+   "ko": "기적",
+   "ex": "It's a miracle no one was hurt.",
+   "exko": "아무도 안 다친 게 기적이에요.",
+   "use": [
+    [
+     "There's no miracle cure for this.",
+     "이건 기적의 치료법이 없다."
+    ],
+    [
+     "She made a miracle recovery.",
+     "그녀는 기적적으로 회복했다."
+    ]
+   ],
+   "mcq": [
+    "It was a miracle that we survived.",
+    "It was a miracle we to survived.",
+    "It was miracle that we survived a.",
+    "We survived was it a miracle that."
+   ],
+   "ans": 0,
+   "note": "a miracle that절. 감탄 표현으로 회화에서 자주!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "fraud",
+   "ko": "사기",
+   "ex": "He was arrested for credit card fraud.",
+   "exko": "그는 카드 사기로 체포됐어요.",
+   "use": [
+    [
+     "Report suspicious emails as fraud.",
+     "수상한 이메일은 사기로 신고하세요."
+    ],
+    [
+     "The company was involved in fraud.",
+     "그 회사는 사기에 연루됐다."
+    ]
+   ],
+   "mcq": [
+    "The bank warned us about fraud.",
+    "The bank warned us about frauds.",
+    "The bank warned us fraud about.",
+    "Fraud warned the bank us about."
+   ],
+   "ans": 0,
+   "note": "fraud = 사기(셀 수 없음). 보이스피싱 시대 필수 단어!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "utility",
+   "ko": "공공요금, 유용성",
+   "ex": "Utilities are included in the rent.",
+   "exko": "공과금은 월세에 포함돼 있어요.",
+   "use": [
+    [
+     "The utility bill was high this month.",
+     "이번 달 공과금이 많이 나왔다."
+    ],
+    [
+     "This tool has limited utility.",
+     "이 도구는 쓸모가 제한적이다."
+    ]
+   ],
+   "mcq": [
+    "Who pays the utilities here?",
+    "Who pays the utility here bill?",
+    "Who pays utilities the here?",
+    "Utilities pay who here?"
+   ],
+   "ans": 0,
+   "note": "utilities(복수) = 전기·수도·가스 요금. 집 구할 때 필수!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "domain",
+   "ko": "영역, 도메인",
+   "ex": "That's outside my domain.",
+   "exko": "그건 제 영역 밖이에요.",
+   "use": [
+    [
+     "We bought a new domain for the site.",
+     "사이트용 도메인을 새로 샀다."
+    ],
+    [
+     "Finance is her domain.",
+     "재무는 그녀 담당 영역이다."
+    ]
+   ],
+   "mcq": [
+    "Marketing is his domain, not mine.",
+    "Marketing is his domain area, not mine.",
+    "Marketing domains his, not mine.",
+    "His domain marketing is not mine."
+   ],
+   "ans": 0,
+   "note": "domain = 전문 영역. 인터넷 도메인도 같은 단어!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "emission",
+   "ko": "배출",
+   "ex": "Cars are a major source of emissions.",
+   "exko": "자동차는 주요 배출원이에요.",
+   "use": [
+    [
+     "The city aims to cut emissions by 30%.",
+     "시는 배출량 30% 감축을 목표로 한다."
+    ],
+    [
+     "Zero-emission buses run downtown.",
+     "무배출 버스가 도심을 달린다."
+    ]
+   ],
+   "mcq": [
+    "Factories must reduce carbon emissions.",
+    "Factories must reduce carbon emission gases.",
+    "Factories must reduce emissions carbon.",
+    "Carbon emissions must reduce factories."
+   ],
+   "ans": 0,
+   "note": "emissions(보통 복수) = 배출가스. 환경 뉴스 단골!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "mask",
+   "ko": "마스크, 가리다",
+   "ex": "He masked his disappointment with a smile.",
+   "exko": "그는 실망을 미소로 감췄어요.",
+   "use": [
+    [
+     "Wear a mask in the hospital.",
+     "병원에선 마스크를 쓰세요."
+    ],
+    [
+     "The sauce masks the taste of the fish.",
+     "소스가 생선 맛을 가린다."
+    ]
+   ],
+   "mcq": [
+    "She masked her fear well.",
+    "She masked up her fear well.",
+    "She masked her fear to well.",
+    "Her fear masked she well."
+   ],
+   "ans": 0,
+   "note": "mask를 동사로 = 감추다·가리다. 명사만 알면 아까운 단어!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "scandal",
+   "ko": "스캔들, 추문",
+   "ex": "The scandal ended his career.",
+   "exko": "그 스캔들이 그의 커리어를 끝냈어요.",
+   "use": [
+    [
+     "The company is facing a data scandal.",
+     "그 회사는 데이터 스캔들에 직면했다."
+    ],
+    [
+     "It was a scandal how they treated staff.",
+     "직원을 그렇게 대한 건 추문감이었다."
+    ]
+   ],
+   "mcq": [
+    "The scandal damaged the brand's image.",
+    "The scandal damaged to the brand's image.",
+    "The scandal damaging brand image.",
+    "The brand's image damaged the scandal."
+   ],
+   "ans": 0,
+   "note": "scandal = 사회적 파장이 있는 추문. 뉴스 영어 필수!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "pill",
+   "ko": "알약",
+   "ex": "Take one pill after meals.",
+   "exko": "식후에 한 알 드세요.",
+   "use": [
+    [
+     "I forgot to take my pills this morning.",
+     "오늘 아침 약 먹는 걸 잊었다."
+    ],
+    [
+     "Sleeping pills aren't a long-term fix.",
+     "수면제는 장기 해결책이 아니다."
+    ]
+   ],
+   "mcq": [
+    "Take two pills with water.",
+    "Take two pill with water.",
+    "Take two pills at water.",
+    "Two pills take with water you."
+   ],
+   "ans": 0,
+   "note": "take a pill = 약을 먹다(eat 아님!). a hard pill to swallow = 받아들이기 힘든 일.",
+   "wk": "2026-W37"
   }
  ]
 }

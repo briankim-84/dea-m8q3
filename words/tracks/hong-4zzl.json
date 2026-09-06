@@ -1502,6 +1502,506 @@
    "ans": 0,
    "note": "extra charge/fee = 추가 요금. 여행·쇼핑 방어 필수 단어!",
    "wk": "2026-W36"
+  },
+  {
+   "w": "intend",
+   "ko": "의도하다, ~할 작정이다",
+   "ex": "I intend to finish this by Friday.",
+   "exko": "금요일까지 끝낼 작정이에요.",
+   "use": [
+    [
+     "What do you intend to do next?",
+     "다음엔 뭘 할 생각이에요?"
+    ],
+    [
+     "I didn't intend to hurt you.",
+     "상처 줄 생각은 없었어요."
+    ]
+   ],
+   "mcq": [
+    "We intend to expand next year.",
+    "We intend expanding next year.",
+    "We intend for expand next year.",
+    "We are intend to expand."
+   ],
+   "ans": 0,
+   "note": "intend to + 동사. plan to보다 의지가 강한 느낌!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "respond",
+   "ko": "응답하다, 반응하다",
+   "ex": "He didn't respond to my email.",
+   "exko": "그가 내 이메일에 답을 안 했어요.",
+   "use": [
+    [
+     "How did she respond to the news?",
+     "그녀는 그 소식에 어떻게 반응했어요?"
+    ],
+    [
+     "Please respond by Monday.",
+     "월요일까지 회신 주세요."
+    ]
+   ],
+   "mcq": [
+    "I responded his message quickly.",
+    "I responded to his message quickly.",
+    "I responded at his message.",
+    "His message responded me quickly."
+   ],
+   "ans": 1,
+   "note": "respond to — to 필수! reply to와 같은 패턴.",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "observe",
+   "ko": "관찰하다, 지키다",
+   "ex": "We observed the class for an hour.",
+   "exko": "한 시간 동안 수업을 참관했어요.",
+   "use": [
+    [
+     "Observe how she handles customers.",
+     "그녀가 고객을 어떻게 대하는지 잘 보세요."
+    ],
+    [
+     "Please observe the safety rules.",
+     "안전 수칙을 지켜 주세요."
+    ]
+   ],
+   "mcq": [
+    "I observed a change in his behavior.",
+    "I observed about a change in his.",
+    "I observed to his behavior change.",
+    "His behavior observed a change me."
+   ],
+   "ans": 0,
+   "note": "observe + 대상 바로. watch보다 '유심히 살피다'.",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "transfer",
+   "ko": "옮기다, 이체·환승하다",
+   "ex": "I transferred money to your account.",
+   "exko": "계좌로 송금했어요.",
+   "use": [
+    [
+     "Transfer to line 2 at City Hall.",
+     "시청역에서 2호선으로 갈아타세요."
+    ],
+    [
+     "She was transferred to the Busan office.",
+     "그녀는 부산 지사로 전근 갔다."
+    ]
+   ],
+   "mcq": [
+    "Transfer the file to the new folder.",
+    "Transfer the file at the new folder.",
+    "Transfer to the file new folder.",
+    "The new folder transfers the file."
+   ],
+   "ans": 0,
+   "note": "transfer A to B. 송금·환승·전근 다 이 단어!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "reply",
+   "ko": "답장(하다)",
+   "ex": "Sorry for the late reply.",
+   "exko": "답장이 늦어 죄송해요.",
+   "use": [
+    [
+     "I'll reply as soon as I can.",
+     "최대한 빨리 답할게요."
+    ],
+    [
+     "She replied to all my questions.",
+     "그녀는 내 질문에 전부 답했다."
+    ]
+   ],
+   "mcq": [
+    "Did you reply to her email?",
+    "Did you reply her email?",
+    "Did you reply at her email?",
+    "Her email did reply you?"
+   ],
+   "ans": 0,
+   "note": "reply to — to 필수! answer는 to 없이(answer the email).",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "appeal",
+   "ko": "호소하다, 매력이 있다",
+   "ex": "The design appeals to young buyers.",
+   "exko": "그 디자인은 젊은 구매자에게 매력적이에요.",
+   "use": [
+    [
+     "They appealed for help after the flood.",
+     "홍수 후 도움을 호소했다."
+    ],
+    [
+     "Does this plan appeal to you?",
+     "이 계획 마음에 들어요?"
+    ]
+   ],
+   "mcq": [
+    "The idea appeals to me.",
+    "The idea appeals me.",
+    "The idea is appeal to me.",
+    "Me appeals the idea to."
+   ],
+   "ans": 0,
+   "note": "appeal to + 사람 = ~에게 매력적이다. 광고·마케팅 필수!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "stick",
+   "ko": "붙이다, 고수하다",
+   "ex": "Stick the label on the box.",
+   "exko": "상자에 라벨을 붙이세요.",
+   "use": [
+    [
+     "Let's stick to the plan.",
+     "계획대로 갑시다."
+    ],
+    [
+     "I'm stuck in traffic.",
+     "차가 막혀서 꼼짝 못 해요."
+    ]
+   ],
+   "mcq": [
+    "Stick to your schedule.",
+    "Stick at your schedule.",
+    "Stick your schedule to.",
+    "Your schedule sticks you to."
+   ],
+   "ans": 0,
+   "note": "stick to = 고수하다, stuck in = 갇히다. stick-stuck-stuck!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "count",
+   "ko": "세다, 의지하다, 중요하다",
+   "ex": "Count me in!",
+   "exko": "저도 끼워 주세요!",
+   "use": [
+    [
+     "You can count on me.",
+     "저만 믿으세요."
+    ],
+    [
+     "Every vote counts.",
+     "모든 표가 중요하다."
+    ]
+   ],
+   "mcq": [
+    "You can count on her.",
+    "You can count at her.",
+    "You can count her on.",
+    "Her can count you on."
+   ],
+   "ans": 0,
+   "note": "count on = 의지하다. count me in(나도 할래)까지 세트로!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "beat",
+   "ko": "이기다, 두드리다",
+   "ex": "We beat them 3 to 0.",
+   "exko": "3대 0으로 이겼어요.",
+   "use": [
+    [
+     "Nothing beats a hot shower after work.",
+     "퇴근 후 뜨거운 샤워만 한 게 없죠."
+    ],
+    [
+     "My heart was beating fast.",
+     "심장이 빨리 뛰고 있었다."
+    ]
+   ],
+   "mcq": [
+    "Korea beat Japan yesterday.",
+    "Korea beated Japan yesterday.",
+    "Korea won Japan yesterday.",
+    "Korea beat to Japan yesterday."
+   ],
+   "ans": 0,
+   "note": "beat + 상대(이기다), win + 경기(win the game). beat-beat-beaten!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "ride",
+   "ko": "타다, 탑승",
+   "ex": "Can you give me a ride?",
+   "exko": "저 좀 태워다 줄 수 있어요?",
+   "use": [
+    [
+     "I ride my bike to work.",
+     "자전거로 출근해요."
+    ],
+    [
+     "It's a 20-minute ride to the airport.",
+     "공항까지 차로 20분 거리다."
+    ]
+   ],
+   "mcq": [
+    "I rode the subway to work.",
+    "I rided the subway to work.",
+    "I rode on the subway with work.",
+    "The subway rode me to work."
+   ],
+   "ans": 0,
+   "note": "ride-rode-ridden. give someone a ride = 태워주다!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "lay",
+   "ko": "놓다, 낳다",
+   "ex": "Lay the papers on the desk.",
+   "exko": "서류를 책상 위에 놓으세요.",
+   "use": [
+    [
+     "She laid the baby on the bed.",
+     "그녀는 아기를 침대에 눕혔다."
+    ],
+    [
+     "The hens lay eggs every morning.",
+     "암탉이 매일 아침 알을 낳는다."
+    ]
+   ],
+   "mcq": [
+    "I laid the book on the table.",
+    "I lied the book on the table.",
+    "I lay down the book on table yesterday.",
+    "The table laid I the book."
+   ],
+   "ans": 0,
+   "note": "lay(놓다)-laid-laid vs lie(눕다)-lay-lain. 원어민도 헷갈리는 짝!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "print",
+   "ko": "인쇄하다",
+   "ex": "Could you print this for me?",
+   "exko": "이거 출력 좀 해줄 수 있어요?",
+   "use": [
+    [
+     "Print your name clearly.",
+     "이름을 또박또박 쓰세요."
+    ],
+    [
+     "The printer is out of ink.",
+     "프린터 잉크가 떨어졌다."
+    ]
+   ],
+   "mcq": [
+    "Print two copies of the report.",
+    "Print two copy of the report.",
+    "Print out two copies report of.",
+    "The report prints two copies."
+   ],
+   "ans": 0,
+   "note": "print (out) + 문서. 사무실 필수 동사!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "hang",
+   "ko": "걸다, 매달리다",
+   "ex": "Hang your coat here.",
+   "exko": "코트는 여기 걸어 주세요.",
+   "use": [
+    [
+     "Let's hang out this weekend.",
+     "이번 주말에 같이 놀아요."
+    ],
+    [
+     "Don't hang up — I'm still here!",
+     "끊지 마, 아직 있어!"
+    ]
+   ],
+   "mcq": [
+    "We hung out at the cafe.",
+    "We hanged out at the cafe.",
+    "We hung at out the cafe.",
+    "The cafe hung us out."
+   ],
+   "ans": 0,
+   "note": "hang-hung-hung. hang out(놀다), hang up(전화 끊다)!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "responsible",
+   "ko": "책임이 있는",
+   "ex": "Who's responsible for this project?",
+   "exko": "이 프로젝트 담당이 누구예요?",
+   "use": [
+    [
+     "I'm responsible for customer service.",
+     "고객 서비스를 담당하고 있어요."
+    ],
+    [
+     "Be responsible with your money.",
+     "돈을 책임감 있게 쓰세요."
+    ]
+   ],
+   "mcq": [
+    "She's responsible for the budget.",
+    "She's responsible of the budget.",
+    "She's responsible to the budget.",
+    "The budget is responsible her for."
+   ],
+   "ans": 0,
+   "note": "responsible for — for 필수! in charge of와 같은 뜻.",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "safe",
+   "ko": "안전한",
+   "ex": "Have a safe trip!",
+   "exko": "조심히 다녀와요!",
+   "use": [
+    [
+     "Is this area safe at night?",
+     "이 동네 밤에 안전해요?"
+    ],
+    [
+     "Keep your passport in a safe place.",
+     "여권은 안전한 곳에 보관하세요."
+    ]
+   ],
+   "mcq": [
+    "It's safe to drink the tap water here.",
+    "It's safe drinking tap water here.",
+    "It's safety to drink the water.",
+    "Drink the water is safe to here."
+   ],
+   "ans": 0,
+   "note": "safe to + 동사. safety(안전·명사)와 구분!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "fair",
+   "ko": "공정한, 박람회",
+   "ex": "That's not fair!",
+   "exko": "그건 불공평해요!",
+   "use": [
+    [
+     "We got a fair price.",
+     "적정한 가격에 샀다."
+    ],
+    [
+     "The job fair is next week.",
+     "취업 박람회가 다음 주다."
+    ]
+   ],
+   "mcq": [
+    "It's fair to say we did well.",
+    "It's fair saying we did well.",
+    "It's fairly to say we did well.",
+    "We did well is fair to say it."
+   ],
+   "ans": 0,
+   "note": "It's fair to say = ~라고 해도 무방하다. 회의 표현!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "cheap",
+   "ko": "싼",
+   "ex": "This restaurant is cheap and good.",
+   "exko": "이 식당은 싸고 맛있어요.",
+   "use": [
+    [
+     "Flights are cheaper in November.",
+     "11월엔 항공권이 더 싸다."
+    ],
+    [
+     "It looks cheap — I don't like it.",
+     "싸구려 같아서 별로예요."
+    ]
+   ],
+   "mcq": [
+    "I found a cheap flight to Tokyo.",
+    "I found a cheaply flight to Tokyo.",
+    "I found a flight cheap to Tokyo.",
+    "A cheap found I flight Tokyo."
+   ],
+   "ans": 0,
+   "note": "cheap은 '싸구려' 느낌도 있어요. 칭찬은 affordable/reasonable!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "perfect",
+   "ko": "완벽한",
+   "ex": "The weather is perfect today.",
+   "exko": "오늘 날씨 완벽해요.",
+   "use": [
+    [
+     "Practice makes perfect.",
+     "연습이 완벽을 만든다."
+    ],
+    [
+     "3 o'clock? Perfect!",
+     "3시요? 딱 좋네요!"
+    ]
+   ],
+   "mcq": [
+    "This is the perfect place for a picnic.",
+    "This is the perfectly place for picnic.",
+    "This is perfect the place for picnic.",
+    "A picnic is the perfect place this for."
+   ],
+   "ans": 0,
+   "note": "Perfect! 한마디로 승낙 가능. perfectly는 부사.",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "regular",
+   "ko": "규칙적인, 일반 크기의",
+   "ex": "I'm a regular customer here.",
+   "exko": "저 여기 단골이에요.",
+   "use": [
+    [
+     "Regular exercise keeps you healthy.",
+     "규칙적인 운동이 건강을 지킨다."
+    ],
+    [
+     "A regular coffee, please.",
+     "보통 사이즈 커피 주세요."
+    ]
+   ],
+   "mcq": [
+    "I have regular meetings with my team.",
+    "I have regularly meetings with team.",
+    "I have regular meeting my team with.",
+    "My team regulars meetings with me."
+   ],
+   "ans": 0,
+   "note": "regular(형용사) vs regularly(부사). 단골=regular!",
+   "wk": "2026-W37"
+  },
+  {
+   "w": "otherwise",
+   "ko": "그렇지 않으면",
+   "ex": "Hurry, otherwise we'll miss the train.",
+   "exko": "서둘러요, 안 그러면 기차 놓쳐요.",
+   "use": [
+    [
+     "Book now; otherwise, prices go up.",
+     "지금 예약하세요, 아니면 가격이 올라요."
+    ],
+    [
+     "The room was small but otherwise fine.",
+     "방은 작았지만 그 외엔 괜찮았다."
+    ]
+   ],
+   "mcq": [
+    "Leave now, otherwise you'll be late.",
+    "Leave now, otherwise you'll late.",
+    "Leave now, other way you'll be late.",
+    "Otherwise leave now you'll be late."
+   ],
+   "ans": 0,
+   "note": "otherwise = 안 그러면. 조건을 뒤집는 접속 부사!",
+   "wk": "2026-W37"
   }
  ]
 }
