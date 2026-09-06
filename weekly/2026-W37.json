@@ -1,0 +1,89 @@
+{
+ "week": "2026-W37",
+ "label": "9월 7일 주",
+ "levels": {
+  "warmup": {
+   "cards": [
+    {"expr": "Could you ~ ?", "ko": "~해 주시겠어요? (정중한 부탁)", "ex": "Could you send me the file?"},
+    {"expr": "Do you mind if I ~ ?", "ko": "~해도 괜찮을까요?", "ex": "Do you mind if I open the window?"},
+    {"expr": "Can I get ~ ?", "ko": "~ 주시겠어요? (주문·요청)", "ex": "Can I get a receipt, please?"},
+    {"expr": "Would it be okay if ~ ?", "ko": "~해도 될까요?", "ex": "Would it be okay if I leave early today?"},
+    {"expr": "Let me know if ~", "ko": "~하면 알려 주세요", "ex": "Let me know if you have any questions."}
+   ],
+   "quiz": [
+    {"q": "___ send me the address again?",
+     "options": ["Can you please to", "Could you", "Would you mind", "May I have you"],
+     "answer": 1, "note": "Could you + 동사원형 = 가장 무난한 정중 부탁."},
+    {"q": "___ I sit here?",
+     "options": ["Do you mind if", "Do you mind that", "Are you mind if", "Do you mind to"],
+     "answer": 0, "note": "Do you mind if + 주어 + 동사. 답은 'No, go ahead'(괜찮아요)!"},
+    {"q": "___ a glass of water, please?",
+     "options": ["Can I take", "Can I have get", "Can I get", "Could I bring"],
+     "answer": 2, "note": "Can I get ~? = ~ 주시겠어요? 카페·식당 필수."},
+    {"q": "___ if I take Friday off?",
+     "options": ["Would it be okay", "Is it okay that", "Would be okay", "Would it okay"],
+     "answer": 0, "note": "Would it be okay if + 주어 + 동사 — 허락을 구하는 부드러운 형태."},
+    {"q": "___ you need anything else.",
+     "options": ["Let me know if", "Let me know that", "Let know me if", "Tell me know if"],
+     "answer": 0, "note": "Let me know if ~ = 필요하면 알려 주세요. 이메일 마무리 단골!"}
+   ]
+  },
+  "intermediate": {
+   "cards": [
+    {"expr": "Just to confirm, ~", "ko": "확인차 말씀드리면", "ex": "Just to confirm, the meeting is at 3, right?"},
+    {"expr": "Would it be possible to ~ ?", "ko": "~하는 게 가능할까요?", "ex": "Would it be possible to move the deadline?"},
+    {"expr": "I was wondering if ~", "ko": "혹시 ~할 수 있을지 해서요", "ex": "I was wondering if you could review this."},
+    {"expr": "Does ~ work for you?", "ko": "~ 괜찮으세요?", "ex": "Does Thursday work for you?"},
+    {"expr": "Could you clarify ~ ?", "ko": "~를 명확히 해 주시겠어요?", "ex": "Could you clarify what you mean by 'soon'?"}
+   ],
+   "quiz": [
+    {"q": "___ , the delivery is on Monday, correct?",
+     "options": ["Just to confirm", "Just confirming that to", "For confirm", "Only to confirm"],
+     "answer": 0, "note": "Just to confirm, ~ = 확인차 말씀드리면. 오해 방지의 첫마디."},
+    {"q": "___ to get a copy by tomorrow?",
+     "options": ["Is it possible you", "Would it be possible", "Would be it possible", "Could it possible"],
+     "answer": 1, "note": "Would it be possible to + 동사 — 부담 주지 않는 요청."},
+    {"q": "___ you could help me with the report.",
+     "options": ["I was wondering if", "I was wondering that", "I wonder to", "I'm wondering whether to"],
+     "answer": 0, "note": "I was wondering if ~ = 조심스러운 부탁의 정석. 과거형이라 더 부드러워요."},
+    {"q": "___ 2 p.m. work for you?",
+     "options": ["Is", "Does", "Do", "Will be"],
+     "answer": 1, "note": "Does + 시간 + work for you? = 그 시간 괜찮으세요?"},
+    {"q": "Sorry, ___ what you mean by 'flexible'?",
+     "options": ["could you clarify", "could you clear", "could you clarify about", "could you make clarify"],
+     "answer": 0, "note": "clarify + 대상 바로. clarify about은 군더더기!"}
+   ]
+  },
+  "challenge": {
+   "cards": [
+    {"expr": "I'm afraid I can't ~", "ko": "죄송하지만 ~할 수 없어요", "ex": "I'm afraid I can't make it on Friday."},
+    {"expr": "I see your point, but ~", "ko": "말씀은 이해하지만", "ex": "I see your point, but the timeline is too tight."},
+    {"expr": "I'd rather not ~", "ko": "~하지 않는 게 좋겠어요", "ex": "I'd rather not commit to that yet."},
+    {"expr": "That might be tricky because ~", "ko": "그건 어려울 수 있어요, 왜냐하면", "ex": "That might be tricky because we're short-staffed."},
+    {"expr": "Could we ~ instead?", "ko": "대신 ~하면 어떨까요?", "ex": "Could we meet next week instead?"}
+   ],
+   "quiz": [
+    {"q": "Sorry, ___ join the call today — I have a client meeting.",
+     "hint": "죄송하지만 ~할 수 없어요 (afraid 포함)",
+     "accept": ["i'm afraid i can't", "im afraid i cant", "i am afraid i can't", "i am afraid i cannot", "i'm afraid i cannot"],
+     "note": "I'm afraid I can't = 부드러운 거절의 정석."},
+    {"q": "___ , but I think we need more time.",
+     "hint": "상대 말을 인정한 뒤 반대 (point 포함)",
+     "accept": ["i see your point", "i see your point."],
+     "note": "I see your point, but ~ = 반대해도 관계를 지키는 문장."},
+    {"q": "Honestly, ___ sign anything today.",
+     "hint": "~하지 않는 게 좋겠어요 (rather 포함)",
+     "accept": ["i'd rather not", "i would rather not", "id rather not"],
+     "note": "I'd rather not + 동사 = 완곡한 거절. no보다 훨씬 부드러워요."},
+    {"q": "___ because half the team is on vacation.",
+     "hint": "그건 어려울 수 있어요 (tricky 포함)",
+     "accept": ["that might be tricky", "that might be tricky.", "it might be tricky"],
+     "note": "That might be tricky because ~ = 거절 이유를 자연스럽게 잇는 틀."},
+    {"q": "Friday doesn't work for me. ___ Thursday instead?",
+     "hint": "대신 ~하면 어떨까요? (could we로 시작)",
+     "accept": ["could we do", "could we try", "could we meet", "could we make it", "could we do it"],
+     "note": "Could we ~ instead? = 거절 뒤에 대안 제시. 이게 진짜 프로의 거절!"}
+   ]
+  }
+ }
+}
