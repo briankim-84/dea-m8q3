@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hojun · Listen & Shadow 11</title>
+<style>
+:root{--ink:#10203A;--card:#16273F;--edge:#3E5A82;--gold:#C9A432;--gold2:#E4C05C;--white:#F4F6FA;--muted:#AEB9CC;--dim:#7E8CA0;--teal:#2E4A52;--tealL:#A0D8E8;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--ink);color:var(--white);font-family:'Segoe UI',-apple-system,'Malgun Gothic',sans-serif;padding:24px 14px 90px;}
+.wrap{max-width:760px;margin:0 auto;}
+h1{font-family:Georgia,serif;font-size:1.5rem;color:var(--white);text-align:center;}
+.sub{text-align:center;color:var(--gold2);font-style:italic;margin:6px 0 4px;font-size:.95rem;}
+.brand{text-align:center;color:var(--dim);font-size:.72rem;letter-spacing:3px;margin-bottom:18px;}
+.gbar{position:sticky;top:0;z-index:50;background:var(--ink);padding:10px 0;border-bottom:1px solid var(--edge);margin-bottom:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+.gbar button{background:var(--card);border:1px solid var(--gold);color:var(--gold2);border-radius:8px;padding:8px 14px;font-size:.85rem;cursor:pointer;font-weight:600;}
+.gbar button:disabled{opacity:.4;cursor:default;}
+.gbar .stop{border-color:#B45B5B;color:#E8A0A0;display:none;}
+button.on{background:var(--gold);color:var(--ink);}
+.gbar #grepeat.on{background:var(--gold);color:var(--ink);}
+#gprog{color:var(--muted);font-size:.8rem;margin-left:auto;}
+.sec{font-size:.72rem;font-weight:700;letter-spacing:2.5px;color:var(--gold);margin:26px 4px 10px;}
+.card{background:var(--card);border:1px solid var(--edge);border-radius:12px;padding:12px 14px;margin-bottom:10px;transition:box-shadow .2s,border-color .2s;}
+.card.playing{border-color:var(--gold2);box-shadow:0 0 0 2px rgba(228,192,92,.35);}
+.role{font-size:.72rem;color:var(--tealL);font-weight:700;margin-bottom:4px;letter-spacing:1px;}
+.en{font-size:1.02rem;line-height:1.5;font-weight:600;}
+.ko{color:var(--muted);font-size:.85rem;margin-top:3px;line-height:1.4;}
+.vocab{margin-top:7px;font-size:.78rem;color:var(--gold2);background:rgba(201,164,50,.08);border-left:3px solid var(--gold);padding:5px 8px;border-radius:4px;line-height:1.45;}
+.vary{margin-top:6px;font-size:.78rem;color:var(--tealL);background:rgba(160,216,232,.07);border-left:3px solid var(--tealL);padding:5px 8px;border-radius:4px;line-height:1.5;}
+.vary b{color:var(--white);font-weight:600;}
+.ctr{display:flex;gap:6px;margin-top:9px;align-items:center;flex-wrap:wrap;}
+.ctr button{background:var(--ink);border:1px solid var(--edge);color:var(--white);border-radius:7px;padding:6px 11px;font-size:.8rem;cursor:pointer;}
+.ctr button.rec{border-color:#B45B5B;color:#E8A0A0;}
+.ctr button.rec.on{background:#B45B5B;color:#fff;}
+.ctr button.rep.on{background:var(--gold);color:var(--ink);font-weight:700;}
+.ctr .cnt{font-size:.75rem;color:var(--gold2);min-width:38px;}
+.pbar{height:4px;background:var(--ink);border-radius:2px;margin-top:8px;overflow:hidden;}
+.pbar>div{height:100%;width:0%;background:var(--gold2);transition:width .1s linear;}
+.nofile{opacity:.45;}
+.en.hidden-en{display:none;}
+.lbl{font-size:.72rem;color:var(--dim);font-weight:700;margin-top:10px;letter-spacing:1px;}
+input.dict{width:100%;padding:10px 12px;border-radius:9px;border:1px solid rgba(255,255,255,.12);background:#0e1d33;color:var(--white);font-size:.95rem;margin:7px 0 4px;}
+input.dict:focus{outline:none;border-color:var(--gold);}
+.check{font-size:.8rem;color:#7BC98A;font-weight:700;cursor:pointer;}
+.saved{display:none;font-size:.7rem;color:#7BC98A;font-weight:700;margin-left:4px;}
+#exportBar{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--edge);padding:10px;display:flex;justify-content:center;gap:10px;z-index:60;}
+#exportBar button{background:var(--gold);color:var(--ink);border:none;border-radius:8px;padding:9px 18px;font-weight:700;cursor:pointer;font-size:.88rem;}
+#exportBar span{align-self:center;color:var(--muted);font-size:.78rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Hojun · Listen & Shadow 11</h1>
+<div class="sub">Built Where It Shouldn't Be — four Hyundai E&C sites</div>
+<div class="brand">D O &nbsp; E N G L I S H &nbsp; W I T H &nbsp; B R I A N</div>
+<div class="gbar">
+  <button id="playAllSlow" style="display:none">slow</button>
+  <button id="playAllNorm">▶ 전체 재생</button>
+  <button id="grepeat">🔁 반복</button>
+  <button id="gstop" class="stop">■ 정지</button>
+  <span id="gprog"></span>
+</div>
+<div id="list"></div>
+</div>
+<div id="exportBar"><span id="recStat"></span><button id="exportBtn">학생용 파일 내보내기</button></div>
+<script>
+const SENTENCES=[{"sec": "PART 1 · JUBAIL", "role": "C", "ko": "주베일 산업항, 뭐가 그렇게 대단했어요?", "en": "Jubail — what made it such a big deal?", "vocab": "big deal — 대단한 일"}, {"role": "H", "ko": "수심 30미터에서 500톤짜리 구조물을 오차 안에 앉힌 거예요.", "en": "They landed 500-ton structures within tolerance in thirty meters of water.", "vocab": "land — 앉히다, 설치하다 · tolerance — 허용 오차", "vary": "They landed the caisson within a few centimeters. · We set the pile within tolerance on the first try."}, {"role": "H", "ko": "자재는 전부 한국에서 만들어서 배로 실어 날랐고요.", "en": "And they fabricated everything in Korea and shipped it over.", "vocab": "fabricate — 제작하다 · ship over — 배로 보내다", "vary": "We fabricated the jackets in Ulsan and shipped them out. · They built the modules at home and shipped them over."}, {"role": "H", "ko": "어려운 건 파도 위에서 그 무게를 제어하는 거예요.", "en": "The hard part is controlling that weight on the waves.", "vocab": "control — 제어하다", "vary": "The hard part is the weather window. · The hard part is keeping the crane steady."}, {"role": "H", "ko": "바다가 잔잔한 날에만 되는 얘기죠.", "en": "That only works on a calm day.", "vocab": "calm — 잔잔한", "vary": "That only works with a big enough crane. · That only works if the survey is right."}, {"sec": "PART 2 · BOSPHORUS", "role": "C", "ko": "보스포러스 3대교는 왜 하이브리드로 갔어요?", "en": "Why did the third Bosphorus bridge go hybrid?", "vocab": "hybrid — 두 방식을 섞은"}, {"role": "H", "ko": "현수교만으로는 흔들려서 철도를 못 놓거든요.", "en": "A pure suspension bridge sways too much to carry a railway.", "vocab": "suspension bridge — 현수교 · sway — 흔들리다", "vary": "A pure cable-stayed design would be too short. · A pure steel deck would be too heavy."}, {"role": "H", "ko": "그래서 사장교를 섞어서 강성을 높였어요.", "en": "So they mixed in cable-stayed to stiffen it.", "vocab": "cable-stayed — 사장교 방식 · stiffen — 단단하게 하다", "vary": "So they mixed in steel to stiffen the deck. · They added a truss to stiffen it."}, {"role": "H", "ko": "세계 최초를 서명하려면 배짱이 필요하죠.", "en": "You'd have to have nerve to sign off on a world first.", "vocab": "nerve — 배짱 · sign off on ~ — ~를 승인하다", "vary": "You'd have to have nerve to try that design. · Signing off on that takes nerve."}, {"sec": "PART 3 · CHACAO AND ULSAN", "role": "C", "ko": "차카오는 뭐부터 설계해요?", "en": "Chacao — what do you design for first?", "vocab": "design for ~ — ~를 기준으로 설계하다"}, {"role": "H", "ko": "저라면 지진을 먼저 잡아요. 바람은 그다음이고요.", "en": "I'd design for the earthquake first, then the wind.", "vocab": "earthquake — 지진", "vary": "I'd design for the current first. · I'd design for the worst month first."}, {"role": "H", "ko": "거기서 위험한 건 조류예요 — 하루에 두 번 방향이 바뀌니까요.", "en": "The risk there is the current — it changes direction twice a day.", "vocab": "current — 조류 · direction — 방향", "vary": "The risk there is the wind picking up. · The risk is the tide catching the barge."}, {"role": "H", "ko": "한국 건설사가 남미에 처음 짓는 다리니까 증명할 게 많죠.", "en": "First Korean bridge in South America — there's a lot to prove.", "vocab": "prove — 증명하다", "vary": "There's a lot to prove on a first job. · On a job like that, you have a lot to prove."}, {"role": "H", "ko": "울산대교는 1150미터를 주탑 두 개로 건넜어요.", "en": "Ulsan Bridge crosses 1,150 meters with just two towers.", "vocab": "cross — 건너다 · tower — 주탑", "vary": "It crosses the harbor with one span. · The bridge crosses the strait with three towers."}, {"role": "H", "ko": "인상적인 건 준공 때 세계 3위였다는 거예요.", "en": "What impresses me is it was third in the world when it opened.", "vocab": "impress — 감명을 주다 · open — 개통하다", "vary": "What impresses me is the schedule. · What impresses me is they did it without a single accident."}, {"sec": "PART 4 · THE VERDICT", "role": "C", "ko": "넷 중에 진짜 대단한 건 뭐예요?", "en": "Of the four, which is the real feat?", "vocab": "feat — 위업, 대단한 일"}, {"role": "H", "ko": "진짜는 주베일이라고 봐요. 1976년에 그걸 했으니까요.", "en": "I'd say Jubail is the real one — they did it in 1976.", "vocab": "I'd say ~ — 제 생각엔 ~", "vary": "I'd say the Bosphorus is the real one. · I'd say Chacao will be, once it's done."}, {"role": "H", "ko": "주베일은 돈이, 보스포러스는 배짱이 필요했죠.", "en": "Jubail needed money, but the Bosphorus needed nerve.", "vocab": "need — 필요하다", "vary": "Ulsan needed precision, but Chacao needs patience. · One needed time; the other needed courage."}, {"role": "H", "ko": "50년이 지나도 안 변한 건, 바다는 여전히 바다라는 거예요.", "en": "What hasn't changed in fifty years is that the sea is still the sea.", "vocab": "what hasn't changed is ~ — 안 변한 건 ~", "vary": "What hasn't changed is the weather. · What hasn't changed is that steel is heavy."}];
+const ROLES={"C": "👤 Colleague", "H": "💬 Hojun"};
+const EXPORT_NAME="Hojun_Listen_and_Shadow_11_for_Hojun.html";
+const IDB_NS="hojun11";
+const EMBEDDED=null;
+const TEACHER=EMBEDDED===null;
+
+/* ---------- IndexedDB ---------- */
+let db=null;
+function idb(){return new Promise((res,rej)=>{if(db)return res(db);
+  const q=indexedDB.open("ls_"+IDB_NS,1);
+  q.onupgradeneeded=e=>{e.target.result.createObjectStore("audio");};
+  q.onsuccess=e=>{db=e.target.result;res(db);};q.onerror=rej;});}
+function idbPut(k,blob){return idb().then(d=>new Promise((res,rej)=>{const t=d.transaction("audio","readwrite");t.objectStore("audio").put(blob,k);t.oncomplete=res;t.onerror=rej;}));}
+function idbGet(k){return idb().then(d=>new Promise((res,rej)=>{const r=d.transaction("audio").objectStore("audio").get(k);r.onsuccess=()=>res(r.result||null);r.onerror=rej;}));}
+
+/* ---------- audio state ---------- */
+const AC=new (window.AudioContext||window.webkitAudioContext)();
+const cache={};      // idx -> {url,dur}
+let current=null;    // {audio, idx, kind}   kind: single|repeat|global
+let repeatState=null;// {idx,count,stop}
+let globalState=null;// {stop}
+
+async function loadClip(i,speed){
+  const key=i+"_"+speed;
+  if(cache[key])return cache[key];
+  let blob=null;
+  if(TEACHER){blob=await idbGet("s"+key);}
+  else{const b64=EMBEDDED["s"+key];if(b64){const bin=atob(b64);const u8=new Uint8Array(bin.length);for(let j=0;j<bin.length;j++)u8[j]=bin.charCodeAt(j);blob=new Blob([u8],{type:EMBEDDED["t"+key]||"audio/webm"});}}
+  if(!blob)return null;
+  const buf=await blob.arrayBuffer();
+  let dur=0;
+  try{const dec=await AC.decodeAudioData(buf.slice(0));dur=dec.duration;}catch(e){}
+  const url=URL.createObjectURL(blob);
+  cache[key]={url,dur,blob};
+  return cache[key];
+}
+function stopAll(except){
+  if(current&&current.kind!==except){try{current.audio.pause();}catch(e){}markPlaying(-1);current=null;}
+  if(repeatState&&except!=="repeat"){repeatState.stop=true;updateRepBtn(repeatState.idx,false,0);repeatState=null;}
+  if(globalState&&except!=="global"){globalState.stop=true;globalUI(false);globalState=null;markPlaying(-1);}
+  if(recState&&except!=="rec"){stopRec();}
+  if(typeof myRecState!=="undefined"&&myRecState&&except!=="myrec"){stopMyRec();}
+}
+function markPlaying(i){document.querySelectorAll(".card").forEach((c,j)=>{c.classList.toggle("playing",j===i);});
+  if(i>=0){const el=document.querySelectorAll(".card")[i];const r=el.getBoundingClientRect();if(r.top<70||r.bottom>window.innerHeight-90)el.scrollIntoView({behavior:"smooth",block:"center"});}}
+function playIdx(i,speed,kind){return new Promise(async res=>{
+  const c=await loadClip(i,speed);if(!c){res(false);return;}
+  const a=new Audio(c.url);
+  current={audio:a,idx:i,kind};
+  markPlaying(i);
+  const bar=document.querySelector(`#card${i} .pbar>div`);
+  const tick=setInterval(()=>{if(c.dur>0&&bar)bar.style.width=Math.min(100,a.currentTime/c.dur*100)+"%";},80);
+  a.onended=()=>{clearInterval(tick);if(bar)bar.style.width="0%";if(current&&current.audio===a)current=null;res(true);};
+  a.onpause=()=>{clearInterval(tick);if(bar)bar.style.width="0%";};
+  a.onerror=()=>{clearInterval(tick);res(false);};
+  a.play().catch(()=>res(false));
+});}
+
+/* ---------- single play ---------- */
+async function singlePlay(i,speed){
+  if(current&&current.kind==="single"&&current.idx===i){stopAll();return;}
+  stopAll();await playIdx(i,speed,"single");markPlaying(-1);}
+
+/* ---------- 10-repeat ---------- */
+function updateRepBtn(i,on,n){const b=document.querySelector(`#card${i} .rep`);const c=document.querySelector(`#card${i} .cnt`);
+  if(b)b.classList.toggle("on",on);if(c)c.textContent=on?`${n}/10`:"";}
+async function repeat10(i){
+  if(repeatState&&repeatState.idx===i){stopAll();return;}
+  stopAll("repeat");
+  const st={idx:i,count:0,stop:false};repeatState=st;
+  for(let n=1;n<=10;n++){
+    if(st.stop)break;
+    updateRepBtn(i,true,n);
+    const ok=await playIdx(i,"normal","repeat");
+    if(!ok||st.stop)break;
+    await new Promise(r=>setTimeout(r,450));
+  }
+  updateRepBtn(i,false,0);
+  if(repeatState===st)repeatState=null;
+  markPlaying(-1);
+}
+
+/* ---------- global sequential ---------- */
+function globalUI(on){document.getElementById("gstop").style.display=on?"":"none";
+  document.getElementById("playAllSlow").disabled=on;document.getElementById("playAllNorm").disabled=on;
+  if(!on)document.getElementById("gprog").textContent="";}
+let loopOn=false;
+async function playAll(speed){
+  stopAll("global");
+  const st={stop:false};globalState=st;globalUI(true);
+  let round=0;
+  do{
+    round++;
+    for(let i=0;i<SENTENCES.length;i++){
+      if(st.stop)break;
+      document.getElementById("gprog").textContent=(loopOn?`${round}회차 · `:"")+`${i+1} / ${SENTENCES.length}`;
+      const ok=await playIdx(i,speed,"global");
+      if(st.stop)break;
+      if(ok)await new Promise(r=>setTimeout(r,700));
+    }
+  }while(loopOn&&!st.stop);
+  globalUI(false);markPlaying(-1);
+  if(globalState===st)globalState=null;
+}
+document.getElementById("grepeat").onclick=()=>{loopOn=!loopOn;document.getElementById("grepeat").classList.toggle("on",loopOn);};
+document.getElementById("playAllSlow").onclick=()=>playAll("slow");
+document.getElementById("playAllNorm").onclick=()=>playAll("normal");
+document.getElementById("gstop").onclick=()=>stopAll();
+
+/* ---------- recording (teacher only) ---------- */
+function pickMime(){
+  const c=['audio/mp4','audio/mp4;codecs=mp4a.40.2','audio/aac','audio/webm;codecs=opus','audio/webm'];
+  if(window.MediaRecorder&&MediaRecorder.isTypeSupported){for(const t of c){if(MediaRecorder.isTypeSupported(t))return t;}}
+  return '';
+}
+let recState=null, sharedMic=null;
+function micAlive(s){try{return !!s&&s.getAudioTracks().some(t=>t.readyState==='live');}catch(e){return false;}}
+async function freshMic(){
+  if(micAlive(sharedMic))return sharedMic;
+  try{sharedMic=await navigator.mediaDevices.getUserMedia({audio:true});return sharedMic;}
+  catch(e){alert("마이크 접근이 필요합니다. 브라우저 권한을 허용해주세요.");return null;}
+}
+async function toggleRec(i,speed){
+  if(recState){const same=recState.idx===i&&recState.speed===speed;stopRec();if(same)return;}
+  stopAll("rec");
+  const stream=await freshMic();
+  if(!stream)return;
+  const mt=pickMime();
+  const mr=mt?new MediaRecorder(stream,{mimeType:mt}):new MediaRecorder(stream);
+  const chunks=[];
+  mr.ondataavailable=e=>{if(e.data.size>0)chunks.push(e.data);};
+  mr.onstop=async()=>{
+    const blob=new Blob(chunks,{type:mr.mimeType||"audio/webm"});
+    await idbPut("s"+i+"_"+speed,blob);
+    delete cache[i+"_"+speed];
+    const card=document.getElementById("card"+i);
+    const b=await idbGet("s"+i+"_normal");
+    if(b)card.classList.remove("nofile");
+    updateStat();
+  };
+  mr.start();
+  recState={idx:i,speed,mr};
+  const rb=document.querySelector(`#card${i} .rec${speed==='slow'?'slow':'norm'}`);
+  rb.classList.add("on");rb.dataset.label=rb.textContent;rb.textContent="● 정지";
+}
+function stopRec(){if(!recState)return;const{idx,speed,mr}=recState;try{mr.stop();}catch(e){}
+  const b=document.querySelector(`#card${idx} .rec${speed==='slow'?'slow':'norm'}`);if(b){b.classList.remove("on");if(b.dataset.label)b.textContent=b.dataset.label;}recState=null;}
+async function updateStat(){
+  if(!TEACHER)return;
+  let nn=0;for(let i=0;i<SENTENCES.length;i++){if(await idbGet("s"+i+"_normal"))nn++;}
+  document.getElementById("recStat").textContent=`녹음 ${nn}/${SENTENCES.length}`;
+}
+
+/* ---------- export ---------- */
+async function exportStudent(){
+  const map={};
+  for(let i=0;i<SENTENCES.length;i++){
+    {
+      const sp="normal";
+      const blob=await idbGet("s"+i+"_"+sp);
+      if(!blob){alert(`문장 ${i+1} 녹음이 없어요.`);return;}
+      const b64=await new Promise(res=>{const r=new FileReader();r.onload=()=>res(r.result.split(",")[1]);r.readAsDataURL(blob);});
+      map["s"+i+"_"+sp]=b64;map["t"+i+"_"+sp]=blob.type||"audio/webm";
+    }
+  }
+  let html=document.documentElement.outerHTML;
+  html=html.replace(/const EMBEDDED=.*?;/,"const EMBEDDED="+JSON.stringify(map)+";");
+  html="<!DOCTYPE html>\n"+html;
+  const blobOut=new Blob([html],{type:"text/html"});
+  if(window.showSaveFilePicker){
+    try{
+      const fh=await window.showSaveFilePicker({suggestedName:EXPORT_NAME,types:[{description:"HTML",accept:{"text/html":[".html"]}}]});
+      const w=await fh.createWritable(); await w.write(blobOut); await w.close(); return;
+    }catch(e){ if(e&&e.name==="AbortError") return; }
+  }
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blobOut);
+  a.download=EXPORT_NAME;
+  a.click();
+}
+document.getElementById("exportBtn").onclick=exportStudent;
+
+/* ---------- render ---------- */
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+const list=document.getElementById("list");
+let html="";
+SENTENCES.forEach((s,i)=>{
+  if(s.sec)html+=`<div class="sec">${esc(s.sec)}</div>`;
+  html+=`<div class="card" id="card${i}">
+    <div class="role">${esc(ROLES[s.role]||s.role)}</div>`;
+  if(TEACHER){
+    html+=`<div class="en">${esc(s.en)}</div><div class="ko">${esc(s.ko)}</div>`;
+    if(s.vocab)html+=`<div class="vocab">${esc(s.vocab)}</div>`;
+    if(s.vary)html+=`<div class="vary"><b>같은 패턴으로</b> — ${esc(s.vary)}</div>`;
+    html+=`<div class="ctr">
+      <button class="pnorm" onclick="singlePlay(${i},'normal')">🔊 재생</button>
+      <button class="rec recnorm teacheronly" onclick="toggleRec(${i},'normal')">● 녹음</button>
+    </div><div class="pbar"><div></div></div></div>`;
+  }else{
+    html+=`<div class="ko">${esc(s.ko)}</div>`;
+    if(s.vocab)html+=`<div class="vocab">${esc(s.vocab)}</div>`;
+    if(s.vary)html+=`<div class="vary"><b>같은 패턴으로</b> — ${esc(s.vary)}</div>`;
+    html+=`<div class="ctr"><span class="lbl" style="margin-top:0">선생님 음성 듣기</span>
+      <button class="pnorm" onclick="singlePlay(${i},'normal')">🔊 재생</button>
+      <button class="rep" onclick="repeat10(${i})">🔁 10회 반복</button><span class="cnt"></span>
+    </div>
+    <div class="lbl">받아쓰기 — 들리는 문장을 적어보세요</div>
+    <input class="dict" id="dict${i}" placeholder="여기에 적어보세요..." autocomplete="off">
+    <div class="ansbox" id="ans${i}" style="display:none">
+      <div class="en">${esc(s.en)}</div>
+    </div>
+    <span class="check" onclick="reveal(${i})" id="rev${i}">👁 정답 확인</span>
+    <div class="lbl">따라 말하기 — 녹음해서 비교해 보세요</div>
+    <div class="ctr" style="margin-top:5px">
+      <button class="rec" id="myrec${i}" onclick="toggleMyRec(${i})">🎤 내 녹음</button>
+      <button id="myplay${i}" disabled onclick="playMine(${i})">▶ 내 목소리</button>
+      <button onclick="singlePlay(${i},'normal')">🔊 선생님</button>
+      <span class="saved" id="saved${i}">✓ 저장됨</span>
+    </div>
+    <div class="pbar"><div></div></div></div>`;
+  }
+});
+list.innerHTML=html;
+
+if(!TEACHER){
+  document.getElementById("exportBar").style.display="none";
+  document.querySelectorAll(".teacheronly").forEach(b=>b.style.display="none");
+}else{
+  (async()=>{for(let i=0;i<SENTENCES.length;i++){const a=await idbGet("s"+i+"_slow"),b=await idbGet("s"+i+"_normal");if(!a||!b)document.getElementById("card"+i).classList.add("nofile");}updateStat();})();
+}
+
+/* ===== 학생 모드: 정답 확인 · 내 녹음 ===== */
+function reveal(i){const a=document.getElementById("ans"+i),r=document.getElementById("rev"+i);
+  if(!a)return;const on=a.style.display==="none";a.style.display=on?"":"none";r.textContent=on?"🙈 정답 가리기":"👁 정답 확인";}
+let myRecState=null;
+function myKey(i){return "myrec_"+i;}
+function stopMyRec(){
+  if(!myRecState)return;
+  const idx=myRecState.idx;
+  try{myRecState.mr.stop();}catch(e){}
+  const pb=document.getElementById("myrec"+idx);if(pb)pb.textContent="🎤 내 녹음";
+  myRecState=null;
+}
+async function toggleMyRec(i){
+  if(myRecState){const same=myRecState.idx===i;stopMyRec();if(same)return;}
+  stopAll("myrec");
+  const stream=await freshMic();if(!stream)return;
+  const mt=pickMime();
+  const mr=mt?new MediaRecorder(stream,{mimeType:mt}):new MediaRecorder(stream);
+  const chunks=[];
+  mr.ondataavailable=e=>{if(e.data.size>0)chunks.push(e.data);};
+  mr.onstop=async()=>{
+    const blob=new Blob(chunks,{type:mr.mimeType||mt||"audio/mp4"});
+    await idbPut(myKey(i),blob);
+    const p=document.getElementById("myplay"+i);if(p)p.disabled=false;
+    const sv=document.getElementById("saved"+i);if(sv)sv.style.display="inline";
+  };
+  mr.start();myRecState={idx:i,mr};
+  document.getElementById("myrec"+i).textContent="● 정지";
+}
+async function blobDur(blob){
+  try{const buf=await blob.arrayBuffer();const ab=await AC.decodeAudioData(buf.slice(0));return ab.duration;}
+  catch(e){return 0;}
+}
+async function playMine(i){
+  if(current&&current.kind==="mine"&&current.idx===i){stopAll();return;}
+  stopAll();
+  const blob=await idbGet(myKey(i));if(!blob)return;
+  const dur=await blobDur(blob);
+  const a=new Audio(URL.createObjectURL(blob));
+  current={audio:a,idx:i,kind:"mine"};
+  const btn=document.getElementById("myplay"+i);
+  if(btn){if(!btn.dataset.lbl)btn.dataset.lbl=btn.textContent;btn.textContent="■ 정지";btn.classList.add("on");}
+  const bar=document.querySelector(`#card${i} .pbar>div`);
+  const tick=setInterval(()=>{if(dur>0&&bar)bar.style.width=Math.min(100,a.currentTime/dur*100)+"%";},80);
+  const done=()=>{clearInterval(tick);if(bar)bar.style.width="0%";
+    if(btn&&btn.dataset.lbl){btn.textContent=btn.dataset.lbl;btn.classList.remove("on");}
+    if(current&&current.audio===a)current=null;};
+  a.onended=done;a.onpause=done;a.onerror=done;
+  a.play().catch(done);
+}
+window.addEventListener("beforeunload",()=>{if(typeof myRecState!=="undefined"&&myRecState){try{myRecState.mr.stop();}catch(e){}}});
+if(!TEACHER){
+  (async()=>{for(let i=0;i<SENTENCES.length;i++){
+    if(await idbGet(myKey(i))){const p=document.getElementById("myplay"+i);if(p)p.disabled=false;
+      const sv=document.getElementById("saved"+i);if(sv)sv.style.display="inline";}}})();
+}
+
+</script>
+</body>
+</html>
