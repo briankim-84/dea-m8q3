@@ -1,0 +1,258 @@
+{
+ "week": "2026-W38",
+ "label": "9월 14일 주",
+ "levels": {
+  "warmup": {
+   "cards": [
+    {
+     "expr": "put off",
+     "ko": "미루다",
+     "ex": "Don't put off the call again."
+    },
+    {
+     "expr": "📘 단어: postpone / reschedule",
+     "ko": "연기하다 / 일정을 다시 잡다",
+     "ex": "We postponed the meeting → Let's reschedule it for Friday. (put off의 격식 버전!)"
+    },
+    {
+     "expr": "run late",
+     "ko": "늦어지다",
+     "ex": "Sorry, I'm running late — 10 minutes!"
+    },
+    {
+     "expr": "📘 단어: urgent / spare",
+     "ko": "긴급한 / 여분의, (시간을) 내주다",
+     "ex": "It's urgent. → Can you spare five minutes? (spare time = 여유 시간)"
+    },
+    {
+     "expr": "no worries",
+     "ko": "괜찮아요, 신경 쓰지 마세요",
+     "ex": "You're late? No worries!"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Let's not ___ the decision any longer.",
+     "options": [
+      "put away",
+      "put off",
+      "put out",
+      "put on"
+     ],
+     "answer": 1,
+     "note": "put off = 미루다. put on(입다)·put away(치우다)와 구분!"
+    },
+    {
+     "q": "The concert was ___ until next month.",
+     "options": [
+      "postpones",
+      "postponing",
+      "postpone",
+      "postponed"
+     ],
+     "answer": 3,
+     "note": "be postponed = 연기되다. put off의 격식 버전!"
+    },
+    {
+     "q": "Sorry, I'm ___ — traffic is terrible.",
+     "options": [
+      "running slow",
+      "late running",
+      "running late",
+      "going late"
+     ],
+     "answer": 2,
+     "note": "run late = 예정보다 늦어지는 중. 카톡으로 바로 쓰는 표현!"
+    },
+    {
+     "q": "Can you ___ a few minutes to look at this?",
+     "options": [
+      "spare",
+      "make",
+      "spend",
+      "save"
+     ],
+     "answer": 0,
+     "note": "spare + 시간 = 시간을 내주다. spare time = 여유 시간."
+    },
+    {
+     "q": "Thanks for waiting! — ___ , take your time.",
+     "options": [
+      "No worries",
+      "No worry",
+      "No worried",
+      "Not worries"
+     ],
+     "answer": 0,
+     "note": "No worries = 괜찮아요(복수형 고정). 호주·미국 모두 일상 표현!"
+    }
+   ]
+  },
+  "intermediate": {
+   "cards": [
+    {
+     "expr": "drop the ball",
+     "ko": "실수하다, 공을 놓치다",
+     "ex": "I dropped the ball on the follow-up email."
+    },
+    {
+     "expr": "📘 단어: sloppy / shortcut",
+     "ko": "엉성한 / 지름길, 편법",
+     "ex": "Sloppy work shows. → Taking a shortcut cost us more time. (cut corners의 짝!)"
+    },
+    {
+     "expr": "touch base",
+     "ko": "간단히 연락하다",
+     "ex": "Let's touch base on Friday."
+    },
+    {
+     "expr": "📘 단어: follow up / reliable",
+     "ko": "후속 조치하다 / 믿을 만한",
+     "ex": "I'll follow up by email. → She's reliable — she always follows up."
+    },
+    {
+     "expr": "a heads-up",
+     "ko": "미리 알려주는 것",
+     "ex": "Thanks for the heads-up!"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "I'm sorry — I ___ on sending the invoice.",
+     "options": [
+      "dropped the ball",
+      "dropped a ball",
+      "fell the ball",
+      "lost the ball"
+     ],
+     "answer": 0,
+     "note": "drop the ball = 맡은 일을 놓치다. 실수 인정할 때 자연스러운 표현!"
+    },
+    {
+     "q": "His report was ___ — full of typos and missing data.",
+     "options": [
+      "sloppiness",
+      "sloppy",
+      "slop",
+      "sloppily"
+     ],
+     "answer": 1,
+     "note": "sloppy(형용사) = 엉성한, 대충한. 일 평가에 쓰는 단어!"
+    },
+    {
+     "q": "Let's ___ next week to see how it's going.",
+     "options": [
+      "touch the base",
+      "touch bases",
+      "touch base",
+      "make base"
+     ],
+     "answer": 2,
+     "note": "touch base = 짧게 상황 공유. 야구에서 온 비즈니스 필수 표현!"
+    },
+    {
+     "q": "I'll ___ with the client tomorrow morning.",
+     "options": [
+      "follow on to",
+      "following up",
+      "follow up",
+      "follow after"
+     ],
+     "answer": 2,
+     "note": "follow up with + 사람 / on + 사안. 명사는 a follow-up!"
+    },
+    {
+     "q": "She's very ___ — she never misses a deadline.",
+     "options": [
+      "rely",
+      "reliable",
+      "reliably",
+      "reliance"
+     ],
+     "answer": 1,
+     "note": "reliable(형용사) = 믿을 만한. 동사 rely on과 세트!"
+    }
+   ]
+  },
+  "challenge": {
+   "cards": [
+    {
+     "expr": "on the back burner",
+     "ko": "뒤로 미뤄둔",
+     "ex": "That project is on the back burner for now."
+    },
+    {
+     "expr": "📘 단어: prioritize / juggle",
+     "ko": "우선순위를 정하다 / 여러 일을 동시에 해내다",
+     "ex": "I prioritize by deadline. → She juggles three projects at once."
+    },
+    {
+     "expr": "play devil's advocate",
+     "ko": "일부러 반대 입장을 취하다",
+     "ex": "Let me play devil's advocate for a second."
+    },
+    {
+     "expr": "📘 단어: assume / clarify",
+     "ko": "가정하다 / 명확히 하다",
+     "ex": "Don't assume — ask. → Let me clarify what I meant."
+    },
+    {
+     "expr": "wrap up",
+     "ko": "마무리하다",
+     "ex": "Let's wrap up the meeting in five minutes."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "The redesign is ___ until the budget clears.",
+     "hint": "뒤쪽 화구 위에 올려둔 (on으로 시작)",
+     "accept": [
+      "on the back burner",
+      "on the back burner."
+     ],
+     "note": "on the back burner = 급하지 않아 뒤로 미뤄둔 상태."
+    },
+    {
+     "q": "I have to ___ my tasks — everything can't be first.",
+     "hint": "우선순위를 정하다 (동사)",
+     "accept": [
+      "prioritize",
+      "prioritize.",
+      "prioritise"
+     ],
+     "note": "prioritize = 우선순위를 매기다. 업무 영어 최빈출 동사!"
+    },
+    {
+     "q": "Let me ___ — what if the client says no?",
+     "hint": "악마의 변호인 역할을 하다 (play로 시작)",
+     "accept": [
+      "play devil's advocate",
+      "play devils advocate",
+      "play the devil's advocate"
+     ],
+     "note": "일부러 반대 의견을 내서 논의를 단단하게 만드는 것."
+    },
+    {
+     "q": "Never ___ that everyone read the email.",
+     "hint": "가정하다, 짐작하다 (동사 한 단어)",
+     "accept": [
+      "assume",
+      "assume."
+     ],
+     "note": "assume = 확인 없이 그럴 거라 여기다. 오해의 출발점!"
+    },
+    {
+     "q": "We're out of time — let's ___ .",
+     "hint": "마무리하다 (wrap으로 시작)",
+     "accept": [
+      "wrap up",
+      "wrap it up",
+      "wrap up.",
+      "let's wrap up"
+     ],
+     "note": "wrap up = 마무리하다. 회의·프로젝트 종료 필수 표현!"
+    }
+   ]
+  }
+ }
+}

@@ -2002,6 +2002,506 @@
    "ans": 0,
    "note": "take a pill = 약을 먹다(eat 아님!). a hard pill to swallow = 받아들이기 힘든 일.",
    "wk": "2026-W37"
+  },
+  {
+   "w": "violation",
+   "ko": "위반",
+   "ex": "That's a safety violation.",
+   "exko": "그건 안전 규정 위반이에요.",
+   "use": [
+    [
+     "He got a parking violation.",
+     "그는 주차 위반 딱지를 받았다."
+    ],
+    [
+     "The report listed several violations.",
+     "보고서에 여러 위반 사항이 적혔다."
+    ]
+   ],
+   "mcq": [
+    "The company faced safety violations.",
+    "The company faced to safety violations.",
+    "The company faced safety violation many.",
+    "Safety violations faced the company to."
+   ],
+   "ans": 0,
+   "note": "violation of + 규칙. 동사 violate의 명사형!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "coalition",
+   "ko": "연합, 연대",
+   "ex": "A coalition of parents pushed for change.",
+   "exko": "학부모 연합이 변화를 추진했어요.",
+   "use": [
+    [
+     "The two parties formed a coalition.",
+     "두 정당이 연합을 구성했다."
+    ],
+    [
+     "A coalition of schools shared resources.",
+     "학교들이 연대해 자원을 공유했다."
+    ]
+   ],
+   "mcq": [
+    "They formed a coalition with local groups.",
+    "They formed a coalition to local groups.",
+    "They formed coalition a local groups with.",
+    "Local groups formed a coalition they with."
+   ],
+   "ans": 0,
+   "note": "form a coalition with = ~와 연대하다. 정치·시민 활동 단어!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "forum",
+   "ko": "포럼, 토론의 장",
+   "ex": "The forum is open to the public.",
+   "exko": "그 포럼은 일반에 공개돼 있어요.",
+   "use": [
+    [
+     "I found the answer on an online forum.",
+     "온라인 게시판에서 답을 찾았다."
+    ],
+    [
+     "The school held a parent forum.",
+     "학교가 학부모 포럼을 열었다."
+    ]
+   ],
+   "mcq": [
+    "The forum provides a space for discussion.",
+    "The forum provides for a space discussion.",
+    "The forum provide a space discussion for.",
+    "A space provides the forum discussion for."
+   ],
+   "ans": 0,
+   "note": "forum = 공개 토론의 장 / 온라인 게시판. 둘 다!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "alliance",
+   "ko": "동맹",
+   "ex": "The two companies formed an alliance.",
+   "exko": "두 회사가 제휴를 맺었어요.",
+   "use": [
+    [
+     "A strategic alliance helps both sides.",
+     "전략적 제휴는 양쪽에 도움이 된다."
+    ],
+    [
+     "The alliance lasted ten years.",
+     "그 동맹은 10년간 지속됐다."
+    ]
+   ],
+   "mcq": [
+    "They formed an alliance with a rival.",
+    "They formed an alliance to a rival.",
+    "They formed alliance an rival with.",
+    "A rival formed an alliance they with."
+   ],
+   "ans": 0,
+   "note": "alliance(동맹·제휴) vs coalition(특정 목적의 연합). 비즈니스는 alliance!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "fiscal",
+   "ko": "재정의, 회계의",
+   "ex": "The fiscal year ends in March.",
+   "exko": "회계연도는 3월에 끝나요.",
+   "use": [
+    [
+     "The city faces fiscal problems.",
+     "시가 재정 문제에 직면해 있다."
+    ],
+    [
+     "Fiscal policy affects everyone.",
+     "재정 정책은 모두에게 영향을 준다."
+    ]
+   ],
+   "mcq": [
+    "Our fiscal year starts in January.",
+    "Our fiscal years start in January it.",
+    "Our fiscal year start in January.",
+    "January starts our fiscal year in."
+   ],
+   "ans": 0,
+   "note": "fiscal year = 회계연도. 예산·재정 얘기의 핵심 형용사!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "taxpayer",
+   "ko": "납세자",
+   "ex": "Taxpayers funded the new library.",
+   "exko": "납세자들이 새 도서관에 돈을 댔어요.",
+   "use": [
+    [
+     "It's taxpayer money — spend it wisely.",
+     "세금이니 현명하게 쓰세요."
+    ],
+    [
+     "Taxpayers deserve transparency.",
+     "납세자는 투명성을 요구할 권리가 있다."
+    ]
+   ],
+   "mcq": [
+    "The project used taxpayer money.",
+    "The project used taxpayers money it.",
+    "The project used money taxpayer of.",
+    "Taxpayer money used the project it."
+   ],
+   "ans": 0,
+   "note": "taxpayer money = 세금. 공공 예산 논의 단어!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "satellite",
+   "ko": "위성",
+   "ex": "The satellite sends weather data.",
+   "exko": "그 위성이 기상 데이터를 보내요.",
+   "use": [
+    [
+     "We use satellite navigation.",
+     "위성 내비게이션을 쓴다."
+    ],
+    [
+     "The company opened a satellite office.",
+     "회사가 분사무소를 열었다."
+    ]
+   ],
+   "mcq": [
+    "The signal comes from a satellite.",
+    "The signal comes of a satellite.",
+    "The signal comes from satellite a.",
+    "A satellite comes the signal from."
+   ],
+   "ans": 0,
+   "note": "satellite office = 분사무소. 본사에서 떨어진 지점!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "spokesman",
+   "ko": "대변인",
+   "ex": "A spokesman confirmed the news.",
+   "exko": "대변인이 그 소식을 확인했어요.",
+   "use": [
+    [
+     "The company spokesman declined to comment.",
+     "회사 대변인은 언급을 거부했다."
+    ],
+    [
+     "She acts as spokesperson for the group.",
+     "그녀는 그 단체 대변인 역할을 한다."
+    ]
+   ],
+   "mcq": [
+    "The spokesman announced the decision.",
+    "The spokesman announced to the decision.",
+    "The spokesman announce the decision it.",
+    "The decision announced the spokesman to."
+   ],
+   "ans": 0,
+   "note": "요즘은 중립적인 spokesperson을 더 많이 써요!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "funeral",
+   "ko": "장례식",
+   "ex": "I attended a funeral yesterday.",
+   "exko": "어제 장례식에 다녀왔어요.",
+   "use": [
+    [
+     "The funeral is on Saturday morning.",
+     "장례식은 토요일 아침이다."
+    ],
+    [
+     "He couldn't make it to the funeral.",
+     "그는 장례식에 못 갔다."
+    ]
+   ],
+   "mcq": [
+    "She went to her uncle's funeral.",
+    "She went to her uncle's funeral ceremony event.",
+    "She went her uncle's funeral to it.",
+    "Her uncle's funeral went she to."
+   ],
+   "ans": 0,
+   "note": "attend/go to a funeral. 조의 표현 I'm sorry for your loss와 세트!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "tragedy",
+   "ko": "비극",
+   "ex": "The accident was a real tragedy.",
+   "exko": "그 사고는 정말 비극이었어요.",
+   "use": [
+    [
+     "They turned tragedy into change.",
+     "그들은 비극을 변화로 바꿨다."
+    ],
+    [
+     "Shakespeare wrote both comedies and tragedies.",
+     "셰익스피어는 희극과 비극을 모두 썼다."
+    ]
+   ],
+   "mcq": [
+    "The community came together after the tragedy.",
+    "The community came together after tragedy the it.",
+    "The tragedy came together the community after.",
+    "After came the community tragedy the."
+   ],
+   "ans": 0,
+   "note": "tragedy(명사) vs tragic(형용사). 문학 장르로도!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "horror",
+   "ko": "공포, 참상",
+   "ex": "I don't watch horror movies.",
+   "exko": "공포 영화는 안 봐요.",
+   "use": [
+    [
+     "To my horror, I'd sent it to the wrong person.",
+     "소름 끼치게도 엉뚱한 사람에게 보냈다."
+    ],
+    [
+     "The photos showed the horror of war.",
+     "사진들은 전쟁의 참상을 보여줬다."
+    ]
+   ],
+   "mcq": [
+    "To my horror, the file was deleted.",
+    "To my horrors, the file was deleted.",
+    "To horror my, the file was deleted.",
+    "The file was deleted to horror my."
+   ],
+   "ans": 0,
+   "note": "to my horror = 소름 끼치게도. 이야기할 때 극적인 연결어!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "bench",
+   "ko": "벤치, 후보석",
+   "ex": "Let's sit on that bench.",
+   "exko": "저 벤치에 앉아요.",
+   "use": [
+    [
+     "He spent the game on the bench.",
+     "그는 경기 내내 벤치에 있었다."
+    ],
+    [
+     "The judge left the bench last year.",
+     "그 판사는 작년에 법복을 벗었다."
+    ]
+   ],
+   "mcq": [
+    "He was benched for the final game.",
+    "He was bench for the final game.",
+    "He benched was the final game for.",
+    "The final game benched he was for."
+   ],
+   "ans": 0,
+   "note": "be benched = 출전 제외되다. 동사 용법이 고급 포인트!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "drawing",
+   "ko": "그림, 도면, 추첨",
+   "ex": "My daughter's drawing is on the fridge.",
+   "exko": "딸 그림이 냉장고에 붙어 있어요.",
+   "use": [
+    [
+     "The architect showed us the drawings.",
+     "건축가가 도면을 보여줬다."
+    ],
+    [
+     "The prize drawing is at 5 p.m.",
+     "경품 추첨은 오후 5시다."
+    ]
+   ],
+   "mcq": [
+    "She hung her drawing on the wall.",
+    "She hung her drawings on the wall it.",
+    "She hung on her drawing the wall.",
+    "The wall hung her drawing on."
+   ],
+   "ans": 0,
+   "note": "drawing = 그림·도면·추첨. 맥락으로 뜻이 갈려요!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "pet",
+   "ko": "반려동물, 쓰다듬다",
+   "ex": "Do you have any pets?",
+   "exko": "반려동물 키우세요?",
+   "use": [
+    [
+     "Can I pet your dog?",
+     "강아지 쓰다듬어도 될까요?"
+    ],
+    [
+     "That's my pet peeve.",
+     "그게 제가 제일 싫어하는 거예요."
+    ]
+   ],
+   "mcq": [
+    "Can I pet your dog?",
+    "Can I pet to your dog?",
+    "Can I pet with your dog?",
+    "Your dog can I pet to?"
+   ],
+   "ans": 0,
+   "note": "pet을 동사로 = 쓰다듬다. pet peeve = 유독 거슬리는 것!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "nut",
+   "ko": "견과, 너트",
+   "ex": "I'm allergic to nuts.",
+   "exko": "견과류 알레르기가 있어요.",
+   "use": [
+    [
+     "He's a health nut.",
+     "그는 건강에 푹 빠진 사람이다."
+    ],
+    [
+     "Tighten the nut with a wrench.",
+     "렌치로 너트를 조이세요."
+    ]
+   ],
+   "mcq": [
+    "She's a fitness nut.",
+    "She's a fitness nuts.",
+    "She's fitness a nut of.",
+    "A fitness nut she's of it."
+   ],
+   "ans": 0,
+   "note": "a ~ nut = ~광, 열성팬. 견과 말고 이 용법이 재밌어요!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "chef",
+   "ko": "요리사",
+   "ex": "The chef recommends the salmon.",
+   "exko": "셰프 추천은 연어예요.",
+   "use": [
+    [
+     "She trained as a chef in Paris.",
+     "그녀는 파리에서 요리사 수련을 했다."
+    ],
+    [
+     "Too many chefs spoil the broth.",
+     "사공이 많으면 배가 산으로 간다."
+    ]
+   ],
+   "mcq": [
+    "He works as a chef downtown.",
+    "He works as a chef cook downtown.",
+    "He works a chef as downtown it.",
+    "Downtown works he a chef as."
+   ],
+   "ans": 0,
+   "note": "chef = 전문 요리사(주방장). cook은 일반적으로 요리하는 사람!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "deck",
+   "ko": "데크, 갑판, 카드 한 벌",
+   "ex": "We had dinner on the deck.",
+   "exko": "데크에서 저녁을 먹었어요.",
+   "use": [
+    [
+     "Shuffle the deck and deal.",
+     "카드를 섞어서 나눠 주세요."
+    ],
+    [
+     "Let me send you the deck.",
+     "(발표) 자료 보내드릴게요."
+    ]
+   ],
+   "mcq": [
+    "I'll share the deck after the meeting.",
+    "I'll share the deck at after the meeting.",
+    "I'll share after the deck meeting the.",
+    "The meeting shares the deck I after."
+   ],
+   "ans": 0,
+   "note": "deck = 데크·갑판·카드 한 벌 / 요즘 비즈니스에선 '슬라이드 자료'!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "screw",
+   "ko": "나사, 망치다",
+   "ex": "The screw came loose.",
+   "exko": "나사가 헐거워졌어요.",
+   "use": [
+    [
+     "I screwed up the presentation.",
+     "발표를 망쳤어요."
+    ],
+    [
+     "Tighten the screws before you sit on it.",
+     "앉기 전에 나사를 조이세요."
+    ]
+   ],
+   "mcq": [
+    "I screwed up the schedule.",
+    "I screwed the schedule up it wrong.",
+    "I screw up the schedule yesterday.",
+    "The schedule screwed up me."
+   ],
+   "ans": 0,
+   "note": "screw up = 망치다(캐주얼). 사과할 때 I screwed up이 솔직한 표현!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "shopping",
+   "ko": "쇼핑, 장보기",
+   "ex": "I'm going shopping this afternoon.",
+   "exko": "오후에 쇼핑 가요.",
+   "use": [
+    [
+     "I do the grocery shopping on Sundays.",
+     "일요일에 장을 봐요."
+    ],
+    [
+     "Window shopping is free fun.",
+     "아이쇼핑은 공짜 즐거움이다."
+    ]
+   ],
+   "mcq": [
+    "I went shopping with my sister.",
+    "I went to shopping with my sister.",
+    "I went shopping to my sister with.",
+    "My sister went shopping I with to."
+   ],
+   "ans": 0,
+   "note": "go shopping — to 없이! go swimming, go hiking과 같은 패턴.",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "stadium",
+   "ko": "경기장",
+   "ex": "The stadium was packed.",
+   "exko": "경기장이 꽉 찼어요.",
+   "use": [
+    [
+     "We met outside the stadium.",
+     "경기장 밖에서 만났다."
+    ],
+    [
+     "The new stadium holds 40,000.",
+     "새 경기장은 4만 명을 수용한다."
+    ]
+   ],
+   "mcq": [
+    "The concert was held at the stadium.",
+    "The concert was held in stadium the at.",
+    "The concert held was the stadium on.",
+    "At the stadium held the concert was it."
+   ],
+   "ans": 0,
+   "note": "at the stadium = 경기장에서. arena·field와 함께!",
+   "wk": "2026-W38"
   }
  ]
 }

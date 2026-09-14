@@ -2002,6 +2002,506 @@
    "ans": 0,
    "note": "otherwise = 안 그러면. 조건을 뒤집는 접속 부사!",
    "wk": "2026-W37"
+  },
+  {
+   "w": "unless",
+   "ko": "~하지 않는 한",
+   "ex": "We'll go unless it rains.",
+   "exko": "비가 오지 않는 한 갈 거예요.",
+   "use": [
+    [
+     "Don't call unless it's urgent.",
+     "급한 일 아니면 전화하지 마세요."
+    ],
+    [
+     "Unless you ask, nothing changes.",
+     "묻지 않으면 아무것도 바뀌지 않아요."
+    ]
+   ],
+   "mcq": [
+    "Unless you leave now, you'll be late.",
+    "Unless you don't leave now, you'll be late.",
+    "Unless leaving now, you'll be late.",
+    "You'll be late unless not leave now."
+   ],
+   "ans": 0,
+   "note": "unless = if not. 이미 부정이라 뒤에 don't 붙이면 이중 부정!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "survey",
+   "ko": "설문조사",
+   "ex": "Please fill out this short survey.",
+   "exko": "짧은 설문 좀 작성해 주세요.",
+   "use": [
+    [
+     "The survey shows 70% are satisfied.",
+     "설문에 따르면 70%가 만족한다."
+    ],
+    [
+     "We conducted a customer survey.",
+     "고객 설문을 실시했다."
+    ]
+   ],
+   "mcq": [
+    "We conducted a survey last month.",
+    "We conducted a survey research last month.",
+    "We made a survey conduct last month.",
+    "A survey conducted we last month."
+   ],
+   "ans": 0,
+   "note": "conduct a survey = 설문을 실시하다. do보다 격식!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "majority",
+   "ko": "대다수",
+   "ex": "The majority agreed with the plan.",
+   "exko": "대다수가 그 계획에 동의했어요.",
+   "use": [
+    [
+     "A majority of staff prefer remote work.",
+     "직원 대다수가 재택을 선호한다."
+    ],
+    [
+     "We won by a small majority.",
+     "근소한 차이로 이겼다."
+    ]
+   ],
+   "mcq": [
+    "The majority of people agree.",
+    "The majority of people agrees much.",
+    "Majority of the people agree it.",
+    "Of the people majority agree."
+   ],
+   "ans": 0,
+   "note": "the majority of + 복수명사. 반대말 minority!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "content",
+   "ko": "내용, 만족한",
+   "ex": "The content of the email was unclear.",
+   "exko": "이메일 내용이 불분명했어요.",
+   "use": [
+    [
+     "We create content for social media.",
+     "SNS용 콘텐츠를 만든다."
+    ],
+    [
+     "She's content with her job.",
+     "그녀는 지금 일에 만족한다."
+    ]
+   ],
+   "mcq": [
+    "She's content with her current role.",
+    "She's content of her current role.",
+    "She's content at her current role.",
+    "Her current role is content with her."
+   ],
+   "ans": 0,
+   "note": "content with = ~에 만족한(형용사). 강세가 뒤에 와요(con-TENT)!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "element",
+   "ko": "요소",
+   "ex": "Trust is a key element of teamwork.",
+   "exko": "신뢰는 팀워크의 핵심 요소예요.",
+   "use": [
+    [
+     "The design has playful elements.",
+     "그 디자인엔 장난스러운 요소가 있다."
+    ],
+    [
+     "There's an element of risk.",
+     "위험 요소가 있어요."
+    ]
+   ],
+   "mcq": [
+    "Timing is a key element of success.",
+    "Timing is a key element for success of.",
+    "Timing elements a key success of.",
+    "A key element timing is success."
+   ],
+   "ans": 0,
+   "note": "a key element of = ~의 핵심 요소. 분석·발표 필수!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "medical",
+   "ko": "의료의",
+   "ex": "Do you have medical insurance?",
+   "exko": "의료보험 있으세요?",
+   "use": [
+    [
+     "She needs medical attention.",
+     "그녀는 치료가 필요하다."
+    ],
+    [
+     "I took medical leave last month.",
+     "지난달에 병가를 냈어요."
+    ]
+   ],
+   "mcq": [
+    "He needs medical attention now.",
+    "He needs medicine attention now.",
+    "He needs medically attention now.",
+    "Medical attention needs he now."
+   ],
+   "ans": 0,
+   "note": "medical attention = 의료 처치. medical leave = 병가!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "copy",
+   "ko": "복사(하다), 부",
+   "ex": "Can you send me a copy?",
+   "exko": "사본 좀 보내주실래요?",
+   "use": [
+    [
+     "I made three copies of the form.",
+     "양식을 세 부 복사했다."
+    ],
+    [
+     "Please copy me on that email.",
+     "그 메일에 저도 참조로 넣어 주세요."
+    ]
+   ],
+   "mcq": [
+    "Please copy me on the email.",
+    "Please copy me at the email.",
+    "Please copy to me the email in.",
+    "The email copies me on please."
+   ],
+   "ans": 0,
+   "note": "copy someone on = 참조(CC)로 넣다. 이메일 실무 표현!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "complex",
+   "ko": "복잡한, 단지",
+   "ex": "The problem is more complex than it looks.",
+   "exko": "문제가 보기보다 복잡해요.",
+   "use": [
+    [
+     "She lives in a big apartment complex.",
+     "그녀는 큰 아파트 단지에 산다."
+    ],
+    [
+     "Let's not make it too complex.",
+     "너무 복잡하게 만들지 맙시다."
+    ]
+   ],
+   "mcq": [
+    "The system is too complex for beginners.",
+    "The system is too complexity for beginners.",
+    "The system too complex is beginners for.",
+    "For beginners the system complex too is."
+   ],
+   "ans": 0,
+   "note": "complex(복잡한·형용사) vs complexity(복잡성·명사). 아파트 단지도 complex!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "context",
+   "ko": "맥락, 상황",
+   "ex": "It depends on the context.",
+   "exko": "맥락에 따라 달라요.",
+   "use": [
+    [
+     "That quote was taken out of context.",
+     "그 인용은 맥락에서 벗어나 쓰였다."
+    ],
+    [
+     "Give me some context first.",
+     "먼저 배경 설명 좀 해주세요."
+    ]
+   ],
+   "mcq": [
+    "Out of context, it sounds rude.",
+    "Out from context, it sounds rude.",
+    "Of out context, it sounds rude.",
+    "It sounds rude out of the contexts."
+   ],
+   "ans": 0,
+   "note": "out of context = 맥락을 무시하고. 오해 설명할 때 필수!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "primary",
+   "ko": "주요한, 1차의",
+   "ex": "My primary concern is safety.",
+   "exko": "제 주된 관심사는 안전이에요.",
+   "use": [
+    [
+     "Who's your primary contact there?",
+     "그쪽 주 담당자가 누구예요?"
+    ],
+    [
+     "The primary goal is customer trust.",
+     "1차 목표는 고객 신뢰다."
+    ]
+   ],
+   "mcq": [
+    "Safety is our primary concern.",
+    "Safety is our primarily concern.",
+    "Safety is primary our concern it.",
+    "Our concern primary is safety of."
+   ],
+   "ans": 0,
+   "note": "primary = 가장 중요한·첫 번째의. main의 격식 버전!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "additional",
+   "ko": "추가의",
+   "ex": "Is there an additional charge?",
+   "exko": "추가 요금이 있나요?",
+   "use": [
+    [
+     "We hired additional staff for the season.",
+     "성수기용으로 직원을 추가 고용했다."
+    ],
+    [
+     "No additional information was given.",
+     "추가 정보는 주어지지 않았다."
+    ]
+   ],
+   "mcq": [
+    "There's no additional cost.",
+    "There's no additionally cost.",
+    "There's no addition cost extra.",
+    "No cost additional there's it."
+   ],
+   "ans": 0,
+   "note": "additional(형용사) + 명사. extra의 격식 버전!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "alternative",
+   "ko": "대안(의)",
+   "ex": "Do we have an alternative?",
+   "exko": "다른 방법이 있나요?",
+   "use": [
+    [
+     "Let's look for an alternative solution.",
+     "대안을 찾아봅시다."
+    ],
+    [
+     "Is there an alternative to this plan?",
+     "이 계획의 대안이 있나요?"
+    ]
+   ],
+   "mcq": [
+    "We need an alternative to this approach.",
+    "We need an alternative for this approach of.",
+    "We need alternative an this approach to.",
+    "This approach needs an alternative to we."
+   ],
+   "ans": 0,
+   "note": "an alternative to + 기존 방안. 명사·형용사 둘 다!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "relative",
+   "ko": "상대적인, 친척",
+   "ex": "It's all relative.",
+   "exko": "다 상대적인 거죠.",
+   "use": [
+    [
+     "We have relatives in Canada.",
+     "캐나다에 친척이 있어요."
+    ],
+    [
+     "The relative cost is low.",
+     "상대적인 비용은 낮다."
+    ]
+   ],
+   "mcq": [
+    "Success is relative to your goals.",
+    "Success is relative for your goals.",
+    "Success relatives to your goals.",
+    "Your goals are relative success to."
+   ],
+   "ans": 0,
+   "note": "relative to = ~에 비해. 명사로는 '친척'!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "straight",
+   "ko": "곧장, 똑바른",
+   "ex": "Go straight and turn left.",
+   "exko": "직진하다가 왼쪽으로 도세요.",
+   "use": [
+    [
+     "Let's get straight to the point.",
+     "바로 본론으로 갑시다."
+    ],
+    [
+     "I worked eight hours straight.",
+     "여덟 시간 내리 일했다."
+    ]
+   ],
+   "mcq": [
+    "Let's get straight to the point.",
+    "Let's get straightly to the point.",
+    "Let's get to straight the point.",
+    "The point let's get straight at."
+   ],
+   "ans": 0,
+   "note": "get straight to the point = 본론으로 직행. 회의 시작 표현!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "absolutely",
+   "ko": "전적으로, 물론이죠",
+   "ex": "Absolutely! I'd love to.",
+   "exko": "물론이죠! 정말 하고 싶어요.",
+   "use": [
+    [
+     "You're absolutely right.",
+     "전적으로 맞는 말이에요."
+    ],
+    [
+     "I absolutely agree with that.",
+     "완전히 동의합니다."
+    ]
+   ],
+   "mcq": [
+    "That's absolutely correct.",
+    "That's absolute correct.",
+    "That's correct absolutely it is.",
+    "Absolutely that's correct is."
+   ],
+   "ans": 0,
+   "note": "Absolutely! 한마디로 강한 동의. very보다 강력!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "highly",
+   "ko": "매우, 높이",
+   "ex": "She's highly recommended.",
+   "exko": "그분은 평이 아주 좋아요.",
+   "use": [
+    [
+     "It's highly unlikely.",
+     "가능성이 매우 낮아요."
+    ],
+    [
+     "He's a highly skilled engineer.",
+     "그는 고도로 숙련된 엔지니어다."
+    ]
+   ],
+   "mcq": [
+    "It's highly likely to rain.",
+    "It's high likely to rain.",
+    "It's highly like to rain.",
+    "Highly it's likely rain to."
+   ],
+   "ans": 0,
+   "note": "highly + 형용사(격식). high는 물리적 높이!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "connection",
+   "ko": "연결, 인맥",
+   "ex": "The internet connection is bad.",
+   "exko": "인터넷 연결이 안 좋아요.",
+   "use": [
+    [
+     "Is there a connection between the two?",
+     "둘 사이에 연관이 있나요?"
+    ],
+    [
+     "She has good connections in the industry.",
+     "그녀는 업계에 인맥이 좋다."
+    ]
+   ],
+   "mcq": [
+    "There's a connection between stress and sleep.",
+    "There's a connection of stress and sleep between.",
+    "There's connection a between stress sleep.",
+    "Between stress and sleep a connection there's it."
+   ],
+   "ans": 0,
+   "note": "a connection between A and B. '인맥'이라는 뜻도 실용적!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "flow",
+   "ko": "흐름, 흐르다",
+   "ex": "I like the flow of this song.",
+   "exko": "이 노래 흐름이 좋아요.",
+   "use": [
+    [
+     "Cash flow is tight this month.",
+     "이번 달 현금 흐름이 빠듯하다."
+    ],
+    [
+     "Let the conversation flow naturally.",
+     "대화가 자연스럽게 흘러가게 두세요."
+    ]
+   ],
+   "mcq": [
+    "The traffic flow improved a lot.",
+    "The traffic flows improved a lot much.",
+    "The flow traffic improved a lot.",
+    "A lot improved the traffic flow it."
+   ],
+   "ans": 0,
+   "note": "traffic/cash flow처럼 짝이 많은 단어. 동사로도!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "wonderful",
+   "ko": "아주 좋은",
+   "ex": "That's wonderful news!",
+   "exko": "정말 좋은 소식이네요!",
+   "use": [
+    [
+     "We had a wonderful time.",
+     "정말 즐거운 시간이었어요."
+    ],
+    [
+     "She's a wonderful teacher.",
+     "그녀는 훌륭한 선생님이에요."
+    ]
+   ],
+   "mcq": [
+    "We had a wonderful experience.",
+    "We had a wonderfully experience.",
+    "We had wonderful an experience it.",
+    "A wonderful experience had we it."
+   ],
+   "ans": 0,
+   "note": "wonderful = 아주 좋은. good보다 따뜻한 칭찬!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "pair",
+   "ko": "한 쌍, 짝짓다",
+   "ex": "I bought a new pair of shoes.",
+   "exko": "신발 한 켤레 샀어요.",
+   "use": [
+    [
+     "Work in pairs for this activity.",
+     "이 활동은 둘씩 짝지어 하세요."
+    ],
+    [
+     "This wine pairs well with cheese.",
+     "이 와인은 치즈와 잘 어울려요."
+    ]
+   ],
+   "mcq": [
+    "I need a pair of scissors.",
+    "I need a pair scissors of.",
+    "I need pair of a scissors.",
+    "A scissors pair of I need it."
+   ],
+   "ans": 0,
+   "note": "a pair of + 짝 이룬 물건(신발·가위·바지). pair with = 어울리다!",
+   "wk": "2026-W38"
   }
  ]
 }

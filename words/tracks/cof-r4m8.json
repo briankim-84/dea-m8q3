@@ -502,6 +502,506 @@
    "ans": 0,
    "note": "flexible about = ~에 대해 유연한. '아무 때나 괜찮아요'를 세련되게!",
    "wk": "2026-W37"
+  },
+  {
+   "w": "undertake",
+   "ko": "착수하다, 맡다",
+   "ex": "We undertook a major renovation.",
+   "exko": "대대적인 리모델링에 착수했어요.",
+   "use": [
+    [
+     "She undertook the project alone.",
+     "그녀는 그 프로젝트를 혼자 맡았다."
+    ],
+    [
+     "The team undertook a full review.",
+     "팀이 전면 검토에 착수했다."
+    ]
+   ],
+   "mcq": [
+    "They undertook a study last year.",
+    "They undertook to a study last year.",
+    "They undertook for a study last year.",
+    "A study undertook them last year."
+   ],
+   "ans": 0,
+   "note": "undertake + 일/연구. undertake-undertook-undertaken!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "emphasis",
+   "ko": "강조, 중점",
+   "ex": "The emphasis is on quality, not speed.",
+   "exko": "중점은 속도가 아니라 품질이에요.",
+   "use": [
+    [
+     "She put emphasis on teamwork.",
+     "그녀는 팀워크를 강조했다."
+    ],
+    [
+     "The course places emphasis on speaking.",
+     "그 과정은 말하기에 중점을 둔다."
+    ]
+   ],
+   "mcq": [
+    "We place emphasis on customer care.",
+    "We place emphasis to customer care.",
+    "We place emphasis at customer care.",
+    "Customer care places emphasis we on."
+   ],
+   "ans": 0,
+   "note": "place/put emphasis on = ~을 강조하다. 동사는 emphasize!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "agenda",
+   "ko": "안건, 의제",
+   "ex": "What's on the agenda today?",
+   "exko": "오늘 안건이 뭐예요?",
+   "use": [
+    [
+     "Let's stick to the agenda.",
+     "안건대로 진행합시다."
+    ],
+    [
+     "He has his own agenda.",
+     "그는 다른 속셈이 있다."
+    ]
+   ],
+   "mcq": [
+    "The first item on the agenda is budget.",
+    "The first item in the agenda is budget.",
+    "The first agenda item on is budget of.",
+    "Budget is the first agenda item in."
+   ],
+   "ans": 0,
+   "note": "on the agenda = 안건에 올라 있는. 회의 필수!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "framework",
+   "ko": "틀, 체계",
+   "ex": "We need a clear framework for decisions.",
+   "exko": "결정을 위한 명확한 틀이 필요해요.",
+   "use": [
+    [
+     "The legal framework is complicated.",
+     "법적 체계가 복잡하다."
+    ],
+    [
+     "This framework helps organize ideas.",
+     "이 틀이 아이디어 정리를 돕는다."
+    ]
+   ],
+   "mcq": [
+    "We built a framework for the analysis.",
+    "We built a framework to the analysis.",
+    "We built framework a the analysis for.",
+    "The analysis built a framework we for."
+   ],
+   "ans": 0,
+   "note": "a framework for + 목적. 전략·분석 문서 단골!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "equivalent",
+   "ko": "동등한, 상응하는",
+   "ex": "That's equivalent to two days' work.",
+   "exko": "그건 이틀 일한 것과 맞먹어요.",
+   "use": [
+    [
+     "Is there an equivalent word in Korean?",
+     "한국어에 대응하는 단어가 있나요?"
+    ],
+    [
+     "A degree equivalent to a master's.",
+     "석사에 상응하는 학위."
+    ]
+   ],
+   "mcq": [
+    "This is equivalent to 10 dollars.",
+    "This is equivalent of 10 dollars.",
+    "This is equivalent with 10 dollars.",
+    "10 dollars is equivalent this to."
+   ],
+   "ans": 0,
+   "note": "equivalent to — to 필수! same as의 격식 버전.",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "virtually",
+   "ko": "사실상, 거의",
+   "ex": "The work is virtually finished.",
+   "exko": "작업은 사실상 끝났어요.",
+   "use": [
+    [
+     "It's virtually impossible to book now.",
+     "지금 예약하는 건 거의 불가능하다."
+    ],
+    [
+     "We meet virtually every Monday.",
+     "매주 월요일 화상으로 만나요."
+    ]
+   ],
+   "mcq": [
+    "The plan is virtually complete.",
+    "The plan is virtual complete.",
+    "The plan virtually is complete it.",
+    "Virtually the plan complete is."
+   ],
+   "ans": 0,
+   "note": "virtually = 거의·사실상 / 온라인으로. 두 뜻 다 자주 써요!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "numerous",
+   "ko": "수많은",
+   "ex": "We received numerous complaints.",
+   "exko": "수많은 불만이 접수됐어요.",
+   "use": [
+    [
+     "There are numerous ways to do this.",
+     "이걸 하는 방법은 여러 가지다."
+    ],
+    [
+     "She's won numerous awards.",
+     "그녀는 수많은 상을 받았다."
+    ]
+   ],
+   "mcq": [
+    "Numerous studies support this idea.",
+    "Numerous study supports this idea.",
+    "Numerous of studies support this.",
+    "This idea numerous studies support it."
+   ],
+   "ans": 0,
+   "note": "numerous + 복수명사. many의 격식 버전 — 보고서에 딱!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "symptom",
+   "ko": "증상",
+   "ex": "What are the symptoms?",
+   "exko": "증상이 어떻게 되나요?",
+   "use": [
+    [
+     "Fatigue is a common symptom.",
+     "피로는 흔한 증상이다."
+    ],
+    [
+     "Low sales are a symptom of a bigger problem.",
+     "매출 부진은 더 큰 문제의 징후다."
+    ]
+   ],
+   "mcq": [
+    "He showed symptoms of a cold.",
+    "He showed symptom of a cold.",
+    "He showed symptoms for a cold.",
+    "A cold showed symptoms him of."
+   ],
+   "ans": 0,
+   "note": "symptoms of + 질환. 비유로 '문제의 징후'로도!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "specialist",
+   "ko": "전문가",
+   "ex": "You should see a specialist.",
+   "exko": "전문의를 만나보셔야 해요.",
+   "use": [
+    [
+     "She's a specialist in data security.",
+     "그녀는 데이터 보안 전문가다."
+    ],
+    [
+     "We hired a marketing specialist.",
+     "마케팅 전문가를 채용했다."
+    ]
+   ],
+   "mcq": [
+    "He's a specialist in sports medicine.",
+    "He's a specialist of sports medicine.",
+    "He's a specialist for sports medicine.",
+    "Sports medicine is a specialist he in."
+   ],
+   "ans": 0,
+   "note": "a specialist in + 분야. 병원에선 '전문의'!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "retail",
+   "ko": "소매(의)",
+   "ex": "She works in retail.",
+   "exko": "그녀는 소매업에서 일해요.",
+   "use": [
+    [
+     "The retail price is 50,000 won.",
+     "소매가는 5만 원이다."
+    ],
+    [
+     "Online retail keeps growing.",
+     "온라인 소매업이 계속 성장한다."
+    ]
+   ],
+   "mcq": [
+    "The retail price includes tax.",
+    "The retail prices includes tax.",
+    "The retail price include tax it.",
+    "Tax includes the retail price in."
+   ],
+   "ans": 0,
+   "note": "retail(소매) ↔ wholesale(도매). retail price = 소비자가!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "profile",
+   "ko": "프로필, 개요",
+   "ex": "Update your profile photo.",
+   "exko": "프로필 사진을 업데이트하세요.",
+   "use": [
+    [
+     "She keeps a low profile.",
+     "그녀는 눈에 띄지 않게 지낸다."
+    ],
+    [
+     "The customer profile has changed.",
+     "고객 프로필(특성)이 바뀌었다."
+    ]
+   ],
+   "mcq": [
+    "He keeps a low profile at work.",
+    "He keeps a low profiles at work.",
+    "He keeps low a profile work at.",
+    "A low profile keeps he work at."
+   ],
+   "ans": 0,
+   "note": "keep a low profile = 나서지 않다. high-profile = 세간의 주목을 받는!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "mood",
+   "ko": "기분, 분위기",
+   "ex": "I'm not in the mood today.",
+   "exko": "오늘은 그럴 기분이 아니에요.",
+   "use": [
+    [
+     "The music set the mood.",
+     "음악이 분위기를 만들었다."
+    ],
+    [
+     "He's in a good mood this morning.",
+     "그는 오늘 아침 기분이 좋다."
+    ]
+   ],
+   "mcq": [
+    "I'm not in the mood for a movie.",
+    "I'm not in the mood of a movie.",
+    "I'm not in mood the for a movie.",
+    "A movie isn't in the mood me for."
+   ],
+   "ans": 0,
+   "note": "in the mood for + 명사 = ~하고 싶은 기분. 회화 최다 활용!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "episode",
+   "ko": "에피소드, (한 차례의) 사건",
+   "ex": "I watched three episodes last night.",
+   "exko": "어젯밤에 세 편 봤어요.",
+   "use": [
+    [
+     "It was an embarrassing episode.",
+     "창피한 사건이었다."
+    ],
+    [
+     "The new episode drops Friday.",
+     "새 화가 금요일에 공개된다."
+    ]
+   ],
+   "mcq": [
+    "The final episode airs next week.",
+    "The final episodes airs next week.",
+    "The final episode air next week it.",
+    "Next week airs the final episode in."
+   ],
+   "ans": 0,
+   "note": "episode = 드라마 한 편 / 한 차례의 일. 요즘 대화 필수!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "era",
+   "ko": "시대",
+   "ex": "We're in a new era of AI.",
+   "exko": "우리는 AI의 새 시대에 있어요.",
+   "use": [
+    [
+     "The end of an era.",
+     "한 시대의 끝."
+    ],
+    [
+     "That style was popular in the 90s era.",
+     "그 스타일은 90년대에 유행했다."
+    ]
+   ],
+   "mcq": [
+    "This marks the start of a new era.",
+    "This marks the start of a new eras.",
+    "This marks a new era start of the.",
+    "A new era marks this start the of."
+   ],
+   "ans": 0,
+   "note": "a new era = 새 시대. the end of an era(한 시대의 끝)도!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "recognition",
+   "ko": "인정, 인식",
+   "ex": "She deserves recognition for her work.",
+   "exko": "그녀는 일에 대한 인정을 받을 만해요.",
+   "use": [
+    [
+     "The app uses voice recognition.",
+     "그 앱은 음성 인식을 쓴다."
+    ],
+    [
+     "He got recognition from the industry.",
+     "그는 업계에서 인정받았다."
+    ]
+   ],
+   "mcq": [
+    "She received recognition for her research.",
+    "She received recognition of her research for.",
+    "She received a recognition for research.",
+    "Her research received recognition she for."
+   ],
+   "ans": 0,
+   "note": "recognition for + 업적. 동사는 recognize!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "assistance",
+   "ko": "도움, 지원",
+   "ex": "Thank you for your assistance.",
+   "exko": "도와주셔서 감사합니다.",
+   "use": [
+    [
+     "Do you need any assistance?",
+     "도움이 필요하세요?"
+    ],
+    [
+     "The program offers financial assistance.",
+     "그 프로그램은 재정 지원을 제공한다."
+    ]
+   ],
+   "mcq": [
+    "I need assistance with this form.",
+    "I need an assistance with this form.",
+    "I need assistance of this form.",
+    "This form needs assistance I with."
+   ],
+   "ans": 0,
+   "note": "assistance는 셀 수 없어요! help의 격식 버전.",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "preparation",
+   "ko": "준비",
+   "ex": "Preparation is everything.",
+   "exko": "준비가 전부예요.",
+   "use": [
+    [
+     "In preparation for the trip, I studied Spanish.",
+     "여행 준비로 스페인어를 공부했다."
+    ],
+    [
+     "The preparations took two weeks.",
+     "준비 작업에 2주가 걸렸다."
+    ]
+   ],
+   "mcq": [
+    "In preparation for the exam, she studied daily.",
+    "In preparation of the exam, she studied.",
+    "In preparation to the exam she studied.",
+    "The exam in preparation she studied for."
+   ],
+   "ans": 0,
+   "note": "in preparation for = ~에 대비해. 동사는 prepare!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "arrival",
+   "ko": "도착",
+   "ex": "What's your arrival time?",
+   "exko": "도착 시간이 몇 시예요?",
+   "use": [
+    [
+     "On arrival, please check in.",
+     "도착하시면 체크인해 주세요."
+    ],
+    [
+     "The arrival of the new manager changed things.",
+     "새 매니저의 부임이 상황을 바꿨다."
+    ]
+   ],
+   "mcq": [
+    "On arrival, show your passport.",
+    "On arriving, show your passport at.",
+    "At arrival show your passport on.",
+    "Your passport shows on arrival it."
+   ],
+   "ans": 0,
+   "note": "on arrival = 도착하는 즉시. 공항·호텔 안내 표준!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "proof",
+   "ko": "증거",
+   "ex": "Do you have proof of purchase?",
+   "exko": "구매 증빙이 있으세요?",
+   "use": [
+    [
+     "There's no proof that it works.",
+     "효과가 있다는 증거가 없다."
+    ],
+    [
+     "Bring proof of address.",
+     "주소 증빙을 가져오세요."
+    ]
+   ],
+   "mcq": [
+    "We need proof of payment.",
+    "We need a proof of payment.",
+    "We need proof for payment of.",
+    "Payment needs proof we of."
+   ],
+   "ans": 0,
+   "note": "proof of + 대상(셀 수 없음). evidence와 함께 쓰는 실무 단어!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "smart",
+   "ko": "똑똑한, 단정한",
+   "ex": "That's a smart decision.",
+   "exko": "현명한 결정이네요.",
+   "use": [
+    [
+     "Dress smart for the interview.",
+     "면접엔 단정하게 입으세요."
+    ],
+    [
+     "Working smart beats working long.",
+     "오래 일하는 것보다 똑똑하게 일하는 게 낫다."
+    ]
+   ],
+   "mcq": [
+    "That was a smart move.",
+    "That was a smartly move.",
+    "That was smart a move it.",
+    "A smart move that was it."
+   ],
+   "ans": 0,
+   "note": "a smart move = 현명한 조치. '단정한 옷차림'이란 뜻도!",
+   "wk": "2026-W38"
   }
  ]
 }

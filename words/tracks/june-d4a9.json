@@ -2002,6 +2002,506 @@
    "ans": 0,
    "note": "backup plan = 예비 계획, backup(후보 선수). back up(동사)은 두 단어!",
    "wk": "2026-W37"
+  },
+  {
+   "w": "tumor",
+   "ko": "종양",
+   "ex": "The scan showed a small tumor.",
+   "exko": "검사에서 작은 종양이 보였어요.",
+   "use": [
+    [
+     "The tumor turned out to be benign.",
+     "종양은 양성으로 판명됐다."
+    ],
+    [
+     "Early detection of tumors saves lives.",
+     "종양의 조기 발견이 생명을 구한다."
+    ]
+   ],
+   "mcq": [
+    "The doctor removed the tumor.",
+    "The doctor removed the tumor out away.",
+    "The doctor removed to the tumor.",
+    "The tumor removed the doctor it."
+   ],
+   "ans": 0,
+   "note": "tumor(미국) / tumour(영국). benign(양성) ↔ malignant(악성)와 세트!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "insect",
+   "ko": "곤충",
+   "ex": "Bring insect repellent for the hike.",
+   "exko": "등산 갈 때 벌레 기피제 챙기세요.",
+   "use": [
+    [
+     "An insect bite can swell up fast.",
+     "벌레 물린 데가 빨리 부을 수 있다."
+    ],
+    [
+     "Insects are important for the ecosystem.",
+     "곤충은 생태계에 중요하다."
+    ]
+   ],
+   "mcq": [
+    "She got an insect bite on her ankle.",
+    "She got an insect bites on her ankle.",
+    "She got insect an bite her ankle on.",
+    "Her ankle got an insect bite on it."
+   ],
+   "ans": 0,
+   "note": "insect bite = 벌레 물린 상처. 야외 활동 필수!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "suite",
+   "ko": "스위트룸, 세트",
+   "ex": "They booked a suite for the weekend.",
+   "exko": "주말에 스위트룸을 예약했어요.",
+   "use": [
+    [
+     "The hotel suite has a kitchen.",
+     "그 스위트룸엔 주방이 있다."
+    ],
+    [
+     "We use a full suite of tools.",
+     "우리는 도구 한 세트를 통째로 쓴다."
+    ]
+   ],
+   "mcq": [
+    "They upgraded us to a suite.",
+    "They upgraded us to a suit room.",
+    "They upgraded a suite us to it.",
+    "A suite upgraded us they to."
+   ],
+   "ans": 0,
+   "note": "suite는 /스윗/ 발음! suit(정장·/숫/)과 완전히 다른 단어.",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "judicial",
+   "ko": "사법의",
+   "ex": "The case went through judicial review.",
+   "exko": "그 사건은 사법 심사를 거쳤어요.",
+   "use": [
+    [
+     "Judicial decisions set precedents.",
+     "사법 판단은 선례를 만든다."
+    ],
+    [
+     "The judicial system varies by country.",
+     "사법 제도는 나라마다 다르다."
+    ]
+   ],
+   "mcq": [
+    "The judicial process takes time.",
+    "The judicial processes takes time it.",
+    "The judicial process take time.",
+    "Time takes the judicial process in."
+   ],
+   "ans": 0,
+   "note": "judicial = 사법의. judge(판사)·judgment(판단)와 어원 같아요!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "landing",
+   "ko": "착륙, 착지",
+   "ex": "We had a smooth landing.",
+   "exko": "착륙이 부드러웠어요.",
+   "use": [
+    [
+     "Practice a soft landing to protect your knees.",
+     "무릎 보호를 위해 부드러운 착지를 연습하세요."
+    ],
+    [
+     "The gymnast stuck the landing.",
+     "체조 선수가 착지를 완벽히 해냈다."
+    ]
+   ],
+   "mcq": [
+    "She stuck the landing perfectly.",
+    "She stuck the landing perfect it.",
+    "She stuck to the landing perfectly.",
+    "The landing stuck she perfectly to."
+   ],
+   "ans": 0,
+   "note": "stick the landing = 착지를 완벽히 해내다. 스포츠 필수 표현!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "squad",
+   "ko": "팀, 선수단",
+   "ex": "She made the national squad.",
+   "exko": "그녀는 국가대표 선수단에 뽑혔어요.",
+   "use": [
+    [
+     "The squad trains six days a week.",
+     "선수단은 주 6일 훈련한다."
+    ],
+    [
+     "He's not in the squad this season.",
+     "그는 이번 시즌 엔트리에 없다."
+    ]
+   ],
+   "mcq": [
+    "He joined the training squad last year.",
+    "He joined to the training squad last year.",
+    "He joined the training squad team group.",
+    "The training squad joined him last year."
+   ],
+   "ans": 0,
+   "note": "squad = 선수단·엔트리. team보다 좁은 '뽑힌 인원'!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "mercy",
+   "ko": "자비",
+   "ex": "They showed no mercy in the second half.",
+   "exko": "후반엔 인정사정없었어요.",
+   "use": [
+    [
+     "We're at the mercy of the weather.",
+     "날씨에 달렸어요."
+    ],
+    [
+     "He begged for mercy.",
+     "그는 자비를 구했다."
+    ]
+   ],
+   "mcq": [
+    "We're at the mercy of the weather.",
+    "We're at mercy of the weather the.",
+    "We're in the mercy of weather.",
+    "The weather is at our mercy of."
+   ],
+   "ans": 0,
+   "note": "at the mercy of = ~에 좌우되는. 통제 불가 상황 표현!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "indigenous",
+   "ko": "토착의, 원주민의",
+   "ex": "Indigenous knowledge shapes local medicine.",
+   "exko": "토착 지식이 지역 의학을 형성해요.",
+   "use": [
+    [
+     "The plant is indigenous to Korea.",
+     "그 식물은 한국 토종이다."
+    ],
+    [
+     "We learned about indigenous cultures.",
+     "원주민 문화를 배웠다."
+    ]
+   ],
+   "mcq": [
+    "The species is indigenous to this region.",
+    "The species is indigenous for this region.",
+    "The species indigenous is this region to.",
+    "This region is indigenous the species to."
+   ],
+   "ans": 0,
+   "note": "indigenous to + 지역. native의 학술·정중한 표현!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "chronicle",
+   "ko": "연대기, 기록하다",
+   "ex": "The book chronicles her recovery.",
+   "exko": "그 책은 그녀의 회복 과정을 기록해요.",
+   "use": [
+    [
+     "He chronicled the team's season.",
+     "그는 팀의 시즌을 기록했다."
+    ],
+    [
+     "It's a chronicle of small victories.",
+     "작은 승리들의 기록이다."
+    ]
+   ],
+   "mcq": [
+    "The documentary chronicles his career.",
+    "The documentary chronicles of his career.",
+    "The documentary chronicle his career it.",
+    "His career chronicles the documentary to."
+   ],
+   "ans": 0,
+   "note": "chronicle을 동사로 = 시간순으로 기록하다. 다큐·논문 단골!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "calendar",
+   "ko": "달력, 일정표",
+   "ex": "Let me check my calendar.",
+   "exko": "일정 확인해 볼게요.",
+   "use": [
+    [
+     "Put it on the calendar so we don't forget.",
+     "잊지 않게 일정에 넣어 두세요."
+    ],
+    [
+     "The academic calendar starts in March.",
+     "학사 일정은 3월에 시작한다."
+    ]
+   ],
+   "mcq": [
+    "I'll put it on my calendar.",
+    "I'll put it in my calendar on.",
+    "I'll put on it my calendar.",
+    "My calendar puts it on I."
+   ],
+   "ans": 0,
+   "note": "put it on the calendar = 일정에 넣다. 약속 확정의 한마디!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "noon",
+   "ko": "정오",
+   "ex": "Let's meet at noon.",
+   "exko": "정오에 만나요.",
+   "use": [
+    [
+     "The deadline is noon on Friday.",
+     "마감은 금요일 정오다."
+    ],
+    [
+     "By noon, the gym gets crowded.",
+     "정오쯤이면 체육관이 붐빈다."
+    ]
+   ],
+   "mcq": [
+    "The session starts at noon.",
+    "The session starts at the noon.",
+    "The session starts in noon.",
+    "At noon the session start it."
+   ],
+   "ans": 0,
+   "note": "at noon — the 없이! 12 p.m.보다 헷갈리지 않는 표현.",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "flour",
+   "ko": "밀가루",
+   "ex": "Add flour slowly while mixing.",
+   "exko": "섞으면서 밀가루를 천천히 넣으세요.",
+   "use": [
+    [
+     "I use almond flour for low-carb baking.",
+     "저탄수 베이킹엔 아몬드 가루를 쓴다."
+    ],
+    [
+     "The recipe needs two cups of flour.",
+     "이 레시피엔 밀가루 두 컵이 필요하다."
+    ]
+   ],
+   "mcq": [
+    "Sift the flour before mixing.",
+    "Sift the flours before mixing it.",
+    "Sift flour the before mixing.",
+    "Before mixing sifts the flour you."
+   ],
+   "ans": 0,
+   "note": "flour(밀가루) vs flower(꽃) — 발음이 같아요! 셀 수 없는 명사.",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "default",
+   "ko": "기본값, 채무불이행",
+   "ex": "The default setting is fine.",
+   "exko": "기본 설정이면 충분해요.",
+   "use": [
+    [
+     "By default, notifications are on.",
+     "기본적으로 알림이 켜져 있다."
+    ],
+    [
+     "The country defaulted on its debt.",
+     "그 나라는 채무를 이행하지 못했다."
+    ]
+   ],
+   "mcq": [
+    "By default, the app saves your data.",
+    "By the default, the app saves data.",
+    "In default, the app saves your data.",
+    "The app by default saves in your data."
+   ],
+   "ans": 0,
+   "note": "by default = 기본적으로·자동으로. 설정 얘기 필수!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "outer",
+   "ko": "바깥의",
+   "ex": "Work the outer thigh muscles.",
+   "exko": "바깥쪽 허벅지 근육을 쓰세요.",
+   "use": [
+    [
+     "The outer layer protects the joint.",
+     "바깥층이 관절을 보호한다."
+    ],
+    [
+     "Outer space fascinates kids.",
+     "우주는 아이들을 매료시킨다."
+    ]
+   ],
+   "mcq": [
+    "Stretch the outer side of your leg.",
+    "Stretch the out side of your leg.",
+    "Stretch outer the side your leg of.",
+    "Your leg stretches the outer side of."
+   ],
+   "ans": 0,
+   "note": "outer ↔ inner. 해부·운동 지도에서 방향 표현의 기본!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "hallway",
+   "ko": "복도",
+   "ex": "Wait in the hallway, please.",
+   "exko": "복도에서 기다려 주세요.",
+   "use": [
+    [
+     "We chatted in the hallway after class.",
+     "수업 후 복도에서 얘기했다."
+    ],
+    [
+     "The hallway was too narrow for the equipment.",
+     "복도가 장비를 옮기기엔 좁았다."
+    ]
+   ],
+   "mcq": [
+    "They met in the hallway by chance.",
+    "They met at the hallway by chance in.",
+    "They met the hallway in by chance it.",
+    "By chance the hallway met them in."
+   ],
+   "ans": 0,
+   "note": "in the hallway = 복도에서. corridor(영국식)와 같은 뜻!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "punch",
+   "ko": "주먹질, 펀치",
+   "ex": "The workout includes punches and kicks.",
+   "exko": "그 운동엔 펀치와 킥이 포함돼요.",
+   "use": [
+    [
+     "She didn't pull any punches in her feedback.",
+     "그녀는 피드백에서 봐주는 게 없었다."
+    ],
+    [
+     "Punch your card at the entrance.",
+     "입구에서 카드를 찍으세요."
+    ]
+   ],
+   "mcq": [
+    "He didn't pull any punches.",
+    "He didn't pull any punch.",
+    "He didn't pulled any punches it.",
+    "Any punches he didn't pull them."
+   ],
+   "ans": 0,
+   "note": "not pull any punches = 돌려 말하지 않다. 직설적 피드백 표현!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "parade",
+   "ko": "퍼레이드, 행진",
+   "ex": "The team had a victory parade.",
+   "exko": "팀이 우승 퍼레이드를 했어요.",
+   "use": [
+    [
+     "We watched the parade from the balcony.",
+     "발코니에서 퍼레이드를 봤다."
+    ],
+    [
+     "It was a parade of excuses.",
+     "변명의 행렬이었다."
+    ]
+   ],
+   "mcq": [
+    "Thousands watched the parade downtown.",
+    "Thousands watched to the parade downtown.",
+    "Thousands watched the parade march event downtown.",
+    "The parade watched thousands downtown it."
+   ],
+   "ans": 0,
+   "note": "watch/hold a parade. 비유로 '~의 행렬'로도!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "rage",
+   "ko": "격분, 분노",
+   "ex": "He couldn't control his rage.",
+   "exko": "그는 분노를 참지 못했어요.",
+   "use": [
+    [
+     "Road rage is dangerous.",
+     "운전 중 분노는 위험하다."
+    ],
+    [
+     "Cold plunges are all the rage now.",
+     "냉수욕이 요즘 대유행이다."
+    ]
+   ],
+   "mcq": [
+    "Road rage causes many accidents.",
+    "Road rages causes many accidents it.",
+    "Road rage cause many accidents.",
+    "Many accidents road rage causes to."
+   ],
+   "ans": 0,
+   "note": "rage = 격분. all the rage = 대유행 — 정반대 뉘앙스의 보너스!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "ending",
+   "ko": "결말",
+   "ex": "I loved the ending of that movie.",
+   "exko": "그 영화 결말이 좋았어요.",
+   "use": [
+    [
+     "The story has a happy ending.",
+     "그 이야기는 해피엔딩이다."
+    ],
+    [
+     "Her career had a fitting ending.",
+     "그녀의 커리어는 어울리는 마무리를 맞았다."
+    ]
+   ],
+   "mcq": [
+    "The film has a surprising ending.",
+    "The film has a surprising end ending.",
+    "The film has surprising an ending it.",
+    "A surprising ending has the film it."
+   ],
+   "ans": 0,
+   "note": "ending = 이야기의 결말. end(끝·시점)와 뉘앙스 차이!",
+   "wk": "2026-W38"
+  },
+  {
+   "w": "loop",
+   "ko": "고리, 반복, 대화에 포함",
+   "ex": "Keep me in the loop, please.",
+   "exko": "진행 상황 계속 공유해 주세요.",
+   "use": [
+    [
+     "The video plays on a loop.",
+     "영상이 반복 재생된다."
+    ],
+    [
+     "I'll loop in the marketing team.",
+     "마케팅팀도 참조에 넣을게요."
+    ]
+   ],
+   "mcq": [
+    "Keep me in the loop on this.",
+    "Keep me in loop on this the.",
+    "Keep me on the loop this in.",
+    "The loop keeps me in this on."
+   ],
+   "ans": 0,
+   "note": "in the loop = 정보를 공유받는. loop in = 참여시키다 — 실무 필수!",
+   "wk": "2026-W38"
   }
  ]
 }
