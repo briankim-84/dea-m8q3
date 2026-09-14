@@ -1,0 +1,123 @@
+[0:00] HOW THE JUMP TEST WORKS
+
+You can do whatever you want, as long as you try to reach the ceiling. Very simple task to do. And interestingly, even a 90-year-old can do that. And even if they cannot do a real jump, we can still do the same assessment. So if you try to do a jump like this and up — you don't even leave the plate — you can do the same calculations and the same measurements. And so we can compare the 90-year-old with the top sprinters, with the same measurement technique.
+
+And very interesting, because we're using your intuitive movement pattern, and movement patterns are typically used in everyday living [unclear]. We've got very high reproducibility because we don't have a big familiarization effect. And this results in fast measurements — a complete assessment of three or four measurements can be easily done within five minutes. We did it at the Masters. We had a very complex assessment set up of about ten different tasks, and it only took ten minutes, so one minute per task. Very simple, no time for preparation.
+
+And this allows us reference data for basically age three to ninety-nine so far. Unfortunately, we didn't get the 106-year-old that was throwing the discus.
+
+[Audience] He didn't show up?
+
+No, he didn't show up. That would have been really interesting. [unclear — short remark]
+
+
+[1:29] THE FAMILIARIZATION EFFECT
+
+So this is an example of the familiarization effect. These are typical measurements that we do in geriatrics: Timed Up-and-Go test, [unclear], chair-rising test — the most common tests. This is just a set of five measurements in five days, every time at the same time of the day. It's a fair comparison, and you see that there's a change of about eight percent just because you repeat that measurement — just because you get used to the measurement. It's not a training effect. You don't have some better muscle. You just adapt to the task.
+
+And you see, the only ones that have a very high reproducibility and not really such an accommodation effect — it's really the jump in the mechanography and maximum walking speed. However, maximum walking speed and the jump actually assess two different types of movement. The maximum walking speed is more towards the endurance, and the jump is really about the maximum performance you can do. It's actually generating very high powers. We're going to see that in a second.
+
+
+[2:39] THE COUNTER-MOVEMENT JUMP
+
+So there's a lot of tests that we can do with this platform. For time reasons I will only concentrate on one of the most common ones, the counter-movement jump — because the counter-movement jump is usually restricted [unclear]. It's called the free-movement jump [unclear]. And that is the one with the free movement: you're allowed to do whatever you want as long as you jump high.
+
+
+[3:02] WHY ABSOLUTE NUMBERS ARE MISLEADING — THE TONEY FREEMAN EXAMPLE
+
+So if you do studies, and if you do cross-sectional data, I always see in literature that absolute values of force, of power are reported. But this is a very misleading concept, and I will show you that here with an example.
+
+So this is Toney Freeman. At that time he was 49 years of age, 130 kilograms pure muscle. He was in the top 20 of the Arnold Classic, so the top bodybuilders worldwide. He did jump 60 centimeters, which is not bad for a bodybuilder, and he created 10,000 watts. And he used a force of 3,015 newtons, so about 350 kilograms. Can you leg-press 350 kilograms? So that's impressive.
+
+Now let's have a look at his son. So his power output is 8,500 watts and his maximum force is 2,400 newtons. How high will he jump? Higher or lower, compared to his dad?
+
+[Audience] Body weight?
+
+95 centimeters. And that's a very important part. Those absolute numbers, they don't mean anything if you do not know the weight, or the mass, of the person. So if you now relate that to the body mass, you see our 10,000 watts are down to 67 watts per kilogram, while 8,500 are 100 watts per kilogram. That's the reason why he jumps higher. And interestingly, the maximum force they're using, taking it in relation to your body mass, is almost identical: three times the body weight. And why is that? Because of this simple formula we know: force is mass times acceleration, or acceleration is force divided by mass. And if you have a higher mass you need a higher force to get the same acceleration, and acceleration is movement.
+
+
+[5:20] MASTER ATHLETE REFERENCE DATA — FORCE
+
+So let's have a look at what we're talking about. So this is a story about some master athletes — not from the one session we did. We started researching master athletes more than 20 years ago. So this is from the first athletes here. This side, blue is male, red is female, and this is children from 3 to 19. And you see, force increases and then it stays quite — actually quite constant. So it's only a very minor drop, to take that into consideration. But there's also, with the age, there's also an increasing — so this here is the standard deviation. You see there's an increasing standard deviation with age. The older we get, the higher the power, the more variation we have in the absolute values. So the absolute values are really not very helpful, because they have a big variation and therefore they have not much meaning.
+
+Now this is if you take body weight into consideration. You see, for this specific movement, for the jump, about 1.25 times your body weight per leg — or 2.5 times your body weight altogether — is more or less like a natural constant, with a standard deviation of about 10%. So this is very, very constant. And there's no gender difference. There's no sex difference.
+
+If you go back, you see — that's the reason why school children, at least in Germany, up until age 10, 11, they can do sports in school together, and then they have to be separated. Not because of the sexes, but because of a simple effect — that here's the sex difference: the boys do much more compared to the ladies in the power. In the power there's really a difference. In the force there's not much of a difference, if you take the body weight into consideration. If not, boys are taller and more heavy and therefore they need more force, but they don't have a different performance because of that. And that's what you see if you take it into relation to your body mass. Then it's more or less a constant, and only a minor drop with age. So the idea that you drop a huge amount of force with age is not correct.
+
+Actually, these are the differences between the purple one and the orange one, and the green ones are the sprinters. And you see the sport-specific differences are about the same as the age differences.
+
+
+[8:14] POWER OUTPUT
+
+But now let's have a look at the power output. So that's really the interesting thing for us — one of the most interesting factors about this jump, the power output. Again, this is data if you don't use it in combination with, or in relation to, body mass. And you see in the children there's an up-going slope. If you compensate, you see there's much less variation, and suddenly there's only a linear decline. You see that the girls plateau at about the beginning of menarche. The boys increase until 25, 30. And from then on it's going downhill. And if you continue these two lines, zero is at about 120.
+
+Now let's have a look at the master athletes. I show you, for easier comparison, I show you that in the standard deviation plot. So you see, this is our reference data that we had before — the green area is plus/minus the standard deviation. This is the green area here again, and this is the master athletes. So on average the master athletes are about half to one standard deviation above our reference data. So our reference data is a challenging reference data. It's not the average, because the average is getting worse and worse — but it's not an athletic average. And you see that the women seem to profit from exercise more than the males — very interesting.
+
+And this is again, if you now separate by different disciplines: the sprinters can go up to 150, 170% of our reference data. You see here up to six standard deviations above.
+
+[Audience] Six?
+
+Yeah. While the endurance runners are more like one standard deviation below, because obviously they don't train their fast-twitch fibers. So they concentrate on endurance, and therefore this is not the right parameter for them.
+
+
+[10:26] WHY MASTER ATHLETES AND SPACE RESEARCH?
+
+The reason why I've been here is to measure the master athletes, which I was aware of. Unfortunately, it was short notice, so I couldn't rearrange things that I would like — also getting different research fields here together. But why do we, coming from geriatrics, why do we do space research and master athletes? And the answer is very simple.
+
+Aging, as we know, is a combination of aging effects and disuse. And the big question is: how much is disuse and how much is aging? Or — for you much more important, for everybody of us, especially if we get older — what can be influenced and what can't be influenced? That's a very interesting thing, because the general population is somewhere in between, and it's really hard to figure out what is defined by what.
+
+If you take the master athletes, this is the maximum of effects that you can get by lifelong physical activity. They are athletes that have been performing for 40 years, 50 years. They do everyday training. Some of them report up to 20 hours a week of training, every week. So that's the maximum that you can get. So definitely, what we find here in the master athletes, this is all related to aging, not to disuse.
+
+And then again we have a look at the astronauts. This is the opposite. These are well-trained individuals. They go to space, they don't need their legs, and therefore they lose a lot of function, of bone, in their legs. So this is basically the effect purely of disuse. So very interesting, those two groups, to see what is maximum possible and what is still lost if you don't have any disuse.
+
+
+[12:16] BED REST STUDIES AND GALILEO VIBRATION TRAINING
+
+And this is what we do, for example, for exercises. This is the early bed rest studies that we did. So this is putting you 90 days into bed. You're not allowed to get up. You have to take your shower in the bed. You have to go to the toilet in the bed. Everything lying down. Nowadays it's even 10 degrees head-tilt-down. So that means you've got always a little pressure in the head. And you have to stay there for 60 — depending on the length — 60 or 90 days. One group is doing nothing, and the other group, like in this case, was doing different types of side-alternating vibration training.
+
+And in the second bed rest studies we squeezed everything out that we could, and we did exercise time four times 50 seconds, three times a week. That's nine minutes training a week. So, to give you a comparison: right now astronauts have, per day, one to two hours of exercise. And most of them still lose muscle and bone.
+
+And these are the results for the bone. You see there was hardly any loss in the red one — it's the Galileo training. The blue one is the control. So there was a typical loss of about 3%, 4% in the lower leg. If you go locally for the spongiosa region, for the trabecular region, it's up to 20% loss within 60 days. And then it takes a very long time, typically about two years, to rebuild that in a healthy young individual. So this was males between 20 and 30.
+
+Interestingly, something that we didn't expect: the guys that used the vibration actually ended up with a higher — like after one year, they ended up with a higher bone value. It's very interesting because we didn't expect it. So obviously the whole system was more sensitive and now put up more bone.
+
+[Audience] Did they continue training?
+
+No. That was just that they adjusted, whatever they did before. There was no extra training afterwards. This is just everything.
+
+So what you see here, this is just coming from doing nothing, lying in bed, to normal physical activity. The reason why lying in bed in the elderly is such a big problem.
+
+
+[14:43] ONE LAST POINT ABOUT REFERENCE DATA
+
+And one last consideration about the reference data. We know that lack of physical activity is the major risk factor for all civilization diseases: overweight, diabetes, sarcopenia, [unclear], osteoporosis — all the big ones. Lack of physical activity is one of the major risk factors.
+
+Now, if you take the average population, we're getting, per decade, worse and worse. We've got less and less physical activity. This is data from Germany. This is monitoring children when they have the first year of school, and some typical physical activity things that they do. So over 20 years, 30 years, they got actually a little bit larger, they got a little bit more heavy, a little bit increase of overweight. But from standing, jumping distance decreased by 14%, even though many of them got even taller. So you can take whatever — you can take this maximum sprint, you can take the average six-minutes running distance, whatever — everything decreases per decade.
+
+So everything that we take here, if you take this as a reference, we're very likely that we have suboptimal, because we already have the disuse here. So why should that be the reference for good physical activity, well-being? It can't be, because in this case we would actually need to adapt our reference data every decade, lower and lower. So it can't be. So we need to do something else.
+
+And in geriatrics, we worked together with Martin Runge. He had the idea: okay, let's take, for the elderly, some minimal physical activity levels. It was closely linked to, maybe you know, the Short Physical Performance Battery. Basically, they needed to be able to — just being able to do those tests, not a minimum time, just be able to do them. And they didn't include athletes. And that's where we have the reference data, and that's where we have a demanding reference data.
+
+As you've seen, our reference data is somewhere between the athletes — the sprinters and the marathon runners. So it's not way too high, but it's more like the average. So actually, if you take an average German city, it would be 5% to 10% — so about half a standard deviation, one standard deviation below our reference data, the average. If you go to a big US city it's 10% to 15%.
+
+So I hope I could give you some insights and some of the background of our products. And thank you very much for your attention.
+
+
+KEY TERMS IN THIS TALK
+- familiarization effect — 반복 측정으로 익숙해져서 수치가 좋아지는 효과 (훈련 효과 아님)
+- reproducibility — 재현성
+- mechanography — 지면반력판으로 힘·파워를 측정하는 방식
+- counter-movement jump — 반동 점프
+- Timed Up-and-Go / chair-rising test — 노인 기능 평가의 대표 검사
+- power per kilogram (W/kg) — 체중당 파워
+- menarche — 초경
+- standard deviation — 표준편차
+- fast-twitch fibers — 속근 섬유
+- disuse — 안 써서 생기는 기능 저하 (aging과 대비되는 개념)
+- bed rest study — 장기 침상 안정 연구
+- head-tilt-down — 머리를 아래로 기울인 자세
+- side-alternating vibration training (Galileo) — 좌우 교대 진동 훈련
+- spongiosa / trabecular region — 해면골 부위
+- civilization diseases — 생활습관병 (lifestyle diseases의 독일식 표현)
+- sarcopenia / osteoporosis — 근감소증 / 골다공증
+- Short Physical Performance Battery (SPPB) — 단기 신체수행능력 검사
