@@ -2502,6 +2502,506 @@
    "ans": 0,
    "note": "in the loop = 정보를 공유받는. loop in = 참여시키다 — 실무 필수!",
    "wk": "2026-W38"
+  },
+  {
+   "w": "awkward",
+   "ko": "어색한, 불편한",
+   "ex": "There was an awkward silence.",
+   "exko": "어색한 침묵이 흘렀어요.",
+   "use": [
+    [
+     "This position feels awkward on my wrist.",
+     "이 자세는 손목이 불편하다."
+    ],
+    [
+     "It was awkward meeting my ex.",
+     "전 애인을 만나서 어색했다."
+    ]
+   ],
+   "mcq": [
+    "It felt awkward at first.",
+    "It awkward felt at first.",
+    "It felt awkwardly at first.",
+    "It felt awkward firstly at."
+   ],
+   "ans": 0,
+   "note": "feel + 형용사(awkward). 자세가 '불편한'에도 써요!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "casual",
+   "ko": "격식 없는, 편한",
+   "ex": "The dress code is casual.",
+   "exko": "복장은 편하게 오시면 돼요.",
+   "use": [
+    [
+     "It was just a casual chat.",
+     "그냥 가벼운 대화였어요."
+    ],
+    [
+     "Casual runners often skip warm-ups.",
+     "취미로 뛰는 사람들은 준비운동을 자주 거른다."
+    ]
+   ],
+   "mcq": [
+    "Wear something casually tomorrow.",
+    "Wear something casual tomorrow.",
+    "Wear something casualty tomorrow.",
+    "Wear casual something tomorrow."
+   ],
+   "ans": 1,
+   "note": "something + 형용사 순서! casual ↔ formal.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "nonsense",
+   "ko": "말도 안 되는 소리",
+   "ex": "That's complete nonsense.",
+   "exko": "그건 완전 헛소리예요.",
+   "use": [
+    [
+     "Stop talking nonsense.",
+     "헛소리 그만해."
+    ],
+    [
+     "The myth about stretching is nonsense.",
+     "스트레칭에 관한 그 통념은 말도 안 된다."
+    ]
+   ],
+   "mcq": [
+    "That theory is a total nonsenses.",
+    "That theory is total nonsensical it.",
+    "That theory is total nonsense.",
+    "That theory total is nonsense."
+   ],
+   "ans": 2,
+   "note": "nonsense는 셀 수 없는 명사 — a·s 없이! No-nonsense = 군더더기 없는.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "accent",
+   "ko": "억양, 말투",
+   "ex": "She has a slight British accent.",
+   "exko": "그녀는 약간 영국식 억양이 있어요.",
+   "use": [
+    [
+     "Don't worry about your accent — be clear.",
+     "억양은 걱정 말고 분명하게 말하세요."
+    ],
+    [
+     "I love the Busan accent.",
+     "부산 사투리 좋아요."
+    ]
+   ],
+   "mcq": [
+    "He speaks strong with accent.",
+    "He speaks in a strong accent with.",
+    "He speaks a strong accent by.",
+    "He speaks with a strong accent."
+   ],
+   "ans": 3,
+   "note": "speak with an accent. 영어에선 '사투리'도 accent!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "pulse",
+   "ko": "맥박",
+   "ex": "Let me check your pulse.",
+   "exko": "맥박 좀 재볼게요.",
+   "use": [
+    [
+     "Her pulse was racing after the sprint.",
+     "전력 질주 후 그녀의 맥박이 빨랐다."
+    ],
+    [
+     "Keep a finger on the pulse of the industry.",
+     "업계 동향을 계속 파악하세요."
+    ]
+   ],
+   "mcq": [
+    "The nurse took his pulse.",
+    "The nurse took to his pulse.",
+    "The nurse took his pulses.",
+    "The nurse made his pulse."
+   ],
+   "ans": 0,
+   "note": "take someone's pulse = 맥박을 재다. finger on the pulse = 동향 파악!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "dignity",
+   "ko": "존엄, 품위",
+   "ex": "Treat every patient with dignity.",
+   "exko": "모든 환자를 존엄하게 대하세요.",
+   "use": [
+    [
+     "She handled the loss with dignity.",
+     "그녀는 품위 있게 패배를 받아들였다."
+    ],
+    [
+     "Everyone deserves dignity.",
+     "모든 사람은 존엄하게 대우받아야 한다."
+    ]
+   ],
+   "mcq": [
+    "He accepted defeat by dignity with.",
+    "He accepted defeat with dignity.",
+    "He accepted with defeat dignity.",
+    "He accepted defeat with a dignities."
+   ],
+   "ans": 1,
+   "note": "with dignity = 품위 있게. 의료·스포츠 모두 중요한 가치어!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "mentor",
+   "ko": "멘토, 지도하다",
+   "ex": "She's been my mentor for years.",
+   "exko": "그분은 오랫동안 제 멘토였어요.",
+   "use": [
+    [
+     "He mentors young physiotherapists.",
+     "그는 젊은 물리치료사들을 지도한다."
+    ],
+    [
+     "Find a mentor in your field.",
+     "자기 분야에서 멘토를 찾으세요."
+    ]
+   ],
+   "mcq": [
+    "She mentors new staff every year.",
+    "She mentors new staff for every year with.",
+    "She mentors to new staff every year.",
+    "She is mentor new staff every year."
+   ],
+   "ans": 0,
+   "note": "mentor = 명사·동사 둘 다. mentor someone = 지도하다!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "stance",
+   "ko": "입장, 자세",
+   "ex": "What's your stance on this issue?",
+   "exko": "이 문제에 대한 입장이 뭐예요?",
+   "use": [
+    [
+     "Widen your stance for balance.",
+     "균형을 위해 발을 더 넓게 서세요."
+    ],
+    [
+     "The clinic took a firm stance on safety.",
+     "그 클리닉은 안전에 단호한 입장을 취했다."
+    ]
+   ],
+   "mcq": [
+    "She made a strong stance on issue.",
+    "She took a strong stance of the issue.",
+    "She took a strong stance on the issue.",
+    "She took strong a stance the issue on."
+   ],
+   "ans": 2,
+   "note": "stance on + 사안 = 입장 / 운동에선 '발 너비·자세'!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "neutral",
+   "ko": "중립의",
+   "ex": "Keep your spine in a neutral position.",
+   "exko": "척추를 중립 자세로 유지하세요.",
+   "use": [
+    [
+     "I'm staying neutral on this.",
+     "이 건엔 중립을 지킬게요."
+    ],
+    [
+     "Neutral colors work for any room.",
+     "무채색은 어떤 방에도 어울린다."
+    ]
+   ],
+   "mcq": [
+    "Keep your pelvis in neutral a position.",
+    "Keep your pelvis on a neutral position.",
+    "Keep your pelvis neutrally position.",
+    "Keep your pelvis in a neutral position."
+   ],
+   "ans": 3,
+   "note": "neutral spine/pelvis = 필라테스 핵심 큐! 의견 '중립'에도.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "thoroughly",
+   "ko": "철저히",
+   "ex": "Wash your hands thoroughly.",
+   "exko": "손을 꼼꼼히 씻으세요.",
+   "use": [
+    [
+     "Read the contract thoroughly.",
+     "계약서를 꼼꼼히 읽으세요."
+    ],
+    [
+     "I thoroughly enjoyed the class.",
+     "수업 정말 즐거웠어요."
+    ]
+   ],
+   "mcq": [
+    "We checked the data thorough.",
+    "We checked thoroughly the data it.",
+    "We checked the data thoroughly.",
+    "We thoroughly checked of the data."
+   ],
+   "ans": 2,
+   "note": "thoroughly = 철저히 / (enjoy 앞에서) 정말. th 발음 두 번 연습!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "likewise",
+   "ko": "마찬가지로",
+   "ex": "Nice to meet you. — Likewise!",
+   "exko": "만나서 반가워요. — 저도요!",
+   "use": [
+    [
+     "He left early, and I did likewise.",
+     "그가 일찍 떠났고 나도 그렇게 했다."
+    ],
+    [
+     "Likewise, the second study found no effect.",
+     "마찬가지로 두 번째 연구도 효과가 없었다."
+    ]
+   ],
+   "mcq": [
+    "Great to meet you! — Likewise.",
+    "Great to meet you! — Same wise.",
+    "Great to meet you! — Likely.",
+    "Great to meet you! — Likewisely."
+   ],
+   "ans": 0,
+   "note": "Likewise! = 저도요(인사 답). 논문에선 '마찬가지로'!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "cease",
+   "ko": "그만두다, 멈추다",
+   "ex": "The company ceased operations.",
+   "exko": "그 회사는 운영을 중단했어요.",
+   "use": [
+    [
+     "It never ceases to amaze me.",
+     "그건 늘 나를 놀라게 한다."
+    ],
+    [
+     "Pain ceased after the treatment.",
+     "치료 후 통증이 멈췄다."
+    ]
+   ],
+   "mcq": [
+    "Her talent never ceases to amaze me.",
+    "Her talent ceases never to amaze me.",
+    "Her talent never cease to amaze me.",
+    "Her talent never ceases amazing to me."
+   ],
+   "ans": 0,
+   "note": "never cease to amaze = 늘 감탄하게 하다. stop의 격식 버전!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "nutrition",
+   "ko": "영양",
+   "ex": "Good nutrition speeds up recovery.",
+   "exko": "좋은 영양이 회복을 앞당겨요.",
+   "use": [
+    [
+     "She's a sports nutrition expert.",
+     "그녀는 스포츠 영양 전문가다."
+    ],
+    [
+     "Check the nutrition label.",
+     "영양 성분표를 확인하세요."
+    ]
+   ],
+   "mcq": [
+    "Nutrition plays a key role in recovery.",
+    "Nutrition plays a key role for in recovery.",
+    "Nutrition play a key role in recovery.",
+    "Nutrition plays key a role recovery in."
+   ],
+   "ans": 0,
+   "note": "play a key role in = ~에서 핵심 역할을 하다. 논문 필수 틀!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "syndrome",
+   "ko": "증후군",
+   "ex": "She has carpal tunnel syndrome.",
+   "exko": "그녀는 손목터널 증후군이 있어요.",
+   "use": [
+    [
+     "Overuse syndrome is common in runners.",
+     "과사용 증후군은 러너에게 흔하다."
+    ],
+    [
+     "Impostor syndrome affects many experts.",
+     "많은 전문가가 가면 증후군을 겪는다."
+    ]
+   ],
+   "mcq": [
+    "He was diagnosed by a rare syndrome.",
+    "He was diagnosed with a rare syndrome.",
+    "He diagnosed with a rare syndrome.",
+    "He was diagnosed of a rare syndrome."
+   ],
+   "ans": 1,
+   "note": "diagnosed with + 증후군. impostor syndrome(가면 증후군)도 유명!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "jaw",
+   "ko": "턱",
+   "ex": "Relax your jaw while breathing.",
+   "exko": "호흡할 때 턱 힘을 빼세요.",
+   "use": [
+    [
+     "Stress makes me clench my jaw.",
+     "스트레스받으면 이를 악문다."
+    ],
+    [
+     "My jaw dropped when I heard.",
+     "듣고 입이 떡 벌어졌다."
+    ]
+   ],
+   "mcq": [
+    "Unclench jaw your and breathe out.",
+    "Unclench your jaws and breath out.",
+    "Unclench your jaw and breathe out.",
+    "Your jaw unclench and breathe out."
+   ],
+   "ans": 2,
+   "note": "clench one's jaw = 턱에 힘주다. jaw-dropping = 놀라운!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "unfair",
+   "ko": "불공평한",
+   "ex": "That's so unfair!",
+   "exko": "그건 너무 불공평해요!",
+   "use": [
+    [
+     "It's unfair to compare them.",
+     "그 둘을 비교하는 건 불공평하다."
+    ],
+    [
+     "He got an unfair penalty.",
+     "그는 부당한 페널티를 받았다."
+    ]
+   ],
+   "mcq": [
+    "It's unfair blaming to her.",
+    "It's unfairly to blame her.",
+    "It's unfair to blame her.",
+    "It's not fair to blame to her."
+   ],
+   "ans": 2,
+   "note": "It's unfair to + 동사. 반대말 fair!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "gorgeous",
+   "ko": "아주 멋진",
+   "ex": "The view is gorgeous!",
+   "exko": "경치가 정말 멋져요!",
+   "use": [
+    [
+     "You look gorgeous tonight.",
+     "오늘 밤 정말 멋져 보여요."
+    ],
+    [
+     "It's a gorgeous day for a run.",
+     "달리기하기 딱 좋은 날씨다."
+    ]
+   ],
+   "mcq": [
+    "What a day gorgeous!",
+    "What a gorgeously day!",
+    "What a gorgeous day!",
+    "What gorgeous a day!"
+   ],
+   "ans": 2,
+   "note": "What a + 형용사 + 명사! beautiful보다 감탄이 커요.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "safely",
+   "ko": "안전하게",
+   "ex": "Did you get home safely?",
+   "exko": "집에 잘 들어갔어요?",
+   "use": [
+    [
+     "Lift the weight safely.",
+     "무게를 안전하게 드세요."
+    ],
+    [
+     "You can safely ignore this warning.",
+     "이 경고는 무시해도 괜찮아요."
+    ]
+   ],
+   "mcq": [
+    "Please safely drive safe.",
+    "Please drive safety.",
+    "Please drive safely.",
+    "Please drive safe safely."
+   ],
+   "ans": 2,
+   "note": "safely(부사). 인사 'Get home safely!' — safe는 형용사, safety는 명사.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "solely",
+   "ko": "오로지",
+   "ex": "This decision is solely yours.",
+   "exko": "이 결정은 전적으로 당신 몫이에요.",
+   "use": [
+    [
+     "Don't rely solely on painkillers.",
+     "진통제에만 의존하지 마세요."
+    ],
+    [
+     "The study focused solely on women.",
+     "그 연구는 오로지 여성만 다뤘다."
+    ]
+   ],
+   "mcq": [
+    "The clinic relies solely on referrals.",
+    "The clinic relies solely referrals.",
+    "The clinic relies sole on referrals.",
+    "The clinic solely relies of referrals."
+   ],
+   "ans": 0,
+   "note": "solely = only의 격식 버전. rely solely on = ~에만 의존하다!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "metaphor",
+   "ko": "은유",
+   "ex": "'Time is money' is a metaphor.",
+   "exko": "'시간은 돈'은 은유예요.",
+   "use": [
+    [
+     "She used a metaphor to explain the injury.",
+     "그녀는 은유로 부상을 설명했다."
+    ],
+    [
+     "It's a metaphor for life.",
+     "그건 인생에 대한 은유다."
+    ]
+   ],
+   "mcq": [
+    "The marathon is a metaphor of for life.",
+    "The marathon metaphors for life.",
+    "The marathon is metaphor a life for.",
+    "The marathon is a metaphor for life."
+   ],
+   "ans": 3,
+   "note": "a metaphor for + 대상. 발표할 때 비유 쓰면 기억에 남아요!",
+   "wk": "2026-W39"
   }
  ]
 }

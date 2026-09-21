@@ -2502,6 +2502,506 @@
    "ans": 0,
    "note": "a pair of + 짝 이룬 물건(신발·가위·바지). pair with = 어울리다!",
    "wk": "2026-W38"
+  },
+  {
+   "w": "reveal",
+   "ko": "드러내다, 밝히다",
+   "ex": "The survey revealed some surprising results.",
+   "exko": "설문에서 놀라운 결과가 드러났어요.",
+   "use": [
+    [
+     "She revealed her secret to me.",
+     "그녀가 나에게 비밀을 털어놨다."
+    ],
+    [
+     "The test revealed a small problem.",
+     "검사에서 작은 문제가 드러났다."
+    ]
+   ],
+   "mcq": [
+    "The report revealed several mistakes.",
+    "The report revealed to several mistakes.",
+    "The report was reveal several mistakes.",
+    "The report revealed about several mistakes."
+   ],
+   "ans": 0,
+   "note": "reveal + 대상 바로. show보다 '숨겨진 걸 드러내다'!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "warn",
+   "ko": "경고하다",
+   "ex": "I warned you about the traffic.",
+   "exko": "차 막힌다고 경고했잖아요.",
+   "use": [
+    [
+     "They warned us not to swim there.",
+     "거기서 수영하지 말라고 경고했다."
+    ],
+    [
+     "The app warns you when the battery is low.",
+     "배터리가 부족하면 앱이 알려준다."
+    ]
+   ],
+   "mcq": [
+    "She warned me not to go out.",
+    "She warned me don't go out.",
+    "She warned to me not to go.",
+    "She warned me to not going out."
+   ],
+   "ans": 0,
+   "note": "warn + 사람 + (not) to 동사 / warn about + 대상.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "launch",
+   "ko": "출시하다, 시작하다",
+   "ex": "We're launching a new product next month.",
+   "exko": "다음 달에 신제품을 출시해요.",
+   "use": [
+    [
+     "The campaign launched on Monday.",
+     "캠페인이 월요일에 시작됐다."
+    ],
+    [
+     "They launched a rocket into space.",
+     "로켓을 우주로 발사했다."
+    ]
+   ],
+   "mcq": [
+    "The company was launch a new service.",
+    "The company launched a new service.",
+    "The company launched out a new service.",
+    "The company launched to a new service."
+   ],
+   "ans": 1,
+   "note": "launch = 제품 출시·캠페인 개시·로켓 발사. 비즈니스 필수!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "decline",
+   "ko": "거절하다, 감소하다",
+   "ex": "Sales declined last quarter.",
+   "exko": "지난 분기 매출이 줄었어요.",
+   "use": [
+    [
+     "She politely declined the invitation.",
+     "그녀는 정중히 초대를 거절했다."
+    ],
+    [
+     "My card was declined.",
+     "카드 승인이 거절됐다."
+    ]
+   ],
+   "mcq": [
+    "He declined to the job offer.",
+    "He declined about the job offer.",
+    "He declined the job offer.",
+    "He declined for the job offer."
+   ],
+   "ans": 2,
+   "note": "decline = 정중한 거절 / 감소. '카드 승인 거절'도 declined!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "favor",
+   "ko": "부탁, 호의",
+   "ex": "Can I ask you a favor?",
+   "exko": "부탁 하나 해도 될까요?",
+   "use": [
+    [
+     "Could you do me a favor?",
+     "부탁 좀 들어줄래요?"
+    ],
+    [
+     "The vote was in favor of the plan.",
+     "투표는 그 계획에 찬성이었다."
+    ]
+   ],
+   "mcq": [
+    "Could you make me a favor?",
+    "Could you do me a favor?",
+    "Could you give me favor?",
+    "Could you do a favor me?"
+   ],
+   "ans": 1,
+   "note": "do someone a favor = 부탁을 들어주다. make가 아니라 do!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "ensure",
+   "ko": "보장하다, 확실히 하다",
+   "ex": "Please ensure the door is locked.",
+   "exko": "문이 잠겼는지 꼭 확인해 주세요.",
+   "use": [
+    [
+     "We ensure fast delivery.",
+     "빠른 배송을 보장합니다."
+    ],
+    [
+     "Double-check to ensure there are no errors.",
+     "오류가 없도록 재확인하세요."
+    ]
+   ],
+   "mcq": [
+    "Please ensuring that files are saved.",
+    "Please ensure about all files saved.",
+    "Please ensure to all files saved.",
+    "Please ensure that all files are saved."
+   ],
+   "ans": 3,
+   "note": "ensure (that) + 문장. make sure의 격식 버전!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "satisfy",
+   "ko": "만족시키다",
+   "ex": "It's hard to satisfy everyone.",
+   "exko": "모두를 만족시키기는 어려워요.",
+   "use": [
+    [
+     "Are you satisfied with the room?",
+     "방은 만족스러우세요?"
+    ],
+    [
+     "The answer didn't satisfy him.",
+     "그 답은 그를 만족시키지 못했다."
+    ]
+   ],
+   "mcq": [
+    "I'm satisfied of the result.",
+    "I'm satisfy with the result.",
+    "I'm satisfying with the result.",
+    "I'm satisfied with the result."
+   ],
+   "ans": 3,
+   "note": "be satisfied with = ~에 만족하다. with 필수!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "select",
+   "ko": "선택하다",
+   "ex": "Select your seat online.",
+   "exko": "온라인으로 좌석을 고르세요.",
+   "use": [
+    [
+     "She was selected for the team.",
+     "그녀가 팀에 선발됐다."
+    ],
+    [
+     "We offer a select range of wines.",
+     "엄선한 와인 라인업을 제공한다."
+    ]
+   ],
+   "mcq": [
+    "He selected for the project by.",
+    "He was selecting for the project.",
+    "He was select for the project.",
+    "He was selected for the project."
+   ],
+   "ans": 3,
+   "note": "be selected for = ~에 뽑히다. choose보다 격식!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "guide",
+   "ko": "안내(하다), 가이드",
+   "ex": "Our guide spoke three languages.",
+   "exko": "가이드가 3개 국어를 했어요.",
+   "use": [
+    [
+     "She guided us through the process.",
+     "그녀가 과정을 안내해 줬다."
+    ],
+    [
+     "Check the user guide first.",
+     "사용 설명서를 먼저 보세요."
+    ]
+   ],
+   "mcq": [
+    "He guided us through the museum.",
+    "He was guide us through the museum.",
+    "He guided through us the museum.",
+    "He guided us across to the museum through."
+   ],
+   "ans": 0,
+   "note": "guide + 사람 + through + 과정 = 차근차근 안내하다.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "grant",
+   "ko": "주다, 승인하다, 보조금",
+   "ex": "She got a research grant.",
+   "exko": "그녀는 연구 지원금을 받았어요.",
+   "use": [
+    [
+     "Don't take it for granted.",
+     "당연하게 여기지 마세요."
+    ],
+    [
+     "The visa was granted last week.",
+     "비자가 지난주 승인됐다."
+    ]
+   ],
+   "mcq": [
+    "Don't granted your health for take.",
+    "Don't take your health for granted.",
+    "Don't take your health for grant.",
+    "Don't take for granted your health it."
+   ],
+   "ans": 1,
+   "note": "take ~ for granted = 당연하게 여기다. 회화 필수 관용!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "lift",
+   "ko": "들어 올리다, 태워 줌",
+   "ex": "Can you help me lift this box?",
+   "exko": "이 상자 드는 것 좀 도와줄래요?",
+   "use": [
+    [
+     "Can I give you a lift?",
+     "태워 드릴까요?"
+    ],
+    [
+     "The news lifted my mood.",
+     "그 소식에 기분이 좋아졌다."
+    ]
+   ],
+   "mcq": [
+    "Lift your legs with, not back.",
+    "Lift by your legs, not your back.",
+    "Lift with your legs, not your back.",
+    "Lifting with legs your, not back."
+   ],
+   "ans": 2,
+   "note": "lift = 들다. give someone a lift = 차 태워주다(영국식 ride)!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "apart",
+   "ko": "떨어져, 따로",
+   "ex": "We live two hours apart.",
+   "exko": "우리는 두 시간 거리에 떨어져 살아요.",
+   "use": [
+    [
+     "Apart from the price, I like it.",
+     "가격만 빼면 마음에 들어요."
+    ],
+    [
+     "The machine fell apart.",
+     "기계가 산산조각 났다."
+    ]
+   ],
+   "mcq": [
+    "Apart for that, everything was fine.",
+    "Apart that, everything was fine.",
+    "Apart from that, everything was fine.",
+    "Apart of that, everything was fine."
+   ],
+   "ans": 2,
+   "note": "apart from = ~을 제외하고. of·for 아니고 from!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "excellent",
+   "ko": "훌륭한",
+   "ex": "The service was excellent.",
+   "exko": "서비스가 훌륭했어요.",
+   "use": [
+    [
+     "That's an excellent question.",
+     "아주 좋은 질문이에요."
+    ],
+    [
+     "She has excellent English skills.",
+     "그녀는 영어 실력이 뛰어나다."
+    ]
+   ],
+   "mcq": [
+    "He did an excellently job.",
+    "He did excellent a job.",
+    "He did an excellent job.",
+    "He made an excellent job."
+   ],
+   "ans": 2,
+   "note": "do an excellent job = 아주 잘 해내다. 칭찬 필수 표현!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "fully",
+   "ko": "완전히",
+   "ex": "The hotel is fully booked.",
+   "exko": "호텔이 만실이에요.",
+   "use": [
+    [
+     "I fully understand your concern.",
+     "걱정 충분히 이해합니다."
+    ],
+    [
+     "Is your phone fully charged?",
+     "폰 완충됐어요?"
+    ]
+   ],
+   "mcq": [
+    "The restaurant is fully book tonight.",
+    "The restaurant is full booked tonight.",
+    "The restaurant fully is booked tonight.",
+    "The restaurant is fully booked tonight."
+   ],
+   "ans": 3,
+   "note": "fully booked = 예약 꽉 참. fully understand = 충분히 이해하다!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "annual",
+   "ko": "연례의, 1년의",
+   "ex": "The annual meeting is in December.",
+   "exko": "연례 회의는 12월이에요.",
+   "use": [
+    [
+     "My annual salary review is next week.",
+     "연봉 협상이 다음 주다."
+    ],
+    [
+     "The festival is an annual event.",
+     "그 축제는 매년 열린다."
+    ]
+   ],
+   "mcq": [
+    "We hold an annual party for staff.",
+    "We hold an annually party for staff.",
+    "We annual hold a party for staff.",
+    "We hold annual a party for staff."
+   ],
+   "ans": 0,
+   "note": "annual(형용사) = 매년의. annually(부사) = 매년!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "audience",
+   "ko": "청중, 관객",
+   "ex": "The audience loved the show.",
+   "exko": "관객들이 공연을 정말 좋아했어요.",
+   "use": [
+    [
+     "Know your audience before you present.",
+     "발표 전에 청중을 파악하세요."
+    ],
+    [
+     "The video reached a wide audience.",
+     "그 영상은 많은 사람에게 닿았다."
+    ]
+   ],
+   "mcq": [
+    "The audiences clapped for five minute.",
+    "The audience clap for five minutes.",
+    "The audience clapped five minutes for.",
+    "The audience clapped for five minutes."
+   ],
+   "ans": 3,
+   "note": "audience = 청중 전체(집합명사). 사람 수가 많아도 보통 단수!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "reality",
+   "ko": "현실",
+   "ex": "In reality, it's much harder.",
+   "exko": "현실에선 훨씬 어려워요.",
+   "use": [
+    [
+     "Face reality — we need a new plan.",
+     "현실을 직시하세요, 새 계획이 필요해요."
+    ],
+    [
+     "Her dream became a reality.",
+     "그녀의 꿈이 현실이 됐다."
+    ]
+   ],
+   "mcq": [
+    "In the reality of, the trip was stressful.",
+    "In reality, the trip was stressful.",
+    "On reality, the trip was stressful.",
+    "At reality, the trip was stressful."
+   ],
+   "ans": 1,
+   "note": "in reality = 실제로는. 기대와 현실을 대비할 때!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "cool",
+   "ko": "시원한, 멋진, 괜찮은",
+   "ex": "That's a cool idea!",
+   "exko": "멋진 아이디어네요!",
+   "use": [
+    [
+     "Let the soup cool down.",
+     "수프를 식히세요."
+    ],
+    [
+     "Are you cool with that?",
+     "그거 괜찮아요?"
+    ]
+   ],
+   "mcq": [
+    "Are you cool at the new plan?",
+    "Are you cool of the new plan?",
+    "Are you cooled with the new plan?",
+    "Are you cool with the new plan?"
+   ],
+   "ans": 3,
+   "note": "be cool with = ~ 괜찮아요(캐주얼 OK). cool down = 식히다!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "expert",
+   "ko": "전문가",
+   "ex": "She's an expert in marketing.",
+   "exko": "그녀는 마케팅 전문가예요.",
+   "use": [
+    [
+     "Ask an expert before you decide.",
+     "결정 전에 전문가에게 물어보세요."
+    ],
+    [
+     "I'm no expert, but it looks wrong.",
+     "전문가는 아니지만 틀린 것 같아요."
+    ]
+   ],
+   "mcq": [
+    "He's an expert of data analysis.",
+    "He's expert an in data analysis.",
+    "He's an expert at data analysis for.",
+    "He's an expert in data analysis."
+   ],
+   "ans": 3,
+   "note": "an expert in + 분야. I'm no expert, but ~ = 겸손한 의견 표현!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "physical",
+   "ko": "신체의, 물리적인",
+   "ex": "I need more physical activity.",
+   "exko": "신체 활동이 더 필요해요.",
+   "use": [
+    [
+     "He's in good physical shape.",
+     "그는 몸 상태가 좋다."
+    ],
+    [
+     "We need a physical copy, not a PDF.",
+     "PDF 말고 종이본이 필요해요."
+    ]
+   ],
+   "mcq": [
+    "Physical exercise improves your mood.",
+    "Exercise physical improves your mood.",
+    "Physical exercise improve your mood.",
+    "Physically exercise improves your mood."
+   ],
+   "ans": 0,
+   "note": "physical = 몸의 / 실물의. physical copy = 인쇄본!",
+   "wk": "2026-W39"
   }
  ]
 }

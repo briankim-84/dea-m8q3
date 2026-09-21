@@ -2502,6 +2502,506 @@
    "ans": 0,
    "note": "a smart move = 현명한 조치. '단정한 옷차림'이란 뜻도!",
    "wk": "2026-W38"
+  },
+  {
+   "w": "tension",
+   "ko": "긴장, 갈등",
+   "ex": "There was tension in the room.",
+   "exko": "방 안에 긴장감이 돌았어요.",
+   "use": [
+    [
+     "Stretching releases tension in your neck.",
+     "스트레칭이 목의 긴장을 풀어준다."
+    ],
+    [
+     "There's tension between the two teams.",
+     "두 팀 사이에 갈등이 있다."
+    ]
+   ],
+   "mcq": [
+    "Tension is there the managers between.",
+    "There's tension among between the managers.",
+    "There's tension between the managers.",
+    "There's a tensions between the managers."
+   ],
+   "ans": 2,
+   "note": "tension between A and B = A와 B 사이의 긴장·갈등.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "routine",
+   "ko": "일상, 루틴",
+   "ex": "Exercise is part of my morning routine.",
+   "exko": "운동은 제 아침 루틴이에요.",
+   "use": [
+    [
+     "It was just a routine checkup.",
+     "그냥 정기 검진이었어요."
+    ],
+    [
+     "I need to break my routine.",
+     "일상에 변화가 필요해요."
+    ]
+   ],
+   "mcq": [
+    "Walking is part of my daily routine.",
+    "Walking parts of my daily routine.",
+    "Walking is part my daily routine of.",
+    "Walking is part of my daily routines of."
+   ],
+   "ans": 0,
+   "note": "daily/morning routine. 형용사로 '정기적인·일상적인'(routine checkup)!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "restore",
+   "ko": "복구하다, 회복시키다",
+   "ex": "The power was restored after an hour.",
+   "exko": "한 시간 만에 전기가 복구됐어요.",
+   "use": [
+    [
+     "We need to restore trust with the client.",
+     "고객과의 신뢰를 회복해야 한다."
+    ],
+    [
+     "They restored the old building.",
+     "그들은 옛 건물을 복원했다."
+    ]
+   ],
+   "mcq": [
+    "The team restored back the lost data again.",
+    "The team restored the lost data.",
+    "The lost data restored the team.",
+    "The team restored to the lost data."
+   ],
+   "ans": 1,
+   "note": "restore + 원래 상태로 되돌릴 대상. restore trust = 신뢰 회복!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "alter",
+   "ko": "바꾸다, 수선하다",
+   "ex": "We had to alter our plans.",
+   "exko": "계획을 바꿔야 했어요.",
+   "use": [
+    [
+     "Can you alter these pants?",
+     "이 바지 수선되나요?"
+    ],
+    [
+     "The news altered his mood.",
+     "그 소식이 그의 기분을 바꿔놓았다."
+    ]
+   ],
+   "mcq": [
+    "They altered the schedule slightly.",
+    "They altered to the schedule slightly.",
+    "They were alter the schedule slightly.",
+    "They altered on the schedule slightly."
+   ],
+   "ans": 0,
+   "note": "alter = 부분적으로 바꾸다. change보다 격식, 옷 수선에도!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "steady",
+   "ko": "꾸준한, 안정된",
+   "ex": "Sales show steady growth.",
+   "exko": "매출이 꾸준히 늘고 있어요.",
+   "use": [
+    [
+     "Keep a steady pace.",
+     "일정한 속도를 유지하세요."
+    ],
+    [
+     "She has a steady job.",
+     "그녀는 안정된 직장이 있다."
+    ]
+   ],
+   "mcq": [
+    "Steady progress we've seen this year it.",
+    "We've seen steady a progress year.",
+    "We've seen steady progress this year.",
+    "We've seen steadily progress this year."
+   ],
+   "ans": 2,
+   "note": "steady(형용사) + 명사. steadily는 부사!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "pace",
+   "ko": "속도, 페이스",
+   "ex": "Let's slow the pace a little.",
+   "exko": "속도를 조금 늦춰요.",
+   "use": [
+    [
+     "Work at your own pace.",
+     "자기 속도대로 하세요."
+    ],
+    [
+     "The pace of change is fast.",
+     "변화의 속도가 빠르다."
+    ]
+   ],
+   "mcq": [
+    "Study at your own pace.",
+    "Study in your own pace.",
+    "Study by your own pace.",
+    "Study on your own pace."
+   ],
+   "ans": 0,
+   "note": "at your own pace = 자기 속도대로. 전치사 at 고정!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "justify",
+   "ko": "정당화하다",
+   "ex": "How can you justify the cost?",
+   "exko": "그 비용을 어떻게 정당화하죠?",
+   "use": [
+    [
+     "The results justify the effort.",
+     "그 결과가 노력을 증명한다."
+    ],
+    [
+     "You don't have to justify your choice.",
+     "선택을 해명할 필요 없어요."
+    ]
+   ],
+   "mcq": [
+    "He tried to justify his decision.",
+    "He tried justifying to his decision.",
+    "He tried to justify about his decision.",
+    "He tried to justify for his decision."
+   ],
+   "ans": 0,
+   "note": "justify + 대상 바로. 명사는 justification!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "guilty",
+   "ko": "죄책감 드는, 유죄의",
+   "ex": "I feel guilty about missing the class.",
+   "exko": "수업 빠져서 죄책감이 들어요.",
+   "use": [
+    [
+     "He was found guilty.",
+     "그는 유죄 판결을 받았다."
+    ],
+    [
+     "Chocolate is my guilty pleasure.",
+     "초콜릿은 내 소소한 죄책감 있는 즐거움이다."
+    ]
+   ],
+   "mcq": [
+    "I feel guiltily about eating cake.",
+    "I feel guilt about eating cake.",
+    "I feel guilty about eating cake.",
+    "I feel guilty for eating cake about."
+   ],
+   "ans": 2,
+   "note": "feel guilty about = ~에 죄책감 느끼다. guilty pleasure는 인기 표현!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "obligation",
+   "ko": "의무",
+   "ex": "You're under no obligation to buy.",
+   "exko": "구매 의무는 전혀 없어요.",
+   "use": [
+    [
+     "I have an obligation to my team.",
+     "나는 팀에 대한 책임이 있다."
+    ],
+    [
+     "Free trial, no obligation.",
+     "무료 체험, 가입 의무 없음."
+    ]
+   ],
+   "mcq": [
+    "There's no obligation for join.",
+    "There's no obligation of joining.",
+    "There's no obligation to join.",
+    "There's not obligation to join."
+   ],
+   "ans": 2,
+   "note": "an obligation to + 동사/대상. no obligation = 부담 없음(판촉 문구)!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "evaluate",
+   "ko": "평가하다",
+   "ex": "We need to evaluate the results.",
+   "exko": "결과를 평가해야 해요.",
+   "use": [
+    [
+     "Teachers evaluate students every term.",
+     "교사는 매 학기 학생을 평가한다."
+    ],
+    [
+     "Let's evaluate our options.",
+     "선택지를 따져 봅시다."
+    ]
+   ],
+   "mcq": [
+    "We evaluated about each proposal carefully.",
+    "We evaluated to each proposal carefully.",
+    "We evaluated each proposal carefully.",
+    "Each proposal evaluated we carefully."
+   ],
+   "ans": 2,
+   "note": "evaluate + 대상 바로. assess와 비슷한 평가 동사!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "rarely",
+   "ko": "좀처럼 ~않는",
+   "ex": "I rarely eat fast food.",
+   "exko": "패스트푸드는 거의 안 먹어요.",
+   "use": [
+    [
+     "He rarely complains.",
+     "그는 좀처럼 불평하지 않는다."
+    ],
+    [
+     "We rarely see snow here.",
+     "여긴 눈이 거의 안 온다."
+    ]
+   ],
+   "mcq": [
+    "She rarely doesn't drink coffee.",
+    "She rarely drink coffee.",
+    "She doesn't rarely drink coffee.",
+    "She rarely drinks coffee."
+   ],
+   "ans": 3,
+   "note": "rarely는 이미 부정 의미 — not을 같이 쓰면 이중 부정!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "naturally",
+   "ko": "자연스럽게, 당연히",
+   "ex": "Just speak naturally.",
+   "exko": "그냥 자연스럽게 말하세요.",
+   "use": [
+    [
+     "Naturally, I said yes.",
+     "당연히 좋다고 했죠."
+    ],
+    [
+     "Her hair is naturally curly.",
+     "그녀는 원래 곱슬머리다."
+    ]
+   ],
+   "mcq": [
+    "Try to act naturally on camera.",
+    "Try to naturally act camera on.",
+    "Try to act naturalness on camera.",
+    "Try to act natural on camera naturally."
+   ],
+   "ans": 0,
+   "note": "naturally = 자연스럽게 / 당연히. 문장 앞에선 '물론'!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "badly",
+   "ko": "몹시, 서툴게",
+   "ex": "I badly need a vacation.",
+   "exko": "휴가가 너무너무 필요해요.",
+   "use": [
+    [
+     "He was badly injured.",
+     "그는 심하게 다쳤다."
+    ],
+    [
+     "The meeting went badly.",
+     "회의가 잘 안 풀렸다."
+    ]
+   ],
+   "mcq": [
+    "The project went bad badly.",
+    "The project went badness.",
+    "The project went badly.",
+    "The project badly went it."
+   ],
+   "ans": 2,
+   "note": "badly = 서툴게 / (need 앞에서) 몹시. go badly = 잘 안 되다!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "everyday",
+   "ko": "일상적인",
+   "ex": "This is good for everyday use.",
+   "exko": "일상용으로 좋아요.",
+   "use": [
+    [
+     "Learn everyday English first.",
+     "일상 영어부터 배우세요."
+    ],
+    [
+     "I walk every day.",
+     "나는 매일 걷는다."
+    ]
+   ],
+   "mcq": [
+    "These are every day expressions.",
+    "These are everydays expressions.",
+    "These are everyday expression it.",
+    "These are everyday expressions."
+   ],
+   "ans": 3,
+   "note": "everyday(붙여 씀) = 형용사 '일상적인' / every day(띄어 씀) = 매일!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "scare",
+   "ko": "겁주다",
+   "ex": "You scared me!",
+   "exko": "깜짝 놀랐잖아요!",
+   "use": [
+    [
+     "I'm scared of heights.",
+     "저는 고소공포증이 있어요."
+    ],
+    [
+     "Don't let the price scare you.",
+     "가격 보고 겁먹지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I'm scared of big dogs.",
+    "I'm scared about of big dogs.",
+    "I scare of big dogs.",
+    "I'm scary of big dogs."
+   ],
+   "ans": 0,
+   "note": "scared(무서워하는) vs scary(무섭게 하는). be scared of + 대상!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "withdraw",
+   "ko": "철회하다, 인출하다",
+   "ex": "I need to withdraw some cash.",
+   "exko": "현금 좀 뽑아야 해요.",
+   "use": [
+    [
+     "She withdrew from the competition.",
+     "그녀는 대회에서 기권했다."
+    ],
+    [
+     "They withdrew the offer.",
+     "그들이 제안을 철회했다."
+    ]
+   ],
+   "mcq": [
+    "He withdrawed from the race.",
+    "He withdrew of the race.",
+    "He withdrew from the race.",
+    "He withdrew to the race."
+   ],
+   "ans": 2,
+   "note": "withdraw from = ~에서 빠지다. withdraw-withdrew-withdrawn!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "assist",
+   "ko": "돕다",
+   "ex": "How can I assist you?",
+   "exko": "무엇을 도와드릴까요?",
+   "use": [
+    [
+     "She assisted the manager with the report.",
+     "그녀가 매니저의 보고서 작업을 도왔다."
+    ],
+    [
+     "He had two goals and one assist.",
+     "그는 2골 1도움을 기록했다."
+    ]
+   ],
+   "mcq": [
+    "She assisted me for the project with.",
+    "She assisted me with the project.",
+    "She assisted to me with the project.",
+    "She assisted with me the project."
+   ],
+   "ans": 1,
+   "note": "assist + 사람 + with + 일. help의 격식 버전!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "deeply",
+   "ko": "깊이",
+   "ex": "I'm deeply sorry.",
+   "exko": "진심으로 죄송합니다.",
+   "use": [
+    [
+     "Breathe deeply and relax.",
+     "깊게 숨 쉬고 긴장 푸세요."
+    ],
+    [
+     "She cares deeply about her students.",
+     "그녀는 학생들을 진심으로 아낀다."
+    ]
+   ],
+   "mcq": [
+    "I deep appreciate your help.",
+    "I deeply appreciate your help.",
+    "I appreciate deeply to your help.",
+    "I deeply appreciating your help."
+   ],
+   "ans": 1,
+   "note": "deeply + 감정 동사/형용사 = 진심으로. very보다 무게감!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "peer",
+   "ko": "동료, 또래",
+   "ex": "She's respected by her peers.",
+   "exko": "그녀는 동료들에게 존경받아요.",
+   "use": [
+    [
+     "Teens care about peer pressure.",
+     "십대는 또래 압박에 민감하다."
+    ],
+    [
+     "Get feedback from your peers.",
+     "동료들에게 피드백을 받으세요."
+    ]
+   ],
+   "mcq": [
+    "He learned a lot from his peers.",
+    "He learned a lot of his peers.",
+    "He learned from peers his a lot.",
+    "His peers learned a lot him from."
+   ],
+   "ans": 0,
+   "note": "peer = 같은 위치의 동료·또래. peer pressure(또래 압박)!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "input",
+   "ko": "의견, 투입",
+   "ex": "Thanks for your input.",
+   "exko": "의견 감사합니다.",
+   "use": [
+    [
+     "I'd love your input on this.",
+     "이것에 대한 의견 듣고 싶어요."
+    ],
+    [
+     "The system needs more data input.",
+     "시스템에 데이터 입력이 더 필요하다."
+    ]
+   ],
+   "mcq": [
+    "I'd appreciate your input to on the plan.",
+    "I'd appreciate an input the plan on.",
+    "I'd appreciate your input on the plan.",
+    "I'd appreciate your inputs of the plan."
+   ],
+   "ans": 2,
+   "note": "input on + 사안 = ~에 대한 의견. 회의 끝 감사 인사로 딱!",
+   "wk": "2026-W39"
   }
  ]
 }

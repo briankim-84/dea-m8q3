@@ -2502,6 +2502,506 @@
    "ans": 0,
    "note": "be concerned about = ~이 걱정되다. worried의 격식 버전!",
    "wk": "2026-W38"
+  },
+  {
+   "w": "whether",
+   "ko": "~인지 아닌지",
+   "ex": "I don't know whether he's coming.",
+   "exko": "그가 올지 안 올지 모르겠어요.",
+   "use": [
+    [
+     "Let me know whether you can join.",
+     "참석 가능한지 알려 주세요."
+    ],
+    [
+     "Whether you like it or not, we start Monday.",
+     "좋든 싫든 월요일에 시작해요."
+    ]
+   ],
+   "mcq": [
+    "I'm not sure whether to go.",
+    "I'm not sure whether go.",
+    "I'm not sure whether going.",
+    "Whether I'm not sure to go."
+   ],
+   "ans": 0,
+   "note": "whether + to부정사 / whether A or B. if와 비슷하지만 선택지가 있을 때!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "issue",
+   "ko": "문제, 사안",
+   "ex": "We have an issue with the delivery.",
+   "exko": "배송에 문제가 있어요.",
+   "use": [
+    [
+     "That's a separate issue.",
+     "그건 별개의 문제예요."
+    ],
+    [
+     "She raised an important issue.",
+     "그녀가 중요한 문제를 제기했다."
+    ]
+   ],
+   "mcq": [
+    "There's an issue with the payment.",
+    "There's an issue at the payment.",
+    "There's an issue to the payment.",
+    "The payment is an issue with."
+   ],
+   "ans": 0,
+   "note": "an issue with + 대상. problem보다 중립적 — 회사에서 더 많이 써요!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "available",
+   "ko": "시간이 되는, 구할 수 있는",
+   "ex": "Are you available on Thursday?",
+   "exko": "목요일에 시간 되세요?",
+   "use": [
+    [
+     "The room is available next week.",
+     "그 방은 다음 주에 이용 가능해요."
+    ],
+    [
+     "I'm available after 3.",
+     "3시 이후엔 괜찮아요."
+    ]
+   ],
+   "mcq": [
+    "Is the manager available now?",
+    "Is the manager avail now?",
+    "Is the manager available to now?",
+    "Now is available the manager?"
+   ],
+   "ans": 0,
+   "note": "be available = 시간·자리가 되다. 약속 잡기 필수 단어!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "market",
+   "ko": "시장",
+   "ex": "The market opens at 7 a.m.",
+   "exko": "시장은 아침 7시에 열어요.",
+   "use": [
+    [
+     "We're entering a new market next year.",
+     "내년에 새 시장에 진출해요."
+    ],
+    [
+     "There's no market for that product.",
+     "그 제품은 수요가 없어요."
+    ]
+   ],
+   "mcq": [
+    "We're entering the Asian market.",
+    "We're entering to the Asian market.",
+    "We're entering in the Asian market.",
+    "The Asian market is entering we to."
+   ],
+   "ans": 0,
+   "note": "enter a market = 시장에 진출하다. 전치사 없이 바로!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "example",
+   "ko": "예시",
+   "ex": "Can you give me an example?",
+   "exko": "예를 하나 들어주시겠어요?",
+   "use": [
+    [
+     "For example, we could start earlier.",
+     "예를 들어 더 일찍 시작할 수도 있어요."
+    ],
+    [
+     "She's a good example for the team.",
+     "그녀는 팀의 좋은 본보기다."
+    ]
+   ],
+   "mcq": [
+    "For example, try the blue one.",
+    "For example of, try the blue one.",
+    "As example, try the blue one.",
+    "Example for, try the blue one."
+   ],
+   "ans": 0,
+   "note": "for example = 예를 들어. 설명할 때 가장 자주 쓰는 연결어!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "level",
+   "ko": "수준, 단계",
+   "ex": "What's your English level?",
+   "exko": "영어 수준이 어느 정도예요?",
+   "use": [
+    [
+     "The noise level is too high.",
+     "소음 수준이 너무 높다."
+    ],
+    [
+     "Let's take it to the next level.",
+     "다음 단계로 올려봅시다."
+    ]
+   ],
+   "mcq": [
+    "My level has improved a lot.",
+    "My level has improved lots much.",
+    "My level improved has a lot.",
+    "A lot has improved my level it."
+   ],
+   "ans": 0,
+   "note": "level = 수준·단계. take it to the next level(한 단계 올리다)도 함께!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "local",
+   "ko": "지역의, 현지의",
+   "ex": "Let's try a local restaurant.",
+   "exko": "현지 식당에 가봐요.",
+   "use": [
+    [
+     "I shop at the local market.",
+     "동네 시장에서 장을 봐요."
+    ],
+    [
+     "Ask a local for directions.",
+     "현지인에게 길을 물어보세요."
+    ]
+   ],
+   "mcq": [
+    "We ate at a local restaurant.",
+    "We ate at a locally restaurant.",
+    "We ate a local at restaurant.",
+    "A local restaurant ate we at."
+   ],
+   "ans": 0,
+   "note": "local(형용사) + 명사. 명사로 '현지인'도 돼요 — ask a local!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "control",
+   "ko": "통제(하다)",
+   "ex": "I can't control the weather.",
+   "exko": "날씨는 어쩔 수 없죠.",
+   "use": [
+    [
+     "The situation is under control.",
+     "상황은 통제되고 있어요."
+    ],
+    [
+     "He lost control of the car.",
+     "그는 차 통제력을 잃었다."
+    ]
+   ],
+   "mcq": [
+    "Everything is under control.",
+    "Everything is in control now.",
+    "Everything is at control.",
+    "Under control is everything it."
+   ],
+   "ans": 0,
+   "note": "under control = 통제되는 중. 안심시킬 때 쓰는 한마디!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "price",
+   "ko": "가격",
+   "ex": "What's the price of this?",
+   "exko": "이거 가격이 얼마예요?",
+   "use": [
+    [
+     "Prices went up again.",
+     "가격이 또 올랐다."
+    ],
+    [
+     "Is the price negotiable?",
+     "가격 조정 가능한가요?"
+    ]
+   ],
+   "mcq": [
+    "The price of the ticket went up.",
+    "The price for the ticket went up.",
+    "The price ticket of went up.",
+    "The ticket price of went up it."
+   ],
+   "ans": 0,
+   "note": "the price of + 물건. price(가격) vs cost(비용) vs fee(수수료) 구분!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "view",
+   "ko": "전망, 견해",
+   "ex": "The room has a great view.",
+   "exko": "방 전망이 좋아요.",
+   "use": [
+    [
+     "In my view, we should wait.",
+     "제 견해로는 기다려야 해요."
+    ],
+    [
+     "What's your view on this?",
+     "이거 어떻게 생각하세요?"
+    ]
+   ],
+   "mcq": [
+    "In my view, it's too expensive.",
+    "On my view, it's too expensive.",
+    "At my view, it's too expensive.",
+    "My view in, it's too expensive."
+   ],
+   "ans": 0,
+   "note": "in my view = 제 생각엔. 의견 말하기 정중한 틀!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "member",
+   "ko": "구성원, 회원",
+   "ex": "I'm a member of the gym.",
+   "exko": "그 헬스장 회원이에요.",
+   "use": [
+    [
+     "Team members should arrive by 9.",
+     "팀원은 9시까지 와야 한다."
+    ],
+    [
+     "She became a member last year.",
+     "그녀는 작년에 회원이 됐다."
+    ]
+   ],
+   "mcq": [
+    "He's a member of our team.",
+    "He's a member in our team.",
+    "He's a member for our team.",
+    "Our team is a member he of."
+   ],
+   "ans": 0,
+   "note": "a member of + 단체. in/for가 아니라 of!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "large",
+   "ko": "큰",
+   "ex": "Can I get a large size?",
+   "exko": "큰 사이즈로 주시겠어요?",
+   "use": [
+    [
+     "A large number of people came.",
+     "많은 사람이 왔다."
+    ],
+    [
+     "The room is large enough for ten.",
+     "방은 열 명이 들어갈 만큼 크다."
+    ]
+   ],
+   "mcq": [
+    "A large number of students applied.",
+    "A large numbers of students applied.",
+    "A large number students of applied.",
+    "Students a large number of applied it."
+   ],
+   "ans": 0,
+   "note": "a large number of + 복수명사 = 많은. 격식 있는 many!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "term",
+   "ko": "용어, 기간, 조건",
+   "ex": "What does this term mean?",
+   "exko": "이 용어가 무슨 뜻이에요?",
+   "use": [
+    [
+     "In the long term, it'll pay off.",
+     "장기적으로는 이득이 될 거예요."
+    ],
+    [
+     "Check the terms and conditions.",
+     "약관을 확인하세요."
+    ]
+   ],
+   "mcq": [
+    "In the long term, it's worth it.",
+    "In the long terms, it's worth it.",
+    "At the long term, it's worth it.",
+    "The long term in, it's worth."
+   ],
+   "ans": 0,
+   "note": "in the long term = 장기적으로. terms(복수) = 약관·조건!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "fact",
+   "ko": "사실",
+   "ex": "That's a fact, not an opinion.",
+   "exko": "그건 의견이 아니라 사실이에요.",
+   "use": [
+    [
+     "In fact, I've already finished.",
+     "사실 이미 다 끝냈어요."
+    ],
+    [
+     "The fact is, we're out of time.",
+     "사실은 시간이 없어요."
+    ]
+   ],
+   "mcq": [
+    "In fact, I agree with you.",
+    "In the fact, I agree with you.",
+    "On fact, I agree with you.",
+    "Fact in, I agree with you."
+   ],
+   "ans": 0,
+   "note": "in fact = 사실은(앞말을 뒤집거나 강조). 회화 최빈출!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "open",
+   "ko": "열다, 열려 있는",
+   "ex": "Are you open on Sundays?",
+   "exko": "일요일에도 영업하세요?",
+   "use": [
+    [
+     "I'm open to suggestions.",
+     "제안은 언제든 환영이에요."
+    ],
+    [
+     "Open the file and check page 3.",
+     "파일 열어서 3쪽을 보세요."
+    ]
+   ],
+   "mcq": [
+    "I'm open to new ideas.",
+    "I'm open for new ideas.",
+    "I'm open of new ideas.",
+    "New ideas are open to me for."
+   ],
+   "ans": 0,
+   "note": "be open to = ~을 받아들일 자세가 된. 회의에서 아주 좋은 표현!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "until",
+   "ko": "~까지",
+   "ex": "I'll wait until 6.",
+   "exko": "6시까지 기다릴게요.",
+   "use": [
+    [
+     "The store is open until 10.",
+     "가게는 10시까지 연다."
+    ],
+    [
+     "Don't decide until you hear both sides.",
+     "양쪽 얘기를 듣기 전엔 결정하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I'll be here until Friday.",
+    "I'll be here by Friday until.",
+    "I'll be here until to Friday.",
+    "Until Friday I'll here be."
+   ],
+   "ans": 0,
+   "note": "until = 그 시점까지 계속. by(그 전까지 완료)와 구분!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "area",
+   "ko": "지역, 분야",
+   "ex": "This area is very quiet.",
+   "exko": "이 동네는 아주 조용해요.",
+   "use": [
+    [
+     "That's not my area of expertise.",
+     "그건 제 전문 분야가 아니에요."
+    ],
+    [
+     "The waiting area is on the left.",
+     "대기 구역은 왼쪽입니다."
+    ]
+   ],
+   "mcq": [
+    "That's outside my area of expertise.",
+    "That's outside my area for expertise.",
+    "That's outside area my expertise of.",
+    "My expertise area is outside that of."
+   ],
+   "ans": 0,
+   "note": "area of expertise = 전문 분야. 장소·분야 둘 다!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "service",
+   "ko": "서비스, 봉사",
+   "ex": "The service here is excellent.",
+   "exko": "여기 서비스가 훌륭해요.",
+   "use": [
+    [
+     "Customer service is our priority.",
+     "고객 서비스가 최우선이다."
+    ],
+    [
+     "Is there a delivery service?",
+     "배달 서비스 있나요?"
+    ]
+   ],
+   "mcq": [
+    "The service was slow but friendly.",
+    "The services was slow but friendly.",
+    "The service were slow but friendly.",
+    "Slow was the service but friendly it."
+   ],
+   "ans": 0,
+   "note": "service(서비스 전반)는 단수. 개별 서비스 종류는 services!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "program",
+   "ko": "프로그램, 일정",
+   "ex": "I joined a fitness program.",
+   "exko": "피트니스 프로그램에 등록했어요.",
+   "use": [
+    [
+     "The training program lasts six weeks.",
+     "교육 프로그램은 6주간이다."
+    ],
+    [
+     "What's on the program today?",
+     "오늘 일정이 뭐예요?"
+    ]
+   ],
+   "mcq": [
+    "She enrolled in a language program.",
+    "She enrolled a language program.",
+    "She enrolled at a language program.",
+    "A language program enrolled she in."
+   ],
+   "ans": 0,
+   "note": "enroll in + 프로그램. 미국식은 program, 영국식은 programme!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "today",
+   "ko": "오늘",
+   "ex": "What are we doing today?",
+   "exko": "오늘 뭐 할 거예요?",
+   "use": [
+    [
+     "Today's meeting was canceled.",
+     "오늘 회의는 취소됐다."
+    ],
+    [
+     "Today, more people work from home.",
+     "오늘날엔 더 많은 사람이 재택근무를 한다."
+    ]
+   ],
+   "mcq": [
+    "I have three meetings today.",
+    "I have three meetings in today.",
+    "I have three meetings at today.",
+    "Today I have in three meetings."
+   ],
+   "ans": 0,
+   "note": "today 앞에 전치사 금지! '오늘날'이라는 뜻으로도 써요.",
+   "wk": "2026-W39"
   }
  ]
 }

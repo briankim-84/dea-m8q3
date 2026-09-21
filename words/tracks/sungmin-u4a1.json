@@ -2502,6 +2502,506 @@
    "ans": 0,
    "note": "at the stadium = 경기장에서. arena·field와 함께!",
    "wk": "2026-W38"
+  },
+  {
+   "w": "tremendous",
+   "ko": "엄청난",
+   "ex": "She made a tremendous effort.",
+   "exko": "그녀는 엄청난 노력을 했어요.",
+   "use": [
+    [
+     "The project was a tremendous success.",
+     "그 프로젝트는 대성공이었다."
+    ],
+    [
+     "It puts tremendous pressure on teachers.",
+     "그건 교사들에게 엄청난 부담을 준다."
+    ]
+   ],
+   "mcq": [
+    "He tremendous showed courage.",
+    "He showed tremendous a courage.",
+    "He showed tremendously courage.",
+    "He showed tremendous courage."
+   ],
+   "ans": 3,
+   "note": "tremendous = huge의 감정 실린 버전. 칭찬·강조에!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "squeeze",
+   "ko": "짜다, 비집고 넣다",
+   "ex": "Can you squeeze me in tomorrow?",
+   "exko": "내일 저 좀 끼워 주실 수 있어요?",
+   "use": [
+    [
+     "Squeeze the lemon over the fish.",
+     "생선 위에 레몬을 짜세요."
+    ],
+    [
+     "We squeezed five people into the car.",
+     "차에 다섯 명이 끼어 탔다."
+    ]
+   ],
+   "mcq": [
+    "Could you squeeze in me this week?",
+    "Could you squeeze me in this week?",
+    "Could you squeezing me in this week?",
+    "Could you squeeze me into week this?"
+   ],
+   "ans": 1,
+   "note": "squeeze someone in = 빡빡한 일정에 끼워 넣다. 예약 필수 표현!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "lately",
+   "ko": "최근에",
+   "ex": "I've been busy lately.",
+   "exko": "요즘 바빴어요.",
+   "use": [
+    [
+     "Have you seen Mina lately?",
+     "요즘 미나 봤어요?"
+    ],
+    [
+     "Lately, I've been sleeping better.",
+     "최근엔 잠을 더 잘 자요."
+    ]
+   ],
+   "mcq": [
+    "I've been lately really tired ago.",
+    "I really tired lately have been.",
+    "I was really tired lately yesterday.",
+    "I've been really tired lately."
+   ],
+   "ans": 3,
+   "note": "lately는 현재완료(have been)와 짝! late(늦게)와 다른 단어.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "fake",
+   "ko": "가짜의",
+   "ex": "Is this bag fake?",
+   "exko": "이 가방 가짜예요?",
+   "use": [
+    [
+     "Don't share fake news.",
+     "가짜 뉴스를 퍼뜨리지 마세요."
+    ],
+    [
+     "He faked a smile.",
+     "그는 억지 미소를 지었다."
+    ]
+   ],
+   "mcq": [
+    "The reviews looked fake.",
+    "The reviews fake looked.",
+    "The reviews looked fakely.",
+    "The reviews looked a fake them."
+   ],
+   "ans": 0,
+   "note": "fake = 형용사·동사 둘 다. fake a smile = 억지웃음!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "fame",
+   "ko": "명성",
+   "ex": "She rose to fame at 20.",
+   "exko": "그녀는 스무 살에 유명해졌어요.",
+   "use": [
+    [
+     "Fame isn't everything.",
+     "명성이 전부는 아니다."
+    ],
+    [
+     "His claim to fame is a viral video.",
+     "그가 알려진 계기는 한 바이럴 영상이다."
+    ]
+   ],
+   "mcq": [
+    "He rose fame to quickly.",
+    "He rose to fame quickly.",
+    "He raised to fame quickly.",
+    "He rose to famous quickly."
+   ],
+   "ans": 1,
+   "note": "rise to fame = 유명해지다. claim to fame = 유명해진 이유!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "cheat",
+   "ko": "부정행위를 하다, 속이다",
+   "ex": "He was caught cheating on the test.",
+   "exko": "그는 시험에서 부정행위하다 걸렸어요.",
+   "use": [
+    [
+     "I had a cheat day on Sunday.",
+     "일요일은 치팅데이였어요."
+    ],
+    [
+     "Don't try to cheat the system.",
+     "제도를 속이려 하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "He was caught cheat on the exam.",
+    "He was caught to cheat on the exam.",
+    "He was caught cheating on the exam.",
+    "He caught cheating the exam on."
+   ],
+   "ans": 2,
+   "note": "cheat on + 시험/연인. cheat day = 식단 쉬는 날!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "handful",
+   "ko": "한 줌, 소수",
+   "ex": "Only a handful of people came.",
+   "exko": "몇 명밖에 안 왔어요.",
+   "use": [
+    [
+     "Grab a handful of nuts.",
+     "견과류 한 줌 집어요."
+    ],
+    [
+     "My son is a handful.",
+     "우리 아들은 다루기가 벅차다."
+    ]
+   ],
+   "mcq": [
+    "Only a handfuls of students passed.",
+    "Only handful a of students passed.",
+    "Only a handful students of passed.",
+    "Only a handful of students passed."
+   ],
+   "ans": 3,
+   "note": "a handful of = 소수의. 사람에게 쓰면 '감당 안 되는 아이'!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "anniversary",
+   "ko": "기념일",
+   "ex": "Today is our wedding anniversary.",
+   "exko": "오늘 결혼기념일이에요.",
+   "use": [
+    [
+     "The company celebrates its 10th anniversary.",
+     "회사가 창립 10주년을 맞는다."
+    ],
+    [
+     "What did you do for your anniversary?",
+     "기념일에 뭐 했어요?"
+    ]
+   ],
+   "mcq": [
+    "We celebrated our tenth anniversaries.",
+    "We celebrated tenth our anniversary.",
+    "We celebrated our tenth anniversary.",
+    "We celebrate our ten anniversary."
+   ],
+   "ans": 2,
+   "note": "서수 + anniversary (10th anniversary). 결혼·창립 기념 모두!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "legend",
+   "ko": "전설",
+   "ex": "He's a legend in this school.",
+   "exko": "그는 이 학교의 전설이에요.",
+   "use": [
+    [
+     "Legend has it that the castle is haunted.",
+     "전설에 따르면 그 성엔 유령이 나온다."
+    ],
+    [
+     "You're a legend for helping me!",
+     "도와줘서 정말 최고야!"
+    ]
+   ],
+   "mcq": [
+    "She's a living legend in tennis.",
+    "She's a live legend in tennis.",
+    "She's legend a living in tennis.",
+    "She's a living legends in tennis."
+   ],
+   "ans": 0,
+   "note": "a living legend = 살아있는 전설. 캐주얼 칭찬 'You're a legend!'도!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "genius",
+   "ko": "천재, 기발한",
+   "ex": "That's a genius idea!",
+   "exko": "천재적인 아이디어네요!",
+   "use": [
+    [
+     "She's a genius with numbers.",
+     "그녀는 숫자에 천재다."
+    ],
+    [
+     "Einstein was a genius.",
+     "아인슈타인은 천재였다."
+    ]
+   ],
+   "mcq": [
+    "He's a genius of solving puzzles at.",
+    "He's a geniuses at solving puzzles.",
+    "He's a genius at solving puzzles.",
+    "He's genius a at solving puzzles."
+   ],
+   "ans": 2,
+   "note": "a genius at/with = ~에 천재. 형용사처럼 'genius idea'도 회화에서 OK!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "courage",
+   "ko": "용기",
+   "ex": "It takes courage to ask for help.",
+   "exko": "도움을 청하는 데도 용기가 필요해요.",
+   "use": [
+    [
+     "She finally found the courage to speak.",
+     "그녀는 마침내 말할 용기를 냈다."
+    ],
+    [
+     "He showed great courage.",
+     "그는 큰 용기를 보였다."
+    ]
+   ],
+   "mcq": [
+    "It takes a courages to change careers.",
+    "It takes courageous to change careers.",
+    "It takes courage changing careers to.",
+    "It takes courage to change careers."
+   ],
+   "ans": 3,
+   "note": "It takes courage to + 동사. 형용사는 courageous!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "mainstream",
+   "ko": "주류의",
+   "ex": "The idea is now mainstream.",
+   "exko": "그 생각은 이제 주류가 됐어요.",
+   "use": [
+    [
+     "She prefers indie films to mainstream ones.",
+     "그녀는 주류 영화보다 독립영화를 좋아한다."
+    ],
+    [
+     "Remote work went mainstream after 2020.",
+     "2020년 이후 재택근무가 대세가 됐다."
+    ]
+   ],
+   "mcq": [
+    "Online classes mainstream became.",
+    "Online classes became main stream.",
+    "Online classes became mainstreams.",
+    "Online classes became mainstream."
+   ],
+   "ans": 3,
+   "note": "go/become mainstream = 대세가 되다. 한 단어로 붙여 써요!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "meaningful",
+   "ko": "의미 있는",
+   "ex": "I want to do meaningful work.",
+   "exko": "의미 있는 일을 하고 싶어요.",
+   "use": [
+    [
+     "We had a meaningful conversation.",
+     "의미 있는 대화를 나눴다."
+    ],
+    [
+     "Small changes can be meaningful.",
+     "작은 변화도 의미 있을 수 있다."
+    ]
+   ],
+   "mcq": [
+    "It was a meaningless full experience.",
+    "It was a meaningful experience.",
+    "It was a meaningfully experience.",
+    "It was meaningful an experience."
+   ],
+   "ans": 1,
+   "note": "meaningful ↔ meaningless. 반대말 세트로 기억!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "superior",
+   "ko": "우월한, 상사",
+   "ex": "This model is superior to the old one.",
+   "exko": "이 모델이 예전 것보다 나아요.",
+   "use": [
+    [
+     "I reported it to my superior.",
+     "상사에게 보고했다."
+    ],
+    [
+     "Don't act superior.",
+     "잘난 척하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "This product is superior to others.",
+    "This product superior is to others.",
+    "This product is superior than others.",
+    "This product is more superior than others."
+   ],
+   "ans": 0,
+   "note": "superior to — than 아니고 to! 명사로 '상사'도 돼요.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "assert",
+   "ko": "주장하다",
+   "ex": "She asserted that she was right.",
+   "exko": "그녀는 자기가 옳다고 주장했어요.",
+   "use": [
+    [
+     "Learn to assert yourself at work.",
+     "회사에서 자기 의견을 분명히 표현하는 법을 배우세요."
+    ],
+    [
+     "He asserted his innocence.",
+     "그는 결백을 주장했다."
+    ]
+   ],
+   "mcq": [
+    "You need to asserting yourself more.",
+    "You need to assert yourself more.",
+    "You need assert to yourself more.",
+    "You need to assert of yourself more."
+   ],
+   "ans": 1,
+   "note": "assert yourself = 당당하게 자기 주장을 하다. 형용사 assertive!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "mandate",
+   "ko": "명령, 의무화하다",
+   "ex": "Masks were mandated on buses.",
+   "exko": "버스에서 마스크가 의무화됐어요.",
+   "use": [
+    [
+     "The school mandated a new uniform.",
+     "학교가 새 교복을 의무화했다."
+    ],
+    [
+     "The team has a clear mandate.",
+     "팀에는 분명한 권한이 있다."
+    ]
+   ],
+   "mcq": [
+    "The law mandate regular safety checks it.",
+    "The law mandates regular safety checks.",
+    "Regular safety checks mandate the law.",
+    "The law mandates to regular safety checks."
+   ],
+   "ans": 1,
+   "note": "mandate = (공식적으로) 의무화하다·권한. 정책 뉴스 단골!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "horizon",
+   "ko": "수평선, 시야",
+   "ex": "The sun set below the horizon.",
+   "exko": "해가 수평선 아래로 졌어요.",
+   "use": [
+    [
+     "Travel broadens your horizons.",
+     "여행은 시야를 넓혀준다."
+    ],
+    [
+     "A new project is on the horizon.",
+     "새 프로젝트가 곧 시작될 예정이다."
+    ]
+   ],
+   "mcq": [
+    "Reading your horizons broadens.",
+    "Reading broadens your horizon of.",
+    "Reading broadens your horizons.",
+    "Reading broaden your horizons."
+   ],
+   "ans": 2,
+   "note": "broaden one's horizons = 시야를 넓히다. on the horizon = 곧 다가올!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "workshop",
+   "ko": "워크숍, 작업장",
+   "ex": "I'm running a workshop on Saturday.",
+   "exko": "토요일에 워크숍을 진행해요.",
+   "use": [
+    [
+     "Teachers attended a training workshop.",
+     "교사들이 연수 워크숍에 참석했다."
+    ],
+    [
+     "He fixes bikes in his workshop.",
+     "그는 작업장에서 자전거를 고친다."
+    ]
+   ],
+   "mcq": [
+    "She leaded a workshop on communication.",
+    "She led workshop a communication on.",
+    "She led a workshop of communication at.",
+    "She led a workshop on communication."
+   ],
+   "ans": 3,
+   "note": "a workshop on + 주제. lead/run a workshop = 진행하다!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "cognitive",
+   "ko": "인지의",
+   "ex": "Sleep affects cognitive performance.",
+   "exko": "수면은 인지 능력에 영향을 줘요.",
+   "use": [
+    [
+     "The game improves cognitive skills.",
+     "그 게임은 인지 능력을 키운다."
+    ],
+    [
+     "Cognitive development starts early.",
+     "인지 발달은 일찍 시작된다."
+    ]
+   ],
+   "mcq": [
+    "Reading boosts cognition skill it.",
+    "Cognitive boosts reading skills.",
+    "Reading boosts cognitive skills.",
+    "Reading boosts cognitively skills."
+   ],
+   "ans": 2,
+   "note": "cognitive = 인지의. 교육·심리 분야 핵심 형용사!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "headline",
+   "ko": "헤드라인, 표제",
+   "ex": "Did you see today's headlines?",
+   "exko": "오늘 헤드라인 봤어요?",
+   "use": [
+    [
+     "The story made headlines worldwide.",
+     "그 이야기는 전 세계 헤드라인을 장식했다."
+    ],
+    [
+     "Write a catchy headline.",
+     "눈에 띄는 제목을 쓰세요."
+    ]
+   ],
+   "mcq": [
+    "The news made headlines everywhere.",
+    "The news made headline everywhere it.",
+    "The news headlines made everywhere.",
+    "The news did headlines everywhere."
+   ],
+   "ans": 0,
+   "note": "make headlines = 대서특필되다. make가 짝!",
+   "wk": "2026-W39"
   }
  ]
 }

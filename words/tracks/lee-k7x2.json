@@ -2502,6 +2502,506 @@
    "ans": 0,
    "note": "today 앞에 전치사 금지! '오늘날'이라는 뜻으로도 써요.",
    "wk": "2026-W38"
+  },
+  {
+   "w": "remember",
+   "ko": "기억하다",
+   "ex": "Do you remember my name?",
+   "exko": "제 이름 기억하세요?",
+   "use": [
+    [
+     "I remember meeting her in Busan.",
+     "부산에서 그녀를 만났던 게 기억나요."
+    ],
+    [
+     "Remember to lock the door.",
+     "문 잠그는 거 잊지 마세요."
+    ]
+   ],
+   "mcq": [
+    "Remember to call me tomorrow.",
+    "Remember for calling me tomorrow.",
+    "Remember calling me tomorrow.",
+    "Remember call me tomorrow."
+   ],
+   "ans": 0,
+   "note": "remember to 동사 = (앞으로) 잊지 말고 하다 / remember -ing = (과거에) 한 걸 기억하다.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "wait",
+   "ko": "기다리다",
+   "ex": "Can you wait for me?",
+   "exko": "저 좀 기다려 줄래요?",
+   "use": [
+    [
+     "I can't wait to see you!",
+     "빨리 보고 싶어요!"
+    ],
+    [
+     "We waited for the bus for 20 minutes.",
+     "버스를 20분 기다렸다."
+    ]
+   ],
+   "mcq": [
+    "I'm waiting at my friend.",
+    "I'm waiting to my friend.",
+    "I'm waiting my friend.",
+    "I'm waiting for my friend."
+   ],
+   "ans": 3,
+   "note": "wait for + 대상 — for 필수! 'wait my friend'가 최다 오류.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "involve",
+   "ko": "포함하다, 관련시키다",
+   "ex": "The job involves a lot of travel.",
+   "exko": "그 일은 출장이 많아요.",
+   "use": [
+    [
+     "I don't want to get involved.",
+     "엮이고 싶지 않아요."
+    ],
+    [
+     "The plan involves three steps.",
+     "그 계획은 3단계로 되어 있다."
+    ]
+   ],
+   "mcq": [
+    "The job is involve meeting customers.",
+    "The job involves meet customers.",
+    "The job involves meeting customers.",
+    "The job involves to meet customers."
+   ],
+   "ans": 2,
+   "note": "involve + -ing! get involved in = ~에 참여하다·엮이다.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "require",
+   "ko": "필요로 하다, 요구하다",
+   "ex": "This job requires English.",
+   "exko": "이 일은 영어가 필요해요.",
+   "use": [
+    [
+     "A passport is required.",
+     "여권이 필요합니다."
+    ],
+    [
+     "The course requires two hours a week.",
+     "그 과정은 주 2시간이 필요하다."
+    ]
+   ],
+   "mcq": [
+    "All guests are required to show ID.",
+    "All guests are required showing ID.",
+    "All guests are required show ID.",
+    "All guests require to show ID."
+   ],
+   "ans": 0,
+   "note": "be required to + 동사 = ~해야 한다. need의 격식 버전!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "appear",
+   "ko": "나타나다, ~인 것 같다",
+   "ex": "He appears to be tired.",
+   "exko": "그는 피곤해 보여요.",
+   "use": [
+    [
+     "A message appeared on the screen.",
+     "화면에 메시지가 떴다."
+    ],
+    [
+     "It appears that the store is closed.",
+     "가게가 문을 닫은 것 같다."
+    ]
+   ],
+   "mcq": [
+    "She appears being happy.",
+    "She appears to happy.",
+    "She appears to be happy.",
+    "She is appear happy."
+   ],
+   "ans": 2,
+   "note": "appear to be + 형용사 = ~인 것 같다. seem과 같은 틀!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "create",
+   "ko": "만들다, 창출하다",
+   "ex": "She created her own website.",
+   "exko": "그녀가 직접 웹사이트를 만들었어요.",
+   "use": [
+    [
+     "The factory created 200 jobs.",
+     "그 공장이 일자리 200개를 만들었다."
+    ],
+    [
+     "Let's create a new plan.",
+     "새 계획을 짜봅시다."
+    ]
+   ],
+   "mcq": [
+    "The new policy creates to many problems.",
+    "The new policy created up many problems.",
+    "The new policy was create many problems.",
+    "The new policy created many problems."
+   ],
+   "ans": 3,
+   "note": "create = 없던 걸 새로 만들다. make보다 '창작·창출' 느낌!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "develop",
+   "ko": "개발하다, 발전하다",
+   "ex": "We developed a new app.",
+   "exko": "새 앱을 개발했어요.",
+   "use": [
+    [
+     "She developed good habits.",
+     "그녀는 좋은 습관을 길렀다."
+    ],
+    [
+     "The city has developed a lot.",
+     "그 도시는 많이 발전했다."
+    ]
+   ],
+   "mcq": [
+    "He developed of a strong interest.",
+    "He was develop a strong interest.",
+    "He developed to a strong interest in art.",
+    "He developed a strong interest in art."
+   ],
+   "ans": 3,
+   "note": "develop + 기술·습관·관심 = 기르다. 제품 개발에도!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "figure",
+   "ko": "알아내다, 수치, 인물",
+   "ex": "I can't figure out this problem.",
+   "exko": "이 문제를 도저히 모르겠어요.",
+   "use": [
+    [
+     "The sales figures look good.",
+     "매출 수치가 좋아 보인다."
+    ],
+    [
+     "Let me figure it out.",
+     "제가 알아볼게요."
+    ]
+   ],
+   "mcq": [
+    "I finally figured on the answer.",
+    "I finally figured out the answer.",
+    "I finally was figure out the answer.",
+    "I finally figured the answer out it."
+   ],
+   "ans": 1,
+   "note": "figure out = 알아내다, 이해하다. 회화 최빈출 구동사!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "matter",
+   "ko": "중요하다, 문제",
+   "ex": "It doesn't matter.",
+   "exko": "상관없어요.",
+   "use": [
+    [
+     "What's the matter?",
+     "무슨 일이에요?"
+    ],
+    [
+     "Your opinion matters to us.",
+     "당신 의견이 우리에게 중요해요."
+    ]
+   ],
+   "mcq": [
+    "It not matter to me.",
+    "It doesn't matters to me.",
+    "It isn't matter to me.",
+    "It doesn't matter to me."
+   ],
+   "ans": 3,
+   "note": "matter는 동사 '중요하다'! It doesn't matter = 상관없어요.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "mind",
+   "ko": "꺼리다, 마음",
+   "ex": "Do you mind if I sit here?",
+   "exko": "여기 앉아도 될까요?",
+   "use": [
+    [
+     "I don't mind waiting.",
+     "기다리는 거 괜찮아요."
+    ],
+    [
+     "Never mind — I found it.",
+     "신경 쓰지 마세요, 찾았어요."
+    ]
+   ],
+   "mcq": [
+    "Would you mind for closing the window?",
+    "Would you mind closing the window?",
+    "Would you mind close the window?",
+    "Would you mind to close the window?"
+   ],
+   "ans": 1,
+   "note": "mind + -ing! 'Would you mind to'는 오류. 대답 'No'가 '괜찮아요'!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "break",
+   "ko": "휴식, 깨다",
+   "ex": "Let's take a break.",
+   "exko": "잠깐 쉬어요.",
+   "use": [
+    [
+     "I broke my phone screen.",
+     "폰 액정을 깨뜨렸다."
+    ],
+    [
+     "Don't break your promise.",
+     "약속 깨지 마세요."
+    ]
+   ],
+   "mcq": [
+    "Let's take a ten-minute break.",
+    "Let's take ten-minute break.",
+    "Let's have ten-minute a break.",
+    "Let's take a ten-minutes break."
+   ],
+   "ans": 0,
+   "note": "take a break = 쉬다. 숫자+명사 형용사는 단수(ten-minute)!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "clear",
+   "ko": "분명한, 치우다",
+   "ex": "Is that clear?",
+   "exko": "이해됐나요?",
+   "use": [
+    [
+     "Let me make it clear.",
+     "분명히 말씀드릴게요."
+    ],
+    [
+     "Can you clear the table?",
+     "식탁 좀 치워 줄래요?"
+    ]
+   ],
+   "mcq": [
+    "Let me make it clear.",
+    "Let me make clear it.",
+    "Let me clear make it.",
+    "Let me make it clearly."
+   ],
+   "ans": 0,
+   "note": "make it clear = 분명히 하다. 목적어 뒤엔 형용사 clear!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "answer",
+   "ko": "대답(하다), 받다",
+   "ex": "Please answer the question.",
+   "exko": "질문에 답해 주세요.",
+   "use": [
+    [
+     "Nobody answered the phone.",
+     "아무도 전화를 안 받았다."
+    ],
+    [
+     "I don't know the answer.",
+     "답을 모르겠어요."
+    ]
+   ],
+   "mcq": [
+    "She didn't answer for my email.",
+    "She didn't answer my email.",
+    "She didn't answered my email.",
+    "She didn't answer to my email."
+   ],
+   "ans": 1,
+   "note": "answer + 대상 바로! reply to와 달리 to 없어요.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "stay",
+   "ko": "머무르다, 유지하다",
+   "ex": "How long will you stay?",
+   "exko": "얼마나 머무르실 거예요?",
+   "use": [
+    [
+     "Stay calm and wait.",
+     "침착하게 기다리세요."
+    ],
+    [
+     "We stayed at a small hotel.",
+     "작은 호텔에 묵었다."
+    ]
+   ],
+   "mcq": [
+    "We were stay at my aunt's house.",
+    "We stayed at my aunt's house.",
+    "We stayed my aunt's house.",
+    "We stayed to my aunt's house."
+   ],
+   "ans": 1,
+   "note": "stay at + 장소. stay + 형용사(stay calm) = ~한 상태 유지!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "stop",
+   "ko": "멈추다, 그만하다",
+   "ex": "Stop the car here, please.",
+   "exko": "여기서 세워 주세요.",
+   "use": [
+    [
+     "I stopped drinking coffee.",
+     "커피를 끊었어요."
+    ],
+    [
+     "He stopped to buy water.",
+     "그는 물 사려고 멈췄다."
+    ]
+   ],
+   "mcq": [
+    "I stopped eating late at night.",
+    "I stopped eat late at night.",
+    "I stopped to eat late at night habit.",
+    "I was stop eating late at night."
+   ],
+   "ans": 0,
+   "note": "stop -ing = ~을 그만두다 / stop to 동사 = ~하려고 멈추다. 뜻이 달라요!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "note",
+   "ko": "메모, 주목하다",
+   "ex": "Let me take a note.",
+   "exko": "메모할게요.",
+   "use": [
+    [
+     "Please note the new address.",
+     "새 주소를 참고해 주세요."
+    ],
+    [
+     "I left a note on your desk.",
+     "책상에 쪽지 남겼어요."
+    ]
+   ],
+   "mcq": [
+    "Please noting that the office closed.",
+    "Please note about the office is closed.",
+    "Please note that the office is closed.",
+    "Please note to the office is closed."
+   ],
+   "ans": 2,
+   "note": "Please note that ~ = ~을 참고하세요. 공지·이메일 표준!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "sort",
+   "ko": "종류, 정리하다",
+   "ex": "What sort of music do you like?",
+   "exko": "어떤 음악 좋아해요?",
+   "use": [
+    [
+     "I'll sort it out.",
+     "제가 해결할게요."
+    ],
+    [
+     "It's sort of difficult.",
+     "좀 어려운 편이에요."
+    ]
+   ],
+   "mcq": [
+    "Don't worry, I'll sort it out.",
+    "Don't worry, I'll sorting it out.",
+    "Don't worry, I'll sort it of.",
+    "Don't worry, I'll sort out it."
+   ],
+   "ans": 0,
+   "note": "sort it out = 해결하다(대명사는 가운데!). sort of = 약간, 좀.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "soon",
+   "ko": "곧",
+   "ex": "See you soon!",
+   "exko": "곧 봐요!",
+   "use": [
+    [
+     "The package will arrive soon.",
+     "택배가 곧 도착할 거예요."
+    ],
+    [
+     "As soon as I get home, I'll call you.",
+     "집에 도착하자마자 전화할게요."
+    ]
+   ],
+   "mcq": [
+    "Call me soon as you arrive.",
+    "Call me as soon as you will arrive.",
+    "Call me as soon as you arrive.",
+    "Call me as soon you arrive."
+   ],
+   "ans": 2,
+   "note": "as soon as + 현재형 = ~하자마자. 미래라도 will 안 써요!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "easy",
+   "ko": "쉬운",
+   "ex": "This recipe is really easy.",
+   "exko": "이 레시피 정말 쉬워요.",
+   "use": [
+    [
+     "Take it easy!",
+     "쉬엄쉬엄 해요!"
+    ],
+    [
+     "It's easy to use.",
+     "사용하기 쉬워요."
+    ]
+   ],
+   "mcq": [
+    "It's easy for learn.",
+    "It's easily to learn.",
+    "It's easy to learn.",
+    "It's easy learning to."
+   ],
+   "ans": 2,
+   "note": "It's easy to + 동사. Take it easy = 무리하지 마!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "free",
+   "ko": "무료의, 한가한",
+   "ex": "Are you free this weekend?",
+   "exko": "이번 주말에 시간 돼요?",
+   "use": [
+    [
+     "The coffee is free.",
+     "커피는 무료예요."
+    ],
+    [
+     "Feel free to ask questions.",
+     "편하게 질문하세요."
+    ]
+   ],
+   "mcq": [
+    "Feel freely to contact me.",
+    "Feel free to contact me.",
+    "Feel free contacting me.",
+    "Feel free for contact me."
+   ],
+   "ans": 1,
+   "note": "Feel free to + 동사 = 편하게 ~하세요. free = 무료 / 시간 있는!",
+   "wk": "2026-W39"
   }
  ]
 }

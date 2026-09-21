@@ -1,0 +1,257 @@
+{
+ "week": "2026-W39",
+ "label": "9월 21일 주",
+ "levels": {
+  "warmup": {
+   "cards": [
+    {
+     "expr": "That makes sense",
+     "ko": "그렇겠네요, 이해돼요",
+     "ex": "Oh, the train was delayed? That makes sense."
+    },
+    {
+     "expr": "📘 단어: struggle / progress",
+     "ko": "애쓰다·고생하다 / 진전",
+     "ex": "I'm struggling with this report. → But I'm making progress! (struggle with + 대상, make progress = 진전을 보이다)"
+    },
+    {
+     "expr": "I know, right?",
+     "ko": "그러니까요! (맞장구)",
+     "ex": "This place is amazing! — I know, right?"
+    },
+    {
+     "expr": "📘 단어: slightly / entire",
+     "ko": "약간 / 전체의, 온",
+     "ex": "I'm slightly nervous. → I spent the entire day on it. (slightly + 형용사, the entire + 명사)"
+    },
+    {
+     "expr": "Good for you!",
+     "ko": "잘됐다!, 잘했어요!",
+     "ex": "I finally quit smoking. — Good for you!"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "So the meeting moved to Friday? Oh, that ___ .",
+     "options": [
+      "makes sense",
+      "is sense",
+      "makes senses",
+      "makes a sense"
+     ],
+     "answer": 0,
+     "note": "That makes sense = 이해돼요. sense에 a·s 붙이지 않아요!"
+    },
+    {
+     "q": "I'm really ___ with this report — it's taking forever.",
+     "options": [
+      "struggle",
+      "struggled to",
+      "struggles",
+      "struggling"
+     ],
+     "answer": 3,
+     "note": "be struggling with + 대상 = ~ 때문에 고생 중이다."
+    },
+    {
+     "q": "This coffee is so good! — I know, ___ ?",
+     "options": [
+      "true",
+      "right",
+      "so",
+      "yes"
+     ],
+     "answer": 1,
+     "note": "I know, right? = 그러니까! 동의하며 맞장구치는 원어민 리액션."
+    },
+    {
+     "q": "I'm ___ nervous about the interview tomorrow.",
+     "options": [
+      "slightly",
+      "slight",
+      "slightest",
+      "slighted"
+     ],
+     "answer": 0,
+     "note": "slightly(부사) + 형용사. a little의 세련된 버전!"
+    },
+    {
+     "q": "I passed my driving test! — ___ !",
+     "options": [
+      "Nice for you",
+      "Good with you",
+      "Good for you",
+      "Good to you"
+     ],
+     "answer": 2,
+     "note": "Good for you! = 잘됐다! 상대의 성취를 축하하는 한마디."
+    }
+   ]
+  },
+  "intermediate": {
+   "cards": [
+    {
+     "expr": "If you ask me, ~",
+     "ko": "제 생각을 묻는다면",
+     "ex": "If you ask me, we should wait a week."
+    },
+    {
+     "expr": "📘 단어: overall / apparent",
+     "ko": "전반적으로 / 명백한",
+     "ex": "Overall, it went well. → It's apparent that she's tired. (It's apparent that + 문장)"
+    },
+    {
+     "expr": "To be fair, ~",
+     "ko": "공정하게 말하면",
+     "ex": "To be fair, he did warn us."
+    },
+    {
+     "expr": "📘 단어: eventually / contrast",
+     "ko": "결국 / 대조",
+     "ex": "We argued, but eventually agreed. → In contrast, the old plan was cheaper. (in contrast = 그에 반해)"
+    },
+    {
+     "expr": "I see where you're coming from",
+     "ko": "왜 그렇게 생각하는지 알겠어요",
+     "ex": "I see where you're coming from, but I still disagree."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ , the plan is too expensive.",
+     "options": [
+      "When you ask me",
+      "If you ask to me",
+      "If you asked me to",
+      "If you ask me"
+     ],
+     "answer": 3,
+     "note": "If you ask me = 제 생각엔. 의견을 부드럽게 꺼내는 틀."
+    },
+    {
+     "q": "___ , the event went really well.",
+     "options": [
+      "In overall",
+      "All over",
+      "Overally",
+      "Overall"
+     ],
+     "answer": 3,
+     "note": "Overall, ~ = 전반적으로. 요약·평가 첫마디!"
+    },
+    {
+     "q": "___ , he did tell us about the delay.",
+     "options": [
+      "To being fair",
+      "For fair",
+      "To be fair",
+      "Being fairly"
+     ],
+     "answer": 2,
+     "note": "To be fair = 공정하게 말하면. 상대 편을 들어줄 때."
+    },
+    {
+     "q": "We argued for hours, but ___ we found a solution.",
+     "options": [
+      "at eventually",
+      "eventually",
+      "eventual",
+      "in eventually"
+     ],
+     "answer": 1,
+     "note": "eventually = (시간이 걸려) 결국. '이벤트'와 무관한 단어예요!"
+    },
+    {
+     "q": "I ___ where you're coming from, but I still think it's risky.",
+     "options": [
+      "see",
+      "watch",
+      "look",
+      "know it"
+     ],
+     "answer": 0,
+     "note": "I see where you're coming from = 상대 관점을 인정하는 최고의 쿠션."
+    }
+   ]
+  },
+  "challenge": {
+   "cards": [
+    {
+     "expr": "I'm not gonna lie, ~",
+     "ko": "솔직히 말하면",
+     "ex": "I'm not gonna lie, I was a bit disappointed."
+    },
+    {
+     "expr": "📘 단어: perceive / perception",
+     "ko": "인식하다 / 인식",
+     "ex": "People perceive him as cold. → First impressions shape perception. (perceive A as B = A를 B로 보다)"
+    },
+    {
+     "expr": "That's a fair point",
+     "ko": "일리 있는 말이네요",
+     "ex": "That's a fair point — I hadn't thought of that."
+    },
+    {
+     "expr": "📘 단어: vital / constantly",
+     "ko": "필수적인 / 끊임없이",
+     "ex": "Sleep is vital for recovery. → He's constantly on his phone. (vital for + 대상)"
+    },
+    {
+     "expr": "Let's agree to disagree",
+     "ko": "서로 생각이 다른 걸로 합시다",
+     "ex": "We won't settle this today — let's agree to disagree."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ , the food was just okay.",
+     "hint": "솔직히 말하면 (gonna 포함)",
+     "accept": [
+      "i'm not gonna lie",
+      "im not gonna lie",
+      "i am not gonna lie",
+      "i'm not going to lie",
+      "i am not going to lie"
+     ],
+     "note": "I'm not gonna lie = 솔직히. 원어민 회화 단골 도입부!"
+    },
+    {
+     "q": "People ___ him as arrogant, but he's actually just shy.",
+     "hint": "~로 인식하다 (동사 한 단어)",
+     "accept": [
+      "perceive",
+      "perceived"
+     ],
+     "note": "perceive A as B = A를 B로 보다. see의 격식 버전."
+    },
+    {
+     "q": "___ — I hadn't thought about the cost.",
+     "hint": "일리 있는 말이네요 (fair 포함)",
+     "accept": [
+      "that's a fair point",
+      "thats a fair point",
+      "that is a fair point",
+      "fair point"
+     ],
+     "note": "That's a fair point = 반박 전에 상대를 인정하는 문장."
+    },
+    {
+     "q": "Good sleep is ___ for muscle recovery.",
+     "hint": "필수적인, 매우 중요한 (v로 시작)",
+     "accept": [
+      "vital"
+     ],
+     "note": "vital for + 대상 = ~에 필수적인. important보다 강해요!"
+    },
+    {
+     "q": "We clearly won't settle this today — let's ___ .",
+     "hint": "서로 다른 의견을 인정하자 (agree 포함)",
+     "accept": [
+      "agree to disagree"
+     ],
+     "note": "agree to disagree = 합의 없이 평화롭게 마무리하는 표현."
+    }
+   ]
+  }
+ }
+}
