@@ -1,0 +1,507 @@
+{
+ "student": "Inyoung",
+ "folder": "inyoung-s6h2",
+ "band": "상급 잔여 + 심화 4000",
+ "words": [
+  {
+   "w": "significantly",
+   "ko": "상당히, 크게",
+   "ex": "Sales increased significantly this year.",
+   "exko": "올해 매출이 크게 늘었어요.",
+   "use": [
+    [
+     "The new method significantly reduced errors.",
+     "새 방법이 오류를 크게 줄였다."
+    ],
+    [
+     "Prices vary significantly by region.",
+     "가격이 지역마다 상당히 다르다."
+    ]
+   ],
+   "mcq": [
+    "Costs significantly were drop.",
+    "Costs dropped with significantly.",
+    "Costs dropped significant last month.",
+    "Costs dropped significantly last month."
+   ],
+   "ans": 3,
+   "note": "동사를 꾸미는 부사 — significant(형용사)와 구분!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "specifically",
+   "ko": "구체적으로, 특별히",
+   "ex": "I specifically asked for a window seat.",
+   "exko": "제가 분명히 창가 자리를 요청했는데요.",
+   "use": [
+    [
+     "This app was designed specifically for beginners.",
+     "이 앱은 초보자 전용으로 설계됐다."
+    ],
+    [
+     "What specifically do you need?",
+     "구체적으로 뭐가 필요하세요?"
+    ]
+   ],
+   "mcq": [
+    "This course is specifically for nurses.",
+    "Specifically course is for nurses.",
+    "This course specifics for nurses.",
+    "This course is specific for nurses only made."
+   ],
+   "ans": 0,
+   "note": "specifically for = ~을 위해 특별히. 강조할 때 아주 유용!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "sufficient",
+   "ko": "충분한",
+   "ex": "We have sufficient time to prepare.",
+   "exko": "준비할 시간은 충분해요.",
+   "use": [
+    [
+     "One example is sufficient.",
+     "예시 하나면 충분합니다."
+    ],
+    [
+     "The evidence wasn't sufficient to prove it.",
+     "그걸 입증하기엔 증거가 부족했다."
+    ]
+   ],
+   "mcq": [
+    "The budget is sufficient for the project.",
+    "The budget is sufficient to the project.",
+    "The budget sufficients the project.",
+    "The budget is sufficiently for project."
+   ],
+   "ans": 0,
+   "note": "sufficient for + 명사 / sufficient to + 동사. enough의 격식 버전!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "framework",
+   "ko": "틀, 체계",
+   "ex": "We need a clear framework for decisions.",
+   "exko": "결정을 위한 명확한 틀이 필요해요.",
+   "use": [
+    [
+     "The legal framework is complicated.",
+     "법적 체계가 복잡하다."
+    ],
+    [
+     "This framework helps organize ideas.",
+     "이 틀이 아이디어 정리를 돕는다."
+    ]
+   ],
+   "mcq": [
+    "The analysis built a framework we for.",
+    "We built framework a the analysis for.",
+    "We built a framework for the analysis.",
+    "We built a framework to the analysis."
+   ],
+   "ans": 2,
+   "note": "a framework for + 목적. 전략·분석 문서 단골!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "emphasis",
+   "ko": "강조, 중점",
+   "ex": "The emphasis is on quality, not speed.",
+   "exko": "중점은 속도가 아니라 품질이에요.",
+   "use": [
+    [
+     "She put emphasis on teamwork.",
+     "그녀는 팀워크를 강조했다."
+    ],
+    [
+     "The course places emphasis on speaking.",
+     "그 과정은 말하기에 중점을 둔다."
+    ]
+   ],
+   "mcq": [
+    "We place emphasis at customer care.",
+    "Customer care places emphasis we on.",
+    "We place emphasis to customer care.",
+    "We place emphasis on customer care."
+   ],
+   "ans": 3,
+   "note": "place/put emphasis on = ~을 강조하다. 동사는 emphasize!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "equivalent",
+   "ko": "동등한, 상응하는",
+   "ex": "That's equivalent to two days' work.",
+   "exko": "그건 이틀 일한 것과 맞먹어요.",
+   "use": [
+    [
+     "Is there an equivalent word in Korean?",
+     "한국어에 대응하는 단어가 있나요?"
+    ],
+    [
+     "A degree equivalent to a master's.",
+     "석사에 상응하는 학위."
+    ]
+   ],
+   "mcq": [
+    "This is equivalent with 10 dollars.",
+    "This is equivalent of 10 dollars.",
+    "This is equivalent to 10 dollars.",
+    "10 dollars is equivalent this to."
+   ],
+   "ans": 2,
+   "note": "equivalent to — to 필수! same as의 격식 버전.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "virtually",
+   "ko": "사실상, 거의",
+   "ex": "The work is virtually finished.",
+   "exko": "작업은 사실상 끝났어요.",
+   "use": [
+    [
+     "It's virtually impossible to book now.",
+     "지금 예약하는 건 거의 불가능하다."
+    ],
+    [
+     "We meet virtually every Monday.",
+     "매주 월요일 화상으로 만나요."
+    ]
+   ],
+   "mcq": [
+    "Virtually the plan complete is.",
+    "The plan is virtual complete.",
+    "The plan is virtually complete.",
+    "The plan virtually is complete it."
+   ],
+   "ans": 2,
+   "note": "virtually = 거의·사실상 / 온라인으로. 두 뜻 다 자주 써요!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "numerous",
+   "ko": "수많은",
+   "ex": "We received numerous complaints.",
+   "exko": "수많은 불만이 접수됐어요.",
+   "use": [
+    [
+     "There are numerous ways to do this.",
+     "이걸 하는 방법은 여러 가지다."
+    ],
+    [
+     "She's won numerous awards.",
+     "그녀는 수많은 상을 받았다."
+    ]
+   ],
+   "mcq": [
+    "Numerous studies support this idea.",
+    "This idea numerous studies support it.",
+    "Numerous study supports this idea.",
+    "Numerous of studies support this."
+   ],
+   "ans": 0,
+   "note": "numerous + 복수명사. many의 격식 버전 — 보고서에 딱!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "evaluate",
+   "ko": "평가하다",
+   "ex": "We need to evaluate the results.",
+   "exko": "결과를 평가해야 해요.",
+   "use": [
+    [
+     "Teachers evaluate students every term.",
+     "교사는 매 학기 학생을 평가한다."
+    ],
+    [
+     "Let's evaluate our options.",
+     "선택지를 따져 봅시다."
+    ]
+   ],
+   "mcq": [
+    "We evaluated to each proposal carefully.",
+    "We evaluated about each proposal carefully.",
+    "We evaluated each proposal carefully.",
+    "Each proposal evaluated we carefully."
+   ],
+   "ans": 2,
+   "note": "evaluate + 대상 바로. assess와 비슷한 평가 동사!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "justify",
+   "ko": "정당화하다",
+   "ex": "How can you justify the cost?",
+   "exko": "그 비용을 어떻게 정당화하죠?",
+   "use": [
+    [
+     "The results justify the effort.",
+     "그 결과가 노력을 증명한다."
+    ],
+    [
+     "You don't have to justify your choice.",
+     "선택을 해명할 필요 없어요."
+    ]
+   ],
+   "mcq": [
+    "He tried to justify for his decision.",
+    "He tried justifying to his decision.",
+    "He tried to justify his decision.",
+    "He tried to justify about his decision."
+   ],
+   "ans": 2,
+   "note": "justify + 대상 바로. 명사는 justification!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "precisely",
+   "ko": "정확히",
+   "ex": "The parts must fit precisely.",
+   "exko": "부품이 정확히 맞아야 해요.",
+   "use": [
+    [
+     "Cut the panel precisely to size.",
+     "패널을 치수대로 정확히 자르세요."
+    ],
+    [
+     "That's precisely why we double-check.",
+     "바로 그래서 우리가 재확인하는 거예요."
+    ]
+   ],
+   "mcq": [
+    "The frames align precise them.",
+    "Align the frames precisely.",
+    "Align the frames precise.",
+    "Align precisely frames the."
+   ],
+   "ans": 1,
+   "note": "precisely(부사)가 동사를 꾸며요. 시공 품질 얘기에 딱!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "cognitive",
+   "ko": "인지의",
+   "ex": "Sleep affects cognitive performance.",
+   "exko": "수면은 인지 능력에 영향을 줘요.",
+   "use": [
+    [
+     "The game improves cognitive skills.",
+     "그 게임은 인지 능력을 키운다."
+    ],
+    [
+     "Cognitive development starts early.",
+     "인지 발달은 일찍 시작된다."
+    ]
+   ],
+   "mcq": [
+    "Reading boosts cognitively skills.",
+    "Cognitive boosts reading skills.",
+    "Reading boosts cognition skill it.",
+    "Reading boosts cognitive skills."
+   ],
+   "ans": 3,
+   "note": "cognitive = 인지의. 교육·심리 분야 핵심 형용사!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "assert",
+   "ko": "주장하다",
+   "ex": "She asserted that she was right.",
+   "exko": "그녀는 자기가 옳다고 주장했어요.",
+   "use": [
+    [
+     "Learn to assert yourself at work.",
+     "회사에서 자기 의견을 분명히 표현하는 법을 배우세요."
+    ],
+    [
+     "He asserted his innocence.",
+     "그는 결백을 주장했다."
+    ]
+   ],
+   "mcq": [
+    "You need to asserting yourself more.",
+    "You need to assert of yourself more.",
+    "You need to assert yourself more.",
+    "You need assert to yourself more."
+   ],
+   "ans": 2,
+   "note": "assert yourself = 당당하게 자기 주장을 하다. 형용사 assertive!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "meaningful",
+   "ko": "의미 있는",
+   "ex": "I want to do meaningful work.",
+   "exko": "의미 있는 일을 하고 싶어요.",
+   "use": [
+    [
+     "We had a meaningful conversation.",
+     "의미 있는 대화를 나눴다."
+    ],
+    [
+     "Small changes can be meaningful.",
+     "작은 변화도 의미 있을 수 있다."
+    ]
+   ],
+   "mcq": [
+    "It was meaningful an experience.",
+    "It was a meaningfully experience.",
+    "It was a meaningful experience.",
+    "It was a meaningless full experience."
+   ],
+   "ans": 2,
+   "note": "meaningful ↔ meaningless. 반대말 세트로 기억!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "tremendous",
+   "ko": "엄청난",
+   "ex": "She made a tremendous effort.",
+   "exko": "그녀는 엄청난 노력을 했어요.",
+   "use": [
+    [
+     "The project was a tremendous success.",
+     "그 프로젝트는 대성공이었다."
+    ],
+    [
+     "It puts tremendous pressure on teachers.",
+     "그건 교사들에게 엄청난 부담을 준다."
+    ]
+   ],
+   "mcq": [
+    "He showed tremendous courage.",
+    "He showed tremendously courage.",
+    "He showed tremendous a courage.",
+    "He tremendous showed courage."
+   ],
+   "ans": 0,
+   "note": "tremendous = huge의 감정 실린 버전. 칭찬·강조에!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "legitimate",
+   "ko": "정당한, 합법적인",
+   "ex": "That's a legitimate concern.",
+   "exko": "그건 타당한 우려예요.",
+   "use": [
+    [
+     "Is this a legitimate website?",
+     "이거 정식 사이트 맞아요?"
+    ],
+    [
+     "She has a legitimate reason to complain.",
+     "그녀가 불만을 가질 정당한 이유가 있다."
+    ]
+   ],
+   "mcq": [
+    "He raised a legitimate question.",
+    "He raised a legitimately question.",
+    "He raised legitimate a question.",
+    "A question raised he legitimate."
+   ],
+   "ans": 0,
+   "note": "legitimate = 정당한·합법적인. 회의에서 반대 의견을 인정할 때 세련된 단어!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "utilize",
+   "ko": "활용하다",
+   "ex": "We utilize visual aids in every lesson.",
+   "exko": "저희는 모든 수업에 시각 자료를 활용해요.",
+   "use": [
+    [
+     "The app utilizes AI to adjust difficulty.",
+     "그 앱은 AI를 활용해 난이도를 조절한다."
+    ],
+    [
+     "Utilize your strengths in the interview.",
+     "면접에서 당신의 강점을 활용하세요."
+    ]
+   ],
+   "mcq": [
+    "Teachers utilize games to engage students.",
+    "Teachers utilize of games to engage.",
+    "Teachers utilizes game for engaging.",
+    "Games utilize teachers to engagement."
+   ],
+   "ans": 0,
+   "note": "utilize = use의 격식 버전. 보고서·계획서에서 빛나는 단어!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "subtle",
+   "ko": "미묘한, 은은한",
+   "ex": "There's a subtle difference between the two.",
+   "exko": "둘 사이엔 미묘한 차이가 있어요.",
+   "use": [
+    [
+     "The perfume has a subtle scent.",
+     "그 향수는 은은한 향이 난다."
+    ],
+    [
+     "He gave me a subtle hint.",
+     "그가 슬며시 힌트를 줬다."
+    ]
+   ],
+   "mcq": [
+    "The change was subtly but important.",
+    "Subtle was changing the important.",
+    "The change subtled but important.",
+    "The change was subtle but important."
+   ],
+   "ans": 3,
+   "note": "subtle — b는 묵음! /서틀/로 발음해요. 4단계에서 도전해 보세요.",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "diagnose",
+   "ko": "진단하다",
+   "ex": "He was diagnosed with dyslexia at seven.",
+   "exko": "그는 일곱 살에 난독증 진단을 받았어요.",
+   "use": [
+    [
+     "Early diagnosis makes a huge difference.",
+     "조기 진단이 큰 차이를 만든다."
+    ],
+    [
+     "The doctor diagnosed the problem quickly.",
+     "의사가 문제를 빠르게 진단했다."
+    ]
+   ],
+   "mcq": [
+    "ADHD diagnosed her with last year.",
+    "She diagnosed ADHD to her last year.",
+    "She was diagnosed with ADHD last year.",
+    "She was diagnosed by ADHD last year."
+   ],
+   "ans": 2,
+   "note": "be diagnosed with + 질환명. 특수교육 서류·상담의 핵심 표현!",
+   "wk": "2026-W39"
+  },
+  {
+   "w": "seemingly",
+   "ko": "겉보기에",
+   "ex": "It was a seemingly simple question.",
+   "exko": "겉보기엔 단순한 질문이었어요.",
+   "use": [
+    [
+     "Seemingly small habits shape big outcomes.",
+     "사소해 보이는 습관이 큰 결과를 만든다."
+    ],
+    [
+     "The seemingly shy student loves the stage.",
+     "수줍어 보이는 그 학생이 무대를 좋아한다."
+    ]
+   ],
+   "mcq": [
+    "The task seemingly was easy tricking.",
+    "The task was seemingly easy but tricky.",
+    "The task was seeming easy but tricky.",
+    "Seemingly the easy task but was tricky."
+   ],
+   "ans": 1,
+   "note": "seemingly + 형용사 = 겉보기엔 ~한. 반전을 만들 때 쓰는 부사!",
+   "wk": "2026-W39"
+  }
+ ]
+}
