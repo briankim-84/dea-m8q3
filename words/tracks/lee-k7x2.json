@@ -3002,6 +3002,506 @@
    "ans": 1,
    "note": "Feel free to + 동사 = 편하게 ~하세요. free = 무료 / 시간 있는!",
    "wk": "2026-W39"
+  },
+  {
+   "w": "effect",
+   "ko": "효과, 영향",
+   "ex": "The medicine had no effect.",
+   "exko": "약이 효과가 없었어요.",
+   "use": [
+    [
+     "The new rule takes effect Monday.",
+     "새 규정은 월요일부터 시행된다."
+    ],
+    [
+     "Stress has a bad effect on sleep.",
+     "스트레스는 수면에 나쁜 영향을 준다."
+    ]
+   ],
+   "mcq": [
+    "Coffee has a strong effect to me.",
+    "Coffee effects strong on me.",
+    "Coffee has a strong affect on me.",
+    "Coffee has a strong effect on me."
+   ],
+   "ans": 3,
+   "note": "effect(명사·효과) vs affect(동사·영향을 주다). have an effect on!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "rate",
+   "ko": "비율, 속도, 요금",
+   "ex": "What's the exchange rate today?",
+   "exko": "오늘 환율이 어떻게 돼요?",
+   "use": [
+    [
+     "The hotel rate is 150,000 won a night.",
+     "호텔 요금은 1박 15만 원이다."
+    ],
+    [
+     "At this rate, we'll finish early.",
+     "이 속도면 일찍 끝나겠어요."
+    ]
+   ],
+   "mcq": [
+    "In this rate, we'll be late.",
+    "At this rate, we'll be late.",
+    "At this rating, we'll be late.",
+    "At the rate this, we'll be late."
+   ],
+   "ans": 1,
+   "note": "at this rate = 이 속도로 가면. rate = 비율·속도·요금 삼형제!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "record",
+   "ko": "기록(하다)",
+   "ex": "Keep a record of your spending.",
+   "exko": "지출 기록을 남기세요.",
+   "use": [
+    [
+     "She broke the school record.",
+     "그녀는 학교 기록을 깼다."
+    ],
+    [
+     "Can I record this meeting?",
+     "이 회의 녹음해도 될까요?"
+    ]
+   ],
+   "mcq": [
+    "He put a new record.",
+    "He did a new record.",
+    "He made a new record.",
+    "He set a new record."
+   ],
+   "ans": 3,
+   "note": "set/break a record. 명사는 앞 강세(RE-cord), 동사는 뒤 강세(re-CORD)!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "force",
+   "ko": "힘, 강요하다",
+   "ex": "Don't force yourself to eat.",
+   "exko": "억지로 먹지 마세요.",
+   "use": [
+    [
+     "The storm forced us to cancel.",
+     "폭풍 때문에 취소할 수밖에 없었다."
+    ],
+    [
+     "The rule is still in force.",
+     "그 규정은 아직 유효하다."
+    ]
+   ],
+   "mcq": [
+    "They forced to me sign it.",
+    "They forced me to sign it.",
+    "They forced me sign it.",
+    "They forced me signing it."
+   ],
+   "ans": 1,
+   "note": "force + 사람 + to부정사. be forced to = ~할 수밖에 없다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "several",
+   "ko": "몇몇의",
+   "ex": "I've been there several times.",
+   "exko": "거기 몇 번 가봤어요.",
+   "use": [
+    [
+     "Several people asked the same question.",
+     "여러 사람이 같은 질문을 했다."
+    ],
+    [
+     "It took several hours.",
+     "몇 시간 걸렸다."
+    ]
+   ],
+   "mcq": [
+    "Several student was absent.",
+    "Several students was absent.",
+    "Several students were absent.",
+    "Several of students were absent."
+   ],
+   "ans": 2,
+   "note": "several + 복수명사 (3~7개 정도). a few보다 조금 많은 느낌!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "subject",
+   "ko": "주제, 과목",
+   "ex": "Let's change the subject.",
+   "exko": "화제를 바꿉시다.",
+   "use": [
+    [
+     "Math was my favorite subject.",
+     "수학이 제일 좋아하는 과목이었어요."
+    ],
+    [
+     "The price is subject to change.",
+     "가격은 변동될 수 있습니다."
+    ]
+   ],
+   "mcq": [
+    "Prices are subjected changing.",
+    "Prices are subject to change.",
+    "Prices are subject of change.",
+    "Prices subject to change are."
+   ],
+   "ans": 1,
+   "note": "subject to = ~될 수 있는(조건부). change the subject = 화제 전환!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "half",
+   "ko": "절반",
+   "ex": "I'll be there in half an hour.",
+   "exko": "30분 뒤에 도착해요.",
+   "use": [
+    [
+     "Half of the class was late.",
+     "반 학생의 절반이 지각했다."
+    ],
+    [
+     "Cut it in half.",
+     "반으로 자르세요."
+    ]
+   ],
+   "mcq": [
+    "I'll call you in half hour.",
+    "I'll call you in a half hour.",
+    "I'll call you in half a hour.",
+    "I'll call you in half an hour."
+   ],
+   "ans": 3,
+   "note": "half an hour = 30분. an 위치 주의!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "future",
+   "ko": "미래",
+   "ex": "What are your plans for the future?",
+   "exko": "앞으로의 계획이 뭐예요?",
+   "use": [
+    [
+     "In the future, please call first.",
+     "앞으로는 먼저 전화 주세요."
+    ],
+    [
+     "The near future looks busy.",
+     "가까운 미래는 바쁠 것 같다."
+    ]
+   ],
+   "mcq": [
+    "In future time, be more careful.",
+    "At the future, be more careful.",
+    "On future, be more careful.",
+    "In the future, be more careful."
+   ],
+   "ans": 3,
+   "note": "in the future = 앞으로는. the near future = 조만간!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "either",
+   "ko": "둘 중 하나, ~도 (부정)",
+   "ex": "Either time works for me.",
+   "exko": "둘 중 아무 시간이나 괜찮아요.",
+   "use": [
+    [
+     "I don't like it either.",
+     "저도 별로예요."
+    ],
+    [
+     "You can pay either by card or in cash.",
+     "카드나 현금 둘 중 하나로 내면 돼요."
+    ]
+   ],
+   "mcq": [
+    "I can't swim neither.",
+    "I can't swim too.",
+    "I can't swim also.",
+    "I can't swim either."
+   ],
+   "ans": 3,
+   "note": "부정문의 '~도'는 too가 아니라 either! either A or B = 둘 중 하나.",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "top",
+   "ko": "맨 위, 최고의",
+   "ex": "She's at the top of her class.",
+   "exko": "그녀는 반에서 1등이에요.",
+   "use": [
+    [
+     "Put it on top of the shelf.",
+     "선반 위에 올려 두세요."
+    ],
+    [
+     "This is my top priority.",
+     "이게 최우선이에요."
+    ]
+   ],
+   "mcq": [
+    "It's on the top of fridge.",
+    "It's top on the fridge.",
+    "It's on top of the fridge.",
+    "It's on top the fridge."
+   ],
+   "ans": 2,
+   "note": "on top of = ~ 위에. top priority = 최우선!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "mention",
+   "ko": "언급하다",
+   "ex": "Don't mention it!",
+   "exko": "별말씀을요!",
+   "use": [
+    [
+     "She mentioned that she's moving.",
+     "그녀가 이사 간다고 했어요."
+    ],
+    [
+     "Did he mention the price?",
+     "그가 가격 얘기했어요?"
+    ]
+   ],
+   "mcq": [
+    "He didn't mention for the deadline.",
+    "He didn't mention the deadline.",
+    "He didn't mention about the deadline.",
+    "He didn't mention to the deadline."
+   ],
+   "ans": 1,
+   "note": "mention + 대상 바로! mention about은 오류. Don't mention it = 천만에요.",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "sit",
+   "ko": "앉다",
+   "ex": "Please have a seat — sit anywhere.",
+   "exko": "아무 데나 앉으세요.",
+   "use": [
+    [
+     "I sat next to her on the train.",
+     "기차에서 그녀 옆에 앉았다."
+    ],
+    [
+     "Don't just sit there — help me!",
+     "가만히 있지 말고 도와줘!"
+    ]
+   ],
+   "mcq": [
+    "May I sit on here?",
+    "May I sitting here?",
+    "May I seat here?",
+    "May I sit here?"
+   ],
+   "ans": 3,
+   "note": "sit(앉다) vs seat(좌석·앉히다). sit-sat-sat!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "letter",
+   "ko": "편지, 글자",
+   "ex": "I got a letter from the bank.",
+   "exko": "은행에서 편지가 왔어요.",
+   "use": [
+    [
+     "Write your name in capital letters.",
+     "이름을 대문자로 쓰세요."
+    ],
+    [
+     "She sent a thank-you letter.",
+     "그녀는 감사 편지를 보냈다."
+    ]
+   ],
+   "mcq": [
+    "Fill in the form in capital letters.",
+    "Fill the form in letters capital.",
+    "Fill in the form in big letters capital.",
+    "Fill in the form in capitals letter."
+   ],
+   "ans": 0,
+   "note": "capital letters = 대문자. cover letter = 자기소개서!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "light",
+   "ko": "빛, 가벼운",
+   "ex": "Can you turn on the light?",
+   "exko": "불 좀 켜줄래요?",
+   "use": [
+    [
+     "This bag is really light.",
+     "이 가방 정말 가벼워요."
+    ],
+    [
+     "I had a light lunch.",
+     "점심을 가볍게 먹었다."
+    ]
+   ],
+   "mcq": [
+    "Turn off the light when you leaves.",
+    "Off the lights when you leave.",
+    "Turn off the lights when you leave.",
+    "Turn the lights off when leave."
+   ],
+   "ans": 2,
+   "note": "turn on/off the lights. light = 빛 / 가벼운 / 연한(색)!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "walk",
+   "ko": "걷다, 산책",
+   "ex": "Let's go for a walk.",
+   "exko": "산책 가요.",
+   "use": [
+    [
+     "I walk to work every day.",
+     "매일 걸어서 출근해요."
+    ],
+    [
+     "Can you walk me through the steps?",
+     "단계를 하나씩 설명해 줄래요?"
+    ]
+   ],
+   "mcq": [
+    "I walked to the dog this morning.",
+    "I walk the dog yesterday morning.",
+    "I walked the dog this morning.",
+    "I walked with the dog this morning by."
+   ],
+   "ans": 2,
+   "note": "walk the dog = 개 산책시키다. walk me through = 차근차근 설명하다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "whole",
+   "ko": "전체의",
+   "ex": "I spent the whole day cleaning.",
+   "exko": "하루 종일 청소했어요.",
+   "use": [
+    [
+     "The whole team agreed.",
+     "팀 전체가 동의했다."
+    ],
+    [
+     "On the whole, it went well.",
+     "전반적으로 잘 됐어요."
+    ]
+   ],
+   "mcq": [
+    "I ate whole pizza the.",
+    "I ate the all pizza.",
+    "I ate the whole pizza.",
+    "I ate whole the pizza."
+   ],
+   "ans": 2,
+   "note": "the whole + 단수명사. on the whole = 전반적으로!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "past",
+   "ko": "과거, 지나서",
+   "ex": "It's ten past three.",
+   "exko": "3시 10분이에요.",
+   "use": [
+    [
+     "Forget the past — focus on now.",
+     "과거는 잊고 지금에 집중하세요."
+    ],
+    [
+     "I walked past the bank.",
+     "은행을 지나쳐 걸어갔다."
+    ]
+   ],
+   "mcq": [
+    "In past, I worked in sales.",
+    "At the past, I worked in sales.",
+    "On the past, I worked in sales.",
+    "In the past, I worked in sales."
+   ],
+   "ans": 3,
+   "note": "in the past = 과거에. past(지나서) vs passed(pass의 과거형) 철자 주의!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "base",
+   "ko": "기반, ~에 근거하다",
+   "ex": "Our office is based in Ilsan.",
+   "exko": "저희 사무실은 일산에 있어요.",
+   "use": [
+    [
+     "The movie is based on a true story.",
+     "그 영화는 실화를 바탕으로 한다."
+    ],
+    [
+     "We have a strong customer base.",
+     "우리는 탄탄한 고객층이 있다."
+    ]
+   ],
+   "mcq": [
+    "The film is basing on a novel.",
+    "The film based on a novel.",
+    "The film is based in a novel.",
+    "The film is based on a novel."
+   ],
+   "ans": 3,
+   "note": "based on = ~에 근거한 / based in = ~에 자리 잡은. 전치사가 뜻을 가릅니다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "town",
+   "ko": "동네, 시내",
+   "ex": "I'm out of town this week.",
+   "exko": "이번 주엔 출장이에요.",
+   "use": [
+    [
+     "Let's meet in town.",
+     "시내에서 만나요."
+    ],
+    [
+     "She grew up in a small town.",
+     "그녀는 작은 동네에서 자랐다."
+    ]
+   ],
+   "mcq": [
+    "I'll be out of town until Friday.",
+    "I'll be outside of town until Friday.",
+    "I'll be out of the town until Friday.",
+    "I'll be out town until Friday."
+   ],
+   "ans": 0,
+   "note": "out of town = 타지에 있는(출장·여행). the 없이!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "language",
+   "ko": "언어",
+   "ex": "English is a global language.",
+   "exko": "영어는 세계 공용어예요.",
+   "use": [
+    [
+     "Watch your language!",
+     "말 조심해!"
+    ],
+    [
+     "Body language matters in interviews.",
+     "면접에선 몸짓 언어가 중요하다."
+    ]
+   ],
+   "mcq": [
+    "How many languages you speak?",
+    "How many languages do you speak?",
+    "How much languages do you speak?",
+    "How many language do you speak?"
+   ],
+   "ans": 1,
+   "note": "How many languages ~? body language(몸짓), watch your language(말조심)!",
+   "wk": "2026-W40"
   }
  ]
 }

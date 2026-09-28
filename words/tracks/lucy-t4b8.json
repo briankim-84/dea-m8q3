@@ -3002,6 +3002,506 @@
    "ans": 0,
    "note": "make headlines = 대서특필되다. make가 짝!",
    "wk": "2026-W39"
+  },
+  {
+   "w": "viewer",
+   "ko": "시청자",
+   "ex": "The show has millions of viewers.",
+   "exko": "그 프로그램은 시청자가 수백만이에요.",
+   "use": [
+    [
+     "Viewers can vote online.",
+     "시청자는 온라인으로 투표할 수 있다."
+    ],
+    [
+     "Thanks to all our viewers!",
+     "시청자 여러분 감사합니다!"
+    ]
+   ],
+   "mcq": [
+    "New viewers gained the channel this year.",
+    "The channel gained new viewer this year.",
+    "The channel gained new viewers this year.",
+    "The channel gained new viewers year this."
+   ],
+   "ans": 2,
+   "note": "viewer = 시청자(영상), reader = 독자, listener = 청취자!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "given",
+   "ko": "~을 고려하면, 정해진",
+   "ex": "Given the weather, let's cancel.",
+   "exko": "날씨를 고려하면 취소합시다.",
+   "use": [
+    [
+     "Given that it's late, let's stop here.",
+     "늦었으니 여기서 멈추죠."
+    ],
+    [
+     "At any given time, ten people are online.",
+     "어느 시점이든 열 명이 접속해 있다."
+    ]
+   ],
+   "mcq": [
+    "Giving the cost, we chose the smaller one.",
+    "Given to the cost, we chose the smaller one.",
+    "Given the cost, we chose the smaller one.",
+    "Given of the cost, we chose the smaller one."
+   ],
+   "ans": 2,
+   "note": "given + 명사 / given that + 문장 = ~을 감안하면. considering의 격식!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "armed",
+   "ko": "무장한, 갖춘",
+   "ex": "The guard was armed.",
+   "exko": "경비원은 무장하고 있었어요.",
+   "use": [
+    [
+     "Armed with data, she won the argument.",
+     "데이터로 무장한 그녀가 논쟁에서 이겼다."
+    ],
+    [
+     "Armed robbery is a serious crime.",
+     "무장 강도는 중범죄다."
+    ]
+   ],
+   "mcq": [
+    "Armed with facts, he made his case.",
+    "Armed by facts, he made his case.",
+    "Arming with facts, he made his case.",
+    "Armed of facts, he made his case."
+   ],
+   "ans": 0,
+   "note": "armed with = ~으로 무장한. 비유로 '준비를 갖춘'!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "hip",
+   "ko": "엉덩이, 힙한",
+   "ex": "My hip hurts when I run.",
+   "exko": "뛰면 고관절이 아파요.",
+   "use": [
+    [
+     "Hip mobility matters for squats.",
+     "고관절 가동성이 스쿼트에 중요하다."
+    ],
+    [
+     "That cafe is really hip.",
+     "그 카페 진짜 힙하다."
+    ]
+   ],
+   "mcq": [
+    "Your hips stretch before running.",
+    "Stretch your hip bones before running.",
+    "Stretch hips your before running.",
+    "Stretch your hips before running."
+   ],
+   "ans": 3,
+   "note": "hip = 엉덩이·고관절 / 힙한(멋진). 운동·유행 둘 다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "tribe",
+   "ko": "부족, 무리",
+   "ex": "Find your tribe.",
+   "exko": "당신과 맞는 사람들을 찾으세요.",
+   "use": [
+    [
+     "The tribe has lived there for centuries.",
+     "그 부족은 수 세기 동안 거기 살았다."
+    ],
+    [
+     "Runners are a friendly tribe.",
+     "러너들은 우호적인 무리다."
+    ]
+   ],
+   "mcq": [
+    "She finally found her tribe.",
+    "Her tribe finally found she.",
+    "She finally found tribe her.",
+    "She finally found her tribes."
+   ],
+   "ans": 0,
+   "note": "find your tribe = 나와 맞는 무리를 찾다. 요즘 인기 표현!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "acre",
+   "ko": "에이커",
+   "ex": "The farm is 50 acres.",
+   "exko": "그 농장은 50에이커예요.",
+   "use": [
+    [
+     "They bought ten acres of land.",
+     "그들은 땅 10에이커를 샀다."
+    ],
+    [
+     "Acres of vineyards stretched ahead.",
+     "포도밭이 광활하게 펼쳐졌다."
+    ]
+   ],
+   "mcq": [
+    "The vineyard covers acres 20.",
+    "20 acres cover the vineyard covers.",
+    "The vineyard covers 20 acre.",
+    "The vineyard covers 20 acres."
+   ],
+   "ans": 3,
+   "note": "1 acre ≈ 4,047㎡ ≈ 1,224평. 와이너리·농장 규모 얘기 필수!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "ambassador",
+   "ko": "대사, 홍보대사",
+   "ex": "She's a brand ambassador for the company.",
+   "exko": "그녀는 그 회사 홍보대사예요.",
+   "use": [
+    [
+     "The ambassador visited the school.",
+     "대사가 학교를 방문했다."
+    ],
+    [
+     "Every employee is an ambassador for the brand.",
+     "모든 직원이 브랜드 대사다."
+    ]
+   ],
+   "mcq": [
+    "He became a brand ambassador of last year.",
+    "He became brand ambassador a last year.",
+    "He became a brand ambassador last year.",
+    "Brand ambassador became he last year."
+   ],
+   "ans": 2,
+   "note": "brand ambassador = 홍보대사. 마케팅·인플루언서 단어!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "admission",
+   "ko": "입장, 입학, 인정",
+   "ex": "Admission is free on Sundays.",
+   "exko": "일요일엔 입장이 무료예요.",
+   "use": [
+    [
+     "She got admission to Seoul National.",
+     "그녀는 서울대에 합격했다."
+    ],
+    [
+     "By his own admission, he was wrong.",
+     "그도 인정했듯이 그가 틀렸다."
+    ]
+   ],
+   "mcq": [
+    "Admission of the museum is free.",
+    "Admission for the museum is free.",
+    "Admission to the museum is free.",
+    "Admission at the museum is free."
+   ],
+   "ans": 2,
+   "note": "admission to = ~ 입장/입학. 동사 admit의 명사형!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "recession",
+   "ko": "경기 침체",
+   "ex": "The economy is in recession.",
+   "exko": "경기가 침체돼 있어요.",
+   "use": [
+    [
+     "Sales dropped during the recession.",
+     "경기 침체 동안 매출이 떨어졌다."
+    ],
+    [
+     "Some businesses are recession-proof.",
+     "어떤 사업은 불황을 타지 않는다."
+    ]
+   ],
+   "mcq": [
+    "We're heading into an recession.",
+    "We're heading into a recession.",
+    "We're heading in a recession.",
+    "We're heading into recession a."
+   ],
+   "ans": 1,
+   "note": "in/into a recession. recession-proof = 불황에 강한!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "copyright",
+   "ko": "저작권",
+   "ex": "This image is protected by copyright.",
+   "exko": "이 이미지는 저작권으로 보호돼요.",
+   "use": [
+    [
+     "Don't use copyrighted music in your video.",
+     "영상에 저작권 있는 음악을 쓰지 마세요."
+    ],
+    [
+     "Who owns the copyright?",
+     "저작권은 누구 거예요?"
+    ]
+   ],
+   "mcq": [
+    "The song is in copyright under.",
+    "The song is under copyright.",
+    "The song under is copyright.",
+    "The song is under copyrights."
+   ],
+   "ans": 1,
+   "note": "under copyright = 저작권 보호 중. 콘텐츠 제작자 필수!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "ethics",
+   "ko": "윤리",
+   "ex": "Business ethics matter.",
+   "exko": "기업 윤리는 중요해요.",
+   "use": [
+    [
+     "The company has a strict code of ethics.",
+     "그 회사는 엄격한 윤리 강령이 있다."
+    ],
+    [
+     "Work ethic is different from ethics.",
+     "근면성(work ethic)과 윤리(ethics)는 다르다."
+    ]
+   ],
+   "mcq": [
+    "She teaches ethics medical.",
+    "She teaches medical ethic.",
+    "She teaches medical ethics.",
+    "She teaches medically ethics."
+   ],
+   "ans": 2,
+   "note": "ethics = 윤리(항상 s). work ethic(근면성)은 단수 — 다른 뜻!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "norm",
+   "ko": "규범, 표준",
+   "ex": "Remote work is the norm now.",
+   "exko": "재택근무가 이제 일반적이에요.",
+   "use": [
+    [
+     "Social norms differ by country.",
+     "사회 규범은 나라마다 다르다."
+    ],
+    [
+     "Late nights became the norm.",
+     "야근이 일상이 됐다."
+    ]
+   ],
+   "mcq": [
+    "Working from home is norm now.",
+    "Working from home is the norm now.",
+    "Working from home is a norm now.",
+    "Working from home is the norms now."
+   ],
+   "ans": 1,
+   "note": "the norm = 표준·일반적인 것. become the norm = 일상이 되다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "vaccine",
+   "ko": "백신",
+   "ex": "Did you get the flu vaccine?",
+   "exko": "독감 백신 맞았어요?",
+   "use": [
+    [
+     "The vaccine requires two doses.",
+     "그 백신은 2회 접종이 필요하다."
+    ],
+    [
+     "Vaccine research takes years.",
+     "백신 연구는 몇 년이 걸린다."
+    ]
+   ],
+   "mcq": [
+    "I took vaccine last week.",
+    "I got the vaccine last week.",
+    "I got the vaccine shot injection last week.",
+    "I got vaccine last week."
+   ],
+   "ans": 1,
+   "note": "get the vaccine = 백신을 맞다. 발음 /백씬/!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "lens",
+   "ko": "렌즈, 관점",
+   "ex": "I wear contact lenses.",
+   "exko": "콘택트렌즈 껴요.",
+   "use": [
+    [
+     "Look at it through a different lens.",
+     "다른 관점에서 봐보세요."
+    ],
+    [
+     "The camera lens is scratched.",
+     "카메라 렌즈에 흠집이 났다."
+    ]
+   ],
+   "mcq": [
+    "Look at the problem by a new lens.",
+    "Look at the problem through new lens a.",
+    "Look at the problem through a new lense.",
+    "Look at the problem through a new lens."
+   ],
+   "ans": 3,
+   "note": "through the lens of = ~의 관점에서. 단수 lens, 복수 lenses!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "render",
+   "ko": "만들다, 표현하다",
+   "ex": "The storm rendered the road useless.",
+   "exko": "폭풍으로 도로가 못 쓰게 됐어요.",
+   "use": [
+    [
+     "The video is still rendering.",
+     "영상이 아직 렌더링 중이다."
+    ],
+    [
+     "Services rendered must be paid.",
+     "제공된 서비스는 지불해야 한다."
+    ]
+   ],
+   "mcq": [
+    "The injury rendered him to be unable play.",
+    "The injury rendered him unable to play.",
+    "The injury rendered to him unable.",
+    "The injury rendered him unable of play."
+   ],
+   "ans": 1,
+   "note": "render + 대상 + 형용사 = ~하게 만들다. 영상 렌더링도 이 단어!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "punishment",
+   "ko": "처벌",
+   "ex": "The punishment was too harsh.",
+   "exko": "처벌이 너무 가혹했어요.",
+   "use": [
+    [
+     "Capital punishment is banned there.",
+     "그곳은 사형이 금지돼 있다."
+    ],
+    [
+     "No punishment, just a warning.",
+     "처벌 없이 경고만."
+    ]
+   ],
+   "mcq": [
+    "The punish didn't fit the crime.",
+    "The punishment didn't fit to the crime.",
+    "The punishment didn't fit for the crime.",
+    "The punishment didn't fit the crime."
+   ],
+   "ans": 3,
+   "note": "punishment(명사) vs punish(동사). fit the crime = 죄에 맞다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "grace",
+   "ko": "우아함, 은혜",
+   "ex": "She handled it with grace.",
+   "exko": "그녀는 우아하게 대처했어요.",
+   "use": [
+    [
+     "There's a grace period of 30 days.",
+     "30일의 유예 기간이 있다."
+    ],
+    [
+     "He accepted defeat with grace.",
+     "그는 품위 있게 패배를 받아들였다."
+    ]
+   ],
+   "mcq": [
+    "There's a 7-day grace period.",
+    "There's a 7-days grace period.",
+    "There's a grace 7-day period.",
+    "There's 7-day grace a period."
+   ],
+   "ans": 0,
+   "note": "grace period = 유예 기간(연체·환불). with grace = 품위 있게!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "cabinet",
+   "ko": "수납장, 내각",
+   "ex": "The cups are in the top cabinet.",
+   "exko": "컵은 위 수납장에 있어요.",
+   "use": [
+    [
+     "The cabinet met on Tuesday.",
+     "내각이 화요일에 모였다."
+    ],
+    [
+     "We installed new kitchen cabinets.",
+     "새 주방 수납장을 설치했다."
+    ]
+   ],
+   "mcq": [
+    "The keys are on cabinet the.",
+    "The keys are in the cabinets shelf.",
+    "The keys are in the cabinet.",
+    "The keys are in cabinet."
+   ],
+   "ans": 2,
+   "note": "cabinet = 수납장 / 내각. 발음 /캐비닛/!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "headquarters",
+   "ko": "본사",
+   "ex": "Our headquarters is in Seoul.",
+   "exko": "본사는 서울에 있어요.",
+   "use": [
+    [
+     "She was transferred to headquarters.",
+     "그녀는 본사로 발령 났다."
+    ],
+    [
+     "The email came from HQ.",
+     "본사에서 온 메일이다."
+    ]
+   ],
+   "mcq": [
+    "I'm visiting the headquarter next week.",
+    "I'm visiting headquarters office next week.",
+    "I'm visiting headquarters' next week.",
+    "I'm visiting headquarters next week."
+   ],
+   "ans": 3,
+   "note": "headquarters는 항상 s(단수 취급 가능). 줄여서 HQ!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "nomination",
+   "ko": "후보 지명",
+   "ex": "She received an Oscar nomination.",
+   "exko": "그녀는 오스카 후보에 올랐어요.",
+   "use": [
+    [
+     "Nominations close on Friday.",
+     "후보 추천은 금요일 마감."
+    ],
+    [
+     "He accepted the nomination.",
+     "그는 후보 지명을 수락했다."
+    ]
+   ],
+   "mcq": [
+    "The film got three nominations.",
+    "The film got nominations three.",
+    "The film got three nomination.",
+    "The film got three nominates."
+   ],
+   "ans": 0,
+   "note": "nomination = 후보 지명. 동사는 nominate!",
+   "wk": "2026-W40"
   }
  ]
 }
