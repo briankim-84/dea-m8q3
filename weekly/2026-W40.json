@@ -1,0 +1,251 @@
+{
+ "week": "2026-W40",
+ "label": "9월 28일 주",
+ "levels": {
+  "warmup": {
+   "cards": [
+    {
+     "expr": "hang in there",
+     "ko": "조금만 버텨요",
+     "ex": "Hang in there — the week is almost over."
+    },
+    {
+     "expr": "📘 단어: hesitate / hurry",
+     "ko": "망설이다 / 서두르다",
+     "ex": "Don't hesitate to ask. → No need to hurry. (hesitate to + 동사 / in a hurry = 급한)"
+    },
+    {
+     "expr": "give it a shot",
+     "ko": "한번 해보다",
+     "ex": "I've never tried yoga, but I'll give it a shot."
+    },
+    {
+     "expr": "📘 단어: regret / cancel",
+     "ko": "후회하다 / 취소하다",
+     "ex": "I regret not calling her. → They canceled the flight. (regret + -ing)"
+    },
+    {
+     "expr": "on second thought",
+     "ko": "다시 생각해 보니",
+     "ex": "On second thought, let's order pizza instead."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "I know it's tough, but ___ — you're almost done.",
+     "options": [
+      "hang on there",
+      "hang in there",
+      "hold in there",
+      "hang up there"
+     ],
+     "answer": 1,
+     "note": "hang in there = 힘들어도 버텨라. 응원의 한마디!"
+    },
+    {
+     "q": "Don't ___ to call me if you need help.",
+     "options": [
+      "regret",
+      "hesitate",
+      "cancel",
+      "hurry"
+     ],
+     "answer": 1,
+     "note": "Don't hesitate to + 동사 = 주저 말고 ~하세요. 이메일 마무리 단골!"
+    },
+    {
+     "q": "I'm not sure I can do it, but I'll ___ .",
+     "options": [
+      "give it a shot",
+      "take it a shot",
+      "give a shot it",
+      "give it a shoot"
+     ],
+     "answer": 0,
+     "note": "give it a shot = 한번 해보다. try의 캐주얼 버전!"
+    },
+    {
+     "q": "I ___ not studying English earlier.",
+     "options": [
+      "regret to",
+      "am regret",
+      "regret",
+      "regretted for"
+     ],
+     "answer": 2,
+     "note": "regret + -ing = ~한 걸 후회하다. regret to는 '유감이지만 ~합니다'!"
+    },
+    {
+     "q": "Let's go out. ___ , it's raining — let's stay in.",
+     "options": [
+      "In second thought",
+      "On the second thought",
+      "At second thinking",
+      "On second thought"
+     ],
+     "answer": 3,
+     "note": "on second thought = 다시 생각해 보니. 마음 바꿀 때!"
+    }
+   ]
+  },
+  "intermediate": {
+   "cards": [
+    {
+     "expr": "hit it off",
+     "ko": "금방 친해지다",
+     "ex": "We hit it off right away at the party."
+    },
+    {
+     "expr": "📘 단어: anticipate / adjust",
+     "ko": "예상하다 / 조정하다",
+     "ex": "We anticipate delays. → Let's adjust the schedule. (adjust to = ~에 적응하다)"
+    },
+    {
+     "expr": "up in the air",
+     "ko": "아직 미정인",
+     "ex": "Our travel plans are still up in the air."
+    },
+    {
+     "expr": "📘 단어: accurate / exact",
+     "ko": "정확한 / 정확한, 딱 그",
+     "ex": "The data is accurate. → What's the exact time? (accurate = 오차 없는, exact = 정확히 그것)"
+    },
+    {
+     "expr": "learn the ropes",
+     "ko": "요령을 배우다",
+     "ex": "It took a month to learn the ropes at my new job."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "My sister and my boyfriend ___ immediately.",
+     "options": [
+      "hit off it",
+      "hit it out",
+      "hit it off",
+      "hit them off"
+     ],
+     "answer": 2,
+     "note": "hit it off (with) = 만나자마자 친해지다."
+    },
+    {
+     "q": "We ___ a lot of questions after the presentation.",
+     "options": [
+      "anticipation",
+      "anticipate for",
+      "anticipate",
+      "are anticipate"
+     ],
+     "answer": 2,
+     "note": "anticipate + 대상 = 미리 예상하다. expect보다 '대비'의 느낌!"
+    },
+    {
+     "q": "The launch date is still ___ .",
+     "options": [
+      "in the air up",
+      "up the air",
+      "up in the air",
+      "on the air"
+     ],
+     "answer": 2,
+     "note": "up in the air = 아직 확정 안 된. on the air는 '방송 중'!"
+    },
+    {
+     "q": "Is this figure ___ ? It looks too high.",
+     "options": [
+      "accuracy",
+      "accurately",
+      "accurate",
+      "accurate to"
+     ],
+     "answer": 2,
+     "note": "accurate(형용사) = 정확한. 명사는 accuracy!"
+    },
+    {
+     "q": "Give her a week to ___ before judging her work.",
+     "options": [
+      "learn the ropes up",
+      "learn rope",
+      "learn the ropes",
+      "know the rope"
+     ],
+     "answer": 2,
+     "note": "learn the ropes = 신입이 일을 익히다. 배에서 온 표현!"
+    }
+   ]
+  },
+  "challenge": {
+   "cards": [
+    {
+     "expr": "beat around the bush",
+     "ko": "빙빙 돌려 말하다",
+     "ex": "Stop beating around the bush and tell me."
+    },
+    {
+     "expr": "📘 단어: genuine / precise",
+     "ko": "진심의, 진짜의 / 정밀한",
+     "ex": "She showed genuine interest. → Be precise with the numbers. (genuine = 가짜 아닌)"
+    },
+    {
+     "expr": "the elephant in the room",
+     "ko": "모두 알지만 말 안 하는 문제",
+     "ex": "Let's address the elephant in the room — the budget."
+    },
+    {
+     "expr": "📘 단어: compromise / accomplish",
+     "ko": "타협(하다) / 해내다",
+     "ex": "We reached a compromise. → She accomplished her goal. (reach a compromise)"
+    },
+    {
+     "expr": "throw in the towel",
+     "ko": "포기하다",
+     "ex": "After three failed attempts, he threw in the towel."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Just say it directly — don't ___ .",
+     "hint": "덤불 주위를 돌다 = 빙빙 돌려 말하다",
+     "accept": [
+      "beat around the bush",
+      "beat about the bush"
+     ],
+     "note": "beat around the bush = 핵심을 피해 돌려 말하다. 반대는 get to the point!"
+    },
+    {
+     "q": "Her apology sounded ___ , not scripted.",
+     "hint": "진심의, 가짜가 아닌 (g로 시작)",
+     "accept": [
+      "genuine"
+     ],
+     "note": "genuine = 진짜의·진심의. genuinely sorry = 진심으로 미안한."
+    },
+    {
+     "q": "Nobody mentioned the layoffs — it was ___ .",
+     "hint": "방 안의 코끼리",
+     "accept": [
+      "the elephant in the room",
+      "elephant in the room"
+     ],
+     "note": "모두가 알지만 아무도 꺼내지 않는 문제 = the elephant in the room."
+    },
+    {
+     "q": "Neither side got everything, but we reached a ___ .",
+     "hint": "타협 (명사, c로 시작)",
+     "accept": [
+      "compromise"
+     ],
+     "note": "reach a compromise = 타협에 이르다. 동사로도 '타협하다'!"
+    },
+    {
+     "q": "Don't ___ yet — you're so close to finishing.",
+     "hint": "수건을 던지다 = 포기하다",
+     "accept": [
+      "throw in the towel"
+     ],
+     "note": "권투에서 수건 던지면 기권. give up의 관용구!"
+    }
+   ]
+  }
+ }
+}
