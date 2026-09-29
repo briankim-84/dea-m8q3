@@ -98,6 +98,8 @@ button:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
 .fcard .better{font-size:19px;font-weight:900;margin:0 0 6px}.fcard .why{font-size:15px;margin:0 0 12px}
 .save{background:var(--yellow);color:#1B1B1B;border-radius:12px;padding:7px 12px;font-size:15px;cursor:pointer;box-shadow:0 3px 0 var(--line)}.save[disabled]{background:#DDF6E6}
 .phr-link{display:inline-block;margin:0 0 6px;color:var(--ink);font-size:16px}
+.sh-cancel{display:block;width:100%;margin-top:10px;background:none;border:0;font-size:16px;color:var(--sub);padding:8px;cursor:pointer}
+.live-btn small{display:block;font-size:13px;opacity:.85}
 </style></head><body>
 <div class="app">
 <section id="home">
@@ -220,7 +222,7 @@ button:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
 <div class="sh"><div id="fbList"></div><a class="ko phr-link" id="toPhrases" href="phrases.html">My Phrases 보기 ›</a></div>
 <div style="padding:6px 16px 30px"><button class="go chunky ko" id="fbDone" type="button">다른 상황 고르기</button></div>
 </section>
-<div class="sheet" id="sheet" role="status"><p class="h ko"><span class="ic" id="shIc">✓</span><span id="shTitle"></span></p><p class="m ko" id="shMsg"></p><button class="go chunky ko" id="shBtn" type="button">계속</button></div>
+<div class="sheet" id="sheet" role="status"><p class="h ko"><span class="ic" id="shIc">✓</span><span id="shTitle"></span></p><p class="m ko" id="shMsg"></p><button class="go chunky ko" id="shBtn" type="button">계속</button><button class="ko sh-cancel" id="shBtn2" type="button" hidden>다음에 할게요</button></div>
 </div>
 <audio id="voice" preload="auto"></audio>
 <script src="config.js"></script>
@@ -263,7 +265,7 @@ $('again').onclick=()=>{const i=state==='end'?5:step;if(i>=0)play(D.maya[i],true
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function sheet(kind,title,msg,btn,fn){const s=$('sheet');s.className='sheet '+kind;$('shIc').textContent=kind==='ok'?'✓':'!';$('shIc').hidden=kind==='info';$('shTitle').textContent=title;$('shMsg').innerHTML='';
  if(msg)(Array.isArray(msg)?msg:[msg]).forEach((m,i)=>{if(i)$('shMsg').appendChild(document.createElement('br'));if(typeof m==='string')$('shMsg').appendChild(document.createTextNode(m));else{const b=document.createElement('b');b.textContent=m.en;$('shMsg').appendChild(b)}});
- $('shBtn').textContent=btn;$('shBtn').onclick=fn;requestAnimationFrame(()=>s.classList.add('show'))}
+ $('shBtn').textContent=btn;$('shBtn').onclick=fn;$('shBtn2').hidden=true;requestAnimationFrame(()=>s.classList.add('show'))}
 function hideSheet(){$('sheet').classList.remove('show')}
 function renderTurn(){const T=D.turns[step];tried=false;const box=$('opts');box.innerHTML='';$('ask').hidden=false;
  shuffle([[T.ok,null],...T.bad]).forEach(([txt,why],k)=>{const b=document.createElement('button');b.type='button';b.className='opt chunky';b.innerHTML='<span class="k"></span><span></span>';b.querySelector('.k').textContent='ABCDE'[k];b.lastChild.textContent=txt;
@@ -301,18 +303,27 @@ function status(s){$('liveStatus').textContent=s||''}
 function bubble(role,text){const b=document.createElement('div');b.className='bub '+(role==='me'?'m':'c');b.textContent=text;$('log').appendChild(b);b.scrollIntoView({behavior:'smooth',block:'end'})}
 function setBusy(v){busy=v;$('micBtn').disabled=v;$('typeGo').disabled=v;$('hintGo').disabled=v}
 function persona(){return{name:'Maya',role:D.role.split(', ').slice(1).join(', ')||D.role,title:D.title,intro:D.intro||'',opening:D.maya[0].text}}
-async function openLive(){
+let liveLeftN=null;
+async function refreshLeft(){if(!API)return;try{const r=await fetch(API+'/status',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sid:SID})});const d=await r.json();if(!d.ok){liveLeftN=null;return}liveLeftN=d.left;
+ $('liveStart').innerHTML='실전 대화<small>오늘 '+d.left+'번 남음</small>';$('liveFromResult').textContent='이 상황으로 실전 대화 · 오늘 '+d.left+'번 남음';
+ const off=d.left<=0;[$('liveStart'),$('liveFromResult')].forEach(b=>b.style.opacity=off?'.55':'')}catch(e){}}
+function openLive(){
  if(!API){sheet('info','곧 열려요','실전 대화는 준비 중이에요.','확인',hideSheet);return}
+ if(liveLeftN===0){sheet('info','오늘은 여기까지','실전 대화는 하루 3번까지 할 수 있어요. 내일 다시 만나요!','확인',hideSheet);return}
+ ensureAudio();
+ const msg=liveLeftN===null?'시작하면 오늘 실전 대화 횟수 1번이 차감돼요.':'오늘 남은 '+liveLeftN+'번 중 1번을 써요. 대본 없이 Maya와 자유롭게 대화해요.';
+ sheet('info','실전 대화를 시작할까요?',msg,'시작하기',()=>{hideSheet();startLive()});$('shBtn2').hidden=false;$('shBtn2').onclick=hideSheet}
+async function startLive(){
  ensureAudio();audio.pause();setBusy(true);
  let d;try{d=await post('/start',{sid:SID,char:CHAR})}catch(e){setBusy(false);sheet('no','연결이 안 돼요','잠시 후 다시 시도해 주세요.','확인',hideSheet);return}
  if(!d.ok){setBusy(false);if(d.reason==='limit')sheet('info','오늘은 여기까지','실전 대화는 하루 3번까지 할 수 있어요. 내일 다시 만나요!','확인',hideSheet);else sheet('no','이용할 수 없어요','내 노트의 상황 연습 링크로 들어와 주세요.','확인',hideSheet);return}
- tok=d.token;ended=false;msgs=[];$('log').innerHTML='';$('liveLeft').textContent='오늘 '+d.left+'번 남음';
+ tok=d.token;ended=false;msgs=[];$('log').innerHTML='';liveLeftN=d.left;$('liveLeft').textContent='오늘 '+d.left+'번 남음';
  $('liveGoal').textContent='목표: '+D.title+' · 대본 없이 자유롭게 말해 보세요';
  sceneHome=document.querySelector('#play .stage');$('liveStage').appendChild(document.querySelector('#play .scene'));setScene(D);
  hideSheet();$('hintBox').hidden=true;$('typeBox').hidden=true;$('hintEn').textContent='';show('live');
  msgs.push({role:'char',text:D.maya[0].text});bubble('char',D.maya[0].text);status('');
  await play(D.maya[0],true);setBusy(false);status('마이크를 누르고 대답해 보세요')}
-function closeLive(){try{liveAudio.pause()}catch(e){}liveTalking=false;if(rec&&rec.state==='recording')rec.stop();if(sceneHome)sceneHome.insertBefore(document.querySelector('#live .scene'),sceneHome.firstChild);state='closed';hideSheet();renderList();show('home')}
+function closeLive(){refreshLeft();try{liveAudio.pause()}catch(e){}liveTalking=false;if(rec&&rec.state==='recording')rec.stop();if(sceneHome)sceneHome.insertBefore(document.querySelector('#live .scene'),sceneHome.firstChild);state='closed';hideSheet();renderList();show('home')}
 $('liveStart').onclick=openLive;$('liveFromResult').onclick=()=>{show('play');openLive()};$('liveClose').onclick=closeLive;$('fbClose').onclick=closeLive;$('fbDone').onclick=closeLive;
 $('toPhrases').href='phrases.html?s='+SID;
 async function say(text){const blob=await post('/tts',{text});const u=URL.createObjectURL(blob);return new Promise(res=>{liveAudio.src=u;liveTalking=true;liveAudio.onended=()=>{liveTalking=false;URL.revokeObjectURL(u);res()};liveAudio.play().catch(()=>{liveTalking=false;res()})})}
@@ -343,7 +354,7 @@ async function feedback(){let items=[];try{items=(await post('/feedback',{messag
   btn.onclick=()=>{let arr=[];try{arr=JSON.parse(localStorage.getItem('dewb:phrases:'+SID)||'[]')}catch(e){}arr.unshift({en:x.better,said:x.said,why:x.why,who:'Maya',title:D.title,at:Date.now()});try{localStorage.setItem('dewb:phrases:'+SID,JSON.stringify(arr.slice(0,300)))}catch(e){}btn.disabled=true;btn.textContent='저장됨'};L.appendChild(c)});
  try{const d=new Date(),ts=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');let ds=JSON.parse(localStorage.getItem('dewb:days')||'[]');if(!ds.includes(ts)){ds.push(ts);localStorage.setItem('dewb:days',JSON.stringify(ds.slice(-90)))}}catch(e){}
  setBusy(false);show('fbk')}
-if(!API){$('liveStart').style.opacity='.55';$('liveFromResult').textContent='이 상황으로 실전 대화 · 곧 열려요'}
+if(!API){$('liveStart').style.opacity='.55';$('liveFromResult').textContent='이 상황으로 실전 대화 · 곧 열려요'}else refreshLeft();
 renderList();
 })();
 </script></body></html>
