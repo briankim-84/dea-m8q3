@@ -1,0 +1,507 @@
+{
+ "student": "Mailey",
+ "folder": "mailey-v3n7",
+ "band": "중급 잔여 + 상급 3000",
+ "words": [
+  {
+   "w": "pair",
+   "ko": "한 쌍, 짝짓다",
+   "ex": "I bought a new pair of shoes.",
+   "exko": "신발 한 켤레 샀어요.",
+   "use": [
+    [
+     "Work in pairs for this activity.",
+     "이 활동은 둘씩 짝지어 하세요."
+    ],
+    [
+     "This wine pairs well with cheese.",
+     "이 와인은 치즈와 잘 어울려요."
+    ]
+   ],
+   "mcq": [
+    "I need pair of a scissors.",
+    "I need a pair of scissors.",
+    "A scissors pair of I need it.",
+    "I need a pair scissors of."
+   ],
+   "ans": 1,
+   "note": "a pair of + 짝 이룬 물건(신발·가위·바지). pair with = 어울리다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "famous",
+   "ko": "유명한",
+   "ex": "Busan is famous for its beaches.",
+   "exko": "부산은 해변으로 유명해요.",
+   "use": [
+    [
+     "He became famous overnight.",
+     "그는 하룻밤에 유명해졌다."
+    ],
+    [
+     "This cafe is famous for its cheesecake.",
+     "이 카페는 치즈케이크로 유명하다."
+    ]
+   ],
+   "mcq": [
+    "The town is famous for its wine.",
+    "The town is famous of its wine.",
+    "The town is famous by its wine.",
+    "The town is famous with its wine."
+   ],
+   "ans": 0,
+   "note": "famous for + 유명한 이유. for 필수!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "spot",
+   "ko": "장소, 발견하다",
+   "ex": "This is my favorite spot in Seoul.",
+   "exko": "서울에서 제일 좋아하는 장소예요.",
+   "use": [
+    [
+     "I spotted a mistake on page 2.",
+     "2쪽에서 오류를 발견했다."
+    ],
+    [
+     "You put me on the spot!",
+     "갑자기 물어보면 어떡해요!"
+    ]
+   ],
+   "mcq": [
+    "I was spot a typo in the email.",
+    "I spot a typo in the email yesterday.",
+    "I spotted a typo in the email.",
+    "I spotted at a typo in the email."
+   ],
+   "ans": 2,
+   "note": "spot = 장소 / 발견하다. on the spot = 즉석에서!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "distance",
+   "ko": "거리",
+   "ex": "What's the distance to the airport?",
+   "exko": "공항까지 거리가 얼마나 돼요?",
+   "use": [
+    [
+     "It's within walking distance.",
+     "걸어갈 수 있는 거리예요."
+    ],
+    [
+     "Keep your distance from the edge.",
+     "가장자리에서 떨어져 계세요."
+    ]
+   ],
+   "mcq": [
+    "The hotel is within walking distance.",
+    "The hotel is within walk distance.",
+    "The hotel is in walking distance.",
+    "The hotel is within a walking distance."
+   ],
+   "ans": 0,
+   "note": "within walking distance = 도보 거리. 관사 없이!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "exchange",
+   "ko": "교환(하다), 환전",
+   "ex": "Can I exchange this for a bigger size?",
+   "exko": "이거 큰 사이즈로 교환돼요?",
+   "use": [
+    [
+     "Where can I exchange money?",
+     "환전은 어디서 해요?"
+    ],
+    [
+     "We exchanged contact information.",
+     "우리는 연락처를 교환했다."
+    ]
+   ],
+   "mcq": [
+    "I exchanged the shirt to a new one.",
+    "The shirt exchanged me for new one.",
+    "I exchanged the shirt with new.",
+    "I exchanged the shirt for a new one."
+   ],
+   "ans": 3,
+   "note": "exchange A for B = A를 B로 교환. 쇼핑·여행 필수!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "invite",
+   "ko": "초대하다",
+   "ex": "They invited us to the housewarming.",
+   "exko": "집들이에 우리를 초대했어요.",
+   "use": [
+    [
+     "Did you invite everyone from the team?",
+     "팀원 전부 초대했어요?"
+    ],
+    [
+     "Thanks for inviting me!",
+     "초대해 줘서 고마워요!"
+    ]
+   ],
+   "mcq": [
+    "She invited me her party.",
+    "She invited me to her party.",
+    "Her party invited she me to.",
+    "She invited to me the party."
+   ],
+   "ans": 1,
+   "note": "invite + 사람 + to + 행사. 어순이 핵심!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "excellent",
+   "ko": "훌륭한",
+   "ex": "The service was excellent.",
+   "exko": "서비스가 훌륭했어요.",
+   "use": [
+    [
+     "That's an excellent question.",
+     "아주 좋은 질문이에요."
+    ],
+    [
+     "She has excellent English skills.",
+     "그녀는 영어 실력이 뛰어나다."
+    ]
+   ],
+   "mcq": [
+    "He did an excellently job.",
+    "He did an excellent job.",
+    "He did excellent a job.",
+    "He made an excellent job."
+   ],
+   "ans": 1,
+   "note": "do an excellent job = 아주 잘 해내다. 칭찬 필수 표현!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "dinner",
+   "ko": "저녁 식사",
+   "ex": "Let's have dinner together.",
+   "exko": "같이 저녁 먹어요.",
+   "use": [
+    [
+     "What's for dinner?",
+     "저녁 뭐예요?"
+    ],
+    [
+     "We went out for dinner.",
+     "저녁 먹으러 나갔다."
+    ]
+   ],
+   "mcq": [
+    "We had the dinner at 7.",
+    "We had a dinner at 7.",
+    "We had dinner in 7.",
+    "We had dinner at 7."
+   ],
+   "ans": 3,
+   "note": "have dinner — 관사 없이! go out for dinner = 외식하다.",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "suit",
+   "ko": "정장, 어울리다",
+   "ex": "That color suits you.",
+   "exko": "그 색 잘 어울려요.",
+   "use": [
+    [
+     "He wore a dark suit to the interview.",
+     "그는 면접에 짙은 정장을 입었다."
+    ],
+    [
+     "Does 3 o'clock suit you?",
+     "3시 괜찮으세요?"
+    ]
+   ],
+   "mcq": [
+    "Does Friday suit with you?",
+    "Does Friday suit to you?",
+    "Does Friday suit you?",
+    "Does Friday suit for you?"
+   ],
+   "ans": 2,
+   "note": "suit + 사람 = ~에게 맞다/어울리다. Suit yourself = 마음대로 해!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "excite",
+   "ko": "흥분시키다",
+   "ex": "The news excited everyone.",
+   "exko": "그 소식에 모두 들떴어요.",
+   "use": [
+    [
+     "I'm so excited about the trip!",
+     "여행 너무 기대돼요!"
+    ],
+    [
+     "The game was really exciting.",
+     "경기가 정말 흥미진진했다."
+    ]
+   ],
+   "mcq": [
+    "I'm excited for about the new job.",
+    "I'm excited about the new job.",
+    "I'm exciting about the new job.",
+    "I excited about the new job."
+   ],
+   "ans": 1,
+   "note": "excited(설레는·사람) vs exciting(설레게 하는·대상). excited about!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "reality",
+   "ko": "현실",
+   "ex": "In reality, it's much harder.",
+   "exko": "현실에선 훨씬 어려워요.",
+   "use": [
+    [
+     "Face reality — we need a new plan.",
+     "현실을 직시하세요, 새 계획이 필요해요."
+    ],
+    [
+     "Her dream became a reality.",
+     "그녀의 꿈이 현실이 됐다."
+    ]
+   ],
+   "mcq": [
+    "In the reality of, the trip was stressful.",
+    "In reality, the trip was stressful.",
+    "At reality, the trip was stressful.",
+    "On reality, the trip was stressful."
+   ],
+   "ans": 1,
+   "note": "in reality = 실제로는. 기대와 현실을 대비할 때!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "cool",
+   "ko": "시원한, 멋진, 괜찮은",
+   "ex": "That's a cool idea!",
+   "exko": "멋진 아이디어네요!",
+   "use": [
+    [
+     "Let the soup cool down.",
+     "수프를 식히세요."
+    ],
+    [
+     "Are you cool with that?",
+     "그거 괜찮아요?"
+    ]
+   ],
+   "mcq": [
+    "Are you cool of the new plan?",
+    "Are you cool at the new plan?",
+    "Are you cool with the new plan?",
+    "Are you cooled with the new plan?"
+   ],
+   "ans": 2,
+   "note": "be cool with = ~ 괜찮아요(캐주얼 OK). cool down = 식히다!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "profile",
+   "ko": "프로필, 개요",
+   "ex": "Update your profile photo.",
+   "exko": "프로필 사진을 업데이트하세요.",
+   "use": [
+    [
+     "She keeps a low profile.",
+     "그녀는 눈에 띄지 않게 지낸다."
+    ],
+    [
+     "The customer profile has changed.",
+     "고객 프로필(특성)이 바뀌었다."
+    ]
+   ],
+   "mcq": [
+    "A low profile keeps he work at.",
+    "He keeps a low profiles at work.",
+    "He keeps a low profile at work.",
+    "He keeps low a profile work at."
+   ],
+   "ans": 2,
+   "note": "keep a low profile = 나서지 않다. high-profile = 세간의 주목을 받는!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "mood",
+   "ko": "기분, 분위기",
+   "ex": "I'm not in the mood today.",
+   "exko": "오늘은 그럴 기분이 아니에요.",
+   "use": [
+    [
+     "The music set the mood.",
+     "음악이 분위기를 만들었다."
+    ],
+    [
+     "He's in a good mood this morning.",
+     "그는 오늘 아침 기분이 좋다."
+    ]
+   ],
+   "mcq": [
+    "I'm not in the mood of a movie.",
+    "I'm not in the mood for a movie.",
+    "A movie isn't in the mood me for.",
+    "I'm not in mood the for a movie."
+   ],
+   "ans": 1,
+   "note": "in the mood for + 명사 = ~하고 싶은 기분. 회화 최다 활용!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "storage",
+   "ko": "저장, 보관",
+   "ex": "My phone is out of storage.",
+   "exko": "폰 저장공간이 다 찼어요.",
+   "use": [
+    [
+     "We rented a storage unit for our furniture.",
+     "가구 보관용 창고를 빌렸다."
+    ],
+    [
+     "Cloud storage makes file sharing easy.",
+     "클라우드 저장소 덕에 파일 공유가 쉽다."
+    ]
+   ],
+   "mcq": [
+    "I need more storage on my laptop.",
+    "I need more storages on my laptop.",
+    "I need storage more in laptop many.",
+    "My laptop storages need more."
+   ],
+   "ans": 0,
+   "note": "storage는 셀 수 없는 명사! 복수형 없어요.",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "shelf",
+   "ko": "선반",
+   "ex": "The book is on the top shelf.",
+   "exko": "그 책은 맨 위 선반에 있어요.",
+   "use": [
+    [
+     "I built a shelf for my plants.",
+     "화분용 선반을 만들었다."
+    ],
+    [
+     "Check the shelf life before buying.",
+     "사기 전에 유통기한을 확인하세요."
+    ]
+   ],
+   "mcq": [
+    "Put the boxes on the shelf.",
+    "Put the boxes on the shelves one.",
+    "The shelf puts boxes on.",
+    "Shelf the boxes on it."
+   ],
+   "ans": 0,
+   "note": "shelf(단수)-shelves(복수). shelf life = 유통기한, 보너스 표현!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "pleasant",
+   "ko": "기분 좋은",
+   "ex": "It was a pleasant surprise.",
+   "exko": "기분 좋은 놀라움이었어요.",
+   "use": [
+    [
+     "Have a pleasant trip!",
+     "즐거운 여행 되세요!"
+    ],
+    [
+     "The weather was pleasant all week.",
+     "한 주 내내 날씨가 좋았다."
+    ]
+   ],
+   "mcq": [
+    "What a pleasant surprising!",
+    "What a pleasant surprise!",
+    "What pleasant a surprise!",
+    "What a pleased surprise!"
+   ],
+   "ans": 1,
+   "note": "pleasant(기분 좋게 하는·대상) vs pleased(기쁜·사람)!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "curious",
+   "ko": "궁금한, 호기심 많은",
+   "ex": "I'm curious about your plan.",
+   "exko": "당신 계획이 궁금해요.",
+   "use": [
+    [
+     "Kids are naturally curious.",
+     "아이들은 원래 호기심이 많다."
+    ],
+    [
+     "Just curious — how old are you?",
+     "그냥 궁금해서요, 몇 살이에요?"
+    ]
+   ],
+   "mcq": [
+    "I'm curious about the result.",
+    "I'm curiosity about the result.",
+    "I'm curious of the result.",
+    "I'm curious for the result."
+   ],
+   "ans": 0,
+   "note": "curious about = ~이 궁금한. Just curious = 그냥 궁금해서!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "impress",
+   "ko": "감명을 주다",
+   "ex": "Her presentation impressed everyone.",
+   "exko": "그녀의 발표가 모두를 감동시켰어요.",
+   "use": [
+    [
+     "I was impressed by his patience.",
+     "그의 인내심에 감명받았다."
+    ],
+    [
+     "Don't try too hard to impress.",
+     "너무 잘 보이려 애쓰지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I impressed with the service.",
+    "I was impressed with the service.",
+    "I was impressed to the service.",
+    "I was impressive with the service."
+   ],
+   "ans": 1,
+   "note": "be impressed with/by = 감명받다. impressive는 '인상적인'(대상)!",
+   "wk": "2026-W40"
+  },
+  {
+   "w": "flexible",
+   "ko": "유연한",
+   "ex": "We need a more flexible plan.",
+   "exko": "더 유연한 계획이 필요해요.",
+   "use": [
+    [
+     "My hours are flexible on Fridays.",
+     "금요일엔 시간이 자유로워요."
+    ],
+    [
+     "Stay flexible when traveling abroad.",
+     "해외여행 땐 유연하게 움직이세요."
+    ]
+   ],
+   "mcq": [
+    "I'm flexible about the date.",
+    "The date flexibles me okay.",
+    "I'm flexible to the date.",
+    "I flexible the date fine."
+   ],
+   "ans": 0,
+   "note": "flexible about + 대상. 일정 조율의 마법 단어!",
+   "wk": "2026-W40"
+  }
+ ]
+}
