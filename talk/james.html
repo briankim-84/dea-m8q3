@@ -238,8 +238,10 @@ function openLive(){
  ensureAudio();
  const msg=liveLeftN===null?'시작하면 오늘 실전 대화 횟수 1번이 차감돼요.':'오늘 남은 '+liveLeftN+'번 중 1번을 써요. 대본 없이 James와 자유롭게 대화해요.';
  sheet('info','실전 대화를 시작할까요?',msg,'시작하기',()=>{hideSheet();startLive()});$('shBtn2').hidden=false;$('shBtn2').onclick=hideSheet}
+const SILENT='data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA//tQxAADB8AhSmxhIIEVCSiJrDCQBTcu3UrAIwUdkRgQbFAZC1CQEwTJ9mjRvBA4UOLD8nKVOWfh+UlK3z/177OXrfOdKl7pyn3Xf//WreyTRUoAWgBgkOAGbZHBgG1OF6zM82DWbZaUmMBptgQhGjsyYqc9ae9XFz280948NMBWInljyzsNRFLPWdnZGWrddDsjK1unuSrVN9jJsK8KuQtQCtMBjCEtImISdNKJOopIpBFpNSMbIHCSRpRR5iakjTiyzLhchUUBwCgyKiweBv/7UsQbg8isVNoMPMjAAAA0gAAABEVFGmgqK////9bP/6XCykxBTUUzLjEwMKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq';
+function unlockAudio(){[audio,liveAudio].forEach(a=>{try{const prev=a.src;a.muted=true;a.src=SILENT;const pr=a.play();if(pr&&pr.then)pr.then(()=>{a.pause();a.muted=false}).catch(()=>{a.muted=false});else a.muted=false}catch(e){a.muted=false}})}
 async function startLive(){
- ensureAudio();audio.pause();setBusy(true);
+ ensureAudio();unlockAudio();audio.pause();setBusy(true);
  let d;try{d=await post('/start',{sid:SID,char:CHAR})}catch(e){setBusy(false);sheet('no','연결이 안 돼요','잠시 후 다시 시도해 주세요.','확인',hideSheet);return}
  if(!d.ok){setBusy(false);if(d.reason==='limit')sheet('info','오늘은 여기까지','실전 대화는 하루 3번까지 할 수 있어요. 내일 다시 만나요!','확인',hideSheet);else sheet('no','이용할 수 없어요','내 노트의 상황 연습 링크로 들어와 주세요.','확인',hideSheet);return}
  tok=d.token;ended=false;msgs=[];$('log').innerHTML='';liveLeftN=d.left;$('liveLeft').textContent='오늘 '+d.left+'번 남음';
@@ -258,7 +260,7 @@ async function send(text){text=(text||'').trim();if(!text||busy||ended)return;se
   if(d.end){ended=true;status('대화가 끝났어요. 내용을 정리하고 있어요…');await feedback();return}
   status('마이크를 누르고 대답해 보세요')}catch(e){msgs.pop();status('연결이 잠깐 끊겼어요. 다시 말해 주세요.')}
  setBusy(false)}
-$('micBtn').onclick=async()=>{ensureAudio();if(rec&&rec.state==='recording'){rec.stop();return}if(busy)return;
+$('micBtn').onclick=async()=>{ensureAudio();if(liveAudio.paused&&!liveTalking){try{liveAudio.muted=false}catch(e){}}if(rec&&rec.state==='recording'){rec.stop();return}if(busy)return;
  try{const st=await navigator.mediaDevices.getUserMedia({audio:true});chunks=[];const mt=['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(m=>window.MediaRecorder&&MediaRecorder.isTypeSupported&&MediaRecorder.isTypeSupported(m))||'';
   rec=mt?new MediaRecorder(st,{mimeType:mt}):new MediaRecorder(st);rec.ondataavailable=e=>chunks.push(e.data);
   rec.onstop=async()=>{st.getTracks().forEach(x=>x.stop());$('micBtn').classList.remove('rec');const blob=new Blob(chunks,{type:rec.mimeType||'audio/webm'});
