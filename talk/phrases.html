@@ -1,22 +1,24 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>My Phrases</title>
-<link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <style>
-:root{--page:#E6F4F1;--card:#FFFFFF;--ink:#1B1B1B;--sub:#56656B;--coral:#F2624B;--yellow:#F7C948;--line:#1B1B1B;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--page:#14201F;--card:#1F2B2B;--ink:#F2F5F4;--sub:#A9B8B6;--line:#0A0F0F}}
-*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font-family:"Nunito","Jua",system-ui,sans-serif}
-.ko{font-family:"Jua","Apple SD Gothic Neo","Malgun Gothic",sans-serif}
-main{max-width:460px;margin:0 auto;padding:16px 16px 40px}
-.back{color:var(--sub);text-decoration:none;font-size:15px}
-.hero{margin:10px 0 18px;background:#8FD0E8;color:#1B1B1B;border:3px solid var(--line);border-radius:24px;box-shadow:0 6px 0 var(--line);padding:18px 20px}
-.hero h1{font-family:"Jua";font-weight:400;font-size:30px;margin:0 0 2px}.hero p{margin:0;font-size:15px}
-.card{background:var(--card);border:3px solid var(--line);border-radius:18px;box-shadow:0 5px 0 var(--line);padding:14px 16px;margin-bottom:14px}
-.en{font-size:19px;font-weight:900;margin:0 0 6px}.why{font-size:15px;margin:0 0 6px}.meta{font-size:13px;color:var(--sub);margin:0 0 10px}
-.row{display:flex;gap:10px}.b{font:inherit;font-size:15px;border:2.5px solid var(--line);border-radius:12px;padding:6px 12px;background:var(--yellow);color:#1B1B1B;cursor:pointer;box-shadow:0 3px 0 var(--line)}
-.b.del{background:var(--card);color:var(--ink)}.empty{text-align:center;color:var(--sub);margin-top:40px}
+:root{--paper:#FBF7EE;--ink:#1F2A44;--hl:#FFE36E;--red:#D64541;--rule:#DCE5EF;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:"IBM Plex Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo",sans-serif;display:flex;justify-content:center}
+main{width:100%;max-width:460px;min-height:100vh;position:relative;padding:14px 16px 40px 54px;background:repeating-linear-gradient(transparent 0 33px,var(--rule) 33px 34px)}
+main:before{content:"";position:absolute;top:0;bottom:0;left:38px;width:2px;background:#EBAAA4}
+.ko{font-family:inherit}
+.back{font-family:"Nanum Pen Script";font-size:24px;color:var(--ink);text-decoration:none}
+.hero{margin:10px 0 16px}.hero h1{font-family:"Nanum Pen Script";font-weight:400;font-size:48px;line-height:1.05}
+.hero h1{background:linear-gradient(transparent 58%,var(--hl) 58%,var(--hl) 92%,transparent 92%);display:inline}
+.hero p{font-size:14px;color:#5B6478;margin-top:8px}
+.card{padding:12px 0 14px;border-bottom:1px dashed #D5CDB8}
+.en{font-size:19px;font-weight:700;margin:0 0 4px}.why{font-size:14.5px;color:#4B5563;margin:0 0 4px;line-height:1.55}.meta{font-family:"Nanum Pen Script";font-size:20px;color:var(--red);margin:0 0 8px}
+.row{display:flex;gap:8px}.b{font:inherit;font-size:13.5px;font-weight:600;border:1.8px solid var(--ink);border-radius:999px;padding:4px 12px;background:transparent;color:var(--ink);cursor:pointer}
+.b.del{border-color:#B8B2A2;color:#8A8F98}.empty{color:#5B6478;margin-top:30px;line-height:1.7}
 </style></head><body><main>
-<a class="back ko" id="back" href="index.html">‹ 상황 연습으로</a>
-<div class="hero"><h1>My Phrases</h1><p class="ko">실전 대화에서 저장한 표현을 모아 봤어요.</p></div>
+<a class="back" id="back" href="index.html">‹ 상황 연습 노트</a>
+<div class="hero"><h1>My Phrases</h1><p class="ko">실전 대화와 표현 노트에서 옮겨 적은 표현이에요.</p></div>
 <div id="list"></div>
 </main>
 <script>
