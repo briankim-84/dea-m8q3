@@ -352,21 +352,29 @@ function pickMime(){
 }
 let recState=null, sharedMic=null;
 function micAlive(s){try{return !!s&&s.getAudioTracks().some(t=>t.readyState==='live');}catch(e){return false;}}
+function releaseMic(s){try{if(s)s.getTracks().forEach(t=>t.stop());}catch(e){}}
 async function freshMic(){
-  if(micAlive(sharedMic))return sharedMic;
-  try{sharedMic=await navigator.mediaDevices.getUserMedia({audio:true});return sharedMic;}
+  if(!navigator.mediaDevices||!window.MediaRecorder){alert("이 브라우저에서는 녹음이 안 돼요. Safari나 Chrome으로 열어 주세요.");return null;}
+  try{return await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});}
   catch(e){alert("마이크 접근이 필요합니다. 브라우저 권한을 허용해주세요.");return null;}
 }
+function makeRecorder(stream){
+  const mt=pickMime();
+  try{return mt?new MediaRecorder(stream,{mimeType:mt}):new MediaRecorder(stream);}
+  catch(e){return new MediaRecorder(stream);}
+}
+function recEmpty(chunks){let n=0;chunks.forEach(c=>n+=c.size);return n<1200;}
 async function toggleRec(i,speed){
   if(recState){const same=recState.idx===i&&recState.speed===speed;stopRec();if(same)return;}
   stopAll("rec");
   const stream=await freshMic();
   if(!stream)return;
-  const mt=pickMime();
-  const mr=mt?new MediaRecorder(stream,{mimeType:mt}):new MediaRecorder(stream);
+  const mr=makeRecorder(stream);const mt=mr.mimeType||'';
   const chunks=[];
   mr.ondataavailable=e=>{if(e.data.size>0)chunks.push(e.data);};
   mr.onstop=async()=>{
+    releaseMic(stream);
+    if(recEmpty(chunks)){alert("녹음이 비어 있어요. 다시 녹음해 주세요.");return;}
     const blob=new Blob(chunks,{type:mr.mimeType||"audio/webm"});
     await idbPut("s"+i+"_"+speed,blob);
     delete cache[i+"_"+speed];
@@ -375,7 +383,7 @@ async function toggleRec(i,speed){
     if(b)card.classList.remove("nofile");
     updateStat();
   };
-  mr.start();
+  mr.start(250);
   recState={idx:i,speed,mr};
   const rb=document.querySelector(`#card${i} .rec${speed==='slow'?'slow':'norm'}`);
   rb.classList.add("on");rb.dataset.label=rb.textContent;rb.textContent="● 정지";
@@ -498,17 +506,18 @@ async function toggleMyRec(i){
   if(myRecState){const same=myRecState.idx===i;stopMyRec();if(same)return;}
   stopAll("myrec");
   const stream=await freshMic();if(!stream)return;
-  const mt=pickMime();
-  const mr=mt?new MediaRecorder(stream,{mimeType:mt}):new MediaRecorder(stream);
+  const mr=makeRecorder(stream);const mt=mr.mimeType||'';
   const chunks=[];
   mr.ondataavailable=e=>{if(e.data.size>0)chunks.push(e.data);};
   mr.onstop=async()=>{
+    releaseMic(stream);
+    if(recEmpty(chunks)){alert("녹음이 비어 있어요. 다시 녹음해 주세요.");return;}
     const blob=new Blob(chunks,{type:mr.mimeType||mt||"audio/mp4"});
     await idbPut(myKey(i),blob);
     const p=document.getElementById("myplay"+i);if(p)p.disabled=false;
     const sv=document.getElementById("saved"+i);if(sv)sv.style.display="inline";
   };
-  mr.start();myRecState={idx:i,mr};
+  mr.start(250);myRecState={idx:i,mr};
   document.getElementById("myrec"+i).textContent="● 정지";
 }
 async function blobDur(blob){
