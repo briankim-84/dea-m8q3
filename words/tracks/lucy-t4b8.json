@@ -3502,6 +3502,506 @@
    "ans": 0,
    "note": "nomination = 후보 지명. 동사는 nominate!",
    "wk": "2026-W40"
+  },
+  {
+   "w": "dumb",
+   "ko": "멍청한, 바보 같은",
+   "ex": "That was a dumb mistake.",
+   "exko": "바보 같은 실수였어요.",
+   "use": [
+    [
+     "Don't ask dumb questions — ask good ones!",
+     "쓸데없는 질문 말고 좋은 질문 해!"
+    ],
+    [
+     "I felt dumb for forgetting.",
+     "잊어버려서 바보 같았다."
+    ]
+   ],
+   "mcq": [
+    "I made a dumbly mistake.",
+    "I made a dumb mistake.",
+    "I made dumb a mistake.",
+    "I did a dumb mistake."
+   ],
+   "ans": 1,
+   "note": "dumb = stupid보다 가벼운 캐주얼 표현. make a mistake!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "couch",
+   "ko": "소파",
+   "ex": "I fell asleep on the couch.",
+   "exko": "소파에서 잠들었어요.",
+   "use": [
+    [
+     "He's a couch potato on weekends.",
+     "그는 주말엔 소파에서 뒹군다."
+    ],
+    [
+     "You can sleep on my couch.",
+     "우리 집 소파에서 자도 돼."
+    ]
+   ],
+   "mcq": [
+    "She was lying on the couch.",
+    "She was laying on couch the.",
+    "She was lying in the couch.",
+    "She was lying at the couch."
+   ],
+   "ans": 0,
+   "note": "on the couch. couch potato = 소파에서 TV만 보는 사람!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "actress",
+   "ko": "여배우",
+   "ex": "She's a famous actress.",
+   "exko": "그녀는 유명 여배우예요.",
+   "use": [
+    [
+     "The actress won an award.",
+     "그 여배우가 상을 받았다."
+    ],
+    [
+     "Many prefer 'actor' for everyone now.",
+     "요즘은 성별 상관없이 actor를 많이 쓴다."
+    ]
+   ],
+   "mcq": [
+    "She's award-winning an actress.",
+    "She's an award-winning actress.",
+    "She's a award-winning actress.",
+    "She's an award-winner actress."
+   ],
+   "ans": 1,
+   "note": "요즘은 남녀 모두 actor라고 부르는 추세예요.",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "makeup",
+   "ko": "화장, 구성",
+   "ex": "She doesn't wear much makeup.",
+   "exko": "그녀는 화장을 진하게 안 해요.",
+   "use": [
+    [
+     "I'll do my makeup in the car.",
+     "차에서 화장할게요."
+    ],
+    [
+     "We need a makeup class next week.",
+     "다음 주에 보강 수업이 필요해요."
+    ]
+   ],
+   "mcq": [
+    "She put on makeups quickly.",
+    "She put on her makeup quickly.",
+    "She put her makeup on quick it.",
+    "She wore on her makeup quickly."
+   ],
+   "ans": 1,
+   "note": "put on/wear makeup. makeup class = 보강 수업!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "mall",
+   "ko": "쇼핑몰",
+   "ex": "Let's meet at the mall.",
+   "exko": "쇼핑몰에서 만나요.",
+   "use": [
+    [
+     "The mall is packed on weekends.",
+     "주말엔 쇼핑몰이 붐빈다."
+    ],
+    [
+     "They opened a new outlet mall.",
+     "새 아울렛 몰이 생겼다."
+    ]
+   ],
+   "mcq": [
+    "We went to shopping at the mall.",
+    "We went shopping at the mall.",
+    "We went shopping to the mall.",
+    "We went shopping in mall the."
+   ],
+   "ans": 1,
+   "note": "go shopping at the mall. go shopping — to 없이!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "robot",
+   "ko": "로봇",
+   "ex": "A robot cleans the floor.",
+   "exko": "로봇이 바닥을 청소해요.",
+   "use": [
+    [
+     "Don't sound like a robot — relax!",
+     "로봇처럼 말하지 말고 편하게!"
+    ],
+    [
+     "Robots now assist in surgery.",
+     "이제 로봇이 수술을 보조한다."
+    ]
+   ],
+   "mcq": [
+    "The robot vacuum cleans every day.",
+    "The robot vacuums cleans every day.",
+    "The robot vacuum is clean every day.",
+    "The robot vacuum clean every day."
+   ],
+   "ans": 0,
+   "note": "robot vacuum = 로봇청소기. 발음 /로우밧/!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "downtown",
+   "ko": "시내, 도심",
+   "ex": "Let's go downtown tonight.",
+   "exko": "오늘 밤 시내 나가요.",
+   "use": [
+    [
+     "I work downtown.",
+     "시내에서 일해요."
+    ],
+    [
+     "Downtown traffic is terrible.",
+     "도심 교통이 끔찍하다."
+    ]
+   ],
+   "mcq": [
+    "Let's go to downtown for dinner.",
+    "Let's go at downtown for dinner.",
+    "Let's go the downtown for dinner.",
+    "Let's go downtown for dinner."
+   ],
+   "ans": 3,
+   "note": "go downtown — to 없이! (부사)",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "heritage",
+   "ko": "유산",
+   "ex": "The palace is a World Heritage site.",
+   "exko": "그 궁은 세계문화유산이에요.",
+   "use": [
+    [
+     "We're proud of our cultural heritage.",
+     "우리는 문화유산이 자랑스럽다."
+    ],
+    [
+     "The brand has a long heritage.",
+     "그 브랜드는 오랜 전통이 있다."
+    ]
+   ],
+   "mcq": [
+    "It's a UNESCO World Heritage site.",
+    "It's a UNESCO World Heritages site.",
+    "It's UNESCO a World Heritage site.",
+    "It's a UNESCO World Heritage sight."
+   ],
+   "ans": 0,
+   "note": "heritage = 물려받은 문화·전통. 브랜드 스토리에도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "summit",
+   "ko": "정상, 정상회담",
+   "ex": "We reached the summit at noon.",
+   "exko": "정오에 정상에 도착했어요.",
+   "use": [
+    [
+     "The leaders met at the summit.",
+     "정상들이 회담에서 만났다."
+    ],
+    [
+     "The tech summit is next week.",
+     "테크 서밋이 다음 주다."
+    ]
+   ],
+   "mcq": [
+    "They reached the summit at dawn.",
+    "They reach the summit at dawn yesterday.",
+    "They reached to the summit at dawn.",
+    "They reached at the summit at dawn."
+   ],
+   "ans": 0,
+   "note": "reach the summit = 정상에 오르다. 회의 '서밋'도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "dose",
+   "ko": "(약의) 1회분, 복용량",
+   "ex": "Take one dose every eight hours.",
+   "exko": "8시간마다 1회분 드세요.",
+   "use": [
+    [
+     "Don't exceed the recommended dose.",
+     "권장량을 넘기지 마세요."
+    ],
+    [
+     "A small dose of humor helps.",
+     "약간의 유머가 도움이 된다."
+    ]
+   ],
+   "mcq": [
+    "Take the medicine by small doses.",
+    "Take the medicine at small doses.",
+    "Take the medicine in small dose.",
+    "Take the medicine in small doses."
+   ],
+   "ans": 3,
+   "note": "in small doses = 조금씩. 비유로도 자주!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "blanket",
+   "ko": "담요",
+   "ex": "Can I get an extra blanket?",
+   "exko": "담요 하나 더 주시겠어요?",
+   "use": [
+    [
+     "The town was under a blanket of snow.",
+     "마을이 눈으로 덮여 있었다."
+    ],
+    [
+     "It's a blanket policy for all staff.",
+     "전 직원 일괄 정책이다."
+    ]
+   ],
+   "mcq": [
+    "Could I have other blanket?",
+    "Could I have an another blanket?",
+    "Could I have another blanket?",
+    "Could I have blanket another?"
+   ],
+   "ans": 2,
+   "note": "another + 단수. blanket policy = 일괄 적용 정책!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "frustration",
+   "ko": "좌절감, 답답함",
+   "ex": "I understand your frustration.",
+   "exko": "답답하신 마음 이해해요.",
+   "use": [
+    [
+     "She sighed in frustration.",
+     "그녀는 답답해서 한숨 쉬었다."
+    ],
+    [
+     "Waiting causes a lot of frustration.",
+     "기다림은 큰 답답함을 준다."
+    ]
+   ],
+   "mcq": [
+    "I can understand your frustrate.",
+    "I can understand frustration your.",
+    "I can understand your frustration.",
+    "I can understand your frustrated."
+   ],
+   "ans": 2,
+   "note": "I understand your frustration = 고객 응대 필수 문장!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "guidance",
+   "ko": "지도, 안내",
+   "ex": "Thank you for your guidance.",
+   "exko": "이끌어 주셔서 감사해요.",
+   "use": [
+    [
+     "Students need guidance, not pressure.",
+     "학생에겐 압박이 아니라 지도가 필요하다."
+    ],
+    [
+     "Follow the guidance on the label.",
+     "라벨의 안내를 따르세요."
+    ]
+   ],
+   "mcq": [
+    "I need a guidance on this.",
+    "I need guidance some on this.",
+    "I need some guidance on this.",
+    "I need some guidances on this."
+   ],
+   "ans": 2,
+   "note": "guidance는 셀 수 없어요! guidance on + 주제.",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "cabin",
+   "ko": "오두막, 객실",
+   "ex": "We rented a cabin in the woods.",
+   "exko": "숲속 오두막을 빌렸어요.",
+   "use": [
+    [
+     "Please return to your seat — cabin crew.",
+     "좌석으로 돌아가 주세요(승무원 안내)."
+    ],
+    [
+     "The cabin has no Wi-Fi.",
+     "그 오두막엔 와이파이가 없다."
+    ]
+   ],
+   "mcq": [
+    "We stayed in a cabin on by the lake.",
+    "We stayed in a cabin by the lake.",
+    "We stayed at a cabin to the lake.",
+    "We stayed in cabin a by the lake."
+   ],
+   "ans": 1,
+   "note": "cabin = 오두막 / 비행기·배의 객실. cabin crew = 승무원!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "flip",
+   "ko": "뒤집다, 넘기다",
+   "ex": "Flip the pancake after two minutes.",
+   "exko": "2분 뒤에 팬케이크를 뒤집으세요.",
+   "use": [
+    [
+     "Flip to page 20.",
+     "20쪽을 펴세요."
+    ],
+    [
+     "Let's flip a coin.",
+     "동전 던져서 정하자."
+    ]
+   ],
+   "mcq": [
+    "Let's flipping a coin to decide.",
+    "Let's flip a coin to decide.",
+    "Let's flip a coin for deciding to.",
+    "Let's flip coin a to decide."
+   ],
+   "ans": 1,
+   "note": "flip a coin = 동전 던지기. flip through = 훑어보다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "donation",
+   "ko": "기부(금)",
+   "ex": "We made a donation to the shelter.",
+   "exko": "보호소에 기부했어요.",
+   "use": [
+    [
+     "All donations are welcome.",
+     "모든 기부를 환영합니다."
+    ],
+    [
+     "Blood donation saves lives.",
+     "헌혈은 생명을 구한다."
+    ]
+   ],
+   "mcq": [
+    "They made donation a to the school.",
+    "They made a donation for to the school.",
+    "They did a donation to the school.",
+    "They made a donation to the school."
+   ],
+   "ans": 3,
+   "note": "make a donation to. 동사 donate!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "valid",
+   "ko": "유효한, 타당한",
+   "ex": "Your passport is still valid.",
+   "exko": "여권은 아직 유효해요.",
+   "use": [
+    [
+     "That's a valid point.",
+     "타당한 지적이에요."
+    ],
+    [
+     "The coupon is valid until Friday.",
+     "쿠폰은 금요일까지 유효하다."
+    ]
+   ],
+   "mcq": [
+    "The ticket is valid at one year.",
+    "The ticket valid is for one year.",
+    "The ticket is valid for one year.",
+    "The ticket is valid during one year."
+   ],
+   "ans": 2,
+   "note": "valid for + 기간. valid point = 일리 있는 말!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "trait",
+   "ko": "특성",
+   "ex": "Patience is her best trait.",
+   "exko": "인내심이 그녀의 최고 장점이에요.",
+   "use": [
+    [
+     "Curiosity is a common trait in scientists.",
+     "호기심은 과학자의 공통 특성이다."
+    ],
+    [
+     "It's a family trait.",
+     "집안 내력이다."
+    ]
+   ],
+   "mcq": [
+    "Honesty is a his best trait.",
+    "Honesty is his best traits.",
+    "Honesty is his trait best.",
+    "Honesty is his best trait."
+   ],
+   "ans": 3,
+   "note": "trait = 성격·특성. personality trait = 성격 특성!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "timing",
+   "ko": "타이밍",
+   "ex": "Your timing is perfect!",
+   "exko": "딱 맞춰 왔네요!",
+   "use": [
+    [
+     "Comedy is all about timing.",
+     "코미디는 타이밍이 전부다."
+    ],
+    [
+     "Bad timing — the store just closed.",
+     "타이밍이 안 좋네, 가게가 방금 닫았어."
+    ]
+   ],
+   "mcq": [
+    "What perfect a timing!",
+    "What perfectly timing!",
+    "What perfect timing!",
+    "What a perfect timings!"
+   ],
+   "ans": 2,
+   "note": "timing은 셀 수 없어요. What perfect timing! = 타이밍 기가 막히네!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "harsh",
+   "ko": "가혹한, 거친",
+   "ex": "That's a bit harsh.",
+   "exko": "그건 좀 심하네요.",
+   "use": [
+    [
+     "The winters here are harsh.",
+     "이곳 겨울은 혹독하다."
+    ],
+    [
+     "Don't be too harsh on yourself.",
+     "자신에게 너무 가혹하게 굴지 마."
+    ]
+   ],
+   "mcq": [
+    "Don't be so harsh at him on.",
+    "Don't be so harshly on him.",
+    "Don't be so harsh to on him.",
+    "Don't be so harsh on him."
+   ],
+   "ans": 3,
+   "note": "harsh on + 사람 = ~에게 가혹한. 피드백 대화 단골!",
+   "wk": "2026-W41"
   }
  ]
 }

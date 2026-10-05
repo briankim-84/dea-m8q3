@@ -3502,6 +3502,506 @@
    "ans": 1,
    "note": "How many languages ~? body language(몸짓), watch your language(말조심)!",
    "wk": "2026-W40"
+  },
+  {
+   "w": "move",
+   "ko": "움직이다, 이사하다",
+   "ex": "We're moving to Busan next month.",
+   "exko": "다음 달에 부산으로 이사해요.",
+   "use": [
+    [
+     "Can you move your car?",
+     "차 좀 빼 주실래요?"
+    ],
+    [
+     "The movie really moved me.",
+     "그 영화에 정말 감동받았다."
+    ]
+   ],
+   "mcq": [
+    "We moved at a new apartment.",
+    "We were move to a new apartment.",
+    "We moved to a new apartment.",
+    "We moved a new apartment."
+   ],
+   "ans": 2,
+   "note": "move to + 장소 = ~로 이사하다. '감동시키다' 뜻도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "read",
+   "ko": "읽다",
+   "ex": "I read the news every morning.",
+   "exko": "매일 아침 뉴스를 읽어요.",
+   "use": [
+    [
+     "Did you read my message?",
+     "제 메시지 읽었어요?"
+    ],
+    [
+     "The sign reads 'No Parking.'",
+     "표지판에 '주차 금지'라고 쓰여 있다."
+    ]
+   ],
+   "mcq": [
+    "I read about it online.",
+    "I read it about online.",
+    "I read on about it online.",
+    "I was read about it online."
+   ],
+   "ans": 0,
+   "note": "read about = ~에 대해 읽다. read-read-read (발음만 /리드/→/레드/)!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "friend",
+   "ko": "친구",
+   "ex": "She's a friend from work.",
+   "exko": "회사 친구예요.",
+   "use": [
+    [
+     "We became friends in college.",
+     "우리는 대학에서 친구가 됐다."
+    ],
+    [
+     "Let's stay friends.",
+     "계속 친구로 지내요."
+    ]
+   ],
+   "mcq": [
+    "We did friends quickly.",
+    "We made friends quickly.",
+    "We made a friends quickly.",
+    "We made friend quickly."
+   ],
+   "ans": 1,
+   "note": "make friends (with) = 친구를 사귀다 — friends 복수 필수!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "business",
+   "ko": "사업, 일",
+   "ex": "How's business these days?",
+   "exko": "요즘 장사 어때요?",
+   "use": [
+    [
+     "I'm here on business.",
+     "출장 왔어요."
+    ],
+    [
+     "That's none of your business.",
+     "네가 상관할 일 아니야."
+    ]
+   ],
+   "mcq": [
+    "I'm in Seoul for business trip.",
+    "I'm in Seoul by business.",
+    "I'm in Seoul at business.",
+    "I'm in Seoul on business."
+   ],
+   "ans": 3,
+   "note": "on business = 업무차. 입국 심사 필수 표현!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "information",
+   "ko": "정보",
+   "ex": "I need more information.",
+   "exko": "정보가 더 필요해요.",
+   "use": [
+    [
+     "Thanks for the information.",
+     "정보 고마워요."
+    ],
+    [
+     "Where's the information desk?",
+     "안내 데스크가 어디예요?"
+    ]
+   ],
+   "mcq": [
+    "Can you give me some informations?",
+    "Can you give me informations some?",
+    "Can you give me some information?",
+    "Can you give me an information?"
+   ],
+   "ans": 2,
+   "note": "information은 셀 수 없는 명사 — a·s 없이!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "love",
+   "ko": "사랑(하다), 아주 좋아하다",
+   "ex": "I love this song!",
+   "exko": "이 노래 너무 좋아요!",
+   "use": [
+    [
+     "I'd love to come.",
+     "정말 가고 싶어요."
+    ],
+    [
+     "She fell in love with Paris.",
+     "그녀는 파리에 반했다."
+    ]
+   ],
+   "mcq": [
+    "I love to would join you.",
+    "I'd love to join you.",
+    "I'd love joining to you.",
+    "I'd love join you."
+   ],
+   "ans": 1,
+   "note": "I'd love to ~ = 꼭 하고 싶어요. 초대 승낙의 정석!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "job",
+   "ko": "일, 직업",
+   "ex": "Good job!",
+   "exko": "잘했어요!",
+   "use": [
+    [
+     "I got a new job.",
+     "새 직장에 들어갔어요."
+    ],
+    [
+     "It's not my job to clean up.",
+     "청소는 내 일이 아니에요."
+    ]
+   ],
+   "mcq": [
+    "You made a great job.",
+    "You did a great job.",
+    "You did great a job.",
+    "You did a great work job."
+   ],
+   "ans": 1,
+   "note": "do a great job = 아주 잘하다. make 아니고 do!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "young",
+   "ko": "어린, 젊은",
+   "ex": "She looks young for her age.",
+   "exko": "그녀는 나이에 비해 어려 보여요.",
+   "use": [
+    [
+     "When I was young, I lived in Daegu.",
+     "어릴 때 대구에 살았어요."
+    ],
+    [
+     "The night is young!",
+     "아직 밤은 길어!"
+    ]
+   ],
+   "mcq": [
+    "He looks young for his age.",
+    "He looks young of his age.",
+    "He looks young to his age.",
+    "He looks youngly for his age."
+   ],
+   "ans": 0,
+   "note": "look young for one's age = 나이보다 어려 보이다. 칭찬 필수!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "face",
+   "ko": "얼굴, 마주하다",
+   "ex": "Let's face it — we're late.",
+   "exko": "인정합시다, 늦었어요.",
+   "use": [
+    [
+     "We need to face the problem.",
+     "문제를 직면해야 한다."
+    ],
+    [
+     "Wash your face before bed.",
+     "자기 전에 세수하세요."
+    ]
+   ],
+   "mcq": [
+    "We have to face the facts.",
+    "We have to face with the facts.",
+    "We have to facing the facts.",
+    "We have to face to the facts."
+   ],
+   "ans": 0,
+   "note": "face + 대상 = 직면하다. Let's face it = 현실을 인정하자!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "idea",
+   "ko": "생각, 아이디어",
+   "ex": "That's a great idea!",
+   "exko": "좋은 생각이에요!",
+   "use": [
+    [
+     "I have no idea.",
+     "전혀 모르겠어요."
+    ],
+    [
+     "Whose idea was this?",
+     "이거 누구 아이디어예요?"
+    ]
+   ],
+   "mcq": [
+    "I have no ideas where he went.",
+    "I don't have no idea where he went.",
+    "I have not idea where he went.",
+    "I have no idea where he went."
+   ],
+   "ans": 3,
+   "note": "I have no idea = 전혀 몰라요. I don't know보다 강해요!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "room",
+   "ko": "방, 공간",
+   "ex": "Is there room for one more?",
+   "exko": "한 명 더 앉을 자리 있어요?",
+   "use": [
+    [
+     "Book a room for two nights.",
+     "2박 방을 예약하세요."
+    ],
+    [
+     "There's room for improvement.",
+     "개선의 여지가 있다."
+    ]
+   ],
+   "mcq": [
+    "There's no a room in the car.",
+    "There's no room in the car.",
+    "There's not room in car the.",
+    "There's no rooms in the car."
+   ],
+   "ans": 1,
+   "note": "room = 방 / 공간(셀 수 없음). room for improvement = 개선 여지!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "person",
+   "ko": "사람",
+   "ex": "She's a very kind person.",
+   "exko": "정말 친절한 사람이에요.",
+   "use": [
+    [
+     "Tickets are 20 dollars per person.",
+     "티켓은 1인당 20달러다."
+    ],
+    [
+     "I'd like to meet in person.",
+     "직접 만나고 싶어요."
+    ]
+   ],
+   "mcq": [
+    "Let's talk in a person.",
+    "Let's talk in person.",
+    "Let's talk on person.",
+    "Let's talk by person."
+   ],
+   "ans": 1,
+   "note": "in person = 직접 만나서. per person = 1인당!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "bad",
+   "ko": "나쁜",
+   "ex": "I feel bad about yesterday.",
+   "exko": "어제 일 때문에 마음이 안 좋아요.",
+   "use": [
+    [
+     "Not bad!",
+     "나쁘지 않네!"
+    ],
+    [
+     "I'm bad at math.",
+     "수학 못해요."
+    ]
+   ],
+   "mcq": [
+    "I'm bad in cooking.",
+    "I'm bad for cooking.",
+    "I'm bad at cooking.",
+    "I'm badly at cooking."
+   ],
+   "ans": 2,
+   "note": "bad at = ~를 못하다. feel bad = 미안하다·안쓰럽다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "city",
+   "ko": "도시",
+   "ex": "Seoul is a busy city.",
+   "exko": "서울은 바쁜 도시예요.",
+   "use": [
+    [
+     "I live in the city center.",
+     "도심에 살아요."
+    ],
+    [
+     "Which city are you from?",
+     "어느 도시 출신이에요?"
+    ]
+   ],
+   "mcq": [
+    "I live at a big city.",
+    "I live in a big city.",
+    "I live on a big city.",
+    "I live in big city a."
+   ],
+   "ans": 1,
+   "note": "in a city — 도시 앞엔 in!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "night",
+   "ko": "밤",
+   "ex": "Good night!",
+   "exko": "잘 자요!",
+   "use": [
+    [
+     "I worked late last night.",
+     "어젯밤 늦게까지 일했어요."
+    ],
+    [
+     "Let's have a movie night.",
+     "영화 보는 밤 하자."
+    ]
+   ],
+   "mcq": [
+    "I couldn't sleep the last night.",
+    "I couldn't sleep in last night.",
+    "I couldn't sleep at last night.",
+    "I couldn't sleep last night."
+   ],
+   "ans": 3,
+   "note": "last night — 전치사 없이! at night(밤에)과 구분.",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "side",
+   "ko": "옆, 쪽, 편",
+   "ex": "I'm on your side.",
+   "exko": "난 네 편이야.",
+   "use": [
+    [
+     "The bank is on the left side.",
+     "은행은 왼쪽에 있어요."
+    ],
+    [
+     "Look on the bright side.",
+     "좋은 쪽으로 생각해요."
+    ]
+   ],
+   "mcq": [
+    "Look the bright side to.",
+    "Look on the bright side.",
+    "Look in the bright side.",
+    "Look at the bright side on."
+   ],
+   "ans": 1,
+   "note": "look on the bright side = 긍정적으로 보다. on one's side = ~ 편!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "age",
+   "ko": "나이, 시대",
+   "ex": "What age did you start?",
+   "exko": "몇 살에 시작했어요?",
+   "use": [
+    [
+     "Age is just a number.",
+     "나이는 숫자에 불과하다."
+    ],
+    [
+     "I haven't seen you in ages!",
+     "진짜 오랜만이다!"
+    ]
+   ],
+   "mcq": [
+    "I haven't seen her in ages.",
+    "I haven't seen her at ages.",
+    "I haven't seen her in age.",
+    "I didn't see her in ages."
+   ],
+   "ans": 0,
+   "note": "in ages = 엄청 오랫동안. for ages도 OK!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "public",
+   "ko": "공공의, 대중",
+   "ex": "Is this park open to the public?",
+   "exko": "이 공원은 일반인도 들어가요?",
+   "use": [
+    [
+     "I'm nervous speaking in public.",
+     "사람들 앞에서 말하면 긴장돼요."
+    ],
+    [
+     "Take public transportation.",
+     "대중교통을 이용하세요."
+    ]
+   ],
+   "mcq": [
+    "She's afraid of speaking on public.",
+    "She's afraid of speaking at the public.",
+    "She's afraid to speaking in public.",
+    "She's afraid of speaking in public."
+   ],
+   "ans": 3,
+   "note": "in public = 공개적으로·사람들 앞에서. public transportation = 대중교통!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "story",
+   "ko": "이야기, 층",
+   "ex": "Long story short, I missed the bus.",
+   "exko": "짧게 말하면 버스를 놓쳤어요.",
+   "use": [
+    [
+     "Tell me the whole story.",
+     "자세히 얘기해 줘."
+    ],
+    [
+     "It's a three-story building.",
+     "3층짜리 건물이다."
+    ]
+   ],
+   "mcq": [
+    "That's long story.",
+    "That's a story long.",
+    "That's a long story.",
+    "That's a long stories."
+   ],
+   "ans": 2,
+   "note": "It's a long story = 얘기하자면 길어. 건물 '층'도 story!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "drive",
+   "ko": "운전하다",
+   "ex": "Can you drive me home?",
+   "exko": "집까지 태워다 줄래요?",
+   "use": [
+    [
+     "It's a 30-minute drive.",
+     "차로 30분 거리예요."
+    ],
+    [
+     "You're driving me crazy!",
+     "너 때문에 미치겠어!"
+    ]
+   ],
+   "mcq": [
+    "She drove me to the airport.",
+    "She drived me to the airport.",
+    "She drove to me the airport.",
+    "She drove me the airport."
+   ],
+   "ans": 0,
+   "note": "drive-drove-driven. drive someone crazy = 미치게 하다!",
+   "wk": "2026-W41"
   }
  ]
 }

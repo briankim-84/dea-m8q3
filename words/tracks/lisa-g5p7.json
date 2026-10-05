@@ -2502,6 +2502,506 @@
    "ans": 2,
    "note": "hint (that) = 넌지시 말하다. drop a hint = 암시를 흘리다!",
    "wk": "2026-W40"
+  },
+  {
+   "w": "supplier",
+   "ko": "공급업체",
+   "ex": "We changed suppliers last year.",
+   "exko": "작년에 공급업체를 바꿨어요.",
+   "use": [
+    [
+     "Our main supplier is in Italy.",
+     "주요 공급처는 이탈리아에 있다."
+    ],
+    [
+     "Contact the supplier about the delay.",
+     "지연 건으로 공급업체에 연락하세요."
+    ]
+   ],
+   "mcq": [
+    "We need new a supplier for glass bottles.",
+    "We need a new supplier of to glass bottles.",
+    "We need a new supplier for glass bottles.",
+    "We need a new supply for bottles glass."
+   ],
+   "ans": 2,
+   "note": "supplier(공급업체) vs supply(공급·명사/동사). 수입·영업 필수!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "prize",
+   "ko": "상, 상품",
+   "ex": "She won first prize.",
+   "exko": "그녀가 1등 상을 받았어요.",
+   "use": [
+    [
+     "The prize is a trip to Jeju.",
+     "상품은 제주 여행이다."
+    ],
+    [
+     "He's a Nobel Prize winner.",
+     "그는 노벨상 수상자다."
+    ]
+   ],
+   "mcq": [
+    "He won a price for his photo.",
+    "He won prize for his photo a.",
+    "He won a prize for his photo.",
+    "He took a prize to his photo."
+   ],
+   "ans": 2,
+   "note": "win a prize. price(가격)와 철자 주의!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "retirement",
+   "ko": "은퇴",
+   "ex": "What are your plans for retirement?",
+   "exko": "은퇴 후 계획이 뭐예요?",
+   "use": [
+    [
+     "He's saving for retirement.",
+     "그는 노후를 위해 저축한다."
+    ],
+    [
+     "She came out of retirement.",
+     "그녀는 은퇴를 번복하고 복귀했다."
+    ]
+   ],
+   "mcq": [
+    "He's planning for an early retire.",
+    "He's planning early retirement for.",
+    "He's planning to early retirement.",
+    "He's planning for early retirement."
+   ],
+   "ans": 3,
+   "note": "retirement(명사) vs retire(동사). early retirement = 조기 은퇴!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "edition",
+   "ko": "판, 호",
+   "ex": "This is a limited edition.",
+   "exko": "이건 한정판이에요.",
+   "use": [
+    [
+     "The second edition has new chapters.",
+     "2판엔 새 장이 들어 있다."
+    ],
+    [
+     "It's the holiday edition of the magazine.",
+     "잡지 연말 특별호다."
+    ]
+   ],
+   "mcq": [
+    "It's a limited addition bottle.",
+    "It's limited a edition bottle.",
+    "It's a limit edition bottle.",
+    "It's a limited edition bottle."
+   ],
+   "ans": 3,
+   "note": "limited edition = 한정판. addition(추가)과 발음 비슷, 철자 주의!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "entertainment",
+   "ko": "오락, 엔터테인먼트",
+   "ex": "He works in the entertainment industry.",
+   "exko": "그는 연예계에서 일해요.",
+   "use": [
+    [
+     "There's live entertainment on Fridays.",
+     "금요일엔 라이브 공연이 있다."
+    ],
+    [
+     "Just for entertainment, not serious.",
+     "그냥 재미로, 진지한 거 아니야."
+    ]
+   ],
+   "mcq": [
+    "She works in entertainment.",
+    "She works in the entertaining.",
+    "She works at entertainments.",
+    "She works in entertain."
+   ],
+   "ans": 0,
+   "note": "entertainment는 셀 수 없는 명사. entertain(동사)과 구분!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "unknown",
+   "ko": "알려지지 않은",
+   "ex": "The cause is still unknown.",
+   "exko": "원인은 아직 밝혀지지 않았어요.",
+   "use": [
+    [
+     "She was an unknown actress then.",
+     "그때 그녀는 무명 배우였다."
+    ],
+    [
+     "The number is from an unknown caller.",
+     "발신자 불명 번호다."
+    ]
+   ],
+   "mcq": [
+    "The reason remains not known it.",
+    "The reason remains unknowing.",
+    "The reason remains unknown.",
+    "The reason unknown remains."
+   ],
+   "ans": 2,
+   "note": "remain unknown = 여전히 알려지지 않다. 무명의 사람에게도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "contemporary",
+   "ko": "현대의, 동시대의",
+   "ex": "I love contemporary art.",
+   "exko": "현대 미술을 좋아해요.",
+   "use": [
+    [
+     "The hotel has a contemporary design.",
+     "그 호텔은 현대적인 디자인이다."
+    ],
+    [
+     "He was a contemporary of Mozart.",
+     "그는 모차르트와 동시대 사람이었다."
+    ]
+   ],
+   "mcq": [
+    "The gallery contemporary shows art.",
+    "The gallery shows contemporarily art.",
+    "The gallery shows contemporary art.",
+    "The gallery shows contemporaries art."
+   ],
+   "ans": 2,
+   "note": "contemporary = 현대의(modern보다 '지금 시대'). 미술·디자인 단골!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "coverage",
+   "ko": "보도, 보장 범위",
+   "ex": "The event got a lot of media coverage.",
+   "exko": "그 행사는 언론에 많이 보도됐어요.",
+   "use": [
+    [
+     "Does my insurance coverage include this?",
+     "제 보험 보장에 이게 포함돼요?"
+    ],
+    [
+     "Phone coverage is weak in the mountains.",
+     "산에선 휴대폰 신호가 약하다."
+    ]
+   ],
+   "mcq": [
+    "The story got wide coverages.",
+    "The story got widely coverage.",
+    "The story got wide coverage.",
+    "The story coverage got wide."
+   ],
+   "ans": 2,
+   "note": "media coverage = 언론 보도. 보험·통신 '커버 범위'도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "false",
+   "ko": "틀린, 거짓의",
+   "ex": "That information is false.",
+   "exko": "그 정보는 사실이 아니에요.",
+   "use": [
+    [
+     "It was a false alarm.",
+     "괜한 소동이었다(오경보)."
+    ],
+    [
+     "True or false?",
+     "맞아 틀려?"
+    ]
+   ],
+   "mcq": [
+    "It turned out to be a falsely alarm.",
+    "It turned out a false to be alarm.",
+    "It turned out to be false an alarm.",
+    "It turned out to be a false alarm."
+   ],
+   "ans": 3,
+   "note": "false alarm = 오경보·괜한 걱정. true ↔ false!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "heavily",
+   "ko": "심하게, 많이",
+   "ex": "It's raining heavily.",
+   "exko": "비가 많이 오고 있어요.",
+   "use": [
+    [
+     "The company relies heavily on exports.",
+     "그 회사는 수출에 크게 의존한다."
+    ],
+    [
+     "He was breathing heavily.",
+     "그는 숨을 몰아쉬었다."
+    ]
+   ],
+   "mcq": [
+    "We rely heavy on online sales.",
+    "We heavily rely of online sales.",
+    "We rely heavily on online sales.",
+    "We rely heavily to online sales."
+   ],
+   "ans": 2,
+   "note": "rely heavily on = ~에 크게 의존하다. heavy의 부사!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "external",
+   "ko": "외부의",
+   "ex": "We hired an external consultant.",
+   "exko": "외부 컨설턴트를 고용했어요.",
+   "use": [
+    [
+     "For external use only.",
+     "외용으로만 사용."
+    ],
+    [
+     "External factors affected sales.",
+     "외부 요인이 매출에 영향을 줬다."
+    ]
+   ],
+   "mcq": [
+    "We used an external hard drive.",
+    "We used external a hard drive.",
+    "We used an externally hard drive.",
+    "We used a external hard drive."
+   ],
+   "ans": 0,
+   "note": "external ↔ internal. external hard drive = 외장하드!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "distinction",
+   "ko": "구별, 차이, 우수",
+   "ex": "There's a clear distinction between them.",
+   "exko": "둘 사이엔 분명한 차이가 있어요.",
+   "use": [
+    [
+     "Make a distinction between facts and opinions.",
+     "사실과 의견을 구별하세요."
+    ],
+    [
+     "She graduated with distinction.",
+     "그녀는 우등으로 졸업했다."
+    ]
+   ],
+   "mcq": [
+    "We should make a distinction between the two.",
+    "We should make distinction among two the.",
+    "We should make a distinct between the two.",
+    "We should do a distinction between the two."
+   ],
+   "ans": 0,
+   "note": "make a distinction between A and B = 구별하다.",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "incorporate",
+   "ko": "포함하다, 반영하다",
+   "ex": "We incorporated your feedback.",
+   "exko": "주신 의견을 반영했어요.",
+   "use": [
+    [
+     "The design incorporates local materials.",
+     "그 디자인은 현지 재료를 활용한다."
+    ],
+    [
+     "Try to incorporate exercise into your day.",
+     "하루에 운동을 끼워 넣어 보세요."
+    ]
+   ],
+   "mcq": [
+    "We incorporated your ideas to into the plan.",
+    "We incorporated in your ideas the plan.",
+    "We incorporate your ideas into plan yesterday.",
+    "We incorporated your ideas into the plan."
+   ],
+   "ans": 3,
+   "note": "incorporate A into B = A를 B에 반영하다. 피드백 반영에 딱!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "currency",
+   "ko": "통화, 화폐",
+   "ex": "What currency do they use there?",
+   "exko": "거기는 어떤 화폐를 써요?",
+   "use": [
+    [
+     "Exchange some currency before the trip.",
+     "여행 전에 환전하세요."
+    ],
+    [
+     "The local currency is the euro.",
+     "현지 통화는 유로다."
+    ]
+   ],
+   "mcq": [
+    "You can pay in local currency.",
+    "You can pay in local currencies money.",
+    "You can pay at local currency.",
+    "You can pay by local currency."
+   ],
+   "ans": 0,
+   "note": "pay in + 통화 = ~로 결제하다. foreign currency = 외화!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "expansion",
+   "ko": "확장",
+   "ex": "The company plans an expansion into Japan.",
+   "exko": "그 회사는 일본 진출을 계획 중이에요.",
+   "use": [
+    [
+     "The expansion created 100 jobs.",
+     "확장으로 일자리 100개가 생겼다."
+    ],
+    [
+     "Rapid expansion can be risky.",
+     "급격한 확장은 위험할 수 있다."
+    ]
+   ],
+   "mcq": [
+    "They announced an expansion to into Asia.",
+    "They announced an expand into Asia.",
+    "They announced an expansion into Asia.",
+    "They announced expansion an into Asia."
+   ],
+   "ans": 2,
+   "note": "expansion into + 시장 = ~로 진출. expand의 명사형!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "innovation",
+   "ko": "혁신",
+   "ex": "The company is known for innovation.",
+   "exko": "그 회사는 혁신으로 유명해요.",
+   "use": [
+    [
+     "Technology drives innovation.",
+     "기술이 혁신을 이끈다."
+    ],
+    [
+     "That's a real innovation in packaging.",
+     "포장 분야의 진짜 혁신이다."
+    ]
+   ],
+   "mcq": [
+    "Innovation is key to growth.",
+    "Innovate is key to growth.",
+    "Innovation is key of growth.",
+    "Innovation is the key for to growth."
+   ],
+   "ans": 0,
+   "note": "innovation = 혁신. innovative(혁신적인)과 세트!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "platform",
+   "ko": "플랫폼, 승강장",
+   "ex": "Which platform does the train leave from?",
+   "exko": "기차가 몇 번 승강장에서 출발해요?",
+   "use": [
+    [
+     "Instagram is a great platform for wine content.",
+     "인스타는 와인 콘텐츠에 좋은 플랫폼이다."
+    ],
+    [
+     "She used the event as a platform to speak.",
+     "그녀는 행사를 발언의 장으로 삼았다."
+    ]
+   ],
+   "mcq": [
+    "The train leaves at platform 3 from.",
+    "The train leave from platform 3.",
+    "The train leaves from the platforms 3.",
+    "The train leaves from platform 3."
+   ],
+   "ans": 3,
+   "note": "platform = 승강장 / 온라인 플랫폼 / 발언의 장!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "creative",
+   "ko": "창의적인",
+   "ex": "She's very creative.",
+   "exko": "그녀는 아주 창의적이에요.",
+   "use": [
+    [
+     "We need a creative solution.",
+     "창의적인 해결책이 필요하다."
+    ],
+    [
+     "He works in the creative team.",
+     "그는 크리에이티브 팀에서 일한다."
+    ]
+   ],
+   "mcq": [
+    "She came up with a creative idea.",
+    "She came up with creative an idea.",
+    "She came up a creative idea with.",
+    "She came up with a creatively idea."
+   ],
+   "ans": 0,
+   "note": "creative(형용사). come up with = (아이디어를) 생각해 내다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "festival",
+   "ko": "축제",
+   "ex": "Are you going to the wine festival?",
+   "exko": "와인 축제 가요?",
+   "use": [
+    [
+     "The film festival starts Friday.",
+     "영화제가 금요일에 시작한다."
+    ],
+    [
+     "The town holds a festival every fall.",
+     "그 마을은 매년 가을 축제를 연다."
+    ]
+   ],
+   "mcq": [
+    "We went to music a festival.",
+    "We went to a music festival.",
+    "We went in a music festival.",
+    "We went at a music festival."
+   ],
+   "ans": 1,
+   "note": "go to a festival. hold a festival = 축제를 열다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "entrance",
+   "ko": "입구, 입장",
+   "ex": "Meet me at the main entrance.",
+   "exko": "정문에서 만나요.",
+   "use": [
+    [
+     "The entrance fee is 10,000 won.",
+     "입장료는 1만 원이다."
+    ],
+    [
+     "She made a big entrance.",
+     "그녀는 화려하게 등장했다."
+    ]
+   ],
+   "mcq": [
+    "I'll wait at front the entrance.",
+    "I'll wait at the front entrance.",
+    "I'll wait at the front entry way entrance.",
+    "I'll wait in the front entrance at."
+   ],
+   "ans": 1,
+   "note": "entrance ↔ exit. entrance fee = 입장료!",
+   "wk": "2026-W41"
   }
  ]
 }

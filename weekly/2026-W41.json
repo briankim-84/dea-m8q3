@@ -1,0 +1,249 @@
+{
+ "week": "2026-W41",
+ "label": "10월 5일 주",
+ "levels": {
+  "warmup": {
+   "cards": [
+    {
+     "expr": "No rush",
+     "ko": "천천히 하세요, 급할 거 없어요",
+     "ex": "Send it whenever you can — no rush."
+    },
+    {
+     "expr": "📘 단어: skip / spill",
+     "ko": "건너뛰다 / 쏟다",
+     "ex": "I skipped breakfast today. → Oops, I spilled my coffee! (skip a meal/class, spill A on B)"
+    },
+    {
+     "expr": "My bad",
+     "ko": "제 실수예요 (가볍게)",
+     "ex": "Oh, that was your seat? My bad!"
+    },
+    {
+     "expr": "📘 단어: lend / deposit",
+     "ko": "빌려주다 / 예치금, 입금하다",
+     "ex": "Can you lend me your charger? → The deposit is 50,000 won. (lend 사람 물건 = ~에게 빌려주다)"
+    },
+    {
+     "expr": "Same here",
+     "ko": "저도요",
+     "ex": "I'm so tired today. — Same here."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Take your time with the report — ___ .",
+     "options": [
+      "not rush",
+      "no rush",
+      "no hurry up",
+      "no rushing"
+     ],
+     "answer": 1,
+     "note": "No rush = 급할 거 없어요. 상대 부담을 덜어주는 한마디!"
+    },
+    {
+     "q": "I ___ lunch because I was too busy.",
+     "options": [
+      "skipped",
+      "lent",
+      "deposited",
+      "spilled"
+     ],
+     "answer": 0,
+     "note": "skip a meal/class = 건너뛰다. 회화에서 정말 자주 써요."
+    },
+    {
+     "q": "Sorry, I took your pen by mistake. ___ !",
+     "options": [
+      "My fault it",
+      "My bad",
+      "My wrong",
+      "Bad me"
+     ],
+     "answer": 1,
+     "note": "My bad = 제 실수(가볍고 캐주얼). 진지한 사과엔 I'm sorry!"
+    },
+    {
+     "q": "Could you ___ me 10,000 won until tomorrow?",
+     "options": [
+      "spill",
+      "lend",
+      "deposit",
+      "borrow"
+     ],
+     "answer": 1,
+     "note": "lend = 빌려주다 / borrow = 빌리다. 주어가 주는 쪽이면 lend!"
+    },
+    {
+     "q": "I love spicy food. — ___ !",
+     "options": [
+      "Same to here",
+      "Me same",
+      "Same here",
+      "Here same"
+     ],
+     "answer": 2,
+     "note": "Same here = 저도요. Me too와 같은 뜻, 더 자연스러운 회화체."
+    }
+   ]
+  },
+  "intermediate": {
+   "cards": [
+    {
+     "expr": "Keep me posted",
+     "ko": "진행 상황 계속 알려 주세요",
+     "ex": "Let me know how the meeting goes — keep me posted."
+    },
+    {
+     "expr": "📘 단어: detect / overlook",
+     "ko": "감지하다, 발견하다 / 간과하다, 놓치다",
+     "ex": "The test detected a problem. → We overlooked a small detail. (detect = 찾아내다, overlook = 못 보고 넘어가다)"
+    },
+    {
+     "expr": "For the time being",
+     "ko": "당분간은",
+     "ex": "For the time being, let's work from home."
+    },
+    {
+     "expr": "📘 단어: adequate / moderate",
+     "ko": "충분한, 적절한 / 적당한, 중간 정도의",
+     "ex": "Is the budget adequate? → Moderate exercise is good for you. (adequate = 필요한 만큼은 되는)"
+    },
+    {
+     "expr": "a ballpark figure",
+     "ko": "대략적인 수치",
+     "ex": "I don't need exact numbers — just a ballpark figure."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Let me know if anything changes — ___ .",
+     "options": [
+      "keep me posting",
+      "keep me post",
+      "keep me posted",
+      "keep posted me"
+     ],
+     "answer": 2,
+     "note": "Keep me posted = 계속 알려 주세요. 이메일·카톡 마무리 단골!"
+    },
+    {
+     "q": "We ___ one important mistake in the contract.",
+     "options": [
+      "overlooked at",
+      "looked over to",
+      "overlook",
+      "overlooked"
+     ],
+     "answer": 3,
+     "note": "overlook = 간과하다. look over(훑어보다)와 뜻이 달라요!"
+    },
+    {
+     "q": "___ , we'll use the old system.",
+     "options": [
+      "For time being",
+      "For the time being",
+      "In the time being",
+      "At the time being"
+     ],
+     "answer": 1,
+     "note": "for the time being = 당분간. 전치사 for 고정!"
+    },
+    {
+     "q": "Walking 30 minutes a day is ___ exercise.",
+     "options": [
+      "moderated",
+      "moderately",
+      "moderation",
+      "moderate"
+     ],
+     "answer": 3,
+     "note": "moderate(형용사) = 적당한. in moderation = 적당히."
+    },
+    {
+     "q": "I don't need the exact cost — just give me ___ .",
+     "options": [
+      "a ball figure",
+      "a baseball figure",
+      "a ballpark figure",
+      "a park number"
+     ],
+     "answer": 2,
+     "note": "a ballpark figure = 대충 어림잡은 숫자. 견적·예산 얘기 단골!"
+    }
+   ]
+  },
+  "challenge": {
+   "cards": [
+    {
+     "expr": "bite off more than you can chew",
+     "ko": "감당 못 할 일을 벌이다",
+     "ex": "I took three projects at once — I bit off more than I could chew."
+    },
+    {
+     "expr": "📘 단어: inevitable / widespread",
+     "ko": "피할 수 없는 / 널리 퍼진",
+     "ex": "Change is inevitable. → The problem is widespread. (it's inevitable that ~)"
+    },
+    {
+     "expr": "jump the gun",
+     "ko": "성급하게 굴다, 너무 일찍 하다",
+     "ex": "Let's not jump the gun — wait for the final results."
+    },
+    {
+     "expr": "📘 단어: endure / thrive",
+     "ko": "견디다 / 번창하다, 잘 자라다",
+     "ex": "We endured a tough year. → Now the business is thriving. (thrive on = ~을 즐기며 잘 해내다)"
+    },
+    {
+     "expr": "cut someone some slack",
+     "ko": "좀 봐주다",
+     "ex": "He's new here — cut him some slack."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Don't take on five projects — you'll ___ .",
+     "hint": "씹을 수 있는 것보다 더 많이 베어 물다",
+     "accept": [
+      "bite off more than you can chew"
+     ],
+     "note": "감당 못 할 만큼 일을 벌이는 것. 과거형은 bit off more than I could chew."
+    },
+    {
+     "q": "With prices rising, a delay was ___ .",
+     "hint": "피할 수 없는 (i로 시작)",
+     "accept": [
+      "inevitable"
+     ],
+     "note": "inevitable = 결국 일어날 수밖에 없는. It's inevitable that ~."
+    },
+    {
+     "q": "We haven't signed yet — don't ___ and tell everyone.",
+     "hint": "출발 총보다 먼저 뛰다 (jump로 시작)",
+     "accept": [
+      "jump the gun"
+     ],
+     "note": "jump the gun = 신호 전에 출발하다 → 성급하게 굴다."
+    },
+    {
+     "q": "Some people ___ under pressure.",
+     "hint": "번창하다, 오히려 잘 해내다 (t로 시작)",
+     "accept": [
+      "thrive"
+     ],
+     "note": "thrive under pressure = 압박 속에서 더 잘 해내다. endure는 '버티다'."
+    },
+    {
+     "q": "It's her first week, so ___ .",
+     "hint": "그녀를 좀 봐주다 (cut으로 시작)",
+     "accept": [
+      "cut her some slack"
+     ],
+     "note": "cut someone some slack = 너그럽게 봐주다. 사람 자리에 him/me/them 다 가능!"
+    }
+   ]
+  }
+ }
+}

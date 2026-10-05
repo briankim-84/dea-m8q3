@@ -3502,6 +3502,506 @@
    "ans": 3,
    "note": "excited(설레는·사람) vs exciting(설레게 하는·대상). excited about!",
    "wk": "2026-W40"
+  },
+  {
+   "w": "rich",
+   "ko": "부유한, 풍부한",
+   "ex": "This wine has a rich flavor.",
+   "exko": "이 와인은 풍미가 진해요.",
+   "use": [
+    [
+     "Fish is rich in protein.",
+     "생선은 단백질이 풍부하다."
+    ],
+    [
+     "He got rich in his thirties.",
+     "그는 30대에 부자가 됐다."
+    ]
+   ],
+   "mcq": [
+    "Spinach is rich with iron in.",
+    "Spinach is rich of iron.",
+    "Spinach is rich in iron.",
+    "Spinach riches in iron."
+   ],
+   "ans": 2,
+   "note": "rich in = ~이 풍부한. 맛이 '진한'에도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "warm",
+   "ko": "따뜻한",
+   "ex": "Thanks for the warm welcome.",
+   "exko": "따뜻하게 맞아 주셔서 감사해요.",
+   "use": [
+    [
+     "Dress warm — it's cold out.",
+     "따뜻하게 입어요, 밖이 추워요."
+    ],
+    [
+     "Let me warm up the food.",
+     "음식 데울게요."
+    ]
+   ],
+   "mcq": [
+    "Warm before up you run.",
+    "Warming up before run you.",
+    "Warm up before you run.",
+    "Warm up you before run."
+   ],
+   "ans": 2,
+   "note": "warm up = 데우다 / 준비운동하다. warm welcome = 환대!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "mix",
+   "ko": "섞다",
+   "ex": "Mix the sauce well.",
+   "exko": "소스를 잘 섞으세요.",
+   "use": [
+    [
+     "I mixed up the dates.",
+     "날짜를 헷갈렸어요."
+    ],
+    [
+     "The reviews were mixed.",
+     "평가가 엇갈렸다."
+    ]
+   ],
+   "mcq": [
+    "Sorry, I mixed up your names.",
+    "Sorry, I mix up your names yesterday.",
+    "Sorry, I mixed your names up with.",
+    "Sorry, I mixed up of your names."
+   ],
+   "ans": 0,
+   "note": "mix up = 헷갈리다. mixed reviews = 엇갈린 평가!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "heavy",
+   "ko": "무거운, 심한",
+   "ex": "This box is too heavy.",
+   "exko": "이 상자 너무 무거워요.",
+   "use": [
+    [
+     "Traffic is heavy this morning.",
+     "오늘 아침 차가 많이 막혀요."
+    ],
+    [
+     "We had heavy rain all night.",
+     "밤새 폭우가 왔다."
+    ]
+   ],
+   "mcq": [
+    "There was heavy traffics downtown.",
+    "There was heavily traffic downtown.",
+    "There were heavy traffic downtown.",
+    "There was heavy traffic downtown."
+   ],
+   "ans": 3,
+   "note": "heavy traffic/rain = 심한 교통·폭우. 무게 말고 '정도'에도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "title",
+   "ko": "제목, 직함",
+   "ex": "What's the title of the book?",
+   "exko": "그 책 제목이 뭐예요?",
+   "use": [
+    [
+     "Her job title is Brand Manager.",
+     "그녀의 직함은 브랜드 매니저다."
+    ],
+    [
+     "They won the title last year.",
+     "그들은 작년에 우승했다."
+    ]
+   ],
+   "mcq": [
+    "What's your title of job?",
+    "What's title your job?",
+    "What's your job title?",
+    "What's your job's title name?"
+   ],
+   "ans": 2,
+   "note": "job title = 직함. 명함·자기소개 필수!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "sample",
+   "ko": "샘플, 맛보다",
+   "ex": "Can I try a sample?",
+   "exko": "시식해 봐도 돼요?",
+   "use": [
+    [
+     "We sampled five wines.",
+     "와인 다섯 종을 시음했다."
+    ],
+    [
+     "The survey had a small sample.",
+     "설문 표본이 작았다."
+    ]
+   ],
+   "mcq": [
+    "Can I have a free sample?",
+    "Can I have free a sample?",
+    "Can I sample a free have?",
+    "Can I have a free samples?"
+   ],
+   "ans": 0,
+   "note": "free sample = 무료 샘플. 동사로 '맛보다·시음하다'!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "weather",
+   "ko": "날씨",
+   "ex": "How's the weather today?",
+   "exko": "오늘 날씨 어때요?",
+   "use": [
+    [
+     "I'm feeling under the weather.",
+     "몸이 좀 안 좋아요."
+    ],
+    [
+     "The weather is perfect for a walk.",
+     "산책하기 딱 좋은 날씨다."
+    ]
+   ],
+   "mcq": [
+    "The weathers are nice today.",
+    "The weather is nice today.",
+    "The weather is a nice today.",
+    "It's a nice weather today."
+   ],
+   "ans": 1,
+   "note": "weather는 셀 수 없어요 — a nice weather는 오류!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "collection",
+   "ko": "수집, 컬렉션",
+   "ex": "He has a huge wine collection.",
+   "exko": "그는 와인 컬렉션이 엄청나요.",
+   "use": [
+    [
+     "The museum's collection is amazing.",
+     "그 박물관 소장품이 대단하다."
+    ],
+    [
+     "The new fall collection is out.",
+     "가을 신상 컬렉션이 나왔다."
+    ]
+   ],
+   "mcq": [
+    "She has a large collections of stamps.",
+    "She has a large collection of stamps.",
+    "She has large a collection of stamps.",
+    "She has a large collection for stamps."
+   ],
+   "ans": 1,
+   "note": "a collection of + 복수명사. collect의 명사형!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "tour",
+   "ko": "투어, 둘러보다",
+   "ex": "We took a winery tour.",
+   "exko": "와이너리 투어를 했어요.",
+   "use": [
+    [
+     "Let me give you a tour of the office.",
+     "사무실 구경시켜 드릴게요."
+    ],
+    [
+     "The band is on tour in Europe.",
+     "그 밴드는 유럽 투어 중이다."
+    ]
+   ],
+   "mcq": [
+    "We took tour a of the factory.",
+    "We took a tour of the factory.",
+    "We took a tour to the factory.",
+    "We made a tour of the factory."
+   ],
+   "ans": 1,
+   "note": "take a tour of = ~을 둘러보다. give someone a tour = 구경시켜 주다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "slow",
+   "ko": "느린",
+   "ex": "Slow down, please.",
+   "exko": "천천히 가 주세요.",
+   "use": [
+    [
+     "Business is slow this month.",
+     "이번 달 장사가 한산해요."
+    ],
+    [
+     "The internet is so slow today.",
+     "오늘 인터넷이 너무 느리다."
+    ]
+   ],
+   "mcq": [
+    "Can you speak a little slowlier?",
+    "Can you speak a little slower?",
+    "Can you speak a little slow more?",
+    "Can you speak a little more slow?"
+   ],
+   "ans": 1,
+   "note": "slower(비교급). 회화에선 speak slower도 자연스러워요!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "dry",
+   "ko": "건조한, 말리다",
+   "ex": "I prefer dry white wine.",
+   "exko": "드라이한 화이트 와인을 좋아해요.",
+   "use": [
+    [
+     "My skin gets dry in winter.",
+     "겨울엔 피부가 건조해진다."
+    ],
+    [
+     "Hang the clothes to dry.",
+     "옷을 널어 말리세요."
+    ]
+   ],
+   "mcq": [
+    "My lips are dry really.",
+    "My lips are really dryly.",
+    "My lips are really dried.",
+    "My lips are really dry."
+   ],
+   "ans": 3,
+   "note": "dry = 건조한 / (와인) 달지 않은. 와인 영어 필수!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "heat",
+   "ko": "열, 더위, 데우다",
+   "ex": "I can't stand this heat.",
+   "exko": "이 더위 못 참겠어요.",
+   "use": [
+    [
+     "Heat the pan before adding oil.",
+     "기름 넣기 전에 팬을 달구세요."
+    ],
+    [
+     "The heat is on.",
+     "압박이 심해졌다."
+    ]
+   ],
+   "mcq": [
+    "Heat up the soup for two minutes.",
+    "Heating the soup up two minutes.",
+    "Heat on the soup for two minutes.",
+    "Heat the soup up for two minute."
+   ],
+   "ans": 0,
+   "note": "heat (up) = 데우다. heat wave = 폭염!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "edge",
+   "ko": "가장자리, 우위",
+   "ex": "Don't stand near the edge.",
+   "exko": "가장자리 근처에 서지 마세요.",
+   "use": [
+    [
+     "Our product has an edge over others.",
+     "우리 제품이 경쟁 우위가 있다."
+    ],
+    [
+     "I'm on edge before interviews.",
+     "면접 전엔 신경이 곤두선다."
+    ]
+   ],
+   "mcq": [
+    "We have an edge on over competitors.",
+    "We have an edge over our competitors.",
+    "We have edge over competitors our.",
+    "We have an edge to our competitors."
+   ],
+   "ans": 1,
+   "note": "have an edge over = ~보다 우위다. on edge = 초조한!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "global",
+   "ko": "세계적인",
+   "ex": "It's a global company.",
+   "exko": "글로벌 기업이에요.",
+   "use": [
+    [
+     "Climate change is a global issue.",
+     "기후 변화는 세계적 문제다."
+    ],
+    [
+     "The song became a global hit.",
+     "그 노래는 세계적 히트를 쳤다."
+    ]
+   ],
+   "mcq": [
+    "It's a global problem.",
+    "It's a globally problem.",
+    "It's global a problem.",
+    "It's a globe problem."
+   ],
+   "ans": 0,
+   "note": "global(형용사) = 세계적인. globe(명사) = 지구!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "advertise",
+   "ko": "광고하다",
+   "ex": "They advertise on Instagram.",
+   "exko": "그들은 인스타에 광고해요.",
+   "use": [
+    [
+     "We advertised the job online.",
+     "온라인에 채용 공고를 냈다."
+    ],
+    [
+     "The product didn't work as advertised.",
+     "제품이 광고만큼 안 됐다."
+    ]
+   ],
+   "mcq": [
+    "They advertisement the event on TV.",
+    "They advertised the event on TV.",
+    "They advertised to the event on TV.",
+    "They advertised about the event on TV."
+   ],
+   "ans": 1,
+   "note": "advertise(동사) vs advertisement/ad(명사). as advertised = 광고대로!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "surround",
+   "ko": "둘러싸다",
+   "ex": "The house is surrounded by trees.",
+   "exko": "그 집은 나무로 둘러싸여 있어요.",
+   "use": [
+    [
+     "Surround yourself with good people.",
+     "좋은 사람들과 함께하세요."
+    ],
+    [
+     "The vineyard is surrounded by hills.",
+     "포도밭은 언덕에 둘러싸여 있다."
+    ]
+   ],
+   "mcq": [
+    "The lake is surround by mountains.",
+    "The lake surrounded by mountains is.",
+    "The lake is surrounded by mountains.",
+    "The lake is surrounded with by mountains."
+   ],
+   "ans": 2,
+   "note": "be surrounded by = ~에 둘러싸이다. surroundings = 주변 환경!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "extent",
+   "ko": "정도, 범위",
+   "ex": "I agree to some extent.",
+   "exko": "어느 정도는 동의해요.",
+   "use": [
+    [
+     "To what extent is this true?",
+     "이게 어느 정도까지 사실이에요?"
+    ],
+    [
+     "We didn't know the extent of the damage.",
+     "피해 규모를 몰랐다."
+    ]
+   ],
+   "mcq": [
+    "To some extent, you're right.",
+    "At some extent, you're right.",
+    "To some extents, you're right.",
+    "In some extent, you're right."
+   ],
+   "ans": 0,
+   "note": "to some extent = 어느 정도는. 의견에 부분 동의할 때!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "roll",
+   "ko": "구르다, 말다",
+   "ex": "Let's get the ball rolling.",
+   "exko": "일을 시작해 봅시다.",
+   "use": [
+    [
+     "Roll up your sleeves.",
+     "소매를 걷어붙이세요."
+    ],
+    [
+     "She rolled her eyes.",
+     "그녀는 눈을 굴렸다(어이없다는 표정)."
+    ]
+   ],
+   "mcq": [
+    "Let's get the ball rolling.",
+    "Let's get the ball roll.",
+    "Let's get the ball to roll on.",
+    "Let's get rolling the ball."
+   ],
+   "ans": 0,
+   "note": "get the ball rolling = 일을 시작하다. roll one's eyes = 눈을 굴리다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "photograph",
+   "ko": "사진(을 찍다)",
+   "ex": "Photographs aren't allowed here.",
+   "exko": "여기선 사진 촬영 금지예요.",
+   "use": [
+    [
+     "She photographs food for magazines.",
+     "그녀는 잡지용 음식 사진을 찍는다."
+    ],
+    [
+     "He's very photogenic.",
+     "그는 사진이 잘 받는다."
+    ]
+   ],
+   "mcq": [
+    "Can I take a photographs here?",
+    "Can I take a photograph here?",
+    "Can I take photograph here?",
+    "Can I make a photograph here?"
+   ],
+   "ans": 1,
+   "note": "photograph = photo의 정식 표현. 강세는 PHO-to-graph!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "peace",
+   "ko": "평화, 평온",
+   "ex": "I just want some peace and quiet.",
+   "exko": "그냥 좀 조용히 쉬고 싶어요.",
+   "use": [
+    [
+     "Leave me in peace.",
+     "날 좀 내버려 둬."
+    ],
+    [
+     "I made peace with my decision.",
+     "내 결정을 받아들였다."
+    ]
+   ],
+   "mcq": [
+    "I need some peace and quietly.",
+    "I need a peace and quiet.",
+    "I need some piece and quiet.",
+    "I need some peace and quiet."
+   ],
+   "ans": 3,
+   "note": "peace and quiet = 고요함. piece(조각)와 발음 같음!",
+   "wk": "2026-W41"
   }
  ]
 }

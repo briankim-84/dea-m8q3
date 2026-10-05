@@ -3502,6 +3502,506 @@
    "ans": 2,
    "note": "the elephant in the room = 모두 아는 문제 — 이번 주 퀴즈 표현!",
    "wk": "2026-W40"
+  },
+  {
+   "w": "handsome",
+   "ko": "잘생긴",
+   "ex": "Her son is very handsome.",
+   "exko": "그녀의 아들은 아주 잘생겼어요.",
+   "use": [
+    [
+     "He looks handsome in that suit.",
+     "그 정장 입으니 멋지다."
+    ],
+    [
+     "They paid a handsome salary.",
+     "그들은 꽤 높은 연봉을 줬다."
+    ]
+   ],
+   "mcq": [
+    "You handsome look today.",
+    "You look handsome today.",
+    "You look handsome man today.",
+    "You look handsomely today."
+   ],
+   "ans": 1,
+   "note": "look + 형용사(handsome). '두둑한(금액)' 뜻도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "gross",
+   "ko": "역겨운, 총~",
+   "ex": "Ew, that's gross!",
+   "exko": "으, 역겨워!",
+   "use": [
+    [
+     "Gross profit rose 10%.",
+     "매출총이익이 10% 늘었다."
+    ],
+    [
+     "The gym towel smells gross.",
+     "운동 수건 냄새가 역하다."
+    ]
+   ],
+   "mcq": [
+    "That smell so gross is.",
+    "That smell is so gross.",
+    "That smell is gross so.",
+    "That smell is so grossly."
+   ],
+   "ans": 1,
+   "note": "gross = 역겨운(회화) / 총(회계, gross vs net)!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "insane",
+   "ko": "말도 안 되는, 미친",
+   "ex": "The traffic was insane today.",
+   "exko": "오늘 교통이 말도 안 됐어요.",
+   "use": [
+    [
+     "That workout was insane!",
+     "그 운동 진짜 미쳤다!"
+    ],
+    [
+     "The prices are insane here.",
+     "여기 가격이 말이 안 된다."
+    ]
+   ],
+   "mcq": [
+    "The line at the cafe was insane.",
+    "The line at the cafe was insanity.",
+    "The line at the cafe was insanely.",
+    "The line at the cafe insane was."
+   ],
+   "ans": 0,
+   "note": "insane = crazy의 강조형(회화). 의학적 의미로는 조심!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "airplane",
+   "ko": "비행기",
+   "ex": "I can't sleep on airplanes.",
+   "exko": "비행기에서 잠을 못 자요.",
+   "use": [
+    [
+     "Put your phone in airplane mode.",
+     "휴대폰을 비행기 모드로 하세요."
+    ],
+    [
+     "The airplane landed safely.",
+     "비행기가 안전하게 착륙했다."
+    ]
+   ],
+   "mcq": [
+    "Switch your phone into an airplane mode on.",
+    "Switch your phone at airplane mode.",
+    "Switch your phone to airplane modes.",
+    "Switch your phone to airplane mode."
+   ],
+   "ans": 3,
+   "note": "airplane mode = 비행기 모드. 영국식은 aeroplane!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "fist",
+   "ko": "주먹",
+   "ex": "Make a fist and squeeze.",
+   "exko": "주먹을 쥐고 꽉 쥐세요.",
+   "use": [
+    [
+     "He pumped his fist after the goal.",
+     "그는 골 넣고 주먹을 불끈 쥐었다."
+    ],
+    [
+     "They gave each other a fist bump.",
+     "그들은 주먹을 맞부딪쳤다."
+    ]
+   ],
+   "mcq": [
+    "Do a fist and hold for five seconds.",
+    "Make a fist and holding five seconds.",
+    "Make a fist and hold for five seconds.",
+    "Make fist a and hold for five seconds."
+   ],
+   "ans": 2,
+   "note": "make a fist = 주먹을 쥐다. fist bump = 주먹 인사!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "sidewalk",
+   "ko": "인도",
+   "ex": "Ride your bike off the sidewalk.",
+   "exko": "자전거는 인도 말고 다른 데서 타세요.",
+   "use": [
+    [
+     "The sidewalk was icy this morning.",
+     "오늘 아침 인도가 얼어 있었다."
+    ],
+    [
+     "Cafes put tables on the sidewalk.",
+     "카페들이 인도에 테이블을 내놓는다."
+    ]
+   ],
+   "mcq": [
+    "Walk on sidewalk the, not road.",
+    "Walk at the sidewalk, not the road.",
+    "Walk in the sidewalk, not the road.",
+    "Walk on the sidewalk, not the road."
+   ],
+   "ans": 3,
+   "note": "on the sidewalk(미국) = pavement(영국)!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "slap",
+   "ko": "찰싹 때리다",
+   "ex": "Don't slap the table!",
+   "exko": "테이블 치지 마요!",
+   "use": [
+    [
+     "The fine was just a slap on the wrist.",
+     "그 벌금은 솜방망이 처벌이었다."
+    ],
+    [
+     "She slapped a sticker on the box.",
+     "그녀는 상자에 스티커를 탁 붙였다."
+    ]
+   ],
+   "mcq": [
+    "It was just a slap in the wrist.",
+    "It was just slap a on the wrist.",
+    "It was just a slapped on the wrist.",
+    "It was just a slap on the wrist."
+   ],
+   "ans": 3,
+   "note": "a slap on the wrist = 가벼운 처벌. 관용 표현!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "candle",
+   "ko": "양초",
+   "ex": "Blow out the candles!",
+   "exko": "촛불 꺼!",
+   "use": [
+    [
+     "We had dinner by candlelight.",
+     "촛불 켜 놓고 저녁을 먹었다."
+    ],
+    [
+     "She lit a scented candle.",
+     "그녀는 향초를 켰다."
+    ]
+   ],
+   "mcq": [
+    "Make a wish and blowing out candles.",
+    "Make a wish and blow off the candles.",
+    "Make a wish and blow the candles away out.",
+    "Make a wish and blow out the candles."
+   ],
+   "ans": 3,
+   "note": "blow out the candles = 촛불을 불어 끄다. light a candle = 켜다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "skull",
+   "ko": "두개골",
+   "ex": "The X-ray showed no skull fracture.",
+   "exko": "엑스레이상 두개골 골절은 없었어요.",
+   "use": [
+    [
+     "Helmets protect your skull.",
+     "헬멧은 두개골을 보호한다."
+    ],
+    [
+     "Get it into your thick skull!",
+     "이 바보야, 좀 알아들어!"
+    ]
+   ],
+   "mcq": [
+    "He fractured skull his in the fall.",
+    "He fractured his skulls in the fall.",
+    "He fracture his skull in the fall.",
+    "He fractured his skull in the fall."
+   ],
+   "ans": 3,
+   "note": "skull fracture = 두개골 골절. 스포츠 부상 용어!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "ancestor",
+   "ko": "조상",
+   "ex": "My ancestors came from Gyeongju.",
+   "exko": "제 조상은 경주 출신이에요.",
+   "use": [
+    [
+     "We honor our ancestors on Chuseok.",
+     "추석에 조상을 기린다."
+    ],
+    [
+     "This phone is the ancestor of smartphones.",
+     "이 폰은 스마트폰의 원조다."
+    ]
+   ],
+   "mcq": [
+    "Our ancestors lived by the river.",
+    "Our ancestors lives by the river.",
+    "Our ancestor lived by the rivers them.",
+    "Our ancestors lived the river by."
+   ],
+   "ans": 0,
+   "note": "ancestor ↔ descendant(후손). 비유로 '원조'!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "pillow",
+   "ko": "베개",
+   "ex": "This pillow is too high for me.",
+   "exko": "이 베개는 저한테 너무 높아요.",
+   "use": [
+    [
+     "Put a pillow under your knees.",
+     "무릎 밑에 베개를 받치세요."
+    ],
+    [
+     "I need a firmer pillow.",
+     "더 단단한 베개가 필요하다."
+    ]
+   ],
+   "mcq": [
+    "Place a pillow under your lower back.",
+    "Place a pillow below of your lower back.",
+    "Place pillow a under your lower back.",
+    "Placing a pillow under your back lower."
+   ],
+   "ans": 0,
+   "note": "pillow = 베개. 재활 자세 교정 지시에 자주!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "purse",
+   "ko": "지갑, 핸드백",
+   "ex": "I left my purse in the car.",
+   "exko": "차에 지갑을 두고 왔어요.",
+   "use": [
+    [
+     "She keeps her keys in her purse.",
+     "그녀는 열쇠를 핸드백에 넣고 다닌다."
+    ],
+    [
+     "The prize purse is one million dollars.",
+     "상금 총액이 100만 달러다."
+    ]
+   ],
+   "mcq": [
+    "She took her phone from out of purse.",
+    "She take her phone out of her purse.",
+    "She took her phone out of her purse.",
+    "She took her phone out her purse of."
+   ],
+   "ans": 2,
+   "note": "purse = (미국) 핸드백 / (영국) 동전지갑. 대회 상금도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "fever",
+   "ko": "열",
+   "ex": "I have a slight fever.",
+   "exko": "미열이 있어요.",
+   "use": [
+    [
+     "The fever went down overnight.",
+     "열이 밤새 내렸다."
+    ],
+    [
+     "World Cup fever hit the city.",
+     "도시에 월드컵 열기가 퍼졌다."
+    ]
+   ],
+   "mcq": [
+    "She is a high fever.",
+    "She has a high fevers.",
+    "She has high fever a.",
+    "She has a high fever."
+   ],
+   "ans": 3,
+   "note": "have a fever. '열기·열풍'의 비유도!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "helmet",
+   "ko": "헬멧",
+   "ex": "Always wear a helmet.",
+   "exko": "항상 헬멧 쓰세요.",
+   "use": [
+    [
+     "Bike helmets reduce head injuries.",
+     "자전거 헬멧은 머리 부상을 줄인다."
+    ],
+    [
+     "The player's helmet came off.",
+     "선수의 헬멧이 벗겨졌다."
+    ]
+   ],
+   "mcq": [
+    "Put your helmet before riding on.",
+    "Put on your helmet before riding.",
+    "Wear on your helmet before riding.",
+    "Put on your helmet before ride."
+   ],
+   "ans": 1,
+   "note": "put on/wear a helmet. 발음 /헬밋/!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "certificate",
+   "ko": "자격증, 증명서",
+   "ex": "She has a Pilates instructor certificate.",
+   "exko": "그녀는 필라테스 강사 자격증이 있어요.",
+   "use": [
+    [
+     "Bring your vaccination certificate.",
+     "예방접종 증명서를 가져오세요."
+    ],
+    [
+     "You'll get a certificate after the course.",
+     "과정을 마치면 수료증을 받는다."
+    ]
+   ],
+   "mcq": [
+    "He earned a certificate of in sports nutrition.",
+    "He earned certificate a in sports nutrition.",
+    "He earned a certificate in sports nutrition.",
+    "He earn a certificate in sports nutrition."
+   ],
+   "ans": 2,
+   "note": "a certificate in + 분야. 이력서 필수 단어!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "sadly",
+   "ko": "안타깝게도",
+   "ex": "Sadly, the event was canceled.",
+   "exko": "안타깝게도 행사가 취소됐어요.",
+   "use": [
+    [
+     "Sadly, he couldn't finish the race.",
+     "안타깝게도 그는 완주하지 못했다."
+    ],
+    [
+     "She smiled sadly.",
+     "그녀는 슬프게 웃었다."
+    ]
+   ],
+   "mcq": [
+    "Sad, we missed the last train.",
+    "Sadness, we missed the last train.",
+    "Sadly we, missed the last train.",
+    "Sadly, we missed the last train."
+   ],
+   "ans": 3,
+   "note": "Sadly, ~ = 안타깝게도(문장 전체 수식). unfortunately와 비슷!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "dawn",
+   "ko": "새벽",
+   "ex": "We started hiking at dawn.",
+   "exko": "새벽에 등산을 시작했어요.",
+   "use": [
+    [
+     "It finally dawned on me.",
+     "마침내 깨달았다."
+    ],
+    [
+     "Dawn is the best time to run.",
+     "새벽이 달리기에 제일 좋은 시간이다."
+    ]
+   ],
+   "mcq": [
+    "It dawn on me that I was wrong.",
+    "It dawned to me that I was wrong.",
+    "It dawned on me that I was wrong.",
+    "It dawned me that I was wrong."
+   ],
+   "ans": 2,
+   "note": "at dawn = 새벽에. It dawned on me = 문득 깨달았다!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "cure",
+   "ko": "치료(법), 낫게 하다",
+   "ex": "There's no cure for the common cold.",
+   "exko": "감기엔 치료법이 없어요.",
+   "use": [
+    [
+     "Laughter is the best cure.",
+     "웃음이 최고의 약이다."
+    ],
+    [
+     "Rest cured my back pain.",
+     "휴식으로 허리 통증이 나았다."
+    ]
+   ],
+   "mcq": [
+    "There's no cure for this disease yet.",
+    "There's no cure to this disease yet.",
+    "There's not cure for this disease yet.",
+    "There's no cure of this disease yet."
+   ],
+   "ans": 0,
+   "note": "a cure for + 질환. treatment(치료)는 과정, cure는 완치!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "workout",
+   "ko": "운동",
+   "ex": "That was a tough workout.",
+   "exko": "힘든 운동이었어요.",
+   "use": [
+    [
+     "I do a quick workout before work.",
+     "출근 전에 가볍게 운동한다."
+    ],
+    [
+     "Drink water after your workout.",
+     "운동 후 물을 마시세요."
+    ]
+   ],
+   "mcq": [
+    "I did 30-minute a workout.",
+    "I did a 30-minute workout.",
+    "I did a 30-minutes workout.",
+    "I made a 30-minute workout."
+   ],
+   "ans": 1,
+   "note": "workout(명사) vs work out(동사). 숫자-분 형용사는 단수!",
+   "wk": "2026-W41"
+  },
+  {
+   "w": "inspection",
+   "ko": "점검, 검사",
+   "ex": "The gym passed its safety inspection.",
+   "exko": "체육관이 안전 점검을 통과했어요.",
+   "use": [
+    [
+     "Bags are subject to inspection.",
+     "가방은 검사 대상이다."
+    ],
+    [
+     "On closer inspection, it was damaged.",
+     "자세히 보니 손상돼 있었다."
+    ]
+   ],
+   "mcq": [
+    "The building passed to the inspection.",
+    "The building past the inspection.",
+    "The building passed the inspection.",
+    "The building passed inspection the."
+   ],
+   "ans": 2,
+   "note": "pass an inspection = 점검 통과. on closer inspection = 자세히 보니!",
+   "wk": "2026-W41"
   }
  ]
 }
