@@ -4002,6 +4002,506 @@
    "ans": 3,
    "note": "harsh on + 사람 = ~에게 가혹한. 피드백 대화 단골!",
    "wk": "2026-W41"
+  },
+  {
+   "w": "assess",
+   "ko": "평가하다",
+   "ex": "We need to assess the risks.",
+   "exko": "리스크를 평가해야 해요.",
+   "use": [
+    [
+     "The damage is still being assessed.",
+     "피해는 아직 평가 중이에요."
+    ],
+    [
+     "How do you assess his performance?",
+     "그의 성과를 어떻게 평가하세요?"
+    ]
+   ],
+   "mcq": [
+    "It's too early to assess of the impact.",
+    "It's too early to assess about the impact.",
+    "It's too early to assess on the impact.",
+    "It's too early to assess the impact."
+   ],
+   "ans": 3,
+   "note": "assess N. 명사 assessment. evaluate와 거의 같은 뜻.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "emphasize",
+   "ko": "강조하다",
+   "ex": "He emphasized the need for speed.",
+   "exko": "그는 속도의 필요성을 강조했어요.",
+   "use": [
+    [
+     "I can't emphasize this enough.",
+     "이건 아무리 강조해도 지나치지 않아요."
+    ],
+    [
+     "The report emphasizes safety.",
+     "보고서는 안전을 강조해요."
+    ]
+   ],
+   "mcq": [
+    "She emphasized to quality comes first.",
+    "She emphasized about quality comes first.",
+    "She emphasized that quality comes first.",
+    "She emphasized on that quality comes first."
+   ],
+   "ans": 2,
+   "note": "emphasize N / that ~ (on ❌). 명사 emphasis (put emphasis on).",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "elaborate",
+   "ko": "자세히 설명하다, 정교한",
+   "ex": "Could you elaborate on that?",
+   "exko": "그 부분 좀 더 자세히 말해 줄래요?",
+   "use": [
+    [
+     "They built an elaborate plan.",
+     "그들은 정교한 계획을 세웠어요."
+    ],
+    [
+     "I won't elaborate here.",
+     "여기서 자세히 말하진 않을게요."
+    ]
+   ],
+   "mcq": [
+    "Can you elaborate your idea on?",
+    "Can you elaborate to your idea?",
+    "Can you elaborate on your idea?",
+    "Can you elaborate about of your idea?"
+   ],
+   "ans": 2,
+   "note": "동사 elaborate on N = 더 자세히 말하다. 형용사 발음은 [-rət]!",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "concise",
+   "ko": "간결한",
+   "ex": "Keep your email concise.",
+   "exko": "이메일은 간결하게 쓰세요.",
+   "use": [
+    [
+     "She gave a concise summary.",
+     "그녀는 간결한 요약을 해 줬어요."
+    ],
+    [
+     "Clear and concise, please.",
+     "명확하고 간결하게 부탁해요."
+    ]
+   ],
+   "mcq": [
+    "His answer was short and concise.",
+    "His answer was short and concisely.",
+    "His answer was short and concise with.",
+    "His answer was short and concision."
+   ],
+   "ans": 0,
+   "note": "concise = 짧고 핵심만. 부사 concisely, 명사 concision.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "vague",
+   "ko": "모호한, 막연한",
+   "ex": "His answer was vague.",
+   "exko": "그의 대답은 모호했어요.",
+   "use": [
+    [
+     "I have a vague memory of it.",
+     "그게 어렴풋이 기억나요."
+    ],
+    [
+     "Don't be vague — give me numbers.",
+     "막연하게 말하지 말고 숫자를 줘요."
+    ]
+   ],
+   "mcq": [
+    "The instructions were too vague to following.",
+    "The instructions were too vague to follow.",
+    "The instructions were too vaguely to follow.",
+    "The instructions were too vague for follow."
+   ],
+   "ans": 1,
+   "note": "vague about N = ~에 대해 모호한. 부사 vaguely, 명사 vagueness.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "tedious",
+   "ko": "지루하고 따분한 (반복적이라)",
+   "ex": "Data entry is tedious work.",
+   "exko": "데이터 입력은 지루한 일이에요.",
+   "use": [
+    [
+     "The meeting was long and tedious.",
+     "회의가 길고 지루했어요."
+    ],
+    [
+     "It's tedious but necessary.",
+     "따분하지만 꼭 필요한 일이에요."
+    ]
+   ],
+   "mcq": [
+    "Filling out forms are tedious.",
+    "Filling out forms is tediously.",
+    "Filling out forms is tedious.",
+    "Fill out forms is tedious."
+   ],
+   "ans": 2,
+   "note": "tedious = 반복적이라 지루한 (boring보다 격식). 명사 tedium.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "stubborn",
+   "ko": "고집 센",
+   "ex": "He's too stubborn to apologize.",
+   "exko": "그는 고집이 세서 사과를 안 해요.",
+   "use": [
+    [
+     "It's a stubborn stain.",
+     "잘 안 지워지는 얼룩이에요."
+    ],
+    [
+     "Don't be so stubborn.",
+     "그렇게 고집부리지 마세요."
+    ]
+   ],
+   "mcq": [
+    "She is stubborn for her decision.",
+    "She is stubborn with her decision.",
+    "She is stubborn about her decision.",
+    "She is stubborn to her decision."
+   ],
+   "ans": 2,
+   "note": "stubborn about N. as stubborn as a mule = 고집불통.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "prudent",
+   "ko": "신중한, 현명한",
+   "ex": "It would be prudent to wait.",
+   "exko": "기다리는 게 현명할 거예요.",
+   "use": [
+    [
+     "She made a prudent investment.",
+     "그녀는 신중한 투자를 했어요."
+    ],
+    [
+     "Be prudent with your money.",
+     "돈은 신중하게 쓰세요."
+    ]
+   ],
+   "mcq": [
+    "It's prudent to saving for emergencies.",
+    "It's prudent for save for emergencies.",
+    "It's prudently to save for emergencies.",
+    "It's prudent to save for emergencies."
+   ],
+   "ans": 3,
+   "note": "prudent = 신중하고 분별 있는. 명사 prudence.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "blunt",
+   "ko": "직설적인, 무딘",
+   "ex": "Let me be blunt.",
+   "exko": "직설적으로 말할게요.",
+   "use": [
+    [
+     "The knife is blunt.",
+     "칼이 무뎌요."
+    ],
+    [
+     "His blunt comments upset her.",
+     "그의 직설적인 말에 그녀가 상처받았어요."
+    ]
+   ],
+   "mcq": [
+    "To be blunt, the plan won't work.",
+    "To be blunt of, the plan won't work.",
+    "To be bluntly, the plan won't work.",
+    "Be to blunt, the plan won't work."
+   ],
+   "ans": 0,
+   "note": "blunt = (말이) 돌려 말하지 않는. 부사 bluntly.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "trivial",
+   "ko": "사소한",
+   "ex": "Don't worry about trivial things.",
+   "exko": "사소한 일에 신경 쓰지 마세요.",
+   "use": [
+    [
+     "It's a trivial mistake.",
+     "사소한 실수예요."
+    ],
+    [
+     "The cost is trivial compared to the benefit.",
+     "이익에 비하면 비용은 미미해요."
+    ]
+   ],
+   "mcq": [
+    "That's a trivially detail.",
+    "That's a trivial detail.",
+    "That's a trivial of detail.",
+    "That's trivial a detail."
+   ],
+   "ans": 1,
+   "note": "trivial = 하찮은. 명사 trivia(잡학 상식).",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "crucial",
+   "ko": "결정적인, 매우 중요한",
+   "ex": "Timing is crucial.",
+   "exko": "타이밍이 결정적이에요.",
+   "use": [
+    [
+     "This is a crucial moment for us.",
+     "우리에게 아주 중요한 순간이에요."
+    ],
+    [
+     "Sleep is crucial for health.",
+     "수면은 건강에 필수예요."
+    ]
+   ],
+   "mcq": [
+    "Your support is crucial on our success.",
+    "Your support is crucial of our success.",
+    "Your support is crucially to our success.",
+    "Your support is crucial to our success."
+   ],
+   "ans": 3,
+   "note": "crucial to/for N. essential, vital과 비슷.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "redundant",
+   "ko": "불필요한, 중복되는",
+   "ex": "This sentence is redundant.",
+   "exko": "이 문장은 불필요해요(중복).",
+   "use": [
+    [
+     "He was made redundant.",
+     "그는 정리해고됐어요. (영국식)"
+    ],
+    [
+     "Remove redundant steps.",
+     "불필요한 단계를 없애세요."
+    ]
+   ],
+   "mcq": [
+    "The second check is redundantly.",
+    "The second check is redundant of.",
+    "The second check is redundant.",
+    "The second check is redundancy."
+   ],
+   "ans": 2,
+   "note": "redundant = 중복이라 불필요한. 명사 redundancy.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "abundant",
+   "ko": "풍부한",
+   "ex": "Fish are abundant in this river.",
+   "exko": "이 강에는 물고기가 많아요.",
+   "use": [
+    [
+     "There's abundant evidence.",
+     "증거가 넘쳐요."
+    ],
+    [
+     "The region has abundant sunshine.",
+     "그 지역은 햇빛이 풍부해요."
+    ]
+   ],
+   "mcq": [
+    "Water is abundance here.",
+    "Water is abundant of here.",
+    "Water is abundant here.",
+    "Water is abundantly here."
+   ],
+   "ans": 2,
+   "note": "abundant = 넉넉한. 명사 abundance, 부사 abundantly.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "scarce",
+   "ko": "부족한, 드문",
+   "ex": "Water is scarce in the desert.",
+   "exko": "사막에는 물이 부족해요.",
+   "use": [
+    [
+     "Good jobs are scarce these days.",
+     "요즘 좋은 일자리가 드물어요."
+    ],
+    [
+     "Parking is scarce downtown.",
+     "시내에 주차 공간이 부족해요."
+    ]
+   ],
+   "mcq": [
+    "Fresh vegetables were scarce of in winter.",
+    "Fresh vegetables were scarce in winter.",
+    "Fresh vegetables was scarce in winter.",
+    "Fresh vegetables were scarcely in winter."
+   ],
+   "ans": 1,
+   "note": "scarce ↔ abundant. 명사 scarcity. scarcely = 거의 ~않다(뜻 다름!).",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "plausible",
+   "ko": "그럴듯한",
+   "ex": "That's a plausible explanation.",
+   "exko": "그럴듯한 설명이네요.",
+   "use": [
+    [
+     "Her story sounded plausible.",
+     "그녀의 얘기는 그럴듯하게 들렸어요."
+    ],
+    [
+     "It's plausible but unproven.",
+     "그럴듯하지만 증명되진 않았어요."
+    ]
+   ],
+   "mcq": [
+    "It seems plausible for that he forgot.",
+    "It seems plausible that he forgot.",
+    "It seems plausibly that he forgot.",
+    "It seems plausible to he forgot."
+   ],
+   "ans": 1,
+   "note": "plausible = 믿을 만한, 그럴듯한. 반대 implausible.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "viable",
+   "ko": "실행 가능한, 성공할 수 있는",
+   "ex": "Is the business viable?",
+   "exko": "그 사업이 성립 가능한가요?",
+   "use": [
+    [
+     "We need a viable alternative.",
+     "실행 가능한 대안이 필요해요."
+    ],
+    [
+     "The plan isn't financially viable.",
+     "그 계획은 재정적으로 불가능해요."
+    ]
+   ],
+   "mcq": [
+    "Solar power is viable an option here.",
+    "Solar power is a viable of option here.",
+    "Solar power is a viably option here.",
+    "Solar power is a viable option here."
+   ],
+   "ans": 3,
+   "note": "viable = 실제로 돌아갈 수 있는. 명사 viability.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "obscure",
+   "ko": "잘 알려지지 않은, 가리다",
+   "ex": "He's an obscure writer.",
+   "exko": "그는 무명 작가예요.",
+   "use": [
+    [
+     "The meaning is obscure.",
+     "의미가 불분명해요."
+    ],
+    [
+     "Clouds obscured the view.",
+     "구름이 시야를 가렸어요."
+    ]
+   ],
+   "mcq": [
+    "The rules are obscure for most people.",
+    "The rules are obscure of most people.",
+    "The rules are obscurely to most people.",
+    "The rules are obscure to most people."
+   ],
+   "ans": 3,
+   "note": "obscure(형) 잘 안 알려진 / (동) 가리다. 명사 obscurity.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "lenient",
+   "ko": "관대한, 너그러운",
+   "ex": "The teacher is lenient with homework.",
+   "exko": "그 선생님은 숙제에 관대해요.",
+   "use": [
+    [
+     "The judge was lenient.",
+     "판사가 관대했어요."
+    ],
+    [
+     "Don't be too lenient.",
+     "너무 봐주지 마세요."
+    ]
+   ],
+   "mcq": [
+    "The company is lenient for dress code.",
+    "The company is leniently about dress code.",
+    "The company is lenient to dress code.",
+    "The company is lenient about dress code."
+   ],
+   "ans": 3,
+   "note": "lenient with 사람 / about N. 반대 strict. 명사 leniency.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "rigorous",
+   "ko": "엄격한, 철저한",
+   "ex": "The test is rigorous.",
+   "exko": "그 시험은 엄격해요.",
+   "use": [
+    [
+     "They did a rigorous review.",
+     "철저한 검토를 했어요."
+    ],
+    [
+     "Rigorous training paid off.",
+     "혹독한 훈련이 결실을 맺었어요."
+    ]
+   ],
+   "mcq": [
+    "The process is rigorous but fair.",
+    "The process is rigor but fair.",
+    "The process is rigorously but fair.",
+    "The process is rigorous but fairly."
+   ],
+   "ans": 0,
+   "note": "rigorous = 엄격하고 꼼꼼한. 명사 rigor, 부사 rigorously.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "tangible",
+   "ko": "실체가 있는, 명백한",
+   "ex": "We need tangible results.",
+   "exko": "눈에 보이는 결과가 필요해요.",
+   "use": [
+    [
+     "There's no tangible evidence.",
+     "구체적인 증거가 없어요."
+    ],
+    [
+     "The benefits are tangible.",
+     "이점이 뚜렷해요."
+    ]
+   ],
+   "mcq": [
+    "Show me tangible something.",
+    "Show me something tangible.",
+    "Show me something of tangible.",
+    "Show me something tangibly."
+   ],
+   "ans": 1,
+   "note": "tangible = 손에 잡히는. 반대 intangible(무형의).",
+   "wk": "2026-W42"
   }
  ]
 }

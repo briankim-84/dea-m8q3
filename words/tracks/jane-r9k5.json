@@ -4002,6 +4002,506 @@
    "ans": 1,
    "note": "entrance ↔ exit. entrance fee = 입장료!",
    "wk": "2026-W41"
+  },
+  {
+   "w": "appreciate",
+   "ko": "감사하다, 진가를 알다",
+   "ex": "I really appreciate your help.",
+   "exko": "도와주셔서 정말 감사해요.",
+   "use": [
+    [
+     "I'd appreciate it if you could reply today.",
+     "오늘 답 주시면 감사하겠습니다."
+    ],
+    [
+     "She appreciates good wine.",
+     "그녀는 좋은 와인의 진가를 알아요."
+    ]
+   ],
+   "mcq": [
+    "I appreciate your quick response.",
+    "I appreciate to your quick response.",
+    "I appreciate you for quick response.",
+    "I appreciate for your quick response."
+   ],
+   "ans": 0,
+   "note": "appreciate N (for ❌). I'd appreciate it if ~ = ~해 주시면 감사하겠습니다.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "refuse",
+   "ko": "거절하다",
+   "ex": "He refused to sign the contract.",
+   "exko": "그는 계약서 서명을 거부했어요.",
+   "use": [
+    [
+     "I can't refuse such a kind offer.",
+     "이렇게 친절한 제안은 거절할 수 없죠."
+    ],
+    [
+     "She refused my help.",
+     "그녀는 제 도움을 거절했어요."
+    ]
+   ],
+   "mcq": [
+    "They refused to pay the fee.",
+    "They refused for paying the fee.",
+    "They refused pay the fee.",
+    "They refused paying the fee."
+   ],
+   "ans": 0,
+   "note": "refuse to V. 정중한 거절은 decline, 명사는 refusal.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "complain",
+   "ko": "불평하다",
+   "ex": "Stop complaining and get to work.",
+   "exko": "불평 그만하고 일해요.",
+   "use": [
+    [
+     "Customers complained about the noise.",
+     "고객들이 소음에 대해 불만을 제기했어요."
+    ],
+    [
+     "I complained to the manager.",
+     "매니저에게 항의했어요."
+    ]
+   ],
+   "mcq": [
+    "She complained the slow service.",
+    "She complained of about the slow service.",
+    "She complained for the slow service.",
+    "She complained about the slow service."
+   ],
+   "ans": 3,
+   "note": "complain to 사람 about N. 명사 complaint.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "afford",
+   "ko": "(경제적·시간적) 여유가 있다",
+   "ex": "I can't afford a new car.",
+   "exko": "새 차 살 형편이 안 돼요.",
+   "use": [
+    [
+     "We can't afford to lose this client.",
+     "이 고객을 잃을 여유가 없어요."
+    ],
+    [
+     "Can you afford the time?",
+     "시간 낼 수 있어요?"
+    ]
+   ],
+   "mcq": [
+    "I can't afford taking a day off.",
+    "I can't afford for a day off.",
+    "I can't afford to take a day off.",
+    "I can't afford take a day off."
+   ],
+   "ans": 2,
+   "note": "can/can't afford N 또는 to V. 거의 항상 can과 함께!",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "rely",
+   "ko": "의지하다, 믿다",
+   "ex": "You can rely on me.",
+   "exko": "저 믿으셔도 돼요.",
+   "use": [
+    [
+     "We rely heavily on online sales.",
+     "온라인 매출에 크게 의존하고 있어요."
+    ],
+    [
+     "Don't rely on luck.",
+     "운에 기대지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I rely to my team a lot.",
+    "I rely on my team a lot.",
+    "I rely my team a lot.",
+    "I rely with my team a lot."
+   ],
+   "ans": 1,
+   "note": "rely on N (on 필수). 형용사 reliable = 믿을 만한.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "insist",
+   "ko": "고집하다, 우기다",
+   "ex": "He insisted on paying.",
+   "exko": "그가 자기가 내겠다고 고집했어요.",
+   "use": [
+    [
+     "If you insist.",
+     "정 그러시다면요."
+    ],
+    [
+     "She insisted that we stay.",
+     "그녀는 우리가 꼭 머물러야 한다고 했어요."
+    ]
+   ],
+   "mcq": [
+    "They insisted a written contract.",
+    "They insisted for a written contract.",
+    "They insisted on a written contract.",
+    "They insisted to a written contract."
+   ],
+   "ans": 2,
+   "note": "insist on N/-ing, insist that ~. 명사 insistence.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "belong",
+   "ko": "속하다, ~의 것이다",
+   "ex": "This bag belongs to me.",
+   "exko": "이 가방은 제 거예요.",
+   "use": [
+    [
+     "Where does this go? It belongs in the kitchen.",
+     "이거 어디 둬요? 부엌에 있어야 해요."
+    ],
+    [
+     "I feel like I belong here.",
+     "여기가 내 자리 같은 느낌이에요."
+    ]
+   ],
+   "mcq": [
+    "Who does this umbrella belonging to?",
+    "Who is this umbrella belong to?",
+    "Who does this umbrella belong?",
+    "Who does this umbrella belong to?"
+   ],
+   "ans": 3,
+   "note": "belong to 사람 = ~의 것이다. belong in 장소 = ~에 있어야 한다.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "participate",
+   "ko": "참가하다",
+   "ex": "Everyone is welcome to participate.",
+   "exko": "누구나 참가할 수 있어요.",
+   "use": [
+    [
+     "I participated in a marathon last year.",
+     "작년에 마라톤에 참가했어요."
+    ],
+    [
+     "Thanks for participating.",
+     "참여해 주셔서 감사해요."
+    ]
+   ],
+   "mcq": [
+    "About 50 people participated the survey.",
+    "About 50 people participated at the survey.",
+    "About 50 people participated in the survey.",
+    "About 50 people participated to the survey."
+   ],
+   "ans": 2,
+   "note": "participate in N (in 필수). 명사 participation, participant.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "recover",
+   "ko": "회복하다, 되찾다",
+   "ex": "It took a week to recover from the cold.",
+   "exko": "감기 낫는 데 일주일 걸렸어요.",
+   "use": [
+    [
+     "The market recovered quickly.",
+     "시장이 빠르게 회복됐어요."
+    ],
+    [
+     "I recovered my lost files.",
+     "잃어버린 파일을 복구했어요."
+    ]
+   ],
+   "mcq": [
+    "She is recovering at surgery.",
+    "She is recovering of surgery.",
+    "She is recovering from surgery.",
+    "She is recovering by surgery."
+   ],
+   "ans": 2,
+   "note": "recover from N = ~에서 회복하다. 명사 recovery.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "hire",
+   "ko": "고용하다, 빌리다",
+   "ex": "We're hiring!",
+   "exko": "직원 모집 중!",
+   "use": [
+    [
+     "They hired a new designer.",
+     "새 디자이너를 채용했어요."
+    ],
+    [
+     "You can hire a car at the airport.",
+     "공항에서 차를 빌릴 수 있어요."
+    ]
+   ],
+   "mcq": [
+    "We decided to hire two more people.",
+    "We decided to hire two more peoples.",
+    "We decided hire two more people.",
+    "We decided to hiring two more people."
+   ],
+   "ans": 0,
+   "note": "hire = 채용하다(미국), 빌리다(영국). 반대는 fire.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "settle",
+   "ko": "정착하다, 해결하다, 정하다",
+   "ex": "Let's settle this once and for all.",
+   "exko": "이거 이번에 확실히 매듭짓죠.",
+   "use": [
+    [
+     "They settled in Busan.",
+     "부산에 정착했어요."
+    ],
+    [
+     "Have you settled on a date?",
+     "날짜는 정했어요?"
+    ]
+   ],
+   "mcq": [
+    "We finally settled on argument.",
+    "We finally settled the argument.",
+    "We finally settled to the argument.",
+    "We finally settled up the argument."
+   ],
+   "ans": 1,
+   "note": "settle N = 해결하다, settle in = 적응하다, settle on = 정하다.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "approve",
+   "ko": "승인하다, 찬성하다",
+   "ex": "The boss approved my vacation.",
+   "exko": "상사가 제 휴가를 승인했어요.",
+   "use": [
+    [
+     "My parents don't approve of him.",
+     "부모님이 그를 탐탁지 않아 하세요."
+    ],
+    [
+     "The plan was approved yesterday.",
+     "계획이 어제 승인됐어요."
+    ]
+   ],
+   "mcq": [
+    "Did they approve the budget?",
+    "Did they approve to the budget?",
+    "Did they approve for the budget?",
+    "Did they approve of the budget?"
+   ],
+   "ans": 0,
+   "note": "approve N = 승인하다 / approve of N = 찬성하다. 명사 approval.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "blame",
+   "ko": "탓하다, 책임",
+   "ex": "Don't blame me!",
+   "exko": "제 탓하지 마세요!",
+   "use": [
+    [
+     "She blamed the delay on the weather.",
+     "그녀는 지연을 날씨 탓으로 돌렸어요."
+    ],
+    [
+     "I only have myself to blame.",
+     "제 잘못이죠."
+    ]
+   ],
+   "mcq": [
+    "He blamed me for the mistake.",
+    "He blamed me of the mistake.",
+    "He blamed to me for the mistake.",
+    "He blamed me the mistake."
+   ],
+   "ans": 0,
+   "note": "blame 사람 for N / blame N on 사람. be to blame = 책임이 있다.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "succeed",
+   "ko": "성공하다, 뒤를 잇다",
+   "ex": "You'll succeed if you keep trying.",
+   "exko": "계속 하면 성공할 거예요.",
+   "use": [
+    [
+     "She succeeded in getting the job.",
+     "그녀는 그 일자리를 얻는 데 성공했어요."
+    ],
+    [
+     "He succeeded his father as CEO.",
+     "그는 아버지의 뒤를 이어 CEO가 됐어요."
+    ]
+   ],
+   "mcq": [
+    "We succeeded to finish on time.",
+    "We succeeded at to finish on time.",
+    "We succeeded in finishing on time.",
+    "We succeeded finishing on time."
+   ],
+   "ans": 2,
+   "note": "succeed in -ing. 명사 success, 형용사 successful.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "cope",
+   "ko": "대처하다, 감당하다",
+   "ex": "How do you cope with stress?",
+   "exko": "스트레스를 어떻게 푸세요(대처하세요)?",
+   "use": [
+    [
+     "I can't cope with this workload.",
+     "이 업무량은 감당이 안 돼요."
+    ],
+    [
+     "She's coping well.",
+     "그녀는 잘 버티고 있어요."
+    ]
+   ],
+   "mcq": [
+    "It's hard to cope the heat.",
+    "It's hard to cope to the heat.",
+    "It's hard to cope with the heat.",
+    "It's hard to cope at the heat."
+   ],
+   "ans": 2,
+   "note": "cope with N (with 필수). deal with와 비슷.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "escape",
+   "ko": "탈출하다, 벗어나다",
+   "ex": "We escaped the city for the weekend.",
+   "exko": "주말에 도시를 벗어났어요.",
+   "use": [
+    [
+     "The cat escaped from the box.",
+     "고양이가 상자에서 탈출했어요."
+    ],
+    [
+     "His name escapes me.",
+     "이름이 기억이 안 나네요."
+    ]
+   ],
+   "mcq": [
+    "They escaped out the burning building.",
+    "They escaped the from burning building.",
+    "They escaped from to the burning building.",
+    "They escaped from the burning building."
+   ],
+   "ans": 3,
+   "note": "escape (from) N. His name escapes me = 생각이 안 난다.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "attach",
+   "ko": "붙이다, 첨부하다",
+   "ex": "I've attached the file.",
+   "exko": "파일 첨부했어요.",
+   "use": [
+    [
+     "Attach the label to the box.",
+     "라벨을 상자에 붙이세요."
+    ],
+    [
+     "She's very attached to her dog.",
+     "그녀는 강아지에게 애착이 커요."
+    ]
+   ],
+   "mcq": [
+    "Please attach your photo on the form.",
+    "Please attach your photo to the form.",
+    "Please attach your photo with the form.",
+    "Please attach your photo in the form."
+   ],
+   "ans": 1,
+   "note": "attach A to B. 명사 attachment(첨부파일), be attached to = 애착이 있다.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "acknowledge",
+   "ko": "인정하다, 받았음을 알리다",
+   "ex": "He acknowledged his mistake.",
+   "exko": "그는 실수를 인정했어요.",
+   "use": [
+    [
+     "Please acknowledge receipt of this email.",
+     "이 메일 수신 확인 부탁드립니다."
+    ],
+    [
+     "They never acknowledged my request.",
+     "제 요청에 아무 반응도 없었어요."
+    ]
+   ],
+   "mcq": [
+    "She acknowledged that she was wrong.",
+    "She acknowledged for being wrong.",
+    "She acknowledged to be wrong.",
+    "She acknowledged about she was wrong."
+   ],
+   "ans": 0,
+   "note": "acknowledge N / that ~. 이메일에서 '수신 확인'으로 자주.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "predict",
+   "ko": "예측하다",
+   "ex": "Nobody can predict the future.",
+   "exko": "아무도 미래를 예측할 수 없어요.",
+   "use": [
+    [
+     "Experts predict prices will rise.",
+     "전문가들은 가격이 오를 거라 예측해요."
+    ],
+    [
+     "The result was hard to predict.",
+     "결과는 예측하기 어려웠어요."
+    ]
+   ],
+   "mcq": [
+    "It's hard to predict about the weather.",
+    "It's hard to predict the weather.",
+    "It's hard to predict for the weather.",
+    "It's hard to predict of the weather."
+   ],
+   "ans": 1,
+   "note": "predict N / that ~. 명사 prediction, 형용사 predictable.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "guarantee",
+   "ko": "보장하다, 보증",
+   "ex": "I can't guarantee it will work.",
+   "exko": "작동한다고 보장은 못 해요.",
+   "use": [
+    [
+     "The phone comes with a two-year guarantee.",
+     "이 폰은 2년 보증이 있어요."
+    ],
+    [
+     "Hard work doesn't guarantee success.",
+     "열심히 한다고 성공이 보장되진 않아요."
+    ]
+   ],
+   "mcq": [
+    "We guarantee delivery in within three days.",
+    "We guarantee to delivery within three days.",
+    "We guarantee for delivery within three days.",
+    "We guarantee delivery within three days."
+   ],
+   "ans": 3,
+   "note": "guarantee N / guarantee that ~. 동사·명사 둘 다!",
+   "wk": "2026-W42"
   }
  ]
 }

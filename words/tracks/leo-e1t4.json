@@ -4002,6 +4002,506 @@
    "ans": 2,
    "note": "the elephant in the room = 모두 아는 문제 — 이번 주 퀴즈 표현!",
    "wk": "2026-W41"
+  },
+  {
+   "w": "intricate",
+   "ko": "복잡하고 정교한",
+   "ex": "The watch has an intricate design.",
+   "exko": "그 시계는 정교한 디자인이에요.",
+   "use": [
+    [
+     "It's an intricate problem.",
+     "복잡하게 얽힌 문제예요."
+    ],
+    [
+     "The plot is intricate.",
+     "줄거리가 복잡해요."
+    ]
+   ],
+   "mcq": [
+    "The pattern is intricate and beautifully.",
+    "The pattern is intricate and beautiful.",
+    "The pattern are intricate and beautiful.",
+    "The pattern is intricately and beautiful."
+   ],
+   "ans": 1,
+   "note": "intricate = 세부가 많아 복잡한. 명사 intricacy.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "negligible",
+   "ko": "무시해도 될 정도의",
+   "ex": "The difference is negligible.",
+   "exko": "차이는 무시해도 돼요.",
+   "use": [
+    [
+     "The risk is negligible.",
+     "위험은 미미해요."
+    ],
+    [
+     "Costs were negligible.",
+     "비용은 거의 없었어요."
+    ]
+   ],
+   "mcq": [
+    "The side effects are negligible.",
+    "The side effects are negligence.",
+    "The side effects are negligibly.",
+    "The side effects are negligible of."
+   ],
+   "ans": 0,
+   "note": "negligible = 너무 작아 무시해도 되는. negligent(태만한)과 구별!",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "mundane",
+   "ko": "평범한, 일상적인",
+   "ex": "Cooking and cleaning are mundane tasks.",
+   "exko": "요리와 청소는 일상적인 일이에요.",
+   "use": [
+    [
+     "He finds his job mundane.",
+     "그는 일이 따분하다고 느껴요."
+    ],
+    [
+     "Let's escape the mundane.",
+     "일상에서 벗어나자."
+    ]
+   ],
+   "mcq": [
+    "Even mundane details matter.",
+    "Even mundane details matters.",
+    "Even mundanely details matter.",
+    "Even mundane detail matter."
+   ],
+   "ans": 0,
+   "note": "mundane = 특별할 것 없는 일상의. ordinary보다 살짝 지루한 느낌.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "deter",
+   "ko": "단념시키다, 막다",
+   "ex": "The fine deters illegal parking.",
+   "exko": "벌금이 불법 주차를 막아요.",
+   "use": [
+    [
+     "Bad weather didn't deter us.",
+     "궂은 날씨도 우리를 막지 못했어요."
+    ],
+    [
+     "Nothing will deter her.",
+     "무엇도 그녀를 막을 수 없어요."
+    ]
+   ],
+   "mcq": [
+    "High prices deter people of buying.",
+    "High prices deter people for buying.",
+    "High prices deter people from buying.",
+    "High prices deter people to buy."
+   ],
+   "ans": 2,
+   "note": "deter 사람 from -ing. 명사 deterrent(억제책).",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "refrain",
+   "ko": "삼가다, 자제하다",
+   "ex": "Please refrain from smoking.",
+   "exko": "흡연을 삼가 주세요.",
+   "use": [
+    [
+     "I refrained from commenting.",
+     "저는 코멘트를 자제했어요."
+    ],
+    [
+     "Refrain from using your phone.",
+     "휴대폰 사용을 자제하세요."
+    ]
+   ],
+   "mcq": [
+    "Please refrain of talking during the show.",
+    "Please refrain talking during the show.",
+    "Please refrain from talking during the show.",
+    "Please refrain to talk during the show."
+   ],
+   "ans": 2,
+   "note": "refrain from -ing (from 필수). 안내 방송에서 자주.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "undermine",
+   "ko": "약화시키다, 훼손하다",
+   "ex": "Rumors undermined his authority.",
+   "exko": "소문이 그의 권위를 약화시켰어요.",
+   "use": [
+    [
+     "Don't undermine her confidence.",
+     "그녀의 자신감을 꺾지 마세요."
+    ],
+    [
+     "The delay undermined trust.",
+     "지연이 신뢰를 훼손했어요."
+    ]
+   ],
+   "mcq": [
+    "Constant criticism undermines to morale.",
+    "Constant criticism undermines of morale.",
+    "Constant criticism undermines morale.",
+    "Constant criticism undermine morale."
+   ],
+   "ans": 2,
+   "note": "undermine N = 몰래·서서히 약화시키다.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "allocate",
+   "ko": "할당하다, 배분하다",
+   "ex": "We allocated $5,000 to marketing.",
+   "exko": "마케팅에 5천 달러를 배정했어요.",
+   "use": [
+    [
+     "Allocate your time wisely.",
+     "시간을 현명하게 배분하세요."
+    ],
+    [
+     "Rooms are allocated on arrival.",
+     "객실은 도착 시 배정돼요."
+    ]
+   ],
+   "mcq": [
+    "The funds were allocated for to three projects.",
+    "The funds were allocated to three projects.",
+    "The funds were allocated three projects.",
+    "The funds was allocated to three projects."
+   ],
+   "ans": 1,
+   "note": "allocate A to B. 명사 allocation.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "alleviate",
+   "ko": "완화하다, 덜어 주다",
+   "ex": "This medicine alleviates pain.",
+   "exko": "이 약은 통증을 완화해요.",
+   "use": [
+    [
+     "The new road alleviated traffic.",
+     "새 도로가 교통 체증을 덜어 줬어요."
+    ],
+    [
+     "Nothing could alleviate her worry.",
+     "무엇도 그녀의 걱정을 덜어 주지 못했어요."
+    ]
+   ],
+   "mcq": [
+    "Stretching helps alleviate of back pain.",
+    "Stretching helps to alleviate for back pain.",
+    "Stretching helps alleviating back pain.",
+    "Stretching helps alleviate back pain."
+   ],
+   "ans": 3,
+   "note": "alleviate N = (고통·문제를) 덜다. relieve와 비슷.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "mitigate",
+   "ko": "완화하다, 줄이다",
+   "ex": "We must mitigate the risks.",
+   "exko": "리스크를 줄여야 해요.",
+   "use": [
+    [
+     "Trees mitigate the heat.",
+     "나무가 더위를 완화해요."
+    ],
+    [
+     "Steps were taken to mitigate the damage.",
+     "피해를 줄이기 위한 조치가 취해졌어요."
+    ]
+   ],
+   "mcq": [
+    "Insurance mitigates on the financial impact.",
+    "Insurance mitigate the financial impact.",
+    "Insurance mitigates the financial impact.",
+    "Insurance mitigates to the financial impact."
+   ],
+   "ans": 2,
+   "note": "mitigate N = 나쁜 영향을 줄이다. 명사 mitigation.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "exacerbate",
+   "ko": "악화시키다",
+   "ex": "Stress exacerbates the problem.",
+   "exko": "스트레스가 문제를 악화시켜요.",
+   "use": [
+    [
+     "The drought exacerbated food shortages.",
+     "가뭄이 식량 부족을 악화시켰어요."
+    ],
+    [
+     "Don't exacerbate the situation.",
+     "상황을 더 나쁘게 만들지 마세요."
+    ]
+   ],
+   "mcq": [
+    "Heat can exacerbating the symptoms.",
+    "Heat can exacerbate the symptoms.",
+    "Heat can exacerbates the symptoms.",
+    "Heat can exacerbate of the symptoms."
+   ],
+   "ans": 1,
+   "note": "exacerbate = 이미 나쁜 것을 더 나쁘게. 반대 alleviate.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "reconcile",
+   "ko": "화해시키다, 조화시키다",
+   "ex": "They reconciled after the fight.",
+   "exko": "그들은 싸운 뒤 화해했어요.",
+   "use": [
+    [
+     "It's hard to reconcile work and family.",
+     "일과 가정을 조화시키기 어려워요."
+    ],
+    [
+     "We need to reconcile the two reports.",
+     "두 보고서를 일치시켜야 해요."
+    ]
+   ],
+   "mcq": [
+    "He reconciled by his brother.",
+    "He reconciled with his brother.",
+    "He reconciled his brother with.",
+    "He reconciled to with his brother."
+   ],
+   "ans": 1,
+   "note": "reconcile with 사람 / reconcile A with B. 명사 reconciliation.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "condone",
+   "ko": "용납하다, 눈감아 주다",
+   "ex": "I don't condone cheating.",
+   "exko": "부정행위는 용납 못 해요.",
+   "use": [
+    [
+     "The company doesn't condone such behavior.",
+     "회사는 그런 행동을 용납하지 않아요."
+    ],
+    [
+     "Silence can seem to condone it.",
+     "침묵은 묵인으로 보일 수 있어요."
+    ]
+   ],
+   "mcq": [
+    "We can't condoning violence of any kind.",
+    "We can't condone for violence of any kind.",
+    "We can't condone to violence of any kind.",
+    "We can't condone violence of any kind."
+   ],
+   "ans": 3,
+   "note": "condone N = 잘못을 봐주다. 주로 부정문으로.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "deplete",
+   "ko": "고갈시키다",
+   "ex": "The trip depleted my savings.",
+   "exko": "여행으로 저축이 바닥났어요.",
+   "use": [
+    [
+     "Overfishing depletes fish stocks.",
+     "남획이 어족 자원을 고갈시켜요."
+    ],
+    [
+     "I feel completely depleted.",
+     "완전히 기운이 다 빠졌어요."
+    ]
+   ],
+   "mcq": [
+    "The long project depleted our budget out.",
+    "The long project depleted of our budget.",
+    "The long project depleted our budget.",
+    "The long project deplete our budget."
+   ],
+   "ans": 2,
+   "note": "deplete N = 다 써서 줄이다. 명사 depletion.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "incur",
+   "ko": "(비용·손실을) 입다, 초래하다",
+   "ex": "You'll incur a late fee.",
+   "exko": "연체료가 발생할 거예요.",
+   "use": [
+    [
+     "The company incurred heavy losses.",
+     "회사가 큰 손실을 입었어요."
+    ],
+    [
+     "Any costs incurred will be refunded.",
+     "발생한 비용은 환불됩니다."
+    ]
+   ],
+   "mcq": [
+    "Late payments incur a 5% charge.",
+    "Late payments incurs a 5% charge.",
+    "Late payments incur with a 5% charge.",
+    "Late payments incur to a 5% charge."
+   ],
+   "ans": 0,
+   "note": "incur a fee/cost/loss. 과거형 incurred (r 두 개!).",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "forgo",
+   "ko": "포기하다, 하지 않고 넘어가다",
+   "ex": "I'll forgo dessert tonight.",
+   "exko": "오늘 밤 디저트는 건너뛸게요.",
+   "use": [
+    [
+     "He forwent his salary for a year.",
+     "그는 1년간 급여를 포기했어요."
+    ],
+    [
+     "We decided to forgo the ceremony.",
+     "우리는 행사를 생략하기로 했어요."
+    ]
+   ],
+   "mcq": [
+    "She chose to forgo the bonus.",
+    "She chose to forgoing the bonus.",
+    "She chose forgo the bonus.",
+    "She chose to forgo of the bonus."
+   ],
+   "ans": 0,
+   "note": "forgo N = 할 수 있는 걸 안 하다. forego로도 씀.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "impede",
+   "ko": "방해하다, 지연시키다",
+   "ex": "Snow impeded traffic.",
+   "exko": "눈이 교통을 방해했어요.",
+   "use": [
+    [
+     "Fear can impede progress.",
+     "두려움이 진전을 막을 수 있어요."
+    ],
+    [
+     "Nothing should impede the investigation.",
+     "무엇도 조사를 방해해선 안 돼요."
+    ]
+   ],
+   "mcq": [
+    "The injury impede his recovery.",
+    "The injury impeded his recovery.",
+    "The injury impeded to his recovery.",
+    "The injury impeded on his recovery."
+   ],
+   "ans": 1,
+   "note": "impede N = 진행을 늦추다. 명사 impediment.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "hinder",
+   "ko": "방해하다, 저해하다",
+   "ex": "Lack of sleep hinders learning.",
+   "exko": "수면 부족은 학습을 방해해요.",
+   "use": [
+    [
+     "The rain hindered the search.",
+     "비가 수색을 방해했어요."
+    ],
+    [
+     "Don't let fear hinder you.",
+     "두려움이 당신을 막게 두지 마세요."
+    ]
+   ],
+   "mcq": [
+    "High costs hinders small businesses.",
+    "High costs hinder for small businesses.",
+    "High costs hinder to small businesses.",
+    "High costs hinder small businesses."
+   ],
+   "ans": 3,
+   "note": "hinder N / hinder 사람 from -ing. 명사 hindrance.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "bolster",
+   "ko": "강화하다, 북돋우다",
+   "ex": "The win bolstered their confidence.",
+   "exko": "그 승리가 자신감을 북돋웠어요.",
+   "use": [
+    [
+     "They bolstered security.",
+     "보안을 강화했어요."
+    ],
+    [
+     "Good reviews bolster sales.",
+     "좋은 후기가 매출을 끌어올려요."
+    ]
+   ],
+   "mcq": [
+    "The new data bolsters to our argument.",
+    "The new data bolsters up of our argument.",
+    "The new data bolster our argument.",
+    "The new data bolsters our argument."
+   ],
+   "ans": 3,
+   "note": "bolster N = 떠받쳐 강화하다. support, strengthen과 비슷.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "entail",
+   "ko": "수반하다",
+   "ex": "The job entails a lot of travel.",
+   "exko": "그 일은 출장이 많아요.",
+   "use": [
+    [
+     "What does the role entail?",
+     "그 역할은 무엇을 포함하나요?"
+    ],
+    [
+     "Success entails sacrifice.",
+     "성공에는 희생이 따라요."
+    ]
+   ],
+   "mcq": [
+    "The plan entails of some risk.",
+    "The plan entails to some risk.",
+    "The plan entails some risk.",
+    "The plan entail some risk."
+   ],
+   "ans": 2,
+   "note": "entail N = 필연적으로 포함하다. involve와 비슷.",
+   "wk": "2026-W42"
+  },
+  {
+   "w": "curtail",
+   "ko": "줄이다, 축소하다",
+   "ex": "We had to curtail spending.",
+   "exko": "지출을 줄여야 했어요.",
+   "use": [
+    [
+     "The trip was curtailed.",
+     "여행이 단축됐어요."
+    ],
+    [
+     "New rules curtail overtime.",
+     "새 규정이 야근을 제한해요."
+    ]
+   ],
+   "mcq": [
+    "The company curtail its expansion plans.",
+    "The company curtailed of its expansion plans.",
+    "The company curtailed to its expansion plans.",
+    "The company curtailed its expansion plans."
+   ],
+   "ans": 3,
+   "note": "curtail N = 잘라서 줄이다. cut back과 비슷(격식).",
+   "wk": "2026-W42"
   }
  ]
 }
