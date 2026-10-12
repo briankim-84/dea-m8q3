@@ -1,0 +1,54 @@
+{
+  "week": "2026-W42",
+  "label": "10월 12일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        {"expr": "Hold on a second", "ko": "잠깐만요 (전화·대화 중 잠시 기다려 달라고)", "ex": "Hold on a second, let me check my calendar."},
+        {"expr": "📘 단어: refund / ignore", "ko": "환불(하다) / 무시하다", "ex": "I asked for a refund. → He ignored my message. (get a refund, ignore a message/call)"},
+        {"expr": "Just in case", "ko": "혹시 모르니까", "ex": "Take an umbrella, just in case."},
+        {"expr": "📘 단어: avoid / fix", "ko": "피하다 / 고치다, 해결하다", "ex": "I avoid driving at rush hour. → Can you fix the printer? (avoid + -ing, fix a problem)"},
+        {"expr": "Kind of", "ko": "약간, 좀 (확실하지 않게 말할 때)", "ex": "Are you tired? — Kind of."}
+      ],
+      "quiz": [
+        {"q": "___ , I'm getting another call.", "options": ["Hold up second", "Hold a second on", "Hold on a second", "Holding on second"], "answer": 2, "note": "Hold on a second = 잠깐만요. 전화·대화 중에 정말 자주 쓰는 한마디!"},
+        {"q": "The shirt didn't fit, so I got a ___ .", "options": ["fix", "refund", "ignore", "avoid"], "answer": 1, "note": "get a refund = 환불받다. 가게에서 Can I get a refund? 로 바로 써 보세요."},
+        {"q": "I brought extra batteries ___ .", "options": ["just in case", "just the case", "in just case", "just case"], "answer": 0, "note": "just in case = 혹시 모르니까. 문장 끝에 붙이면 끝!"},
+        {"q": "Try to ___ eating late at night.", "options": ["fix", "refund", "ignore", "avoid"], "answer": 3, "note": "avoid + -ing = ~하는 것을 피하다. avoid to eat ❌ / avoid eating ⭕"},
+        {"q": "Do you like the new office? — ___ . It's a bit far.", "options": ["Kind so", "Kind of", "Of kind", "Kindly"], "answer": 1, "note": "Kind of = 약간/좀. Yes나 No로 딱 잘라 말하기 애매할 때 딱이에요."}
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        {"expr": "Play it by ear", "ko": "상황 봐서 정하다 (미리 계획 없이)", "ex": "I'm not sure what time we'll finish — let's play it by ear."},
+        {"expr": "📘 단어: reluctant / convince", "ko": "꺼리는, 내키지 않는 / 설득하다", "ex": "He was reluctant to sign. → I convinced him to join. (reluctant to V, convince 사람 to V)"},
+        {"expr": "Get back to someone", "ko": "~에게 다시 연락 주다 (답을 나중에)", "ex": "I'll check and get back to you by Friday."},
+        {"expr": "📘 단어: resolve / neglect", "ko": "해결하다 / 소홀히 하다, 방치하다", "ex": "We resolved the issue quickly. → Don't neglect your health. (resolve an issue, neglect a duty)"},
+        {"expr": "The bottom line", "ko": "핵심, 결론은 (가장 중요한 점)", "ex": "The bottom line is we need more time."}
+      ],
+      "quiz": [
+        {"q": "We don't have a plan for Saturday — let's just ___ .", "options": ["play it by heart", "play it by ear", "play it by hand", "play it on ear"], "answer": 1, "note": "play it by ear = 상황 봐서 하자. 계획 없이 유연하게 갈 때!"},
+        {"q": "She was ___ to share her opinion in the meeting.", "options": ["convinced", "resolved", "reluctant", "neglected"], "answer": 2, "note": "be reluctant to V = ~하기를 꺼리다. 반대는 be eager to V."},
+        {"q": "I don't have the numbers now. I'll ___ you this afternoon.", "options": ["get back to", "get back", "get to back", "get you back to"], "answer": 0, "note": "get back to 사람 = 다시 연락 주다. 전치사 to 꼭 챙기세요."},
+        {"q": "It took weeks to ___ the complaint.", "options": ["neglect", "convince", "reluctant", "resolve"], "answer": 3, "note": "resolve an issue/complaint = 해결하다. 명사형은 resolution."},
+        {"q": "___ is that the project is over budget.", "options": ["The bottom line", "The bottom point", "The bottom end", "The under line"], "answer": 0, "note": "The bottom line is ~ = 결론은 ~이다. 회의 마무리 멘트로 최고!"}
+      ]
+    },
+    "challenge": {
+      "cards": [
+        {"expr": "Hit the ground running", "ko": "시작하자마자 전력으로 달리다 (바로 본격 가동)", "ex": "The new hire hit the ground running on her first day."},
+        {"expr": "📘 단어: ambiguous / feasible", "ko": "모호한, 애매한 / 실현 가능한", "ex": "The instructions were ambiguous. → Is this plan feasible? (ambiguous ↔ clear, feasible ↔ unrealistic)"},
+        {"expr": "Back to square one", "ko": "원점으로 돌아가다", "ex": "The client rejected the design, so we're back to square one."},
+        {"expr": "📘 단어: meticulous / scrutinize", "ko": "꼼꼼한, 세심한 / 면밀히 조사하다", "ex": "She is meticulous about details. → The auditors scrutinized every receipt. (meticulous about N, scrutinize N)"},
+        {"expr": "Steal someone's thunder", "ko": "~의 공(주목)을 가로채다", "ex": "I didn't want to steal her thunder, so I waited to announce my news."}
+      ],
+      "quiz": [
+        {"q": "We onboarded him fast so he could ___ .", "hint": "땅을 치고 달리다 = 시작부터 전력", "accept": ["hit the ground running"], "note": "hit the ground running = 적응 기간 없이 바로 본격적으로. 신입·새 프로젝트 얘기에 자주 등장."},
+        {"q": "The contract wording is ___ — it could mean two things.", "hint": "모호한 (a로 시작)", "accept": ["ambiguous"], "note": "ambiguous = 두 가지 이상으로 해석되는. 명사형 ambiguity."},
+        {"q": "The merger fell through, so we're ___ .", "hint": "1번 칸으로 되돌아감", "accept": ["back to square one", "back at square one"], "note": "back to square one = 원점. 보드게임 첫 칸에서 온 표현."},
+        {"q": "Is it ___ to finish by Friday with only two people?", "hint": "실현 가능한 (f로 시작)", "accept": ["feasible"], "note": "feasible = 현실적으로 가능한. feasibility study(타당성 조사)로도 많이 써요."},
+        {"q": "She announced the launch before I could — she totally ___ .", "hint": "내 천둥을 훔쳤다", "accept": ["stole my thunder", "steal my thunder"], "note": "steal someone's thunder = 주목받을 기회를 가로채다. 과거형 stole!"}
+      ]
+    }
+  }
+}
