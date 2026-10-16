@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lee · Class 30 · Two into One</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Inter:wght@400;600;800&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1b2e;--ink:#10203a;--card:#16273f;--card2:#1c3150;--line:#2b4466;--gold:#c9a432;--gold2:#e4c05c;--white:#f4f1ea;--mute:#9fb0c6;--green:#3fbf7f;--red:#e06a5a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,'Noto Sans KR',sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line)}
+.brand{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800}h1{font-family:Fraunces,serif;font-size:26px;margin:2px 0 0}
+.tabs{display:flex;gap:6px}.tab{background:var(--card);border:1px solid var(--line);color:var(--mute);padding:8px 14px;border-radius:20px;cursor:pointer;font-weight:600;font-size:14px}.tab.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+main{padding:18px 24px;display:grid;grid-template-columns:340px 1fr;gap:18px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.lab{font-size:11px;letter-spacing:2.5px;color:var(--gold);font-weight:800;margin-bottom:10px}
+.block{display:block;width:100%;text-align:left;background:var(--card2);border:1.5px solid var(--line);color:var(--white);border-radius:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer;font-family:inherit}
+.block b{font-size:20px;color:var(--gold2)}.block span{display:block;font-size:12.5px;color:var(--mute);margin-top:3px;line-height:1.4}
+.block.locked{opacity:.25;cursor:not-allowed}
+.who{display:flex;gap:8px;flex-wrap:wrap}
+.block.on{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold) inset}
+.stage{display:flex;flex-direction:column;gap:14px}
+.topic{display:flex;justify-content:space-between;align-items:center}.topic h2{font-family:Fraunces,serif;font-size:30px;margin:0}
+.score{display:flex;gap:18px;font-size:13px;color:var(--mute)}.score b{display:block;font-size:26px;color:var(--gold2);font-family:Fraunces,serif}
+.pairs{display:flex;gap:8px;flex-wrap:wrap}
+.chip{background:var(--ink);border:1.25px solid var(--gold);color:var(--gold2);padding:7px 13px;border-radius:18px;cursor:pointer;font-weight:600;font-size:13.5px}
+.chip.done{opacity:.4}
+.two{display:grid;grid-template-columns:1fr 40px 1fr;gap:10px;align-items:center}
+.box{background:var(--card2);border:1.5px solid var(--line);border-radius:12px;padding:12px 16px;font-size:21px;line-height:1.35;min-height:60px;outline:none}
+.box:empty:before{content:attr(data-ph);color:#5d7393;font-size:15px}
+.plus{text-align:center;font-family:Fraunces,serif;font-size:30px;color:var(--gold2)}
+.one{background:var(--ink);border:2px solid var(--gold);border-radius:14px;padding:16px 18px;font-size:26px;line-height:1.35;min-height:80px;outline:none}
+.one:empty:before{content:attr(data-ph);color:#5d7393;font-size:16px}
+.one.ok{border-color:var(--green)}
+.controls{display:flex;gap:8px;flex-wrap:wrap}
+.btn{background:var(--card2);border:1px solid var(--line);color:var(--white);padding:10px 16px;border-radius:10px;cursor:pointer;font-weight:700;font-size:14px}
+.btn.gold{background:var(--gold);color:var(--ink);border-color:var(--gold)}.btn.red{border-color:var(--red);color:var(--red)}
+.hint{font-size:13px;color:var(--mute)}
+.log{display:flex;flex-direction:column;gap:6px}.log div{background:var(--card2);border:1px solid #3d5a2a;border-radius:10px;padding:8px 14px;font-size:17px}
+.log .t{font-size:11px;color:var(--gold2);font-weight:800;letter-spacing:1.5px;margin-right:8px}
+.key{font-size:13px;color:var(--mute);margin-top:6px}.key b{color:var(--white);font-weight:600}
+.learn{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.lcard{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.lcard b{font-size:22px;color:var(--gold2)}.lcard .ko{font-size:13px;color:var(--mute)}.lcard .ex{margin-top:8px;font-size:15.5px;line-height:1.5}.lcard .ex i{color:var(--gold2);font-style:normal;font-weight:700}.lcard .exko{font-size:12.5px;color:var(--mute)}
+</style></head><body>
+<header>
+  <div><div class="brand">DO ENGLISH WITH BRIAN · LEE · CLASS 30</div><h1>Two into One</h1></div>
+  <div class="tabs" id="tabs"></div>
+</header>
+<main>
+  <aside class="panel">
+    <div class="lab">BLOCKS · 두 문장을 하나로 묶는 말</div>
+    <div id="blocks"></div>
+    <div class="lab" style="margin-top:14px">RECORDS · 라운드별 최고</div><div class="hint" id="records" style="line-height:1.8"></div>
+    <div class="lab" style="margin-top:16px">HOW IT WORKS</div>
+    <div class="hint" style="line-height:1.7">① Lee가 짧은 문장 두 개를 말해요 (또는 예시 쌍 클릭).<br>② Brian이 두 칸에 적어요.<br>③ Lee가 블록 하나로 묶어서 말하면 Brian이 아래 큰 칸에 적고 ✓.<br>④ 붙으면 +1 · 기록이 아래에 쌓여요.</div>
+  </aside>
+  <section class="stage" id="stage"></section>
+</main>
+<script>
+const BLOCKS=[
+ {p:"who",ko:"사람 뒤에. 사람이 뭘 하는지 / 어떤 사람인지",ex:"I have a client <i>who</i> always pays late.",exko:"항상 늦게 입금하는 고객이 있어요."},
+ {p:"that",ko:"물건·일 뒤에. 어떤 물건인지 / 어떤 일인지",ex:"We bought a projector <i>that</i> nobody uses.",exko:"아무도 안 쓰는 프로젝터를 샀어요."},
+ {p:"where",ko:"장소 뒤에. 거기서 무슨 일이 있는지 (뒤는 완전한 문장)",ex:"There's a café near the office <i>where</i> I take clients.",exko:"사무실 근처에 고객을 데려가는 카페가 있어요."},
+ {p:"the ~ I ~",ko:"who/that을 빼고 바로 붙이기 (목적격)",ex:"The girl <i>I met</i> last week texted me.",exko:"지난주에 만난 여자가 문자했어요."},
+ {p:"what I ~ is",ko:"내가 ~하는 것은 (강조)",ex:"<i>What I like</i> about the gym is the quiet.",exko:"헬스장에서 좋은 건 조용한 거예요."},
+ {p:"the reason I ~ is",ko:"내가 ~하는 이유는",ex:"<i>The reason I run</i> in the morning is my schedule.",exko:"아침에 뛰는 이유는 일정 때문이에요."},
+ {p:"the kind of person who",ko:"~하는 타입의 사람",ex:"She's <i>the kind of person who</i> plans everything.",exko:"그녀는 다 계획하는 타입이에요."},
+ {p:"~, which ~",ko:"앞 문장 전체에 꼬리 붙이기",ex:"He cancelled again<i>, which</i> I expected.",exko:"그가 또 취소했는데, 예상했어요."}
+];
+const ROUNDS=[
+ {id:"learn1",tab:"① who · that · where",type:"learn",from:0,to:3},
+ {id:"r1",tab:"R1 · 회사",type:"play",title:"Work — people, things, places",pairs:[
+   ["I have a client.","He always pays late.","I have a client who always pays late.","who"],
+   ["We have a new designer.","She came from a game company.","We have a new designer who came from a game company.","who"],
+   ["I bought a chair.","It broke in a week.","I bought a chair that broke in a week.","that"],
+   ["There's a project.","Nobody wants it.","There's a project that nobody wants.","that"],
+   ["We moved to a new office.","The internet is slow there.","We moved to a new office where the internet is slow.","where"],
+   ["I like the meeting room on the 3rd floor.","I can think there.","I like the meeting room on the 3rd floor, where I can think.","where"]]},
+ {id:"learn2",tab:"② five more",type:"learn",from:3,to:8},
+ {id:"r2",tab:"R2 · 운동",type:"play",title:"Exercise — your routine",pairs:[
+   ["I found a trainer.","He doesn't talk much.","I found a trainer who doesn't talk much.","who"],
+   ["I have running shoes.","I bought them in Singapore.","I have running shoes that I bought in Singapore.","the ~ I ~"],
+   ["I like the park.","I run there on Sundays.","I like the park where I run on Sundays.","where"],
+   ["I like one thing about the gym.","It's quiet in the morning.","What I like about the gym is that it's quiet in the morning.","what I ~ is"],
+   ["I run in the morning.","My schedule is the reason.","The reason I run in the morning is my schedule.","the reason I ~ is"],
+   ["I skipped the gym for a week.","I regret it.","I skipped the gym for a week, which I regret.","~, which ~"]]},
+ {id:"r3",tab:"R3 · 연애",type:"play",title:"Dating — the last date, your type",pairs:[
+   ["I met a girl.","She works in fashion.","I met a girl who works in fashion.","who"],
+   ["We went to a restaurant.","My friend recommended it.","We went to a restaurant that my friend recommended.","that"],
+   ["There's a bar in Hannam.","We had our first date there.","There's a bar in Hannam where we had our first date.","where"],
+   ["I like someone.","She laughs a lot.","I like the kind of person who laughs a lot.","the kind of person who"],
+   ["I like one thing about her.","She listens.","What I like about her is that she listens.","what I ~ is"],
+   ["She was late again.","I didn't mind.","She was late again, which I didn't mind.","~, which ~"]]},
+ {id:"r4",tab:"R4 · Guess Who",type:"guess",title:"Guess Who — describe, Brian guesses",prompts:["someone at work","a friend","a family member","a celebrity","someone you dated","your trainer","a client"]}
+];
+let unlocked=3, cur="learn1", sel=null;
+const state={}; ROUNDS.filter(r=>r.type!=="learn").forEach(r=>state[r.id]={done:0,best:0,used:new Set(),log:[],guessed:0});
+function renderTabs(){const t=document.getElementById("tabs");t.innerHTML="";ROUNDS.forEach(r=>{const b=document.createElement("button");b.className="tab"+(r.id===cur?" on":"");b.textContent=r.tab;b.onclick=()=>{cur=r.id;sel=null;if(r.id==="learn2")unlocked=8;render();};t.appendChild(b);});}
+function renderBlocks(){const box=document.getElementById("blocks");box.innerHTML="";const st=state[cur];
+ BLOCKS.forEach((b,i)=>{const el=document.createElement("button");const locked=i>=unlocked;el.className="block"+(sel===i?" on":"")+(locked?" locked":"");el.innerHTML=`<b>${b.p}</b><span>${b.ko}</span>`;el.onclick=()=>{if(locked||!st)return;sel=(sel===i?null:i);render();};box.appendChild(el);});
+ document.getElementById("records").innerHTML=ROUNDS.filter(r=>r.type!=="learn").map(r=>`${r.tab} — <b style="color:#e4c05c">${state[r.id].best}</b>${r.type==="guess"?" 문장 · 맞힘 "+state[r.id].guessed:""}`).join("<br>");}
+function renderLearn(r){const s=document.getElementById("stage");const bl=BLOCKS.slice(r.from,r.to);
+ let h=`<div class="topic"><h2>${r.from===0?"Three ways to join":"Five more ways"}</h2></div>
+ <div class="hint">${r.from===0?"짧은 문장 두 개를 하나로. 사람은 who, 물건은 that, 장소는 where.":"who/that 없이 붙이기, 강조하기, 이유 말하기, 타입 말하기, 꼬리 붙이기."}</div>
+ <div class="learn" style="grid-template-columns:repeat(${bl.length>3?3:3},1fr)">${bl.map(b=>`<div class="lcard"><b>${b.p}</b><div class="ko">${b.ko}</div><div class="ex">${b.ex}</div><div class="exko">${b.exko}</div></div>`).join("")}</div>`;
+ if(r.from===0) h+=`<div class="lcard"><div class="lab">THE MOVE · 예시</div><div class="ex" style="font-size:17px;line-height:1.8">I have a client. &nbsp;+&nbsp; He always pays late.<br>→ I have a client <i>who</i> always pays late. &nbsp;<span class="hint">(He가 사라지고 who가 그 자리에)</span><br><br>We moved to a new office. &nbsp;+&nbsp; The internet is slow there.<br>→ We moved to a new office <i>where</i> the internet is slow. &nbsp;<span class="hint">(there가 사라지고 where가 앞으로)</span></div></div>`;
+ else h+=`<div class="lcard"><div class="lab">THE MOVE · 예시</div><div class="ex" style="font-size:17px;line-height:1.8">The girl. &nbsp;+&nbsp; I met her last week. &nbsp;→&nbsp; The girl <i>I met</i> last week. &nbsp;<span class="hint">(who를 빼도 돼요)</span><br>I like one thing about the gym. It's quiet. &nbsp;→&nbsp; <i>What I like</i> about the gym is the quiet.<br>She was late. I didn't mind. &nbsp;→&nbsp; She was late<i>, which</i> I didn't mind.</div></div>`;
+ s.innerHTML=h;}
+function renderPlay(r){const st=state[r.id];const s=document.getElementById("stage");
+ s.innerHTML=`<div class="topic"><h2>${r.title}</h2><div class="score"><div>JOINED<b>${st.done}</b></div><div>BEST<b>${st.best}</b></div></div></div>
+ <div><div class="lab">EXAMPLE PAIRS · 막히면 하나 클릭 (Lee 문장이 우선)</div><div class="pairs">${r.pairs.map((p,k)=>`<button class="chip ${st.used.has(k)?'done':''}" data-k="${k}">${p[0]} + ${p[1]}</button>`).join("")}</div></div>
+ <div class="two"><div class="box" id="s1" contenteditable="true" data-ph="문장 1 — Lee가 말한 대로"></div><div class="plus">+</div><div class="box" id="s2" contenteditable="true" data-ph="문장 2"></div></div>
+ <div class="hint">${sel===null?"왼쪽에서 블록을 고르거나, Lee가 고른 블록으로 바로 묶어 말하게 해요.":"블록: <b style='color:#e4c05c'>"+BLOCKS[sel].p+"</b> — Lee가 묶어서 말하면 아래에 적고 ✓"}</div>
+ <div class="one" id="one" contenteditable="true" data-ph="Lee가 하나로 묶은 문장"></div>
+ <div class="controls"><button class="btn gold" id="ok">✓ 붙었다 (+1)</button><button class="btn red" id="no">✗ 다시</button><button class="btn" id="key">정답 보기 (Brian)</button><button class="btn" id="clear">새 쌍</button></div>
+ <div class="key" id="keybox"></div>
+ <div class="lab" style="margin-top:6px">JOINED SENTENCES · 오늘 만든 문장</div><div class="log">${st.log.map(x=>`<div><span class="t">${x.b.toUpperCase()}</span>${x.s}</div>`).join("")}</div>`;
+ let curPair=null;
+ s.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{const p=r.pairs[+c.dataset.k];curPair=+c.dataset.k;document.getElementById("s1").textContent=p[0];document.getElementById("s2").textContent=p[1];document.getElementById("one").textContent="";document.getElementById("keybox").textContent="";});
+ document.getElementById("ok").onclick=()=>{const t=document.getElementById("one").innerText.trim();if(!t)return;const b=sel!==null?BLOCKS[sel].p:"—";st.done++;st.best=Math.max(st.best,st.done);st.log.unshift({b,s:t});if(curPair!==null)st.used.add(curPair);sel=null;render();};
+ document.getElementById("no").onclick=()=>{document.getElementById("one").textContent="";document.getElementById("one").focus();};
+ document.getElementById("key").onclick=()=>{if(curPair===null){document.getElementById("keybox").textContent="예시 쌍을 고른 경우에만 정답이 있어요.";return;}const p=r.pairs[curPair];document.getElementById("keybox").innerHTML=`<b>${p[2]}</b> · 블록 ${p[3]}`;};
+ document.getElementById("clear").onclick=()=>{curPair=null;["s1","s2","one"].forEach(id=>document.getElementById(id).textContent="");document.getElementById("keybox").textContent="";sel=null;renderBlocks();};
+}
+function renderGuess(r){const st=state[r.id];const s=document.getElementById("stage");
+ s.innerHTML=`<div class="topic"><h2>${r.title}</h2><div class="score"><div>SENTENCES<b>${st.done}</b></div><div>GUESSED<b>${st.guessed}</b></div></div></div>
+ <div class="hint">Lee가 사람 하나를 고르고 who / that / where / the kind of person who 로 설명해요. Brian은 못 보는 척 맞히기. 관계대명사가 들어간 문장만 +1.</div>
+ <div><div class="lab">PICK SOMEONE · Lee만 알게</div><div class="who">${r.prompts.map(p=>`<span class="chip">${p}</span>`).join("")}</div></div>
+ <div class="one" id="one" contenteditable="true" data-ph="Lee가 말한 설명 문장 — Brian이 적어요"></div>
+ <div class="controls"><button class="btn gold" id="ok">✓ 관계대명사 들어감 (+1)</button><button class="btn red" id="no">✗ 다시</button><button class="btn" id="got">🎯 Brian이 맞혔다</button></div>
+ <div class="lab" style="margin-top:6px">CLUES · 오늘 나온 설명</div><div class="log">${st.log.map(x=>`<div>${x.s}</div>`).join("")}</div>`;
+ document.getElementById("ok").onclick=()=>{const t=document.getElementById("one").innerText.trim();if(!t)return;st.done++;st.best=Math.max(st.best,st.done);st.log.unshift({s:t});render();};
+ document.getElementById("no").onclick=()=>{document.getElementById("one").textContent="";document.getElementById("one").focus();};
+ document.getElementById("got").onclick=()=>{st.guessed++;st.log.unshift({s:"— guessed ✓ —"});render();};
+}
+function render(){renderTabs();renderBlocks();const r=ROUNDS.find(x=>x.id===cur);if(r.type==="learn")renderLearn(r);else if(r.type==="guess")renderGuess(r);else renderPlay(r);}
+render();
+</script></body></html>

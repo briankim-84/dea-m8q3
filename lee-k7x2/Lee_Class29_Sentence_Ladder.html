@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lee · Class 29 · Sentence Ladder</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Inter:wght@400;600;800&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1b2e;--ink:#10203a;--card:#16273f;--card2:#1c3150;--line:#2b4466;--gold:#c9a432;--gold2:#e4c05c;--white:#f4f1ea;--mute:#9fb0c6;--green:#3fbf7f;--red:#e06a5a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,'Noto Sans KR',sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line)}
+.brand{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800}
+h1{font-family:Fraunces,serif;font-size:26px;margin:2px 0 0}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{background:var(--card);border:1px solid var(--line);color:var(--mute);padding:8px 14px;border-radius:20px;cursor:pointer;font-weight:600;font-size:14px}
+.tab.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+main{padding:18px 24px;display:grid;grid-template-columns:330px 1fr;gap:18px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.lab{font-size:11px;letter-spacing:2.5px;color:var(--gold);font-weight:800;margin-bottom:10px}
+.block{display:block;width:100%;text-align:left;background:var(--card2);border:1.5px solid var(--line);color:var(--white);border-radius:10px;padding:9px 12px;margin-bottom:7px;cursor:pointer;font-family:inherit}
+.block b{font-size:17px;color:var(--gold2)} .block span{display:block;font-size:12.5px;color:var(--mute);margin-top:2px}
+.block.on{border-color:var(--gold);background:#2a3a20;box-shadow:0 0 0 2px var(--gold) inset}
+.block.used{opacity:.45}
+.block.locked{opacity:.25;cursor:not-allowed}
+.unlock{width:100%;margin-top:4px;background:transparent;border:1px dashed var(--gold);color:var(--gold2);padding:8px;border-radius:10px;cursor:pointer;font-weight:700}
+.stage{display:flex;flex-direction:column;gap:14px}
+.topic{display:flex;justify-content:space-between;align-items:center}
+.topic h2{font-family:Fraunces,serif;font-size:30px;margin:0}
+.score{display:flex;gap:18px;font-size:13px;color:var(--mute)} .score b{display:block;font-size:26px;color:var(--gold2);font-family:Fraunces,serif}
+.starters{display:flex;gap:8px;flex-wrap:wrap}
+.chip{background:var(--ink);border:1.25px solid var(--gold);color:var(--gold2);padding:7px 13px;border-radius:18px;cursor:pointer;font-weight:600;font-size:14px}
+.ladder{display:flex;flex-direction:column-reverse;gap:8px;min-height:360px}
+.rung{display:flex;gap:12px;align-items:stretch}
+.num{width:44px;flex:none;border-radius:10px;background:var(--ink);border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:Fraunces,serif;font-size:20px;color:var(--mute)}
+.rung.done .num{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.sent{flex:1;background:var(--card2);border:1.5px solid var(--line);border-radius:10px;padding:10px 14px;font-size:21px;line-height:1.35;min-height:52px;outline:none}
+.sent:empty:before{content:attr(data-ph);color:#5d7393;font-size:16px}
+.rung.done .sent{border-color:#3d5a2a}
+.rung .tag{font-size:12px;color:var(--gold2);font-weight:700;margin-bottom:2px}
+.controls{display:flex;gap:8px;flex-wrap:wrap}
+.btn{background:var(--card2);border:1px solid var(--line);color:var(--white);padding:10px 16px;border-radius:10px;cursor:pointer;font-weight:700;font-size:14px}
+.btn.gold{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.btn.red{border-color:var(--red);color:var(--red)}
+.hint{font-size:13px;color:var(--mute)}
+.learn{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.lcard{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.lcard b{font-size:19px;color:var(--gold2)} .lcard .ko{font-size:13px;color:var(--mute)} .lcard .ex{margin-top:6px;font-size:15.5px} .lcard .exko{font-size:12.5px;color:var(--mute)}
+.demo{background:var(--ink);border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-size:15px;line-height:1.7}
+.demo i{color:var(--gold2);font-style:normal;font-weight:700}
+.records{font-size:14px;color:var(--mute);line-height:1.8}
+.hidden{display:none}
+</style></head><body>
+<header>
+  <div><div class="brand">DO ENGLISH WITH BRIAN · LEE · CLASS 29</div><h1>Sentence Ladder</h1></div>
+  <div class="tabs" id="tabs"></div>
+</header>
+<main>
+  <aside class="panel">
+    <div class="lab">BLOCKS · 블록을 붙여서 한 칸씩</div>
+    <div id="blocks"></div>
+    <button class="unlock" id="unlock">🔓 블록 6–10 열기</button>
+    <div class="lab" style="margin-top:16px">RECORDS · 라운드별 최고 칸</div>
+    <div class="records" id="records"></div>
+  </aside>
+  <section class="stage" id="stage"></section>
+</main>
+<script>
+const BLOCKS=[
+ {p:"~ because ~",ko:"~해서 (이유)",ex:"I went to the gym because I was stressed.",exko:"스트레스를 받아서 헬스장에 갔어요."},
+ {p:"~ when ~",ko:"~할 때 (언제)",ex:"I check my email when I get to the office.",exko:"사무실에 도착하면 메일을 확인해요."},
+ {p:"~ for ~",ko:"~ 동안 (얼마나)",ex:"I ran for thirty minutes.",exko:"30분 동안 뛰었어요."},
+ {p:"~, but ~",ko:"~인데, ~ (그런데)",ex:"The meeting was long, but it was useful.",exko:"회의가 길었는데 도움이 됐어요."},
+ {p:"~, so ~",ko:"~해서, ~ (그래서)",ex:"I was tired, so I skipped dinner.",exko:"피곤해서 저녁을 걸렀어요."},
+ {p:"The best part was ~",ko:"제일 좋았던 건 ~",ex:"The best part was the coffee after.",exko:"제일 좋았던 건 끝나고 마신 커피예요."},
+ {p:"It was ~er than I thought",ko:"생각보다 더 ~했어요",ex:"The workout was harder than I thought.",exko:"운동이 생각보다 힘들었어요."},
+ {p:"I'm trying to ~",ko:"~하려고 노력 중이에요",ex:"I'm trying to eat less sugar.",exko:"설탕을 줄이려고 노력 중이에요."},
+ {p:"That's why ~",ko:"그래서 ~하는 거예요",ex:"That's why I go to bed early.",exko:"그래서 일찍 자는 거예요."},
+ {p:"Next time, I want to ~",ko:"다음엔 ~하고 싶어요",ex:"Next time, I want to go somewhere quiet.",exko:"다음엔 조용한 데 가고 싶어요."}
+];
+const ROUNDS=[
+ {id:"learn1",tab:"① Blocks 1–5",type:"learn",from:0,to:5},
+ {id:"r1",tab:"R1 · 회사",type:"ladder",title:"Work — BeamMonster this week",starters:["I had a meeting.","I joined a call.","I finished a report.","I hired someone."]},
+ {id:"learn2",tab:"② Blocks 6–10",type:"learn",from:5,to:10},
+ {id:"r2",tab:"R2 · 운동",type:"ladder",title:"Exercise — your routine",starters:["I went to the gym.","I ran.","I played golf.","I forgot my shoes."]},
+ {id:"r3",tab:"R3 · 연애",type:"ladder",title:"Dating — the last date, your type",starters:["I had a date.","I met someone.","I went to a nice restaurant.","I like people who are funny."]},
+ {id:"r4",tab:"R4 · 자유",type:"ladder",title:"Your pick — beat your record",starters:["(Lee picks the topic)"]}
+];
+let unlocked=5, cur="learn1", sel=null;
+const state={}; ROUNDS.filter(r=>r.type==="ladder").forEach(r=>state[r.id]={rungs:["","","","","",""],tags:["","","","","",""],done:0,best:0,used:[]});
+
+function renderTabs(){const t=document.getElementById("tabs");t.innerHTML="";
+ ROUNDS.forEach(r=>{const b=document.createElement("button");b.className="tab"+(r.id===cur?" on":"");b.textContent=r.tab;b.onclick=()=>{cur=r.id;sel=null;if(r.id==='learn2')unlocked=10;render();};t.appendChild(b);});}
+function renderBlocks(){const box=document.getElementById("blocks");box.innerHTML="";const st=state[cur];
+ BLOCKS.forEach((b,i)=>{const el=document.createElement("button");
+  const locked=i>=unlocked; const used=st&&st.used.includes(i);
+  el.className="block"+(sel===i?" on":"")+(locked?" locked":"")+(used?" used":"");
+  el.innerHTML=`<b>${b.p}</b><span>${b.ko}</span>`;
+  el.onclick=()=>{if(locked||!st)return; sel=(sel===i?null:i);render();};
+  box.appendChild(el);});
+ document.getElementById("unlock").style.display=unlocked>=10?"none":"block";
+ const rec=document.getElementById("records");rec.innerHTML=ROUNDS.filter(r=>r.type==="ladder").map(r=>`${r.tab} — <b style="color:#e4c05c">${state[r.id].best}</b> / 5`).join("<br>");}
+document.getElementById("unlock").onclick=()=>{unlocked=10;render();};
+
+function renderLearn(r){const s=document.getElementById("stage");
+ let h=`<div class="topic"><h2>${r.from===0?"Blocks 1–5 · Add the facts":"Blocks 6–10 · Add what you think"}</h2></div>
+ <div class="hint">먼저 블록 다섯 개를 같이 읽고, 바로 다음 라운드에서 써먹어요.</div><div class="learn">`;
+ for(let i=r.from;i<r.to;i++){const b=BLOCKS[i];h+=`<div class="lcard"><b>${b.p}</b><div class="ko">${b.ko}</div><div class="ex">${b.ex}</div><div class="exko">${b.exko}</div></div>`;}
+ h+=`</div>`;
+ if(r.from===0){h+=`<div class="lab" style="margin-top:6px">HOW THE LADDER GROWS · 예시</div><div class="demo">
+ 1 &nbsp;I went to the gym.<br>2 &nbsp;I went to the gym <i>because</i> I was stressed.<br>3 &nbsp;I went to the gym because I was stressed <i>when</i> work finished.<br>4 &nbsp;… <i>for</i> an hour.<br>5 &nbsp;…, <i>but</i> my legs hurt.<br>6 &nbsp;…, <i>so</i> I took a taxi home.</div>`;}
+ else{h+=`<div class="lab" style="margin-top:6px">HOW IT GROWS · 예시</div><div class="demo">
+ I had a date on Saturday, but it was raining. <i>The best part was</i> the dinner. <i>It was nicer than I thought.</i> <i>Next time, I want to</i> go to the beach.</div>`;}
+ s.innerHTML=h;}
+
+function renderLadder(r){const st=state[r.id];const s=document.getElementById("stage");
+ let h=`<div class="topic"><h2>${r.title}</h2><div class="score"><div>THIS RUN<b>${Math.max(0,st.done-1)}</b></div><div>BEST<b>${st.best}</b></div></div></div>
+ <div><div class="lab">START WITH · 짧은 문장 하나로 시작</div><div class="starters">${r.starters.map(x=>`<button class="chip" data-s="${x.replace(/"/g,'&quot;')}">${x}</button>`).join("")}</div></div>
+ <div class="hint">${sel===null?"왼쪽에서 블록을 하나 고르면, Lee가 그 블록을 붙여 문장을 늘려요. Brian이 아래 칸에 받아 적어요.":"다음 블록: <b style='color:#e4c05c'>"+BLOCKS[sel].p+"</b> — Lee가 붙여서 말하면 아래 칸에 적고 ✓"}</div>
+ <div class="ladder">`;
+ for(let i=0;i<6;i++){const active=i===st.done; const done=i<st.done||(i===0&&st.rungs[0]&&st.done>0);
+  h+=`<div class="rung ${i<=st.done-1||(i===0&&st.done>0)?'done':''}" style="${i>st.done?'opacity:.35':''}"><div class="num">${i===0?'S':i}</div><div style="flex:1">${st.tags[i]?`<div class="tag">+ ${st.tags[i]}</div>`:''}<div class="sent" contenteditable="${active}" data-i="${i}" data-ph="${i===0?'Lee의 첫 문장':'블록을 붙인 문장'}">${st.rungs[i]}</div></div></div>`;}
+ h+=`</div><div class="controls">
+ <button class="btn gold" id="ok">✓ 붙었다 · 한 칸 올리기</button>
+ <button class="btn red" id="retry">✗ 다시</button>
+ <button class="btn" id="back">↩ 한 칸 내리기</button>
+ <button class="btn" id="reset">새 사다리</button></div>`;
+ s.innerHTML=h;
+ s.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{if(st.done===0){st.rungs[0]=c.dataset.s.startsWith("(")?"":c.dataset.s;render();}});
+ s.querySelectorAll(".sent").forEach(e=>e.oninput=()=>{st.rungs[+e.dataset.i]=e.innerText;});
+ document.getElementById("ok").onclick=()=>{const i=st.done; if(!st.rungs[i].trim())return;
+   if(i>0){ if(sel===null)return; st.tags[i]=BLOCKS[sel].p; st.used.push(sel);}
+   st.done=Math.min(6,i+1); if(i<5) st.rungs[i+1]=st.rungs[i];
+   st.best=Math.max(st.best,st.done-1); sel=null; render();};
+ document.getElementById("retry").onclick=()=>{const i=st.done; st.rungs[i]=i>0?st.rungs[i-1]:"";render();};
+ document.getElementById("back").onclick=()=>{if(st.done>0){st.done--; const t=st.tags[st.done]; st.tags[st.done]=""; if(t){const k=BLOCKS.findIndex(b=>b.p===t); st.used=st.used.filter(x=>x!==k);} render();}};
+ document.getElementById("reset").onclick=()=>{state[r.id]={rungs:["","","","","",""],tags:["","","","","",""],done:0,best:st.best,used:[]};sel=null;render();};
+ const a=s.querySelector('.sent[contenteditable="true"]'); if(a){a.focus(); const rg=document.createRange(); rg.selectNodeContents(a); rg.collapse(false); const sl=getSelection(); sl.removeAllRanges(); sl.addRange(rg);}
+}
+function render(){renderTabs();renderBlocks();const r=ROUNDS.find(x=>x.id===cur); if(r.type==="learn")renderLearn(r); else renderLadder(r);}
+render();
+</script></body></html>
