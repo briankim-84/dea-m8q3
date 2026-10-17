@@ -1,0 +1,313 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>June · Class 16 · Verb Challenge</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Inter:wght@400;600;800&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e1b33;--ink:#0a1428;--card:#16284a;--card2:#1c3158;--line:#2a4470;--gold:#e2b84a;--gold2:#f0cc6a;--cream:#f4efe4;--mute:#9fb0c6;--teal:#2ec4b6;--red:#e06a5a;--green:#3fbf7f}
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;background:var(--bg);color:var(--cream);font-family:Inter,'Noto Sans KR',sans-serif;overflow:hidden}
+#app{height:100%;display:flex;flex-direction:column}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 28px;border-bottom:1px solid var(--line);background:var(--ink)}
+.brand{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800}h1{font-family:Fraunces,serif;font-size:22px;margin:2px 0 0}
+.nav{display:flex;gap:6px}.nav button{background:var(--card);border:1px solid var(--line);color:var(--mute);padding:8px 14px;border-radius:18px;cursor:pointer;font-weight:600;font-family:inherit}
+.nav button.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.hud{display:flex;gap:22px;text-align:right}.hud b{display:block;font-family:Fraunces,serif;font-size:28px;color:var(--gold2);transition:transform .25s}.hud b.bump{transform:scale(1.35)}.hud span{font-size:10px;letter-spacing:2px;color:var(--mute)}
+main{flex:1;position:relative;overflow:hidden}
+.screen{position:absolute;inset:0;padding:30px 48px;overflow:auto;opacity:0;transform:translateX(60px);transition:opacity .45s,transform .45s;pointer-events:none}
+.screen.on{opacity:1;transform:none;pointer-events:auto}
+.kick{font-size:12px;letter-spacing:4px;color:var(--gold);font-weight:800}
+h2{font-family:Fraunces,serif;font-size:40px;margin:6px 0 4px}.sub{color:var(--mute);font-size:15px}
+.btn{background:var(--card2);border:1px solid var(--line);color:var(--cream);padding:10px 16px;border-radius:10px;cursor:pointer;font-weight:700;font-size:14px;font-family:inherit}
+.btn.gold{background:var(--gold);color:var(--ink);border-color:var(--gold)}.btn.red{border-color:var(--red);color:var(--red)}.btn.teal{border-color:var(--teal);color:var(--teal)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+/* part 1 */
+.scale{position:relative;margin-top:60px;height:130px}
+.scale .bar{position:absolute;left:0;right:0;top:60px;height:6px;border-radius:3px;background:linear-gradient(90deg,#3a4f7a,var(--gold) 55%,var(--red))}
+.slot{position:absolute;top:0;width:150px;margin-left:-75px;text-align:center;height:120px}
+.slot .ph{font-family:Fraunces,serif;font-size:22px;color:#2a3f66;height:34px}
+.slot i{display:block;font-style:normal;font-size:11px;color:var(--mute);margin-top:44px;opacity:0;transition:opacity .4s}
+.slot.filled i{opacity:1}.slot.dead .ph{text-decoration:line-through}
+.slot .dot{position:absolute;left:50%;top:54px;width:18px;height:18px;margin-left:-9px;border-radius:50%;background:var(--ink);border:2px solid var(--line)}
+.chips{display:flex;gap:10px;margin-top:30px;flex-wrap:wrap;min-height:48px}
+.chip{background:var(--card2);border:1.5px solid var(--gold);color:var(--gold2);padding:10px 16px;border-radius:20px;font-weight:700;cursor:pointer;font-family:Fraunces,serif;font-size:18px;transition:transform .5s cubic-bezier(.2,.8,.2,1),opacity .3s;position:relative}
+.chip.fly{transform:translateY(-140px) scale(.9);opacity:0}
+.chip.shake{animation:shake .4s}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+.placed{font-family:Fraunces,serif;font-size:22px;color:var(--cream);height:34px;opacity:0;transform:translateY(20px);transition:all .4s}
+.slot.filled .placed{opacity:1;transform:none}.slot.filled.dead .placed{color:#5d7393;text-decoration:line-through}
+.results{margin-top:26px;display:flex;flex-direction:column;gap:10px}
+.res{background:var(--card);border-radius:16px;padding:14px 20px;display:flex;gap:16px;align-items:center;opacity:.35;transition:opacity .4s}
+.res.on{opacity:1;outline:2px solid var(--gold)}
+.res .n{font-family:Fraunces,serif;font-size:26px;color:var(--gold2);width:34px}
+.res .t{font-size:17px;flex:1}.res .t small{display:block;color:var(--mute);font-size:12px;margin-top:3px}
+.res .pick{display:flex;gap:6px}.res .pick button{background:transparent;border:1px solid var(--line);color:var(--mute);border-radius:12px;padding:6px 10px;cursor:pointer;font-family:Fraunces,serif;font-size:14px}
+.res .pick button.sel{background:var(--gold);color:var(--ink);border-color:var(--gold)}.res .pick button.no{opacity:.3;text-decoration:line-through}
+.slot.cur .placed{color:var(--gold2)}.slot.cur .dot{background:var(--gold);border-color:var(--gold);box-shadow:0 0 0 6px rgba(226,184,74,.25)}.slot.dead .placed{color:#5d7393;text-decoration:line-through}.slot.dead.cur .placed{color:var(--red);text-decoration:line-through}
+.vpanel{margin-top:16px;background:var(--card);border:2px solid var(--gold);border-radius:22px;padding:22px 30px}.vpanel.dead{border-color:var(--red)}
+.vhead{display:flex;align-items:baseline;gap:18px}.vname{font-family:Fraunces,serif;font-size:46px;color:var(--gold2)}.vpanel.dead .vname{color:var(--red)}.vnote{color:var(--mute);font-size:15px}
+.vlist{margin:14px 0 0;padding-left:28px}.vlist li{margin:0 0 12px;opacity:0;transform:translateY(10px);animation:up .45s forwards;font-family:Fraunces,serif;font-size:20px;color:var(--cream)}.vlist li::marker{color:var(--gold);font-family:Fraunces,serif}
+.vlist .why{font-family:Inter,'Noto Sans KR',sans-serif;font-size:13px;color:var(--mute);margin-top:3px}
+/* part 2 */
+.grid{display:grid;grid-template-columns:1fr 400px;gap:22px;margin-top:20px}
+.big{background:var(--card);border:2px solid var(--gold);border-radius:22px;padding:26px 30px;min-height:430px}
+.meaning{font-family:'Noto Sans KR',sans-serif;font-size:32px;font-weight:700;opacity:0;transform:translateY(12px);animation:up .5s forwards}
+.meaning small{display:block;font-family:Inter;font-size:13px;color:var(--mute);font-weight:400;margin-top:4px;letter-spacing:2px}
+@keyframes up{to{opacity:1;transform:none}}
+.src{margin-top:20px;font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800;opacity:0;animation:up .5s .6s forwards}
+.sent{font-family:Fraunces,serif;font-size:25px;line-height:1.4;margin-top:6px;opacity:0;animation:up .5s .8s forwards}
+.sent.you{font-size:19px;color:var(--mute)}
+.blank{display:inline-block;min-width:150px;border-bottom:3px solid var(--gold);height:26px;vertical-align:-5px;margin:0 6px;position:relative;transition:all .4s}
+.blank.filled{border-color:transparent;min-width:0;color:var(--gold2);font-weight:700;height:auto;vertical-align:baseline}
+.blank:not(.filled):after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:3px;background:var(--gold2);animation:pulse 1.2s infinite}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+.reveal{display:flex;gap:10px;margin-top:22px;perspective:900px}
+.vcard{flex:1;position:relative;height:118px;transform-style:preserve-3d;transition:transform .6s;cursor:pointer}
+.vcard.flip{transform:rotateY(180deg)}
+.vcard .f,.vcard .b{position:absolute;inset:0;border-radius:14px;padding:12px 14px;backface-visibility:hidden}
+.vcard .f{background:var(--card2);display:flex;align-items:center;justify-content:center;font-family:Fraunces,serif;font-size:38px;color:var(--gold)}
+.vcard .b{background:var(--ink);transform:rotateY(180deg)}
+.vcard .b b{font-family:Fraunces,serif;font-size:22px;color:var(--gold2);display:block}.vcard .b span{font-size:12px;color:var(--mute);display:block;margin-top:4px;line-height:1.4}
+.vcard.hit .b{outline:2px solid var(--green)}
+.three{display:flex;gap:10px;margin-top:14px}
+.three div{flex:1;background:var(--card2);border-radius:12px;padding:10px 12px;font-size:13px;line-height:1.45;opacity:0;transform:translateY(10px);transition:all .4s}
+.three.on div{opacity:1;transform:none}.three.on div:nth-child(2){transition-delay:.25s}.three.on div:nth-child(3){transition-delay:.5s}
+.three b{display:block;font-size:10px;letter-spacing:2px;color:var(--teal);margin-bottom:4px}
+.side{display:flex;flex-direction:column;gap:12px}
+.timer{background:var(--ink);border-radius:18px;padding:16px;text-align:center}
+.ring{width:118px;height:118px;border-radius:50%;margin:0 auto;display:flex;align-items:center;justify-content:center;background:conic-gradient(var(--teal) 0 100%,#223656 100% 100%)}
+.ring div{width:94px;height:94px;border-radius:50%;background:var(--ink);display:flex;align-items:center;justify-content:center;font-family:Fraunces,serif;font-size:34px}
+.said{background:var(--card2);border-radius:16px;padding:12px 14px;flex:1}
+.lab{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800;margin-bottom:8px}
+.said .v{display:inline-block;background:var(--ink);border:1px solid var(--gold);color:var(--gold2);padding:6px 12px;border-radius:14px;margin:4px 6px 4px 0;font-weight:700;animation:pop .3s}
+.said .v.hit{background:var(--gold);color:var(--ink)}
+@keyframes pop{from{transform:scale(.6);opacity:0}}
+.said input{width:100%;margin-top:8px;background:var(--bg);border:1px solid var(--line);color:var(--cream);border-radius:10px;padding:10px 12px;font-size:16px;font-family:inherit}
+.own{background:var(--card2);border-radius:14px;padding:12px 14px}
+.own textarea{width:100%;height:64px;background:var(--bg);border:1px solid var(--line);color:var(--cream);border-radius:10px;padding:8px 10px;font-size:14px;font-family:inherit;resize:none}
+.cardnav{display:flex;gap:8px;margin-top:14px;align-items:center}
+.dots{display:flex;gap:5px;margin-left:auto}.dots i{width:9px;height:9px;border-radius:50%;background:var(--line);display:block}.dots i.on{background:var(--gold)}.dots i.done{background:var(--teal)}
+/* part 3 */
+.para{background:var(--card);border-radius:18px;padding:24px 28px;font-family:Fraunces,serif;font-size:22px;line-height:1.75;margin-top:20px}
+.slotw{background:#2a3a20;border-bottom:3px solid var(--gold);padding:0 4px;cursor:pointer;transition:background .3s}
+.slotw.cur{background:var(--gold);color:var(--ink);animation:glow 1s infinite}
+.slotw.done{background:transparent;color:var(--gold2);border-color:var(--green)}
+@keyframes glow{50%{box-shadow:0 0 0 6px rgba(226,184,74,.25)}}
+.fixrow{display:flex;gap:10px;margin-top:16px;align-items:center}
+.fixrow input{flex:1;background:var(--bg);border:1px solid var(--line);color:var(--cream);border-radius:10px;padding:12px 14px;font-size:18px;font-family:inherit}
+.hintbox{margin-top:10px;font-size:13px;color:var(--mute)}
+.ptabs{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}.ptabs button{background:var(--card);border:1px solid var(--line);color:var(--mute);padding:9px 14px;border-radius:14px;cursor:pointer;font-weight:700;font-family:inherit;font-size:14px;display:flex;align-items:center;gap:8px}
+.ptabs button b{font-family:Fraunces,serif;color:var(--gold2);font-size:17px}.ptabs button small{font-size:11px;color:var(--mute);font-weight:600}.ptabs button.on{border-color:var(--gold);color:var(--cream);background:var(--card2)}.ptabs button.done small{color:var(--green)}
+.psrc{margin-top:16px;font-size:12px;color:var(--mute);letter-spacing:.5px}.psrc+.para{margin-top:8px}
+.talk{margin-top:20px;background:var(--card2);border-radius:14px;padding:14px 18px}.talk .lab{font-size:11px;letter-spacing:3px;color:var(--teal);font-weight:800;margin-bottom:8px}
+.tq{font-family:Fraunces,serif;font-size:19px;line-height:1.45;margin:4px 0;opacity:0;animation:up .45s forwards}
+.rule{margin-top:26px;background:var(--ink);border-left:4px solid var(--gold);padding:16px 20px;font-size:17px;line-height:1.6}
+</style></head><body><div id="app">
+<header><div><div class="brand">DO ENGLISH WITH BRIAN · JUNE · CLASS 16</div><h1>Verb Challenge</h1></div>
+<div class="nav" id="nav"></div>
+<div class="hud"><div><b id="h1">0</b><span>THIS CARD</span></div><div><b id="h2">0</b><span>TOTAL</span></div></div></header>
+<main id="main"></main></div>
+<script>
+/* ---------- DATA ---------- */
+const STRENGTH=[
+ ["suggest","may · might — 결론·해석에",[
+  ["Our findings suggest that foot core training may influence proximal movement control.","결론 문장. may와 짝."],
+  ["The reduction in trunk rotation suggests a shift in landing strategy rather than a gain in stability.","해석일 때."],
+  ["These data suggest a role for intrinsic foot muscle function in postural control, although the mechanism remains unclear.","기전을 모를 때 제일 안전."],
+  ["Preliminary evidence suggests a link between sleep duration and recovery time in athletes.","다른 분야 — n이 작을 때."],
+  ["Q&A · \"I wouldn't go further than this — the data suggest it, they don't show it.\"","질문자가 과장을 요구할 때 선 긋기."]]],
+ ["indicate","points to — 수치가 한 방향을 가리킬 때",[
+  ["SPM analysis indicated a group difference across 25–100% of the landing window.","구간 결과 보고. 해석은 안 섞음."],
+  ["A decrease toward zero at initial contact indicates less rotation toward the stance limb.","수치 → 의미 한 칸. 아직 '좋다'는 말은 안 함."],
+  ["The absence of change in COP measures indicates that static tests may be insensitive to this intervention.","영(null) 결과를 말할 때 자주 써요."],
+  ["Rising sea-surface temperatures indicate a shift in regional circulation patterns.","다른 분야 — 지표가 가리키는 것."],
+  ["Q&A · \"The pattern indicates a strategy change — I'd stop short of calling it an improvement.\"","indicate 뒤에 한계를 바로 붙이기."]]],
+ ["show","the data say — 결과 보고의 기본",[
+  ["The FCG showed a significant reduction in trunk rotation at initial contact and at peak.","결과 문장 1순위. 발표에선 이걸로 충분해요."],
+  ["Neither training group showed a change in dynamic postural stability index.","영 결과도 show. 'failed to show'는 쓰지 않기."],
+  ["Figure 2 shows the group-by-time interaction for trunk transverse-plane angle.","그림·표 가리킬 때."],
+  ["The survey showed that most participants preferred the morning session.","다른 분야 — 그냥 사실 보고."],
+  ["Q&A · \"What the data show is the trunk change. Everything past that is my interpretation.\"","show한 것과 해석을 갈라 말하기."]]],
+ ["demonstrate","clearly shows — 비교 대상을 꼭 붙여서",[
+  ["Foot core training demonstrated a greater reduction in trunk rotation compared with trunk core training.","비교 대상 명시 필수."],
+  ["The FCG demonstrated a significant decrease at both initial contact and peak (p = 0.014, p = 0.004).","수치가 바로 뒤따를 때."],
+  ["This study demonstrates that a four-week intervention is sufficient to alter landing kinematics.","효과 크기가 중간 이상일 때만."],
+  ["The trial demonstrated a 30% reduction in readmission rates over 12 months.","다른 분야 — 규모 큰 RCT."],
+  ["Q&A · \"What we demonstrated is the change in strategy. Whether it transfers to injury rates — that we haven't shown.\"","demonstrate한 것과 아닌 것 가르기."]]],
+ ["establish","settled — 여러 연구가 쌓였을 때. June 데이터로는 ✗",[
+  ["Previous work has established that individuals with CAI rotate the trunk toward the stance limb during landing.","남의 축적된 결과를 소개할 때는 써도 돼요(De La Motte 등)."],
+  ["It is well established that intrinsic foot muscle weakness is associated with impaired balance.","Introduction의 '정설' 자리."],
+  ["The present study does not establish a causal link between foot function and trunk control.","본인 연구엔 부정형으로 — 이게 제일 자연스러운 쓰임."],
+  ["Decades of trials have established statins as first-line therapy.","다른 분야 — 수십 년 결과."],
+  ["Q&A · \"That's established in the literature; what's new here is the training response.\"","남의 것은 established, 내 것은 new로 나누기."]]],
+ ["confirm","replicated — 앞선 결과를 되풀이해 검증했을 때. ✗",[
+  ["Our static-balance result confirms previous reports that short-term foot core training does not alter COP measures.","앞선 보고와 같은 영 결과 — 이건 써도 돼요."],
+  ["A follow-up assessment would be needed to confirm whether the change is retained.","본인 연구엔 would/needed와 함께."],
+  ["The trunk finding has not been confirmed in a larger sample.","not confirmed — 한계 문장."],
+  ["Independent replication confirmed the original effect in three cohorts.","다른 분야 — 재현 연구."],
+  ["Q&A · \"We can't confirm it yet. One study, ten per group — this is the first look.\"","confirm을 거절하는 문장."]]],
+ ["prove","beyond doubt — 이 분야에선 거의 안 써요. ✗",[
+  ["Prove is for theorems: the proof establishes that the statement holds in all cases.","수학·논리 — 반례가 없을 때."],
+  ["No single trial proves efficacy; it adds to the weight of evidence.","논문에 나오면 보통 이 부정형."],
+  ["The results do not prove that foot core training prevents injury.","본인 연구엔 '증명하지 않는다'로."],
+  ["Q&A · \"Nothing in biomechanics is proven by one study — but the direction is consistent.\"","prove 요구에 답하기."],
+  ["Q&A · \"If you're asking whether we proved it — no. We showed it in this sample.\"","prove → show로 내려서 말하기."]]]
+];
+const CARDS=[
+ {ko:"반응이 나오게 하다",en:"MAKE A RESPONSE HAPPEN",paper:["FROM YOUR DISCUSSION","More challenging dynamic tasks may","greater compensatory responses."],you:["FROM CLASS 14 · WHAT YOU SAID","\"Landing tasks require rapid stabilization.\" → Landing","a compensatory trunk response."],
+  fill:["elicit", "elicits"],
+  verbs:[["elicit","자극이 반응을 끌어낼 때. 과제·검사 문장에 제일 흔해요"],["induce","훈련·조건이 상태나 변화를 만들어낼 때"],["trigger","갑자기 촉발. 통증, giving way, 기억"]],
+  three:["A single-leg landing elicits a compensatory trunk response in people with CAI.","We chose landing because it induces the compensation that quiet standing doesn't.","That song triggers a whole year of memories."]},
+ {ko:"수치를 줄이다",en:"MAKE A MEASURED AMOUNT SMALLER",paper:["FROM YOUR RESULTS","Four weeks of foot core training","trunk rotation during landing."],you:["FROM CLASS 15 · WHAT YOU SAID","\"…to capture any reduced compensation.\" → The compensation","after training."],
+  fill:["attenuated", "diminished"],
+  verbs:[["attenuate","신호·각도·크기를 약하게. 결과 문장의 단골"],["diminish","점점 줄어들다. 없어진 건 아닐 때"],["dampen","흔들림·반응·열기를 눌러 줄이다"]],
+  three:["Foot core training attenuated trunk rotation at initial contact.","The compensation didn't disappear — it diminished.","The rain dampened the mood at the barbecue, but nobody left."]},
+ {ko:"바탕에서 움직이다",en:"BE THE CAUSE UNDERNEATH",paper:["FROM YOUR DISCUSSION","What","the change in trunk rotation after foot core training?"],you:["FROM CLASS 14 · WHAT YOU SAID","\"We think this is a bottom-up effect along the kinetic chain.\" → Improved distal control may","the change at the trunk."],
+  fill:["underlies", "underlie"],
+  verbs:[["underlie","겉으로 안 보이는 바탕 원인"],["drive","변화를 밀고 가는 힘. 말할 때도 자연스러워요"],["mediate","중간에서 전달·매개. 통계의 mediation도 이 말"]],
+  three:["We think improved distal control underlies the change we saw at the trunk.","Whether IFM strength actually drives this, we can't say from our data.","What's driving the price of coffee this year?"]},
+ {ko:"근거로 받쳐 주다",en:"BACK A CLAIM WITH EVIDENCE",paper:["FROM YOUR DISCUSSION","Our findings","the bottom-up model of postural control."],you:["FROM CLASS 15 · WHAT YOU SAID","\"Actually this results were similar to previous study.\" → Previous work","our static-balance result."],
+  fill:["support", "corroborates"],
+  verbs:[["support","기본. 발표에선 이걸로 충분해요"],["corroborate","다른 연구·자료와 맞아떨어져 뒷받침할 때"],["substantiate","근거를 대서 입증. 센 편, 글에서"]],
+  three:["Our findings support a bottom-up model of postural control.","Lynn's results corroborate ours on the static side — no change either.","Can you back that up? — Not really, I can't substantiate it. It's just what I heard."]},
+ {ko:"가능성을 지우다",en:"TAKE A POSSIBILITY OFF THE TABLE",paper:["FROM YOUR LIMITATIONS","The absence of a follow-up assessment","evaluation of retention."],you:["FROM CLASS 15 · WHAT YOU SAID","\"I have no idea how I could explain why…\" → We can't","a learning effect."],
+  fill:["precluded", "rule out"],
+  verbs:[["rule out","가능성을 지우다. 말할 때 제일 자연스러워요"],["preclude","애초에 못 하게 막다. 설계·조건이 주어"],["exclude","제외하다. 참가자·변수"]],
+  three:["The absence of a follow-up precluded any assessment of retention.","We can't rule out a learning effect — both groups did the task twice.","The doctor ruled out a fracture, so it's just a sprain."]},
+ {ko:"아직 증명 안 된 생각을 내놓다",en:"PUT FORWARD AN IDEA YOU HAVEN'T PROVED",paper:["FROM YOUR DISCUSSION","We","that the foot core acts as the base of the kinetic chain."],you:["FROM CLASS 14 · WHAT YOU SAID","\"One possibility is…\" → We","that a more stable foot reduces the need for proximal compensation."],
+  fill:["propose", "propose"],
+  verbs:[["propose","설명을 내놓다. 발표에서 제일 안전"],["hypothesize","검증 전 가설로 세우다"],["speculate","근거가 약한 추측. 솔직하게 표시할 때"],["posit","전제로 깔다. 글에서"]],
+  three:["We propose that a more stable foot reduces the need for proximal compensation.","Honestly, that part is speculation — we didn't measure IFM strength.","People love to speculate about why she quit."]},
+ {ko:"다음 단계가 필요하다고 말하다",en:"SAY THAT A FURTHER STEP IS NEEDED",paper:["FROM YOUR DISCUSSION","These findings","a longer trial with follow-up."],you:["FROM CLASS 15 · WHAT YOU SAID","\"…it is require to use the dynamic test.\" → A dynamic task is","."],
+  fill:["warrant", "warranted"],
+  verbs:[["warrant","논문 Discussion의 단골. \"warrants further investigation\""],["merit","'그럴 만하다'. 조금 더 부드러워요"],["justify","근거가 충분하다. Q&A에서"]],
+  three:["These findings warrant a longer trial with follow-up.","I think the trunk result alone justifies a follow-up study.","Does this really warrant a meeting? Could've been an email."]},
+ {ko:"흐릿한 걸 밝히다",en:"MAKE SOMETHING UNCLEAR CLEAR",paper:["FROM YOUR FUTURE WORK","Future work should","the mechanism linking the foot and the trunk."],you:["FROM CLASS 15 · WHAT YOU SAID","\"I have no idea how I could explain why.\" → That's something we still need to","."],
+  fill:["elucidate", "clarify"],
+  verbs:[["clarify","헷갈리는 걸 분명히. 말할 때"],["elucidate","기전·원리를 밝히다. 논문"],["delineate","경계·범위를 또렷이 긋다"]],
+  three:["Future work should elucidate the mechanism linking the foot and the trunk.","Let me clarify — the balance scores didn't change; the movement strategy did.","Can you clarify what you meant by 'soon'?"]},
+ {ko:"관련이 있다고 지목하다",en:"POINT TO A CONNECTION",paper:["FROM YOUR INTRODUCTION","Weakness of the intrinsic foot muscles has been","impaired balance."],you:["FROM CLASS 12 · WHAT YOU SAID","\"It's linked to deficits in postural control.\" → Core weakness has been","recurrent sprains."],
+  fill:["associated with", "implicated in"],
+  verbs:[["associate ~ with","통계적·일반적 관련. 제일 중립"],["link ~ to","연결하다. 말할 때 자연스러워요"],["implicate ~ in","원인으로 지목. 관여·책임의 느낌"]],
+  three:["IFM weakness has been associated with impaired balance in CAI.","Core weakness has been implicated in recurrent sprains, which is why we looked proximally.","They've linked the outbreak to one restaurant downtown."]},
+ {ko:"조절하다",en:"CONTROL THE AMOUNT",paper:["FROM YOUR DISCUSSION","The intrinsic foot muscles","postural control during dynamic tasks."],you:["FROM CLASS 12 · WHAT YOU SAID","\"The core provides proximal stability.\" → The trunk","how much rotation the body allows."],
+  fill:["modulate", "regulates"],
+  verbs:[["modulate","정도를 미세하게 조절. 생리·신경"],["regulate","일정하게 유지되도록 통제. 체계"],["adjust","상황에 맞게 바꾸다. 일상"]],
+  three:["The intrinsic foot muscles modulate postural control during landing.","The trunk regulates how much rotation the body allows at contact.","I had to adjust my schedule when the class moved to ten."]}
+];
+const PARAS=[
+ {t:"Results vs. what I expected",src:"CLASS 15 · 말한 그대로",text:[
+ "I expected there would be a significant difference among the three groups, especially between FCG and TCG. Unlike what I thought, there wasn't any difference on the postural control index. Actually, these results were similar to previous studies. Previous studies also ",
+ {w:"applied",hint:"훈련을 '제공·시행'했다 — delivered · administered"},
+ " foot core training, but there wasn't a significant difference between training groups and control groups. I think it's hard to ",
+ {w:"capture",hint:"측정으로 '잡아내다' — detect"},
+ " improvement after only foot core training on a static postural index. But interestingly, there were significant differences in the trunk transverse-plane angle during landing. According to a few previous studies, it ",
+ {w:"has shown",hint:"세기 순서에서 고르기 — suggests · indicates"},
+ " that it is hard to see any improvement on static tests such as single-leg stance. So they recommended that a dynamic test is ",
+ {w:"required",hint:"7번 카드 — warranted"},
+ " in order to capture any reduced compensation. And I have no idea how I could ",
+ {w:"explain",hint:"'설명이 되다' — account for"},
+ " why there wasn't a significant interaction even though there was one in the trunk transverse-plane angle."
+],
+  q:["Which result surprised you most — and how would you say that on stage without sounding disappointed?","The trunk changed but balance didn't. Explain that to someone who's never heard of COP."]},
+ {t:"1st priority",src:"CLASS 14 메모 · \"intrinsic muscle exercise should be included in rehabilitation program for all CAI individual\"",text:[
+  "I think intrinsic foot muscle exercise ",{w:"should be included",hint:"should be considered for inclusion"},
+  " in rehabilitation programs for CAI. In our study, only the foot core group ",{w:"showed",hint:"그대로 두거나 demonstrated … compared with"},
+  " a change in trunk rotation during landing. People with CAI usually rotate the trunk toward the standing leg, and I think stronger foot muscles ",{w:"help",hint:"may attenuate"},
+  " reduce that. Of course, ten people per group is small, so we ",{w:"cannot say",hint:"can't rule out · can't confirm"},
+  " it works for every patient. But I think this result ",{w:"is enough",hint:"warrants"}," to try it in the clinic."],
+  q:["Would you say 'all CAI patients' on stage? Why not?","What would a clinician need to hear before trying this on Monday?"]},
+ {t:"2nd priority",src:"CLASS 14 메모 · \"bottom up approach shall be consider before top down approach\"",text:[
+  "I think a bottom-up approach ",{w:"should be tried",hint:"should be considered"},
+  " before a top-down approach. When we trained the foot, the trunk also ",{w:"changed",hint:"그대로 두거나 showed a change"},
+  ". But when we trained the trunk directly, it didn't reduce the rotation. So I think the foot ",{w:"is the reason",hint:"may underlie · may drive"},
+  " for the change at the trunk. We didn't test the order of the two trainings, so this is ",{w:"just my idea",hint:"we propose · we hypothesize"},
+  ". More studies ",{w:"need to check",hint:"are warranted to test · would need to substantiate"}," this."],
+  q:["If a physio says 'I always start with the core', how do you answer?","What study would prove your order is better?"]},
+ {t:"Why four weeks",src:"CLASS 14 메모 · \"some papers suggested 8 weeks as minimum… to attempt as 4 weeks training\"",text:[
+  "Some papers ",{w:"say",hint:"suggest · recommend"},
+  " eight weeks is the minimum for foot training. But we chose four weeks. I thought four weeks would at least ",{w:"show",hint:"그대로 두거나 detect"},
+  " some positive change. And in a clinic, patients often don't come for eight weeks. In the end, four weeks was enough to ",{w:"change",hint:"alter · attenuate (trunk rotation)"},
+  " the trunk, but not balance. So I think longer training ",{w:"is needed",hint:"is warranted"}," to see the full effect."],
+  q:["Isn't four weeks just too short?","If you ran it again, how many weeks — and why that number?"]}
+];
+/* ---------- STATE ---------- */
+let screen=0, total=0;
+const S1={filled:{},picks:{}};
+const S2={i:0,said:[],hits:{},revealed:0,t:30,timer:null,own:{}};
+const S3={p:0,cur:0,fix:[{},{},{},{}]};
+const screens=["Part 1 · suggest → prove","Part 2 · Ten Cards","Part 3 · Your Own Words"];
+function bump(id){const e=document.getElementById(id);e.classList.add("bump");setTimeout(()=>e.classList.remove("bump"),250);}
+function hud(){document.getElementById("h1").textContent=S2.said.length;document.getElementById("h2").textContent=total;}
+function nav(){const n=document.getElementById("nav");n.innerHTML=screens.map((s,i)=>`<button class="${i===screen?'on':''}" data-i="${i}">${s}</button>`).join("");n.querySelectorAll("button").forEach(b=>b.onclick=()=>go(+b.dataset.i));}
+function go(i){screen=i;nav();document.querySelectorAll(".screen").forEach((s,k)=>s.classList.toggle("on",k===i));if(i===1){const x=document.getElementById("saidin");if(x)x.focus();}else if(document.activeElement)document.activeElement.blur();}
+/* ---------- PART 1 ---------- */
+let V=0;
+function part1(){const s=document.createElement("section");s.className="screen";s.id="p1";document.getElementById("main").appendChild(s);renderV();}
+function renderV(){const s=document.getElementById("p1");const v=STRENGTH[V];const dead=V>=4;
+ s.innerHTML=`<div class="kick">PART 1 · HOW STRONG CAN YOU SAY IT</div><h2>From suggest to prove</h2>
+ <div class="sub">약한 것부터 센 것까지 일곱. 동사마다 문장 다섯 — June이 소리 내 읽고, 자기 논문 자리면 어디인지 말해요. →키로 다음 동사.</div>
+ <div class="scale" style="margin-top:34px;height:90px"><div class="bar"></div>${STRENGTH.map((x,i)=>`<div class="slot filled ${i>=4?'dead':''} ${i===V?'cur':''}" data-i="${i}" style="left:${7+i*14.7}%;cursor:pointer"><div class="placed">${x[0]}</div><div class="dot"></div></div>`).join("")}</div>
+ <div class="vpanel ${dead?'dead':''}"><div class="vhead"><span class="vname">${v[0]}</span><span class="vnote">${v[1]}</span></div>
+ <ol class="vlist">${v[2].map((e,i)=>`<li style="animation-delay:${i*.12}s"><div class="en">${e[0]}</div><div class="why">${e[1]}</div></li>`).join("")}</ol></div>
+ <div class="row" style="margin-top:14px"><button class="btn" id="vprev">◀</button><button class="btn gold" id="vnext">다음 동사 ▶</button><span class="sub">${V+1} / 7</span></div>`;
+ s.querySelectorAll(".slot").forEach(el=>el.onclick=()=>{V=+el.dataset.i;renderV();});
+ document.getElementById("vnext").onclick=()=>{if(V<6){V++;renderV();}else go(1);};
+ document.getElementById("vprev").onclick=()=>{if(V>0){V--;renderV();}};
+}
+/* ---------- PART 2 ---------- */
+function part2(){const s=document.createElement("section");s.className="screen";s.id="p2";document.getElementById("main").appendChild(s);renderCard();}
+function fmtBlank(parts,id){return `${parts[1]} <span class="blank" id="${id}"></span> ${parts[2]}`;}
+function renderCard(){const c=CARDS[S2.i];const s=document.getElementById("p2");clearInterval(S2.timer);S2.timer=null;S2.t=30;S2.revealed=0;S2.said=[];S2.hits={};
+ s.innerHTML=`<div class="kick">CARD ${S2.i+1} OF 10</div>
+ <div class="grid"><div class="big">
+  <div class="meaning">${c.ko}<small>${c.en}</small></div>
+  <div class="src">${c.paper[0]}</div><div class="sent">"${fmtBlank(c.paper,"b1")}"</div>
+  <div class="src" style="animation-delay:1s">${c.you[0]}</div><div class="sent you" style="animation-delay:1.1s">${fmtBlank(c.you,"b2")}</div>
+  <div class="reveal" id="reveal">${c.verbs.map((v,k)=>`<div class="vcard" data-k="${k}"><div class="f">?</div><div class="b"><b>${v[0]}</b><span>${v[1]}</span></div></div>`).join("")}</div>
+  <div class="three" id="three"><div><b>ON STAGE</b>${c.three[0]}</div><div><b>IN Q&A</b>${c.three[1]}</div><div><b>EVERYDAY</b>${c.three[2]}</div></div>
+ </div>
+ <div class="side">
+  <div class="timer"><div class="ring" id="ring"><div id="tnum">30</div></div><div class="row" style="justify-content:center;margin-top:10px"><button class="btn teal" id="tstart">▶ 30초</button><button class="btn" id="treset">↺</button></div></div>
+  <div class="said"><div class="lab">JUNE SAID · Brian이 치고 Enter</div><div id="saidbox"></div><input id="saidin" placeholder="동사 입력 → Enter (+1)"></div>
+  <div class="own"><div class="lab">JUNE'S OWN · 자기 결과로 하나, 생활로 하나</div><textarea id="own" placeholder="받아 적기">${S2.own[S2.i]||""}</textarea></div>
+ </div></div>
+ <div class="cardnav"><button class="btn" id="prev">◀</button><button class="btn gold" id="rev">R · 하나 공개</button><button class="btn" id="showthree">세 상황 보기</button><button class="btn gold" id="next">다음 카드 ▶</button><div class="dots">${CARDS.map((_,k)=>`<i class="${k===S2.i?'on':''}"></i>`).join("")}</div></div>`;
+ hud();
+ const tick=()=>{S2.t--;document.getElementById("tnum").textContent=S2.t;document.getElementById("ring").style.background=`conic-gradient(var(--teal) 0 ${S2.t/30*100}%,#223656 ${S2.t/30*100}% 100%)`;if(S2.t<=0){clearInterval(S2.timer);S2.timer=null;document.getElementById("tnum").textContent="⏱";}};
+ document.getElementById("tstart").onclick=()=>{if(S2.timer)return;S2.timer=setInterval(tick,1000);};
+ document.getElementById("treset").onclick=()=>{clearInterval(S2.timer);S2.timer=null;S2.t=30;document.getElementById("tnum").textContent=30;document.getElementById("ring").style.background="conic-gradient(var(--teal) 0 100%,#223656 100% 100%)";};
+ const inp=document.getElementById("saidin");if(screen===1)inp.focus();
+ inp.onkeydown=e=>{if(e.key==="Enter"&&inp.value.trim()){const w=inp.value.trim().toLowerCase();S2.said.push(w);total++;bump("h1");bump("h2");hud();const hit=c.verbs.findIndex(v=>v[0].split(" ")[0]===w.split(" ")[0]);const sp=document.createElement("span");sp.className="v"+(hit>=0?" hit":"");sp.textContent=w;document.getElementById("saidbox").appendChild(sp);if(hit>=0)S2.hits[hit]=1;inp.value="";}};
+ const cards=[...s.querySelectorAll(".vcard")];
+ const flip=k=>{const el=cards[k];if(!el||el.classList.contains("flip"))return;el.classList.add("flip");if(S2.hits[k])el.classList.add("hit");const b=k<2?document.getElementById(k===0?"b1":"b2"):null;if(b&&!b.classList.contains("filled")){b.textContent=c.fill[k];b.classList.add("filled");}};
+ document.getElementById("rev").onclick=()=>{flip(S2.revealed);S2.revealed++;};
+ cards.forEach((el,k)=>el.onclick=()=>flip(k));
+ document.getElementById("showthree").onclick=()=>document.getElementById("three").classList.add("on");
+ document.getElementById("own").oninput=e=>S2.own[S2.i]=e.target.value;
+ document.getElementById("next").onclick=()=>{if(S2.i<CARDS.length-1){S2.i++;renderCard();}};
+ document.getElementById("prev").onclick=()=>{if(S2.i>0){S2.i--;renderCard();}};
+}
+/* ---------- PART 3 ---------- */
+function part3(){const s=document.createElement("section");s.className="screen";s.id="p3";document.getElementById("main").appendChild(s);renderPara();}
+function renderPara(){const s=document.getElementById("p3");const P=PARAS[S3.p];const F=S3.fix[S3.p];let k=0;
+ const html=P.text.map(x=>typeof x==="string"?x:(()=>{const i=k++;const done=F[i];return `<span class="slotw ${i===S3.cur&&!done?'cur':''} ${done?'done':''}" data-i="${i}">${done||x.w}</span>`;})()).join("");
+ const slots=P.text.filter(x=>typeof x!=="string");const cur=slots[S3.cur];const allDone=slots.every((_,i)=>F[i]);
+ s.innerHTML=`<div class="kick">PART 3 · YOUR OWN WORDS</div><h2>Say It Again, Better</h2>
+ <div class="sub">문단 넷. 금색으로 켜진 동사를 오늘 배운 걸로 바꿔 말하면 Brian이 적어요. 다 바꾸면 문단을 한 번에 다시 읽고, 아래 질문으로 짧게 얘기해요.</div>
+ <div class="ptabs">${PARAS.map((x,i)=>{const n=x.text.filter(y=>typeof y!=="string").length,d=Object.keys(S3.fix[i]).length;return `<button class="${i===S3.p?'on':''} ${d===n?'done':''}" data-i="${i}"><b>${i+1}</b> ${x.t}<small>${d}/${n}</small></button>`;}).join("")}</div>
+ <div class="psrc">${P.src}</div>
+ <div class="para">${html}</div>
+ ${cur&&!F[S3.cur]?`<div class="fixrow"><span style="font-family:Fraunces,serif;font-size:20px;color:var(--gold2)">${cur.w} →</span><input id="fixin" placeholder="June이 고른 동사"><button class="btn gold" id="fixok">바꾸기</button></div><div class="hintbox">힌트(Brian만): ${cur.hint}</div>`:
+ `<div class="row" style="margin-top:16px"><span class="sub">${allDone?'다 바꿨어요. 문단 전체를 June이 다시 읽어요.':''}</span>${S3.p<PARAS.length-1?'<button class="btn gold" id="pnext">다음 문단 ▶</button>':''}<button class="btn" id="dl">받아 적은 것 .txt</button></div>`}
+ <div class="talk"><div class="lab">TALK ABOUT IT · 얘기해 보기</div>${P.q.map((q,i)=>`<div class="tq" style="animation-delay:${i*.15}s">${i+1}. ${q}</div>`).join("")}</div>
+ <div class="rule"><b>한 줄 규칙</b> — 말로 할 땐 확실한 동사로 바로 가요. 더 센 동사는 글 쓸 때 골라요. 고르느라 멈추는 시간이 발표에선 그대로 손해예요.</div>`;
+ s.querySelectorAll(".ptabs button").forEach(b=>b.onclick=()=>{S3.p=+b.dataset.i;const f=S3.fix[S3.p];const n=PARAS[S3.p].text.filter(y=>typeof y!=="string").length;let c=0;while(c<n&&f[c])c++;S3.cur=c;renderPara();});
+ s.querySelectorAll(".slotw").forEach(el=>el.onclick=()=>{S3.cur=+el.dataset.i;if(F[S3.cur]){delete F[S3.cur];}renderPara();});
+ const fi=document.getElementById("fixin");if(fi){fi.focus();const ok=()=>{if(!fi.value.trim())return;F[S3.cur]=fi.value.trim();total++;bump("h2");hud();const nxt=slots.findIndex((_,i)=>!F[i]);S3.cur=nxt<0?slots.length:nxt;renderPara();};document.getElementById("fixok").onclick=ok;fi.onkeydown=e=>{if(e.key==="Enter")ok();};}
+ const pn=document.getElementById("pnext");if(pn)pn.onclick=()=>{S3.p++;S3.cur=0;renderPara();};
+ const dl=document.getElementById("dl");if(dl)dl.onclick=()=>{const L=["JUNE · CLASS 16 · VERB CHALLENGE",""];L.push("[PART 2 · June's own sentences]");CARDS.forEach((c,i)=>{if(S2.own[i])L.push(`${i+1}. ${c.ko}: ${S2.own[i]}`);});
+  PARAS.forEach((P2,pi)=>{L.push("",`[PART 3 · ${pi+1}. ${P2.t}]`);let j=0;const txt=P2.text.map(x=>typeof x==="string"?x:(S3.fix[pi][j++]||x.w)).join("");L.push(txt);j=0;P2.text.forEach(x=>{if(typeof x!=="string"){L.push(`  ${x.w} → ${S3.fix[pi][j]||"-"}`);j++;}});});
+  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([L.join("\n")],{type:"text/plain"}));a.download="June_C16_notes.txt";a.click();};
+}
+
+part1();part2();part3();nav();go(0);
+document.addEventListener("keydown",e=>{if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;if(e.key==="ArrowRight"&&e.shiftKey)go(Math.min(2,screen+1));if(e.key==="ArrowLeft"&&e.shiftKey)go(Math.max(0,screen-1));if(screen===0&&e.key==="ArrowRight"&&!e.shiftKey)document.getElementById("vnext").click();if(screen===0&&e.key==="ArrowLeft"&&!e.shiftKey)document.getElementById("vprev").click();if(screen===1&&(e.key==="r"||e.key==="R"))document.getElementById("rev").click();if(screen===1&&e.key===" "){e.preventDefault();document.getElementById("tstart").click();}});
+</script></body></html>
