@@ -1,0 +1,54 @@
+{
+  "week": "2026-W43",
+  "label": "10월 19일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        {"expr": "Never mind", "ko": "신경 쓰지 마세요, 됐어요", "ex": "Never mind, I found my keys."},
+        {"expr": "📘 단어: swap / drop", "ko": "맞바꾸다 / 떨어뜨리다, 내려 주다", "ex": "Can we swap seats? → I dropped my phone. (swap A for B, drop 사람 off = 내려 주다)"},
+        {"expr": "I'm in", "ko": "저도 할게요, 저 낄게요", "ex": "Dinner on Friday? I'm in!"},
+        {"expr": "📘 단어: nod / shut", "ko": "고개를 끄덕이다 / 닫다", "ex": "She nodded and smiled. → Shut the window, please. (nod = yes의 몸짓, shut = close보다 센 느낌)"},
+        {"expr": "Not really", "ko": "별로요, 그렇진 않아요", "ex": "Do you like horror movies? — Not really."}
+      ],
+      "quiz": [
+        {"q": "Oh, ___ — I already sent the email.", "options": ["no mind", "never mind", "mind never", "don't mind it"], "answer": 1, "note": "Never mind = 됐어요/신경 쓰지 마세요. 부탁을 거둘 때 딱!"},
+        {"q": "Could you ___ me off at the station?", "options": ["swap", "nod", "drop", "shut"], "answer": 2, "note": "drop 사람 off = 차로 내려 주다. 반대는 pick 사람 up!"},
+        {"q": "We're going hiking Saturday. — ___ !", "options": ["I'm on", "I'm into", "I'm in", "Me in"], "answer": 2, "note": "I'm in = 나도 할게. 반대는 I'm out / Count me out."},
+        {"q": "He just ___ without saying a word.", "options": ["nodded", "swapped", "shut", "dropped"], "answer": 0, "note": "nod = 고개 끄덕이다. nod off = 꾸벅꾸벅 졸다."},
+        {"q": "Are you hungry? — ___ , I had a late lunch.", "options": ["Not really", "Really not", "No really", "Not so"], "answer": 0, "note": "Not really = 별로요. No보다 부드러운 거절!"}
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        {"expr": "Think outside the box", "ko": "틀에서 벗어나 생각하다", "ex": "We need to think outside the box to solve this."},
+        {"expr": "📘 단어: sincere / thorough", "ko": "진심 어린 / 철저한, 꼼꼼한", "ex": "Please accept my sincere apologies. → We did a thorough check. (sincere = 진심의, thorough = 빠짐없는)"},
+        {"expr": "Rule of thumb", "ko": "경험상의 대략적 기준", "ex": "As a rule of thumb, reply to emails within a day."},
+        {"expr": "📘 단어: compensate / accommodate", "ko": "보상하다, 보충하다 / 수용하다, 맞춰 주다", "ex": "They compensated us for the delay. → The room can accommodate 50 people. (compensate 사람 for N, accommodate = 공간·요구를 받아 주다)"},
+        {"expr": "Go with the flow", "ko": "흐름에 맡기다, 상황대로 따라가다", "ex": "I don't have a plan for the trip — I'll just go with the flow."}
+      ],
+      "quiz": [
+        {"q": "The old approach failed, so let's ___ this time.", "options": ["think out the box", "think outside the box", "think the box outside", "think over the box"], "answer": 1, "note": "think outside the box = 틀 밖에서 생각하다. 회의에서 단골 표현!"},
+        {"q": "He gave a ___ apology, and I believed him.", "options": ["thorough", "sincere", "compensated", "accommodating"], "answer": 1, "note": "sincere = 진심의. 편지 끝 Sincerely도 여기서!"},
+        {"q": "As a ___ , spend no more than 30% of your income on rent.", "options": ["rule of hand", "thumb rule", "rule of thumb", "rule by thumb"], "answer": 2, "note": "rule of thumb = 대략적인 기준. as a rule of thumb로 문장 시작."},
+        {"q": "The airline ___ us for the lost luggage.", "options": ["accommodated", "thoroughed", "sincered", "compensated"], "answer": 3, "note": "compensate 사람 for N = ~에 대해 보상하다. 명사 compensation."},
+        {"q": "Don't stress about the schedule — just ___ .", "options": ["go with the flow", "go by the flow", "go in the flow", "go to the flow"], "answer": 0, "note": "go with the flow = 상황에 맡기다. 여유로운 사람의 한마디!"}
+      ]
+    },
+    "challenge": {
+      "cards": [
+        {"expr": "Get a taste of your own medicine", "ko": "자기가 한 대로 당해 보다", "ex": "He's always late, so we made him wait — a taste of his own medicine."},
+        {"expr": "📘 단어: obsolete / lucrative", "ko": "쓸모없어진, 구식의 / 수익성 좋은", "ex": "Fax machines are obsolete. → It's a lucrative business. (obsolete ↔ up-to-date, lucrative = profitable)"},
+        {"expr": "Have a lot on your plate", "ko": "할 일이 산더미다", "ex": "I can't take that on — I have a lot on my plate right now."},
+        {"expr": "📘 단어: concede / refute", "ko": "(마지못해) 인정하다 / 반박하다", "ex": "He conceded that I had a point. → She refuted the claim with data. (concede that ~, refute a claim)"},
+        {"expr": "Go down the rabbit hole", "ko": "(검색·생각이) 끝없이 빠져들다", "ex": "I was looking up one word and went down a rabbit hole for an hour."}
+      ],
+      "quiz": [
+        {"q": "She kept interrupting everyone, so we interrupted her — she got ___ .", "hint": "자기 약을 자기가 맛보다", "accept": ["a taste of her own medicine", "taste of her own medicine"], "note": "a taste of one's own medicine = 자기가 한 대로 당하기. give 사람 a taste of their own medicine."},
+        {"q": "DVD players are almost ___ now.", "hint": "더 이상 안 쓰는, 구식의 (o로 시작)", "accept": ["obsolete"], "note": "obsolete = 기술 발전으로 쓸모없어진. become obsolete."},
+        {"q": "I'd love to help, but I ___ this month.", "hint": "접시에 많이 올려져 있다", "accept": ["have a lot on my plate", "have too much on my plate", "have so much on my plate"], "note": "have a lot on one's plate = 일이 너무 많다. 정중한 거절에 좋아요."},
+        {"q": "The lawyer ___ every point the witness made.", "hint": "증거로 틀렸다고 반박하다 (r로 시작)", "accept": ["refuted"], "note": "refute = 증거로 반박하다. 그냥 '부인'은 deny, 반박은 refute."},
+        {"q": "I started researching one topic and ___ for hours.", "hint": "토끼 굴로 내려가다", "accept": ["went down a rabbit hole", "went down the rabbit hole", "go down the rabbit hole"], "note": "go down the rabbit hole = 끝없이 빠져들다. 앨리스에서 온 표현!"}
+      ]
+    }
+  }
+}
