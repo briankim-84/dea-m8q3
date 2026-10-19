@@ -4502,6 +4502,506 @@
    "ans": 1,
    "note": "tangible = 손에 잡히는. 반대 intangible(무형의).",
    "wk": "2026-W42"
+  },
+  {
+   "w": "hesitant",
+   "ko": "머뭇거리는, 주저하는",
+   "ex": "She was hesitant to speak up.",
+   "exko": "그녀는 말하기를 주저했어요.",
+   "use": [
+    [
+     "I'm hesitant about the deal.",
+     "그 거래가 망설여져요."
+    ],
+    [
+     "A hesitant smile",
+     "머뭇거리는 미소"
+    ]
+   ],
+   "mcq": [
+    "He seemed hesitant to commit.",
+    "He seemed hesitant commit.",
+    "He seemed hesitant for commit.",
+    "He seemed hesitantly to commit."
+   ],
+   "ans": 0,
+   "note": "hesitant to V / about N. 동사 hesitate, 명사 hesitation.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "persuasive",
+   "ko": "설득력 있는",
+   "ex": "Her argument was persuasive.",
+   "exko": "그녀의 주장은 설득력 있었어요.",
+   "use": [
+    [
+     "He's very persuasive.",
+     "그는 설득을 잘해요."
+    ],
+    [
+     "Persuasive writing",
+     "설득하는 글"
+    ]
+   ],
+   "mcq": [
+    "The evidence is persuasive.",
+    "The evidence is persuasively.",
+    "The evidence is persuasive of.",
+    "The evidence is persuasion."
+   ],
+   "ans": 0,
+   "note": "persuasive(형) / persuade(동) / persuasion(명).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "accountable",
+   "ko": "책임이 있는",
+   "ex": "Managers are accountable for results.",
+   "exko": "매니저는 결과에 책임이 있어요.",
+   "use": [
+    [
+     "Hold him accountable.",
+     "그에게 책임을 물으세요."
+    ],
+    [
+     "Who's accountable?",
+     "누가 책임지나요?"
+    ]
+   ],
+   "mcq": [
+    "You're accountable for your team's work.",
+    "You're accountable to your team's work.",
+    "You're accountable of your team's work.",
+    "You're accountable with your team's work."
+   ],
+   "ans": 0,
+   "note": "accountable for N / to 사람. 명사 accountability.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "transparent",
+   "ko": "투명한",
+   "ex": "The process should be transparent.",
+   "exko": "그 과정은 투명해야 해요.",
+   "use": [
+    [
+     "Transparent glass",
+     "투명 유리"
+    ],
+    [
+     "Be transparent about fees.",
+     "수수료를 투명하게 공개하세요."
+    ]
+   ],
+   "mcq": [
+    "The company is transparent about pricing.",
+    "The company is transparent for pricing.",
+    "The company is transparently about pricing.",
+    "The company is transparent of pricing."
+   ],
+   "ans": 0,
+   "note": "transparent about N. 명사 transparency.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "spontaneous",
+   "ko": "즉흥적인, 자연스러운",
+   "ex": "It was a spontaneous trip.",
+   "exko": "즉흥 여행이었어요.",
+   "use": [
+    [
+     "She's very spontaneous.",
+     "그녀는 즉흥적이에요."
+    ],
+    [
+     "Spontaneous applause",
+     "자연스럽게 터진 박수"
+    ]
+   ],
+   "mcq": [
+    "We made a spontaneously decision to leave.",
+    "We made a spontaneity decision to leave.",
+    "We made a spontaneous of decision to leave.",
+    "We made a spontaneous decision to leave."
+   ],
+   "ans": 3,
+   "note": "spontaneous = 계획 없이 자연스럽게. 부사 spontaneously.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "versatile",
+   "ko": "다재다능한, 다용도의",
+   "ex": "He's a versatile actor.",
+   "exko": "그는 다재다능한 배우예요.",
+   "use": [
+    [
+     "A versatile tool",
+     "다용도 도구"
+    ],
+    [
+     "This jacket is versatile.",
+     "이 재킷은 여기저기 다 어울려요."
+    ]
+   ],
+   "mcq": [
+    "Eggs are a versatilely ingredient.",
+    "Eggs are a versatile of ingredient.",
+    "Eggs are a versatility ingredient.",
+    "Eggs are a versatile ingredient."
+   ],
+   "ans": 3,
+   "note": "versatile = 여러 용도·역할에 맞는. 명사 versatility.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "pragmatic",
+   "ko": "실용적인, 현실적인",
+   "ex": "Let's be pragmatic.",
+   "exko": "현실적으로 가죠.",
+   "use": [
+    [
+     "A pragmatic approach",
+     "실용적인 접근"
+    ],
+    [
+     "She's pragmatic about money.",
+     "그녀는 돈에 현실적이에요."
+    ]
+   ],
+   "mcq": [
+    "We need a pragmatically solution.",
+    "We need a pragmatic of solution.",
+    "We need a pragmatism solution.",
+    "We need a pragmatic solution."
+   ],
+   "ans": 3,
+   "note": "pragmatic = 이론보다 실제 효과 중시. 명사 pragmatism.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "resilient",
+   "ko": "회복력 있는, 잘 견디는",
+   "ex": "Kids are resilient.",
+   "exko": "아이들은 회복이 빨라요.",
+   "use": [
+    [
+     "A resilient economy",
+     "회복력 있는 경제"
+    ],
+    [
+     "Stay resilient.",
+     "꿋꿋하게 버티세요."
+    ]
+   ],
+   "mcq": [
+    "She proved resilient of after the setback.",
+    "She proved resilience after the setback.",
+    "She proved resilient after the setback.",
+    "She proved resiliently after the setback."
+   ],
+   "ans": 2,
+   "note": "resilient = 힘든 일 뒤 다시 일어서는. 명사 resilience.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "coherent",
+   "ko": "일관된, 조리 있는",
+   "ex": "Make your argument coherent.",
+   "exko": "주장을 조리 있게 만드세요.",
+   "use": [
+    [
+     "A coherent plan",
+     "앞뒤가 맞는 계획"
+    ],
+    [
+     "He wasn't coherent after the accident.",
+     "그는 사고 후 말이 횡설수설했어요."
+    ]
+   ],
+   "mcq": [
+    "The essay is clear and coherent of.",
+    "The essay is clear and coherently.",
+    "The essay is clear and coherent.",
+    "The essay is clear and coherence."
+   ],
+   "ans": 2,
+   "note": "coherent = 논리가 이어지는. 명사 coherence. 반대 incoherent.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "inherent",
+   "ko": "내재된, 고유의",
+   "ex": "Risk is inherent in investing.",
+   "exko": "투자에는 위험이 따라요.",
+   "use": [
+    [
+     "An inherent flaw",
+     "본질적인 결함"
+    ],
+    [
+     "Curiosity is inherent in children.",
+     "호기심은 아이들에게 타고난 거예요."
+    ]
+   ],
+   "mcq": [
+    "There are risks inherent in any plan.",
+    "There are risks inherently in any plan.",
+    "There are risks inherent to for any plan.",
+    "There are risks inherent of any plan."
+   ],
+   "ans": 0,
+   "note": "inherent in N = ~에 본래 있는. 부사 inherently.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "explicit",
+   "ko": "명시적인, 노골적인",
+   "ex": "Give explicit instructions.",
+   "exko": "명확한 지시를 주세요.",
+   "use": [
+    [
+     "The lyrics are explicit.",
+     "가사가 노골적이에요."
+    ],
+    [
+     "Be explicit about what you want.",
+     "원하는 걸 분명히 말하세요."
+    ]
+   ],
+   "mcq": [
+    "The contract is explicit of deadlines.",
+    "The contract is explicitly about deadlines.",
+    "The contract is explicit for deadlines.",
+    "The contract is explicit about deadlines."
+   ],
+   "ans": 3,
+   "note": "explicit about N. 반대 implicit. 부사 explicitly.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "implicit",
+   "ko": "암묵적인, 내포된",
+   "ex": "There was an implicit agreement.",
+   "exko": "암묵적인 합의가 있었어요.",
+   "use": [
+    [
+     "Implicit trust",
+     "절대적인 신뢰"
+    ],
+    [
+     "The threat was implicit.",
+     "위협이 은근히 담겨 있었어요."
+    ]
+   ],
+   "mcq": [
+    "His criticism was implicit in his tone.",
+    "His criticism was implicitly in his tone.",
+    "His criticism was implicit of his tone.",
+    "His criticism was implicit to in his tone."
+   ],
+   "ans": 0,
+   "note": "implicit = 직접 말하지 않았지만 담긴. 반대 explicit.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "diligent",
+   "ko": "성실한, 부지런한",
+   "ex": "She's a diligent student.",
+   "exko": "그녀는 성실한 학생이에요.",
+   "use": [
+    [
+     "Be diligent in your work.",
+     "일을 성실히 하세요."
+    ],
+    [
+     "Diligent research",
+     "꼼꼼한 조사"
+    ]
+   ],
+   "mcq": [
+    "He is diligent for saving money.",
+    "He is diligently about saving money.",
+    "He is diligent about saving money.",
+    "He is diligent of saving money."
+   ],
+   "ans": 2,
+   "note": "diligent about/in N. 명사 diligence.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "complacent",
+   "ko": "현실에 안주하는",
+   "ex": "Don't get complacent.",
+   "exko": "안주하지 마세요.",
+   "use": [
+    [
+     "Success made them complacent.",
+     "성공이 그들을 안일하게 만들었어요."
+    ],
+    [
+     "A complacent attitude",
+     "안일한 태도"
+    ]
+   ],
+   "mcq": [
+    "We can't afford to be complacent about safety.",
+    "We can't afford to be complacent of safety.",
+    "We can't afford to be complacent for safety.",
+    "We can't afford to be complacently about safety."
+   ],
+   "ans": 0,
+   "note": "complacent about N = 자만해서 방심한. 명사 complacency.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "indispensable",
+   "ko": "없어서는 안 될",
+   "ex": "She's indispensable to the team.",
+   "exko": "그녀는 팀에 없어선 안 될 사람이에요.",
+   "use": [
+    [
+     "A smartphone is indispensable now.",
+     "스마트폰은 이제 필수예요."
+    ],
+    [
+     "Nobody is indispensable.",
+     "대체 불가능한 사람은 없어요."
+    ]
+   ],
+   "mcq": [
+    "Good coffee is indispensable of my morning.",
+    "Good coffee is indispensable for to my morning.",
+    "Good coffee is indispensable to my morning.",
+    "Good coffee is indispensably to my morning."
+   ],
+   "ans": 2,
+   "note": "indispensable to N. 반대 dispensable. essential과 비슷.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "deliberate",
+   "ko": "고의적인, 신중한, 숙고하다",
+   "ex": "It was a deliberate choice.",
+   "exko": "의도적인 선택이었어요.",
+   "use": [
+    [
+     "The jury deliberated for hours.",
+     "배심원단이 몇 시간 숙고했어요."
+    ],
+    [
+     "He spoke in a slow, deliberate way.",
+     "그는 느리고 신중하게 말했어요."
+    ]
+   ],
+   "mcq": [
+    "The error was deliberate, not an accident.",
+    "The error was deliberation, not an accident.",
+    "The error was deliberately, not an accident.",
+    "The error was deliberate of, not an accident."
+   ],
+   "ans": 0,
+   "note": "deliberate(형) 의도적인 [-rət] / (동) 숙고하다 [-reit]. 부사 deliberately.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tentative",
+   "ko": "잠정적인, 머뭇거리는",
+   "ex": "We have a tentative date.",
+   "exko": "잠정 날짜가 있어요.",
+   "use": [
+    [
+     "A tentative smile",
+     "조심스러운 미소"
+    ],
+    [
+     "The plan is tentative.",
+     "계획은 아직 확정이 아니에요."
+    ]
+   ],
+   "mcq": [
+    "Let's set a tentative of deadline.",
+    "Let's set tentative a deadline.",
+    "Let's set a tentative deadline.",
+    "Let's set a tentatively deadline."
+   ],
+   "ans": 2,
+   "note": "tentative = 아직 확정 아닌. 부사 tentatively.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "arbitrary",
+   "ko": "임의의, 제멋대로인",
+   "ex": "The rule seems arbitrary.",
+   "exko": "그 규정은 근거 없어 보여요.",
+   "use": [
+    [
+     "An arbitrary decision",
+     "자의적인 결정"
+    ],
+    [
+     "Pick an arbitrary number.",
+     "아무 숫자나 고르세요."
+    ]
+   ],
+   "mcq": [
+    "The deadline was completely arbitrary.",
+    "The deadline was completely arbitrariness.",
+    "The deadline was completely arbitrary of.",
+    "The deadline was completely arbitrarily."
+   ],
+   "ans": 0,
+   "note": "arbitrary = 이유나 기준 없이. 부사 arbitrarily.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "candid",
+   "ko": "솔직한, 꾸밈없는",
+   "ex": "Let me be candid.",
+   "exko": "솔직히 말할게요.",
+   "use": [
+    [
+     "A candid photo",
+     "자연스럽게 찍힌 사진"
+    ],
+    [
+     "I appreciate your candid feedback.",
+     "솔직한 피드백 고마워요."
+    ]
+   ],
+   "mcq": [
+    "She gave a candor answer.",
+    "She gave a candidly answer.",
+    "She gave a candid answer.",
+    "She gave a candid of answer."
+   ],
+   "ans": 2,
+   "note": "candid = 숨김없이 솔직한. 명사 candor. candidate(후보)와 구별!",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "impartial",
+   "ko": "공정한, 치우치지 않은",
+   "ex": "A judge must be impartial.",
+   "exko": "판사는 공정해야 해요.",
+   "use": [
+    [
+     "Give an impartial opinion.",
+     "치우치지 않은 의견을 주세요."
+    ],
+    [
+     "An impartial referee",
+     "공정한 심판"
+    ]
+   ],
+   "mcq": [
+    "The report should be impartiality.",
+    "The report should be impartially.",
+    "The report should be impartial of.",
+    "The report should be impartial."
+   ],
+   "ans": 3,
+   "note": "impartial = 어느 편도 안 드는. 반대 partial/biased. 명사 impartiality.",
+   "wk": "2026-W43"
   }
  ]
 }

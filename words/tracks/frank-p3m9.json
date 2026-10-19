@@ -4502,6 +4502,506 @@
    "ans": 0,
    "note": "prove (that) ~ / prove to be ~. proof는 명사(증거)!",
    "wk": "2026-W42"
+  },
+  {
+   "w": "add",
+   "ko": "더하다, 추가하다",
+   "ex": "Add some salt.",
+   "exko": "소금 좀 넣으세요.",
+   "use": [
+    [
+     "Can I add one more thing?",
+     "하나만 더 말해도 될까요?"
+    ],
+    [
+     "Add me on Instagram.",
+     "인스타에서 저 추가해요."
+    ]
+   ],
+   "mcq": [
+    "Let me add you the group chat.",
+    "Let me adding you to the group chat.",
+    "Let me add you in the group chat.",
+    "Let me add you to the group chat."
+   ],
+   "ans": 3,
+   "note": "add A to B. add up = 합산하다/말이 되다. 명사 addition.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "pass",
+   "ko": "지나가다, 건네다, 통과하다",
+   "ex": "Pass me the salt, please.",
+   "exko": "소금 좀 건네주세요.",
+   "use": [
+    [
+     "I passed the exam!",
+     "시험 합격했어요!"
+    ],
+    [
+     "Time passes quickly.",
+     "시간이 빨리 가요."
+    ]
+   ],
+   "mcq": [
+    "Could you pass to me the remote?",
+    "Could you pass me the remote?",
+    "Could you pass the remote to for me?",
+    "Could you passing me the remote?"
+   ],
+   "ans": 1,
+   "note": "pass 사람 물건 = 건네다. pass by = 지나치다, pass away = 돌아가시다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sell",
+   "ko": "팔다",
+   "ex": "Do you sell phone cases?",
+   "exko": "폰 케이스 파세요?",
+   "use": [
+    [
+     "The tickets sold out.",
+     "표가 매진됐어요."
+    ],
+    [
+     "I sold my old car.",
+     "옛날 차를 팔았어요."
+    ]
+   ],
+   "mcq": [
+    "This shop sells handmade soap.",
+    "This shop sells handmade soap to.",
+    "This shop sell handmade soap.",
+    "This shop is sells handmade soap."
+   ],
+   "ans": 0,
+   "note": "sell-sold-sold. sell out = 매진되다. 반대 buy.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "cut",
+   "ko": "자르다, 줄이다",
+   "ex": "Cut the cake.",
+   "exko": "케이크 자르세요.",
+   "use": [
+    [
+     "We need to cut costs.",
+     "비용을 줄여야 해요."
+    ],
+    [
+     "I cut my finger.",
+     "손가락을 베었어요."
+    ]
+   ],
+   "mcq": [
+    "Can you cut in half the paper?",
+    "Can you cut the paper to half?",
+    "Can you cutted the paper in half?",
+    "Can you cut the paper in half?"
+   ],
+   "ans": 3,
+   "note": "cut-cut-cut. cut down on = 줄이다, cut off = 끊다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "draw",
+   "ko": "그리다, 끌어당기다",
+   "ex": "I can't draw.",
+   "exko": "저는 그림을 못 그려요.",
+   "use": [
+    [
+     "The show drew a big crowd.",
+     "그 공연이 많은 사람을 끌어모았어요."
+    ],
+    [
+     "Draw a line here.",
+     "여기 선을 그으세요."
+    ]
+   ],
+   "mcq": [
+    "She drew a map for me.",
+    "She drawed a map for me.",
+    "She draw a map for me yesterday.",
+    "She drew a map to for me."
+   ],
+   "ans": 0,
+   "note": "draw-drew-drawn. draw(선 그림) vs paint(색칠). 명사 drawing.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "wear",
+   "ko": "입다, 착용하다",
+   "ex": "What should I wear?",
+   "exko": "뭐 입지?",
+   "use": [
+    [
+     "He's wearing glasses.",
+     "그는 안경을 쓰고 있어요."
+    ],
+    [
+     "I'm worn out.",
+     "완전 지쳤어요."
+    ]
+   ],
+   "mcq": [
+    "She was wearing on a red coat.",
+    "She was wear a red coat.",
+    "She was wearing a red coat.",
+    "She was weared a red coat."
+   ],
+   "ans": 2,
+   "note": "wear-wore-worn. 옷·안경·향수·표정 전부 wear! put on은 입는 동작.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "catch",
+   "ko": "잡다, (버스를) 타다, 이해하다",
+   "ex": "I didn't catch your name.",
+   "exko": "성함을 못 들었어요.",
+   "use": [
+    [
+     "I have to catch the last train.",
+     "막차를 타야 해요."
+    ],
+    [
+     "I caught a cold.",
+     "감기에 걸렸어요."
+    ]
+   ],
+   "mcq": [
+    "Let's catch over coffee.",
+    "Let's catch up over coffees.",
+    "Let's catch up on over coffee.",
+    "Let's catch up over coffee."
+   ],
+   "ans": 3,
+   "note": "catch-caught-caught. catch up = 밀린 얘기 하다, catch a cold = 감기 걸리다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "fit",
+   "ko": "맞다, 건강한",
+   "ex": "These shoes don't fit.",
+   "exko": "이 신발 안 맞아요.",
+   "use": [
+    [
+     "I try to stay fit.",
+     "건강을 유지하려고 해요."
+    ],
+    [
+     "Will it fit in the car?",
+     "차에 들어갈까요?"
+    ]
+   ],
+   "mcq": [
+    "This jacket is fits me perfectly.",
+    "This jacket fit me perfectly now.",
+    "This jacket fits me perfectly.",
+    "This jacket fits to me perfectly."
+   ],
+   "ans": 2,
+   "note": "fit = 사이즈가 맞다 (suit는 어울리다). stay fit = 건강 유지.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "hit",
+   "ko": "치다, 도달하다",
+   "ex": "I hit my head.",
+   "exko": "머리를 부딪혔어요.",
+   "use": [
+    [
+     "Sales hit a record.",
+     "매출이 기록을 찍었어요."
+    ],
+    [
+     "The song was a big hit.",
+     "그 노래는 대히트였어요."
+    ]
+   ],
+   "mcq": [
+    "The car hit to a tree.",
+    "The car hitted a tree.",
+    "The car hit a tree.",
+    "The car was hit a tree."
+   ],
+   "ans": 2,
+   "note": "hit-hit-hit. hit the road = 출발하다, hit the gym = 헬스장 가다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "fill",
+   "ko": "채우다",
+   "ex": "Fill in the form.",
+   "exko": "양식을 작성하세요.",
+   "use": [
+    [
+     "Fill it up, please.",
+     "가득 채워 주세요(주유)."
+    ],
+    [
+     "The room filled with smoke.",
+     "방이 연기로 가득 찼어요."
+    ]
+   ],
+   "mcq": [
+    "Please fill this form of.",
+    "Please fill out this form.",
+    "Please filling out this form.",
+    "Please fill up for this form."
+   ],
+   "ans": 1,
+   "note": "fill in/out = 작성하다, fill up = 가득 채우다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "throw",
+   "ko": "던지다",
+   "ex": "Don't throw it away.",
+   "exko": "버리지 마세요.",
+   "use": [
+    [
+     "She threw a party.",
+     "그녀가 파티를 열었어요."
+    ],
+    [
+     "Throw me the ball.",
+     "공 던져 줘."
+    ]
+   ],
+   "mcq": [
+    "He throwed the trash away.",
+    "He threw away the trash away.",
+    "He threw the trash away.",
+    "He threw the trash to away."
+   ],
+   "ans": 2,
+   "note": "throw-threw-thrown. throw away = 버리다, throw up = 토하다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "pull",
+   "ko": "당기다",
+   "ex": "Pull the door.",
+   "exko": "문을 당기세요.",
+   "use": [
+    [
+     "He pulled over.",
+     "그가 차를 세웠어요."
+    ],
+    [
+     "Pull yourself together.",
+     "정신 차려요."
+    ]
+   ],
+   "mcq": [
+    "Pull on to the handle to open it.",
+    "Pulling the handle to open it please.",
+    "Pull the handle for open it.",
+    "Pull the handle to open it."
+   ],
+   "ans": 3,
+   "note": "pull ↔ push. pull over = 차를 갓길에 세우다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "wonder",
+   "ko": "궁금하다, 경이",
+   "ex": "I wonder if he's okay.",
+   "exko": "그가 괜찮은지 궁금하네요.",
+   "use": [
+    [
+     "No wonder you're tired.",
+     "피곤할 만하네요."
+    ],
+    [
+     "I was wondering about the price.",
+     "가격이 궁금했어요."
+    ]
+   ],
+   "mcq": [
+    "I wonder what time the store opens.",
+    "I wonder that what time the store opens.",
+    "I'm wonder what time the store opens.",
+    "I wonder about what time the store opens."
+   ],
+   "ans": 0,
+   "note": "wonder if/what ~ = ~일지 궁금하다. No wonder = 그럴 만하다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "laugh",
+   "ko": "웃다",
+   "ex": "Don't laugh at me.",
+   "exko": "비웃지 마세요.",
+   "use": [
+    [
+     "We laughed so hard.",
+     "엄청 웃었어요."
+    ],
+    [
+     "It's no laughing matter.",
+     "웃을 일이 아니에요."
+    ]
+   ],
+   "mcq": [
+    "Everyone laughed the joke.",
+    "Everyone laughed for the joke.",
+    "Everyone laughed to the joke.",
+    "Everyone laughed at the joke."
+   ],
+   "ans": 3,
+   "note": "laugh at N. 명사 laughter. smile은 소리 없이 웃기.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "paint",
+   "ko": "칠하다, 그리다",
+   "ex": "We painted the wall white.",
+   "exko": "벽을 흰색으로 칠했어요.",
+   "use": [
+    [
+     "She paints on weekends.",
+     "그녀는 주말에 그림을 그려요."
+    ],
+    [
+     "Wet paint!",
+     "페인트 주의!"
+    ]
+   ],
+   "mcq": [
+    "They painted blue to the room.",
+    "They painted the room to blue.",
+    "They paint the room blue yesterday.",
+    "They painted the room blue."
+   ],
+   "ans": 3,
+   "note": "paint A (color). 명사 painting(그림), painter.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "climb",
+   "ko": "오르다",
+   "ex": "We climbed the mountain.",
+   "exko": "산에 올랐어요.",
+   "use": [
+    [
+     "Prices keep climbing.",
+     "가격이 계속 올라요."
+    ],
+    [
+     "Climb the stairs.",
+     "계단을 올라가세요."
+    ]
+   ],
+   "mcq": [
+    "It took three hours to climb the hill.",
+    "It took three hours for climb the hill.",
+    "It took three hours to climb up on the hill.",
+    "It took three hours to climbing the hill."
+   ],
+   "ans": 0,
+   "note": "climb N (up 없이도 OK). 명사 climbing, climber.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "touch",
+   "ko": "만지다, 감동시키다",
+   "ex": "Don't touch that.",
+   "exko": "그거 만지지 마세요.",
+   "use": [
+    [
+     "Let's keep in touch.",
+     "연락하고 지내요."
+    ],
+    [
+     "I was touched by his words.",
+     "그의 말에 감동했어요."
+    ]
+   ],
+   "mcq": [
+    "Please don't touch to the screen.",
+    "Please don't touching the screen.",
+    "Please don't touch the screen.",
+    "Please don't touch on the screen."
+   ],
+   "ans": 2,
+   "note": "touch N. keep in touch = 연락하다, touched = 감동한.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tend",
+   "ko": "~하는 경향이 있다, 돌보다",
+   "ex": "I tend to oversleep.",
+   "exko": "저는 늦잠 자는 편이에요.",
+   "use": [
+    [
+     "She tends the garden.",
+     "그녀가 정원을 돌봐요."
+    ],
+    [
+     "Prices tend to rise in summer.",
+     "여름엔 가격이 오르는 편이에요."
+    ]
+   ],
+   "mcq": [
+    "He tend to talk too much.",
+    "He tends talking too much.",
+    "He tends to talk too much.",
+    "He tends talk too much."
+   ],
+   "ans": 2,
+   "note": "tend to V = ~하는 편이다. 명사 tendency.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "reflect",
+   "ko": "반사하다, 되돌아보다",
+   "ex": "The lake reflects the sky.",
+   "exko": "호수가 하늘을 비춰요.",
+   "use": [
+    [
+     "Take time to reflect.",
+     "돌아볼 시간을 가지세요."
+    ],
+    [
+     "Prices reflect demand.",
+     "가격은 수요를 반영해요."
+    ]
+   ],
+   "mcq": [
+    "Let's reflect what went wrong.",
+    "Let's reflect on what went wrong.",
+    "Let's reflect to what went wrong.",
+    "Let's reflect about on what went wrong."
+   ],
+   "ans": 1,
+   "note": "reflect N = 반영하다 / reflect on N = 되돌아보다. 명사 reflection.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "replace",
+   "ko": "교체하다, 대신하다",
+   "ex": "Replace the battery.",
+   "exko": "배터리를 교체하세요.",
+   "use": [
+    [
+     "Nobody can replace you.",
+     "누구도 당신을 대신 못 해요."
+    ],
+    [
+     "We replaced the old sofa.",
+     "낡은 소파를 바꿨어요."
+    ]
+   ],
+   "mcq": [
+    "I replaced the broken screen to a new one.",
+    "I replaced the broken screen by new one.",
+    "I replaced the broken screen for a new one.",
+    "I replaced the broken screen with a new one."
+   ],
+   "ans": 3,
+   "note": "replace A with B. 명사 replacement.",
+   "wk": "2026-W43"
   }
  ]
 }

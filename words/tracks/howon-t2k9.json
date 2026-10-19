@@ -18502,6 +18502,5006 @@
    "ans": 2,
    "note": "fortunate = lucky(격식). 부사 fortunately, 반대 unfortunate.",
    "wk": "2026-W42"
+  },
+  {
+   "w": "contribute",
+   "ko": "기여하다, 기부하다",
+   "ex": "Everyone contributed ideas.",
+   "exko": "모두 아이디어를 냈어요.",
+   "use": [
+    [
+     "Stress contributes to illness.",
+     "스트레스는 병의 원인이 돼요."
+    ],
+    [
+     "I contributed $50.",
+     "50달러를 냈어요."
+    ]
+   ],
+   "mcq": [
+    "She contributed a lot to the project.",
+    "She contribute a lot to the project.",
+    "She contributed a lot for the project.",
+    "She contributed a lot the project."
+   ],
+   "ans": 0,
+   "note": "contribute to N. 명사 contribution.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "spread",
+   "ko": "퍼지다, 펴 바르다",
+   "ex": "The news spread fast.",
+   "exko": "소식이 빨리 퍼졌어요.",
+   "use": [
+    [
+     "Spread butter on the toast.",
+     "토스트에 버터를 바르세요."
+    ],
+    [
+     "Spread the word.",
+     "널리 알려 주세요."
+    ]
+   ],
+   "mcq": [
+    "The fire spread the next building.",
+    "The fire spreaded to the next building.",
+    "The fire spread to the next building.",
+    "The fire was spread to the next building."
+   ],
+   "ans": 2,
+   "note": "spread-spread-spread. spread out = 펼치다, spread the word = 알리다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "emerge",
+   "ko": "나타나다, 드러나다",
+   "ex": "A new trend emerged.",
+   "exko": "새 트렌드가 나타났어요.",
+   "use": [
+    [
+     "The sun emerged from the clouds.",
+     "구름 사이로 해가 나왔어요."
+    ],
+    [
+     "Details are emerging.",
+     "세부 내용이 드러나고 있어요."
+    ]
+   ],
+   "mcq": [
+    "New problems were emerged after the launch.",
+    "New problems emerged after the launch.",
+    "New problems emerge after the launch yesterday.",
+    "New problems emerged out after the launch."
+   ],
+   "ans": 1,
+   "note": "emerge (from). 형용사 emerging = 신흥의. 명사 emergence.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "solve",
+   "ko": "해결하다, 풀다",
+   "ex": "Let's solve this together.",
+   "exko": "같이 해결해요.",
+   "use": [
+    [
+     "I solved the puzzle.",
+     "퍼즐을 풀었어요."
+    ],
+    [
+     "Money won't solve it.",
+     "돈으로 해결 안 돼요."
+    ]
+   ],
+   "mcq": [
+    "We need to solve out this problem quickly.",
+    "We need to solve about this problem quickly.",
+    "We need to solve this problem quickly.",
+    "We need to solving this problem quickly."
+   ],
+   "ans": 2,
+   "note": "solve a problem/puzzle. 명사 solution.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "divide",
+   "ko": "나누다",
+   "ex": "Divide it into four.",
+   "exko": "네 조각으로 나누세요.",
+   "use": [
+    [
+     "The issue divided the team.",
+     "그 문제로 팀이 갈라졌어요."
+    ],
+    [
+     "Ten divided by two is five.",
+     "10 나누기 2는 5."
+    ]
+   ],
+   "mcq": [
+    "Let's divide the work between us.",
+    "Let's divide the work for us.",
+    "Let's divide the work to us.",
+    "Let's divide the work among between us."
+   ],
+   "ans": 0,
+   "note": "divide A into B / divide between 두 사람 / among 여럿. 명사 division.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "host",
+   "ko": "주최하다, 진행자",
+   "ex": "Korea hosted the Olympics.",
+   "exko": "한국이 올림픽을 개최했어요.",
+   "use": [
+    [
+     "Who's hosting the party?",
+     "파티는 누가 열어요?"
+    ],
+    [
+     "He's a TV host.",
+     "그는 TV 진행자예요."
+    ]
+   ],
+   "mcq": [
+    "We're hosting to a dinner on Saturday.",
+    "We're hosting of a dinner on Saturday.",
+    "We're host a dinner on Saturday.",
+    "We're hosting a dinner on Saturday."
+   ],
+   "ans": 3,
+   "note": "host N = 주최하다. 명사 host(주최자/진행자), 손님은 guest.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "connect",
+   "ko": "연결하다",
+   "ex": "Connect to the Wi-Fi.",
+   "exko": "와이파이에 연결하세요.",
+   "use": [
+    [
+     "I can't connect with him.",
+     "그와 잘 통하지 않아요."
+    ],
+    [
+     "The bridge connects the two islands.",
+     "다리가 두 섬을 이어요."
+    ]
+   ],
+   "mcq": [
+    "How do I connect my phone with to the TV?",
+    "How do I connect my phone to the TV?",
+    "How do I connect my phone and the TV to?",
+    "How do I connecting my phone to the TV?"
+   ],
+   "ans": 1,
+   "note": "connect A to B. 명사 connection.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "enable",
+   "ko": "가능하게 하다, 켜다",
+   "ex": "Enable notifications.",
+   "exko": "알림을 켜세요.",
+   "use": [
+    [
+     "The app enables you to track spending.",
+     "이 앱으로 지출을 추적할 수 있어요."
+    ],
+    [
+     "The grant enabled us to expand.",
+     "보조금 덕에 확장할 수 있었어요."
+    ]
+   ],
+   "mcq": [
+    "This tool enable us to work faster.",
+    "This tool enables us for working faster.",
+    "This tool enables us to work faster.",
+    "This tool enables us work faster."
+   ],
+   "ans": 2,
+   "note": "enable 사람 to V. 반대 disable.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "conclude",
+   "ko": "결론 내리다, 끝내다",
+   "ex": "What did you conclude?",
+   "exko": "결론이 뭐였어요?",
+   "use": [
+    [
+     "The meeting concluded at five.",
+     "회의는 5시에 끝났어요."
+    ],
+    [
+     "We concluded a deal.",
+     "계약을 체결했어요."
+    ]
+   ],
+   "mcq": [
+    "The report concludes about costs will rise.",
+    "The report concludes to costs will rise.",
+    "The report conclude that costs will rise.",
+    "The report concludes that costs will rise."
+   ],
+   "ans": 3,
+   "note": "conclude that ~. 명사 conclusion. in conclusion = 결론적으로.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "vary",
+   "ko": "다르다, 다양하다",
+   "ex": "Prices vary by season.",
+   "exko": "가격은 계절마다 달라요.",
+   "use": [
+    [
+     "Opinions vary.",
+     "의견이 갈려요."
+    ],
+    [
+     "It varies from person to person.",
+     "사람마다 달라요."
+    ]
+   ],
+   "mcq": [
+    "Results vary depending the weather.",
+    "Results vary depend on the weather.",
+    "Results vary depending on the weather.",
+    "Results varies depending on the weather."
+   ],
+   "ans": 2,
+   "note": "vary (from A to B / depending on). 형용사 various, 명사 variety.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "wash",
+   "ko": "씻다, 세탁하다",
+   "ex": "Wash your hands.",
+   "exko": "손 씻으세요.",
+   "use": [
+    [
+     "I need to wash the car.",
+     "세차해야 해요."
+    ],
+    [
+     "Can this be washed?",
+     "이거 세탁 가능해요?"
+    ]
+   ],
+   "mcq": [
+    "I washed the dishes after dinner.",
+    "I washed up the dishes after dinner up.",
+    "I washed dish after dinner.",
+    "I wash the dishes after dinner yesterday."
+   ],
+   "ans": 0,
+   "note": "wash N. wash up = 설거지하다(영국)/씻다, washing machine.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "relax",
+   "ko": "쉬다, 긴장을 풀다",
+   "ex": "Relax, it's fine.",
+   "exko": "괜찮아요, 긴장 풀어요.",
+   "use": [
+    [
+     "I relax by cooking.",
+     "요리하면서 쉬어요."
+    ],
+    [
+     "The rules were relaxed.",
+     "규정이 완화됐어요."
+    ]
+   ],
+   "mcq": [
+    "I just want relax this weekend.",
+    "I just want to relax this weekend.",
+    "I just want to relaxing this weekend.",
+    "I just want to relax myself this weekend."
+   ],
+   "ans": 1,
+   "note": "relax (자동사, myself 불필요). 형용사 relaxed, relaxing.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "communicate",
+   "ko": "소통하다",
+   "ex": "We communicate mostly by email.",
+   "exko": "주로 이메일로 소통해요.",
+   "use": [
+    [
+     "He doesn't communicate well.",
+     "그는 소통을 잘 못 해요."
+    ],
+    [
+     "Communicate clearly.",
+     "명확하게 전달하세요."
+    ]
+   ],
+   "mcq": [
+    "It's hard to communicate to him.",
+    "It's hard to communicate him.",
+    "It's hard to communicating with him.",
+    "It's hard to communicate with him."
+   ],
+   "ans": 3,
+   "note": "communicate with 사람. 명사 communication.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "construct",
+   "ko": "건설하다, 구성하다",
+   "ex": "The bridge was constructed in 1990.",
+   "exko": "그 다리는 1990년에 지어졌어요.",
+   "use": [
+    [
+     "Construct a clear argument.",
+     "명확한 논리를 세우세요."
+    ],
+    [
+     "They're constructing a new mall.",
+     "새 쇼핑몰을 짓고 있어요."
+    ]
+   ],
+   "mcq": [
+    "The building constructed last year.",
+    "The building was construct last year.",
+    "The building was constructed last year.",
+    "The building was constructed at last year."
+   ],
+   "ans": 2,
+   "note": "construct N (build보다 격식). 명사 construction.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "investigate",
+   "ko": "조사하다",
+   "ex": "Police are investigating.",
+   "exko": "경찰이 조사 중이에요.",
+   "use": [
+    [
+     "We'll investigate the complaint.",
+     "불만 사항을 조사할게요."
+    ],
+    [
+     "Scientists investigated the cause.",
+     "과학자들이 원인을 조사했어요."
+    ]
+   ],
+   "mcq": [
+    "They investigated the cause of the fire.",
+    "They investigated about the cause of the fire.",
+    "They investigate the cause of the fire yesterday.",
+    "They investigated into the cause of the fire."
+   ],
+   "ans": 0,
+   "note": "investigate N (into ❌). 명사 investigation.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "implement",
+   "ko": "실행하다, 시행하다",
+   "ex": "We implemented a new policy.",
+   "exko": "새 정책을 시행했어요.",
+   "use": [
+    [
+     "It's easy to plan, hard to implement.",
+     "계획은 쉽고 실행은 어려워요."
+    ],
+    [
+     "The changes will be implemented in May.",
+     "변경 사항은 5월에 적용돼요."
+    ]
+   ],
+   "mcq": [
+    "The company implemented the new system.",
+    "The company was implemented the new system.",
+    "The company implemented to the new system.",
+    "The company implement the new system yesterday."
+   ],
+   "ans": 0,
+   "note": "implement N. 명사 implementation.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "complicate",
+   "ko": "복잡하게 하다",
+   "ex": "Don't complicate things.",
+   "exko": "일을 복잡하게 만들지 마세요.",
+   "use": [
+    [
+     "That complicates the plan.",
+     "그러면 계획이 복잡해져요."
+    ],
+    [
+     "It's complicated.",
+     "복잡해요."
+    ]
+   ],
+   "mcq": [
+    "The new rule complicated to the process.",
+    "The new rule complicate the process.",
+    "The new rule was complicated the process.",
+    "The new rule complicated the process."
+   ],
+   "ans": 3,
+   "note": "complicate N. 형용사 complicated, 명사 complication.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "breathe",
+   "ko": "숨 쉬다",
+   "ex": "Breathe deeply.",
+   "exko": "깊게 숨 쉬세요.",
+   "use": [
+    [
+     "I can't breathe.",
+     "숨을 못 쉬겠어요."
+    ],
+    [
+     "Let me breathe for a second.",
+     "잠깐 숨 좀 돌릴게요."
+    ]
+   ],
+   "mcq": [
+    "Take a moment for breathe.",
+    "Take a moment to breathe.",
+    "Take a moment to breathing.",
+    "Take a moment to breath."
+   ],
+   "ans": 1,
+   "note": "breathe(동사) / breath(명사: take a breath). 철자 e 주의!",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "retain",
+   "ko": "유지하다, 보유하다",
+   "ex": "We need to retain good staff.",
+   "exko": "좋은 직원을 지켜야 해요.",
+   "use": [
+    [
+     "Retain your receipt.",
+     "영수증을 보관하세요."
+    ],
+    [
+     "The soil retains water.",
+     "흙이 물을 머금어요."
+    ]
+   ],
+   "mcq": [
+    "The company retain its top position.",
+    "The company retained its top position.",
+    "The company was retained its top position.",
+    "The company retained to its top position."
+   ],
+   "ans": 1,
+   "note": "retain N = 계속 갖고 있다 (keep의 격식). 명사 retention.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "lean",
+   "ko": "기대다, 기울다, 날씬한",
+   "ex": "Don't lean on the door.",
+   "exko": "문에 기대지 마세요.",
+   "use": [
+    [
+     "I'm leaning toward option A.",
+     "A 쪽으로 마음이 기울어요."
+    ],
+    [
+     "Lean meat",
+     "살코기"
+    ]
+   ],
+   "mcq": [
+    "She leaned the wall.",
+    "She lean against the wall now.",
+    "She leaned against the wall.",
+    "She leaned to against the wall."
+   ],
+   "ans": 2,
+   "note": "lean on/against. lean toward = ~쪽으로 기울다. 형용사 lean = 군살 없는.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "attribute",
+   "ko": "~의 탓으로 돌리다, 특성",
+   "ex": "He attributes his success to luck.",
+   "exko": "그는 성공을 운 덕으로 돌려요.",
+   "use": [
+    [
+     "Patience is a key attribute.",
+     "인내는 중요한 자질이에요."
+    ],
+    [
+     "The painting is attributed to Kim.",
+     "그 그림은 김 작가의 작품으로 여겨져요."
+    ]
+   ],
+   "mcq": [
+    "She attributed bad weather to the delay.",
+    "She attributed the delay to bad weather.",
+    "She attributed the delay for bad weather.",
+    "She attributed the delay by bad weather."
+   ],
+   "ans": 1,
+   "note": "attribute A to B = A의 원인을 B로 보다. 명사 [ˈætrɪbjuːt].",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "depress",
+   "ko": "우울하게 하다, 침체시키다",
+   "ex": "The news depressed me.",
+   "exko": "그 소식에 우울해졌어요.",
+   "use": [
+    [
+     "High rates depress spending.",
+     "높은 금리는 소비를 위축시켜요."
+    ],
+    [
+     "Rainy days depress me.",
+     "비 오는 날은 기분이 가라앉아요."
+    ]
+   ],
+   "mcq": [
+    "The long winter depress everyone.",
+    "The long winter was depressed everyone.",
+    "The long winter depressed to everyone.",
+    "The long winter depressed everyone."
+   ],
+   "ans": 3,
+   "note": "depressed(사람이 우울한) / depressing(우울하게 하는). 명사 depression.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "ruin",
+   "ko": "망치다, 폐허",
+   "ex": "You ruined the surprise!",
+   "exko": "서프라이즈를 망쳤잖아요!",
+   "use": [
+    [
+     "The rain ruined our picnic.",
+     "비가 소풍을 망쳤어요."
+    ],
+    [
+     "We visited the ruins.",
+     "유적지를 방문했어요."
+    ]
+   ],
+   "mcq": [
+    "One mistake ruined of everything.",
+    "One mistake ruin everything yesterday.",
+    "One mistake was ruined everything.",
+    "One mistake ruined everything."
+   ],
+   "ans": 3,
+   "note": "ruin N = 완전히 망치다. 명사 ruins = 유적/폐허.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "burst",
+   "ko": "터지다, 터뜨리다",
+   "ex": "The balloon burst.",
+   "exko": "풍선이 터졌어요.",
+   "use": [
+    [
+     "She burst into tears.",
+     "그녀가 울음을 터뜨렸어요."
+    ],
+    [
+     "A pipe burst.",
+     "파이프가 터졌어요."
+    ]
+   ],
+   "mcq": [
+    "He burst laughing out.",
+    "He bursted out laughing.",
+    "He burst out to laugh.",
+    "He burst out laughing."
+   ],
+   "ans": 3,
+   "note": "burst-burst-burst. burst into tears/laughter, burst out laughing.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "rid",
+   "ko": "없애다",
+   "ex": "Get rid of the clutter.",
+   "exko": "잡동사니를 치우세요.",
+   "use": [
+    [
+     "I can't get rid of this cold.",
+     "이 감기가 안 떨어져요."
+    ],
+    [
+     "We got rid of the old car.",
+     "옛날 차를 처분했어요."
+    ]
+   ],
+   "mcq": [
+    "I want to get rid these books.",
+    "I want to rid of these books.",
+    "I want to get rid of these books.",
+    "I want to get rid off these books."
+   ],
+   "ans": 2,
+   "note": "get rid of N = 없애다 (거의 이 형태로만!).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "exhaust",
+   "ko": "지치게 하다, 다 써 버리다, 배기가스",
+   "ex": "The trip exhausted me.",
+   "exko": "여행 때문에 녹초가 됐어요.",
+   "use": [
+    [
+     "We've exhausted all options.",
+     "모든 옵션을 다 써 봤어요."
+    ],
+    [
+     "Car exhaust pollutes the air.",
+     "자동차 배기가스가 공기를 오염시켜요."
+    ]
+   ],
+   "mcq": [
+    "I'm exhaust after the long flight.",
+    "I'm exhausted after the long flight.",
+    "I'm exhausting after the long flight.",
+    "I'm exhausted of after the long flight."
+   ],
+   "ans": 1,
+   "note": "exhausted = 완전히 지친 (tired보다 강함). exhausting = 진 빠지는.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "counter",
+   "ko": "반박하다, 계산대, 반대의",
+   "ex": "He countered my argument.",
+   "exko": "그가 제 주장에 반박했어요.",
+   "use": [
+    [
+     "Pay at the counter.",
+     "카운터에서 계산하세요."
+    ],
+    [
+     "That's counterproductive.",
+     "그건 역효과예요."
+    ]
+   ],
+   "mcq": [
+    "She was countered with a better offer.",
+    "She counter with a better offer yesterday.",
+    "She countered with a better offer.",
+    "She countered to with a better offer."
+   ],
+   "ans": 2,
+   "note": "counter N = 맞받아치다. 명사 counter(계산대). counter- = 반대의.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "craft",
+   "ko": "공예, 정성껏 만들다",
+   "ex": "She crafted a perfect speech.",
+   "exko": "그녀는 완벽한 연설을 다듬어 썼어요.",
+   "use": [
+    [
+     "I love craft beer.",
+     "수제 맥주를 좋아해요."
+    ],
+    [
+     "Arts and crafts",
+     "미술 공예"
+    ]
+   ],
+   "mcq": [
+    "He craft the email carefully yesterday.",
+    "He was crafted the email carefully.",
+    "He crafted the email carefully.",
+    "He crafted carefully to the email."
+   ],
+   "ans": 2,
+   "note": "craft N = 정성 들여 만들다. craft beer = 수제 맥주. 명사 craftsman.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "chat",
+   "ko": "수다 떨다, 채팅",
+   "ex": "Let's chat over coffee.",
+   "exko": "커피 마시며 얘기해요.",
+   "use": [
+    [
+     "We chatted for hours.",
+     "몇 시간을 수다 떨었어요."
+    ],
+    [
+     "Send me a chat.",
+     "채팅 보내 줘요."
+    ]
+   ],
+   "mcq": [
+    "I chatted with my neighbor this morning.",
+    "I chatted to with my neighbor this morning.",
+    "I chat with my neighbor this morning yesterday.",
+    "I chatted my neighbor this morning."
+   ],
+   "ans": 0,
+   "note": "chat with 사람 (about N). 과거형 chatted (t 두 개).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stroke",
+   "ko": "쓰다듬다, 뇌졸중, 한 번의 동작",
+   "ex": "She stroked the cat.",
+   "exko": "그녀가 고양이를 쓰다듬었어요.",
+   "use": [
+    [
+     "He had a stroke.",
+     "그는 뇌졸중을 겪었어요."
+    ],
+    [
+     "It was a stroke of luck.",
+     "행운이었어요."
+    ]
+   ],
+   "mcq": [
+    "He stroked on the dog's head gently.",
+    "He stroke the dog's head gently yesterday.",
+    "He was stroked the dog's head gently.",
+    "He stroked the dog's head gently."
+   ],
+   "ans": 3,
+   "note": "stroke = 쓰다듬다 / 뇌졸중 / 한 획. a stroke of luck = 뜻밖의 행운.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "conventional",
+   "ko": "전통적인, 틀에 박힌",
+   "ex": "He has conventional tastes.",
+   "exko": "그는 취향이 보수적이에요.",
+   "use": [
+    [
+     "Conventional methods don't work here.",
+     "기존 방식은 여기선 안 통해요."
+    ],
+    [
+     "A conventional oven",
+     "일반 오븐"
+    ]
+   ],
+   "mcq": [
+    "She prefers convention medicine.",
+    "She prefers conventionally medicine.",
+    "She prefers conventional medicine.",
+    "She prefers conventional of medicine."
+   ],
+   "ans": 2,
+   "note": "conventional = 관습적인. 반대 unconventional. 명사 convention.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "comprehensive",
+   "ko": "포괄적인, 종합적인",
+   "ex": "We did a comprehensive review.",
+   "exko": "종합 검토를 했어요.",
+   "use": [
+    [
+     "Comprehensive insurance",
+     "종합 보험"
+    ],
+    [
+     "The report is comprehensive.",
+     "보고서가 포괄적이에요."
+    ]
+   ],
+   "mcq": [
+    "The guide gives a comprehensive of overview.",
+    "The guide gives a comprehensive overview.",
+    "The guide gives a comprehensively overview.",
+    "The guide gives a comprehension overview."
+   ],
+   "ans": 1,
+   "note": "comprehensive = 빠짐없이 다루는. comprehension(이해)과 구별.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "absolute",
+   "ko": "완전한, 절대적인",
+   "ex": "That's absolute nonsense.",
+   "exko": "완전히 말도 안 돼요.",
+   "use": [
+    [
+     "I have absolute trust in her.",
+     "그녀를 절대적으로 믿어요."
+    ],
+    [
+     "Absolutely!",
+     "당연하죠!"
+    ]
+   ],
+   "mcq": [
+    "It was an absolute of disaster.",
+    "It was an absolute disaster.",
+    "It was absolute a disaster.",
+    "It was an absolutely disaster."
+   ],
+   "ans": 1,
+   "note": "absolute(형) / absolutely(부) = 완전히, 당연하죠.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "random",
+   "ko": "무작위의",
+   "ex": "Pick a random number.",
+   "exko": "아무 숫자나 고르세요.",
+   "use": [
+    [
+     "That was so random.",
+     "그거 완전 뜬금없네요."
+    ],
+    [
+     "Random check",
+     "무작위 검사"
+    ]
+   ],
+   "mcq": [
+    "The winner is chosen in random.",
+    "The winner is chosen by random.",
+    "The winner is chosen at random.",
+    "The winner is chosen at randomly."
+   ],
+   "ans": 2,
+   "note": "random = 무작위의. at random = 무작위로. 구어로 '뜬금없는'.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "violent",
+   "ko": "폭력적인, 격렬한",
+   "ex": "The movie is too violent.",
+   "exko": "그 영화는 너무 폭력적이에요.",
+   "use": [
+    [
+     "A violent storm hit the coast.",
+     "격렬한 폭풍이 해안을 덮쳤어요."
+    ],
+    [
+     "He has a violent temper.",
+     "그는 성질이 거칠어요."
+    ]
+   ],
+   "mcq": [
+    "The protest turned to violent.",
+    "The protest turned violence.",
+    "The protest turned violently.",
+    "The protest turned violent."
+   ],
+   "ans": 3,
+   "note": "violent(형) / violence(명) / violently(부).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "raw",
+   "ko": "날것의, 가공되지 않은",
+   "ex": "I don't eat raw fish.",
+   "exko": "저는 회를 안 먹어요.",
+   "use": [
+    [
+     "Raw data",
+     "원시 데이터"
+    ],
+    [
+     "Raw materials",
+     "원자재"
+    ]
+   ],
+   "mcq": [
+    "The chicken is still rawly inside.",
+    "The chicken is still raw inside.",
+    "The chicken is still a raw inside.",
+    "The chicken is still raw of inside."
+   ],
+   "ans": 1,
+   "note": "raw = 익히지 않은/가공 전의. raw talent = 타고난 재능.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "distant",
+   "ko": "먼, 거리를 두는",
+   "ex": "A distant relative",
+   "exko": "먼 친척",
+   "use": [
+    [
+     "He's been distant lately.",
+     "그가 요즘 거리를 둬요."
+    ],
+    [
+     "In the distant past",
+     "먼 옛날에"
+    ]
+   ],
+   "mcq": [
+    "We heard a distant sound.",
+    "We heard a distantly sound.",
+    "We heard a distance sound.",
+    "We heard a distant of sound."
+   ],
+   "ans": 0,
+   "note": "distant(형) / distance(명). 사람이 distant = 냉담한.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "controversial",
+   "ko": "논란이 많은",
+   "ex": "It's a controversial topic.",
+   "exko": "논란이 많은 주제예요.",
+   "use": [
+    [
+     "The decision was controversial.",
+     "그 결정은 논란이 됐어요."
+    ],
+    [
+     "A controversial figure",
+     "논란의 인물"
+    ]
+   ],
+   "mcq": [
+    "The new law is highly controversy.",
+    "The new law is highly controversial.",
+    "The new law is highly controversial of.",
+    "The new law is highly controversially."
+   ],
+   "ans": 1,
+   "note": "controversial(형) / controversy(명) = 논란.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "voluntary",
+   "ko": "자발적인",
+   "ex": "Participation is voluntary.",
+   "exko": "참여는 자율이에요.",
+   "use": [
+    [
+     "Voluntary work",
+     "자원봉사"
+    ],
+    [
+     "He made a voluntary donation.",
+     "그는 자발적으로 기부했어요."
+    ]
+   ],
+   "mcq": [
+    "Attendance at the event is voluntarily.",
+    "Attendance at the event is voluntary of.",
+    "Attendance at the event is volunteer.",
+    "Attendance at the event is voluntary."
+   ],
+   "ans": 3,
+   "note": "voluntary(형) / voluntarily(부) / volunteer(명·동). 반대 mandatory.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "continuous",
+   "ko": "계속되는, 끊임없는",
+   "ex": "We had continuous rain.",
+   "exko": "비가 계속 왔어요.",
+   "use": [
+    [
+     "Continuous improvement",
+     "지속적 개선"
+    ],
+    [
+     "A continuous line",
+     "끊기지 않은 선"
+    ]
+   ],
+   "mcq": [
+    "The machine runs in continuously operation.",
+    "The machine runs in continuous operation.",
+    "The machine runs in continue operation.",
+    "The machine runs in continuous of operation."
+   ],
+   "ans": 1,
+   "note": "continuous = 끊김 없이 / continual = 반복적으로. 부사 continuously.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "hesitant",
+   "ko": "머뭇거리는, 주저하는",
+   "ex": "She was hesitant to speak up.",
+   "exko": "그녀는 말하기를 주저했어요.",
+   "use": [
+    [
+     "I'm hesitant about the deal.",
+     "그 거래가 망설여져요."
+    ],
+    [
+     "A hesitant smile",
+     "머뭇거리는 미소"
+    ]
+   ],
+   "mcq": [
+    "He seemed hesitant to commit.",
+    "He seemed hesitant commit.",
+    "He seemed hesitant for commit.",
+    "He seemed hesitantly to commit."
+   ],
+   "ans": 0,
+   "note": "hesitant to V / about N. 동사 hesitate, 명사 hesitation.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "persuasive",
+   "ko": "설득력 있는",
+   "ex": "Her argument was persuasive.",
+   "exko": "그녀의 주장은 설득력 있었어요.",
+   "use": [
+    [
+     "He's very persuasive.",
+     "그는 설득을 잘해요."
+    ],
+    [
+     "Persuasive writing",
+     "설득하는 글"
+    ]
+   ],
+   "mcq": [
+    "The evidence is persuasive.",
+    "The evidence is persuasively.",
+    "The evidence is persuasive of.",
+    "The evidence is persuasion."
+   ],
+   "ans": 0,
+   "note": "persuasive(형) / persuade(동) / persuasion(명).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "accountable",
+   "ko": "책임이 있는",
+   "ex": "Managers are accountable for results.",
+   "exko": "매니저는 결과에 책임이 있어요.",
+   "use": [
+    [
+     "Hold him accountable.",
+     "그에게 책임을 물으세요."
+    ],
+    [
+     "Who's accountable?",
+     "누가 책임지나요?"
+    ]
+   ],
+   "mcq": [
+    "You're accountable for your team's work.",
+    "You're accountable to your team's work.",
+    "You're accountable of your team's work.",
+    "You're accountable with your team's work."
+   ],
+   "ans": 0,
+   "note": "accountable for N / to 사람. 명사 accountability.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "transparent",
+   "ko": "투명한",
+   "ex": "The process should be transparent.",
+   "exko": "그 과정은 투명해야 해요.",
+   "use": [
+    [
+     "Transparent glass",
+     "투명 유리"
+    ],
+    [
+     "Be transparent about fees.",
+     "수수료를 투명하게 공개하세요."
+    ]
+   ],
+   "mcq": [
+    "The company is transparent about pricing.",
+    "The company is transparent for pricing.",
+    "The company is transparently about pricing.",
+    "The company is transparent of pricing."
+   ],
+   "ans": 0,
+   "note": "transparent about N. 명사 transparency.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "spontaneous",
+   "ko": "즉흥적인, 자연스러운",
+   "ex": "It was a spontaneous trip.",
+   "exko": "즉흥 여행이었어요.",
+   "use": [
+    [
+     "She's very spontaneous.",
+     "그녀는 즉흥적이에요."
+    ],
+    [
+     "Spontaneous applause",
+     "자연스럽게 터진 박수"
+    ]
+   ],
+   "mcq": [
+    "We made a spontaneously decision to leave.",
+    "We made a spontaneity decision to leave.",
+    "We made a spontaneous of decision to leave.",
+    "We made a spontaneous decision to leave."
+   ],
+   "ans": 3,
+   "note": "spontaneous = 계획 없이 자연스럽게. 부사 spontaneously.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "versatile",
+   "ko": "다재다능한, 다용도의",
+   "ex": "He's a versatile actor.",
+   "exko": "그는 다재다능한 배우예요.",
+   "use": [
+    [
+     "A versatile tool",
+     "다용도 도구"
+    ],
+    [
+     "This jacket is versatile.",
+     "이 재킷은 여기저기 다 어울려요."
+    ]
+   ],
+   "mcq": [
+    "Eggs are a versatilely ingredient.",
+    "Eggs are a versatile of ingredient.",
+    "Eggs are a versatility ingredient.",
+    "Eggs are a versatile ingredient."
+   ],
+   "ans": 3,
+   "note": "versatile = 여러 용도·역할에 맞는. 명사 versatility.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "pragmatic",
+   "ko": "실용적인, 현실적인",
+   "ex": "Let's be pragmatic.",
+   "exko": "현실적으로 가죠.",
+   "use": [
+    [
+     "A pragmatic approach",
+     "실용적인 접근"
+    ],
+    [
+     "She's pragmatic about money.",
+     "그녀는 돈에 현실적이에요."
+    ]
+   ],
+   "mcq": [
+    "We need a pragmatically solution.",
+    "We need a pragmatic of solution.",
+    "We need a pragmatism solution.",
+    "We need a pragmatic solution."
+   ],
+   "ans": 3,
+   "note": "pragmatic = 이론보다 실제 효과 중시. 명사 pragmatism.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "resilient",
+   "ko": "회복력 있는, 잘 견디는",
+   "ex": "Kids are resilient.",
+   "exko": "아이들은 회복이 빨라요.",
+   "use": [
+    [
+     "A resilient economy",
+     "회복력 있는 경제"
+    ],
+    [
+     "Stay resilient.",
+     "꿋꿋하게 버티세요."
+    ]
+   ],
+   "mcq": [
+    "She proved resilient of after the setback.",
+    "She proved resilience after the setback.",
+    "She proved resilient after the setback.",
+    "She proved resiliently after the setback."
+   ],
+   "ans": 2,
+   "note": "resilient = 힘든 일 뒤 다시 일어서는. 명사 resilience.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "coherent",
+   "ko": "일관된, 조리 있는",
+   "ex": "Make your argument coherent.",
+   "exko": "주장을 조리 있게 만드세요.",
+   "use": [
+    [
+     "A coherent plan",
+     "앞뒤가 맞는 계획"
+    ],
+    [
+     "He wasn't coherent after the accident.",
+     "그는 사고 후 말이 횡설수설했어요."
+    ]
+   ],
+   "mcq": [
+    "The essay is clear and coherent of.",
+    "The essay is clear and coherently.",
+    "The essay is clear and coherent.",
+    "The essay is clear and coherence."
+   ],
+   "ans": 2,
+   "note": "coherent = 논리가 이어지는. 명사 coherence. 반대 incoherent.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "inherent",
+   "ko": "내재된, 고유의",
+   "ex": "Risk is inherent in investing.",
+   "exko": "투자에는 위험이 따라요.",
+   "use": [
+    [
+     "An inherent flaw",
+     "본질적인 결함"
+    ],
+    [
+     "Curiosity is inherent in children.",
+     "호기심은 아이들에게 타고난 거예요."
+    ]
+   ],
+   "mcq": [
+    "There are risks inherent in any plan.",
+    "There are risks inherently in any plan.",
+    "There are risks inherent to for any plan.",
+    "There are risks inherent of any plan."
+   ],
+   "ans": 0,
+   "note": "inherent in N = ~에 본래 있는. 부사 inherently.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "explicit",
+   "ko": "명시적인, 노골적인",
+   "ex": "Give explicit instructions.",
+   "exko": "명확한 지시를 주세요.",
+   "use": [
+    [
+     "The lyrics are explicit.",
+     "가사가 노골적이에요."
+    ],
+    [
+     "Be explicit about what you want.",
+     "원하는 걸 분명히 말하세요."
+    ]
+   ],
+   "mcq": [
+    "The contract is explicit of deadlines.",
+    "The contract is explicitly about deadlines.",
+    "The contract is explicit for deadlines.",
+    "The contract is explicit about deadlines."
+   ],
+   "ans": 3,
+   "note": "explicit about N. 반대 implicit. 부사 explicitly.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "implicit",
+   "ko": "암묵적인, 내포된",
+   "ex": "There was an implicit agreement.",
+   "exko": "암묵적인 합의가 있었어요.",
+   "use": [
+    [
+     "Implicit trust",
+     "절대적인 신뢰"
+    ],
+    [
+     "The threat was implicit.",
+     "위협이 은근히 담겨 있었어요."
+    ]
+   ],
+   "mcq": [
+    "His criticism was implicit in his tone.",
+    "His criticism was implicitly in his tone.",
+    "His criticism was implicit of his tone.",
+    "His criticism was implicit to in his tone."
+   ],
+   "ans": 0,
+   "note": "implicit = 직접 말하지 않았지만 담긴. 반대 explicit.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "diligent",
+   "ko": "성실한, 부지런한",
+   "ex": "She's a diligent student.",
+   "exko": "그녀는 성실한 학생이에요.",
+   "use": [
+    [
+     "Be diligent in your work.",
+     "일을 성실히 하세요."
+    ],
+    [
+     "Diligent research",
+     "꼼꼼한 조사"
+    ]
+   ],
+   "mcq": [
+    "He is diligent for saving money.",
+    "He is diligently about saving money.",
+    "He is diligent about saving money.",
+    "He is diligent of saving money."
+   ],
+   "ans": 2,
+   "note": "diligent about/in N. 명사 diligence.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "complacent",
+   "ko": "현실에 안주하는",
+   "ex": "Don't get complacent.",
+   "exko": "안주하지 마세요.",
+   "use": [
+    [
+     "Success made them complacent.",
+     "성공이 그들을 안일하게 만들었어요."
+    ],
+    [
+     "A complacent attitude",
+     "안일한 태도"
+    ]
+   ],
+   "mcq": [
+    "We can't afford to be complacent about safety.",
+    "We can't afford to be complacent of safety.",
+    "We can't afford to be complacent for safety.",
+    "We can't afford to be complacently about safety."
+   ],
+   "ans": 0,
+   "note": "complacent about N = 자만해서 방심한. 명사 complacency.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "indispensable",
+   "ko": "없어서는 안 될",
+   "ex": "She's indispensable to the team.",
+   "exko": "그녀는 팀에 없어선 안 될 사람이에요.",
+   "use": [
+    [
+     "A smartphone is indispensable now.",
+     "스마트폰은 이제 필수예요."
+    ],
+    [
+     "Nobody is indispensable.",
+     "대체 불가능한 사람은 없어요."
+    ]
+   ],
+   "mcq": [
+    "Good coffee is indispensable of my morning.",
+    "Good coffee is indispensable for to my morning.",
+    "Good coffee is indispensable to my morning.",
+    "Good coffee is indispensably to my morning."
+   ],
+   "ans": 2,
+   "note": "indispensable to N. 반대 dispensable. essential과 비슷.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "deliberate",
+   "ko": "고의적인, 신중한, 숙고하다",
+   "ex": "It was a deliberate choice.",
+   "exko": "의도적인 선택이었어요.",
+   "use": [
+    [
+     "The jury deliberated for hours.",
+     "배심원단이 몇 시간 숙고했어요."
+    ],
+    [
+     "He spoke in a slow, deliberate way.",
+     "그는 느리고 신중하게 말했어요."
+    ]
+   ],
+   "mcq": [
+    "The error was deliberate, not an accident.",
+    "The error was deliberation, not an accident.",
+    "The error was deliberately, not an accident.",
+    "The error was deliberate of, not an accident."
+   ],
+   "ans": 0,
+   "note": "deliberate(형) 의도적인 [-rət] / (동) 숙고하다 [-reit]. 부사 deliberately.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tentative",
+   "ko": "잠정적인, 머뭇거리는",
+   "ex": "We have a tentative date.",
+   "exko": "잠정 날짜가 있어요.",
+   "use": [
+    [
+     "A tentative smile",
+     "조심스러운 미소"
+    ],
+    [
+     "The plan is tentative.",
+     "계획은 아직 확정이 아니에요."
+    ]
+   ],
+   "mcq": [
+    "Let's set a tentative of deadline.",
+    "Let's set tentative a deadline.",
+    "Let's set a tentative deadline.",
+    "Let's set a tentatively deadline."
+   ],
+   "ans": 2,
+   "note": "tentative = 아직 확정 아닌. 부사 tentatively.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "arbitrary",
+   "ko": "임의의, 제멋대로인",
+   "ex": "The rule seems arbitrary.",
+   "exko": "그 규정은 근거 없어 보여요.",
+   "use": [
+    [
+     "An arbitrary decision",
+     "자의적인 결정"
+    ],
+    [
+     "Pick an arbitrary number.",
+     "아무 숫자나 고르세요."
+    ]
+   ],
+   "mcq": [
+    "The deadline was completely arbitrary.",
+    "The deadline was completely arbitrariness.",
+    "The deadline was completely arbitrary of.",
+    "The deadline was completely arbitrarily."
+   ],
+   "ans": 0,
+   "note": "arbitrary = 이유나 기준 없이. 부사 arbitrarily.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "candid",
+   "ko": "솔직한, 꾸밈없는",
+   "ex": "Let me be candid.",
+   "exko": "솔직히 말할게요.",
+   "use": [
+    [
+     "A candid photo",
+     "자연스럽게 찍힌 사진"
+    ],
+    [
+     "I appreciate your candid feedback.",
+     "솔직한 피드백 고마워요."
+    ]
+   ],
+   "mcq": [
+    "She gave a candor answer.",
+    "She gave a candidly answer.",
+    "She gave a candid answer.",
+    "She gave a candid of answer."
+   ],
+   "ans": 2,
+   "note": "candid = 숨김없이 솔직한. 명사 candor. candidate(후보)와 구별!",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "impartial",
+   "ko": "공정한, 치우치지 않은",
+   "ex": "A judge must be impartial.",
+   "exko": "판사는 공정해야 해요.",
+   "use": [
+    [
+     "Give an impartial opinion.",
+     "치우치지 않은 의견을 주세요."
+    ],
+    [
+     "An impartial referee",
+     "공정한 심판"
+    ]
+   ],
+   "mcq": [
+    "The report should be impartiality.",
+    "The report should be impartially.",
+    "The report should be impartial of.",
+    "The report should be impartial."
+   ],
+   "ans": 3,
+   "note": "impartial = 어느 편도 안 드는. 반대 partial/biased. 명사 impartiality.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "shiver",
+   "ko": "(추위·공포로) 떨다",
+   "ex": "I'm shivering.",
+   "exko": "떨려요(추워서).",
+   "use": [
+    [
+     "The thought makes me shiver.",
+     "생각만 해도 몸서리쳐져요."
+    ],
+    [
+     "She shivered in the cold wind.",
+     "그녀는 찬바람에 떨었어요."
+    ]
+   ],
+   "mcq": [
+    "He was shivering of cold.",
+    "He was shiver with cold.",
+    "He was shivering by cold.",
+    "He was shivering with cold."
+   ],
+   "ans": 3,
+   "note": "shiver with cold/fear. 명사 shivers = 오한, 소름.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tremble",
+   "ko": "(몸·목소리가) 떨리다",
+   "ex": "Her voice trembled.",
+   "exko": "그녀의 목소리가 떨렸어요.",
+   "use": [
+    [
+     "My hands were trembling.",
+     "손이 떨리고 있었어요."
+    ],
+    [
+     "He trembled with anger.",
+     "그는 분노로 떨었어요."
+    ]
+   ],
+   "mcq": [
+    "The ground trembled by during the quake.",
+    "The ground tremble during the quake.",
+    "The ground trembled during the quake.",
+    "The ground was trembled during the quake."
+   ],
+   "ans": 2,
+   "note": "tremble with 감정. shiver보다 강하고 넓게 씀.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "frown",
+   "ko": "찡그리다, 찌푸림",
+   "ex": "Why are you frowning?",
+   "exko": "왜 인상을 써요?",
+   "use": [
+    [
+     "She frowned at the price.",
+     "그녀는 가격을 보고 찡그렸어요."
+    ],
+    [
+     "Turn that frown upside down.",
+     "찡그리지 말고 웃어요."
+    ]
+   ],
+   "mcq": [
+    "He was frowned when he read the email.",
+    "He frown when he read the email yesterday.",
+    "He frowned when he read the email.",
+    "He frowned at when he read the email."
+   ],
+   "ans": 2,
+   "note": "frown (at N). frown on = 못마땅해하다. 반대 smile.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "chuckle",
+   "ko": "낄낄 웃다",
+   "ex": "He chuckled at the joke.",
+   "exko": "그는 농담에 킥킥 웃었어요.",
+   "use": [
+    [
+     "I had a good chuckle.",
+     "한참 웃었어요."
+    ],
+    [
+     "She chuckled to herself.",
+     "그녀는 혼자 킥킥 웃었어요."
+    ]
+   ],
+   "mcq": [
+    "The audience chuckled at quietly.",
+    "The audience chuckle quietly yesterday.",
+    "The audience chuckled quietly.",
+    "The audience was chuckled quietly."
+   ],
+   "ans": 2,
+   "note": "chuckle = 조용히 낄낄 웃다. laugh보다 작게.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "mumble",
+   "ko": "웅얼거리다",
+   "ex": "Don't mumble.",
+   "exko": "웅얼거리지 마세요.",
+   "use": [
+    [
+     "He mumbled an apology.",
+     "그는 웅얼웅얼 사과했어요."
+    ],
+    [
+     "I can't hear you when you mumble.",
+     "웅얼거리면 안 들려요."
+    ]
+   ],
+   "mcq": [
+    "She mumble something and left yesterday.",
+    "She was mumbled something and left.",
+    "She mumbled to something and left.",
+    "She mumbled something and left."
+   ],
+   "ans": 3,
+   "note": "mumble = 입속으로 웅얼거리다. 비슷한 말 mutter.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "hum",
+   "ko": "흥얼거리다, 윙윙거리다",
+   "ex": "She hummed a tune.",
+   "exko": "그녀가 노래를 흥얼거렸어요.",
+   "use": [
+    [
+     "The fridge is humming.",
+     "냉장고가 윙윙거려요."
+    ],
+    [
+     "Hum it for me.",
+     "흥얼거려 봐요."
+    ]
+   ],
+   "mcq": [
+    "He hummed at while cooking.",
+    "He was hummed while cooking.",
+    "He hum while cooking yesterday.",
+    "He hummed while cooking."
+   ],
+   "ans": 3,
+   "note": "hum = 입 다물고 흥얼. 과거형 hummed. 명사 hum = 웅웅 소리.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "scratch",
+   "ko": "긁다, 긁힌 자국",
+   "ex": "Don't scratch the bite.",
+   "exko": "물린 데 긁지 마세요.",
+   "use": [
+    [
+     "Let's start from scratch.",
+     "처음부터 시작하죠."
+    ],
+    [
+     "The cat scratched me.",
+     "고양이가 저를 할퀴었어요."
+    ]
+   ],
+   "mcq": [
+    "I scratched my car on the wall.",
+    "I was scratched my car on the wall.",
+    "I scratched my car to the wall.",
+    "I scratch my car on the wall yesterday."
+   ],
+   "ans": 0,
+   "note": "scratch N. from scratch = 맨 처음부터. scratch the surface = 수박 겉핥기.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stroll",
+   "ko": "산책하다, 거닐다",
+   "ex": "We strolled along the river.",
+   "exko": "강가를 거닐었어요.",
+   "use": [
+    [
+     "Let's take a stroll.",
+     "산책 가요."
+    ],
+    [
+     "He strolled into the office late.",
+     "그는 느긋하게 사무실에 늦게 들어왔어요."
+    ]
+   ],
+   "mcq": [
+    "They stroll through the park yesterday.",
+    "They were strolled through the park.",
+    "They strolled through the park.",
+    "They strolled at through the park."
+   ],
+   "ans": 2,
+   "note": "stroll = 느긋하게 걷다. take a stroll = 산책하다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "hop",
+   "ko": "깡충 뛰다, 잠깐 타다",
+   "ex": "Hop in!",
+   "exko": "타세요!",
+   "use": [
+    [
+     "The rabbit hopped away.",
+     "토끼가 깡충 뛰어갔어요."
+    ],
+    [
+     "I'll hop on a call.",
+     "전화 잠깐 할게요."
+    ]
+   ],
+   "mcq": [
+    "Hop on the bus before it leaves.",
+    "Hop in the bus before it leaves.",
+    "Hop on to the bus before it leaves.",
+    "Hopping the bus before it leaves."
+   ],
+   "ans": 0,
+   "note": "hop in(차) / hop on(버스·자전거). 과거형 hopped.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "crouch",
+   "ko": "쭈그리다, 웅크리다",
+   "ex": "He crouched behind the car.",
+   "exko": "그는 차 뒤에 웅크렸어요.",
+   "use": [
+    [
+     "Crouch down.",
+     "몸을 낮추세요."
+    ],
+    [
+     "The cat crouched, ready to jump.",
+     "고양이가 뛸 준비로 웅크렸어요."
+    ]
+   ],
+   "mcq": [
+    "She crouched down to tie her shoe.",
+    "She crouched down to tying her shoe.",
+    "She crouch down to tie her shoe yesterday.",
+    "She was crouched down to tie her shoe."
+   ],
+   "ans": 0,
+   "note": "crouch (down). squat과 비슷하지만 숨거나 준비하는 느낌.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "kneel",
+   "ko": "무릎 꿇다",
+   "ex": "He knelt to propose.",
+   "exko": "그는 무릎 꿇고 청혼했어요.",
+   "use": [
+    [
+     "Kneel down.",
+     "무릎 꿇으세요."
+    ],
+    [
+     "She knelt beside the dog.",
+     "그녀는 개 옆에 무릎을 꿇었어요."
+    ]
+   ],
+   "mcq": [
+    "They kneel in front of the altar yesterday.",
+    "They knelt in front of the altar.",
+    "They kneeled in front the altar.",
+    "They were knelt in front of the altar."
+   ],
+   "ans": 1,
+   "note": "kneel-knelt-knelt. k는 묵음!",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "limp",
+   "ko": "절뚝거리다, 축 처진",
+   "ex": "He limped off the field.",
+   "exko": "그는 절뚝이며 경기장을 나갔어요.",
+   "use": [
+    [
+     "Why are you limping?",
+     "왜 절어요?"
+    ],
+    [
+     "A limp handshake",
+     "힘없는 악수"
+    ]
+   ],
+   "mcq": [
+    "She limped home after the fall.",
+    "She limp home after the fall yesterday.",
+    "She limped to home after the fall.",
+    "She was limped home after the fall."
+   ],
+   "ans": 0,
+   "note": "limp = 다리를 절다. 형용사 limp = 축 처진.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sprint",
+   "ko": "전력 질주하다",
+   "ex": "I sprinted to the bus.",
+   "exko": "버스까지 전력 질주했어요.",
+   "use": [
+    [
+     "It's a marathon, not a sprint.",
+     "단거리 아니라 장거리예요."
+    ],
+    [
+     "He sprinted past me.",
+     "그가 저를 쌩 지나쳐 달렸어요."
+    ]
+   ],
+   "mcq": [
+    "We sprinted to catching the train.",
+    "We were sprinted to catch the train.",
+    "We sprint to catch the train yesterday.",
+    "We sprinted to catch the train."
+   ],
+   "ans": 3,
+   "note": "sprint = 짧게 전력 질주. 명사로도 씀. 업무에서도 '스프린트'.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tiptoe",
+   "ko": "발끝으로 걷다",
+   "ex": "I tiptoed past the baby's room.",
+   "exko": "아기 방을 살금살금 지나갔어요.",
+   "use": [
+    [
+     "Don't tiptoe around the issue.",
+     "그 문제를 피해 가지 마세요."
+    ],
+    [
+     "She tiptoed into the kitchen.",
+     "그녀는 살금살금 부엌으로 갔어요."
+    ]
+   ],
+   "mcq": [
+    "He tiptoed out so he wouldn't waking her.",
+    "He tiptoe out so he wouldn't wake her yesterday.",
+    "He tiptoed out so he wouldn't wake her.",
+    "He was tiptoed out so he wouldn't wake her."
+   ],
+   "ans": 2,
+   "note": "tiptoe = 발끝으로 조심조심. tiptoe around = 눈치 보며 피하다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "wobble",
+   "ko": "흔들리다, 뒤뚱거리다",
+   "ex": "The table wobbles.",
+   "exko": "테이블이 흔들려요.",
+   "use": [
+    [
+     "My legs wobbled.",
+     "다리가 후들거렸어요."
+    ],
+    [
+     "The tower wobbled in the wind.",
+     "탑이 바람에 흔들렸어요."
+    ]
+   ],
+   "mcq": [
+    "The chair wobble when you sit on it.",
+    "The chair wobbles when you sit it.",
+    "The chair is wobbles when you sit on it.",
+    "The chair wobbles when you sit on it."
+   ],
+   "ans": 3,
+   "note": "wobble = 불안정하게 흔들리다. 형용사 wobbly.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "clap",
+   "ko": "박수 치다",
+   "ex": "Everyone clapped.",
+   "exko": "모두 박수를 쳤어요.",
+   "use": [
+    [
+     "Clap your hands.",
+     "손뼉 치세요."
+    ],
+    [
+     "She clapped him on the back.",
+     "그녀가 그의 등을 툭 쳤어요."
+    ]
+   ],
+   "mcq": [
+    "The crowd claped for the singer.",
+    "The crowd clap for the singer yesterday.",
+    "The crowd clapped to the singer.",
+    "The crowd clapped for the singer."
+   ],
+   "ans": 3,
+   "note": "clap (for 사람). 과거형 clapped. 명사 applause.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stomp",
+   "ko": "쿵쿵거리며 걷다, 발을 구르다",
+   "ex": "He stomped out of the room.",
+   "exko": "그는 쿵쿵거리며 방을 나갔어요.",
+   "use": [
+    [
+     "Don't stomp on the floor.",
+     "바닥 쿵쿵 밟지 마세요."
+    ],
+    [
+     "She stomped her foot.",
+     "그녀가 발을 쾅 굴렀어요."
+    ]
+   ],
+   "mcq": [
+    "The kids stomp up the stairs yesterday.",
+    "The kids stomped on up the stairs.",
+    "The kids were stomped up the stairs.",
+    "The kids stomped up the stairs."
+   ],
+   "ans": 3,
+   "note": "stomp = 화나서 쿵쿵. stomp on = 짓밟다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "pat",
+   "ko": "토닥이다",
+   "ex": "He patted my shoulder.",
+   "exko": "그가 제 어깨를 토닥였어요.",
+   "use": [
+    [
+     "Pat the dog gently.",
+     "강아지를 살살 쓰다듬으세요."
+    ],
+    [
+     "Give yourself a pat on the back.",
+     "스스로 칭찬해 주세요."
+    ]
+   ],
+   "mcq": [
+    "She pat the baby to sleep yesterday.",
+    "She patted to the baby to sleep.",
+    "She patted the baby to sleep.",
+    "She was patted the baby to sleep."
+   ],
+   "ans": 2,
+   "note": "pat = 가볍게 토닥. a pat on the back = 칭찬. 과거형 patted.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "nudge",
+   "ko": "팔꿈치로 슬쩍 밀다, 살짝 유도하다",
+   "ex": "She nudged me and winked.",
+   "exko": "그녀가 저를 슬쩍 찌르며 윙크했어요.",
+   "use": [
+    [
+     "I need a nudge to start.",
+     "시작하려면 살짝 밀어줄 게 필요해요."
+    ],
+    [
+     "Nudge the price up a little.",
+     "가격을 조금만 올리세요."
+    ]
+   ],
+   "mcq": [
+    "He nudge me to get my attention yesterday.",
+    "He nudged to me to get my attention.",
+    "He was nudged me to get my attention.",
+    "He nudged me to get my attention."
+   ],
+   "ans": 3,
+   "note": "nudge = 살짝 밀다/넌지시 유도하다. 명사로도 씀.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "giggle",
+   "ko": "키득키득 웃다",
+   "ex": "The kids giggled.",
+   "exko": "아이들이 키득거렸어요.",
+   "use": [
+    [
+     "Stop giggling!",
+     "그만 키득거려!"
+    ],
+    [
+     "She couldn't stop giggling.",
+     "그녀는 웃음을 멈출 수 없었어요."
+    ]
+   ],
+   "mcq": [
+    "They were giggled at the funny photo.",
+    "They giggled to the funny photo.",
+    "They giggled at the funny photo.",
+    "They giggle at the funny photo yesterday."
+   ],
+   "ans": 2,
+   "note": "giggle at N = 키득거리다 (주로 아이·소녀 느낌). chuckle보다 높은 소리.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "fetch",
+   "ko": "가져오다, (가서) 데려오다",
+   "ex": "Fetch me a glass of water.",
+   "exko": "물 한 잔만 갖다 줘요.",
+   "use": [
+    [
+     "The dog loves to play fetch.",
+     "개가 공 물어오기 놀이를 좋아해요."
+    ],
+    [
+     "I'll fetch the kids from school.",
+     "학교에서 애들 데려올게요."
+    ]
+   ],
+   "mcq": [
+    "Can you fetch my coat of the car?",
+    "Can you fetching my coat from the car?",
+    "Can you fetch to my coat from the car?",
+    "Can you fetch my coat from the car?"
+   ],
+   "ans": 3,
+   "note": "fetch = 가서 가져오다 (bring은 가지고 오다). play fetch = 물어오기 놀이.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "toss",
+   "ko": "가볍게 던지다, 버무리다",
+   "ex": "Toss me the keys.",
+   "exko": "열쇠 던져 줘요.",
+   "use": [
+    [
+     "Toss the salad.",
+     "샐러드를 버무리세요."
+    ],
+    [
+     "Let's toss a coin.",
+     "동전 던져서 정하자."
+    ]
+   ],
+   "mcq": [
+    "He tossed the paper to in the bin.",
+    "He was tossed the paper in the bin.",
+    "He toss the paper in the bin yesterday.",
+    "He tossed the paper in the bin."
+   ],
+   "ans": 3,
+   "note": "toss = 가볍게 휙 던지다. toss and turn = 뒤척이다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "peel",
+   "ko": "껍질을 벗기다, 껍질",
+   "ex": "Peel the potatoes.",
+   "exko": "감자 껍질을 벗기세요.",
+   "use": [
+    [
+     "My skin is peeling.",
+     "피부가 벗겨져요."
+    ],
+    [
+     "Banana peel",
+     "바나나 껍질"
+    ]
+   ],
+   "mcq": [
+    "Peel the orange before eat it.",
+    "Peel off the orange before eating it.",
+    "Peel the orange before eating it.",
+    "Peeling the orange before eating it please."
+   ],
+   "ans": 2,
+   "note": "peel N. peel off = 벗겨 내다. 명사 peel = 껍질.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "chew",
+   "ko": "씹다",
+   "ex": "Chew slowly.",
+   "exko": "천천히 씹으세요.",
+   "use": [
+    [
+     "Don't chew with your mouth open.",
+     "입 벌리고 씹지 마세요."
+    ],
+    [
+     "The dog chewed my shoe.",
+     "개가 제 신발을 물어뜯었어요."
+    ]
+   ],
+   "mcq": [
+    "Chew to your food well.",
+    "Chew your food well.",
+    "Chewing your food well please.",
+    "Chew up your food well on."
+   ],
+   "ans": 1,
+   "note": "chew N. chewing gum. chew on = 곰곰이 생각하다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "lick",
+   "ko": "핥다",
+   "ex": "The dog licked my hand.",
+   "exko": "개가 제 손을 핥았어요.",
+   "use": [
+    [
+     "Lick the spoon.",
+     "숟가락을 핥으세요."
+    ],
+    [
+     "He licked his lips.",
+     "그는 입술을 핥았어요."
+    ]
+   ],
+   "mcq": [
+    "The cat licked on its paws.",
+    "The cat licked its paws.",
+    "The cat lick its paws yesterday.",
+    "The cat was licked its paws."
+   ],
+   "ans": 1,
+   "note": "lick N. 과거형 licked.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "yawn",
+   "ko": "하품하다",
+   "ex": "Stop yawning!",
+   "exko": "하품 좀 그만해요!",
+   "use": [
+    [
+     "I yawned through the meeting.",
+     "회의 내내 하품했어요."
+    ],
+    [
+     "The movie was a yawn.",
+     "그 영화는 지루했어요."
+    ]
+   ],
+   "mcq": [
+    "She yawned and went to bed.",
+    "She yawned at and went to bed.",
+    "She was yawned and went to bed.",
+    "She yawn and went to bed yesterday."
+   ],
+   "ans": 0,
+   "note": "yawn = 하품. 명사로 '지루한 것'.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sneeze",
+   "ko": "재채기하다",
+   "ex": "Bless you! — Sorry, I sneezed.",
+   "exko": "(재채기 후) Bless you! — 미안, 재채기했어.",
+   "use": [
+    [
+     "I can't stop sneezing.",
+     "재채기가 멈추질 않아요."
+    ],
+    [
+     "Cover your mouth when you sneeze.",
+     "재채기할 때 입을 가리세요."
+    ]
+   ],
+   "mcq": [
+    "He sneezed three times in a row.",
+    "He was sneezed three times in a row.",
+    "He sneezed at three times in a row.",
+    "He sneeze three times in a row yesterday."
+   ],
+   "ans": 0,
+   "note": "sneeze = 재채기. 상대가 하면 Bless you!",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "wink",
+   "ko": "윙크하다",
+   "ex": "She winked at me.",
+   "exko": "그녀가 저한테 윙크했어요.",
+   "use": [
+    [
+     "I didn't sleep a wink.",
+     "한숨도 못 잤어요."
+    ],
+    [
+     "He gave me a wink.",
+     "그가 윙크했어요."
+    ]
+   ],
+   "mcq": [
+    "He wink at the camera yesterday.",
+    "He was winked at the camera.",
+    "He winked to the camera.",
+    "He winked at the camera."
+   ],
+   "ans": 3,
+   "note": "wink at 사람. not sleep a wink = 한숨도 못 자다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "blink",
+   "ko": "눈을 깜빡이다",
+   "ex": "Don't blink or you'll miss it.",
+   "exko": "눈 깜빡하면 놓쳐요.",
+   "use": [
+    [
+     "The light is blinking.",
+     "불빛이 깜빡여요."
+    ],
+    [
+     "It happened in the blink of an eye.",
+     "눈 깜짝할 새 일어났어요."
+    ]
+   ],
+   "mcq": [
+    "She blinked at in the bright light.",
+    "She was blinked in the bright light.",
+    "She blink in the bright light yesterday.",
+    "She blinked in the bright light."
+   ],
+   "ans": 3,
+   "note": "blink = 눈 깜빡 (wink는 한쪽 눈). in the blink of an eye = 순식간에.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tidy",
+   "ko": "정돈된, 정리하다",
+   "ex": "Keep your desk tidy.",
+   "exko": "책상을 정돈해 두세요.",
+   "use": [
+    [
+     "I need to tidy up.",
+     "정리해야 해요."
+    ],
+    [
+     "A tidy room",
+     "깔끔한 방"
+    ]
+   ],
+   "mcq": [
+    "Let's tidying up before the guests arrive.",
+    "Let's tidy up before the guests arriving.",
+    "Let's tidy before up the guests arrive.",
+    "Let's tidy up before the guests arrive."
+   ],
+   "ans": 3,
+   "note": "tidy(형) 깔끔한 / tidy up(동) 정리하다. 반대 messy.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "bump",
+   "ko": "부딪히다, 혹",
+   "ex": "I bumped into an old friend.",
+   "exko": "옛 친구와 우연히 마주쳤어요.",
+   "use": [
+    [
+     "I bumped my head.",
+     "머리를 부딪혔어요."
+    ],
+    [
+     "There's a bump on the road.",
+     "도로에 턱이 있어요."
+    ]
+   ],
+   "mcq": [
+    "I bumped into my boss at the mall.",
+    "I bump into my boss at the mall yesterday.",
+    "I bumped to my boss at the mall.",
+    "I bumped on my boss at the mall."
+   ],
+   "ans": 0,
+   "note": "bump into = 부딪히다/우연히 만나다. 명사 bump = 혹, 턱.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "hiccup",
+   "ko": "딸꾹질, 작은 문제",
+   "ex": "I have the hiccups.",
+   "exko": "딸꾹질이 나요.",
+   "use": [
+    [
+     "There was a small hiccup in the plan.",
+     "계획에 작은 차질이 있었어요."
+    ],
+    [
+     "How do I stop hiccups?",
+     "딸꾹질 어떻게 멈춰요?"
+    ]
+   ],
+   "mcq": [
+    "The launch had a few minor of hiccups.",
+    "The launch had few a minor hiccups.",
+    "The launch had a few minor hiccup.",
+    "The launch had a few minor hiccups."
+   ],
+   "ans": 3,
+   "note": "the hiccups = 딸꾹질. 비유로 '작은 차질'.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "snore",
+   "ko": "코를 골다",
+   "ex": "You snore!",
+   "exko": "코 골던데요!",
+   "use": [
+    [
+     "My dad snores loudly.",
+     "아빠가 코를 크게 골아요."
+    ],
+    [
+     "I couldn't sleep because of his snoring.",
+     "그가 코를 골아서 못 잤어요."
+    ]
+   ],
+   "mcq": [
+    "Does your husband snores?",
+    "Is your husband snore?",
+    "Does your husband snore?",
+    "Does your husband snoring?"
+   ],
+   "ans": 2,
+   "note": "snore = 코 골다. 명사 snoring.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "doze",
+   "ko": "졸다",
+   "ex": "I dozed off during the movie.",
+   "exko": "영화 보다 졸았어요.",
+   "use": [
+    [
+     "He was dozing on the couch.",
+     "그는 소파에서 꾸벅꾸벅 졸고 있었어요."
+    ],
+    [
+     "Don't doze off at your desk.",
+     "책상에서 졸지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I dozed off on the train.",
+    "I doze off on the train yesterday.",
+    "I dozed on off the train.",
+    "I was dozed off on the train."
+   ],
+   "ans": 0,
+   "note": "doze off = 깜빡 졸다 (nod off와 같음).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "nap",
+   "ko": "낮잠, 낮잠 자다",
+   "ex": "I took a nap.",
+   "exko": "낮잠을 잤어요.",
+   "use": [
+    [
+     "Power nap",
+     "짧은 낮잠"
+    ],
+    [
+     "The baby is napping.",
+     "아기가 낮잠 자요."
+    ]
+   ],
+   "mcq": [
+    "I usually taking a short nap after lunch.",
+    "I usually take a short nap after lunching.",
+    "I usually take a short nap after lunch.",
+    "I usually take short a nap after lunch."
+   ],
+   "ans": 2,
+   "note": "take a nap = 낮잠 자다. 동사로도 nap.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sip",
+   "ko": "홀짝이다, 한 모금",
+   "ex": "Take a sip.",
+   "exko": "한 모금 마셔 봐요.",
+   "use": [
+    [
+     "She sipped her coffee slowly.",
+     "그녀는 커피를 천천히 홀짝였어요."
+    ],
+    [
+     "Just a sip, please.",
+     "한 모금만요."
+    ]
+   ],
+   "mcq": [
+    "He sipped on the hot tea carefully.",
+    "He was sipped the hot tea carefully.",
+    "He sip the hot tea carefully yesterday.",
+    "He sipped the hot tea carefully."
+   ],
+   "ans": 3,
+   "note": "sip = 조금씩 마시다. 과거형 sipped. 반대 gulp.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "gulp",
+   "ko": "꿀꺽 삼키다",
+   "ex": "He gulped down the water.",
+   "exko": "그는 물을 벌컥벌컥 마셨어요.",
+   "use": [
+    [
+     "I gulped.",
+     "(긴장해서) 침을 꿀꺽 삼켰어요."
+    ],
+    [
+     "Don't gulp your food.",
+     "밥을 꿀꺽꿀꺽 삼키지 마세요."
+    ]
+   ],
+   "mcq": [
+    "She was gulped down her coffee and ran.",
+    "She gulp down her coffee and ran yesterday.",
+    "She gulped on her coffee and ran.",
+    "She gulped down her coffee and ran."
+   ],
+   "ans": 3,
+   "note": "gulp (down) = 벌컥 마시다. 명사 a gulp = 한 모금 크게.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "nibble",
+   "ko": "조금씩 먹다",
+   "ex": "She nibbled on a cookie.",
+   "exko": "그녀는 쿠키를 조금씩 먹었어요.",
+   "use": [
+    [
+     "I'm just nibbling.",
+     "그냥 조금씩 집어 먹고 있어요."
+    ],
+    [
+     "Mice nibbled the cheese.",
+     "쥐가 치즈를 갉아먹었어요."
+    ]
+   ],
+   "mcq": [
+    "He nibbled on some nuts while waiting.",
+    "He nibbled to some nuts while waiting.",
+    "He was nibbled on some nuts while waiting.",
+    "He nibble on some nuts while waiting yesterday."
+   ],
+   "ans": 0,
+   "note": "nibble on N = 조금씩 먹다. 명사 nibbles = 안주.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sniff",
+   "ko": "코를 킁킁거리다, 냄새 맡다",
+   "ex": "The dog sniffed the bag.",
+   "exko": "개가 가방 냄새를 맡았어요.",
+   "use": [
+    [
+     "Stop sniffing and blow your nose.",
+     "훌쩍이지 말고 코 푸세요."
+    ],
+    [
+     "She sniffed the milk.",
+     "그녀가 우유 냄새를 맡아 봤어요."
+    ]
+   ],
+   "mcq": [
+    "He was sniffed the flowers.",
+    "He sniffed to the flowers.",
+    "He sniffed the flowers.",
+    "He sniff the flowers yesterday."
+   ],
+   "ans": 2,
+   "note": "sniff N. sniff out = 냄새로 찾아내다/알아채다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "gargle",
+   "ko": "입을 헹구다 (가글하다)",
+   "ex": "Gargle with salt water.",
+   "exko": "소금물로 가글하세요.",
+   "use": [
+    [
+     "I gargle every morning.",
+     "매일 아침 가글해요."
+    ],
+    [
+     "Gargle, don't swallow.",
+     "삼키지 말고 가글하세요."
+    ]
+   ],
+   "mcq": [
+    "Gargle in warm water for a sore throat.",
+    "Gargle with warm water for a sore throat.",
+    "Gargle by warm water for a sore throat.",
+    "Gargling with warm water for a sore throat please."
+   ],
+   "ans": 1,
+   "note": "gargle with N. 한국어 '가글'은 여기서.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "mend",
+   "ko": "고치다, 수선하다",
+   "ex": "Can you mend this hole?",
+   "exko": "이 구멍 좀 기워 줄래요?",
+   "use": [
+    [
+     "It's time to mend fences.",
+     "관계를 회복할 때예요."
+    ],
+    [
+     "He's on the mend.",
+     "그는 회복 중이에요."
+    ]
+   ],
+   "mcq": [
+    "She was mended the torn shirt.",
+    "She mend the torn shirt yesterday.",
+    "She mended to the torn shirt.",
+    "She mended the torn shirt."
+   ],
+   "ans": 3,
+   "note": "mend = 옷·관계를 고치다. on the mend = 회복 중.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "scrub",
+   "ko": "문질러 닦다",
+   "ex": "Scrub the pan.",
+   "exko": "팬을 박박 닦으세요.",
+   "use": [
+    [
+     "I scrubbed the floor.",
+     "바닥을 문질러 닦았어요."
+    ],
+    [
+     "Scrub it off.",
+     "문질러서 지우세요."
+    ]
+   ],
+   "mcq": [
+    "He scrub the stain out of the carpet yesterday.",
+    "He scrubbed the stain out of the carpet.",
+    "He scrubbed the stain out the carpet.",
+    "He was scrubbed the stain out of the carpet."
+   ],
+   "ans": 1,
+   "note": "scrub = 세게 문질러 닦다. 과거형 scrubbed.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "rinse",
+   "ko": "헹구다",
+   "ex": "Rinse the rice.",
+   "exko": "쌀을 헹구세요.",
+   "use": [
+    [
+     "Rinse and repeat.",
+     "헹구고 반복하세요."
+    ],
+    [
+     "Rinse your mouth.",
+     "입을 헹구세요."
+    ]
+   ],
+   "mcq": [
+    "Rinse the cup with hot water.",
+    "Rinse to the cup with hot water.",
+    "Rinsing the cup with hot water please.",
+    "Rinse the cup by hot water."
+   ],
+   "ans": 0,
+   "note": "rinse N (with/in). 샴푸 설명서 단골 단어.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "soak",
+   "ko": "담그다, 흠뻑 적시다",
+   "ex": "Soak the beans overnight.",
+   "exko": "콩을 하룻밤 불리세요.",
+   "use": [
+    [
+     "I got soaked in the rain.",
+     "비에 흠뻑 젖었어요."
+    ],
+    [
+     "Let it soak.",
+     "담가 두세요."
+    ]
+   ],
+   "mcq": [
+    "Soak the shirt in cold water first.",
+    "Soak the shirt at cold water first.",
+    "Soak the shirt to cold water first.",
+    "Soaking the shirt in cold water first please."
+   ],
+   "ans": 0,
+   "note": "soak A in B. soaked = 흠뻑 젖은. soak up = 흡수하다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "dip",
+   "ko": "담그다, 살짝 담갔다 빼다, 소스",
+   "ex": "Dip the bread in the oil.",
+   "exko": "빵을 기름에 찍어 드세요.",
+   "use": [
+    [
+     "Let's take a dip.",
+     "잠깐 물에 들어가자."
+    ],
+    [
+     "Sales dipped in March.",
+     "3월에 매출이 살짝 떨어졌어요."
+    ]
+   ],
+   "mcq": [
+    "Dip the chips at the salsa.",
+    "Dipping the chips in the salsa please.",
+    "Dip the chips to the salsa.",
+    "Dip the chips in the salsa."
+   ],
+   "ans": 3,
+   "note": "dip A in B = 찍다. 명사 dip = 소스/잠깐 수영/소폭 하락.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "chop",
+   "ko": "썰다, 다지다",
+   "ex": "Chop the onions.",
+   "exko": "양파를 다지세요.",
+   "use": [
+    [
+     "He chopped the wood.",
+     "그가 장작을 팼어요."
+    ],
+    [
+     "Chopsticks",
+     "젓가락"
+    ]
+   ],
+   "mcq": [
+    "Chop the carrots at small pieces.",
+    "Chop the carrots to small pieces.",
+    "Chop the carrots into small pieces.",
+    "Chopping the carrots into small pieces please."
+   ],
+   "ans": 2,
+   "note": "chop N (into). 과거형 chopped. chop up = 잘게 썰다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "boil",
+   "ko": "끓이다, 끓다",
+   "ex": "Boil the water.",
+   "exko": "물을 끓이세요.",
+   "use": [
+    [
+     "The water is boiling.",
+     "물이 끓어요."
+    ],
+    [
+     "It boils down to money.",
+     "결국 돈 문제예요."
+    ]
+   ],
+   "mcq": [
+    "Boil the eggs for seven minutes.",
+    "Boil the eggs during seven minutes.",
+    "Boiling the eggs for seven minutes please.",
+    "Boil the eggs in seven minutes."
+   ],
+   "ans": 0,
+   "note": "boil N. boiled egg = 삶은 달걀. boil down to = 결국 ~로 요약되다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "roast",
+   "ko": "굽다, 로스트",
+   "ex": "Roast the chicken for an hour.",
+   "exko": "닭을 한 시간 구우세요.",
+   "use": [
+    [
+     "Roasted coffee beans",
+     "볶은 원두"
+    ],
+    [
+     "They roasted him at the party.",
+     "파티에서 그를 (농담으로) 놀렸어요."
+    ]
+   ],
+   "mcq": [
+    "Roasting the vegetables until golden please.",
+    "Roast the vegetables until golden.",
+    "Roast the vegetables until to golden.",
+    "Roast vegetables the until golden."
+   ],
+   "ans": 1,
+   "note": "roast = 오븐에 굽다/원두를 볶다. 구어로 '놀리다'.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "slip",
+   "ko": "미끄러지다, 살짝 빠져나가다",
+   "ex": "I slipped on the ice.",
+   "exko": "얼음에 미끄러졌어요.",
+   "use": [
+    [
+     "It slipped my mind.",
+     "깜빡했어요."
+    ],
+    [
+     "Let me slip out early.",
+     "살짝 먼저 나갈게요."
+    ]
+   ],
+   "mcq": [
+    "She slipped and fell in the wet floor.",
+    "She was slipped and fell on the wet floor.",
+    "She slip and fell on the wet floor yesterday.",
+    "She slipped and fell on the wet floor."
+   ],
+   "ans": 3,
+   "note": "slip = 미끄러지다. slip of the tongue = 말실수. 과거형 slipped.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "trip",
+   "ko": "걸려 넘어지다, 여행",
+   "ex": "I tripped over the cable.",
+   "exko": "케이블에 걸려 넘어졌어요.",
+   "use": [
+    [
+     "How was your trip?",
+     "여행 어땠어요?"
+    ],
+    [
+     "Don't trip!",
+     "넘어지지 마세요!"
+    ]
+   ],
+   "mcq": [
+    "He trip over his own feet yesterday.",
+    "He tripped over his own feet.",
+    "He was tripped over his own feet.",
+    "He tripped on over his own feet."
+   ],
+   "ans": 1,
+   "note": "trip over N = 걸려 넘어지다. 명사 trip = 여행.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stack",
+   "ko": "쌓다, 더미",
+   "ex": "Stack the boxes.",
+   "exko": "상자를 쌓으세요.",
+   "use": [
+    [
+     "A stack of papers",
+     "서류 더미"
+    ],
+    [
+     "The odds are stacked against us.",
+     "상황이 우리에게 불리해요."
+    ]
+   ],
+   "mcq": [
+    "Stack the plates in the cupboard.",
+    "Stack up the plates in the cupboard on.",
+    "Stack the plates to the cupboard.",
+    "Stacking the plates in the cupboard please."
+   ],
+   "ans": 0,
+   "note": "stack N. a stack of = 한 더미. stack up = 쌓이다/비교되다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "shove",
+   "ko": "밀치다",
+   "ex": "Don't shove!",
+   "exko": "밀지 마세요!",
+   "use": [
+    [
+     "He shoved me aside.",
+     "그가 저를 밀쳤어요."
+    ],
+    [
+     "Just shove it in the drawer.",
+     "그냥 서랍에 쑤셔 넣어요."
+    ]
+   ],
+   "mcq": [
+    "Someone shoved me on the subway.",
+    "Someone was shoved me on the subway.",
+    "Someone shove me on the subway yesterday.",
+    "Someone shoved to me on the subway."
+   ],
+   "ans": 0,
+   "note": "shove = 거칠게 밀다 (push보다 셈). push and shove.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tug",
+   "ko": "잡아당기다",
+   "ex": "The dog tugged at the leash.",
+   "exko": "개가 목줄을 당겼어요.",
+   "use": [
+    [
+     "Tug of war",
+     "줄다리기"
+    ],
+    [
+     "She tugged my sleeve.",
+     "그녀가 제 소매를 잡아당겼어요."
+    ]
+   ],
+   "mcq": [
+    "He tugged my arm at to get my attention.",
+    "He tugged at my arm to get my attention.",
+    "He tug at my arm to get my attention yesterday.",
+    "He was tugged at my arm to get my attention."
+   ],
+   "ans": 1,
+   "note": "tug (at) N = 확 잡아당기다. tug of war = 줄다리기.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "poke",
+   "ko": "쿡 찌르다",
+   "ex": "Stop poking me.",
+   "exko": "그만 찔러요.",
+   "use": [
+    [
+     "He poked his head in.",
+     "그가 고개를 쑥 내밀었어요."
+    ],
+    [
+     "Don't poke your nose into my business.",
+     "제 일에 참견 마세요."
+    ]
+   ],
+   "mcq": [
+    "She poked to me in the ribs.",
+    "She poked me in the ribs.",
+    "She was poked me in the ribs.",
+    "She poke me in the ribs yesterday."
+   ],
+   "ans": 1,
+   "note": "poke 사람 in 부위. poke fun at = 놀리다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tickle",
+   "ko": "간지럽히다",
+   "ex": "Stop tickling me!",
+   "exko": "간지럽히지 마!",
+   "use": [
+    [
+     "My nose tickles.",
+     "코가 간질간질해요."
+    ],
+    [
+     "That tickled me.",
+     "그거 웃겼어요(재밌었어요)."
+    ]
+   ],
+   "mcq": [
+    "The kids were tickled each other.",
+    "The kids tickled each other.",
+    "The kids tickled to each other.",
+    "The kids tickle each other yesterday."
+   ],
+   "ans": 1,
+   "note": "tickle 사람. ticklish = 간지럼 잘 타는.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "grate",
+   "ko": "강판에 갈다, 거슬리다",
+   "ex": "Grate the cheese.",
+   "exko": "치즈를 갈아 주세요.",
+   "use": [
+    [
+     "His voice grates on me.",
+     "그의 목소리가 거슬려요."
+    ],
+    [
+     "Grated carrot",
+     "채 썬 당근"
+    ]
+   ],
+   "mcq": [
+    "Grating some ginger into the soup please.",
+    "Grate some ginger at the soup.",
+    "Grate some ginger into the soup.",
+    "Grate some ginger to the soup."
+   ],
+   "ans": 2,
+   "note": "grate N = 강판에 갈다. grate on = 신경을 거슬리다. great과 발음 같음!",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "simmer",
+   "ko": "약하게 끓이다, 부글거리다",
+   "ex": "Let it simmer for 20 minutes.",
+   "exko": "20분간 약불에 끓이세요.",
+   "use": [
+    [
+     "Simmer down!",
+     "진정해!"
+    ],
+    [
+     "Tension was simmering.",
+     "긴장이 끓어오르고 있었어요."
+    ]
+   ],
+   "mcq": [
+    "Simmering the sauce on low heat please.",
+    "Simmer the sauce by low heat.",
+    "Simmer the sauce on low heat.",
+    "Simmer the sauce at on low heat."
+   ],
+   "ans": 2,
+   "note": "simmer = 약불에 뭉근히 끓이다. simmer down = 진정하다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sprinkle",
+   "ko": "뿌리다",
+   "ex": "Sprinkle some salt on top.",
+   "exko": "위에 소금을 조금 뿌리세요.",
+   "use": [
+    [
+     "It's sprinkling outside.",
+     "밖에 비가 부슬부슬 와요."
+    ],
+    [
+     "Sprinkles on ice cream",
+     "아이스크림 위 스프링클"
+    ]
+   ],
+   "mcq": [
+    "Sprinkle the cheese at the pasta.",
+    "Sprinkle the cheese over the pasta.",
+    "Sprinkle the cheese to the pasta.",
+    "Sprinkling the cheese over the pasta please."
+   ],
+   "ans": 1,
+   "note": "sprinkle A on/over B. 부슬비도 sprinkle.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "knead",
+   "ko": "반죽하다",
+   "ex": "Knead the dough for 10 minutes.",
+   "exko": "반죽을 10분간 치대세요.",
+   "use": [
+    [
+     "She kneaded my shoulders.",
+     "그녀가 제 어깨를 주물러 줬어요."
+    ],
+    [
+     "Knead until smooth.",
+     "매끈해질 때까지 반죽하세요."
+    ]
+   ],
+   "mcq": [
+    "Knead the dough until to elastic.",
+    "Kneading the dough until it's elastic please.",
+    "Knead the dough until it's elastic.",
+    "Knead the dough until it elastic."
+   ],
+   "ans": 2,
+   "note": "knead = 반죽을 치대다. k 묵음, need와 발음 같음.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "drizzle",
+   "ko": "(기름 등을) 뿌리다, 이슬비",
+   "ex": "Drizzle olive oil over the salad.",
+   "exko": "샐러드에 올리브유를 뿌리세요.",
+   "use": [
+    [
+     "It's drizzling.",
+     "이슬비가 와요."
+    ],
+    [
+     "A light drizzle",
+     "가벼운 이슬비"
+    ]
+   ],
+   "mcq": [
+    "Drizzle honey at the pancakes.",
+    "Drizzle honey on the pancakes.",
+    "Drizzle honey to the pancakes.",
+    "Drizzling honey on the pancakes please."
+   ],
+   "ans": 1,
+   "note": "drizzle A on/over B = 가늘게 뿌리다. 명사 drizzle = 이슬비.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "polite",
+   "ko": "예의 바른",
+   "ex": "Be polite to the guests.",
+   "exko": "손님에게 예의 바르게 하세요.",
+   "use": [
+    [
+     "It's not polite to interrupt.",
+     "끼어드는 건 예의가 아니에요."
+    ],
+    [
+     "A polite refusal",
+     "정중한 거절"
+    ]
+   ],
+   "mcq": [
+    "She was politely but firm.",
+    "She was polite but firm.",
+    "She was polite of but firm.",
+    "She was politeness but firm."
+   ],
+   "ans": 1,
+   "note": "polite to 사람. 명사 politeness, 부사 politely. 반대 rude.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "rude",
+   "ko": "무례한",
+   "ex": "Don't be rude.",
+   "exko": "무례하게 굴지 마세요.",
+   "use": [
+    [
+     "That was a rude comment.",
+     "무례한 말이었어요."
+    ],
+    [
+     "It's rude to point.",
+     "손가락질은 무례해요."
+    ]
+   ],
+   "mcq": [
+    "He was rudely to the waiter.",
+    "He was rude at the waiter.",
+    "He was rude to the waiter.",
+    "He was rude for the waiter."
+   ],
+   "ans": 2,
+   "note": "rude to 사람. 부사 rudely, 명사 rudeness.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "cheerful",
+   "ko": "명랑한, 쾌활한",
+   "ex": "She's always cheerful.",
+   "exko": "그녀는 항상 밝아요.",
+   "use": [
+    [
+     "A cheerful voice",
+     "밝은 목소리"
+    ],
+    [
+     "Stay cheerful!",
+     "밝게 지내요!"
+    ]
+   ],
+   "mcq": [
+    "He greeted us with a cheerfully smile.",
+    "He greeted us with a cheerful smile.",
+    "He greeted us with a cheerful of smile.",
+    "He greeted us with a cheer smile."
+   ],
+   "ans": 1,
+   "note": "cheerful = 늘 기분 좋은. 부사 cheerfully. cheer up = 기운 내다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "gloomy",
+   "ko": "우울한, 어두컴컴한",
+   "ex": "What a gloomy day.",
+   "exko": "날씨 참 우중충하네요.",
+   "use": [
+    [
+     "He looked gloomy.",
+     "그는 우울해 보였어요."
+    ],
+    [
+     "The outlook is gloomy.",
+     "전망이 어두워요."
+    ]
+   ],
+   "mcq": [
+    "The room was dark and gloomy of.",
+    "The room was dark and gloomily.",
+    "The room was dark and gloomy.",
+    "The room was dark and gloom."
+   ],
+   "ans": 2,
+   "note": "gloomy = 어둡고 우울한. 명사 gloom.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "grumpy",
+   "ko": "심술난, 투덜대는",
+   "ex": "He's grumpy in the morning.",
+   "exko": "그는 아침에 심술궂어요.",
+   "use": [
+    [
+     "Don't be so grumpy.",
+     "그렇게 투덜대지 마세요."
+    ],
+    [
+     "A grumpy old man",
+     "까칠한 할아버지"
+    ]
+   ],
+   "mcq": [
+    "I get grumpy when I'm hungry.",
+    "I get grumpily when I'm hungry.",
+    "I get grump when I'm hungry.",
+    "I get grumpy of when I'm hungry."
+   ],
+   "ans": 0,
+   "note": "grumpy = 괜히 짜증 난. 구어에서 자주. hangry = 배고파서 화난.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "clumsy",
+   "ko": "서투른, 덜렁대는",
+   "ex": "I'm so clumsy.",
+   "exko": "저는 덜렁이예요.",
+   "use": [
+    [
+     "A clumsy apology",
+     "어설픈 사과"
+    ],
+    [
+     "He's clumsy with tools.",
+     "그는 연장 다루는 게 서툴러요."
+    ]
+   ],
+   "mcq": [
+    "She's clumsy of and always drops things.",
+    "She's clumsily and always drops things.",
+    "She's clumsiness and always drops things.",
+    "She's clumsy and always drops things."
+   ],
+   "ans": 3,
+   "note": "clumsy = 손이 둔한/어설픈. 명사 clumsiness.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "greedy",
+   "ko": "탐욕스러운",
+   "ex": "Don't be greedy.",
+   "exko": "욕심부리지 마세요.",
+   "use": [
+    [
+     "A greedy landlord",
+     "탐욕스러운 집주인"
+    ],
+    [
+     "Greedy for power",
+     "권력에 굶주린"
+    ]
+   ],
+   "mcq": [
+    "He's greedy of money.",
+    "He's greedily for money.",
+    "He's greedy to money.",
+    "He's greedy for money."
+   ],
+   "ans": 3,
+   "note": "greedy for N. 명사 greed.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stingy",
+   "ko": "인색한, 쩨쩨한",
+   "ex": "He's stingy with money.",
+   "exko": "그는 돈에 인색해요.",
+   "use": [
+    [
+     "Don't be so stingy!",
+     "그렇게 쩨쩨하게 굴지 마!"
+    ],
+    [
+     "A stingy tip",
+     "짠 팁"
+    ]
+   ],
+   "mcq": [
+    "My uncle is stingy with tips.",
+    "My uncle is stingily with tips.",
+    "My uncle is stingy for tips.",
+    "My uncle is stingy to tips."
+   ],
+   "ans": 0,
+   "note": "stingy with N. 비슷한 말 cheap. 반대 generous.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "humble",
+   "ko": "겸손한, 소박한",
+   "ex": "Stay humble.",
+   "exko": "겸손하게 지내요.",
+   "use": [
+    [
+     "A humble beginning",
+     "소박한 시작"
+    ],
+    [
+     "In my humble opinion (IMHO)",
+     "제 소견으로는"
+    ]
+   ],
+   "mcq": [
+    "He remained humble after his success.",
+    "He remained humble of after his success.",
+    "He remained humbly after his success.",
+    "He remained humility after his success."
+   ],
+   "ans": 0,
+   "note": "humble = 겸손한/소박한. 명사 humility. 반대 arrogant.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "arrogant",
+   "ko": "거만한",
+   "ex": "He's arrogant.",
+   "exko": "그는 거만해요.",
+   "use": [
+    [
+     "An arrogant tone",
+     "거만한 말투"
+    ],
+    [
+     "Confident, not arrogant",
+     "자신감 있지만 거만하진 않게"
+    ]
+   ],
+   "mcq": [
+    "She came across as arrogance.",
+    "She came across as arrogant of.",
+    "She came across as arrogantly.",
+    "She came across as arrogant."
+   ],
+   "ans": 3,
+   "note": "arrogant = 자기가 남보다 낫다고 구는. 명사 arrogance.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "picky",
+   "ko": "까다로운",
+   "ex": "He's a picky eater.",
+   "exko": "그는 편식이 심해요.",
+   "use": [
+    [
+     "Don't be so picky.",
+     "너무 까다롭게 굴지 마세요."
+    ],
+    [
+     "I'm picky about coffee.",
+     "커피는 까다롭게 골라요."
+    ]
+   ],
+   "mcq": [
+    "She's picky about where she eats.",
+    "She's picky for where she eats.",
+    "She's pickily about where she eats.",
+    "She's picky of where she eats."
+   ],
+   "ans": 0,
+   "note": "picky about N. picky eater = 편식하는 사람. 구어체.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "fussy",
+   "ko": "까다로운, 야단스러운",
+   "ex": "The baby is fussy today.",
+   "exko": "아기가 오늘 보채요.",
+   "use": [
+    [
+     "I'm not fussy — anything is fine.",
+     "저는 안 가려요, 아무거나 괜찮아요."
+    ],
+    [
+     "A fussy design",
+     "너무 복잡한 디자인"
+    ]
+   ],
+   "mcq": [
+    "He's fussy for his clothes.",
+    "He's fussy about his clothes.",
+    "He's fussy of his clothes.",
+    "He's fussily about his clothes."
+   ],
+   "ans": 1,
+   "note": "fussy about N. picky와 비슷. 아기가 fussy = 보채는.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "bossy",
+   "ko": "대장 노릇 하는",
+   "ex": "Stop being so bossy.",
+   "exko": "그만 좀 시켜요.",
+   "use": [
+    [
+     "A bossy older sister",
+     "잔소리 심한 누나"
+    ],
+    [
+     "He's bossy at work.",
+     "그는 직장에서 지시가 많아요."
+    ]
+   ],
+   "mcq": [
+    "My brother is really bossy of.",
+    "My brother is really boss.",
+    "My brother is really bossy.",
+    "My brother is really bossily."
+   ],
+   "ans": 2,
+   "note": "bossy = 자꾸 지시하는. 명사 boss에서.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "outgoing",
+   "ko": "외향적인",
+   "ex": "She's very outgoing.",
+   "exko": "그녀는 아주 외향적이에요.",
+   "use": [
+    [
+     "An outgoing personality",
+     "사교적인 성격"
+    ],
+    [
+     "Outgoing calls",
+     "발신 통화"
+    ]
+   ],
+   "mcq": [
+    "He's outgoing of and makes friends easily.",
+    "He's outgoingly and makes friends easily.",
+    "He's outgoing and makes friends easily.",
+    "He's outgo and makes friends easily."
+   ],
+   "ans": 2,
+   "note": "outgoing = 사교적인. 반대 shy, reserved. outgoing mail = 발신.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "talkative",
+   "ko": "수다스러운",
+   "ex": "He's very talkative.",
+   "exko": "그는 말이 많아요.",
+   "use": [
+    [
+     "I'm not talkative in the morning.",
+     "아침엔 말이 별로 없어요."
+    ],
+    [
+     "A talkative taxi driver",
+     "말 많은 택시 기사"
+    ]
+   ],
+   "mcq": [
+    "She gets talkative of after coffee.",
+    "She gets talkativeness after coffee.",
+    "She gets talkatively after coffee.",
+    "She gets talkative after coffee."
+   ],
+   "ans": 3,
+   "note": "talkative = 말하기 좋아하는. chatty도 같은 뜻.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "moody",
+   "ko": "기분 변화가 심한",
+   "ex": "Teenagers can be moody.",
+   "exko": "십 대는 기분 변화가 심할 수 있어요.",
+   "use": [
+    [
+     "He's in a moody phase.",
+     "그는 요즘 기분이 오락가락해요."
+    ],
+    [
+     "Moody lighting",
+     "분위기 있는 조명"
+    ]
+   ],
+   "mcq": [
+    "She's been moodily all week.",
+    "She's been moody all week.",
+    "She's been moody of all week.",
+    "She's been mood all week."
+   ],
+   "ans": 1,
+   "note": "moody = 기분이 자주 바뀌는/시무룩한. 명사 mood.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "easygoing",
+   "ko": "느긋한, 태평한",
+   "ex": "My boss is easygoing.",
+   "exko": "제 상사는 느긋해요.",
+   "use": [
+    [
+     "An easygoing attitude",
+     "여유로운 태도"
+    ],
+    [
+     "I'm pretty easygoing.",
+     "저는 꽤 무던해요."
+    ]
+   ],
+   "mcq": [
+    "He's easygo and never gets upset.",
+    "He's easygoing of and never gets upset.",
+    "He's easygoing and never gets upset.",
+    "He's easygoingly and never gets upset."
+   ],
+   "ans": 2,
+   "note": "easygoing = 잘 안 흔들리는, 무던한. laid-back과 같음.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "cranky",
+   "ko": "짜증 난, 까다로운",
+   "ex": "The baby is cranky.",
+   "exko": "아기가 칭얼대요.",
+   "use": [
+    [
+     "I'm cranky without sleep.",
+     "잠을 못 자면 짜증이 나요."
+    ],
+    [
+     "A cranky customer",
+     "까다로운 손님"
+    ]
+   ],
+   "mcq": [
+    "Kids get crank when they're tired.",
+    "Kids get cranky when they're tired.",
+    "Kids get crankily when they're tired.",
+    "Kids get cranky of when they're tired."
+   ],
+   "ans": 1,
+   "note": "cranky = 피곤해서 짜증 난 (주로 아이). grumpy와 비슷.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "witty",
+   "ko": "재치 있는",
+   "ex": "She's witty.",
+   "exko": "그녀는 재치 있어요.",
+   "use": [
+    [
+     "A witty remark",
+     "재치 있는 말"
+    ],
+    [
+     "Witty banter",
+     "재치 있는 농담 주고받기"
+    ]
+   ],
+   "mcq": [
+    "His speech was short and wit.",
+    "His speech was short and witty.",
+    "His speech was short and witty of.",
+    "His speech was short and wittily."
+   ],
+   "ans": 1,
+   "note": "witty = 말을 재치 있게 하는. 명사 wit.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sassy",
+   "ko": "건방진, 당찬",
+   "ex": "Don't get sassy with me.",
+   "exko": "나한테 건방지게 굴지 마.",
+   "use": [
+    [
+     "A sassy reply",
+     "당돌한 대답"
+    ],
+    [
+     "She's sassy and fun.",
+     "그녀는 당차고 재밌어요."
+    ]
+   ],
+   "mcq": [
+    "The kid gave a sass answer.",
+    "The kid gave a sassily answer.",
+    "The kid gave a sassy answer.",
+    "The kid gave a sassy of answer."
+   ],
+   "ans": 2,
+   "note": "sassy = 건방지지만 당찬(긍정·부정 둘 다). 미국 구어.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "cozy",
+   "ko": "아늑한",
+   "ex": "What a cozy café.",
+   "exko": "참 아늑한 카페네요.",
+   "use": [
+    [
+     "A cozy blanket",
+     "포근한 담요"
+    ],
+    [
+     "Let's stay in and get cozy.",
+     "집에서 포근하게 있자."
+    ]
+   ],
+   "mcq": [
+    "The room is small but cozy of.",
+    "The room is small but cozily.",
+    "The room is small but cozy.",
+    "The room is small but coziness."
+   ],
+   "ans": 2,
+   "note": "cozy = 작고 따뜻하고 편안한. 영국식 cosy.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "messy",
+   "ko": "지저분한, 엉망인",
+   "ex": "My room is messy.",
+   "exko": "제 방이 지저분해요.",
+   "use": [
+    [
+     "It's a messy situation.",
+     "복잡하고 골치 아픈 상황이에요."
+    ],
+    [
+     "Messy hair",
+     "헝클어진 머리"
+    ]
+   ],
+   "mcq": [
+    "Sorry, the kitchen is a bit messy of.",
+    "Sorry, the kitchen is a bit messily.",
+    "Sorry, the kitchen is a bit messy.",
+    "Sorry, the kitchen is a bit mess."
+   ],
+   "ans": 2,
+   "note": "messy = 어질러진. 명사 mess (What a mess!). 반대 tidy.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "spacious",
+   "ko": "넓은",
+   "ex": "The apartment is spacious.",
+   "exko": "아파트가 넓어요.",
+   "use": [
+    [
+     "A spacious trunk",
+     "넓은 트렁크"
+    ],
+    [
+     "Spacious and bright",
+     "넓고 밝은"
+    ]
+   ],
+   "mcq": [
+    "We need a more space office.",
+    "We need a more spaciously office.",
+    "We need a more spacious of office.",
+    "We need a more spacious office."
+   ],
+   "ans": 3,
+   "note": "spacious = 공간이 넉넉한. 명사 space. 반대 cramped.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "crowded",
+   "ko": "붐비는",
+   "ex": "The subway was crowded.",
+   "exko": "지하철이 붐볐어요.",
+   "use": [
+    [
+     "A crowded market",
+     "북적이는 시장"
+    ],
+    [
+     "It gets crowded on weekends.",
+     "주말엔 붐벼요."
+    ]
+   ],
+   "mcq": [
+    "The café was too crowded of to sit.",
+    "The café was too crowd to sit.",
+    "The café was too crowded to sit.",
+    "The café was too crowdedly to sit."
+   ],
+   "ans": 2,
+   "note": "crowded = 사람이 많은. 명사 crowd. packed도 같은 뜻.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "hideous",
+   "ko": "흉측한, 끔찍한",
+   "ex": "That color is hideous.",
+   "exko": "그 색 정말 끔찍해요.",
+   "use": [
+    [
+     "A hideous mistake",
+     "끔찍한 실수"
+    ],
+    [
+     "Hideous traffic",
+     "지독한 교통 체증"
+    ]
+   ],
+   "mcq": [
+    "The new building is hideousness.",
+    "The new building is hideous of.",
+    "The new building is hideously.",
+    "The new building is hideous."
+   ],
+   "ans": 3,
+   "note": "hideous = 보기 흉한 (ugly보다 강함).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "pricey",
+   "ko": "비싼 (구어)",
+   "ex": "That restaurant is pricey.",
+   "exko": "그 식당 비싸요.",
+   "use": [
+    [
+     "A bit pricey, but worth it.",
+     "좀 비싸지만 그만한 값을 해요."
+    ],
+    [
+     "Pricey wine",
+     "비싼 와인"
+    ]
+   ],
+   "mcq": [
+    "The hotel was nice but pricily.",
+    "The hotel was nice but pricey of.",
+    "The hotel was nice but pricey.",
+    "The hotel was nice but price."
+   ],
+   "ans": 2,
+   "note": "pricey = expensive의 구어. 철자 pricy도 OK.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "shabby",
+   "ko": "낡은, 허름한",
+   "ex": "A shabby coat",
+   "exko": "허름한 코트",
+   "use": [
+    [
+     "The hotel looked shabby.",
+     "호텔이 낡아 보였어요."
+    ],
+    [
+     "Not too shabby!",
+     "꽤 괜찮은데!"
+    ]
+   ],
+   "mcq": [
+    "He wore a shabbiness old jacket.",
+    "He wore a shabby old jacket.",
+    "He wore a shabbily old jacket.",
+    "He wore a shabby of old jacket."
+   ],
+   "ans": 1,
+   "note": "shabby = 낡고 초라한. Not too shabby = 꽤 괜찮네(구어).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sleek",
+   "ko": "매끈한, 세련된",
+   "ex": "A sleek design",
+   "exko": "세련된 디자인",
+   "use": [
+    [
+     "Sleek black hair",
+     "윤기 나는 검은 머리"
+    ],
+    [
+     "The new phone looks sleek.",
+     "새 폰이 세련돼 보여요."
+    ]
+   ],
+   "mcq": [
+    "The car has a sleek of, modern look.",
+    "The car has a sleek, modern look.",
+    "The car has a sleekness, modern look.",
+    "The car has a sleekly, modern look."
+   ],
+   "ans": 1,
+   "note": "sleek = 매끈하고 세련된 (디자인·머릿결).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "chilly",
+   "ko": "쌀쌀한",
+   "ex": "It's chilly today.",
+   "exko": "오늘 쌀쌀하네요.",
+   "use": [
+    [
+     "A chilly reception",
+     "차가운 반응"
+    ],
+    [
+     "Bring a jacket, it gets chilly.",
+     "재킷 챙겨요, 쌀쌀해져요."
+    ]
+   ],
+   "mcq": [
+    "The mornings are getting chilly of.",
+    "The mornings are getting chill.",
+    "The mornings are getting chillily.",
+    "The mornings are getting chilly."
+   ],
+   "ans": 3,
+   "note": "chilly = 살짝 추운 (cold보다 약함). 명사 chill.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "humid",
+   "ko": "습한",
+   "ex": "Korean summers are humid.",
+   "exko": "한국 여름은 습해요.",
+   "use": [
+    [
+     "Hot and humid",
+     "덥고 습한"
+    ],
+    [
+     "It's too humid to sleep.",
+     "너무 습해서 잠이 안 와요."
+    ]
+   ],
+   "mcq": [
+    "The weather is hot and humidity in August.",
+    "The weather is hot and humid of in August.",
+    "The weather is hot and humid in August.",
+    "The weather is hot and humidly in August."
+   ],
+   "ans": 2,
+   "note": "humid(형) / humidity(명) = 습도.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "muggy",
+   "ko": "후텁지근한",
+   "ex": "It's so muggy today.",
+   "exko": "오늘 너무 후텁지근해요.",
+   "use": [
+    [
+     "A muggy afternoon",
+     "후덥지근한 오후"
+    ],
+    [
+     "Muggy and sticky",
+     "꿉꿉하고 끈적한"
+    ]
+   ],
+   "mcq": [
+    "It was mug, so we stayed inside.",
+    "It was muggy of, so we stayed inside.",
+    "It was muggily, so we stayed inside.",
+    "It was muggy, so we stayed inside."
+   ],
+   "ans": 3,
+   "note": "muggy = 덥고 습해서 불쾌한. humid보다 더 구어.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "breezy",
+   "ko": "산들바람이 부는, 가벼운",
+   "ex": "A breezy afternoon",
+   "exko": "산들바람 부는 오후",
+   "use": [
+    [
+     "A breezy conversation",
+     "가벼운 대화"
+    ],
+    [
+     "It's warm and breezy.",
+     "따뜻하고 바람이 살랑여요."
+    ]
+   ],
+   "mcq": [
+    "The beach was sunny and breeze.",
+    "The beach was sunny and breezily.",
+    "The beach was sunny and breezy.",
+    "The beach was sunny and breezy of."
+   ],
+   "ans": 2,
+   "note": "breezy = 바람이 기분 좋게 부는. 명사 breeze.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "damp",
+   "ko": "축축한",
+   "ex": "The towel is still damp.",
+   "exko": "수건이 아직 축축해요.",
+   "use": [
+    [
+     "A damp basement",
+     "눅눅한 지하실"
+    ],
+    [
+     "Damp weather",
+     "습한 날씨"
+    ]
+   ],
+   "mcq": [
+    "The clothes are still damp.",
+    "The clothes are still damply.",
+    "The clothes are still damp of.",
+    "The clothes are still dampness."
+   ],
+   "ans": 0,
+   "note": "damp = 살짝 젖은 (wet보다 약함). 명사 dampness.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stuffy",
+   "ko": "답답한, 환기 안 된",
+   "ex": "It's stuffy in here.",
+   "exko": "여기 답답하네요.",
+   "use": [
+    [
+     "Open a window, it's stuffy.",
+     "창문 열어요, 답답해요."
+    ],
+    [
+     "A stuffy nose",
+     "코막힘"
+    ]
+   ],
+   "mcq": [
+    "The meeting room was hot and stuffy.",
+    "The meeting room was hot and stuff.",
+    "The meeting room was hot and stuffily.",
+    "The meeting room was hot and stuffy of."
+   ],
+   "ans": 0,
+   "note": "stuffy = 공기가 탁한/코가 막힌. stuffy nose = 코막힘.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "cramped",
+   "ko": "비좁은",
+   "ex": "The seats were cramped.",
+   "exko": "좌석이 비좁았어요.",
+   "use": [
+    [
+     "A cramped apartment",
+     "비좁은 아파트"
+    ],
+    [
+     "My legs are cramped.",
+     "다리가 저려요(쥐가 나요)."
+    ]
+   ],
+   "mcq": [
+    "We worked in a cramped of office.",
+    "We worked in a cramp office.",
+    "We worked in a cramped office.",
+    "We worked in a crampedly office."
+   ],
+   "ans": 2,
+   "note": "cramped = 좁아서 답답한. 명사 cramp = 쥐(경련).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "drafty",
+   "ko": "외풍이 있는",
+   "ex": "This room is drafty.",
+   "exko": "이 방은 외풍이 있어요.",
+   "use": [
+    [
+     "A drafty old house",
+     "외풍 심한 오래된 집"
+    ],
+    [
+     "It's drafty near the window.",
+     "창가는 바람이 들어와요."
+    ]
+   ],
+   "mcq": [
+    "The cabin was cold and drafty of.",
+    "The cabin was cold and draft.",
+    "The cabin was cold and drafty.",
+    "The cabin was cold and draftily."
+   ],
+   "ans": 2,
+   "note": "drafty = 찬바람이 새어 드는. 명사 draft = 외풍/초안.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "roomy",
+   "ko": "널찍한",
+   "ex": "The car is roomy.",
+   "exko": "차가 널찍해요.",
+   "use": [
+    [
+     "A roomy bag",
+     "넉넉한 가방"
+    ],
+    [
+     "Roomy enough for four",
+     "네 명이 넉넉히 들어갈 만큼"
+    ]
+   ],
+   "mcq": [
+    "The back seat is surprisingly roomily.",
+    "The back seat is surprisingly roomy.",
+    "The back seat is surprisingly room.",
+    "The back seat is surprisingly roomy of."
+   ],
+   "ans": 1,
+   "note": "roomy = 여유 공간이 많은 (spacious의 구어).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "rustic",
+   "ko": "시골풍의, 소박한",
+   "ex": "A rustic cabin",
+   "exko": "소박한 통나무집",
+   "use": [
+    [
+     "Rustic bread",
+     "투박한 빵"
+    ],
+    [
+     "The restaurant has a rustic charm.",
+     "그 식당은 소박한 매력이 있어요."
+    ]
+   ],
+   "mcq": [
+    "We stayed in a rustically farmhouse.",
+    "We stayed in a rustic of farmhouse.",
+    "We stayed in rustic a farmhouse.",
+    "We stayed in a rustic farmhouse."
+   ],
+   "ans": 3,
+   "note": "rustic = 시골스럽고 투박한(긍정). 인테리어·음식에 자주.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tacky",
+   "ko": "싸구려 같은, 촌스러운",
+   "ex": "That outfit is tacky.",
+   "exko": "그 옷 촌스러워요.",
+   "use": [
+    [
+     "A tacky souvenir",
+     "싸구려 기념품"
+    ],
+    [
+     "It's a bit tacky.",
+     "좀 유치해요."
+    ]
+   ],
+   "mcq": [
+    "The decorations looked cheap and tackily.",
+    "The decorations looked cheap and tacky.",
+    "The decorations looked cheap and tack.",
+    "The decorations looked cheap and tacky of."
+   ],
+   "ans": 1,
+   "note": "tacky = 싸 보이고 촌스러운. 비슷한 말 cheesy.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "dingy",
+   "ko": "칙칙한, 우중충한",
+   "ex": "A dingy motel room",
+   "exko": "칙칙한 모텔 방",
+   "use": [
+    [
+     "The walls were dingy.",
+     "벽이 우중충했어요."
+    ],
+    [
+     "A dingy alley",
+     "음침한 골목"
+    ]
+   ],
+   "mcq": [
+    "The office was small and dingily.",
+    "The office was small and dingy.",
+    "The office was small and dinge.",
+    "The office was small and dingy of."
+   ],
+   "ans": 1,
+   "note": "dingy = 어둡고 지저분한 느낌. 발음 [ˈdɪndʒi].",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "brag",
+   "ko": "자랑하다, 떠벌리다",
+   "ex": "He loves to brag.",
+   "exko": "그는 자랑하길 좋아해요.",
+   "use": [
+    [
+     "Not to brag, but I won.",
+     "자랑은 아니지만 제가 이겼어요."
+    ],
+    [
+     "She bragged about her new car.",
+     "그녀는 새 차를 자랑했어요."
+    ]
+   ],
+   "mcq": [
+    "He's always bragging his salary.",
+    "He's always brag about his salary.",
+    "He's always bragging of his salary.",
+    "He's always bragging about his salary."
+   ],
+   "ans": 3,
+   "note": "brag about N. 과거형 bragged. 명사 bragging rights = 자랑할 권리.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "boast",
+   "ko": "뽐내다, 자랑하다",
+   "ex": "Don't boast.",
+   "exko": "잘난 척하지 마세요.",
+   "use": [
+    [
+     "The hotel boasts a rooftop pool.",
+     "그 호텔은 옥상 수영장을 자랑해요."
+    ],
+    [
+     "He boasted that he could win.",
+     "그는 이길 수 있다고 큰소리쳤어요."
+    ]
+   ],
+   "mcq": [
+    "She boasted her promotion to.",
+    "She boast about her promotion yesterday.",
+    "She boasted for her promotion.",
+    "She boasted about her promotion."
+   ],
+   "ans": 3,
+   "note": "boast about/of N. 장소·물건이 boast = ~를 갖추고 있다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "gossip",
+   "ko": "험담하다, 소문",
+   "ex": "Don't gossip about her.",
+   "exko": "그녀 뒷담화하지 마세요.",
+   "use": [
+    [
+     "Office gossip",
+     "사내 소문"
+    ],
+    [
+     "They love to gossip.",
+     "그들은 수다(뒷말)를 좋아해요."
+    ]
+   ],
+   "mcq": [
+    "People gossips about celebrities.",
+    "People gossip of celebrities.",
+    "People gossip for celebrities.",
+    "People gossip about celebrities."
+   ],
+   "ans": 3,
+   "note": "gossip about 사람. 명사·동사 동일.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "flatter",
+   "ko": "아첨하다, 돋보이게 하다",
+   "ex": "Don't flatter me.",
+   "exko": "비행기 태우지 마세요.",
+   "use": [
+    [
+     "That dress flatters you.",
+     "그 드레스가 잘 받네요."
+    ],
+    [
+     "I'm flattered.",
+     "과찬이세요(기분 좋네요)."
+    ]
+   ],
+   "mcq": [
+    "He flatter the boss to get a raise yesterday.",
+    "He flattered the boss to get a raise.",
+    "He flattered to the boss to get a raise.",
+    "He was flattered the boss to get a raise."
+   ],
+   "ans": 1,
+   "note": "flatter 사람. I'm flattered = 칭찬에 기분 좋다. 명사 flattery.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "tease",
+   "ko": "놀리다",
+   "ex": "Stop teasing your brother.",
+   "exko": "동생 그만 놀려요.",
+   "use": [
+    [
+     "I'm just teasing.",
+     "그냥 장난이에요."
+    ],
+    [
+     "Kids teased him about his glasses.",
+     "아이들이 안경 때문에 그를 놀렸어요."
+    ]
+   ],
+   "mcq": [
+    "They teased to her about her accent.",
+    "They teased her about her accent.",
+    "They teased her for her accent.",
+    "They tease her about her accent yesterday."
+   ],
+   "ans": 1,
+   "note": "tease 사람 about N. 가볍게 놀리기 (mock은 더 심함).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "mock",
+   "ko": "조롱하다, 모의의",
+   "ex": "Don't mock him.",
+   "exko": "그를 조롱하지 마세요.",
+   "use": [
+    [
+     "A mock interview",
+     "모의 면접"
+    ],
+    [
+     "They mocked my idea.",
+     "그들이 제 아이디어를 비웃었어요."
+    ]
+   ],
+   "mcq": [
+    "She mocked at his accent in front of everyone.",
+    "She mocked his accent in front of everyone.",
+    "She mock his accent in front of everyone yesterday.",
+    "She was mocked his accent in front of everyone."
+   ],
+   "ans": 1,
+   "note": "mock N = 비웃다. 형용사 mock = 모의의(mock exam).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "nag",
+   "ko": "잔소리하다",
+   "ex": "Stop nagging me!",
+   "exko": "잔소리 좀 그만해요!",
+   "use": [
+    [
+     "My mom nags me about cleaning.",
+     "엄마가 청소하라고 잔소리해요."
+    ],
+    [
+     "A nagging doubt",
+     "떨쳐지지 않는 의심"
+    ]
+   ],
+   "mcq": [
+    "She nagged to him to see a doctor.",
+    "She nag him to see a doctor yesterday.",
+    "She nagged him see a doctor.",
+    "She nagged him to see a doctor."
+   ],
+   "ans": 3,
+   "note": "nag 사람 to V / about N. 과거형 nagged.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "scold",
+   "ko": "꾸짖다",
+   "ex": "The teacher scolded him.",
+   "exko": "선생님이 그를 꾸짖었어요.",
+   "use": [
+    [
+     "Don't scold the kids too harshly.",
+     "아이들을 너무 심하게 혼내지 마세요."
+    ],
+    [
+     "I got scolded.",
+     "혼났어요."
+    ]
+   ],
+   "mcq": [
+    "She scolded to me for being late.",
+    "She scolded me of being late.",
+    "She scolded me for being late.",
+    "She scold me for being late yesterday."
+   ],
+   "ans": 2,
+   "note": "scold 사람 for N. 구어로는 tell off.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "compliment",
+   "ko": "칭찬, 칭찬하다",
+   "ex": "Thanks for the compliment.",
+   "exko": "칭찬 고마워요.",
+   "use": [
+    [
+     "He complimented my cooking.",
+     "그가 제 요리를 칭찬했어요."
+    ],
+    [
+     "Take it as a compliment.",
+     "칭찬으로 들어요."
+    ]
+   ],
+   "mcq": [
+    "She complimented to me on my presentation.",
+    "She complimented me on my presentation.",
+    "She complimented me for my presentation.",
+    "She compliment me on my presentation yesterday."
+   ],
+   "ans": 1,
+   "note": "compliment 사람 on N. complement(보완하다)와 철자 구별!",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "forgive",
+   "ko": "용서하다",
+   "ex": "Please forgive me.",
+   "exko": "용서해 주세요.",
+   "use": [
+    [
+     "I'll never forgive him.",
+     "그를 절대 용서 안 할 거예요."
+    ],
+    [
+     "Forgive and forget.",
+     "용서하고 잊어라."
+    ]
+   ],
+   "mcq": [
+    "She forgave to him for lying.",
+    "She forgave him of lying.",
+    "She forgave him for lying.",
+    "She forgived him for lying."
+   ],
+   "ans": 2,
+   "note": "forgive 사람 for N. forgive-forgave-forgiven. 명사 forgiveness.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "grudge",
+   "ko": "원한, 앙심",
+   "ex": "He holds a grudge.",
+   "exko": "그는 앙심을 품고 있어요.",
+   "use": [
+    [
+     "I don't hold grudges.",
+     "저는 뒤끝 없어요."
+    ],
+    [
+     "An old grudge",
+     "오래된 원한"
+    ]
+   ],
+   "mcq": [
+    "She still holds a grudge against me.",
+    "She still holds a grudge to me.",
+    "She still holds a grudge for me.",
+    "She still holds grudge against me."
+   ],
+   "ans": 0,
+   "note": "hold a grudge against 사람 = 앙심을 품다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "sulk",
+   "ko": "뾰로통하다, 토라지다",
+   "ex": "Stop sulking.",
+   "exko": "그만 토라져요.",
+   "use": [
+    [
+     "He sulked all day.",
+     "그는 하루 종일 뾰로통했어요."
+    ],
+    [
+     "She's in a sulk.",
+     "그녀는 삐쳐 있어요."
+    ]
+   ],
+   "mcq": [
+    "He sulk after losing the game yesterday.",
+    "He sulked at after losing the game.",
+    "He sulked after losing the game.",
+    "He was sulked after losing the game."
+   ],
+   "ans": 2,
+   "note": "sulk = 말 안 하고 삐치다. 형용사 sulky.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "pout",
+   "ko": "입을 삐죽 내밀다",
+   "ex": "Don't pout.",
+   "exko": "입 내밀지 마세요.",
+   "use": [
+    [
+     "She pouted when I said no.",
+     "제가 안 된다니까 그녀가 입을 삐죽였어요."
+    ],
+    [
+     "A pouty face",
+     "삐친 얼굴"
+    ]
+   ],
+   "mcq": [
+    "The little girl was pouted and crossed her arms.",
+    "The little girl pouted and crossed her arms.",
+    "The little girl pouted at and crossed her arms.",
+    "The little girl pout and crossed her arms yesterday."
+   ],
+   "ans": 1,
+   "note": "pout = 삐쳐서 입 내밀기. 셀카 포즈로도.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "bicker",
+   "ko": "사소한 일로 다투다",
+   "ex": "Stop bickering!",
+   "exko": "그만 티격태격해요!",
+   "use": [
+    [
+     "They bicker like kids.",
+     "그들은 애들처럼 티격태격해요."
+    ],
+    [
+     "We bickered over the remote.",
+     "리모컨 때문에 다퉜어요."
+    ]
+   ],
+   "mcq": [
+    "The couple bickered about money.",
+    "The couple bickered for money.",
+    "The couple were bickered about money.",
+    "The couple bicker about money yesterday."
+   ],
+   "ans": 0,
+   "note": "bicker about/over N = 사소한 걸로 말다툼.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "confide",
+   "ko": "(비밀을) 털어놓다",
+   "ex": "She confided in me.",
+   "exko": "그녀가 제게 속마음을 털어놨어요.",
+   "use": [
+    [
+     "He confided his fears to her.",
+     "그는 두려움을 그녀에게 털어놓았어요."
+    ],
+    [
+     "I have no one to confide in.",
+     "털어놓을 사람이 없어요."
+    ]
+   ],
+   "mcq": [
+    "He confided to his best friend.",
+    "He confided in his best friend.",
+    "He confided with his best friend.",
+    "He confided his best friend."
+   ],
+   "ans": 1,
+   "note": "confide in 사람 = 믿고 털어놓다. 형용사 confidential.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "vent",
+   "ko": "(감정을) 쏟아 내다, 통풍구",
+   "ex": "I just need to vent.",
+   "exko": "그냥 푸념 좀 하고 싶어요.",
+   "use": [
+    [
+     "Don't vent your anger on me.",
+     "저한테 화풀이하지 마세요."
+    ],
+    [
+     "Air vent",
+     "환기구"
+    ]
+   ],
+   "mcq": [
+    "She was vented her frustration to a friend.",
+    "She vented her frustration to a friend.",
+    "She vent her frustration to a friend yesterday.",
+    "She vented her frustration for a friend."
+   ],
+   "ans": 1,
+   "note": "vent (감정) to 사람 = 쏟아 내다. 명사 vent = 통풍구.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "rant",
+   "ko": "장광설을 늘어놓다, 열변",
+   "ex": "He went on a rant about traffic.",
+   "exko": "그가 교통 얘기로 열을 올렸어요.",
+   "use": [
+    [
+     "Sorry for the rant.",
+     "푸념 길어서 미안해요."
+    ],
+    [
+     "Rant and rave",
+     "길길이 날뛰다"
+    ]
+   ],
+   "mcq": [
+    "She ranted for the bad service.",
+    "She rant about the bad service yesterday.",
+    "She ranted about the bad service.",
+    "She was ranted about the bad service."
+   ],
+   "ans": 2,
+   "note": "rant about N = 흥분해서 길게 불평. SNS에서 자주.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "snub",
+   "ko": "무시하다, 냉대하다",
+   "ex": "She snubbed me at the party.",
+   "exko": "파티에서 그녀가 저를 무시했어요.",
+   "use": [
+    [
+     "He felt snubbed.",
+     "그는 무시당한 기분이었어요."
+    ],
+    [
+     "A snub",
+     "냉대"
+    ]
+   ],
+   "mcq": [
+    "They snubbed to him by not inviting him.",
+    "They were snubbed him by not inviting him.",
+    "They snubbed him by not inviting him.",
+    "They snub him by not inviting him yesterday."
+   ],
+   "ans": 2,
+   "note": "snub 사람 = 일부러 무시하다. 과거형 snubbed.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "bluff",
+   "ko": "허세 부리다, 허풍",
+   "ex": "He's bluffing.",
+   "exko": "그는 허풍이에요.",
+   "use": [
+    [
+     "I called his bluff.",
+     "그의 허세를 간파했어요."
+    ],
+    [
+     "Don't try to bluff me.",
+     "저한테 허세 부리지 마세요."
+    ]
+   ],
+   "mcq": [
+    "She bluff her way through the interview yesterday.",
+    "She was bluffed her way through the interview.",
+    "She bluffed her way to through the interview.",
+    "She bluffed her way through the interview."
+   ],
+   "ans": 3,
+   "note": "bluff = 실제론 아닌데 그런 척. call someone's bluff = 허세를 꿰뚫다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "fib",
+   "ko": "사소한 거짓말",
+   "ex": "Don't fib.",
+   "exko": "거짓말하지 마.",
+   "use": [
+    [
+     "It was just a little fib.",
+     "그냥 작은 거짓말이었어요."
+    ],
+    [
+     "He fibbed about his age.",
+     "그는 나이를 속였어요."
+    ]
+   ],
+   "mcq": [
+    "She fib about where she was yesterday.",
+    "She fibbed about where she was.",
+    "She fibbed of where she was.",
+    "She was fibbed about where she was."
+   ],
+   "ans": 1,
+   "note": "fib = 악의 없는 작은 거짓말. 과거형 fibbed. lie보다 가벼움.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "strive",
+   "ko": "노력하다, 애쓰다",
+   "ex": "We strive for excellence.",
+   "exko": "우리는 최고를 추구해요.",
+   "use": [
+    [
+     "Strive to be better.",
+     "더 나아지려고 노력하세요."
+    ],
+    [
+     "She strove to finish on time.",
+     "그녀는 제때 끝내려 애썼어요."
+    ]
+   ],
+   "mcq": [
+    "He strives to improve every day.",
+    "He strive to improve every day.",
+    "He strives for improve every day.",
+    "He strives improving every day."
+   ],
+   "ans": 0,
+   "note": "strive to V / strive for N. strive-strove-striven.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "aspire",
+   "ko": "열망하다",
+   "ex": "She aspires to be a director.",
+   "exko": "그녀는 감독이 되길 열망해요.",
+   "use": [
+    [
+     "Aspiring actors",
+     "배우 지망생들"
+    ],
+    [
+     "I aspire to work abroad.",
+     "해외에서 일하고 싶어요."
+    ]
+   ],
+   "mcq": [
+    "He aspire to run his own business.",
+    "He aspires for run his own business.",
+    "He aspires to run his own business.",
+    "He aspires running his own business."
+   ],
+   "ans": 2,
+   "note": "aspire to V. 형용사 aspiring = 지망하는. 명사 aspiration.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "excel",
+   "ko": "뛰어나다, 탁월하다",
+   "ex": "She excels at math.",
+   "exko": "그녀는 수학을 잘해요.",
+   "use": [
+    [
+     "He excelled in sports.",
+     "그는 운동에서 두각을 나타냈어요."
+    ],
+    [
+     "Excel at your job.",
+     "일을 탁월하게 하세요."
+    ]
+   ],
+   "mcq": [
+    "He excels at public speaking.",
+    "He excel at public speaking.",
+    "He excels public speaking.",
+    "He excels to public speaking."
+   ],
+   "ans": 0,
+   "note": "excel at/in N. 형용사 excellent, 명사 excellence.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "surpass",
+   "ko": "능가하다",
+   "ex": "Sales surpassed expectations.",
+   "exko": "매출이 기대를 넘어섰어요.",
+   "use": [
+    [
+     "She surpassed her teacher.",
+     "그녀는 스승을 뛰어넘었어요."
+    ],
+    [
+     "Surpass your limits.",
+     "한계를 넘어서세요."
+    ]
+   ],
+   "mcq": [
+    "The results surpassed to all our expectations.",
+    "The results surpass all our expectations yesterday.",
+    "The results were surpassed all our expectations.",
+    "The results surpassed all our expectations."
+   ],
+   "ans": 3,
+   "note": "surpass N = 넘어서다. exceed와 비슷.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "outperform",
+   "ko": "더 나은 성과를 내다",
+   "ex": "Our team outperformed last year.",
+   "exko": "우리 팀이 작년보다 더 잘했어요.",
+   "use": [
+    [
+     "The stock outperformed the market.",
+     "그 주식은 시장 평균을 웃돌았어요."
+    ],
+    [
+     "She outperforms everyone.",
+     "그녀는 모두를 앞서요."
+    ]
+   ],
+   "mcq": [
+    "The new model outperforms the old one.",
+    "The new model is outperforms the old one.",
+    "The new model outperforms to the old one.",
+    "The new model outperform the old one."
+   ],
+   "ans": 0,
+   "note": "outperform N = ~보다 성과가 좋다. out- = 더 잘.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "lag",
+   "ko": "뒤처지다, 지연",
+   "ex": "We're lagging behind.",
+   "exko": "우리가 뒤처지고 있어요.",
+   "use": [
+    [
+     "Jet lag",
+     "시차"
+    ],
+    [
+     "The video lags.",
+     "영상이 끊겨요(렉 걸려요)."
+    ]
+   ],
+   "mcq": [
+    "Sales lagged behind to the competition.",
+    "Sales lagged behind the competition.",
+    "Sales were lagged behind the competition.",
+    "Sales lag behind the competition yesterday."
+   ],
+   "ans": 1,
+   "note": "lag behind = 뒤처지다. 명사 lag = 지연(time lag).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stagnate",
+   "ko": "침체되다, 정체되다",
+   "ex": "The economy stagnated.",
+   "exko": "경제가 침체됐어요.",
+   "use": [
+    [
+     "Don't let your skills stagnate.",
+     "실력이 정체되게 두지 마세요."
+    ],
+    [
+     "Sales have stagnated.",
+     "매출이 제자리예요."
+    ]
+   ],
+   "mcq": [
+    "Wages stagnate for a decade yesterday.",
+    "Wages stagnated for a decade.",
+    "Wages were stagnated for a decade.",
+    "Wages stagnated to for a decade."
+   ],
+   "ans": 1,
+   "note": "stagnate (자동사). 형용사 stagnant, 명사 stagnation.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "plateau",
+   "ko": "정체기, 정체되다",
+   "ex": "I've hit a plateau.",
+   "exko": "정체기에 들어섰어요.",
+   "use": [
+    [
+     "Growth plateaued.",
+     "성장이 멈췄어요."
+    ],
+    [
+     "A plateau in my English",
+     "영어 정체기"
+    ]
+   ],
+   "mcq": [
+    "My weight loss has plateau.",
+    "My weight loss has been plateaued.",
+    "My weight loss has plateaued.",
+    "My weight loss has plateaued to."
+   ],
+   "ans": 2,
+   "note": "hit a plateau = 정체기에 들다. 발음 [plæˈtoʊ].",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "rebound",
+   "ko": "반등하다, 반등",
+   "ex": "The market rebounded.",
+   "exko": "시장이 반등했어요.",
+   "use": [
+    [
+     "On the rebound",
+     "(이별 후) 반동으로"
+    ],
+    [
+     "Sales rebounded in Q3.",
+     "3분기에 매출이 회복됐어요."
+    ]
+   ],
+   "mcq": [
+    "Prices rebound after the dip yesterday.",
+    "Prices rebounded to after the dip.",
+    "Prices were rebounded after the dip.",
+    "Prices rebounded after the dip."
+   ],
+   "ans": 3,
+   "note": "rebound = 떨어졌다가 튀어 오르다. 농구 리바운드도.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "flourish",
+   "ko": "번창하다, 잘 자라다",
+   "ex": "The business flourished.",
+   "exko": "사업이 번창했어요.",
+   "use": [
+    [
+     "Plants flourish in sunlight.",
+     "식물은 햇빛에서 잘 자라요."
+    ],
+    [
+     "She flourished in her new role.",
+     "그녀는 새 역할에서 활약했어요."
+    ]
+   ],
+   "mcq": [
+    "The café flourish after the renovation yesterday.",
+    "The café flourished after the renovation.",
+    "The café flourished to after the renovation.",
+    "The café was flourished after the renovation."
+   ],
+   "ans": 1,
+   "note": "flourish (자동사) = 잘되다. thrive와 같은 뜻.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "prosper",
+   "ko": "번영하다",
+   "ex": "May you prosper.",
+   "exko": "번창하시길.",
+   "use": [
+    [
+     "The town prospered.",
+     "그 마을은 번영했어요."
+    ],
+    [
+     "Live long and prosper.",
+     "오래오래 번영하세요."
+    ]
+   ],
+   "mcq": [
+    "The company prospered under new leadership.",
+    "The company was prospered under new leadership.",
+    "The company prospered to under new leadership.",
+    "The company prosper under new leadership yesterday."
+   ],
+   "ans": 0,
+   "note": "prosper (자동사). 명사 prosperity, 형용사 prosperous.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "falter",
+   "ko": "흔들리다, 주춤하다",
+   "ex": "Her voice faltered.",
+   "exko": "그녀의 목소리가 떨렸어요.",
+   "use": [
+    [
+     "The economy faltered.",
+     "경제가 주춤했어요."
+    ],
+    [
+     "Don't falter now.",
+     "지금 흔들리지 마세요."
+    ]
+   ],
+   "mcq": [
+    "His confidence faltered to after the mistake.",
+    "His confidence falter after the mistake yesterday.",
+    "His confidence faltered after the mistake.",
+    "His confidence was faltered after the mistake."
+   ],
+   "ans": 2,
+   "note": "falter = 힘이 빠져 흔들리다. without faltering = 주저 없이.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "dwindle",
+   "ko": "줄어들다",
+   "ex": "Our savings dwindled.",
+   "exko": "저축이 줄어들었어요.",
+   "use": [
+    [
+     "The crowd dwindled.",
+     "사람들이 줄었어요."
+    ],
+    [
+     "Supplies are dwindling.",
+     "물자가 바닥나고 있어요."
+    ]
+   ],
+   "mcq": [
+    "Interest in the show dwindled over time.",
+    "Interest in the show dwindle over time yesterday.",
+    "Interest in the show dwindled to over time.",
+    "Interest in the show was dwindled over time."
+   ],
+   "ans": 0,
+   "note": "dwindle (자동사) = 점점 줄다. 형용사 dwindling.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "soar",
+   "ko": "치솟다, 날아오르다",
+   "ex": "Prices soared.",
+   "exko": "가격이 치솟았어요.",
+   "use": [
+    [
+     "The eagle soared.",
+     "독수리가 날아올랐어요."
+    ],
+    [
+     "Temperatures will soar.",
+     "기온이 급등할 거예요."
+    ]
+   ],
+   "mcq": [
+    "Rents soared last year.",
+    "Rents soared to last year.",
+    "Rents soar last year.",
+    "Rents were soared last year."
+   ],
+   "ans": 0,
+   "note": "soar = 급등하다/높이 날다. 반대 plunge.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "plunge",
+   "ko": "급락하다, 뛰어들다",
+   "ex": "Stocks plunged.",
+   "exko": "주가가 급락했어요.",
+   "use": [
+    [
+     "He plunged into the pool.",
+     "그는 수영장에 뛰어들었어요."
+    ],
+    [
+     "Take the plunge.",
+     "과감히 결단하세요."
+    ]
+   ],
+   "mcq": [
+    "Sales plunged to 30% in April.",
+    "Sales were plunged 30% in April.",
+    "Sales plunged 30% in April.",
+    "Sales plunge 30% in April yesterday."
+   ],
+   "ans": 2,
+   "note": "plunge = 급락하다/뛰어들다. take the plunge = 결단 내리다.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "fluctuate",
+   "ko": "변동하다",
+   "ex": "Prices fluctuate.",
+   "exko": "가격이 오르락내리락해요.",
+   "use": [
+    [
+     "My weight fluctuates.",
+     "체중이 왔다 갔다 해요."
+    ],
+    [
+     "Mood fluctuations",
+     "기분 변동"
+    ]
+   ],
+   "mcq": [
+    "Exchange rates fluctuates daily.",
+    "Exchange rates fluctuate to daily.",
+    "Exchange rates are fluctuate daily.",
+    "Exchange rates fluctuate daily."
+   ],
+   "ans": 3,
+   "note": "fluctuate (between A and B). 명사 fluctuation.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "skyrocket",
+   "ko": "급등하다",
+   "ex": "Rent skyrocketed.",
+   "exko": "집세가 폭등했어요.",
+   "use": [
+    [
+     "Demand skyrocketed.",
+     "수요가 급증했어요."
+    ],
+    [
+     "Prices are skyrocketing.",
+     "가격이 치솟고 있어요."
+    ]
+   ],
+   "mcq": [
+    "Housing prices skyrocket in 2021 yesterday.",
+    "Housing prices skyrocketed in 2021.",
+    "Housing prices skyrocketed to in 2021.",
+    "Housing prices were skyrocketed in 2021."
+   ],
+   "ans": 1,
+   "note": "skyrocket = 로켓처럼 급등. soar보다 더 강함.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "taper",
+   "ko": "점점 줄어들다",
+   "ex": "Sales tapered off.",
+   "exko": "매출이 서서히 줄었어요.",
+   "use": [
+    [
+     "The rain tapered off.",
+     "비가 잦아들었어요."
+    ],
+    [
+     "Taper your training before the race.",
+     "경기 전엔 훈련량을 서서히 줄이세요."
+    ]
+   ],
+   "mcq": [
+    "The noise tapered off after midnight.",
+    "The noise tapered to off after midnight.",
+    "The noise was tapered off after midnight.",
+    "The noise taper off after midnight yesterday."
+   ],
+   "ans": 0,
+   "note": "taper off = 서서히 줄어들다. 금리·훈련량에 자주.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "escalate",
+   "ko": "악화되다, 확대되다",
+   "ex": "The argument escalated.",
+   "exko": "말다툼이 커졌어요.",
+   "use": [
+    [
+     "Costs are escalating.",
+     "비용이 치솟고 있어요."
+    ],
+    [
+     "Let's not escalate this.",
+     "일을 키우지 말죠."
+    ]
+   ],
+   "mcq": [
+    "The conflict escalate quickly yesterday.",
+    "The conflict was escalated quickly.",
+    "The conflict escalated quickly.",
+    "The conflict escalated to quickly."
+   ],
+   "ans": 2,
+   "note": "escalate = 단계적으로 심해지다. 명사 escalation. escalator도 여기서.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "slump",
+   "ko": "급감, 부진, 폭락하다",
+   "ex": "Sales slumped.",
+   "exko": "매출이 급감했어요.",
+   "use": [
+    [
+     "I'm in a slump.",
+     "슬럼프예요."
+    ],
+    [
+     "He slumped in his chair.",
+     "그는 의자에 털썩 앉았어요."
+    ]
+   ],
+   "mcq": [
+    "The team is in a slump this season.",
+    "The team is in slump this season.",
+    "The team is in a slumped this season.",
+    "The team is in a slump of this season."
+   ],
+   "ans": 0,
+   "note": "slump = 급감하다/털썩 주저앉다. in a slump = 슬럼프.",
+   "wk": "2026-W43"
   }
  ]
 }

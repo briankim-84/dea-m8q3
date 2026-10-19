@@ -3002,6 +3002,506 @@
    "ans": 1,
    "note": "mutual = 서로의. The feeling is mutual = 저도요(호감 표현).",
    "wk": "2026-W42"
+  },
+  {
+   "w": "attribute",
+   "ko": "~의 탓으로 돌리다, 특성",
+   "ex": "He attributes his success to luck.",
+   "exko": "그는 성공을 운 덕으로 돌려요.",
+   "use": [
+    [
+     "Patience is a key attribute.",
+     "인내는 중요한 자질이에요."
+    ],
+    [
+     "The painting is attributed to Kim.",
+     "그 그림은 김 작가의 작품으로 여겨져요."
+    ]
+   ],
+   "mcq": [
+    "She attributed bad weather to the delay.",
+    "She attributed the delay to bad weather.",
+    "She attributed the delay for bad weather.",
+    "She attributed the delay by bad weather."
+   ],
+   "ans": 1,
+   "note": "attribute A to B = A의 원인을 B로 보다. 명사 [ˈætrɪbjuːt].",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "depress",
+   "ko": "우울하게 하다, 침체시키다",
+   "ex": "The news depressed me.",
+   "exko": "그 소식에 우울해졌어요.",
+   "use": [
+    [
+     "High rates depress spending.",
+     "높은 금리는 소비를 위축시켜요."
+    ],
+    [
+     "Rainy days depress me.",
+     "비 오는 날은 기분이 가라앉아요."
+    ]
+   ],
+   "mcq": [
+    "The long winter depress everyone.",
+    "The long winter was depressed everyone.",
+    "The long winter depressed to everyone.",
+    "The long winter depressed everyone."
+   ],
+   "ans": 3,
+   "note": "depressed(사람이 우울한) / depressing(우울하게 하는). 명사 depression.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "ruin",
+   "ko": "망치다, 폐허",
+   "ex": "You ruined the surprise!",
+   "exko": "서프라이즈를 망쳤잖아요!",
+   "use": [
+    [
+     "The rain ruined our picnic.",
+     "비가 소풍을 망쳤어요."
+    ],
+    [
+     "We visited the ruins.",
+     "유적지를 방문했어요."
+    ]
+   ],
+   "mcq": [
+    "One mistake ruined of everything.",
+    "One mistake ruin everything yesterday.",
+    "One mistake was ruined everything.",
+    "One mistake ruined everything."
+   ],
+   "ans": 3,
+   "note": "ruin N = 완전히 망치다. 명사 ruins = 유적/폐허.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "burst",
+   "ko": "터지다, 터뜨리다",
+   "ex": "The balloon burst.",
+   "exko": "풍선이 터졌어요.",
+   "use": [
+    [
+     "She burst into tears.",
+     "그녀가 울음을 터뜨렸어요."
+    ],
+    [
+     "A pipe burst.",
+     "파이프가 터졌어요."
+    ]
+   ],
+   "mcq": [
+    "He burst laughing out.",
+    "He bursted out laughing.",
+    "He burst out to laugh.",
+    "He burst out laughing."
+   ],
+   "ans": 3,
+   "note": "burst-burst-burst. burst into tears/laughter, burst out laughing.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "rid",
+   "ko": "없애다",
+   "ex": "Get rid of the clutter.",
+   "exko": "잡동사니를 치우세요.",
+   "use": [
+    [
+     "I can't get rid of this cold.",
+     "이 감기가 안 떨어져요."
+    ],
+    [
+     "We got rid of the old car.",
+     "옛날 차를 처분했어요."
+    ]
+   ],
+   "mcq": [
+    "I want to get rid these books.",
+    "I want to rid of these books.",
+    "I want to get rid of these books.",
+    "I want to get rid off these books."
+   ],
+   "ans": 2,
+   "note": "get rid of N = 없애다 (거의 이 형태로만!).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "exhaust",
+   "ko": "지치게 하다, 다 써 버리다, 배기가스",
+   "ex": "The trip exhausted me.",
+   "exko": "여행 때문에 녹초가 됐어요.",
+   "use": [
+    [
+     "We've exhausted all options.",
+     "모든 옵션을 다 써 봤어요."
+    ],
+    [
+     "Car exhaust pollutes the air.",
+     "자동차 배기가스가 공기를 오염시켜요."
+    ]
+   ],
+   "mcq": [
+    "I'm exhaust after the long flight.",
+    "I'm exhausted after the long flight.",
+    "I'm exhausting after the long flight.",
+    "I'm exhausted of after the long flight."
+   ],
+   "ans": 1,
+   "note": "exhausted = 완전히 지친 (tired보다 강함). exhausting = 진 빠지는.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "counter",
+   "ko": "반박하다, 계산대, 반대의",
+   "ex": "He countered my argument.",
+   "exko": "그가 제 주장에 반박했어요.",
+   "use": [
+    [
+     "Pay at the counter.",
+     "카운터에서 계산하세요."
+    ],
+    [
+     "That's counterproductive.",
+     "그건 역효과예요."
+    ]
+   ],
+   "mcq": [
+    "She was countered with a better offer.",
+    "She counter with a better offer yesterday.",
+    "She countered with a better offer.",
+    "She countered to with a better offer."
+   ],
+   "ans": 2,
+   "note": "counter N = 맞받아치다. 명사 counter(계산대). counter- = 반대의.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "craft",
+   "ko": "공예, 정성껏 만들다",
+   "ex": "She crafted a perfect speech.",
+   "exko": "그녀는 완벽한 연설을 다듬어 썼어요.",
+   "use": [
+    [
+     "I love craft beer.",
+     "수제 맥주를 좋아해요."
+    ],
+    [
+     "Arts and crafts",
+     "미술 공예"
+    ]
+   ],
+   "mcq": [
+    "He craft the email carefully yesterday.",
+    "He was crafted the email carefully.",
+    "He crafted the email carefully.",
+    "He crafted carefully to the email."
+   ],
+   "ans": 2,
+   "note": "craft N = 정성 들여 만들다. craft beer = 수제 맥주. 명사 craftsman.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "chat",
+   "ko": "수다 떨다, 채팅",
+   "ex": "Let's chat over coffee.",
+   "exko": "커피 마시며 얘기해요.",
+   "use": [
+    [
+     "We chatted for hours.",
+     "몇 시간을 수다 떨었어요."
+    ],
+    [
+     "Send me a chat.",
+     "채팅 보내 줘요."
+    ]
+   ],
+   "mcq": [
+    "I chatted with my neighbor this morning.",
+    "I chatted to with my neighbor this morning.",
+    "I chat with my neighbor this morning yesterday.",
+    "I chatted my neighbor this morning."
+   ],
+   "ans": 0,
+   "note": "chat with 사람 (about N). 과거형 chatted (t 두 개).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "stroke",
+   "ko": "쓰다듬다, 뇌졸중, 한 번의 동작",
+   "ex": "She stroked the cat.",
+   "exko": "그녀가 고양이를 쓰다듬었어요.",
+   "use": [
+    [
+     "He had a stroke.",
+     "그는 뇌졸중을 겪었어요."
+    ],
+    [
+     "It was a stroke of luck.",
+     "행운이었어요."
+    ]
+   ],
+   "mcq": [
+    "He stroked on the dog's head gently.",
+    "He stroke the dog's head gently yesterday.",
+    "He was stroked the dog's head gently.",
+    "He stroked the dog's head gently."
+   ],
+   "ans": 3,
+   "note": "stroke = 쓰다듬다 / 뇌졸중 / 한 획. a stroke of luck = 뜻밖의 행운.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "conventional",
+   "ko": "전통적인, 틀에 박힌",
+   "ex": "He has conventional tastes.",
+   "exko": "그는 취향이 보수적이에요.",
+   "use": [
+    [
+     "Conventional methods don't work here.",
+     "기존 방식은 여기선 안 통해요."
+    ],
+    [
+     "A conventional oven",
+     "일반 오븐"
+    ]
+   ],
+   "mcq": [
+    "She prefers convention medicine.",
+    "She prefers conventionally medicine.",
+    "She prefers conventional medicine.",
+    "She prefers conventional of medicine."
+   ],
+   "ans": 2,
+   "note": "conventional = 관습적인. 반대 unconventional. 명사 convention.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "comprehensive",
+   "ko": "포괄적인, 종합적인",
+   "ex": "We did a comprehensive review.",
+   "exko": "종합 검토를 했어요.",
+   "use": [
+    [
+     "Comprehensive insurance",
+     "종합 보험"
+    ],
+    [
+     "The report is comprehensive.",
+     "보고서가 포괄적이에요."
+    ]
+   ],
+   "mcq": [
+    "The guide gives a comprehensive of overview.",
+    "The guide gives a comprehensive overview.",
+    "The guide gives a comprehensively overview.",
+    "The guide gives a comprehension overview."
+   ],
+   "ans": 1,
+   "note": "comprehensive = 빠짐없이 다루는. comprehension(이해)과 구별.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "absolute",
+   "ko": "완전한, 절대적인",
+   "ex": "That's absolute nonsense.",
+   "exko": "완전히 말도 안 돼요.",
+   "use": [
+    [
+     "I have absolute trust in her.",
+     "그녀를 절대적으로 믿어요."
+    ],
+    [
+     "Absolutely!",
+     "당연하죠!"
+    ]
+   ],
+   "mcq": [
+    "It was an absolute of disaster.",
+    "It was an absolute disaster.",
+    "It was absolute a disaster.",
+    "It was an absolutely disaster."
+   ],
+   "ans": 1,
+   "note": "absolute(형) / absolutely(부) = 완전히, 당연하죠.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "random",
+   "ko": "무작위의",
+   "ex": "Pick a random number.",
+   "exko": "아무 숫자나 고르세요.",
+   "use": [
+    [
+     "That was so random.",
+     "그거 완전 뜬금없네요."
+    ],
+    [
+     "Random check",
+     "무작위 검사"
+    ]
+   ],
+   "mcq": [
+    "The winner is chosen in random.",
+    "The winner is chosen by random.",
+    "The winner is chosen at random.",
+    "The winner is chosen at randomly."
+   ],
+   "ans": 2,
+   "note": "random = 무작위의. at random = 무작위로. 구어로 '뜬금없는'.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "violent",
+   "ko": "폭력적인, 격렬한",
+   "ex": "The movie is too violent.",
+   "exko": "그 영화는 너무 폭력적이에요.",
+   "use": [
+    [
+     "A violent storm hit the coast.",
+     "격렬한 폭풍이 해안을 덮쳤어요."
+    ],
+    [
+     "He has a violent temper.",
+     "그는 성질이 거칠어요."
+    ]
+   ],
+   "mcq": [
+    "The protest turned to violent.",
+    "The protest turned violence.",
+    "The protest turned violently.",
+    "The protest turned violent."
+   ],
+   "ans": 3,
+   "note": "violent(형) / violence(명) / violently(부).",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "raw",
+   "ko": "날것의, 가공되지 않은",
+   "ex": "I don't eat raw fish.",
+   "exko": "저는 회를 안 먹어요.",
+   "use": [
+    [
+     "Raw data",
+     "원시 데이터"
+    ],
+    [
+     "Raw materials",
+     "원자재"
+    ]
+   ],
+   "mcq": [
+    "The chicken is still rawly inside.",
+    "The chicken is still raw inside.",
+    "The chicken is still a raw inside.",
+    "The chicken is still raw of inside."
+   ],
+   "ans": 1,
+   "note": "raw = 익히지 않은/가공 전의. raw talent = 타고난 재능.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "distant",
+   "ko": "먼, 거리를 두는",
+   "ex": "A distant relative",
+   "exko": "먼 친척",
+   "use": [
+    [
+     "He's been distant lately.",
+     "그가 요즘 거리를 둬요."
+    ],
+    [
+     "In the distant past",
+     "먼 옛날에"
+    ]
+   ],
+   "mcq": [
+    "We heard a distant sound.",
+    "We heard a distantly sound.",
+    "We heard a distance sound.",
+    "We heard a distant of sound."
+   ],
+   "ans": 0,
+   "note": "distant(형) / distance(명). 사람이 distant = 냉담한.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "controversial",
+   "ko": "논란이 많은",
+   "ex": "It's a controversial topic.",
+   "exko": "논란이 많은 주제예요.",
+   "use": [
+    [
+     "The decision was controversial.",
+     "그 결정은 논란이 됐어요."
+    ],
+    [
+     "A controversial figure",
+     "논란의 인물"
+    ]
+   ],
+   "mcq": [
+    "The new law is highly controversy.",
+    "The new law is highly controversial.",
+    "The new law is highly controversial of.",
+    "The new law is highly controversially."
+   ],
+   "ans": 1,
+   "note": "controversial(형) / controversy(명) = 논란.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "voluntary",
+   "ko": "자발적인",
+   "ex": "Participation is voluntary.",
+   "exko": "참여는 자율이에요.",
+   "use": [
+    [
+     "Voluntary work",
+     "자원봉사"
+    ],
+    [
+     "He made a voluntary donation.",
+     "그는 자발적으로 기부했어요."
+    ]
+   ],
+   "mcq": [
+    "Attendance at the event is voluntarily.",
+    "Attendance at the event is voluntary of.",
+    "Attendance at the event is volunteer.",
+    "Attendance at the event is voluntary."
+   ],
+   "ans": 3,
+   "note": "voluntary(형) / voluntarily(부) / volunteer(명·동). 반대 mandatory.",
+   "wk": "2026-W43"
+  },
+  {
+   "w": "continuous",
+   "ko": "계속되는, 끊임없는",
+   "ex": "We had continuous rain.",
+   "exko": "비가 계속 왔어요.",
+   "use": [
+    [
+     "Continuous improvement",
+     "지속적 개선"
+    ],
+    [
+     "A continuous line",
+     "끊기지 않은 선"
+    ]
+   ],
+   "mcq": [
+    "The machine runs in continuously operation.",
+    "The machine runs in continuous operation.",
+    "The machine runs in continue operation.",
+    "The machine runs in continuous of operation."
+   ],
+   "ans": 1,
+   "note": "continuous = 끊김 없이 / continual = 반복적으로. 부사 continuously.",
+   "wk": "2026-W43"
   }
  ]
 }
