@@ -3502,6 +3502,506 @@
    "ans": 1,
    "note": "continuous = 끊김 없이 / continual = 반복적으로. 부사 continuously.",
    "wk": "2026-W43"
+  },
+  {
+   "w": "sail",
+   "ko": "항해하다, 돛",
+   "ex": "We sailed around the island.",
+   "exko": "섬을 돌아 항해했어요.",
+   "use": [
+    [
+     "Set sail at dawn.",
+     "새벽에 출항하다."
+    ],
+    [
+     "The project sailed through approval.",
+     "프로젝트가 순조롭게 승인됐어요."
+    ]
+   ],
+   "mcq": [
+    "They were sailed across the Pacific.",
+    "They sailed across the Pacific.",
+    "They sailed across to the Pacific.",
+    "They sail across the Pacific yesterday."
+   ],
+   "ans": 1,
+   "note": "sail = 항해하다. sail through = 쉽게 통과하다. 명사 sailor.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "log",
+   "ko": "기록하다, 로그, 통나무",
+   "ex": "Log your hours.",
+   "exko": "근무 시간을 기록하세요.",
+   "use": [
+    [
+     "Log in to your account.",
+     "계정에 로그인하세요."
+    ],
+    [
+     "A log cabin",
+     "통나무집"
+    ]
+   ],
+   "mcq": [
+    "Please log in your calls the system.",
+    "Please log your calls in the system.",
+    "Please log to your calls in the system.",
+    "Please logging your calls in the system."
+   ],
+   "ans": 1,
+   "note": "log N = 기록하다. log in/out. 명사 log = 기록, 통나무.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "stem",
+   "ko": "비롯되다, 줄기",
+   "ex": "The problem stems from poor planning.",
+   "exko": "문제는 부실한 계획에서 비롯돼요.",
+   "use": [
+    [
+     "Cut the stems.",
+     "줄기를 자르세요."
+    ],
+    [
+     "Stem the bleeding.",
+     "출혈을 막다."
+    ]
+   ],
+   "mcq": [
+    "Her anxiety stems from past experiences.",
+    "Her anxiety stems of past experiences.",
+    "Her anxiety stem from past experiences.",
+    "Her anxiety stems past experiences."
+   ],
+   "ans": 0,
+   "note": "stem from N = ~에서 비롯되다. 명사 stem = 줄기.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "dust",
+   "ko": "먼지, 먼지를 털다",
+   "ex": "Dust the shelves.",
+   "exko": "선반 먼지를 털어요.",
+   "use": [
+    [
+     "The room was full of dust.",
+     "방이 먼지로 가득했어요."
+    ],
+    [
+     "When the dust settles",
+     "소란이 가라앉으면"
+    ]
+   ],
+   "mcq": [
+    "I was dusted the furniture this morning.",
+    "I dust the furniture this morning yesterday.",
+    "I dusted the furniture this morning.",
+    "I dusted on the furniture this morning."
+   ],
+   "ans": 2,
+   "note": "dust = 먼지/먼지를 털다. dusty = 먼지 쌓인.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "polish",
+   "ko": "닦다, 다듬다",
+   "ex": "Polish your shoes.",
+   "exko": "신발 닦으세요.",
+   "use": [
+    [
+     "Let me polish the draft.",
+     "초안을 다듬어 볼게요."
+    ],
+    [
+     "Nail polish",
+     "매니큐어"
+    ]
+   ],
+   "mcq": [
+    "She polish her presentation yesterday.",
+    "She polished up her presentation up.",
+    "She polished her presentation.",
+    "She was polished her presentation."
+   ],
+   "ans": 2,
+   "note": "polish N = 광내다/다듬다. polish up = 갈고닦다. Polish(대문자) = 폴란드의.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "fasten",
+   "ko": "매다, 고정하다",
+   "ex": "Fasten your seat belt.",
+   "exko": "안전벨트를 매세요.",
+   "use": [
+    [
+     "Fasten the lid tightly.",
+     "뚜껑을 단단히 닫으세요."
+    ],
+    [
+     "Fasten it with tape.",
+     "테이프로 고정하세요."
+    ]
+   ],
+   "mcq": [
+    "Please fasten up your seat belts on.",
+    "Please fasten your seat belts.",
+    "Please fastening your seat belts.",
+    "Please fasten to your seat belts."
+   ],
+   "ans": 1,
+   "note": "fasten = 단단히 매다. 비행기 안내 방송 단골! t 묵음.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "unplug",
+   "ko": "플러그를 뽑다, 디지털에서 벗어나다",
+   "ex": "Unplug the TV.",
+   "exko": "TV 플러그를 뽑으세요.",
+   "use": [
+    [
+     "I need to unplug this weekend.",
+     "이번 주말엔 폰 좀 끄고 쉬어야겠어요."
+    ],
+    [
+     "Unplug and restart.",
+     "뽑고 다시 켜 보세요."
+    ]
+   ],
+   "mcq": [
+    "Unplugging the charger when it's done.",
+    "Unplug the charger when it's done.",
+    "Unplug out the charger when it's done.",
+    "Unplug to the charger when it's done."
+   ],
+   "ans": 1,
+   "note": "unplug = 뽑다. 비유로 '디지털 기기에서 벗어나다'.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "recharge",
+   "ko": "충전하다, 재충전하다",
+   "ex": "I need to recharge my phone.",
+   "exko": "폰 충전해야 해요.",
+   "use": [
+    [
+     "Vacation is a time to recharge.",
+     "휴가는 재충전하는 시간이에요."
+    ],
+    [
+     "Recharge your batteries.",
+     "기운을 재충전하세요."
+    ]
+   ],
+   "mcq": [
+    "Let me recharge my phone first.",
+    "Let me recharge to my phone first.",
+    "Let me recharging my phone first.",
+    "Let me recharge up my phone first."
+   ],
+   "ans": 0,
+   "note": "recharge = 충전하다/기운을 되찾다. charge만으로도 OK.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "shelter",
+   "ko": "피난처, 보호하다",
+   "ex": "We took shelter from the rain.",
+   "exko": "비를 피했어요.",
+   "use": [
+    [
+     "An animal shelter",
+     "동물 보호소"
+    ],
+    [
+     "Shelter the plants from frost.",
+     "식물을 서리에서 보호하세요."
+    ]
+   ],
+   "mcq": [
+    "We finding shelter in a small café.",
+    "We found shelter at in a small café.",
+    "We found a shelter in a small café at.",
+    "We found shelter in a small café."
+   ],
+   "ans": 3,
+   "note": "take shelter = 피하다. 명사·동사 동일. homeless shelter.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "inquiry",
+   "ko": "문의, 조사",
+   "ex": "Thank you for your inquiry.",
+   "exko": "문의 감사합니다.",
+   "use": [
+    [
+     "We launched an inquiry.",
+     "조사에 착수했어요."
+    ],
+    [
+     "Make an inquiry",
+     "문의하다"
+    ]
+   ],
+   "mcq": [
+    "We received many inquiries for about the course.",
+    "We received many inquiry about the course.",
+    "We received many inquiries about the course.",
+    "We received many inquiries to the course."
+   ],
+   "ans": 2,
+   "note": "inquiry = 문의/조사. 동사 inquire. 영국식 enquiry.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "incentive",
+   "ko": "장려책, 동기",
+   "ex": "There's no incentive to work harder.",
+   "exko": "더 열심히 할 동기가 없어요.",
+   "use": [
+    [
+     "Tax incentives",
+     "세금 혜택"
+    ],
+    [
+     "Offer an incentive.",
+     "인센티브를 제공하세요."
+    ]
+   ],
+   "mcq": [
+    "Bonuses are an incentive of staff.",
+    "Bonuses are a incentive for staff.",
+    "Bonuses are an incentive to for staff.",
+    "Bonuses are an incentive for staff."
+   ],
+   "ans": 3,
+   "note": "incentive for 사람 / to V. 한국어 '인센티브' 그대로.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "penalty",
+   "ko": "벌금, 벌칙",
+   "ex": "There's a penalty for late payment.",
+   "exko": "연체 시 벌금이 있어요.",
+   "use": [
+    [
+     "A penalty kick",
+     "페널티 킥"
+    ],
+    [
+     "Pay the penalty",
+     "벌금을 내다"
+    ]
+   ],
+   "mcq": [
+    "You'll face a penalty if you cancel late.",
+    "You'll face a penalty if you cancel lately.",
+    "You'll face penalty if you cancel late.",
+    "You'll face a penalty of if you cancel late."
+   ],
+   "ans": 0,
+   "note": "penalty for N. 동사 penalize. death penalty = 사형.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "constraint",
+   "ko": "제약",
+   "ex": "We're working under time constraints.",
+   "exko": "시간 제약 속에서 일하고 있어요.",
+   "use": [
+    [
+     "Budget constraints",
+     "예산 제약"
+    ],
+    [
+     "Remove the constraints.",
+     "제약을 없애세요."
+    ]
+   ],
+   "mcq": [
+    "Due to constraints budget, we cut the trip.",
+    "Due to budget constraints of, we cut the trip.",
+    "Due to budget constraints, we cut the trip.",
+    "Due to budget constraint, we cut the trip."
+   ],
+   "ans": 2,
+   "note": "constraint on N. 동사 constrain. limitation과 비슷.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "margin",
+   "ko": "여백, 이윤, 차이",
+   "ex": "Write in the margin.",
+   "exko": "여백에 쓰세요.",
+   "use": [
+    [
+     "Profit margin",
+     "이윤 폭"
+    ],
+    [
+     "We won by a narrow margin.",
+     "아슬아슬하게 이겼어요."
+    ]
+   ],
+   "mcq": [
+    "The company has low a profit margin.",
+    "The company has a low profit margin.",
+    "The company has a low margin profit.",
+    "The company has a low profit margins."
+   ],
+   "ans": 1,
+   "note": "margin = 여백/이윤/차이. by a narrow margin = 간신히. 형용사 marginal.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "stability",
+   "ko": "안정",
+   "ex": "Job stability",
+   "exko": "직업 안정성",
+   "use": [
+    [
+     "The region needs stability.",
+     "그 지역은 안정이 필요해요."
+    ],
+    [
+     "Financial stability",
+     "재정 안정"
+    ]
+   ],
+   "mcq": [
+    "She values stability than excitement.",
+    "She values stability over excitement.",
+    "She values stability over exciting.",
+    "She values stable over excitement."
+   ],
+   "ans": 1,
+   "note": "stability(명) / stable(형) / stabilize(동).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "tendency",
+   "ko": "경향",
+   "ex": "I have a tendency to procrastinate.",
+   "exko": "저는 미루는 경향이 있어요.",
+   "use": [
+    [
+     "A growing tendency",
+     "커지는 추세"
+    ],
+    [
+     "Watch that tendency.",
+     "그 버릇 조심하세요."
+    ]
+   ],
+   "mcq": [
+    "He has tendency to exaggerate.",
+    "He has a tendency to exaggerate.",
+    "He has a tendency to exaggerating.",
+    "He has a tendency of exaggerate."
+   ],
+   "ans": 1,
+   "note": "have a tendency to V. 동사 tend to.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "awareness",
+   "ko": "인식, 의식",
+   "ex": "Raise awareness.",
+   "exko": "인식을 높이다.",
+   "use": [
+    [
+     "Brand awareness",
+     "브랜드 인지도"
+    ],
+    [
+     "Self-awareness",
+     "자기 인식"
+    ]
+   ],
+   "mcq": [
+    "The campaign raised awareness to the issue.",
+    "The campaign raised aware of the issue.",
+    "The campaign raised awareness of the issue.",
+    "The campaign raised awareness for of the issue."
+   ],
+   "ans": 2,
+   "note": "awareness of N. raise awareness = 인식을 높이다. 형용사 aware.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "privilege",
+   "ko": "특권, 영광",
+   "ex": "It's a privilege to be here.",
+   "exko": "여기 있게 되어 영광이에요.",
+   "use": [
+    [
+     "Driving is a privilege, not a right.",
+     "운전은 권리가 아니라 특권이에요."
+    ],
+    [
+     "Privileged information",
+     "기밀 정보"
+    ]
+   ],
+   "mcq": [
+    "It was a privilege for work with her.",
+    "It was a privileged to work with her.",
+    "It was privilege to work with her.",
+    "It was a privilege to work with her."
+   ],
+   "ans": 3,
+   "note": "privilege = 특권. It's a privilege to V = ~해서 영광이다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "humor",
+   "ko": "유머, 익살",
+   "ex": "He has a great sense of humor.",
+   "exko": "그는 유머 감각이 뛰어나요.",
+   "use": [
+    [
+     "Humor me.",
+     "그냥 한번 들어 줘요(내 말대로 해 줘요)."
+    ],
+    [
+     "Dark humor",
+     "블랙 유머"
+    ]
+   ],
+   "mcq": [
+    "She has a dry sense of humorous.",
+    "She has a dry sense of humor.",
+    "She has a dry sense humor.",
+    "She has a dry sense of humors."
+   ],
+   "ans": 1,
+   "note": "sense of humor = 유머 감각. humor 사람 = 비위를 맞춰 주다. 영국식 humour.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "bias",
+   "ko": "편견, 편향",
+   "ex": "Everyone has biases.",
+   "exko": "누구나 편견이 있어요.",
+   "use": [
+    [
+     "The report shows bias.",
+     "보고서가 편향돼 있어요."
+    ],
+    [
+     "Confirmation bias",
+     "확증 편향"
+    ]
+   ],
+   "mcq": [
+    "The study was free of from bias.",
+    "The study was free from bias.",
+    "The study was free from biased.",
+    "The study was free from a bias of."
+   ],
+   "ans": 1,
+   "note": "bias(명) / biased(형) = 편향된. bias against/toward.",
+   "wk": "2026-W44"
   }
  ]
 }

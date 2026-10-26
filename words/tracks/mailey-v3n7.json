@@ -2002,6 +2002,506 @@
    "ans": 2,
    "note": "lean on/against. lean toward = ~쪽으로 기울다. 형용사 lean = 군살 없는.",
    "wk": "2026-W43"
+  },
+  {
+   "w": "burn",
+   "ko": "타다, 태우다, 화상",
+   "ex": "I burned the toast.",
+   "exko": "토스트를 태웠어요.",
+   "use": [
+    [
+     "The candle is burning.",
+     "촛불이 타고 있어요."
+    ],
+    [
+     "I burned my hand.",
+     "손을 데었어요."
+    ]
+   ],
+   "mcq": [
+    "I burn my tongue on the coffee yesterday.",
+    "I was burned my tongue on the coffee.",
+    "I burned my tongue by the coffee.",
+    "I burned my tongue on the coffee."
+   ],
+   "ans": 3,
+   "note": "burn-burned/burnt. burn out = 번아웃되다. 명사 burn = 화상.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "hurt",
+   "ko": "다치게 하다, 아프다",
+   "ex": "Did you hurt yourself?",
+   "exko": "다쳤어요?",
+   "use": [
+    [
+     "My back hurts.",
+     "허리가 아파요."
+    ],
+    [
+     "It won't hurt to ask.",
+     "물어봐서 손해 볼 건 없어요."
+    ]
+   ],
+   "mcq": [
+    "I hurted my knee playing soccer.",
+    "I hurt my knee to playing soccer.",
+    "My knee hurt me playing soccer by.",
+    "I hurt my knee playing soccer."
+   ],
+   "ans": 3,
+   "note": "hurt-hurt-hurt. My X hurts = X가 아프다. 감정도 hurt.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "bind",
+   "ko": "묶다, 구속하다",
+   "ex": "The contract binds both parties.",
+   "exko": "계약은 양측을 구속해요.",
+   "use": [
+    [
+     "Bind the papers together.",
+     "서류를 함께 묶으세요."
+    ],
+    [
+     "I'm in a bind.",
+     "곤란한 상황이에요."
+    ]
+   ],
+   "mcq": [
+    "We are bound to by the agreement.",
+    "We are bound by the agreement.",
+    "We are bind by the agreement.",
+    "We are binded by the agreement."
+   ],
+   "ans": 1,
+   "note": "bind-bound-bound. be bound to V = ~할 게 분명하다. in a bind = 곤경.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "elect",
+   "ko": "선출하다",
+   "ex": "She was elected mayor.",
+   "exko": "그녀가 시장으로 선출됐어요.",
+   "use": [
+    [
+     "We elect a president every five years.",
+     "5년마다 대통령을 선출해요."
+    ],
+    [
+     "He elected to stay.",
+     "그는 남기로 선택했어요."
+    ]
+   ],
+   "mcq": [
+    "They elected to him as chairman.",
+    "They elected him for chairman.",
+    "They elected him as chairman.",
+    "They elect him as chairman yesterday."
+   ],
+   "ans": 2,
+   "note": "elect 사람 (as) 직책. 명사 election. elect to V = 선택하다(격식).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "import",
+   "ko": "수입하다",
+   "ex": "Korea imports oil.",
+   "exko": "한국은 석유를 수입해요.",
+   "use": [
+    [
+     "Imported cheese",
+     "수입 치즈"
+    ],
+    [
+     "Import the file.",
+     "파일을 불러오세요."
+    ]
+   ],
+   "mcq": [
+    "We import most of our coffee beans from.",
+    "We are import most of our coffee beans.",
+    "We import most of our coffee beans.",
+    "We imports most of our coffee beans."
+   ],
+   "ans": 2,
+   "note": "import N. 반대 export. 명사 강세 앞(IMport).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "hate",
+   "ko": "싫어하다",
+   "ex": "I hate Mondays.",
+   "exko": "월요일 싫어요.",
+   "use": [
+    [
+     "I hate to say this, but…",
+     "이런 말 하기 싫지만…"
+    ],
+    [
+     "Don't hate.",
+     "미워하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I hate to being late.",
+    "I hate for being late.",
+    "I hate be late.",
+    "I hate being late."
+   ],
+   "ans": 3,
+   "note": "hate -ing / to V. I hate to say this = 이런 말 하기 싫지만.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "wed",
+   "ko": "결혼하다 (격식·신문)",
+   "ex": "They wed in June.",
+   "exko": "그들은 6월에 결혼했어요.",
+   "use": [
+    [
+     "Newly wed couple",
+     "신혼부부"
+    ],
+    [
+     "Wedding bells",
+     "결혼식 종소리"
+    ]
+   ],
+   "mcq": [
+    "The couple wed with in a small ceremony.",
+    "The couple wedded to in a small ceremony.",
+    "The couple wed in a small ceremony.",
+    "The couple were wed to in a small ceremony."
+   ],
+   "ans": 2,
+   "note": "wed = marry(신문·격식). newlyweds = 신혼부부. 명사 wedding.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "bet",
+   "ko": "내기하다, 틀림없이 ~하다",
+   "ex": "I bet he's late again.",
+   "exko": "그 사람 또 늦을 거예요(틀림없이).",
+   "use": [
+    [
+     "You bet!",
+     "당연하지!"
+    ],
+    [
+     "I'll bet you $10.",
+     "10달러 내기 걸게요."
+    ]
+   ],
+   "mcq": [
+    "I bet to it rains tomorrow.",
+    "I bet it rains tomorrow.",
+    "I betting it rains tomorrow.",
+    "I bet that will it rains tomorrow."
+   ],
+   "ans": 1,
+   "note": "I bet (that) ~ = 분명 ~일 거다. You bet = 물론이지. bet-bet-bet.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "shoot",
+   "ko": "쏘다, 촬영하다",
+   "ex": "They shot the movie in Busan.",
+   "exko": "그 영화는 부산에서 촬영했어요.",
+   "use": [
+    [
+     "Shoot! I forgot my keys.",
+     "아 참! 열쇠 깜빡했다."
+    ],
+    [
+     "Shoot me an email.",
+     "이메일 하나 보내 줘요."
+    ]
+   ],
+   "mcq": [
+    "We shooted the video in one day.",
+    "We shot the video in one day.",
+    "We were shot the video in one day.",
+    "We shot to the video in one day."
+   ],
+   "ans": 1,
+   "note": "shoot-shot-shot. shoot a photo/video. Shoot! = 아 이런!",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "cry",
+   "ko": "울다, 소리치다",
+   "ex": "Don't cry.",
+   "exko": "울지 마.",
+   "use": [
+    [
+     "The baby cried all night.",
+     "아기가 밤새 울었어요."
+    ],
+    [
+     "It's a far cry from perfect.",
+     "완벽과는 거리가 멀어요."
+    ]
+   ],
+   "mcq": [
+    "She cryed when she heard the news.",
+    "She was cried when she heard the news.",
+    "She cried when she heard the news.",
+    "She cried at when she heard the news."
+   ],
+   "ans": 2,
+   "note": "cry-cried. cry over = ~때문에 울다. cry out = 소리치다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "swim",
+   "ko": "수영하다",
+   "ex": "I swim every morning.",
+   "exko": "매일 아침 수영해요.",
+   "use": [
+    [
+     "Can you swim?",
+     "수영할 수 있어요?"
+    ],
+    [
+     "We swam in the sea.",
+     "바다에서 수영했어요."
+    ]
+   ],
+   "mcq": [
+    "We went swim at the beach.",
+    "We went swimming at the beach.",
+    "We went to swimming at the beach.",
+    "We went for swimming at the beach."
+   ],
+   "ans": 1,
+   "note": "swim-swam-swum. go swimming. 명사 swimmer, swimsuit.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "jump",
+   "ko": "뛰다, 급등하다",
+   "ex": "Don't jump!",
+   "exko": "뛰지 마세요!",
+   "use": [
+    [
+     "Prices jumped 20%.",
+     "가격이 20% 뛰었어요."
+    ],
+    [
+     "Jump in!",
+     "뛰어들어!"
+    ]
+   ],
+   "mcq": [
+    "He jump over the fence yesterday.",
+    "He was jumped over the fence.",
+    "He jumped over the fence.",
+    "He jumped the fence over."
+   ],
+   "ans": 2,
+   "note": "jump over N. jump in = 뛰어들다/끼어들다. jump to conclusions = 속단하다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "smoke",
+   "ko": "담배 피우다, 연기",
+   "ex": "Do you smoke?",
+   "exko": "담배 피우세요?",
+   "use": [
+    [
+     "No smoking.",
+     "금연."
+    ],
+    [
+     "Where's the smoke coming from?",
+     "연기가 어디서 나죠?"
+    ]
+   ],
+   "mcq": [
+    "He quit smoke last year.",
+    "He quit smoking last year.",
+    "He quit to smoke last year.",
+    "He quitted smoking last year."
+   ],
+   "ans": 1,
+   "note": "smoke = 흡연하다/연기. quit smoking = 금연하다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "yield",
+   "ko": "산출하다, 양보하다, 수익",
+   "ex": "The investment yields 5%.",
+   "exko": "그 투자는 5% 수익이 나요.",
+   "use": [
+    [
+     "Yield to pedestrians.",
+     "보행자에게 양보하세요."
+    ],
+    [
+     "The talks yielded no results.",
+     "협상은 성과가 없었어요."
+    ]
+   ],
+   "mcq": [
+    "The survey yielded useful data.",
+    "The survey yielded to useful data.",
+    "The survey was yielded useful data.",
+    "The survey yield useful data yesterday."
+   ],
+   "ans": 0,
+   "note": "yield N = 낳다/산출하다. yield to = 양보하다. 명사 yield = 수익률.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "bore",
+   "ko": "지루하게 하다",
+   "ex": "This movie bores me.",
+   "exko": "이 영화 지루해요.",
+   "use": [
+    [
+     "I'm bored.",
+     "심심해요."
+    ],
+    [
+     "Sorry to bore you with details.",
+     "자세한 얘기로 지루하게 해서 미안해요."
+    ]
+   ],
+   "mcq": [
+    "The long speech was bored everyone.",
+    "The long speech bore everyone yesterday.",
+    "The long speech bored to everyone.",
+    "The long speech bored everyone."
+   ],
+   "ans": 3,
+   "note": "bored(사람이 지루한) / boring(지루하게 하는). 명사 boredom.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "tear",
+   "ko": "찢다, 눈물",
+   "ex": "I tore my jeans.",
+   "exko": "청바지가 찢어졌어요.",
+   "use": [
+    [
+     "Tear along the line.",
+     "선을 따라 찢으세요."
+    ],
+    [
+     "She was in tears.",
+     "그녀는 눈물을 흘리고 있었어요."
+    ]
+   ],
+   "mcq": [
+    "He tore the letter in half.",
+    "He was tore the letter in half.",
+    "He teared the letter in half.",
+    "He tore the letter to half."
+   ],
+   "ans": 0,
+   "note": "tear[테어]-tore-torn = 찢다 / tear[티어] = 눈물. 발음 다름!",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "knock",
+   "ko": "노크하다, 치다",
+   "ex": "Someone's knocking.",
+   "exko": "누가 문을 두드려요.",
+   "use": [
+    [
+     "Knock before entering.",
+     "들어오기 전에 노크하세요."
+    ],
+    [
+     "Knock it off!",
+     "그만해!"
+    ]
+   ],
+   "mcq": [
+    "Please knock on the door first.",
+    "Please knock the door first.",
+    "Please knocking on the door first.",
+    "Please knock at on the door first."
+   ],
+   "ans": 0,
+   "note": "knock on/at the door. knock out = 쓰러뜨리다, knock it off = 그만해.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "cook",
+   "ko": "요리하다, 요리사",
+   "ex": "Who cooks at home?",
+   "exko": "집에서 누가 요리해요?",
+   "use": [
+    [
+     "I'm cooking dinner.",
+     "저녁 만들고 있어요."
+    ],
+    [
+     "He's a great cook.",
+     "그는 요리를 잘해요."
+    ]
+   ],
+   "mcq": [
+    "I was cooked pasta for dinner.",
+    "I cook pasta for dinner yesterday.",
+    "I cooked pasta to dinner.",
+    "I cooked pasta for dinner."
+   ],
+   "ans": 3,
+   "note": "cook = 요리하다/요리하는 사람. cooker는 조리 기구!",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "tie",
+   "ko": "묶다, 넥타이, 동점",
+   "ex": "Tie your shoes.",
+   "exko": "신발 끈 묶으세요.",
+   "use": [
+    [
+     "The game ended in a tie.",
+     "경기는 동점으로 끝났어요."
+    ],
+    [
+     "I'm tied up all day.",
+     "하루 종일 바빠요."
+    ]
+   ],
+   "mcq": [
+    "I'm tied with up work right now.",
+    "I'm tie up with work right now.",
+    "I'm tied up with work right now.",
+    "I'm tied up to work right now."
+   ],
+   "ans": 2,
+   "note": "tie N = 묶다. be tied up = 바쁘다. 명사 tie = 넥타이/동점.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "spell",
+   "ko": "철자를 쓰다, 주문",
+   "ex": "How do you spell that?",
+   "exko": "그거 철자가 어떻게 돼요?",
+   "use": [
+    [
+     "Can you spell it out?",
+     "자세히 설명해 줄래요?"
+    ],
+    [
+     "I spelled it wrong.",
+     "철자를 틀렸어요."
+    ]
+   ],
+   "mcq": [
+    "Could you spell to your name, please?",
+    "Could you spelling your name, please?",
+    "Could you spell out your name please to?",
+    "Could you spell your name, please?"
+   ],
+   "ans": 3,
+   "note": "spell N. spell out = 또박또박 말하다/자세히 설명. 명사 spelling.",
+   "wk": "2026-W44"
   }
  ]
 }

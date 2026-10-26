@@ -5002,6 +5002,506 @@
    "ans": 3,
    "note": "replace A with B. 명사 replacement.",
    "wk": "2026-W43"
+  },
+  {
+   "w": "win",
+   "ko": "이기다, 얻다",
+   "ex": "We won the game!",
+   "exko": "우리가 경기 이겼어요!",
+   "use": [
+    [
+     "She won first prize.",
+     "그녀가 1등 상을 받았어요."
+    ],
+    [
+     "You can't win them all.",
+     "다 이길 수는 없죠."
+    ]
+   ],
+   "mcq": [
+    "Who winned the match?",
+    "Who won the match?",
+    "Who did won the match?",
+    "Who won to the match?"
+   ],
+   "ans": 1,
+   "note": "win-won-won. win a game/prize (사람을 이기다는 beat!).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "rise",
+   "ko": "오르다, 일어나다",
+   "ex": "Prices are rising.",
+   "exko": "가격이 오르고 있어요.",
+   "use": [
+    [
+     "The sun rises at six.",
+     "해가 6시에 떠요."
+    ],
+    [
+     "He rose from his seat.",
+     "그는 자리에서 일어났어요."
+    ]
+   ],
+   "mcq": [
+    "Temperatures rised sharply yesterday.",
+    "Temperatures rose sharply yesterday.",
+    "Temperatures were rose sharply yesterday.",
+    "Temperatures raised sharply yesterday."
+   ],
+   "ans": 1,
+   "note": "rise-rose-risen (자동사). raise는 '올리다'(타동사)!",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "die",
+   "ko": "죽다",
+   "ex": "My phone died.",
+   "exko": "폰이 꺼졌어요(배터리).",
+   "use": [
+    [
+     "The plant died.",
+     "식물이 죽었어요."
+    ],
+    [
+     "I'm dying to see it.",
+     "그거 보고 싶어 죽겠어요."
+    ]
+   ],
+   "mcq": [
+    "My battery is dieing.",
+    "My battery dies now.",
+    "My battery is dying.",
+    "My battery is died."
+   ],
+   "ans": 2,
+   "note": "die-died-died, 진행형 dying. be dying to V = 몹시 ~하고 싶다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "bear",
+   "ko": "견디다, 곰",
+   "ex": "I can't bear the noise.",
+   "exko": "그 소음을 못 참겠어요.",
+   "use": [
+    [
+     "Bear with me.",
+     "조금만 참아 주세요."
+    ],
+    [
+     "We saw a bear.",
+     "곰을 봤어요."
+    ]
+   ],
+   "mcq": [
+    "Please bear me for a moment.",
+    "Please bearing with me for a moment.",
+    "Please bear on me for a moment.",
+    "Please bear with me for a moment."
+   ],
+   "ans": 3,
+   "note": "bear with 사람 = 잠시 참고 기다려 주다. bear in mind = 명심하다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "judge",
+   "ko": "판단하다, 판사",
+   "ex": "Don't judge me.",
+   "exko": "날 판단하지 마.",
+   "use": [
+    [
+     "Don't judge a book by its cover.",
+     "겉만 보고 판단하지 마세요."
+    ],
+    [
+     "The judge made a decision.",
+     "판사가 결정을 내렸어요."
+    ]
+   ],
+   "mcq": [
+    "It's hard to judging from here.",
+    "It's hard to judge at from here.",
+    "It's hard for judge from here.",
+    "It's hard to judge from here."
+   ],
+   "ans": 3,
+   "note": "judge N / judge from N. 명사 judge(판사), judgment(판단).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "marry",
+   "ko": "결혼하다",
+   "ex": "Will you marry me?",
+   "exko": "나와 결혼해 줄래요?",
+   "use": [
+    [
+     "They got married last year.",
+     "그들은 작년에 결혼했어요."
+    ],
+    [
+     "She married a doctor.",
+     "그녀는 의사와 결혼했어요."
+    ]
+   ],
+   "mcq": [
+    "He married his college girlfriend.",
+    "He married with his college girlfriend.",
+    "He married to his college girlfriend.",
+    "He got marry his college girlfriend."
+   ],
+   "ans": 0,
+   "note": "marry 사람 (with ❌) / be married to 사람. 명사 marriage.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "seek",
+   "ko": "찾다, 구하다",
+   "ex": "We're seeking a new manager.",
+   "exko": "새 매니저를 찾고 있어요.",
+   "use": [
+    [
+     "Seek help if you need it.",
+     "필요하면 도움을 구하세요."
+    ],
+    [
+     "Hide and seek",
+     "숨바꼭질"
+    ]
+   ],
+   "mcq": [
+    "They are seek advice from experts.",
+    "They are seeking advice from experts.",
+    "They are seeking for advice from experts.",
+    "They are seeking to advice from experts."
+   ],
+   "ans": 1,
+   "note": "seek N (for ❌). seek-sought-sought. look for의 격식.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "supply",
+   "ko": "공급하다, 공급",
+   "ex": "The store supplies local restaurants.",
+   "exko": "그 가게는 지역 식당에 납품해요.",
+   "use": [
+    [
+     "Supply and demand",
+     "수요와 공급"
+    ],
+    [
+     "We're running low on supplies.",
+     "물품이 부족해지고 있어요."
+    ]
+   ],
+   "mcq": [
+    "The company supplies to carmakers parts.",
+    "The company supplies parts to carmakers.",
+    "The company supplies parts for to carmakers.",
+    "The company supply parts to carmakers."
+   ],
+   "ans": 1,
+   "note": "supply A to B / supply B with A. 명사 supplier(공급업체).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "refer",
+   "ko": "언급하다, 참조하다, 소개하다",
+   "ex": "Refer to page 10.",
+   "exko": "10페이지를 참조하세요.",
+   "use": [
+    [
+     "Who are you referring to?",
+     "누구 얘기하는 거예요?"
+    ],
+    [
+     "My doctor referred me to a specialist.",
+     "의사가 전문의를 소개해 줬어요."
+    ]
+   ],
+   "mcq": [
+    "Please refer the manual.",
+    "Please refer on the manual.",
+    "Please refer at the manual.",
+    "Please refer to the manual."
+   ],
+   "ans": 3,
+   "note": "refer to N (to 필수). 명사 reference, referral(소개).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "release",
+   "ko": "출시하다, 풀어 주다",
+   "ex": "The movie was released in May.",
+   "exko": "영화가 5월에 개봉했어요.",
+   "use": [
+    [
+     "Release the brake.",
+     "브레이크를 풀어요."
+    ],
+    [
+     "A press release",
+     "보도 자료"
+    ]
+   ],
+   "mcq": [
+    "The new album is was released today.",
+    "The new album was release today.",
+    "The new album released today.",
+    "The new album was released today."
+   ],
+   "ans": 3,
+   "note": "release N. new release = 신작. 명사·동사 동일.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "express",
+   "ko": "표현하다, 급행",
+   "ex": "Express yourself.",
+   "exko": "자신을 표현하세요.",
+   "use": [
+    [
+     "Take the express train.",
+     "급행열차를 타세요."
+    ],
+    [
+     "I can't express how grateful I am.",
+     "얼마나 감사한지 말로 못 해요."
+    ]
+   ],
+   "mcq": [
+    "She was expressed her concerns clearly.",
+    "She expressed about her concerns clearly.",
+    "She express her concerns clearly yesterday.",
+    "She expressed her concerns clearly."
+   ],
+   "ans": 3,
+   "note": "express N. 명사 expression, 형용사 express = 급행.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "identify",
+   "ko": "알아보다, 확인하다",
+   "ex": "Can you identify the problem?",
+   "exko": "문제가 뭔지 짚어 낼 수 있어요?",
+   "use": [
+    [
+     "I identified him by his voice.",
+     "목소리로 그를 알아봤어요."
+    ],
+    [
+     "I identify with the character.",
+     "그 인물에 공감해요."
+    ]
+   ],
+   "mcq": [
+    "We were identified three key issues.",
+    "We identify three key issues yesterday.",
+    "We identified about three key issues.",
+    "We identified three key issues."
+   ],
+   "ans": 3,
+   "note": "identify N. identify with = 공감하다. 명사 identity, ID.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "measure",
+   "ko": "측정하다, 조치",
+   "ex": "Measure the room first.",
+   "exko": "방 크기부터 재세요.",
+   "use": [
+    [
+     "We took measures to prevent it.",
+     "예방 조치를 취했어요."
+    ],
+    [
+     "Measure twice, cut once.",
+     "두 번 재고 한 번 자르라."
+    ]
+   ],
+   "mcq": [
+    "How are you measure success?",
+    "How do you measuring success?",
+    "How do you measure about success?",
+    "How do you measure success?"
+   ],
+   "ans": 3,
+   "note": "measure N. 명사 measurement(측정), measures(조치).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "search",
+   "ko": "찾다, 검색",
+   "ex": "I searched everywhere.",
+   "exko": "여기저기 다 찾아봤어요.",
+   "use": [
+    [
+     "Search for it online.",
+     "온라인으로 검색해 봐요."
+    ],
+    [
+     "Job search",
+     "구직"
+    ]
+   ],
+   "mcq": [
+    "I searching the room for my keys.",
+    "I searched to the room for my keys.",
+    "I searched the room for my keys.",
+    "I searched my keys in the room for."
+   ],
+   "ans": 2,
+   "note": "search 장소 for 물건. search for = 찾다. 명사도 search.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "define",
+   "ko": "정의하다",
+   "ex": "How do you define success?",
+   "exko": "성공을 어떻게 정의하세요?",
+   "use": [
+    [
+     "Define your goals.",
+     "목표를 분명히 하세요."
+    ],
+    [
+     "Clearly defined roles",
+     "명확히 정해진 역할"
+    ]
+   ],
+   "mcq": [
+    "The dictionary defines about the word clearly.",
+    "The dictionary defines the word clearly.",
+    "The dictionary is defines the word clearly.",
+    "The dictionary define the word clearly."
+   ],
+   "ans": 1,
+   "note": "define N. 명사 definition. well-defined = 명확한.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "extend",
+   "ko": "연장하다, 늘리다",
+   "ex": "Can we extend the deadline?",
+   "exko": "마감을 연장할 수 있을까요?",
+   "use": [
+    [
+     "I extended my stay.",
+     "체류를 연장했어요."
+    ],
+    [
+     "Extend a warm welcome",
+     "따뜻하게 환영하다"
+    ]
+   ],
+   "mcq": [
+    "They extend the contract for a year yesterday.",
+    "They extended the contract during a year.",
+    "They were extended the contract for a year.",
+    "They extended the contract for a year."
+   ],
+   "ans": 3,
+   "note": "extend N. 명사 extension(연장, 내선번호).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "perform",
+   "ko": "수행하다, 공연하다",
+   "ex": "She performed beautifully.",
+   "exko": "그녀는 멋지게 공연했어요.",
+   "use": [
+    [
+     "The team performed well.",
+     "팀이 좋은 성과를 냈어요."
+    ],
+    [
+     "Perform a task",
+     "업무를 수행하다"
+    ]
+   ],
+   "mcq": [
+    "The band will performs live tonight.",
+    "The band will perform alive tonight.",
+    "The band will performing live tonight.",
+    "The band will perform live tonight."
+   ],
+   "ans": 3,
+   "note": "perform N / perform well. 명사 performance.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "maintain",
+   "ko": "유지하다, 주장하다",
+   "ex": "Maintain a healthy weight.",
+   "exko": "건강한 체중을 유지하세요.",
+   "use": [
+    [
+     "He maintains that he's innocent.",
+     "그는 무죄라고 주장해요."
+    ],
+    [
+     "Maintain the equipment",
+     "장비를 관리하다"
+    ]
+   ],
+   "mcq": [
+    "It's hard to maintain a routine.",
+    "It's hard for maintain a routine.",
+    "It's hard to maintain on a routine.",
+    "It's hard to maintaining a routine."
+   ],
+   "ans": 0,
+   "note": "maintain N. 명사 maintenance(유지 보수).",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "discover",
+   "ko": "발견하다, 알게 되다",
+   "ex": "I discovered a great café.",
+   "exko": "좋은 카페를 발견했어요.",
+   "use": [
+    [
+     "Who discovered penicillin?",
+     "페니실린을 누가 발견했어요?"
+    ],
+    [
+     "I discovered that he lied.",
+     "그가 거짓말한 걸 알게 됐어요."
+    ]
+   ],
+   "mcq": [
+    "We discover a hidden beach yesterday.",
+    "We were discovered a hidden beach.",
+    "We discovered a hidden beach.",
+    "We discovered about a hidden beach."
+   ],
+   "ans": 2,
+   "note": "discover N (이미 있던 걸 찾다) vs invent(새로 만들다). 명사 discovery.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "reduce",
+   "ko": "줄이다",
+   "ex": "Reduce the heat.",
+   "exko": "불을 줄이세요.",
+   "use": [
+    [
+     "We reduced costs by 10%.",
+     "비용을 10% 줄였어요."
+    ],
+    [
+     "Reduce stress",
+     "스트레스를 줄이다"
+    ]
+   ],
+   "mcq": [
+    "The company reduced its prices.",
+    "The company reduced down its prices.",
+    "The company reduce its prices yesterday.",
+    "The company was reduced its prices."
+   ],
+   "ans": 0,
+   "note": "reduce N (by %). 명사 reduction. cut과 비슷.",
+   "wk": "2026-W44"
   }
  ]
 }

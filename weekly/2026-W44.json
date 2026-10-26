@@ -1,0 +1,54 @@
+{
+  "week": "2026-W44",
+  "label": "10월 26일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        {"expr": "It's on me", "ko": "제가 낼게요", "ex": "Put your wallet away — it's on me."},
+        {"expr": "📘 단어: refill / reheat", "ko": "다시 채우다, 리필 / 데우다", "ex": "Can I get a refill? → I reheated the soup. (free refills, reheat leftovers)"},
+        {"expr": "Fair enough", "ko": "그럴 만하네요, 알겠어요", "ex": "I can't come, I have work. — Fair enough."},
+        {"expr": "📘 단어: tighten / loosen", "ko": "조이다, 강화하다 / 느슨하게 하다", "ex": "Tighten the screw. → Loosen your tie. (tighten a rule = 규정을 강화하다)"},
+        {"expr": "What for?", "ko": "뭐 하려고요? 왜요?", "ex": "I need your ID. — What for?"}
+      ],
+      "quiz": [
+        {"q": "Don't worry about the bill — ___ .", "options": ["it's for me", "it's on me", "it's by me", "it's of me"], "answer": 1, "note": "It's on me = 내가 쏠게. 커피 한 잔부터 식사까지 다 OK!"},
+        {"q": "Could I get a ___ on my coffee?", "options": ["reheat", "tighten", "refill", "loosen"], "answer": 2, "note": "a refill = 리필. 카페에서 Can I get a refill? 한마디면 끝."},
+        {"q": "I'd rather stay home tonight. — ___ , let's do it next week.", "options": ["Fair enough", "Enough fair", "Fairly enough", "Enough of fair"], "answer": 0, "note": "Fair enough = 그래, 이해해. 상대 이유를 받아들일 때!"},
+        {"q": "The belt is too tight — can you ___ it a bit?", "options": ["refill", "tighten", "reheat", "loosen"], "answer": 3, "note": "loosen = 느슨하게 하다. loosen up = 긴장을 풀다."},
+        {"q": "Can you bring me a hammer? — ___ ?", "options": ["For what", "What for", "Why for", "What's for"], "answer": 1, "note": "What for? = 뭐 하려고? Why?보다 캐주얼한 되물음."}
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        {"expr": "Call the shots", "ko": "결정권을 쥐다, 지휘하다", "ex": "In this project, the client calls the shots."},
+        {"expr": "📘 단어: cautious / bold", "ko": "조심스러운 / 대담한", "ex": "Be cautious with your money. → It was a bold move. (cautious about N, a bold decision)"},
+        {"expr": "Off the record", "ko": "비공식적으로, 기록에 안 남기고", "ex": "Off the record, I think the plan will fail."},
+        {"expr": "📘 단어: reassure / overwhelm", "ko": "안심시키다 / 압도하다, 벅차게 하다", "ex": "She reassured me it was fine. → I'm overwhelmed with work. (reassure 사람 that ~, be overwhelmed with/by N)"},
+        {"expr": "In the same boat", "ko": "같은 처지다", "ex": "We're all in the same boat — nobody got the bonus."}
+      ],
+      "quiz": [
+        {"q": "Who ___ around here?", "options": ["calls the shots", "calls the shoots", "takes the shots", "makes the shots"], "answer": 0, "note": "call the shots = 결정을 내리는 사람이다. 보스가 누구냐 할 때!"},
+        {"q": "Investors are ___ about the new market.", "options": ["bold", "overwhelmed", "cautious", "reassured"], "answer": 2, "note": "cautious about N = ~에 조심스러운. 명사 caution, 부사 cautiously."},
+        {"q": "Can I tell you something ___ ?", "options": ["out of the record", "off the record", "off record", "beside the record"], "answer": 1, "note": "off the record = 공식 기록 아닌 걸로. 반대는 on the record."},
+        {"q": "The doctor ___ me that the test was normal.", "options": ["overwhelmed", "bolded", "cautioned", "reassured"], "answer": 3, "note": "reassure 사람 (that ~) = 안심시키다. 명사 reassurance."},
+        {"q": "I lost my job too — we're ___ .", "options": ["on the same boat", "in the same ship", "in the same boat", "at the same boat"], "answer": 2, "note": "in the same boat = 같은 처지. 전치사 in!"}
+      ]
+    },
+    "challenge": {
+      "cards": [
+        {"expr": "Pull your weight", "ko": "제 몫을 하다", "ex": "Everyone needs to pull their weight on this team."},
+        {"expr": "📘 단어: baffle / intrigue", "ko": "당황하게 하다, 도무지 이해 안 되게 하다 / 흥미를 끌다", "ex": "The error baffled the engineers. → The offer intrigues me. (baffled by N, intrigued by N)"},
+        {"expr": "Put something on ice", "ko": "(계획을) 보류하다", "ex": "We put the expansion plan on ice until next year."},
+        {"expr": "📘 단어: humiliate / console", "ko": "굴욕감을 주다 / 위로하다", "ex": "He was humiliated in front of everyone. → She consoled her friend. (humiliating defeat, console 사람)"},
+        {"expr": "Throw someone under the bus", "ko": "남을 희생양으로 삼다", "ex": "He threw his colleague under the bus to save himself."}
+      ],
+      "quiz": [
+        {"q": "If you don't ___ , the rest of us have to work harder.", "hint": "자기 체중을 끌다 = 제 몫을 하다", "accept": ["pull your weight", "pull your own weight"], "note": "pull one's weight = 자기 몫을 하다. 팀 얘기할 때 딱."},
+        {"q": "The sudden drop in sales ___ everyone.", "hint": "도무지 이해 안 되게 하다 (b로 시작, 과거형)", "accept": ["baffled"], "note": "baffle = 완전히 어리둥절하게 하다. I'm baffled = 도통 모르겠다."},
+        {"q": "Because of the budget cut, the project was ___ .", "hint": "얼음 위에 두다 = 보류하다", "accept": ["put on ice"], "note": "put on ice = 보류하다. on the back burner와 비슷."},
+        {"q": "After the loss, his teammates tried to ___ him.", "hint": "위로하다 (c로 시작)", "accept": ["console"], "note": "console = 위로하다. 동사 강세는 뒤[kənˈsoʊl], 명사(게임기)는 앞."},
+        {"q": "Don't blame me to the boss — don't ___ .", "hint": "나를 버스 밑으로 던지다", "accept": ["throw me under the bus"], "note": "throw 사람 under the bus = 자기 살려고 남을 희생시키다."}
+      ]
+    }
+  }
+}

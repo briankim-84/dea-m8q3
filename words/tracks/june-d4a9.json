@@ -5002,6 +5002,506 @@
    "ans": 1,
    "note": "rectify N = 잘못을 고치다 (fix의 격식). 명사 rectification.",
    "wk": "2026-W43"
+  },
+  {
+   "w": "abate",
+   "ko": "약해지다, 가라앉다",
+   "ex": "The storm abated.",
+   "exko": "폭풍이 잦아들었어요.",
+   "use": [
+    [
+     "Interest in the show has abated.",
+     "그 쇼에 대한 관심이 식었어요."
+    ],
+    [
+     "The pain abated.",
+     "통증이 가라앉았어요."
+    ]
+   ],
+   "mcq": [
+    "The noise finally abated after midnight.",
+    "The noise finally was abated after midnight.",
+    "The noise finally abated to after midnight.",
+    "The noise finally abate after midnight."
+   ],
+   "ans": 0,
+   "note": "abate (자동사) = 강도가 줄다. 명사 abatement.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "accrue",
+   "ko": "(이자·이익이) 쌓이다",
+   "ex": "Interest accrues daily.",
+   "exko": "이자가 매일 붙어요.",
+   "use": [
+    [
+     "Benefits accrue over time.",
+     "혜택은 시간이 지나며 쌓여요."
+    ],
+    [
+     "Accrued vacation days",
+     "적립된 휴가일"
+    ]
+   ],
+   "mcq": [
+    "Points accrue to with every purchase.",
+    "Points accrues with every purchase.",
+    "Points are accrue with every purchase.",
+    "Points accrue with every purchase."
+   ],
+   "ans": 3,
+   "note": "accrue (to 사람) = 점차 쌓이다. 회계 단골 단어.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "adjourn",
+   "ko": "휴회하다, 연기하다",
+   "ex": "The meeting was adjourned.",
+   "exko": "회의가 휴회됐어요.",
+   "use": [
+    [
+     "Let's adjourn until Monday.",
+     "월요일까지 휴회합시다."
+    ],
+    [
+     "Court is adjourned.",
+     "휴정합니다."
+    ]
+   ],
+   "mcq": [
+    "The judge adjourned to the trial for a week.",
+    "The judge was adjourned the trial for a week.",
+    "The judge adjourned the trial for a week.",
+    "The judge adjourn the trial for a week yesterday."
+   ],
+   "ans": 2,
+   "note": "adjourn = 회의·재판을 잠시 중단하다. 명사 adjournment.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "allude",
+   "ko": "암시하다, 넌지시 언급하다",
+   "ex": "He alluded to his past.",
+   "exko": "그는 과거를 넌지시 언급했어요.",
+   "use": [
+    [
+     "She alluded to a possible merger.",
+     "그녀는 합병 가능성을 암시했어요."
+    ],
+    [
+     "What are you alluding to?",
+     "뭘 암시하는 거예요?"
+    ]
+   ],
+   "mcq": [
+    "The speaker alluded to recent events.",
+    "The speaker alluded for recent events.",
+    "The speaker alluded at recent events.",
+    "The speaker alluded recent events."
+   ],
+   "ans": 0,
+   "note": "allude to N (to 필수). 명사 allusion. elude(피하다)와 구별!",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "amend",
+   "ko": "수정하다, 개정하다",
+   "ex": "The law was amended.",
+   "exko": "법이 개정됐어요.",
+   "use": [
+    [
+     "Amend the contract.",
+     "계약서를 수정하세요."
+    ],
+    [
+     "Make amends",
+     "잘못을 바로잡다(보상하다)"
+    ]
+   ],
+   "mcq": [
+    "They amended the rules last year.",
+    "They were amended the rules last year.",
+    "They amended to the rules last year.",
+    "They amend the rules last year."
+   ],
+   "ans": 0,
+   "note": "amend N = 공식 문서를 고치다. 명사 amendment. make amends = 사과·보상하다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "annul",
+   "ko": "무효로 하다",
+   "ex": "The marriage was annulled.",
+   "exko": "그 결혼은 무효가 됐어요.",
+   "use": [
+    [
+     "The court annulled the contract.",
+     "법원이 계약을 무효화했어요."
+    ],
+    [
+     "Annul the election results",
+     "선거 결과를 무효로 하다"
+    ]
+   ],
+   "mcq": [
+    "The deal was annul by the court.",
+    "The deal was annulled to by the court.",
+    "The deal annulled by the court.",
+    "The deal was annulled by the court."
+   ],
+   "ans": 3,
+   "note": "annul = 법적으로 무효화하다. 명사 annulment.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "apprehend",
+   "ko": "체포하다, 이해하다",
+   "ex": "Police apprehended the suspect.",
+   "exko": "경찰이 용의자를 체포했어요.",
+   "use": [
+    [
+     "Hard to apprehend",
+     "이해하기 어려운"
+    ],
+    [
+     "The thief was apprehended.",
+     "도둑이 잡혔어요."
+    ]
+   ],
+   "mcq": [
+    "Officers apprehended to two men near the bank.",
+    "Officers were apprehended two men near the bank.",
+    "Officers apprehended two men near the bank.",
+    "Officers apprehend two men near the bank yesterday."
+   ],
+   "ans": 2,
+   "note": "apprehend = 체포하다(격식). 명사 apprehension = 체포/불안.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "assimilate",
+   "ko": "동화되다, 흡수하다",
+   "ex": "Immigrants assimilate over time.",
+   "exko": "이민자들은 시간이 지나며 동화돼요.",
+   "use": [
+    [
+     "Assimilate new information",
+     "새 정보를 소화하다"
+    ],
+    [
+     "It takes time to assimilate.",
+     "적응하는 데 시간이 걸려요."
+    ]
+   ],
+   "mcq": [
+    "It took years to assimilate to into the culture.",
+    "It took years to assimilate into the culture.",
+    "It took years for assimilate into the culture.",
+    "It took years to assimilating into the culture."
+   ],
+   "ans": 1,
+   "note": "assimilate into N = 동화되다 / assimilate N = 흡수하다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "bestow",
+   "ko": "수여하다, 주다",
+   "ex": "The award was bestowed on her.",
+   "exko": "그녀에게 상이 수여됐어요.",
+   "use": [
+    [
+     "Bestow an honor",
+     "명예를 수여하다"
+    ],
+    [
+     "A title bestowed by the king",
+     "왕이 내린 칭호"
+    ]
+   ],
+   "mcq": [
+    "The university bestowed an honorary degree to him.",
+    "The university bestowed an honorary degree for him.",
+    "The university bestowed an honorary degree on him.",
+    "The university bestowed him an honorary degree on."
+   ],
+   "ans": 2,
+   "note": "bestow A on 사람 (격식). give의 아주 격식적 표현.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "circumvent",
+   "ko": "우회하다, 피하다",
+   "ex": "They circumvented the rules.",
+   "exko": "그들은 규정을 피해 갔어요.",
+   "use": [
+    [
+     "Circumvent the problem",
+     "문제를 우회하다"
+    ],
+    [
+     "Don't try to circumvent the process.",
+     "절차를 우회하려 하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "The company circumvented to the tax law.",
+    "The company circumvent the tax law yesterday.",
+    "The company circumvented the tax law.",
+    "The company was circumvented the tax law."
+   ],
+   "ans": 2,
+   "note": "circumvent N = 규정·장애를 교묘히 피하다. circum- = 둘레.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "coerce",
+   "ko": "강요하다, 강압하다",
+   "ex": "He was coerced into signing.",
+   "exko": "그는 강압에 의해 서명했어요.",
+   "use": [
+    [
+     "Don't coerce them.",
+     "강요하지 마세요."
+    ],
+    [
+     "Coerced confession",
+     "강요된 자백"
+    ]
+   ],
+   "mcq": [
+    "They coerced him for confessing.",
+    "They coerced him into confessing.",
+    "They coerced him to confessing.",
+    "They coerced him into confess."
+   ],
+   "ans": 1,
+   "note": "coerce 사람 into -ing. 명사 coercion. force의 격식.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "commence",
+   "ko": "시작하다",
+   "ex": "The ceremony will commence at 10.",
+   "exko": "식은 10시에 시작합니다.",
+   "use": [
+    [
+     "Work commenced in March.",
+     "작업은 3월에 시작됐어요."
+    ],
+    [
+     "Commencement ceremony",
+     "졸업식"
+    ]
+   ],
+   "mcq": [
+    "The meeting commenced with a short speech.",
+    "The meeting commence with a short speech yesterday.",
+    "The meeting was commenced with a short speech.",
+    "The meeting commenced to with a short speech."
+   ],
+   "ans": 0,
+   "note": "commence = begin의 격식. 명사 commencement = 시작/졸업식.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "condense",
+   "ko": "응축하다, 압축하다",
+   "ex": "Condense the report to one page.",
+   "exko": "보고서를 한 페이지로 줄이세요.",
+   "use": [
+    [
+     "Steam condenses into water.",
+     "증기가 물로 응결돼요."
+    ],
+    [
+     "Condensed milk",
+     "연유"
+    ]
+   ],
+   "mcq": [
+    "Can you condense this to into a summary?",
+    "Can you condensing this into a summary?",
+    "Can you condense for this into a summary?",
+    "Can you condense this into a summary?"
+   ],
+   "ans": 3,
+   "note": "condense A into B = 압축하다. 명사 condensation.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "corroborate",
+   "ko": "확증하다, 뒷받침하다",
+   "ex": "The evidence corroborates his story.",
+   "exko": "증거가 그의 진술을 뒷받침해요.",
+   "use": [
+    [
+     "Witnesses corroborated the account.",
+     "목격자들이 진술을 확인해 줬어요."
+    ],
+    [
+     "Corroborating evidence",
+     "보강 증거"
+    ]
+   ],
+   "mcq": [
+    "The data corroborates to our hypothesis.",
+    "The data is corroborates our hypothesis.",
+    "The data corroborates our hypothesis.",
+    "The data corroborate our hypothesis."
+   ],
+   "ans": 2,
+   "note": "corroborate N = 다른 증거로 확인해 주다. 명사 corroboration.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "culminate",
+   "ko": "정점에 이르다, 끝나다",
+   "ex": "The event culminated in a fireworks show.",
+   "exko": "행사는 불꽃놀이로 마무리됐어요.",
+   "use": [
+    [
+     "Years of work culminated in success.",
+     "수년의 노력이 성공으로 결실을 맺었어요."
+    ],
+    [
+     "The tour culminates in Seoul.",
+     "투어는 서울에서 끝나요."
+    ]
+   ],
+   "mcq": [
+    "The festival culminated a huge parade.",
+    "The festival culminated to a huge parade.",
+    "The festival culminate in a huge parade yesterday.",
+    "The festival culminated in a huge parade."
+   ],
+   "ans": 3,
+   "note": "culminate in N = ~로 절정에 이르다. 명사 culmination.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "debunk",
+   "ko": "(거짓임을) 밝히다",
+   "ex": "Scientists debunked the myth.",
+   "exko": "과학자들이 그 속설이 틀렸음을 밝혔어요.",
+   "use": [
+    [
+     "Debunk a rumor",
+     "소문을 반박하다"
+    ],
+    [
+     "The claim was quickly debunked.",
+     "그 주장은 금방 거짓으로 드러났어요."
+    ]
+   ],
+   "mcq": [
+    "The article debunk several health myths.",
+    "The article debunks to several health myths.",
+    "The article debunks several health myths.",
+    "The article is debunks several health myths."
+   ],
+   "ans": 2,
+   "note": "debunk N = 널리 믿는 것이 틀렸음을 입증하다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "decipher",
+   "ko": "해독하다, 알아내다",
+   "ex": "I can't decipher his handwriting.",
+   "exko": "그의 글씨를 못 읽겠어요.",
+   "use": [
+    [
+     "Decipher the code",
+     "암호를 해독하다"
+    ],
+    [
+     "It took hours to decipher the message.",
+     "메시지를 해독하는 데 몇 시간 걸렸어요."
+    ]
+   ],
+   "mcq": [
+    "Can you deciphering this note?",
+    "Can you decipher out this note?",
+    "Can you decipher this note?",
+    "Can you decipher to this note?"
+   ],
+   "ans": 2,
+   "note": "decipher N = 알아보기 어려운 것을 읽어 내다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "denote",
+   "ko": "나타내다, 의미하다",
+   "ex": "The red light denotes danger.",
+   "exko": "빨간불은 위험을 나타내요.",
+   "use": [
+    [
+     "The symbol denotes 'and'.",
+     "그 기호는 'and'를 뜻해요."
+    ],
+    [
+     "What does this mark denote?",
+     "이 표시는 뭘 뜻해요?"
+    ]
+   ],
+   "mcq": [
+    "An asterisk denotes to a required field.",
+    "An asterisk denote a required field.",
+    "An asterisk is denotes a required field.",
+    "An asterisk denotes a required field."
+   ],
+   "ans": 3,
+   "note": "denote N = 기호·단어가 ~를 뜻하다. connote(함축하다)와 구별.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "discern",
+   "ko": "분별하다, 알아차리다",
+   "ex": "I could discern a faint light.",
+   "exko": "희미한 빛을 알아볼 수 있었어요.",
+   "use": [
+    [
+     "Discern right from wrong",
+     "옳고 그름을 분별하다"
+    ],
+    [
+     "It's hard to discern his intentions.",
+     "그의 의도를 파악하기 어려워요."
+    ]
+   ],
+   "mcq": [
+    "We could barely discern of the shape.",
+    "We could barely discerning the shape.",
+    "We could barely discern the shape.",
+    "We could barely discern to the shape."
+   ],
+   "ans": 2,
+   "note": "discern N = 잘 안 보이는 걸 알아차리다. 형용사 discerning = 안목 있는.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "disperse",
+   "ko": "흩어지다, 해산시키다",
+   "ex": "The crowd dispersed.",
+   "exko": "군중이 흩어졌어요.",
+   "use": [
+    [
+     "Police dispersed the protesters.",
+     "경찰이 시위대를 해산시켰어요."
+    ],
+    [
+     "Seeds are dispersed by wind.",
+     "씨앗은 바람에 퍼져요."
+    ]
+   ],
+   "mcq": [
+    "The fog was dispersed itself by noon.",
+    "The fog dispersed to by noon.",
+    "The fog disperse by noon yesterday.",
+    "The fog dispersed by noon."
+   ],
+   "ans": 3,
+   "note": "disperse = 흩어지다/흩어지게 하다. 명사 dispersal.",
+   "wk": "2026-W44"
   }
  ]
 }

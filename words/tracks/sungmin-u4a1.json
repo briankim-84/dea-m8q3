@@ -5002,6 +5002,506 @@
    "ans": 3,
    "note": "impartial = 어느 편도 안 드는. 반대 partial/biased. 명사 impartiality.",
    "wk": "2026-W43"
+  },
+  {
+   "w": "firm",
+   "ko": "확고한, 단단한, 회사",
+   "ex": "Be firm but polite.",
+   "exko": "단호하되 예의 있게.",
+   "use": [
+    [
+     "A firm handshake",
+     "힘 있는 악수"
+    ],
+    [
+     "She works at a law firm.",
+     "그녀는 법률 회사에서 일해요."
+    ]
+   ],
+   "mcq": [
+    "He gave a firmly answer.",
+    "He gave a firm answer.",
+    "He gave firm a answer.",
+    "He gave a firm of answer."
+   ],
+   "ans": 1,
+   "note": "firm(형) 확고한 / firm(명) 회사. 부사 firmly.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "tense",
+   "ko": "긴장한, 시제",
+   "ex": "The atmosphere was tense.",
+   "exko": "분위기가 긴장됐어요.",
+   "use": [
+    [
+     "My shoulders are tense.",
+     "어깨가 뭉쳤어요."
+    ],
+    [
+     "Past tense",
+     "과거 시제"
+    ]
+   ],
+   "mcq": [
+    "The meeting got tense of.",
+    "The meeting got tensely.",
+    "The meeting got tension.",
+    "The meeting got tense."
+   ],
+   "ans": 3,
+   "note": "tense(형) 긴장한 / tension(명). 문법 '시제'도 tense.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "alert",
+   "ko": "경계하는, 알림",
+   "ex": "Stay alert.",
+   "exko": "방심하지 마세요.",
+   "use": [
+    [
+     "I got an alert on my phone.",
+     "폰에 알림이 왔어요."
+    ],
+    [
+     "Be alert to the signs.",
+     "신호에 주의하세요."
+    ]
+   ],
+   "mcq": [
+    "Coffee keeps me alertly.",
+    "Coffee keeps me on alert of.",
+    "Coffee keeps me alert.",
+    "Coffee keeps me alertness."
+   ],
+   "ans": 2,
+   "note": "alert(형) 정신이 또렷한 / alert(명) 경보. alert 사람 to N = 알리다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "timid",
+   "ko": "소심한, 겁 많은",
+   "ex": "He's timid around strangers.",
+   "exko": "그는 낯선 사람 앞에서 소심해요.",
+   "use": [
+    [
+     "A timid knock",
+     "조심스러운 노크"
+    ],
+    [
+     "Don't be timid — ask.",
+     "겁내지 말고 물어보세요."
+    ]
+   ],
+   "mcq": [
+    "The puppy was timid of at first.",
+    "The puppy was timidity at first.",
+    "The puppy was timid at first.",
+    "The puppy was timidly at first."
+   ],
+   "ans": 2,
+   "note": "timid = 자신감 없고 겁 많은. 반대 bold.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "fond",
+   "ko": "좋아하는",
+   "ex": "I'm fond of jazz.",
+   "exko": "재즈를 좋아해요.",
+   "use": [
+    [
+     "Fond memories",
+     "소중한 추억"
+    ],
+    [
+     "She's very fond of her nephew.",
+     "그녀는 조카를 아주 아껴요."
+    ]
+   ],
+   "mcq": [
+    "I've grown fond to this city.",
+    "I've grown fond with this city.",
+    "I've grown fondly of this city.",
+    "I've grown fond of this city."
+   ],
+   "ans": 3,
+   "note": "be fond of N (of 필수). 명사 fondness. like보다 정이 담김.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "thankful",
+   "ko": "감사하는",
+   "ex": "I'm thankful for my family.",
+   "exko": "가족에게 감사해요.",
+   "use": [
+    [
+     "Be thankful.",
+     "감사하세요."
+    ],
+    [
+     "Thankfully, nobody was hurt.",
+     "다행히 아무도 안 다쳤어요."
+    ]
+   ],
+   "mcq": [
+    "We're thankfully for your support.",
+    "We're thankful for your support.",
+    "We're thankful of your support.",
+    "We're thankful to for your support."
+   ],
+   "ans": 1,
+   "note": "thankful for N. grateful과 같은 뜻. 부사 thankfully = 다행히.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "dreadful",
+   "ko": "끔찍한",
+   "ex": "The weather was dreadful.",
+   "exko": "날씨가 끔찍했어요.",
+   "use": [
+    [
+     "A dreadful mistake",
+     "끔찍한 실수"
+    ],
+    [
+     "I feel dreadful.",
+     "몸이 너무 안 좋아요."
+    ]
+   ],
+   "mcq": [
+    "The traffic was dreadful this morning.",
+    "The traffic was dread this morning.",
+    "The traffic was dreadful of this morning.",
+    "The traffic was dreadfully this morning."
+   ],
+   "ans": 0,
+   "note": "dreadful = 아주 나쁜. 동사 dread = 몹시 두려워하다.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "delighted",
+   "ko": "아주 기쁜",
+   "ex": "I'm delighted to meet you.",
+   "exko": "만나서 정말 기뻐요.",
+   "use": [
+    [
+     "She was delighted with the gift.",
+     "그녀는 선물에 아주 기뻐했어요."
+    ],
+    [
+     "Delighted to help!",
+     "기꺼이 도울게요!"
+    ]
+   ],
+   "mcq": [
+    "We're delight to announce our new store.",
+    "We're delighted to announce our new store.",
+    "We're delighted announce our new store.",
+    "We're delighted for announce our new store."
+   ],
+   "ans": 1,
+   "note": "delighted to V / with N. happy보다 격식·강조. 명사 delight.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "furious",
+   "ko": "격노한",
+   "ex": "My boss was furious.",
+   "exko": "상사가 격노했어요.",
+   "use": [
+    [
+     "She's furious with me.",
+     "그녀가 저한테 몹시 화났어요."
+    ],
+    [
+     "A furious storm",
+     "맹렬한 폭풍"
+    ]
+   ],
+   "mcq": [
+    "He was furious of the delay.",
+    "He was furious for the delay.",
+    "He was furious about the delay.",
+    "He was furiously about the delay."
+   ],
+   "ans": 2,
+   "note": "furious with 사람 / about N. angry보다 훨씬 강함. 명사 fury.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "startle",
+   "ko": "깜짝 놀라게 하다",
+   "ex": "You startled me!",
+   "exko": "깜짝 놀랐잖아요!",
+   "use": [
+    [
+     "The noise startled the cat.",
+     "소음에 고양이가 놀랐어요."
+    ],
+    [
+     "A startling fact",
+     "놀라운 사실"
+    ]
+   ],
+   "mcq": [
+    "I startled by the loud bang.",
+    "I was startled by the loud bang.",
+    "I was startled with the loud bang.",
+    "I was startle by the loud bang."
+   ],
+   "ans": 1,
+   "note": "startle 사람 = 갑자기 놀라게 하다. be startled by N.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "astonish",
+   "ko": "깜짝 놀라게 하다",
+   "ex": "Her talent astonished everyone.",
+   "exko": "그녀의 재능이 모두를 놀라게 했어요.",
+   "use": [
+    [
+     "I was astonished at the price.",
+     "가격에 깜짝 놀랐어요."
+    ],
+    [
+     "Astonishing results",
+     "놀라운 결과"
+    ]
+   ],
+   "mcq": [
+    "We were astonish by how fast it was.",
+    "We were astonished by how fast it was.",
+    "We astonished by how fast it was.",
+    "We were astonished of how fast it was."
+   ],
+   "ans": 1,
+   "note": "astonish = surprise보다 강함. astonished at/by N.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "bewilder",
+   "ko": "당황하게 하다, 어리둥절하게 하다",
+   "ex": "The rules bewildered me.",
+   "exko": "규칙이 저를 어리둥절하게 했어요.",
+   "use": [
+    [
+     "A bewildering number of options",
+     "어지러울 만큼 많은 선택지"
+    ],
+    [
+     "I'm completely bewildered.",
+     "완전히 혼란스러워요."
+    ]
+   ],
+   "mcq": [
+    "The complex menu bewildered the tourists.",
+    "The complex menu was bewildered the tourists.",
+    "The complex menu bewildered to the tourists.",
+    "The complex menu bewilder the tourists yesterday."
+   ],
+   "ans": 0,
+   "note": "bewilder = 너무 복잡해서 어리둥절. 명사 bewilderment.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "perplex",
+   "ko": "난감하게 하다, 당혹시키다",
+   "ex": "The question perplexed me.",
+   "exko": "그 질문에 당혹스러웠어요.",
+   "use": [
+    [
+     "A perplexing problem",
+     "난제"
+    ],
+    [
+     "He looked perplexed.",
+     "그는 난감한 표정이었어요."
+    ]
+   ],
+   "mcq": [
+    "The sudden change perplexed everyone.",
+    "The sudden change perplex everyone yesterday.",
+    "The sudden change perplexed to everyone.",
+    "The sudden change was perplexed everyone."
+   ],
+   "ans": 0,
+   "note": "perplex = 이해가 안 돼 난감하게 하다. 형용사 perplexed.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "captivate",
+   "ko": "매혹하다",
+   "ex": "The story captivated the audience.",
+   "exko": "그 이야기가 관객을 사로잡았어요.",
+   "use": [
+    [
+     "A captivating smile",
+     "매혹적인 미소"
+    ],
+    [
+     "I was captivated by the view.",
+     "경치에 매료됐어요."
+    ]
+   ],
+   "mcq": [
+    "Her voice captivated the whole room.",
+    "Her voice captivate the whole room yesterday.",
+    "Her voice captivated to the whole room.",
+    "Her voice was captivated the whole room."
+   ],
+   "ans": 0,
+   "note": "captivate = 마음을 사로잡다. 형용사 captivating.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "dazzle",
+   "ko": "눈부시게 하다, 감탄시키다",
+   "ex": "The lights dazzled me.",
+   "exko": "불빛이 눈부셨어요.",
+   "use": [
+    [
+     "She dazzled the judges.",
+     "그녀가 심사위원들을 감탄시켰어요."
+    ],
+    [
+     "A dazzling performance",
+     "눈부신 공연"
+    ]
+   ],
+   "mcq": [
+    "The fireworks dazzle the crowd yesterday.",
+    "The fireworks dazzled the crowd.",
+    "The fireworks dazzled to the crowd.",
+    "The fireworks were dazzled the crowd."
+   ],
+   "ans": 1,
+   "note": "dazzle = 눈부시게 하다/압도적으로 감탄시키다. 형용사 dazzling.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "soothe",
+   "ko": "진정시키다, 달래다",
+   "ex": "Music soothes me.",
+   "exko": "음악이 저를 진정시켜요.",
+   "use": [
+    [
+     "Soothe a crying baby",
+     "우는 아기를 달래다"
+    ],
+    [
+     "A soothing voice",
+     "차분한 목소리"
+    ]
+   ],
+   "mcq": [
+    "The cream soothes to dry skin.",
+    "The cream soothes dry skin.",
+    "The cream is soothes dry skin.",
+    "The cream soothe dry skin now."
+   ],
+   "ans": 1,
+   "note": "soothe = 아픔·불안을 가라앉히다. 형용사 soothing.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "outrage",
+   "ko": "격분, 격분시키다",
+   "ex": "The decision caused outrage.",
+   "exko": "그 결정은 공분을 일으켰어요.",
+   "use": [
+    [
+     "I'm outraged.",
+     "격분했어요."
+    ],
+    [
+     "Public outrage",
+     "대중의 분노"
+    ]
+   ],
+   "mcq": [
+    "The fans outraged by the result.",
+    "The fans were outraged with by the result.",
+    "The fans were outraged by the result.",
+    "The fans were outrage by the result."
+   ],
+   "ans": 2,
+   "note": "outrage = 격분(명)/격분시키다(동). 형용사 outrageous = 터무니없는.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "leftover",
+   "ko": "남은 음식, 남은",
+   "ex": "We had leftovers for lunch.",
+   "exko": "점심에 남은 음식 먹었어요.",
+   "use": [
+    [
+     "Leftover pizza",
+     "남은 피자"
+    ],
+    [
+     "Don't waste the leftovers.",
+     "남은 음식 버리지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I reheated leftovers the from last night.",
+    "I reheated the leftovers from last night.",
+    "I reheated the leftovers of last night from.",
+    "I reheated the leftover from last night."
+   ],
+   "ans": 1,
+   "note": "leftovers(복수) = 남은 음식. 형용사 leftover = 남은.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "enchant",
+   "ko": "매혹하다, 마법을 걸다",
+   "ex": "The city enchanted us.",
+   "exko": "그 도시에 매혹됐어요.",
+   "use": [
+    [
+     "An enchanting garden",
+     "매혹적인 정원"
+    ],
+    [
+     "Enchanted forest",
+     "마법의 숲"
+    ]
+   ],
+   "mcq": [
+    "I enchanted by the old town.",
+    "I was enchanted to the old town.",
+    "I was enchanted by the old town.",
+    "I was enchant by the old town."
+   ],
+   "ans": 2,
+   "note": "enchant = 황홀하게 하다. 형용사 enchanting, enchanted.",
+   "wk": "2026-W44"
+  },
+  {
+   "w": "dismay",
+   "ko": "실망, 경악",
+   "ex": "To my dismay, the shop was closed.",
+   "exko": "실망스럽게도 가게가 닫혀 있었어요.",
+   "use": [
+    [
+     "She was dismayed by the news.",
+     "그녀는 그 소식에 낙담했어요."
+    ],
+    [
+     "A look of dismay",
+     "낙담한 표정"
+    ]
+   ],
+   "mcq": [
+    "Fans reacted with a dismay.",
+    "Fans reacted with dismay.",
+    "Fans reacted with dismayed.",
+    "Fans reacted with dismaying."
+   ],
+   "ans": 1,
+   "note": "dismay = 실망·경악(명)/실망시키다(동). to my dismay = 실망스럽게도.",
+   "wk": "2026-W44"
   }
  ]
 }
