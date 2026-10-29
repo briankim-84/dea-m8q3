@@ -65,6 +65,11 @@
   .mstat.done b{color:#2E7D5B;}
   .mstat.todo{background:#FDF6E3;box-shadow:inset 0 0 0 1.5px #E8D9A8;}
   .mstat.todo b{color:#B08A1E;}
+  .mstat.todo{display:block;padding:8px 2px 7px;gap:0;}
+  .me .mrow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;}
+  .mstat b{font-size:14px;}
+  .mstat span{display:block;font-size:9.5px;line-height:1.25;word-break:keep-all;}
+  @media (max-width:360px){.me .mrow{grid-template-columns:repeat(2,minmax(0,1fr));}}
   .me .meline{margin-top:9px;font-family:'Nanum Pen Script';font-size:16.5px;color:#8A8268;text-align:center;}
 </style>
 </head>
@@ -83,6 +88,7 @@
       <div class="mstat" id="mq"><b>…</b><span>Weekly Quiz</span></div>
       <div class="mstat" id="mw"><b>…</b><span>이번 주 새 단어</span></div>
       <div class="mstat" id="mr"><b>…</b><span>오늘 복습</span></div>
+      <div class="mstat" id="ml" role="link" tabindex="0" style="cursor:pointer"><b>…</b><span>이번 주 실전 대화</span></div>
     </div>
     <div class="meline" id="mline"></div>
   </div>
@@ -214,6 +220,15 @@
         set("mr", rN===0?"✓ 0개":rN+"개", rN===0);
       }else{ $("mw").style.display="none"; $("mr").style.display="none"; }
     }catch(e){ $("mw").style.display="none"; $("mr").style.display="none"; }
+    /* 실전 대화 (이번 주) */
+    let lok=false;
+    try{
+      const lv=JSON.parse(localStorage.getItem("dewb:live")||"{}");
+      const ln=(lv.week===WK)?(lv.n||0):0; lok=ln>0;
+      set("ml", lok?"✓ "+ln+"회":"0회", lok);
+      const go=()=>{location.href="../talk/?s="+FOLDER;};
+      $("ml").onclick=go; $("ml").onkeydown=e=>{if(e.key==="Enter")go();};
+    }catch(e){ $("ml").style.display="none"; }
     /* 스트릭 */
     try{
       const ds=JSON.parse(localStorage.getItem("dewb:days")||"[]").sort();
@@ -232,6 +247,7 @@
     if(!qdone) line="이번 주 퀴즈가 기다리고 있어요 ✎";
     else if(hasTrack && rN>0) line="복습 "+rN+"개만 하면 오늘 끝!";
     else if(hasTrack && wLeft>0) line="새 단어 "+wLeft+"개 남았어요";
+    else if(!lok) line="이번 주 실전 대화 한 번 해 볼까요? 🎙";
     else line="오늘 할 일 끝! 최고예요 🎉";
     $("mline").textContent=line;
     $("me").style.display="block";
