@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lee · Class 31 · One Story, Every Tail</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;600;800&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1b2e;--ink:#10203a;--card:#16273f;--card2:#1c3150;--line:#2b4466;--gold:#c9a432;--gold2:#e4c05c;--white:#f4f1ea;--mute:#9fb0c6;--green:#3fbf7f;--teal:#2ec4b6;--red:#e06a5a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,'Noto Sans KR',sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line);gap:12px;flex-wrap:wrap}
+.brand{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800}h1{font-family:Fraunces,serif;font-size:26px;margin:2px 0 0}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}.tab{background:var(--card);border:1px solid var(--line);color:var(--mute);padding:8px 14px;border-radius:20px;cursor:pointer;font-weight:600;font-size:14px}.tab.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+main{padding:18px 24px;max-width:1240px;margin:0 auto}
+.sec{display:none}.sec.on{display:block}
+.intro{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+.intro h2{font-family:Fraunces,serif;font-size:30px;margin:0}.intro p{margin:4px 0 0;color:var(--mute);font-size:14px}
+.lab{font-size:11px;letter-spacing:2.5px;color:var(--gold);font-weight:800;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px;position:relative}
+.card .n{font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:800}
+.stem{font-size:21px;line-height:1.35}.stem u{text-decoration:none;border-bottom:2px dashed var(--gold);padding:0 28px;color:transparent}
+.stem u.show{color:var(--gold2);border-bottom-color:transparent;padding:0}
+.tag{display:inline-block;background:var(--ink);border:1.25px solid var(--gold);color:var(--gold2);padding:5px 11px;border-radius:16px;font-weight:700;font-size:13px;opacity:0;transition:.2s}
+.tag.show{opacity:1}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
+.btn{background:var(--card2);border:1px solid var(--line);color:var(--white);padding:8px 14px;border-radius:10px;cursor:pointer;font-weight:700;font-size:13px;font-family:inherit}
+.btn.gold{background:var(--gold);color:var(--ink);border-color:var(--gold)}.btn.teal{border-color:var(--teal);color:var(--teal)}.btn.red{border-color:var(--red);color:var(--red)}
+.card.ok{border-color:var(--green)}
+.ko{font-size:13px;color:var(--mute);line-height:1.4}
+/* R2 */
+.new{background:var(--card);border:1px solid var(--teal);border-radius:16px;padding:18px 20px;margin-bottom:14px}
+.new h3{font-family:Fraunces,serif;font-size:34px;margin:0;color:var(--teal)}
+.new .ko{font-size:15px;color:var(--white);margin:6px 0 12px}
+.ex{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.ex div{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-size:18px;line-height:1.35}
+.ex b{color:var(--teal);font-weight:800}
+.try{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.try .card{background:var(--ink)}
+/* R3 */
+.r3{display:grid;grid-template-columns:1fr 360px;gap:16px}
+.beat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:8px;display:flex;gap:14px;align-items:center}
+.beat .b{font-family:Fraunces,serif;font-size:26px;color:var(--gold2);width:34px}
+.beat .t{font-size:18px}.beat .s{font-size:13px;color:var(--mute);margin-top:2px}
+.check{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;position:sticky;top:12px}
+.ck{display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:8px;cursor:pointer;user-select:none}
+.ck:hover{background:var(--card2)}.ck .bx{width:22px;height:22px;border:2px solid var(--line);border-radius:6px;display:grid;place-items:center;font-size:14px;color:var(--ink);flex:none}
+.ck.on .bx{background:var(--green);border-color:var(--green)}.ck .nm{font-size:16px;font-weight:600}.ck.new .nm{color:var(--teal)}
+.ck .cnt{margin-left:auto;font-size:13px;color:var(--mute)}
+.total{font-family:Fraunces,serif;font-size:40px;color:var(--gold2);text-align:center;margin:6px 0 2px}.total small{font-size:14px;color:var(--mute);font-family:Inter}
+.miss{font-size:13px;color:var(--red);min-height:18px;text-align:center}
+/* R4 */
+.gw{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.big{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;min-height:260px;display:flex;flex-direction:column;gap:12px}
+.big .who{font-family:Fraunces,serif;font-size:34px}
+.big .must{display:flex;gap:8px;flex-wrap:wrap}
+.must span{background:var(--ink);border:1.25px solid var(--gold);color:var(--gold2);padding:6px 12px;border-radius:16px;font-weight:700;font-size:14px}
+.must span.new{border-color:var(--teal);color:var(--teal)}
+.big .ans{font-size:22px;line-height:1.4;color:var(--gold2);display:none}.big.show .ans{display:block}
+.big .sub{color:var(--mute);font-size:14px}
+@media(max-width:800px){.r3,.gw,.ex,.try{grid-template-columns:1fr}.check{position:static}}
+</style></head><body>
+<header><div><div class="brand">DO ENGLISH WITH BRIAN · LEE · CLASS 31</div><h1>One Story, Every Tail</h1></div>
+<nav class="tabs"><button class="tab on" data-s="0">① Warm-up</button><button class="tab" data-s="1">② Three New Tails</button><button class="tab" data-s="2">③ Tell It Again</button><button class="tab" data-s="3">④ Guess Who</button></nav></header>
+<main>
+
+<section class="sec on" id="s0">
+<div class="intro"><div><h2>Warm-up · 꼬리 붙이기</h2><p>C30에서 한 여덟 가지. 설명 없이 — 읽고, 꼬리 붙여서 말해요. 막히면 "어떤 꼬리?"만 누르고, 그래도 안 나오면 "예시".</p></div><button class="btn red" onclick="resetR1()">다시</button></div>
+<div class="grid" id="r1"></div>
+</section>
+
+<section class="sec" id="s1">
+<div class="intro"><div><h2>Three New Tails</h2><p>오늘 새로 붙이는 꼬리 세 개. 하나씩 — 보고, 찰랑 문장에 붙이고, 다음.</p></div></div>
+<div id="r2"></div>
+</section>
+
+<section class="sec" id="s2">
+<div class="intro"><div><h2>Tell It Again</h2><p>찰랑 이야기를 처음부터 다시. 이번엔 꼬리를 최소 <b style="color:var(--gold2)">8개</b>. Lee가 쓴 꼬리를 Brian이 체크해요.</p></div><button class="btn red" onclick="resetR3()">다시</button></div>
+<div class="r3"><div id="beats"></div>
+<aside class="check"><div class="lab">TAILS USED</div><div id="cks"></div><div class="total" id="tot">0 <small>/ 8</small></div><div class="miss" id="miss"></div></aside></div>
+</section>
+
+<section class="sec" id="s3">
+<div class="intro"><div><h2>Guess Who</h2><p>Brian이 꼬리 세 개로 묘사 → Lee가 맞히기. 그다음 Lee가 똑같이 Brian한테. 카드마다 꼭 써야 하는 꼬리가 정해져 있어요.</p></div><div style="display:flex;gap:8px"><button class="btn" onclick="gw(-1)">◀</button><button class="btn gold" onclick="gw(1)">다음 카드 ▶</button></div></div>
+<div class="gw"><div class="big" id="gwB"><div class="lab">BRIAN DESCRIBES · <span id="gwN"></span></div><div class="who" id="gwWho"></div><div class="must" id="gwMust"></div><div class="sub">세 문장. 각 문장에 꼬리 하나씩.</div><div class="ans" id="gwAns"></div><div class="row"><button class="btn teal" onclick="document.getElementById('gwB').classList.toggle('show')">예시 보기 / 숨기기</button></div></div>
+<div class="big"><div class="lab">LEE'S TURN</div><div class="who">Your pick.</div><div class="sub">Lee가 자기 주변 사람·물건 하나 골라서 같은 꼬리 세 개로. Brian이 맞혀요.</div><div class="must" id="gwMust2"></div><div class="sub" style="margin-top:auto">💡 회사 사람 · 헬스장 · 자주 가는 곳 · 전에 만난 사람</div></div></div>
+</section>
+</main>
+<script>
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');document.querySelectorAll('.sec').forEach((s,i)=>s.classList.toggle('on',i==+t.dataset.s));});
+
+// ① Warm-up — 8 old tails
+const R1=[
+ {pre:"OB is a company",tail:"that makes beer.",tag:"that",ko:"물건·회사 뒤"},
+ {pre:"The guy",mid:"runs the pub near my office.",tail:"who",tag:"who",ko:"사람 뒤",order:"mid"},
+ {pre:"Jeju is the place",tail:"where they make the soju.",tag:"where",ko:"장소 뒤, 뒤는 완전한 문장"},
+ {pre:"The soju",mid:"tried last night was 찰랑.",tail:"I",tag:"the ~ I ~",ko:"who/that 빼고 바로",order:"mid"},
+ {pre:"",tail:"What I like about this project is the story.",tag:"what I ~ is",ko:"강조",full:true},
+ {pre:"",tail:"The reason OB bought Jeju soju is distribution.",tag:"the reason ~ is",ko:"이유",full:true},
+ {pre:"My boss is",tail:"the kind of person who decides fast.",tag:"the kind of person who",ko:"타입"},
+ {pre:"They acquired a soju company,",tail:"which surprised everyone.",tag:", which",ko:"앞 문장 전체에 꼬리"}];
+function drawR1(){const g=document.getElementById('r1');g.innerHTML='';R1.forEach((r,i)=>{const c=document.createElement('div');c.className='card';
+ let stem;
+ if(r.full) stem=`<u>${r.tail}</u>`;
+ else if(r.order==='mid') stem=`${r.pre} <u>${r.tail}</u> ${r.mid}`;
+ else stem=`${r.pre} <u>${r.tail}</u>`;
+ c.innerHTML=`<div class="n">${i+1} / 8</div><div class="stem">${stem}</div><span class="tag">${r.tag} · ${r.ko}</span><div class="row"><button class="btn">어떤 꼬리?</button><button class="btn teal">예시</button><button class="btn gold">✓ 됐다</button></div>`;
+ const [b1,b2,b3]=c.querySelectorAll('button');b1.onclick=()=>c.querySelector('.tag').classList.add('show');b2.onclick=()=>{c.querySelector('u').classList.add('show');c.querySelector('.tag').classList.add('show')};b3.onclick=()=>c.classList.toggle('ok');g.appendChild(c);});}
+function resetR1(){drawR1()}drawR1();
+
+// ② Three new tails
+const R2=[
+ {t:"whose",ko:"‘~의’ 꼬리. 사람이든 회사든, 그 사람 <b>것</b>을 말할 때.",ex:["a company <b>whose</b> soju failed","a friend <b>whose</b> company just got acquired"],try:[["Shinsegae is a company","whose soju brand failed."],["I have a trainer","whose gym is near my house."]]},
+ {t:"when",ko:"시간 뒤에 붙는 꼬리. where랑 똑같이 뒤는 완전한 문장.",ex:["the year <b>when</b> OB acquired it","the day <b>when</b> I first tried 찰랑"],try:[["2024 was the year","when everything changed."],["I remember the night","when we had our first date."]]},
+ {t:"~ing / ~ed",ko:"who·that을 아예 빼고 동사만 붙이기. 제일 짧은 꼬리.",ex:["a soju <b>made</b> by OB","the people <b>drinking</b> at the pub"],try:[["I saw a guy","running in the rain."],["This is a plan","made by my team."]]}];
+const r2=document.getElementById('r2');R2.forEach((n,i)=>{const d=document.createElement('div');d.className='new';
+ d.innerHTML=`<div class="lab">NEW TAIL ${i+1} / 3</div><h3>${n.t}</h3><div class="ko">${n.ko}</div><div class="ex">${n.ex.map(e=>`<div>${e}</div>`).join('')}</div><div class="lab">NOW YOU · 찰랑 문장에 붙이기</div><div class="try">${n.try.map(t=>`<div class="card"><div class="stem">${t[0]} <u>${t[1]}</u></div><div class="row"><button class="btn teal">예시</button><button class="btn gold">✓ 됐다</button></div></div>`).join('')}</div>`;
+ d.querySelectorAll('.try .card').forEach(c=>{const [a,b]=c.querySelectorAll('button');a.onclick=()=>c.querySelector('u').classList.add('show');b.onclick=()=>c.classList.toggle('ok');});r2.appendChild(d);});
+
+// ③ Tell it again
+const BEATS=[["OB는 1등인데 소주가 없었다","number one · even though · convenience stores, beer pubs"],["유통이 핵심이라는 걸 깨달았다","realized · distribution · distributors"],["제주 소주 회사를 인수했다","acquired · used to be owned by Shinsegae"],["신세계는 이마트가 있는데도 실패했다","failed · E-mart · much bigger network"],["OB는 왜 실패했는지 연구했다","studied why · such a big network"],["새 소주는 식당에 집중해야 한다 — 우리 일","small businesses · restaurants · make people wonder"]];
+document.getElementById('beats').innerHTML=BEATS.map((b,i)=>`<div class="beat"><div class="b">${i+1}</div><div><div class="t">${b[0]}</div><div class="s">${b[1]}</div></div></div>`).join('');
+const TAILS=[["who"],["that"],["where"],["the ~ I ~"],["what I ~ is"],["the reason ~ is"],["the kind of person who"],[", which"],["whose",1],["when",1],["~ing / ~ed",1]];
+const cnt={};function drawR3(){const w=document.getElementById('cks');w.innerHTML='';TAILS.forEach(t=>{cnt[t[0]]=cnt[t[0]]||0;const d=document.createElement('div');d.className='ck'+(t[1]?' new':'')+(cnt[t[0]]?' on':'');d.innerHTML=`<div class="bx">${cnt[t[0]]?'✓':''}</div><div class="nm">${t[0]}</div><div class="cnt">${cnt[t[0]]||''}</div>`;d.onclick=()=>{cnt[t[0]]++;drawR3()};d.oncontextmenu=e=>{e.preventDefault();cnt[t[0]]=0;drawR3()};w.appendChild(d);});
+ const tot=Object.values(cnt).reduce((a,b)=>a+b,0);document.getElementById('tot').innerHTML=`${tot} <small>/ 8</small>`;const miss=TAILS.filter(t=>!cnt[t[0]]).map(t=>t[0]);document.getElementById('miss').textContent=tot>=8&&miss.length?'아직 안 나온 꼬리: '+miss.join(' · '):(tot>=8?'전부 나왔어요 🎉':'');}
+function resetR3(){Object.keys(cnt).forEach(k=>cnt[k]=0);drawR3()}drawR3();
+
+// ④ Guess who
+const GW=[
+ {who:"Your gym trainer",must:["who","whose",["~ing",1]],ans:"Someone who sees me three times a week. · A guy whose arms are bigger than my legs. · The one standing by the squat rack, counting."},
+ {who:"찰랑",must:["that",["~ed",1],", which"],ans:"A drink that OB made. · A soju made for restaurants, not convenience stores. · It has a story behind it, which is why we're talking about it."},
+ {who:"Your office",must:["where","the ~ I ~",["when",1]],ans:"The place where I spend most of my week. · The building I complain about every Monday. · I remember the day when we first moved in."},
+ {who:"A friend you haven't seen in a while",must:["who",["whose",1],"the kind of person who"],ans:"Someone who used to call me every weekend. · A guy whose number I still have. · The kind of person who disappears when he's in love."},
+ {who:"Your phone",must:["that","the reason ~ is",["~ing",1]],ans:"The thing that I check first every morning. · The reason I'm late sometimes is this. · The one buzzing right now."},
+ {who:"A restaurant you took a date to",must:["where",["when",1],", which"],ans:"A place where the music is too loud. · I remember the night when the food came late. · She didn't mind, which surprised me."},
+ {who:"Your first boss",must:["who","whose","what I ~ is"],ans:"Someone who never said thank you. · A man whose emails were one line. · What I learned from him is patience."},
+ {who:"E-mart",must:["that",["whose",1],["~ing",1]],ans:"A company that sells everything. · A chain whose soju still failed. · The one sitting on a huge network."},
+ {who:"Your running shoes",must:["the ~ I ~",["~ed",1],", which"],ans:"The shoes I bought in Singapore. · A pair made for long runs, not for the gym. · They're falling apart, which means I run enough."},
+ {who:"The person you text most",must:["who","the kind of person who",["when",1]],ans:"Someone who answers in ten seconds. · The kind of person who sends five messages in a row. · There was a week when we didn't talk at all."}];
+let gi=0;function gw(d){gi=(gi+d+GW.length)%GW.length;const g=GW[gi];document.getElementById('gwB').classList.remove('show');document.getElementById('gwN').textContent=`${gi+1} / ${GW.length}`;document.getElementById('gwWho').textContent=g.who;
+ const m=g.must.map(x=>Array.isArray(x)?`<span class="new">${x[0]}</span>`:`<span>${x}</span>`).join('');document.getElementById('gwMust').innerHTML=m;document.getElementById('gwMust2').innerHTML=m;document.getElementById('gwAns').textContent=g.ans;}gw(0);
+</script></body></html>
