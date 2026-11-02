@@ -5502,6 +5502,506 @@
    "ans": 0,
    "note": "reduce N (by %). 명사 reduction. cut과 비슷.",
    "wk": "2026-W44"
+  },
+  {
+   "w": "teach",
+   "ko": "가르치다",
+   "ex": "She teaches English.",
+   "exko": "그녀는 영어를 가르쳐요.",
+   "use": [
+    [
+     "Can you teach me how to cook?",
+     "요리하는 법 좀 가르쳐 줄래요?"
+    ],
+    [
+     "Life teaches you a lot.",
+     "인생이 많은 걸 가르쳐 줘요."
+    ]
+   ],
+   "mcq": [
+    "My dad taught me how to swim.",
+    "My dad taught me swim how.",
+    "My dad teached me how to swim.",
+    "My dad taught to me how to swim."
+   ],
+   "ans": 0,
+   "note": "teach-taught-taught. teach 사람 how to V / teach 사람 과목.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "sleep",
+   "ko": "자다, 잠",
+   "ex": "Did you sleep well?",
+   "exko": "잘 잤어요?",
+   "use": [
+    [
+     "I couldn't sleep last night.",
+     "어젯밤 잠을 못 잤어요."
+    ],
+    [
+     "Let me sleep on it.",
+     "하룻밤 생각해 볼게요."
+    ]
+   ],
+   "mcq": [
+    "I was slept for ten hours.",
+    "I sleeped for ten hours.",
+    "I slept for ten hours.",
+    "I slept during ten hours."
+   ],
+   "ans": 2,
+   "note": "sleep-slept-slept. sleep on it = 하룻밤 생각해 보다. 명사도 sleep.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "earn",
+   "ko": "(돈을) 벌다, 얻다",
+   "ex": "How much do you earn?",
+   "exko": "얼마 버세요?",
+   "use": [
+    [
+     "She earned everyone's respect.",
+     "그녀는 모두의 존경을 얻었어요."
+    ],
+    [
+     "You earned it!",
+     "그럴 자격 있어요!"
+    ]
+   ],
+   "mcq": [
+    "He earns money to teaching.",
+    "He earn money by teaching.",
+    "He earns money by teaching.",
+    "He earns money with teach."
+   ],
+   "ans": 2,
+   "note": "earn money/respect. make money와 비슷. You earned it = 고생한 보람.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "fly",
+   "ko": "날다, 비행기로 가다",
+   "ex": "I'm flying to Jeju tomorrow.",
+   "exko": "내일 비행기로 제주 가요.",
+   "use": [
+    [
+     "Time flies.",
+     "시간 참 빨리 가요."
+    ],
+    [
+     "There's a fly on the window.",
+     "창문에 파리가 있어요."
+    ]
+   ],
+   "mcq": [
+    "We flied to Tokyo last summer.",
+    "We flew at Tokyo last summer.",
+    "We flew to Tokyo last summer.",
+    "We were flew to Tokyo last summer."
+   ],
+   "ans": 2,
+   "note": "fly-flew-flown. Time flies = 시간 빠르다. 명사 fly = 파리.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "sing",
+   "ko": "노래하다",
+   "ex": "Can you sing?",
+   "exko": "노래 잘해요?",
+   "use": [
+    [
+     "She sang at the wedding.",
+     "그녀가 결혼식에서 노래했어요."
+    ],
+    [
+     "Let's sing karaoke.",
+     "노래방 가자."
+    ]
+   ],
+   "mcq": [
+    "He sung a song for his mom yesterday.",
+    "He singed a song for his mom.",
+    "He sang a song for his mom.",
+    "He sang to a song for his mom."
+   ],
+   "ans": 2,
+   "note": "sing-sang-sung. 명사 singer, song.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "guess",
+   "ko": "추측하다, 짐작",
+   "ex": "Guess what!",
+   "exko": "있잖아!",
+   "use": [
+    [
+     "I guess you're right.",
+     "네 말이 맞는 것 같네."
+    ],
+    [
+     "Take a guess.",
+     "한번 맞혀 봐."
+    ]
+   ],
+   "mcq": [
+    "I guess I stay home tonight to.",
+    "I guess to stay home tonight I'll.",
+    "I guessing I'll stay home tonight.",
+    "I guess I'll stay home tonight."
+   ],
+   "ans": 3,
+   "note": "I guess ~ = ~인 것 같아. Guess what! = 있잖아! (대화 시작)",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "imagine",
+   "ko": "상상하다",
+   "ex": "Imagine living by the sea.",
+   "exko": "바닷가에 산다고 상상해 봐요.",
+   "use": [
+    [
+     "I can't imagine life without coffee.",
+     "커피 없는 삶은 상상이 안 돼요."
+    ],
+    [
+     "You're imagining things.",
+     "괜히 그렇게 느끼는 거예요."
+    ]
+   ],
+   "mcq": [
+    "Can you imagine work from Hawaii?",
+    "Can you imagine working from Hawaii?",
+    "Can you imagining working from Hawaii?",
+    "Can you imagine to work from Hawaii?"
+   ],
+   "ans": 1,
+   "note": "imagine -ing (to V ❌). 명사 imagination.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "smile",
+   "ko": "웃다, 미소",
+   "ex": "She has a nice smile.",
+   "exko": "그녀는 미소가 예뻐요.",
+   "use": [
+    [
+     "Smile for the camera!",
+     "카메라 보고 웃어요!"
+    ],
+    [
+     "He smiled at me.",
+     "그가 나를 보고 웃었어요."
+    ]
+   ],
+   "mcq": [
+    "The baby smiled at her mom.",
+    "The baby smile at her mom yesterday.",
+    "The baby smiled her mom.",
+    "The baby smiled to her mom."
+   ],
+   "ans": 0,
+   "note": "smile at 사람. laugh는 소리 내 웃기, smile은 미소.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "dance",
+   "ko": "춤추다, 춤",
+   "ex": "Do you want to dance?",
+   "exko": "춤출래요?",
+   "use": [
+    [
+     "She takes dance lessons.",
+     "그녀는 춤 레슨을 받아요."
+    ],
+    [
+     "I can't dance at all.",
+     "저는 춤 전혀 못 춰요."
+    ]
+   ],
+   "mcq": [
+    "We were danced all night.",
+    "We danced whole night all.",
+    "We dances all night.",
+    "We danced all night."
+   ],
+   "ans": 3,
+   "note": "dance = 춤추다/춤. 명사 dancer.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "welcome",
+   "ko": "환영하다, 천만에요",
+   "ex": "Welcome to Seoul!",
+   "exko": "서울에 오신 걸 환영해요!",
+   "use": [
+    [
+     "You're welcome.",
+     "천만에요."
+    ],
+    [
+     "You're welcome to join us.",
+     "편하게 같이 해요."
+    ]
+   ],
+   "mcq": [
+    "Welcome in our team!",
+    "Welcome to our team!",
+    "Welcome at our team!",
+    "Welcome our team to!"
+   ],
+   "ans": 1,
+   "note": "Welcome to N. You're welcome = 천만에요. be welcome to V = 얼마든지 ~해도 돼요.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "cross",
+   "ko": "건너다, 화난",
+   "ex": "Cross the street carefully.",
+   "exko": "길 조심해서 건너세요.",
+   "use": [
+    [
+     "Keep your fingers crossed!",
+     "행운을 빌어 줘요!"
+    ],
+    [
+     "It never crossed my mind.",
+     "그건 생각도 못 했어요."
+    ]
+   ],
+   "mcq": [
+    "Look both ways before you crossing the road.",
+    "Look both ways before you cross over to the road.",
+    "Look both ways before you cross on the road.",
+    "Look both ways before you cross the road."
+   ],
+   "ans": 3,
+   "note": "cross N = 건너다. cross one's mind = 생각이 떠오르다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "ring",
+   "ko": "울리다, 반지",
+   "ex": "The phone is ringing.",
+   "exko": "전화 울려요.",
+   "use": [
+    [
+     "That name rings a bell.",
+     "그 이름 어디서 들어 봤어요."
+    ],
+    [
+     "She's wearing a wedding ring.",
+     "그녀는 결혼반지를 끼고 있어요."
+    ]
+   ],
+   "mcq": [
+    "My phone rang during the meeting.",
+    "My phone was rang during the meeting.",
+    "My phone ringed during the meeting.",
+    "My phone rung during the meeting."
+   ],
+   "ans": 0,
+   "note": "ring-rang-rung. ring a bell = 들어 본 것 같다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "rest",
+   "ko": "쉬다, 휴식, 나머지",
+   "ex": "Get some rest.",
+   "exko": "좀 쉬어요.",
+   "use": [
+    [
+     "I'll do the rest.",
+     "나머지는 제가 할게요."
+    ],
+    [
+     "Rest for a while.",
+     "잠깐 쉬세요."
+    ]
+   ],
+   "mcq": [
+    "You should to rest after the long trip.",
+    "You should rest yourself after the long trip.",
+    "You should resting after the long trip.",
+    "You should rest after the long trip."
+   ],
+   "ans": 3,
+   "note": "rest = 쉬다/휴식. the rest = 나머지.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "wish",
+   "ko": "바라다, 소원",
+   "ex": "I wish I could go.",
+   "exko": "갈 수 있으면 좋겠는데.",
+   "use": [
+    [
+     "Make a wish!",
+     "소원 빌어!"
+    ],
+    [
+     "Best wishes.",
+     "행운을 빌어요."
+    ]
+   ],
+   "mcq": [
+    "I wish to I had more time.",
+    "I wish I will have more time.",
+    "I wish I have more time.",
+    "I wish I had more time."
+   ],
+   "ans": 3,
+   "note": "I wish + 과거형 = 현실과 반대 바람. Best wishes = 편지 끝인사.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "fight",
+   "ko": "싸우다, 싸움",
+   "ex": "They had a big fight.",
+   "exko": "그들은 크게 싸웠어요.",
+   "use": [
+    [
+     "Don't fight over toys.",
+     "장난감 가지고 싸우지 마."
+    ],
+    [
+     "She's fighting a cold.",
+     "그녀는 감기랑 싸우는 중이에요."
+    ]
+   ],
+   "mcq": [
+    "My brother and I fought a lot as kids.",
+    "My brother and I fighted a lot as kids.",
+    "My brother and I fight a lot as kids yesterday.",
+    "My brother and I were fought a lot as kids."
+   ],
+   "ans": 0,
+   "note": "fight-fought-fought. fight with/over. fight a cold = 감기 이겨 내려 하다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "drink",
+   "ko": "마시다, 음료",
+   "ex": "What would you like to drink?",
+   "exko": "뭐 마실래요?",
+   "use": [
+    [
+     "Let's grab a drink.",
+     "한잔하자."
+    ],
+    [
+     "I don't drink.",
+     "저 술 안 마셔요."
+    ]
+   ],
+   "mcq": [
+    "I was drank too much coffee today.",
+    "I drunk too much coffee today.",
+    "I drinked too much coffee today.",
+    "I drank too much coffee today."
+   ],
+   "ans": 3,
+   "note": "drink-drank-drunk. I don't drink = 술 안 마셔요.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "eat",
+   "ko": "먹다",
+   "ex": "Let's eat out tonight.",
+   "exko": "오늘 외식하자.",
+   "use": [
+    [
+     "Have you eaten yet?",
+     "식사했어요?"
+    ],
+    [
+     "What's eating you?",
+     "뭐가 그렇게 신경 쓰여요?"
+    ]
+   ],
+   "mcq": [
+    "We eat at a Thai restaurant yesterday.",
+    "We ate at a Thai restaurant.",
+    "We were ate at a Thai restaurant.",
+    "We eated at a Thai restaurant."
+   ],
+   "ans": 1,
+   "note": "eat-ate-eaten. eat out = 외식하다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "apply",
+   "ko": "지원하다, 바르다, 적용하다",
+   "ex": "I applied for the job.",
+   "exko": "그 일에 지원했어요.",
+   "use": [
+    [
+     "Apply sunscreen every two hours.",
+     "선크림을 2시간마다 바르세요."
+    ],
+    [
+     "The rule doesn't apply to you.",
+     "그 규칙은 당신한테 해당 안 돼요."
+    ]
+   ],
+   "mcq": [
+    "She applied a visa for last week.",
+    "She applied to a visa last week.",
+    "She apply for a visa last week.",
+    "She applied for a visa last week."
+   ],
+   "ans": 3,
+   "note": "apply for N = 지원하다 / apply to = 적용되다. 명사 application.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "enter",
+   "ko": "들어가다, 입력하다",
+   "ex": "Please enter your password.",
+   "exko": "비밀번호를 입력하세요.",
+   "use": [
+    [
+     "Don't enter without knocking.",
+     "노크 없이 들어오지 마세요."
+    ],
+    [
+     "She entered the contest.",
+     "그녀는 대회에 참가했어요."
+    ]
+   ],
+   "mcq": [
+    "He entered to the room quietly.",
+    "He entered the room quietly.",
+    "He entered into the room quietly.",
+    "He enter the room quietly yesterday."
+   ],
+   "ans": 1,
+   "note": "enter N (into·to ❌). 명사 entrance, entry.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "taste",
+   "ko": "맛보다, 맛, 취향",
+   "ex": "This tastes great!",
+   "exko": "이거 맛있다!",
+   "use": [
+    [
+     "Do you want to taste it?",
+     "맛볼래요?"
+    ],
+    [
+     "She has good taste in music.",
+     "그녀는 음악 취향이 좋아요."
+    ]
+   ],
+   "mcq": [
+    "The soup tastes a little salty.",
+    "The soup is tasting a little salty.",
+    "The soup tastes a little saltily.",
+    "The soup tastes like a little salty."
+   ],
+   "ans": 0,
+   "note": "taste + 형용사 (부사 ❌). taste like + 명사. 명사 taste = 취향.",
+   "wk": "2026-W45"
   }
  ]
 }

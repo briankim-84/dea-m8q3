@@ -4502,6 +4502,506 @@
    "ans": 1,
    "note": "bias(명) / biased(형) = 편향된. bias against/toward.",
    "wk": "2026-W44"
+  },
+  {
+   "w": "permission",
+   "ko": "허락, 허가",
+   "ex": "Do I need permission?",
+   "exko": "허락받아야 해요?",
+   "use": [
+    [
+     "Ask for permission first.",
+     "먼저 허락을 구하세요."
+    ],
+    [
+     "You have my permission.",
+     "허락할게요."
+    ]
+   ],
+   "mcq": [
+    "She got permission leaving early.",
+    "She got a permission to leave early.",
+    "She got permission for leave early.",
+    "She got permission to leave early."
+   ],
+   "ans": 3,
+   "note": "permission to V (불가산 — a ❌). 동사 permit.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "evaluation",
+   "ko": "평가",
+   "ex": "The evaluation is next week.",
+   "exko": "평가는 다음 주예요.",
+   "use": [
+    [
+     "Self-evaluation",
+     "자기 평가"
+    ],
+    [
+     "We need a fair evaluation.",
+     "공정한 평가가 필요해요."
+    ]
+   ],
+   "mcq": [
+    "Her performance evaluation was excellent.",
+    "Her performance evaluating was excellent.",
+    "Her evaluation performance was excellent.",
+    "Her performance evaluate was excellent."
+   ],
+   "ans": 0,
+   "note": "evaluation(명) / evaluate(동). performance evaluation = 인사 평가.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "motivation",
+   "ko": "동기, 의욕",
+   "ex": "I've lost my motivation.",
+   "exko": "의욕이 없어졌어요.",
+   "use": [
+    [
+     "What's your motivation?",
+     "동기가 뭐예요?"
+    ],
+    [
+     "Music gives me motivation.",
+     "음악이 의욕을 줘요."
+    ]
+   ],
+   "mcq": [
+    "She has a lot of motivate to learn.",
+    "She has a lot of motivation to learn.",
+    "She has a lot of motivated to learn.",
+    "She has many motivation to learn."
+   ],
+   "ans": 1,
+   "note": "motivation(불가산). 동사 motivate, 형용사 motivated.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "imagination",
+   "ko": "상상력",
+   "ex": "Use your imagination.",
+   "exko": "상상력을 발휘해 봐요.",
+   "use": [
+    [
+     "Kids have a great imagination.",
+     "아이들은 상상력이 풍부해요."
+    ],
+    [
+     "It's just your imagination.",
+     "그냥 착각이에요."
+    ]
+   ],
+   "mcq": [
+    "The story shows a lot of imagine.",
+    "The story shows a lot of imagination.",
+    "The story shows a lot of imaginative.",
+    "The story shows much imaginations."
+   ],
+   "ans": 1,
+   "note": "imagination(명) / imagine(동) / imaginative(형).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "determination",
+   "ko": "결심, 투지",
+   "ex": "She showed great determination.",
+   "exko": "그녀는 대단한 투지를 보였어요.",
+   "use": [
+    [
+     "With determination, anything is possible.",
+     "의지만 있으면 뭐든 가능해요."
+    ],
+    [
+     "His determination paid off.",
+     "그의 끈기가 결실을 맺었어요."
+    ]
+   ],
+   "mcq": [
+    "It takes determine to learn a language.",
+    "It takes determination to learn a language.",
+    "It takes determined to learn a language.",
+    "It takes a determinations to learn a language."
+   ],
+   "ans": 1,
+   "note": "determination(명) / determine(동) / determined(형, 결심한).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "reflection",
+   "ko": "반사, 반영, 성찰",
+   "ex": "I saw my reflection in the window.",
+   "exko": "창문에 비친 내 모습을 봤어요.",
+   "use": [
+    [
+     "The results are a reflection of hard work.",
+     "그 결과는 노력의 반영이에요."
+    ],
+    [
+     "Take time for reflection.",
+     "돌아볼 시간을 가지세요."
+    ]
+   ],
+   "mcq": [
+    "Her success is a reflect of her effort.",
+    "Her success is a reflection of her effort.",
+    "Her success is a reflective of her effort.",
+    "Her success is reflection her effort."
+   ],
+   "ans": 1,
+   "note": "reflection(명) / reflect(동). 거울에 비친 모습도 reflection.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "attraction",
+   "ko": "명소, 끌림",
+   "ex": "It's a popular tourist attraction.",
+   "exko": "인기 관광 명소예요.",
+   "use": [
+    [
+     "There's a strong attraction between them.",
+     "둘 사이에 강한 끌림이 있어요."
+    ],
+    [
+     "The main attraction",
+     "가장 큰 볼거리"
+    ]
+   ],
+   "mcq": [
+    "The palace is main attraction the city's.",
+    "The palace is the city's main attraction.",
+    "The palace is the city's main attractive.",
+    "The palace is the city's main attract."
+   ],
+   "ans": 1,
+   "note": "attraction(명) / attract(동) / attractive(형). tourist attraction = 관광지.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "adventure",
+   "ko": "모험",
+   "ex": "Let's go on an adventure!",
+   "exko": "모험을 떠나자!",
+   "use": [
+    [
+     "It was quite an adventure.",
+     "꽤 모험이었어요."
+    ],
+    [
+     "An adventure movie",
+     "모험 영화"
+    ]
+   ],
+   "mcq": [
+    "Our trip to Africa was real adventure a.",
+    "Our trip to Africa was a real adventures.",
+    "Our trip to Africa was a real adventure.",
+    "Our trip to Africa was a real adventurous."
+   ],
+   "ans": 2,
+   "note": "adventure(명) / adventurous(형, 모험을 즐기는).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "celebration",
+   "ko": "축하, 기념 행사",
+   "ex": "Let's have a celebration!",
+   "exko": "축하 파티 하자!",
+   "use": [
+    [
+     "This calls for a celebration.",
+     "이건 축하할 일이네요."
+    ],
+    [
+     "New Year celebrations",
+     "새해 축하 행사"
+    ]
+   ],
+   "mcq": [
+    "We had small a celebration for her birthday.",
+    "We had a small celebrate for her birthday.",
+    "We had a small celebrating for her birthday.",
+    "We had a small celebration for her birthday."
+   ],
+   "ans": 3,
+   "note": "celebration(명) / celebrate(동). This calls for a celebration = 축하할 일이다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "friendship",
+   "ko": "우정",
+   "ex": "Our friendship means a lot.",
+   "exko": "우리 우정은 소중해요.",
+   "use": [
+    [
+     "A lifelong friendship",
+     "평생 가는 우정"
+    ],
+    [
+     "Don't ruin our friendship.",
+     "우리 우정 망치지 마."
+    ]
+   ],
+   "mcq": [
+    "Their friendship started in college.",
+    "Their friendships started in college it.",
+    "Their friend started in college.",
+    "Their friendly started in college."
+   ],
+   "ans": 0,
+   "note": "friendship(명) / friendly(형). -ship = 관계·상태.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "profession",
+   "ko": "직업 (전문직)",
+   "ex": "What's your profession?",
+   "exko": "직업이 뭐예요?",
+   "use": [
+    [
+     "Teaching is a rewarding profession.",
+     "가르치는 일은 보람 있는 직업이에요."
+    ],
+    [
+     "The medical profession",
+     "의료계"
+    ]
+   ],
+   "mcq": [
+    "He changed his professional at forty.",
+    "He changed his profession at forty.",
+    "He changed his professionally at forty.",
+    "He changed profession his at forty."
+   ],
+   "ans": 1,
+   "note": "profession(명, 전문직) / professional(형·명). job보다 격식.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "weakness",
+   "ko": "약점, 약함",
+   "ex": "What's your biggest weakness?",
+   "exko": "가장 큰 약점이 뭐예요?",
+   "use": [
+    [
+     "Chocolate is my weakness.",
+     "초콜릿엔 약해요."
+    ],
+    [
+     "Muscle weakness",
+     "근력 저하"
+    ]
+   ],
+   "mcq": [
+    "Public speaking is my weakness.",
+    "Public speaking is my weak.",
+    "Public speaking is my weakly.",
+    "Public speaking is weakness my."
+   ],
+   "ans": 0,
+   "note": "weakness(명) / weak(형). have a weakness for N = ~에 약하다(좋아한다).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "announcement",
+   "ko": "발표, 안내",
+   "ex": "I have an announcement.",
+   "exko": "발표할 게 있어요.",
+   "use": [
+    [
+     "Listen to the announcement.",
+     "안내 방송 들어 봐요."
+    ],
+    [
+     "They made an official announcement.",
+     "공식 발표를 했어요."
+    ]
+   ],
+   "mcq": [
+    "The company made a big announce today.",
+    "The company made a big announcement today.",
+    "The company made a big announced today.",
+    "The company did a big announcement today."
+   ],
+   "ans": 1,
+   "note": "make an announcement. 동사 announce.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "gesture",
+   "ko": "몸짓, 표시",
+   "ex": "It was a nice gesture.",
+   "exko": "좋은 마음 표시였어요.",
+   "use": [
+    [
+     "He made a rude gesture.",
+     "그가 무례한 손짓을 했어요."
+    ],
+    [
+     "Use gestures when you speak.",
+     "말할 때 몸짓을 쓰세요."
+    ]
+   ],
+   "mcq": [
+    "Sending flowers was a kindly gesture.",
+    "Sending flowers was a kind gestured.",
+    "Sending flowers was a kind gesture.",
+    "Sending flowers was kind gesture a."
+   ],
+   "ans": 2,
+   "note": "gesture = 몸짓/(호의의) 표시. a nice gesture = 마음 씀씀이.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "ceremony",
+   "ko": "의식, 식",
+   "ex": "The wedding ceremony starts at two.",
+   "exko": "결혼식은 두 시에 시작해요.",
+   "use": [
+    [
+     "An award ceremony",
+     "시상식"
+    ],
+    [
+     "Graduation ceremony",
+     "졸업식"
+    ]
+   ],
+   "mcq": [
+    "We attended the opening ceremonies it.",
+    "We attended the opening ceremonial.",
+    "We attended to the opening ceremony.",
+    "We attended the opening ceremony."
+   ],
+   "ans": 3,
+   "note": "ceremony = 식. wedding/graduation/award ceremony.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "possession",
+   "ko": "소유물, 소유",
+   "ex": "Personal possessions",
+   "exko": "개인 소지품",
+   "use": [
+    [
+     "He lost all his possessions in the fire.",
+     "그는 화재로 가진 걸 다 잃었어요."
+    ],
+    [
+     "In possession of",
+     "~을 소지한"
+    ]
+   ],
+   "mcq": [
+    "Please take all your possess with you.",
+    "Please take your all possessions with you.",
+    "Please take all your possessions with you.",
+    "Please take all your possessing with you."
+   ],
+   "ans": 2,
+   "note": "possession(명) / possess(동). possessions = 소지품(복수).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "maintenance",
+   "ko": "유지 보수, 관리",
+   "ex": "The elevator is under maintenance.",
+   "exko": "엘리베이터 점검 중이에요.",
+   "use": [
+    [
+     "Low maintenance",
+     "손이 덜 가는"
+    ],
+    [
+     "Car maintenance is expensive.",
+     "차 관리비가 비싸요."
+    ]
+   ],
+   "mcq": [
+    "The building needs regular maintenances it.",
+    "The building needs regular maintenance.",
+    "The building needs regular maintain.",
+    "The building needs a regular maintains."
+   ],
+   "ans": 1,
+   "note": "maintenance(명) / maintain(동). high/low maintenance = 손이 많이/적게 가는.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "complexity",
+   "ko": "복잡성",
+   "ex": "The complexity of the problem",
+   "exko": "문제의 복잡성",
+   "use": [
+    [
+     "Don't underestimate the complexity.",
+     "복잡함을 얕보지 마세요."
+    ],
+    [
+     "It adds complexity.",
+     "더 복잡해져요."
+    ]
+   ],
+   "mcq": [
+    "The complexity of the tax system confuse people.",
+    "The complexly of the tax system confuses people.",
+    "The complex of the tax system confuses people.",
+    "The complexity of the tax system confuses people."
+   ],
+   "ans": 3,
+   "note": "complexity(명) / complex(형). simplicity ↔ complexity.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "uncertainty",
+   "ko": "불확실성",
+   "ex": "There's a lot of uncertainty.",
+   "exko": "불확실한 게 많아요.",
+   "use": [
+    [
+     "Economic uncertainty",
+     "경제적 불확실성"
+    ],
+    [
+     "Uncertainty makes people nervous.",
+     "불확실성은 사람을 불안하게 해요."
+    ]
+   ],
+   "mcq": [
+    "There's still a uncertainties about the date.",
+    "There's still uncertainty about the date.",
+    "There's still uncertainly about the date.",
+    "There's still uncertain about the date."
+   ],
+   "ans": 1,
+   "note": "uncertainty(명) / uncertain(형). 반대 certainty.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "attendance",
+   "ko": "출석, 참석",
+   "ex": "Attendance is required.",
+   "exko": "출석 필수예요.",
+   "use": [
+    [
+     "Take attendance.",
+     "출석 부르다."
+    ],
+    [
+     "Attendance was low.",
+     "참석자가 적었어요."
+    ]
+   ],
+   "mcq": [
+    "Attend at the meeting is mandatory.",
+    "Attendance at the meeting is mandatory.",
+    "Attending at the meeting is mandatory it.",
+    "Attendance at the meeting are mandatory."
+   ],
+   "ans": 1,
+   "note": "attendance(명) / attend(동). take attendance = 출석 체크.",
+   "wk": "2026-W45"
   }
  ]
 }

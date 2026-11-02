@@ -5502,6 +5502,506 @@
    "ans": 1,
    "note": "dismay = 실망·경악(명)/실망시키다(동). to my dismay = 실망스럽게도.",
    "wk": "2026-W44"
+  },
+  {
+   "w": "earnest",
+   "ko": "진지한, 성실한",
+   "ex": "He's an earnest young man.",
+   "exko": "그는 성실한 청년이에요.",
+   "use": [
+    [
+     "In earnest",
+     "본격적으로"
+    ],
+    [
+     "She spoke in an earnest voice.",
+     "그녀는 진지한 목소리로 말했어요."
+    ]
+   ],
+   "mcq": [
+    "Work began in earnests after lunch.",
+    "Work began in earnest after lunch.",
+    "Work began on earnest after lunch.",
+    "Work began in earnestly after lunch."
+   ],
+   "ans": 1,
+   "note": "earnest = 진지하고 성실한. in earnest = 본격적으로.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "eloquent",
+   "ko": "말 잘하는, 유창한",
+   "ex": "She gave an eloquent speech.",
+   "exko": "그녀는 감동적인 연설을 했어요.",
+   "use": [
+    [
+     "He's very eloquent.",
+     "그는 말을 아주 잘해요."
+    ],
+    [
+     "An eloquent silence",
+     "많은 걸 말하는 침묵"
+    ]
+   ],
+   "mcq": [
+    "The speaker was eloquently and persuasive.",
+    "The speaker was eloquent and persuade.",
+    "The speaker was eloquence and persuasive.",
+    "The speaker was eloquent and persuasive."
+   ],
+   "ans": 3,
+   "note": "eloquent = 말에 설득력 있고 매끄러운. 명사 eloquence.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "gullible",
+   "ko": "잘 속는",
+   "ex": "Don't be so gullible.",
+   "exko": "그렇게 잘 속지 마.",
+   "use": [
+    [
+     "Scammers target gullible people.",
+     "사기꾼은 잘 속는 사람을 노려요."
+    ],
+    [
+     "I was gullible enough to believe it.",
+     "그걸 믿을 만큼 순진했어요."
+    ]
+   ],
+   "mcq": [
+    "He's gullible and trusts everyone.",
+    "He's gullible and trust everyone.",
+    "He's gullibility and trusts everyone.",
+    "He's gullibly and trusts everyone."
+   ],
+   "ans": 0,
+   "note": "gullible = 쉽게 속는. naive와 비슷.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "nostalgic",
+   "ko": "향수에 젖은, 그리운",
+   "ex": "This song makes me nostalgic.",
+   "exko": "이 노래 들으면 옛날 생각나요.",
+   "use": [
+    [
+     "I feel nostalgic about college.",
+     "대학 시절이 그리워요."
+    ],
+    [
+     "A nostalgic trip",
+     "추억 여행"
+    ]
+   ],
+   "mcq": [
+    "Old photos always make me nostalgia.",
+    "Old photos always make me nostalgic.",
+    "Old photos always make nostalgic me.",
+    "Old photos always make me nostalgically."
+   ],
+   "ans": 1,
+   "note": "nostalgic(형) / nostalgia(명). feel nostalgic about N.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "ominous",
+   "ko": "불길한",
+   "ex": "Ominous clouds",
+   "exko": "불길한 먹구름",
+   "use": [
+    [
+     "There was an ominous silence.",
+     "불길한 침묵이 흘렀어요."
+    ],
+    [
+     "That sounds ominous.",
+     "그거 불길하게 들리네요."
+    ]
+   ],
+   "mcq": [
+    "The dark sky looked ominous.",
+    "The dark sky looked ominous of.",
+    "The dark sky looked ominously.",
+    "The dark sky looked omen."
+   ],
+   "ans": 0,
+   "note": "ominous = 나쁜 일의 징조 같은. 명사 omen(징조).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "petty",
+   "ko": "사소한, 쩨쩨한",
+   "ex": "Don't be petty.",
+   "exko": "쩨쩨하게 굴지 마.",
+   "use": [
+    [
+     "Petty cash",
+     "소액 현금"
+    ],
+    [
+     "A petty argument",
+     "사소한 말다툼"
+    ]
+   ],
+   "mcq": [
+    "They had a pettily fight over the remote.",
+    "They had a pettiness fight over the remote.",
+    "They had a petty fight over the remote.",
+    "They had petty a fight over the remote."
+   ],
+   "ans": 2,
+   "note": "petty = 사소한/속 좁은. trivial보다 감정 섞임.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "reckless",
+   "ko": "무모한",
+   "ex": "Reckless driving",
+   "exko": "난폭 운전",
+   "use": [
+    [
+     "Don't be reckless with money.",
+     "돈을 함부로 쓰지 마세요."
+    ],
+    [
+     "That was a reckless decision.",
+     "무모한 결정이었어요."
+    ]
+   ],
+   "mcq": [
+    "He was fined for reckless drive.",
+    "He was fined for recklessness driving.",
+    "He was fined for reckless driving.",
+    "He was fined for recklessly driving."
+   ],
+   "ans": 2,
+   "note": "reckless = 결과를 생각 안 하는. 부사 recklessly.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "resentful",
+   "ko": "억울해하는, 분개하는",
+   "ex": "She felt resentful.",
+   "exko": "그녀는 억울했어요.",
+   "use": [
+    [
+     "Don't be resentful of their success.",
+     "그들의 성공에 배 아파하지 마요."
+    ],
+    [
+     "A resentful look",
+     "분한 표정"
+    ]
+   ],
+   "mcq": [
+    "He was resentment about being left out.",
+    "He was resentfully about being left out.",
+    "He was resentful for being left out.",
+    "He was resentful about being left out."
+   ],
+   "ans": 3,
+   "note": "resentful about/of N. 동사 resent, 명사 resentment.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "sentimental",
+   "ko": "감상적인",
+   "ex": "I'm a bit sentimental.",
+   "exko": "전 좀 감성적이에요.",
+   "use": [
+    [
+     "It has sentimental value.",
+     "추억이 담긴 물건이에요."
+    ],
+    [
+     "Don't get sentimental.",
+     "감상에 젖지 마."
+    ]
+   ],
+   "mcq": [
+    "This old watch has sentimental value.",
+    "This old watch has sentimentally value.",
+    "This old watch has sentiment value.",
+    "This old watch has sentimental values it."
+   ],
+   "ans": 0,
+   "note": "sentimental value = 금전보다 추억의 가치.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "skeptical",
+   "ko": "회의적인",
+   "ex": "I'm skeptical about the plan.",
+   "exko": "그 계획엔 회의적이에요.",
+   "use": [
+    [
+     "Scientists are skeptical.",
+     "과학자들은 의심스러워해요."
+    ],
+    [
+     "Be a little skeptical.",
+     "조금은 의심해 봐요."
+    ]
+   ],
+   "mcq": [
+    "Many people are skeptical of the new diet.",
+    "Many people are skepticism of the new diet.",
+    "Many people are skeptical to the new diet.",
+    "Many people are skeptically of the new diet."
+   ],
+   "ans": 0,
+   "note": "skeptical about/of N. 영국식 sceptical. 명사 skepticism.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "stern",
+   "ko": "엄격한, 근엄한",
+   "ex": "A stern warning",
+   "exko": "엄중한 경고",
+   "use": [
+    [
+     "My teacher was very stern.",
+     "선생님이 아주 엄하셨어요."
+    ],
+    [
+     "He gave me a stern look.",
+     "그가 저를 엄하게 쳐다봤어요."
+    ]
+   ],
+   "mcq": [
+    "The boss gave stern a warning.",
+    "The boss gave a stern warning.",
+    "The boss gave a sternly warning.",
+    "The boss gave a sternness warning."
+   ],
+   "ans": 1,
+   "note": "stern = 엄하고 진지한. strict와 비슷.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "vivid",
+   "ko": "생생한, 선명한",
+   "ex": "I have vivid memories of it.",
+   "exko": "그게 생생히 기억나요.",
+   "use": [
+    [
+     "Vivid colors",
+     "선명한 색"
+    ],
+    [
+     "She has a vivid imagination.",
+     "그녀는 상상력이 풍부해요."
+    ]
+   ],
+   "mcq": [
+    "I had a vividness dream last night.",
+    "I had a vivid dream last night.",
+    "I had a vividly dream last night.",
+    "I had vivid a dream last night."
+   ],
+   "ans": 1,
+   "note": "vivid = 생생한. 부사 vividly.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "wholesome",
+   "ko": "건전한, 건강에 좋은",
+   "ex": "Wholesome food",
+   "exko": "건강한 음식",
+   "use": [
+    [
+     "A wholesome family movie",
+     "온 가족이 보기 좋은 영화"
+    ],
+    [
+     "That's so wholesome.",
+     "정말 훈훈하네요."
+    ]
+   ],
+   "mcq": [
+    "It's a wholesome show for kids.",
+    "It's a wholesomely show for kids.",
+    "It's a whole some show for kids.",
+    "It's wholesome a show for kids."
+   ],
+   "ans": 0,
+   "note": "wholesome = 건강·도덕적으로 좋은. 요즘 '훈훈한'으로 자주.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "zealous",
+   "ko": "열성적인",
+   "ex": "A zealous fan",
+   "exko": "열성 팬",
+   "use": [
+    [
+     "He's zealous about fitness.",
+     "그는 운동에 열성이에요."
+    ],
+    [
+     "Overly zealous",
+     "지나치게 열성적인"
+    ]
+   ],
+   "mcq": [
+    "She is zealous to protecting animals.",
+    "She is zealous about protecting animals.",
+    "She is zeal about protecting animals.",
+    "She is zealously about protecting animals."
+   ],
+   "ans": 1,
+   "note": "zealous = 열정이 지나칠 정도인. 명사 zeal.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "cynical",
+   "ko": "냉소적인",
+   "ex": "Don't be so cynical.",
+   "exko": "그렇게 냉소적으로 굴지 마.",
+   "use": [
+    [
+     "A cynical view",
+     "냉소적인 시각"
+    ],
+    [
+     "He's cynical about politics.",
+     "그는 정치에 냉소적이에요."
+    ]
+   ],
+   "mcq": [
+    "She became cynical after many failures.",
+    "She became to cynical after many failures.",
+    "She became cynicism after many failures.",
+    "She became cynically after many failures."
+   ],
+   "ans": 0,
+   "note": "cynical = 모든 걸 나쁘게 보는. 명사 cynic(냉소주의자).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "gracious",
+   "ko": "친절하고 품위 있는",
+   "ex": "She was gracious in defeat.",
+   "exko": "그녀는 져도 품위 있었어요.",
+   "use": [
+    [
+     "A gracious host",
+     "상냥한 주인"
+    ],
+    [
+     "Thank you for your gracious hospitality.",
+     "따뜻한 환대에 감사드려요."
+    ]
+   ],
+   "mcq": [
+    "He was graciously to everyone.",
+    "He was grace to everyone.",
+    "He was gracious to everyone.",
+    "He was gracious for everyone."
+   ],
+   "ans": 2,
+   "note": "gracious = 정중하고 너그러운. 부사 graciously.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "ambivalent",
+   "ko": "양가감정의, 확신 없는",
+   "ex": "I'm ambivalent about it.",
+   "exko": "그거 좋기도 하고 싫기도 해요.",
+   "use": [
+    [
+     "Ambivalent feelings",
+     "복잡한 감정"
+    ],
+    [
+     "She's ambivalent about moving.",
+     "그녀는 이사를 망설여요."
+    ]
+   ],
+   "mcq": [
+    "I feel ambivalence about the job offer to.",
+    "I feel ambivalent about the job offer.",
+    "I feel ambivalently about the job offer.",
+    "I feel ambivalent for the job offer."
+   ],
+   "ans": 1,
+   "note": "ambivalent about N = 이것도 저것도 마음 가는. 명사 ambivalence.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "apprehensive",
+   "ko": "걱정되는, 불안한",
+   "ex": "I'm apprehensive about the surgery.",
+   "exko": "수술이 걱정돼요.",
+   "use": [
+    [
+     "She looked apprehensive.",
+     "그녀는 불안해 보였어요."
+    ],
+    [
+     "Apprehensive glances",
+     "불안한 눈빛"
+    ]
+   ],
+   "mcq": [
+    "He felt apprehension about the interview to.",
+    "He felt apprehensive for the interview.",
+    "He felt apprehensive about the interview.",
+    "He felt apprehensively about the interview."
+   ],
+   "ans": 2,
+   "note": "apprehensive about N = 앞일이 불안한. nervous보다 격식.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "conscientious",
+   "ko": "양심적인, 꼼꼼한",
+   "ex": "A conscientious worker",
+   "exko": "성실한 직원",
+   "use": [
+    [
+     "She's very conscientious.",
+     "그녀는 아주 꼼꼼해요."
+    ],
+    [
+     "Be conscientious about recycling.",
+     "재활용을 성실히 하세요."
+    ]
+   ],
+   "mcq": [
+    "He is conscientious for his work.",
+    "He is conscientiously about his work.",
+    "He is conscience about his work.",
+    "He is conscientious about his work."
+   ],
+   "ans": 3,
+   "note": "conscientious = 책임감 있고 꼼꼼한. conscience(양심)와 연관.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "flamboyant",
+   "ko": "화려한, 과시하는",
+   "ex": "A flamboyant outfit",
+   "exko": "화려한 옷",
+   "use": [
+    [
+     "He has a flamboyant style.",
+     "그는 스타일이 화려해요."
+    ],
+    [
+     "Flamboyant gestures",
+     "과장된 몸짓"
+    ]
+   ],
+   "mcq": [
+    "She wore a flamboyant red dress.",
+    "She wore flamboyant a red dress.",
+    "She wore a flamboyance red dress.",
+    "She wore a flamboyantly red dress."
+   ],
+   "ans": 0,
+   "note": "flamboyant = 눈에 띄게 화려한. 반대 understated.",
+   "wk": "2026-W45"
   }
  ]
 }

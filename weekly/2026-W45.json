@@ -1,0 +1,54 @@
+{
+  "week": "2026-W45",
+  "label": "11월 2일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        {"expr": "I'm just looking", "ko": "그냥 구경하는 거예요 (가게에서)", "ex": "Can I help you find something? — I'm just looking, thanks."},
+        {"expr": "📘 단어: browse / bargain", "ko": "둘러보다 / 싸게 산 물건, 흥정하다", "ex": "I browsed the shop for an hour. → This jacket was a real bargain! (browse the web, a bargain = 득템)"},
+        {"expr": "Sounds like a plan", "ko": "좋아요, 그렇게 해요", "ex": "Let's meet at six. — Sounds like a plan!"},
+        {"expr": "📘 단어: crave / unwind", "ko": "몹시 먹고 싶다 / 긴장을 풀고 쉬다", "ex": "I'm craving pizza. → I unwind with a movie on Fridays. (crave + 음식, unwind after work)"},
+        {"expr": "Help yourself", "ko": "편하게 드세요, 마음껏 가져가세요", "ex": "There's coffee in the kitchen. Help yourself."}
+      ],
+      "quiz": [
+        {"q": "Can I help you? — No thanks, I'm ___ .", "options": ["just seeing", "just looking", "only watching", "just look"], "answer": 1, "note": "I'm just looking = 그냥 구경 중이에요. 점원이 말 걸 때 정석 답!"},
+        {"q": "Only 10,000 won for this coat? What a ___ !", "options": ["crave", "browse", "bargain", "unwind"], "answer": 2, "note": "a bargain = 싸게 잘 산 것. 동사로는 '흥정하다'."},
+        {"q": "Dinner at 7, then a movie? — ___ !", "options": ["Sounds like a plan", "Sounds a plan", "It plans good", "Like a plan sounds"], "answer": 0, "note": "Sounds like a plan = 좋아, 그렇게 하자. Sounds good보다 조금 더 맞장구 느낌."},
+        {"q": "After a long week, I just want to ___ at home.", "options": ["bargain", "crave", "browse", "unwind"], "answer": 3, "note": "unwind = 긴장 풀고 쉬다. relax와 비슷, 일 끝나고 자주 써요."},
+        {"q": "There are snacks on the table. ___ !", "options": ["Help you", "Help yourself", "Help myself", "Help for yourself"], "answer": 1, "note": "Help yourself = 마음껏 드세요. 손님한테 권할 때 딱."}
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        {"expr": "I'm swamped", "ko": "일이 너무 많아 정신없어요", "ex": "Can we talk tomorrow? I'm swamped today."},
+        {"expr": "📘 단어: hectic / sluggish", "ko": "정신없이 바쁜 / 느릿느릿한, 부진한", "ex": "It was a hectic week. → Sales have been sluggish. (a hectic schedule, feel sluggish = 몸이 축 처지다)"},
+        {"expr": "Take it easy", "ko": "무리하지 마, 쉬엄쉬엄 해", "ex": "You look tired. Take it easy this weekend."},
+        {"expr": "📘 단어: splurge / frugal", "ko": "큰맘 먹고 돈 쓰다 / 검소한, 알뜰한", "ex": "I splurged on a nice dinner. → He's very frugal with money. (splurge on N, frugal = 아껴 쓰는)"},
+        {"expr": "It's not worth it", "ko": "그럴 가치가 없어요, 손해예요", "ex": "Don't wait two hours for that café. It's not worth it."}
+      ],
+      "quiz": [
+        {"q": "Sorry, I can't make lunch. I'm totally ___ with work.", "options": ["swamp", "swamped", "swamping", "swampy"], "answer": 1, "note": "be swamped (with work) = 일에 파묻히다. busy보다 훨씬 생생해요."},
+        {"q": "Moving day was so ___ — boxes everywhere!", "options": ["frugal", "sluggish", "hectic", "splurge"], "answer": 2, "note": "hectic = 정신없이 바쁜. a hectic day/week로 자주."},
+        {"q": "You've been working nonstop. ___ tonight.", "options": ["Take it easy", "Take easy it", "Make it easy", "Take it easily"], "answer": 0, "note": "Take it easy = 쉬엄쉬엄 해. 헤어질 때 '잘 가' 인사로도 써요."},
+        {"q": "For my birthday, I ___ on a new watch.", "options": ["frugal", "sluggish", "hectic", "splurged"], "answer": 3, "note": "splurge on N = 큰맘 먹고 지르다. 반대 성향은 frugal."},
+        {"q": "Driving there takes three hours for a 20-minute meeting. ___ .", "options": ["It's not worthy", "It's no worth", "It's not worth it", "It doesn't worth"], "answer": 2, "note": "It's not worth it = 할 가치가 없어. worth 뒤에 it 꼭!"}
+      ]
+    },
+    "challenge": {
+      "cards": [
+        {"expr": "Get the ball rolling", "ko": "일을 시작하다, 물꼬를 트다", "ex": "Let's get the ball rolling on the new project this week."},
+        {"expr": "📘 단어: wary / hefty", "ko": "경계하는, 조심하는 / 크고 무거운, 상당한", "ex": "Be wary of deals that look too good. → They charged a hefty fee. (wary of N, a hefty price = 꽤 큰 금액)"},
+        {"expr": "Read the room", "ko": "분위기를 파악하다", "ex": "He told a joke at the funeral. He really can't read the room."},
+        {"expr": "📘 단어: overrated / linger", "ko": "과대평가된 / 오래 머물다, 남아 있다", "ex": "That restaurant is overrated. → The smell lingered for days. (overrated ↔ underrated, linger = 쉽게 안 사라지다)"},
+        {"expr": "Cut your losses", "ko": "손해를 더 보기 전에 접다", "ex": "The project isn't working. It's time to cut our losses."}
+      ],
+      "quiz": [
+        {"q": "Nobody wants to speak first, so I'll ___ .", "hint": "공을 굴러가게 하다", "accept": ["get the ball rolling", "start the ball rolling"], "note": "get the ball rolling = 첫 발을 떼다. 회의 시작할 때 자주."},
+        {"q": "Investors are ___ of companies with too much debt.", "hint": "경계하는 (w로 시작)", "accept": ["wary"], "note": "wary of N = ~을 경계하는. cautious보다 '의심'이 섞인 느낌."},
+        {"q": "He kept talking about money while everyone was sad. He couldn't ___ .", "hint": "방의 분위기를 읽다", "accept": ["read the room"], "note": "read the room = 분위기 파악. 못 하면 can't read the room."},
+        {"q": "Everyone loves that movie, but honestly, I think it's ___ .", "hint": "실제보다 높게 평가된 (o로 시작)", "accept": ["overrated"], "note": "overrated = 과대평가된. 반대는 underrated(저평가된)."},
+        {"q": "The shop lost money for three years, so they decided to ___ and close it.", "hint": "손실을 끊다", "accept": ["cut their losses", "cut our losses", "cut its losses"], "note": "cut one's losses = 더 손해 보기 전에 그만두다."}
+      ]
+    }
+  }
+}

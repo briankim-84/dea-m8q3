@@ -2502,6 +2502,506 @@
    "ans": 3,
    "note": "spell N. spell out = 또박또박 말하다/자세히 설명. 명사 spelling.",
    "wk": "2026-W44"
+  },
+  {
+   "w": "quiet",
+   "ko": "조용한",
+   "ex": "It's so quiet here.",
+   "exko": "여기 정말 조용하네요.",
+   "use": [
+    [
+     "Please be quiet.",
+     "조용히 해 주세요."
+    ],
+    [
+     "He's a quiet person.",
+     "그는 말수가 적어요."
+    ]
+   ],
+   "mcq": [
+    "The library was very quiet.",
+    "The library was very quietness.",
+    "The library was very quite.",
+    "The library was very quietly."
+   ],
+   "ans": 0,
+   "note": "quiet(형) 조용한 / quite(부) 꽤 — 철자 주의!",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "fresh",
+   "ko": "신선한, 상쾌한",
+   "ex": "These vegetables are fresh.",
+   "exko": "이 채소들 신선해요.",
+   "use": [
+    [
+     "I need some fresh air.",
+     "바람 좀 쐬어야겠어요."
+    ],
+    [
+     "Let's start fresh.",
+     "새로 시작해요."
+    ]
+   ],
+   "mcq": [
+    "I bought a fresh breads this morning.",
+    "I bought freshly bread this morning.",
+    "I bought bread fresh this morning of.",
+    "I bought fresh bread this morning."
+   ],
+   "ans": 3,
+   "note": "fresh = 신선한/새로운. fresh air, fresh start.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "busy",
+   "ko": "바쁜, 붐비는",
+   "ex": "I'm busy this week.",
+   "exko": "이번 주 바빠요.",
+   "use": [
+    [
+     "The street is always busy.",
+     "그 거리는 늘 붐벼요."
+    ],
+    [
+     "The line is busy.",
+     "통화 중이에요."
+    ]
+   ],
+   "mcq": [
+    "She's busy to prepare for the exam.",
+    "She's busily preparing for the exam to.",
+    "She's busy for preparing the exam.",
+    "She's busy preparing for the exam."
+   ],
+   "ans": 3,
+   "note": "be busy -ing = ~하느라 바쁘다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "funny",
+   "ko": "웃긴, 이상한",
+   "ex": "That's so funny!",
+   "exko": "진짜 웃기다!",
+   "use": [
+    [
+     "He's really funny.",
+     "그는 정말 웃겨요."
+    ],
+    [
+     "That's funny — I just saw her.",
+     "이상하네, 방금 그녀를 봤는데."
+    ]
+   ],
+   "mcq": [
+    "The movie was really funny.",
+    "The movie was really funnies.",
+    "The movie was really fun to.",
+    "The movie was really funnily."
+   ],
+   "ans": 0,
+   "note": "funny = 웃긴/이상한. fun = 재미있는(즐거운). 구별!",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "strange",
+   "ko": "이상한, 낯선",
+   "ex": "That's strange.",
+   "exko": "그거 이상하네요.",
+   "use": [
+    [
+     "I heard a strange noise.",
+     "이상한 소리를 들었어요."
+    ],
+    [
+     "I'm a stranger here.",
+     "저 여기 처음이에요."
+    ]
+   ],
+   "mcq": [
+    "Something stranger happened today to.",
+    "Strange something happened today.",
+    "Something strange happened today.",
+    "Something strangely happened today."
+   ],
+   "ans": 2,
+   "note": "strange = 이상한. 명사 stranger = 낯선 사람.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "glad",
+   "ko": "기쁜",
+   "ex": "I'm glad you came.",
+   "exko": "와 줘서 기뻐요.",
+   "use": [
+    [
+     "Glad to hear that!",
+     "그 말 들으니 좋네요!"
+    ],
+    [
+     "I'd be glad to help.",
+     "기꺼이 도울게요."
+    ]
+   ],
+   "mcq": [
+    "I'm glad for see you again.",
+    "I'm glad seeing you again to.",
+    "I'm glad to see you again.",
+    "I'm gladly to see you again."
+   ],
+   "ans": 2,
+   "note": "glad to V / glad (that) ~. happy보다 가볍게 자주.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "afraid",
+   "ko": "두려운, 유감인",
+   "ex": "I'm afraid of dogs.",
+   "exko": "저 개 무서워해요.",
+   "use": [
+    [
+     "I'm afraid I can't come.",
+     "유감이지만 못 가요."
+    ],
+    [
+     "Don't be afraid.",
+     "무서워하지 마."
+    ]
+   ],
+   "mcq": [
+    "She's afraid to the dark.",
+    "She's afraid from the dark.",
+    "She's afraid with the dark.",
+    "She's afraid of the dark."
+   ],
+   "ans": 3,
+   "note": "be afraid of N. I'm afraid ~ = 유감스럽지만 (정중한 거절).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "comfortable",
+   "ko": "편안한",
+   "ex": "These shoes are comfortable.",
+   "exko": "이 신발 편해요.",
+   "use": [
+    [
+     "Make yourself comfortable.",
+     "편하게 계세요."
+    ],
+    [
+     "I don't feel comfortable with that.",
+     "그건 좀 불편해요."
+    ]
+   ],
+   "mcq": [
+    "This sofa is really comfortable.",
+    "This sofa is really comfortabled.",
+    "This sofa is really comfortably.",
+    "This sofa is really comfort."
+   ],
+   "ans": 0,
+   "note": "comfortable(형) / comfort(명) / comfortably(부). 발음 [ˈkʌmftəbl].",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "familiar",
+   "ko": "익숙한, 낯익은",
+   "ex": "You look familiar.",
+   "exko": "낯이 익네요.",
+   "use": [
+    [
+     "Are you familiar with this area?",
+     "이 동네 잘 아세요?"
+    ],
+    [
+     "The song sounds familiar.",
+     "그 노래 들어 본 것 같아요."
+    ]
+   ],
+   "mcq": [
+    "I'm not familiar with this software.",
+    "I'm not familiar of this software.",
+    "I'm not familiarly with this software.",
+    "I'm not familiar to this software."
+   ],
+   "ans": 0,
+   "note": "be familiar with N = ~를 잘 알다. N is familiar to 사람.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "tough",
+   "ko": "힘든, 질긴, 강인한",
+   "ex": "It's been a tough week.",
+   "exko": "힘든 한 주였어요.",
+   "use": [
+    [
+     "This meat is tough.",
+     "이 고기 질겨요."
+    ],
+    [
+     "She's a tough person.",
+     "그녀는 강한 사람이에요."
+    ]
+   ],
+   "mcq": [
+    "The exam was really tougher.",
+    "The exam was really tough.",
+    "The exam was really toughness.",
+    "The exam was really toughly."
+   ],
+   "ans": 1,
+   "note": "tough = 힘든/강한/질긴. Tough luck! = 운이 없네.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "odd",
+   "ko": "이상한, 홀수의",
+   "ex": "That's odd.",
+   "exko": "그거 이상하네요.",
+   "use": [
+    [
+     "1, 3, and 5 are odd numbers.",
+     "1, 3, 5는 홀수예요."
+    ],
+    [
+     "I found an odd sock.",
+     "짝 안 맞는 양말을 찾았어요."
+    ]
+   ],
+   "mcq": [
+    "It's oddly that he didn't call.",
+    "It's odd of he didn't call.",
+    "It's odd that he didn't call.",
+    "It's odd for he didn't call."
+   ],
+   "ans": 2,
+   "note": "odd = 이상한(strange보다 가벼움)/홀수. 반대 even(짝수).",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "tiny",
+   "ko": "아주 작은",
+   "ex": "It's a tiny room.",
+   "exko": "아주 작은 방이에요.",
+   "use": [
+    [
+     "Just a tiny bit.",
+     "아주 조금만요."
+    ],
+    [
+     "Her dog is tiny.",
+     "그녀의 강아지는 아주 작아요."
+    ]
+   ],
+   "mcq": [
+    "There's tiny a scratch on my phone.",
+    "There's a tinily scratch on my phone.",
+    "There's a tiny of scratch on my phone.",
+    "There's a tiny scratch on my phone."
+   ],
+   "ans": 3,
+   "note": "tiny = very small. 반대 huge.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "sweet",
+   "ko": "달콤한, 다정한",
+   "ex": "This cake is too sweet.",
+   "exko": "이 케이크 너무 달아요.",
+   "use": [
+    [
+     "That's so sweet of you.",
+     "정말 다정하시네요."
+    ],
+    [
+     "Sweet dreams!",
+     "좋은 꿈 꿔!"
+    ]
+   ],
+   "mcq": [
+    "It was sweetly of you to help me.",
+    "It was sweet for you to help me.",
+    "It was sweet of you to help me.",
+    "It was sweet of you help me."
+   ],
+   "ans": 2,
+   "note": "sweet = 단/다정한. It's sweet of you to V = ~해 주다니 다정하다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "sick",
+   "ko": "아픈, 질린",
+   "ex": "I feel sick.",
+   "exko": "몸이 안 좋아요.",
+   "use": [
+    [
+     "I'm sick of waiting.",
+     "기다리는 거 지긋지긋해요."
+    ],
+    [
+     "She called in sick.",
+     "그녀는 아파서 결근했어요."
+    ]
+   ],
+   "mcq": [
+    "I'm sickly of this rainy weather.",
+    "I'm sick with this rainy weather.",
+    "I'm sick of this rainy weather.",
+    "I'm sick to this rainy weather."
+   ],
+   "ans": 2,
+   "note": "sick = 아픈. be sick of N = 질리다. call in sick = 병가 내다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "angry",
+   "ko": "화난",
+   "ex": "Are you angry with me?",
+   "exko": "저한테 화났어요?",
+   "use": [
+    [
+     "Don't get angry.",
+     "화내지 마세요."
+    ],
+    [
+     "He was angry about the delay.",
+     "그는 지연 때문에 화났어요."
+    ]
+   ],
+   "mcq": [
+    "She got angrily at the rude driver.",
+    "She got angry to the rude driver.",
+    "She got anger at the rude driver.",
+    "She got angry at the rude driver."
+   ],
+   "ans": 3,
+   "note": "angry with/at 사람, about N. 명사 anger.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "lovely",
+   "ko": "사랑스러운, 아주 좋은",
+   "ex": "What a lovely day!",
+   "exko": "날씨 정말 좋다!",
+   "use": [
+    [
+     "She's lovely.",
+     "그녀는 참 좋은 사람이에요."
+    ],
+    [
+     "That's a lovely dress.",
+     "드레스 예쁘네요."
+    ]
+   ],
+   "mcq": [
+    "We had a lovelily time at the beach.",
+    "We had a lovely time at the beach.",
+    "We had a love time at the beach.",
+    "We had lovely a time at the beach."
+   ],
+   "ans": 1,
+   "note": "lovely = 아주 좋은(영국식 자주). -ly지만 형용사!",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "empty",
+   "ko": "빈, 비우다",
+   "ex": "The fridge is empty.",
+   "exko": "냉장고가 비었어요.",
+   "use": [
+    [
+     "Empty your pockets.",
+     "주머니를 비우세요."
+    ],
+    [
+     "The streets were empty.",
+     "거리가 텅 비었어요."
+    ]
+   ],
+   "mcq": [
+    "The parking lot was almost empties.",
+    "The parking lot was almost emptily.",
+    "The parking lot was almost emptiness.",
+    "The parking lot was almost empty."
+   ],
+   "ans": 3,
+   "note": "empty(형) 빈 / (동) 비우다. 반대 full.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "wild",
+   "ko": "야생의, 열광적인",
+   "ex": "Wild animals",
+   "exko": "야생 동물",
+   "use": [
+    [
+     "The party was wild.",
+     "파티가 난리였어요."
+    ],
+    [
+     "That's a wild idea.",
+     "엉뚱한 아이디어네요."
+    ]
+   ],
+   "mcq": [
+    "The crowd went wild when she sang.",
+    "The crowd went wildly when she sang.",
+    "The crowd went wilderness when she sang.",
+    "The crowd went to wild when she sang."
+   ],
+   "ans": 0,
+   "note": "wild = 야생의/열광적인. go wild = 열광하다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "narrow",
+   "ko": "좁은",
+   "ex": "The road is narrow.",
+   "exko": "길이 좁아요.",
+   "use": [
+    [
+     "We narrowly missed the bus.",
+     "아슬아슬하게 버스를 놓쳤어요."
+    ],
+    [
+     "Let's narrow it down.",
+     "범위를 좁혀 봐요."
+    ]
+   ],
+   "mcq": [
+    "We narrowed it down to two options.",
+    "We narrow it down to two options yesterday.",
+    "We narrowed it to down two options.",
+    "We narrowed down it to two options."
+   ],
+   "ans": 0,
+   "note": "narrow ↔ wide. narrow down = 좁히다.",
+   "wk": "2026-W45"
+  },
+  {
+   "w": "helpful",
+   "ko": "도움이 되는",
+   "ex": "Thanks, that's really helpful.",
+   "exko": "고마워요, 정말 도움 돼요.",
+   "use": [
+    [
+     "The staff were very helpful.",
+     "직원들이 정말 친절했어요."
+    ],
+    [
+     "Here are some helpful tips.",
+     "유용한 팁이에요."
+    ]
+   ],
+   "mcq": [
+    "Your advice was very helpfulness.",
+    "Your advice was very helpful.",
+    "Your advice was very help.",
+    "Your advice was very helpfully."
+   ],
+   "ans": 1,
+   "note": "helpful = 도움이 되는/친절한. 반대 unhelpful.",
+   "wk": "2026-W45"
   }
  ]
 }
