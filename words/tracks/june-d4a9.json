@@ -6002,6 +6002,506 @@
    "ans": 3,
    "note": "expound (on) N = 길고 자세히 설명하다. elaborate on과 비슷.",
    "wk": "2026-W45"
+  },
+  {
+   "w": "extol",
+   "ko": "극찬하다",
+   "ex": "Critics extolled the film.",
+   "exko": "평론가들이 영화를 극찬했어요.",
+   "use": [
+    [
+     "Extol the virtues of N",
+     "~의 장점을 칭송하다"
+    ],
+    [
+     "He extolled her talent.",
+     "그는 그녀의 재능을 극찬했어요."
+    ]
+   ],
+   "mcq": [
+    "She extolled about the benefits of early rising.",
+    "She extolled the benefits of early rising.",
+    "She extol the benefits of early rising yesterday.",
+    "She was extolled the benefits of early rising."
+   ],
+   "ans": 1,
+   "note": "extol = 크게 칭찬하다 (격식). praise highly.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "extrapolate",
+   "ko": "추론하다, 추정하다",
+   "ex": "Extrapolate from the data",
+   "exko": "데이터로부터 추정하다",
+   "use": [
+    [
+     "You can't extrapolate that.",
+     "그렇게까지 확대 해석할 순 없어요."
+    ],
+    [
+     "Extrapolate future trends",
+     "미래 추세를 예측하다"
+    ]
+   ],
+   "mcq": [
+    "We extrapolated next year's sales of current figures.",
+    "We extrapolate next year's sales from current figures yesterday.",
+    "We were extrapolated next year's sales from current figures.",
+    "We extrapolated next year's sales from current figures."
+   ],
+   "ans": 3,
+   "note": "extrapolate (from N) = 아는 것으로 모르는 것을 추정.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "fabricate",
+   "ko": "날조하다, 제작하다",
+   "ex": "He fabricated the story.",
+   "exko": "그는 이야기를 지어냈어요.",
+   "use": [
+    [
+     "Fabricated evidence",
+     "조작된 증거"
+    ],
+    [
+     "Fabricate metal parts",
+     "금속 부품을 제작하다"
+    ]
+   ],
+   "mcq": [
+    "The reporter fabricated several quotes.",
+    "The reporter fabricated of several quotes.",
+    "The reporter fabricate several quotes yesterday.",
+    "The reporter was fabricated several quotes."
+   ],
+   "ans": 0,
+   "note": "fabricate = 거짓을 지어내다 / 제조하다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "facilitate",
+   "ko": "용이하게 하다, 진행하다",
+   "ex": "Technology facilitates learning.",
+   "exko": "기술이 학습을 쉽게 해 줘요.",
+   "use": [
+    [
+     "Facilitate a meeting",
+     "회의를 진행하다"
+    ],
+    [
+     "Facilitate communication",
+     "소통을 돕다"
+    ]
+   ],
+   "mcq": [
+    "The new system will facilitate to faster payments.",
+    "The new system will facilitate faster payments.",
+    "The new system facilitate will faster payments.",
+    "The new system will facilitates faster payments."
+   ],
+   "ans": 1,
+   "note": "facilitate = 일을 수월하게 하다. 사람 진행자는 facilitator.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "fathom",
+   "ko": "헤아리다, 이해하다",
+   "ex": "I can't fathom why.",
+   "exko": "도무지 이유를 모르겠어요.",
+   "use": [
+    [
+     "Hard to fathom",
+     "이해하기 어려운"
+    ],
+    [
+     "Fathom the depth",
+     "깊이를 재다"
+    ]
+   ],
+   "mcq": [
+    "I can't fathom how he did it.",
+    "I can't fathom how he do it.",
+    "I can't fathom how did he do it.",
+    "I can't fathoming how he did it."
+   ],
+   "ans": 0,
+   "note": "fathom = 깊이 이해하다. 주로 can't fathom으로.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "feign",
+   "ko": "~인 척하다",
+   "ex": "Feign illness",
+   "exko": "꾀병을 부리다",
+   "use": [
+    [
+     "She feigned surprise.",
+     "그녀는 놀란 척했어요."
+    ],
+    [
+     "Feigned interest",
+     "가식적인 관심"
+    ]
+   ],
+   "mcq": [
+    "He feigned ignorance when asked.",
+    "He feign ignorance when asked yesterday.",
+    "He was feigned ignorance when asked.",
+    "He feigned to ignorance when asked."
+   ],
+   "ans": 0,
+   "note": "feign (g 묵음, '페인') = pretend의 격식.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "flaunt",
+   "ko": "과시하다",
+   "ex": "Flaunt your wealth",
+   "exko": "부를 과시하다",
+   "use": [
+    [
+     "If you've got it, flaunt it.",
+     "가진 거 있으면 자랑해."
+    ],
+    [
+     "She flaunted her new ring.",
+     "그녀는 새 반지를 뽐냈어요."
+    ]
+   ],
+   "mcq": [
+    "He loves to flaunt his expensive car.",
+    "He loves to flaunting his expensive car.",
+    "He loves flaunt his expensive car.",
+    "He loves to flaunt with his expensive car."
+   ],
+   "ans": 0,
+   "note": "flaunt = 눈에 띄게 자랑하다. flout(무시하다)와 헷갈리기 쉬움.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "foment",
+   "ko": "조장하다, 선동하다",
+   "ex": "Foment unrest",
+   "exko": "불안을 조장하다",
+   "use": [
+    [
+     "Foment rebellion",
+     "반란을 선동하다"
+    ],
+    [
+     "They were accused of fomenting violence.",
+     "그들은 폭력 조장 혐의를 받았어요."
+    ]
+   ],
+   "mcq": [
+    "The rumors were fomented distrust among staff.",
+    "The rumors foment distrust among staff yesterday.",
+    "The rumors fomented to distrust among staff.",
+    "The rumors fomented distrust among staff."
+   ],
+   "ans": 3,
+   "note": "foment = 나쁜 감정·행동을 부추기다 (incite와 비슷).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "forestall",
+   "ko": "미리 막다",
+   "ex": "Forestall criticism",
+   "exko": "비판을 미리 차단하다",
+   "use": [
+    [
+     "Act now to forestall problems.",
+     "문제를 막으려면 지금 움직여야 해요."
+    ],
+    [
+     "Forestall a crisis",
+     "위기를 미연에 방지하다"
+    ]
+   ],
+   "mcq": [
+    "The CEO spoke early to forestalling rumors.",
+    "The CEO spoke early for forestall rumors.",
+    "The CEO spoke early to forestall rumors.",
+    "The CEO spoke early to forestall of rumors."
+   ],
+   "ans": 2,
+   "note": "forestall = 선수를 쳐서 막다. prevent의 격식.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "galvanize",
+   "ko": "자극하다, 활기를 불어넣다",
+   "ex": "The speech galvanized the team.",
+   "exko": "그 연설이 팀을 불타오르게 했어요.",
+   "use": [
+    [
+     "Galvanize support",
+     "지지를 결집하다"
+    ],
+    [
+     "Galvanized steel",
+     "아연 도금 강철"
+    ]
+   ],
+   "mcq": [
+    "The crisis galvanized people into action.",
+    "The crisis was galvanized people into action.",
+    "The crisis galvanize people into action yesterday.",
+    "The crisis galvanized people to action into."
+   ],
+   "ans": 0,
+   "note": "galvanize 사람 into N = ~하도록 들고일어나게 하다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "garner",
+   "ko": "얻다, 모으다",
+   "ex": "Garner support",
+   "exko": "지지를 얻다",
+   "use": [
+    [
+     "The video garnered millions of views.",
+     "그 영상은 조회 수 수백만을 기록했어요."
+    ],
+    [
+     "Garner attention",
+     "관심을 끌다"
+    ]
+   ],
+   "mcq": [
+    "Her book was garnered great reviews.",
+    "Her book garnered great reviews.",
+    "Her book garner great reviews yesterday.",
+    "Her book garnered to great reviews."
+   ],
+   "ans": 1,
+   "note": "garner = 노력·호평을 모으다. gain의 격식.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "goad",
+   "ko": "부추기다, 자극하다",
+   "ex": "Don't let them goad you.",
+   "exko": "그들한테 넘어가지 마.",
+   "use": [
+    [
+     "Goad someone into a fight",
+     "싸움을 부추기다"
+    ],
+    [
+     "Goaded by friends",
+     "친구들의 부추김에"
+    ]
+   ],
+   "mcq": [
+    "They were goaded him into jumping.",
+    "They goad him into jumping yesterday.",
+    "They goaded him to jumping into.",
+    "They goaded him into jumping."
+   ],
+   "ans": 3,
+   "note": "goad 사람 into -ing = 자극해서 ~하게 만들다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "hamper",
+   "ko": "방해하다",
+   "ex": "Rain hampered the search.",
+   "exko": "비 때문에 수색이 어려웠어요.",
+   "use": [
+    [
+     "Hamper progress",
+     "진행을 방해하다"
+    ],
+    [
+     "A picnic hamper",
+     "피크닉 바구니"
+    ]
+   ],
+   "mcq": [
+    "Poor internet was hampered our meeting.",
+    "Poor internet hampered our meeting.",
+    "Poor internet hamper our meeting yesterday.",
+    "Poor internet hampered to our meeting."
+   ],
+   "ans": 1,
+   "note": "hamper = 진행을 더디게 하다. 명사로는 뚜껑 달린 바구니.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "heed",
+   "ko": "주의를 기울이다",
+   "ex": "Heed my advice.",
+   "exko": "제 충고 새겨들어요.",
+   "use": [
+    [
+     "Heed the warning",
+     "경고를 따르다"
+    ],
+    [
+     "Pay no heed",
+     "전혀 신경 안 쓰다"
+    ]
+   ],
+   "mcq": [
+    "He heed not the doctor's advice.",
+    "He didn't heed the doctor's advice.",
+    "He didn't heeded the doctor's advice.",
+    "He didn't heed to the doctor's advice."
+   ],
+   "ans": 1,
+   "note": "heed = 충고·경고를 귀담아듣다 (격식).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "impair",
+   "ko": "손상시키다",
+   "ex": "Alcohol impairs judgment.",
+   "exko": "술은 판단력을 흐려요.",
+   "use": [
+    [
+     "Hearing-impaired",
+     "청각 장애가 있는"
+    ],
+    [
+     "Impair performance",
+     "성능을 떨어뜨리다"
+    ]
+   ],
+   "mcq": [
+    "Lack of sleep can impair to your memory.",
+    "Lack of sleep can impairment your memory.",
+    "Lack of sleep can impairs your memory.",
+    "Lack of sleep can impair your memory."
+   ],
+   "ans": 3,
+   "note": "impair = 기능을 약화시키다. 명사 impairment.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "impart",
+   "ko": "전하다, 나누어 주다",
+   "ex": "Impart knowledge",
+   "exko": "지식을 전하다",
+   "use": [
+    [
+     "Impart flavor",
+     "맛을 더하다"
+    ],
+    [
+     "Teachers impart wisdom.",
+     "선생님은 지혜를 전해요."
+    ]
+   ],
+   "mcq": [
+    "She was imparted valuable advice to us.",
+    "She imparted us valuable advice to.",
+    "She impart valuable advice to us yesterday.",
+    "She imparted valuable advice to us."
+   ],
+   "ans": 3,
+   "note": "impart N to 사람 = 정보·성질을 전하다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "implore",
+   "ko": "간청하다",
+   "ex": "I implore you.",
+   "exko": "제발 부탁드려요.",
+   "use": [
+    [
+     "Implore someone to stay",
+     "머물러 달라고 애원하다"
+    ],
+    [
+     "She implored him for help.",
+     "그녀는 그에게 도움을 간청했어요."
+    ]
+   ],
+   "mcq": [
+    "He implored her not to leave.",
+    "He implored to her not to leave.",
+    "He implore her not to leave yesterday.",
+    "He implored her to not to leave."
+   ],
+   "ans": 0,
+   "note": "implore 사람 to V = 간절히 부탁하다. beg의 격식.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "incite",
+   "ko": "선동하다",
+   "ex": "Incite violence",
+   "exko": "폭력을 선동하다",
+   "use": [
+    [
+     "Incite hatred",
+     "증오를 부추기다"
+    ],
+    [
+     "He was arrested for inciting a riot.",
+     "그는 폭동 선동으로 체포됐어요."
+    ]
+   ],
+   "mcq": [
+    "The post incited to anger online.",
+    "The post incited anger online.",
+    "The post incite anger online yesterday.",
+    "The post was incited anger online."
+   ],
+   "ans": 1,
+   "note": "incite = 나쁜 행동을 부추기다. 명사 incitement.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "indulge",
+   "ko": "마음껏 즐기다, 받아 주다",
+   "ex": "Indulge yourself.",
+   "exko": "마음껏 즐기세요.",
+   "use": [
+    [
+     "Indulge in chocolate",
+     "초콜릿을 실컷 먹다"
+    ],
+    [
+     "Don't indulge his every wish.",
+     "그 애 원하는 걸 다 들어주지 마요."
+    ]
+   ],
+   "mcq": [
+    "I was indulged in a long bath after work.",
+    "I indulged in a long bath after work.",
+    "I indulged a long bath in after work.",
+    "I indulge in a long bath after work yesterday."
+   ],
+   "ans": 1,
+   "note": "indulge (in N) = 즐거움에 빠지다. 형용사 indulgent.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "lament",
+   "ko": "슬퍼하다, 한탄하다",
+   "ex": "Lament the loss",
+   "exko": "상실을 슬퍼하다",
+   "use": [
+    [
+     "He lamented the decline of manners.",
+     "그는 예절이 사라지는 걸 한탄했어요."
+    ],
+    [
+     "A sad lament",
+     "슬픈 애가"
+    ]
+   ],
+   "mcq": [
+    "Fans lamented the end of the series.",
+    "Fans lament the end of the series yesterday.",
+    "Fans lamented about of the end of the series.",
+    "Fans were lamented the end of the series."
+   ],
+   "ans": 0,
+   "note": "lament = 깊이 아쉬워하다 (격식). 명사로 '애가'.",
+   "wk": "2026-W46"
   }
  ]
 }

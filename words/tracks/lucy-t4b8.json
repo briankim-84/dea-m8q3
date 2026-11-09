@@ -6002,6 +6002,506 @@
    "ans": 0,
    "note": "flamboyant = 눈에 띄게 화려한. 반대 understated.",
    "wk": "2026-W45"
+  },
+  {
+   "w": "procrastinate",
+   "ko": "미루다, 꾸물거리다",
+   "ex": "Stop procrastinating!",
+   "exko": "그만 미뤄!",
+   "use": [
+    [
+     "I always procrastinate on homework.",
+     "저는 숙제를 늘 미뤄요."
+    ],
+    [
+     "Don't procrastinate.",
+     "미루지 마세요."
+    ]
+   ],
+   "mcq": [
+    "I tend procrastinate when I'm stressed.",
+    "I tend to procrastinating when I'm stressed.",
+    "I tend to procrastinate it when I'm stressed.",
+    "I tend to procrastinate when I'm stressed."
+   ],
+   "ans": 3,
+   "note": "procrastinate = 해야 할 일을 질질 끌다. 명사 procrastination.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "reminisce",
+   "ko": "추억에 잠기다",
+   "ex": "We reminisced about college.",
+   "exko": "대학 시절 얘기로 추억에 잠겼어요.",
+   "use": [
+    [
+     "Reminisce about the old days",
+     "옛날을 회상하다"
+    ],
+    [
+     "She loves to reminisce.",
+     "그녀는 옛날 얘기를 좋아해요."
+    ]
+   ],
+   "mcq": [
+    "My parents love reminisce about their trip.",
+    "My parents love to reminisce their trip.",
+    "My parents love to reminisce about their trip.",
+    "My parents love to reminiscing about their trip."
+   ],
+   "ans": 2,
+   "note": "reminisce about N = 좋은 옛 기억을 나누다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "contemplate",
+   "ko": "곰곰이 생각하다, 고려하다",
+   "ex": "I'm contemplating a career change.",
+   "exko": "이직을 고민 중이에요.",
+   "use": [
+    [
+     "Contemplate the future",
+     "미래를 생각하다"
+    ],
+    [
+     "She sat contemplating the view.",
+     "그녀는 경치를 바라보며 생각에 잠겼어요."
+    ]
+   ],
+   "mcq": [
+    "He's contemplate moving abroad.",
+    "He's contemplating moving abroad.",
+    "He's contemplating to move abroad.",
+    "He contemplating moving abroad."
+   ],
+   "ans": 1,
+   "note": "contemplate + -ing (to V ✗). consider와 비슷하지만 더 진지함.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "improvise",
+   "ko": "즉흥으로 하다",
+   "ex": "I forgot my notes, so I improvised.",
+   "exko": "메모를 잊어서 즉석에서 했어요.",
+   "use": [
+    [
+     "Improvise a speech",
+     "즉흥 연설을 하다"
+    ],
+    [
+     "We had to improvise.",
+     "즉석에서 해결해야 했어요."
+    ]
+   ],
+   "mcq": [
+    "The actors were improvised the whole scene.",
+    "The actors improvise the whole scene yesterday.",
+    "The actors improvised on the whole scene.",
+    "The actors improvised the whole scene."
+   ],
+   "ans": 3,
+   "note": "improvise = 준비 없이 즉흥으로. 줄여서 improv(즉흥극).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "exaggerate",
+   "ko": "과장하다",
+   "ex": "Don't exaggerate.",
+   "exko": "과장하지 마.",
+   "use": [
+    [
+     "I'm not exaggerating!",
+     "진짜 과장 아니야!"
+    ],
+    [
+     "The story was exaggerated.",
+     "이야기가 부풀려졌어요."
+    ]
+   ],
+   "mcq": [
+    "He always is exaggerating his achievements.",
+    "He always exaggerates about of his achievements.",
+    "He always exaggerate his achievements.",
+    "He always exaggerates his achievements."
+   ],
+   "ans": 3,
+   "note": "exaggerate (g 두 개). 명사 exaggeration.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "overestimate",
+   "ko": "과대평가하다",
+   "ex": "Don't overestimate yourself.",
+   "exko": "자신을 과대평가하지 마.",
+   "use": [
+    [
+     "We overestimated the cost.",
+     "비용을 너무 크게 잡았어요."
+    ],
+    [
+     "Overestimate demand",
+     "수요를 높게 잡다"
+    ]
+   ],
+   "mcq": [
+    "I overestimated how much time I had.",
+    "I overestimate how much time I had yesterday.",
+    "I overestimated how much time did I have.",
+    "I overestimated how many time I had."
+   ],
+   "ans": 0,
+   "note": "overestimate ↔ underestimate.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "underestimate",
+   "ko": "과소평가하다",
+   "ex": "Never underestimate her.",
+   "exko": "그녀를 절대 얕보지 마.",
+   "use": [
+    [
+     "I underestimated the traffic.",
+     "차 막히는 걸 얕봤어요."
+    ],
+    [
+     "Underestimate the risk",
+     "위험을 얕보다"
+    ]
+   ],
+   "mcq": [
+    "Don't underestimate how hard is it.",
+    "Don't underestimate how hardly it is.",
+    "Don't underestimating how hard it is.",
+    "Don't underestimate how hard it is."
+   ],
+   "ans": 3,
+   "note": "underestimate = 실제보다 낮게 보다. 사람·난이도·시간 모두에.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "reiterate",
+   "ko": "거듭 말하다",
+   "ex": "Let me reiterate.",
+   "exko": "다시 한번 말씀드리면요.",
+   "use": [
+    [
+     "She reiterated her point.",
+     "그녀가 요점을 다시 강조했어요."
+    ],
+    [
+     "Reiterate the importance",
+     "중요성을 재차 강조하다"
+    ]
+   ],
+   "mcq": [
+    "I want to reiterating that safety comes first.",
+    "I want to reiterate safety that comes first.",
+    "I want reiterate that safety comes first.",
+    "I want to reiterate that safety comes first."
+   ],
+   "ans": 3,
+   "note": "reiterate = 강조하려고 한 번 더 말하다 (회의·발표에서 자주).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "empathize",
+   "ko": "공감하다",
+   "ex": "I can empathize with you.",
+   "exko": "충분히 공감돼요.",
+   "use": [
+    [
+     "Empathize with customers",
+     "고객 입장에 공감하다"
+    ],
+    [
+     "It's hard to empathize.",
+     "공감하기 어려워요."
+    ]
+   ],
+   "mcq": [
+    "Good teachers empathizes with their students.",
+    "Good teachers empathize with their students.",
+    "Good teachers empathize to their students.",
+    "Good teachers empathy with their students."
+   ],
+   "ans": 1,
+   "note": "empathize with N. 명사 empathy (sympathy는 동정).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "persevere",
+   "ko": "끈기 있게 계속하다",
+   "ex": "Keep persevering.",
+   "exko": "꾸준히 계속하세요.",
+   "use": [
+    [
+     "Persevere through hard times",
+     "힘든 시기를 버텨 내다"
+    ],
+    [
+     "She persevered and won.",
+     "그녀는 포기 않고 결국 이겼어요."
+    ]
+   ],
+   "mcq": [
+    "If you persevere, you'll get more good.",
+    "If you persevere, you'll get better.",
+    "If you will persevere, you'll get better.",
+    "If you persevering, you'll get better."
+   ],
+   "ans": 1,
+   "note": "persevere (in/with N) = 어려워도 꾸준히. 명사 perseverance.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "relish",
+   "ko": "즐기다, 매우 좋아하다",
+   "ex": "I relish a challenge.",
+   "exko": "저는 도전을 즐겨요.",
+   "use": [
+    [
+     "Relish the moment",
+     "순간을 만끽하다"
+    ],
+    [
+     "She didn't relish the idea.",
+     "그녀는 그 생각이 썩 내키지 않았어요."
+    ]
+   ],
+   "mcq": [
+    "He relishes about the chance to speak English.",
+    "He relishes the chance to speak English.",
+    "He relishes to speak English.",
+    "He relish the chance to speak English."
+   ],
+   "ans": 1,
+   "note": "relish + 명사/-ing = 아주 즐기다. 핫도그 소스 '렐리시'도 같은 단어.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "cherish",
+   "ko": "소중히 여기다",
+   "ex": "Cherish every moment.",
+   "exko": "매 순간을 소중히 여기세요.",
+   "use": [
+    [
+     "Cherished memories",
+     "소중한 추억"
+    ],
+    [
+     "I cherish our friendship.",
+     "우리 우정을 소중히 생각해요."
+    ]
+   ],
+   "mcq": [
+    "I'll always cherish of the time we spent together.",
+    "I'll always cherish the time we spent together.",
+    "I'll always cherishing the time we spent together.",
+    "I'll always cherish the time we spend together yesterday."
+   ],
+   "ans": 1,
+   "note": "cherish = 애정을 가지고 아끼다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "resent",
+   "ko": "분하게 여기다",
+   "ex": "I resent that.",
+   "exko": "그 말 기분 나쁘네요.",
+   "use": [
+    [
+     "She resented his comments.",
+     "그녀는 그의 말에 분개했어요."
+    ],
+    [
+     "Resent being told what to do",
+     "이래라저래라 하는 게 싫다"
+    ]
+   ],
+   "mcq": [
+    "He resent being treated like a child.",
+    "He resents being treated like a child.",
+    "He resents being treat like a child.",
+    "He resents to be treated like a child."
+   ],
+   "ans": 1,
+   "note": "resent + 명사/-ing. 형용사 resentful.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "envision",
+   "ko": "마음에 그리다, 구상하다",
+   "ex": "I envision a better future.",
+   "exko": "더 나은 미래를 그려요.",
+   "use": [
+    [
+     "How do you envision it?",
+     "어떻게 구상하고 있어요?"
+    ],
+    [
+     "Envision success",
+     "성공을 그려 보다"
+    ]
+   ],
+   "mcq": [
+    "I can't envision to live anywhere else.",
+    "I can't envisioned living anywhere else.",
+    "I can't envision living anywhere else.",
+    "I can't envision living anywhere other else."
+   ],
+   "ans": 2,
+   "note": "envision = 앞으로의 모습을 떠올리다. 영국 envisage.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "alienate",
+   "ko": "멀어지게 하다, 소외시키다",
+   "ex": "Don't alienate your customers.",
+   "exko": "고객들 등 돌리게 하지 마요.",
+   "use": [
+    [
+     "Feel alienated",
+     "소외감을 느끼다"
+    ],
+    [
+     "His comments alienated many fans.",
+     "그의 발언에 팬이 많이 떠났어요."
+    ]
+   ],
+   "mcq": [
+    "Rude comments can alienate your team.",
+    "Rude comments can alienate to your team.",
+    "Rude comments can alienates your team.",
+    "Rude comments can alienation your team."
+   ],
+   "ans": 0,
+   "note": "alienate = 사이를 멀어지게 하다. alien(낯선)에서 나옴.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "provoke",
+   "ko": "자극하다, 불러일으키다",
+   "ex": "Don't provoke him.",
+   "exko": "그 사람 건드리지 마.",
+   "use": [
+    [
+     "Provoke a reaction",
+     "반응을 끌어내다"
+    ],
+    [
+     "The film provoked debate.",
+     "그 영화가 논쟁을 불러일으켰어요."
+    ]
+   ],
+   "mcq": [
+    "His joke provoke a lot of laughter yesterday.",
+    "His joke provoked a lot of laughter.",
+    "His joke was provoked a lot of laughter.",
+    "His joke provoked to a lot of laughter."
+   ],
+   "ans": 1,
+   "note": "provoke = 화·반응을 불러일으키다. thought-provoking = 생각하게 만드는.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "retaliate",
+   "ko": "보복하다",
+   "ex": "They retaliated quickly.",
+   "exko": "그들이 바로 보복했어요.",
+   "use": [
+    [
+     "Retaliate against N",
+     "~에 맞서 보복하다"
+    ],
+    [
+     "Don't retaliate.",
+     "맞대응하지 마세요."
+    ]
+   ],
+   "mcq": [
+    "The country retaliate with new tariffs.",
+    "The country retaliated with new tariffs.",
+    "The country was retaliated with new tariffs.",
+    "The country retaliated by new tariffs with."
+   ],
+   "ans": 1,
+   "note": "retaliate (against N) = 당한 만큼 되갚다. 명사 retaliation.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "speculate",
+   "ko": "추측하다, 투기하다",
+   "ex": "I don't want to speculate.",
+   "exko": "추측은 하고 싶지 않아요.",
+   "use": [
+    [
+     "Speculate about the reason",
+     "이유를 추측하다"
+    ],
+    [
+     "Speculate in stocks",
+     "주식에 투기하다"
+    ]
+   ],
+   "mcq": [
+    "People are speculate about why he quit.",
+    "People are speculating about why he quit.",
+    "People are speculating why about he quit.",
+    "People speculating about why he quit."
+   ],
+   "ans": 1,
+   "note": "speculate about/on N = 근거 없이 추측하다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "deteriorate",
+   "ko": "악화되다",
+   "ex": "His health deteriorated.",
+   "exko": "그의 건강이 나빠졌어요.",
+   "use": [
+    [
+     "The situation is deteriorating.",
+     "상황이 악화되고 있어요."
+    ],
+    [
+     "Deteriorating relations",
+     "나빠지는 관계"
+    ]
+   ],
+   "mcq": [
+    "The weather deteriorate in the afternoon yesterday.",
+    "The weather deteriorated worse in the afternoon.",
+    "The weather deteriorated in the afternoon.",
+    "The weather was deteriorated in the afternoon."
+   ],
+   "ans": 2,
+   "note": "deteriorate = 점점 나빠지다 (자동사). get worse의 격식.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "overthink",
+   "ko": "너무 깊이 생각하다, 고민을 사서 하다",
+   "ex": "Don't overthink it.",
+   "exko": "너무 깊게 생각하지 마.",
+   "use": [
+    [
+     "I tend to overthink things.",
+     "저는 생각이 너무 많은 편이에요."
+    ],
+    [
+     "Stop overthinking!",
+     "그만 고민해!"
+    ]
+   ],
+   "mcq": [
+    "I overthinked the question and got it wrong.",
+    "I overthought about of the question and got it wrong.",
+    "I overthink the question and got it wrong yesterday.",
+    "I overthought the question and got it wrong."
+   ],
+   "ans": 3,
+   "note": "overthink-overthought. Don't overthink it = 단순하게 가자.",
+   "wk": "2026-W46"
   }
  ]
 }

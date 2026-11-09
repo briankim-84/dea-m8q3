@@ -6002,6 +6002,506 @@
    "ans": 0,
    "note": "taste + 형용사 (부사 ❌). taste like + 명사. 명사 taste = 취향.",
    "wk": "2026-W45"
+  },
+  {
+   "w": "actually",
+   "ko": "사실은, 실제로",
+   "ex": "Actually, I'm not hungry.",
+   "exko": "사실 저 배 안 고파요.",
+   "use": [
+    [
+     "Did you actually finish it?",
+     "진짜로 그거 다 끝냈어요?"
+    ],
+    [
+     "It's actually pretty good.",
+     "생각보다 꽤 괜찮네요."
+    ]
+   ],
+   "mcq": [
+    "Actually, I changed my mind.",
+    "Actually, I change my mind yesterday.",
+    "Actually, I changed mine mind.",
+    "Actual, I changed my mind."
+   ],
+   "ans": 0,
+   "note": "actually = 상대 예상과 다른 사실을 말할 때. '현재'라는 뜻 아님 (현재는 currently).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "probably",
+   "ko": "아마",
+   "ex": "I'll probably be late.",
+   "exko": "아마 늦을 거예요.",
+   "use": [
+    [
+     "It's probably nothing.",
+     "아마 별거 아닐 거예요."
+    ],
+    [
+     "Probably not.",
+     "아마 아닐걸요."
+    ]
+   ],
+   "mcq": [
+    "She'll probably to call you tonight.",
+    "She'll probable call you tonight.",
+    "She'll probably call you tonight.",
+    "She probably will calls you tonight."
+   ],
+   "ans": 2,
+   "note": "probably = 가능성 80% 정도. maybe보다 확신이 커요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "already",
+   "ko": "벌써, 이미",
+   "ex": "I already ate.",
+   "exko": "저 벌써 먹었어요.",
+   "use": [
+    [
+     "Are you leaving already?",
+     "벌써 가요?"
+    ],
+    [
+     "It's already 10 o'clock.",
+     "벌써 10시예요."
+    ]
+   ],
+   "mcq": [
+    "I've already saw that movie.",
+    "I already have see that movie.",
+    "I've already seen that movie.",
+    "I've seen already that movie."
+   ],
+   "ans": 2,
+   "note": "already = 예상보다 빨리. 위치는 주로 have와 p.p. 사이.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "almost",
+   "ko": "거의",
+   "ex": "I'm almost there.",
+   "exko": "거의 다 왔어요.",
+   "use": [
+    [
+     "I almost forgot!",
+     "하마터면 잊을 뻔했어요!"
+    ],
+    [
+     "Almost everyone came.",
+     "거의 모두 왔어요."
+    ]
+   ],
+   "mcq": [
+    "We're almost done the project with.",
+    "We're almost done with the project.",
+    "We're most done with the project.",
+    "We almost are done with the project."
+   ],
+   "ans": 1,
+   "note": "almost = 거의. almost everyone/every day처럼. most와 헷갈리지 않기.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "ever",
+   "ko": "한 번이라도, 언제든",
+   "ex": "Have you ever been to Japan?",
+   "exko": "일본 가 본 적 있어요?",
+   "use": [
+    [
+     "Best day ever!",
+     "인생 최고의 날!"
+    ],
+    [
+     "If you ever need help, call me.",
+     "혹시 도움 필요하면 전화해요."
+    ]
+   ],
+   "mcq": [
+    "Have you ever try Thai food?",
+    "Have ever you tried Thai food?",
+    "Did you ever tried Thai food?",
+    "Have you ever tried Thai food?"
+   ],
+   "ans": 3,
+   "note": "ever = 경험 물을 때 Have you ever p.p.? / 최상급 뒤 ever = 역대.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "often",
+   "ko": "자주",
+   "ex": "I often walk to work.",
+   "exko": "저는 자주 걸어서 출근해요.",
+   "use": [
+    [
+     "How often do you exercise?",
+     "운동 얼마나 자주 해요?"
+    ],
+    [
+     "We don't see each other often.",
+     "우리 자주 못 봐요."
+    ]
+   ],
+   "mcq": [
+    "How often do you goes to the gym?",
+    "How much often do you go to the gym?",
+    "How often do you go to the gym?",
+    "How often you go to the gym?"
+   ],
+   "ans": 2,
+   "note": "often = 자주. How often ~? = 얼마나 자주?",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "usually",
+   "ko": "보통, 대개",
+   "ex": "I usually get up at 7.",
+   "exko": "보통 7시에 일어나요.",
+   "use": [
+    [
+     "What do you usually do on weekends?",
+     "주말에 보통 뭐 해요?"
+    ],
+    [
+     "It's usually quiet here.",
+     "여기 보통 조용해요."
+    ]
+   ],
+   "mcq": [
+    "I usually having coffee in the morning.",
+    "I usual have coffee in the morning.",
+    "I usually have coffee in the morning.",
+    "I have usually coffee in the morning."
+   ],
+   "ans": 2,
+   "note": "usually = 대체로. 일반동사 앞, be동사 뒤에 둬요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "sometimes",
+   "ko": "가끔",
+   "ex": "I sometimes cook at home.",
+   "exko": "가끔 집에서 요리해요.",
+   "use": [
+    [
+     "Sometimes I just need a break.",
+     "가끔은 그냥 쉬어야 해요."
+    ],
+    [
+     "It happens sometimes.",
+     "가끔 그래요."
+    ]
+   ],
+   "mcq": [
+    "I take sometimes the bus to work.",
+    "Sometimes I takes the bus to work.",
+    "Sometimes I take the bus to work.",
+    "Sometime I take the bus to work."
+   ],
+   "ans": 2,
+   "note": "sometimes = 가끔 (s 꼭!). sometime은 '언젠가'.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "finally",
+   "ko": "마침내, 드디어",
+   "ex": "We finally met!",
+   "exko": "드디어 만났네요!",
+   "use": [
+    [
+     "Finally, it's Friday.",
+     "드디어 금요일이다."
+    ],
+    [
+     "I finally understand.",
+     "이제야 알겠어요."
+    ]
+   ],
+   "mcq": [
+    "After two hours, the bus final came.",
+    "After two hours, the bus finally came.",
+    "After two hours, the bus finally come.",
+    "After two hours, finally the bus came it."
+   ],
+   "ans": 1,
+   "note": "finally = 오래 기다린 끝에. at last와 비슷.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "maybe",
+   "ko": "아마, 어쩌면",
+   "ex": "Maybe next time.",
+   "exko": "다음에 하죠.",
+   "use": [
+    [
+     "Maybe you're right.",
+     "당신 말이 맞을지도요."
+    ],
+    [
+     "Maybe we should go home.",
+     "우리 집에 가는 게 좋겠어요."
+    ]
+   ],
+   "mcq": [
+    "Maybe we can meet on Sunday.",
+    "May be we can meet on Sunday.",
+    "Maybe we can to meet on Sunday.",
+    "Maybe can we meet on Sunday."
+   ],
+   "ans": 0,
+   "note": "maybe = 어쩌면(한 단어). may be(띄어 쓰면)는 '~일 수도 있다' 동사.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "exactly",
+   "ko": "정확히, 바로 그거예요",
+   "ex": "Exactly!",
+   "exko": "바로 그거예요!",
+   "use": [
+    [
+     "That's exactly what I wanted.",
+     "딱 제가 원하던 거예요."
+    ],
+    [
+     "What exactly do you mean?",
+     "정확히 무슨 뜻이에요?"
+    ]
+   ],
+   "mcq": [
+    "The train left at exact 9 o'clock.",
+    "The train left exactly at 9 o'clock of.",
+    "The train left at exactly 9 o'clock.",
+    "The train leaved at exactly 9 o'clock."
+   ],
+   "ans": 2,
+   "note": "exactly = 정확히. 맞장구로 Exactly! 한 단어만 써도 돼요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "enough",
+   "ko": "충분한, 충분히",
+   "ex": "That's enough.",
+   "exko": "그만하면 됐어요.",
+   "use": [
+    [
+     "Do we have enough time?",
+     "시간 충분해요?"
+    ],
+    [
+     "Is it big enough?",
+     "크기 충분해요?"
+    ]
+   ],
+   "mcq": [
+    "She's old enough to drive.",
+    "She's old enough driving.",
+    "She's old enough for drive.",
+    "She's enough old to drive."
+   ],
+   "ans": 0,
+   "note": "enough + 명사 / 형용사 + enough 순서 주의 (big enough).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "instead",
+   "ko": "대신에",
+   "ex": "Let's have tea instead.",
+   "exko": "대신 차 마셔요.",
+   "use": [
+    [
+     "Can I come on Friday instead?",
+     "대신 금요일에 가도 돼요?"
+    ],
+    [
+     "Instead of driving, I walked.",
+     "운전 대신 걸었어요."
+    ]
+   ],
+   "mcq": [
+    "I stayed home instead of go out.",
+    "I stayed home instead of going out.",
+    "I stayed home instead for going out.",
+    "I stayed home instead going out."
+   ],
+   "ans": 1,
+   "note": "instead = 대신. instead of + 명사/-ing.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "alone",
+   "ko": "혼자",
+   "ex": "I live alone.",
+   "exko": "저 혼자 살아요.",
+   "use": [
+    [
+     "Leave me alone.",
+     "나 좀 내버려 둬."
+    ],
+    [
+     "Don't walk alone at night.",
+     "밤에 혼자 걷지 마요."
+    ]
+   ],
+   "mcq": [
+    "She alone traveled to at Europe.",
+    "She traveled alone to Europe.",
+    "She traveled lonely to Europe.",
+    "She traveled alone at Europe."
+   ],
+   "ans": 1,
+   "note": "alone = 혼자(사실). lonely = 외로운(감정).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "ready",
+   "ko": "준비된",
+   "ex": "Are you ready?",
+   "exko": "준비됐어요?",
+   "use": [
+    [
+     "Dinner is ready!",
+     "저녁 다 됐어요!"
+    ],
+    [
+     "I'm ready to go.",
+     "갈 준비 됐어요."
+    ]
+   ],
+   "mcq": [
+    "I'm not readied for the test yet.",
+    "I'm not ready to the test yet.",
+    "I'm not ready for test the yet.",
+    "I'm not ready for the test yet."
+   ],
+   "ans": 3,
+   "note": "ready for + 명사 / ready to + 동사.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "sorry",
+   "ko": "미안한, 안타까운",
+   "ex": "Sorry I'm late.",
+   "exko": "늦어서 미안해요.",
+   "use": [
+    [
+     "I'm sorry to hear that.",
+     "그런 일이 있었다니 안타까워요."
+    ],
+    [
+     "Sorry? Can you say that again?",
+     "네? 다시 말해 줄래요?"
+    ]
+   ],
+   "mcq": [
+    "I'm sorry for mistake the.",
+    "I'm sorry for the mistake.",
+    "I sorry for the mistake.",
+    "I'm sorry about make the mistake."
+   ],
+   "ans": 1,
+   "note": "sorry = 사과 + 위로 + 되묻기(Sorry?)까지 세 가지로 써요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "wrong",
+   "ko": "틀린, 잘못된",
+   "ex": "What's wrong?",
+   "exko": "무슨 일 있어요?",
+   "use": [
+    [
+     "You have the wrong number.",
+     "전화 잘못 거셨어요."
+    ],
+    [
+     "Something's wrong with my phone.",
+     "폰이 좀 이상해요."
+    ]
+   ],
+   "mcq": [
+    "I think I take the wrong bus yesterday.",
+    "I think I took the wrongly bus.",
+    "I think I took wrong the bus.",
+    "I think I took the wrong bus."
+   ],
+   "ans": 3,
+   "note": "What's wrong? = 무슨 일이야? / something's wrong with N = N이 고장·문제.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "fine",
+   "ko": "괜찮은, 좋은",
+   "ex": "I'm fine, thanks.",
+   "exko": "괜찮아요, 고마워요.",
+   "use": [
+    [
+     "That's fine with me.",
+     "저는 괜찮아요."
+    ],
+    [
+     "You'll be fine.",
+     "괜찮을 거예요."
+    ]
+   ],
+   "mcq": [
+    "Monday fine with me.",
+    "Monday is fine to me.",
+    "Monday is fine with me.",
+    "Monday is finely with me."
+   ],
+   "ans": 2,
+   "note": "fine with me = 난 괜찮아. 벌금이라는 뜻도 있어요 (a parking fine).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "nice",
+   "ko": "좋은, 친절한",
+   "ex": "Nice to meet you.",
+   "exko": "만나서 반가워요.",
+   "use": [
+    [
+     "That's so nice of you.",
+     "정말 친절하시네요."
+    ],
+    [
+     "Have a nice day!",
+     "좋은 하루 보내요!"
+    ]
+   ],
+   "mcq": [
+    "It was nice of you help me.",
+    "It was nice for you to help me.",
+    "It was nicely of you to help me.",
+    "It was nice of you to help me."
+   ],
+   "ans": 3,
+   "note": "nice of 사람 to V = ~해 주다니 친절하네요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "pretty",
+   "ko": "꽤, 예쁜",
+   "ex": "It's pretty cold today.",
+   "exko": "오늘 꽤 춥네요.",
+   "use": [
+    [
+     "I'm pretty sure.",
+     "거의 확실해요."
+    ],
+    [
+     "What a pretty dress!",
+     "드레스 예쁘다!"
+    ]
+   ],
+   "mcq": [
+    "The test was pretty ease.",
+    "The test pretty was easy.",
+    "The test was pretty easy.",
+    "The test was prettily easy."
+   ],
+   "ans": 2,
+   "note": "pretty + 형용사 = 꽤 (very보다 약간 약함). 구어에서 아주 자주 써요.",
+   "wk": "2026-W46"
   }
  ]
 }

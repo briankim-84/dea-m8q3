@@ -1,0 +1,54 @@
+{
+  "week": "2026-W46",
+  "label": "11월 9일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        {"expr": "I'm on it", "ko": "제가 바로 할게요, 처리 중이에요", "ex": "Can someone call the client back? — I'm on it."},
+        {"expr": "📘 단어: snooze / jot", "ko": "(알람을) 잠깐 미루고 더 자다 / 빨리 적어 두다", "ex": "I hit snooze three times. → Let me jot that down. (hit snooze = 알람 미루기, jot down = 메모하다)"},
+        {"expr": "Count me out", "ko": "저는 빼 주세요", "ex": "Karaoke tonight? — Count me out, I'm too tired."},
+        {"expr": "📘 단어: haggle / ditch", "ko": "값을 깎다, 흥정하다 / 버리다, 그만두다", "ex": "We haggled over the price. → I ditched my old phone. (haggle over N, ditch = 구어로 '버리다·빼먹다')"},
+        {"expr": "I'm stuffed", "ko": "배불러요, 더는 못 먹겠어요", "ex": "Want some more? — No thanks, I'm stuffed."}
+      ],
+      "quiz": [
+        {"q": "The printer's broken again. — Don't worry, I'm ___ it.", "options": ["in", "at", "on", "for"], "answer": 2, "note": "I'm on it = 제가 바로 할게요. 일을 맡을 때 짧고 자연스러운 대답."},
+        {"q": "My alarm went off, but I hit ___ and slept 10 more minutes.", "options": ["jot", "snooze", "ditch", "haggle"], "answer": 1, "note": "hit snooze = 알람을 잠깐 미루다. snooze 자체로 '깜빡 졸다'라는 뜻도."},
+        {"q": "A 6 a.m. hike? ___ !", "options": ["Count me in out", "Count out me", "Count me out", "Counting me out"], "answer": 2, "note": "Count me out = 난 빠질래. 반대는 Count me in(나도 낄래)."},
+        {"q": "At the market, my mom always tries to ___ over the price.", "options": ["snooze", "jot", "stuff", "haggle"], "answer": 3, "note": "haggle (over N) = 값을 깎으려고 흥정하다."},
+        {"q": "Dessert? — I couldn't. I'm totally ___ .", "options": ["stuffed", "stuffing", "stuff", "stuffy"], "answer": 0, "note": "I'm stuffed = 배가 꽉 찼어요. stuffy는 '답답한, 코 막힌'이라 다른 뜻."}
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        {"expr": "I'm all ears", "ko": "잘 듣고 있어요, 어서 말해 봐요", "ex": "I have some news. — Really? I'm all ears."},
+        {"expr": "📘 단어: tactful / savvy", "ko": "눈치 있게 말하는, 요령 있는 / 잘 아는, 수완 좋은", "ex": "She gave tactful feedback. → He's very tech-savvy. (tactful ↔ tactless, tech-savvy = 기계에 밝은)"},
+        {"expr": "You can say that again", "ko": "그러니까요, 완전 동감이에요", "ex": "It's so cold today. — You can say that again!"},
+        {"expr": "📘 단어: fret / ponder", "ko": "애태우다, 안달하다 / 곰곰이 생각하다", "ex": "Don't fret about it. → I pondered the offer all night. (fret about N, ponder = 오래 따져 보다)"},
+        {"expr": "Don't get me wrong", "ko": "오해하지 마세요 (좋게 말한 뒤 아쉬운 점 말할 때)", "ex": "Don't get me wrong, I love my job. It's just really stressful."}
+      ],
+      "quiz": [
+        {"q": "So, what happened on your date? Tell me everything. I'm all ___ .", "options": ["eyes", "ears", "hears", "listening"], "answer": 1, "note": "I'm all ears = 귀 쫑긋하고 듣고 있어. 이야기 재촉할 때."},
+        {"q": "My grandpa is surprisingly tech-___ . He even edits videos.", "options": ["tactful", "ponder", "savvy", "fret"], "answer": 2, "note": "tech-savvy = 기계·IT에 밝은. money-savvy처럼 다른 말과도 붙어요."},
+        {"q": "This traffic is terrible. — ___ !", "options": ["You can say that again", "You can tell it again", "You say it again", "Say that you can again"], "answer": 0, "note": "You can say that again = 내 말이! 완전 공감할 때."},
+        {"q": "The exam is over. There's no point ___ about the results now.", "options": ["fretting", "pondering of", "fret", "savvy"], "answer": 0, "note": "fret (about N) = 끙끙 애태우다. worry보다 안절부절 느낌."},
+        {"q": "___ , the hotel was nice. But the location was a problem.", "options": ["Don't take me wrong", "Don't get me wrong", "Don't make me wrong", "Don't get wrong me"], "answer": 1, "note": "Don't get me wrong = 오해 마. 칭찬 뒤에 '근데…' 붙일 때 써요."}
+      ]
+    },
+    "challenge": {
+      "cards": [
+        {"expr": "Miss the boat", "ko": "기회를 놓치다", "ex": "Tickets sold out in an hour. If you didn't buy early, you missed the boat."},
+        {"expr": "📘 단어: fluke / fad", "ko": "요행, 우연한 행운 / 반짝 유행", "ex": "Winning once was a fluke. → That diet is just a fad. (a total fluke, a passing fad = 금방 지나갈 유행)"},
+        {"expr": "Spill the beans", "ko": "비밀을 털어놓다, 누설하다", "ex": "Who spilled the beans about the surprise party?"},
+        {"expr": "📘 단어: gloat / dwell", "ko": "고소해하다, 자랑하며 으스대다 / 곱씹다, 머무르다", "ex": "Don't gloat when you win. → Don't dwell on the past. (gloat over N, dwell on N = 계속 생각하다)"},
+        {"expr": "Jump on the bandwagon", "ko": "유행·대세에 편승하다", "ex": "Everyone's buying that stock, but I'm not jumping on the bandwagon."}
+      ],
+      "quiz": [
+        {"q": "Prices went up 30% last month. I waited too long and ___ .", "hint": "배를 놓치다", "accept": ["missed the boat"], "note": "miss the boat = 좋은 기회를 놓치다. 과거면 missed the boat."},
+        {"q": "He's not really good at golf. That hole-in-one was a total ___ .", "hint": "우연한 행운 (f로 시작)", "accept": ["fluke"], "note": "a fluke = 실력이 아니라 운. a total fluke로 자주."},
+        {"q": "Come on, ___ ! Who's the new manager?", "hint": "콩을 쏟다", "accept": ["spill the beans"], "note": "spill the beans = 비밀을 불다. 재촉할 때 Spill the beans! 그대로 써요."},
+        {"q": "You made one mistake. Don't ___ on it. Just move on.", "hint": "계속 곱씹다 (d로 시작)", "accept": ["dwell"], "note": "dwell on N = 지난 일을 자꾸 생각하다."},
+        {"q": "When the brand got popular, every celebrity ___ .", "hint": "악대 마차에 올라타다 (과거형)", "accept": ["jumped on the bandwagon", "got on the bandwagon", "climbed on the bandwagon"], "note": "jump on the bandwagon = 남들 따라 대세에 올라타다."}
+      ]
+    }
+  }
+}

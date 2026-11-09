@@ -3002,6 +3002,506 @@
    "ans": 1,
    "note": "helpful = 도움이 되는/친절한. 반대 unhelpful.",
    "wk": "2026-W45"
+  },
+  {
+   "w": "neighbor",
+   "ko": "이웃",
+   "ex": "My neighbor is very friendly.",
+   "exko": "제 이웃은 아주 친절해요.",
+   "use": [
+    [
+     "We're neighbors!",
+     "우리 이웃이네요!"
+    ],
+    [
+     "The neighbors are noisy.",
+     "이웃집이 시끄러워요."
+    ]
+   ],
+   "mcq": [
+    "My next-door neighbor have a big dog.",
+    "My next-door neighbor has a big dog.",
+    "My neighbor next-door has big dog.",
+    "My next-door neighbors has a big dog."
+   ],
+   "ans": 1,
+   "note": "neighbor (영국 neighbour). next-door neighbor = 바로 옆집.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "colleague",
+   "ko": "직장 동료",
+   "ex": "She's my colleague.",
+   "exko": "그녀는 제 직장 동료예요.",
+   "use": [
+    [
+     "I had lunch with a colleague.",
+     "동료랑 점심 먹었어요."
+    ],
+    [
+     "My colleagues are great.",
+     "동료들이 좋아요."
+    ]
+   ],
+   "mcq": [
+    "I'm going out for dinner with my colleagues.",
+    "I'm go out for dinner with my colleagues.",
+    "I'm going out for dinner with my colleague's.",
+    "I'm going out for dinner my colleagues with."
+   ],
+   "ans": 0,
+   "note": "colleague = 같은 직장 사람. 구어에서는 coworker도 많이 써요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "traffic",
+   "ko": "교통(량), 차",
+   "ex": "The traffic was terrible.",
+   "exko": "차가 엄청 막혔어요.",
+   "use": [
+    [
+     "I got stuck in traffic.",
+     "차가 막혀서 꼼짝 못 했어요."
+    ],
+    [
+     "Traffic is light today.",
+     "오늘 차가 별로 없어요."
+    ]
+   ],
+   "mcq": [
+    "Sorry, I'm late. It was a lot of traffic.",
+    "Sorry, I'm late. There was a lot of traffic.",
+    "Sorry, I'm late. There were many traffics.",
+    "Sorry, I'm late. There was a lot traffic."
+   ],
+   "ans": 1,
+   "note": "traffic은 셀 수 없는 명사 → a lot of traffic / heavy traffic.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "schedule",
+   "ko": "일정, 일정을 잡다",
+   "ex": "My schedule is full this week.",
+   "exko": "이번 주 일정이 꽉 찼어요.",
+   "use": [
+    [
+     "Let's schedule a meeting.",
+     "회의 일정 잡읍시다."
+    ],
+    [
+     "We're behind schedule.",
+     "일정보다 늦어지고 있어요."
+    ]
+   ],
+   "mcq": [
+    "Can we schedule call a for Tuesday?",
+    "Can we schedule a call at Tuesday?",
+    "Can we schedule a call for Tuesday?",
+    "Can we scheduled a call for Tuesday?"
+   ],
+   "ans": 2,
+   "note": "schedule = 일정(명사)/잡다(동사). on schedule = 예정대로.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "ticket",
+   "ko": "표, 티켓",
+   "ex": "I bought two tickets.",
+   "exko": "표 두 장 샀어요.",
+   "use": [
+    [
+     "I got a parking ticket.",
+     "주차 딱지 뗐어요."
+    ],
+    [
+     "The tickets sold out.",
+     "표가 매진됐어요."
+    ]
+   ],
+   "mcq": [
+    "How much is a ticket for go to Busan?",
+    "How much is a ticket to Busan?",
+    "How many is a ticket to Busan?",
+    "How much a ticket is to Busan?"
+   ],
+   "ans": 1,
+   "note": "ticket to + 장소. 교통 위반 딱지도 ticket.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "meal",
+   "ko": "식사, 한 끼",
+   "ex": "Enjoy your meal!",
+   "exko": "맛있게 드세요!",
+   "use": [
+    [
+     "I eat three meals a day.",
+     "하루 세 끼 먹어요."
+    ],
+    [
+     "That was a great meal.",
+     "정말 맛있는 식사였어요."
+    ]
+   ],
+   "mcq": [
+    "Don't skip meals when you're busy.",
+    "Don't skip meal when you're busy.",
+    "Don't skip meals when you busy.",
+    "Don't skipping meals when you're busy."
+   ],
+   "ans": 0,
+   "note": "meal = 한 끼 식사. skip a meal = 끼니를 거르다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "guest",
+   "ko": "손님",
+   "ex": "We have guests tonight.",
+   "exko": "오늘 밤 손님 와요.",
+   "use": [
+    [
+     "Be my guest.",
+     "그러세요, 편하게 하세요."
+    ],
+    [
+     "Hotel guests only",
+     "투숙객 전용"
+    ]
+   ],
+   "mcq": [
+    "We're expect ten guests for dinner.",
+    "We're expecting ten guests for dinner.",
+    "We're expecting ten guest for dinner.",
+    "We're expecting ten guests to dinner at."
+   ],
+   "ans": 1,
+   "note": "guest = 초대·숙박 손님. Be my guest = 얼마든지 하세요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "noise",
+   "ko": "소음",
+   "ex": "What's that noise?",
+   "exko": "저게 무슨 소리예요?",
+   "use": [
+    [
+     "Please keep the noise down.",
+     "좀 조용히 해 주세요."
+    ],
+    [
+     "I can't sleep with all this noise.",
+     "시끄러워서 못 자겠어요."
+    ]
+   ],
+   "mcq": [
+    "The kids did a lot of noise.",
+    "The kids made a lot of noise.",
+    "The kids made a lot of noises loud.",
+    "The kids made many noise."
+   ],
+   "ans": 1,
+   "note": "make (a) noise = 소리 내다. noisy = 시끄러운.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "delivery",
+   "ko": "배달, 배송",
+   "ex": "Free delivery!",
+   "exko": "무료 배송!",
+   "use": [
+    [
+     "Let's order delivery.",
+     "배달 시켜 먹자."
+    ],
+    [
+     "The delivery is late.",
+     "배송이 늦네요."
+    ]
+   ],
+   "mcq": [
+    "How long delivery takes?",
+    "How long does delivery take?",
+    "How long does delivery takes?",
+    "How long does delivery take it?"
+   ],
+   "ans": 1,
+   "note": "delivery = 배달·배송. deliver = 배달하다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "discount",
+   "ko": "할인",
+   "ex": "Is there a student discount?",
+   "exko": "학생 할인 있어요?",
+   "use": [
+    [
+     "Can I get a discount?",
+     "좀 깎아 주실 수 있어요?"
+    ],
+    [
+     "20% discount",
+     "20% 할인"
+    ]
+   ],
+   "mcq": [
+    "They gave me a 10% discounts.",
+    "They gave me a 10% discount.",
+    "They gave to me a 10% discount.",
+    "They gave me 10% a discount."
+   ],
+   "ans": 1,
+   "note": "get/give a discount. discount on N = N 할인.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "tip",
+   "ko": "팁, 조언",
+   "ex": "How much should I tip?",
+   "exko": "팁 얼마 줘야 해요?",
+   "use": [
+    [
+     "Thanks for the tip.",
+     "조언 고마워요."
+    ],
+    [
+     "Here's a tip: book early.",
+     "팁 하나: 일찍 예약하세요."
+    ]
+   ],
+   "mcq": [
+    "Can you give some tips me for the interview?",
+    "Can you give me some tip for the interview?",
+    "Can you give me some tips for the interview?",
+    "Can you give me any tips to the interview?"
+   ],
+   "ans": 2,
+   "note": "tip = 봉사료 / 실용적 조언(tips for N).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "fee",
+   "ko": "요금, 수수료",
+   "ex": "There's a small fee.",
+   "exko": "약간의 수수료가 있어요.",
+   "use": [
+    [
+     "The entrance fee is $10.",
+     "입장료는 10달러예요."
+    ],
+    [
+     "No hidden fees",
+     "숨은 비용 없음"
+    ]
+   ],
+   "mcq": [
+    "The bank charges me a fee yesterday.",
+    "The bank charged me a fee.",
+    "The bank charged to me a fee.",
+    "The bank charged me a fees."
+   ],
+   "ans": 1,
+   "note": "fee = 서비스 요금·수수료. charge a fee = 요금을 매기다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "accident",
+   "ko": "사고, 우연",
+   "ex": "He had a car accident.",
+   "exko": "그는 교통사고가 났어요.",
+   "use": [
+    [
+     "Sorry, it was an accident.",
+     "미안해요, 실수였어요."
+    ],
+    [
+     "By accident",
+     "우연히"
+    ]
+   ],
+   "mcq": [
+    "I met her by an accident at the mall.",
+    "I meet her by accident at the mall yesterday.",
+    "I met her with accident at the mall.",
+    "I met her by accident at the mall."
+   ],
+   "ans": 3,
+   "note": "accident = 사고 / by accident = 우연히, 실수로.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "lesson",
+   "ko": "수업, 교훈",
+   "ex": "I take piano lessons.",
+   "exko": "피아노 레슨 받아요.",
+   "use": [
+    [
+     "Lesson learned.",
+     "교훈 얻었어요."
+    ],
+    [
+     "That taught me a lesson.",
+     "덕분에 정신 차렸어요."
+    ]
+   ],
+   "mcq": [
+    "I learned my lesson.",
+    "I learned my lessons from it this.",
+    "I learn my lesson yesterday.",
+    "I taught my lesson."
+   ],
+   "ans": 0,
+   "note": "lesson = 수업 / 교훈. learn one's lesson = 정신 차리다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "tonight",
+   "ko": "오늘 밤",
+   "ex": "What are you doing tonight?",
+   "exko": "오늘 밤 뭐 해요?",
+   "use": [
+    [
+     "Not tonight.",
+     "오늘 밤은 안 돼요."
+    ],
+    [
+     "Tonight's the night!",
+     "드디어 오늘이야!"
+    ]
+   ],
+   "mcq": [
+    "Let's watching a movie tonight.",
+    "Let's watch a movie in tonight.",
+    "Let's watch a movie at tonight.",
+    "Let's watch a movie tonight."
+   ],
+   "ans": 3,
+   "note": "tonight 앞에는 전치사 없어요 (at/in tonight ✗).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "twice",
+   "ko": "두 번",
+   "ex": "I've been there twice.",
+   "exko": "거기 두 번 가 봤어요.",
+   "use": [
+    [
+     "Twice a week",
+     "일주일에 두 번"
+    ],
+    [
+     "Think twice.",
+     "다시 한번 생각해 봐요."
+    ]
+   ],
+   "mcq": [
+    "I go swimming twice a week.",
+    "I go swimming twice week.",
+    "I go swimming two times in a week.",
+    "I go swimming twice for a week."
+   ],
+   "ans": 0,
+   "note": "twice = 두 번 (two times보다 자연스러움). 세 번부터는 three times.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "hardly",
+   "ko": "거의 ~않다",
+   "ex": "I can hardly hear you.",
+   "exko": "잘 안 들려요.",
+   "use": [
+    [
+     "I hardly know him.",
+     "그 사람 거의 몰라요."
+    ],
+    [
+     "Hardly anyone came.",
+     "거의 아무도 안 왔어요."
+    ]
+   ],
+   "mcq": [
+    "I slept hardly last night.",
+    "I hardly slept last night.",
+    "I hardly didn't sleep last night.",
+    "I hard slept last night."
+   ],
+   "ans": 1,
+   "note": "hardly = 거의 ~않다 (부정 뜻이라 not 같이 쓰지 않음). hard(열심히)와 달라요.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "mostly",
+   "ko": "대부분, 주로",
+   "ex": "I mostly work from home.",
+   "exko": "주로 재택해요.",
+   "use": [
+    [
+     "The audience was mostly students.",
+     "관객 대부분이 학생이었어요."
+    ],
+    [
+     "It's mostly done.",
+     "거의 다 됐어요."
+    ]
+   ],
+   "mcq": [
+    "The weather was mostly sun.",
+    "The weather was most sunny.",
+    "The weather mostly was sunnily.",
+    "The weather was mostly sunny."
+   ],
+   "ans": 3,
+   "note": "mostly = 대부분, 주로. most(가장)와 구분.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "somewhere",
+   "ko": "어딘가에",
+   "ex": "I left my keys somewhere.",
+   "exko": "열쇠를 어딘가에 뒀어요.",
+   "use": [
+    [
+     "Let's go somewhere quiet.",
+     "조용한 데 가요."
+    ],
+    [
+     "Somewhere around here",
+     "이 근처 어딘가"
+    ]
+   ],
+   "mcq": [
+    "I want to go warm somewhere this winter.",
+    "I want to go to somewhere warm this winter.",
+    "I want go somewhere warm this winter.",
+    "I want to go somewhere warm this winter."
+   ],
+   "ans": 3,
+   "note": "somewhere 앞에 to 없어요. 형용사는 뒤에 (somewhere warm).",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "plenty",
+   "ko": "많음, 넉넉함",
+   "ex": "We have plenty of time.",
+   "exko": "시간 넉넉해요.",
+   "use": [
+    [
+     "There's plenty of food.",
+     "음식 많아요."
+    ],
+    [
+     "No thanks, I've had plenty.",
+     "됐어요, 많이 먹었어요."
+    ]
+   ],
+   "mcq": [
+    "Don't worry, there's plenty of rooms of.",
+    "Don't worry, it's plenty of room.",
+    "Don't worry, there's plenty of room.",
+    "Don't worry, there's plenty room."
+   ],
+   "ans": 2,
+   "note": "plenty of N = 충분히 많은. a lot of보다 '넉넉하다'는 느낌.",
+   "wk": "2026-W46"
   }
  ]
 }

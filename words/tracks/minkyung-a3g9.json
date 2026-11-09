@@ -3002,6 +3002,506 @@
    "ans": 1,
    "note": "attendance(명) / attend(동). take attendance = 출석 체크.",
    "wk": "2026-W45"
+  },
+  {
+   "w": "furniture",
+   "ko": "가구",
+   "ex": "We bought new furniture.",
+   "exko": "새 가구 샀어요.",
+   "use": [
+    [
+     "A piece of furniture",
+     "가구 한 점"
+    ],
+    [
+     "Furniture store",
+     "가구점"
+    ]
+   ],
+   "mcq": [
+    "We need to move some furniture.",
+    "We need to move some furnitures.",
+    "We need move some furniture.",
+    "We need to move a furniture."
+   ],
+   "ans": 0,
+   "note": "furniture는 셀 수 없는 명사 → furnitures ✗, a piece of furniture.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "mortgage",
+   "ko": "주택 담보 대출",
+   "ex": "We took out a mortgage.",
+   "exko": "주택 대출을 받았어요.",
+   "use": [
+    [
+     "Pay off the mortgage",
+     "대출을 다 갚다"
+    ],
+    [
+     "Mortgage rates",
+     "대출 금리"
+    ]
+   ],
+   "mcq": [
+    "They're still paying out their mortgage.",
+    "They're still pay off their mortgage.",
+    "They're still paying off their mortgages money.",
+    "They're still paying off their mortgage."
+   ],
+   "ans": 3,
+   "note": "mortgage (t 묵음, '모기지'). take out / pay off a mortgage.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "surgery",
+   "ko": "수술",
+   "ex": "He had surgery last week.",
+   "exko": "그는 지난주 수술했어요.",
+   "use": [
+    [
+     "Knee surgery",
+     "무릎 수술"
+    ],
+    [
+     "She's in surgery now.",
+     "지금 수술 중이에요."
+    ]
+   ],
+   "mcq": [
+    "My dad is recovering of surgery.",
+    "My dad is recovering from surgery.",
+    "My dad is recovering from a surgeries.",
+    "My dad is recover from surgery."
+   ],
+   "ans": 1,
+   "note": "have surgery (on N). 미국에선 보통 관사 없이 씀.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "stomach",
+   "ko": "배, 위",
+   "ex": "My stomach hurts.",
+   "exko": "배가 아파요.",
+   "use": [
+    [
+     "On an empty stomach",
+     "빈속에"
+    ],
+    [
+     "I can't stomach it.",
+     "그건 못 참겠어요."
+    ]
+   ],
+   "mcq": [
+    "Don't take this medicine in an empty stomach.",
+    "Don't take this medicine on an empty stomach.",
+    "Don't take this medicine on an empty stomachs.",
+    "Don't take this medicine on empty a stomach."
+   ],
+   "ans": 1,
+   "note": "stomach (ch=k 발음). 동사로 can't stomach = 참을 수 없다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "throat",
+   "ko": "목(구멍)",
+   "ex": "I have a sore throat.",
+   "exko": "목이 아파요.",
+   "use": [
+    [
+     "Clear your throat",
+     "목을 가다듬다"
+    ],
+    [
+     "Something's stuck in my throat.",
+     "목에 뭐가 걸렸어요."
+    ]
+   ],
+   "mcq": [
+    "I woke up with a sore neck throat.",
+    "I woke up with a sore throat.",
+    "I wake up with a sore throat yesterday.",
+    "I woke up with sore throat a."
+   ],
+   "ans": 1,
+   "note": "throat = 목 안쪽. 바깥 목은 neck. sore throat = 인후통.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "stranger",
+   "ko": "낯선 사람",
+   "ex": "Don't talk to strangers.",
+   "exko": "낯선 사람이랑 말하지 마.",
+   "use": [
+    [
+     "I'm a stranger here.",
+     "저도 여기 처음이에요."
+    ],
+    [
+     "Hey, stranger!",
+     "오랜만이야!"
+    ]
+   ],
+   "mcq": [
+    "A stranger helped me with my bag.",
+    "A stranger helped to me with my bag.",
+    "A strange helped me with my bag.",
+    "A stranger help me with my bag yesterday."
+   ],
+   "ans": 0,
+   "note": "stranger = 모르는 사람 / 그곳이 처음인 사람. Hey, stranger = 오랜만!",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "envelope",
+   "ko": "봉투",
+   "ex": "Put it in an envelope.",
+   "exko": "봉투에 넣으세요.",
+   "use": [
+    [
+     "A sealed envelope",
+     "봉인된 봉투"
+    ],
+    [
+     "Push the envelope",
+     "한계를 넘어서다"
+    ]
+   ],
+   "mcq": [
+    "She handed me an envelope full of cash.",
+    "She handed me an envelope full with cash.",
+    "She handed me a envelope full of cash.",
+    "She handed to me an envelope full of cash."
+   ],
+   "ans": 0,
+   "note": "envelope (명사, '엔벌롭'). push the envelope = 한계를 밀어붙이다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "curtain",
+   "ko": "커튼",
+   "ex": "Close the curtains.",
+   "exko": "커튼 쳐 주세요.",
+   "use": [
+    [
+     "Curtain call",
+     "커튼콜"
+    ],
+    [
+     "Behind the curtain",
+     "막후에서"
+    ]
+   ],
+   "mcq": [
+    "Can you open the curtains? It's dark.",
+    "Can you opening the curtains? It's dark.",
+    "Can you open curtains the? It's dark.",
+    "Can you open the curtain's? It's dark."
+   ],
+   "ans": 0,
+   "note": "보통 복수 curtains. draw the curtains = 커튼을 치다/걷다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "carpet",
+   "ko": "카펫",
+   "ex": "I spilled coffee on the carpet.",
+   "exko": "카펫에 커피를 쏟았어요.",
+   "use": [
+    [
+     "Red carpet",
+     "레드카펫"
+    ],
+    [
+     "Sweep it under the carpet",
+     "덮어 버리다, 숨기다"
+    ]
+   ],
+   "mcq": [
+    "The kids are playing in the carpet.",
+    "The kids are playing on the carpet.",
+    "The kids is playing on the carpet.",
+    "The kids are play on the carpet."
+   ],
+   "ans": 1,
+   "note": "on the carpet. sweep under the carpet = 문제를 숨기다.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "knife",
+   "ko": "칼",
+   "ex": "Careful, the knife is sharp.",
+   "exko": "조심해요, 칼 날카로워요.",
+   "use": [
+    [
+     "Knife and fork",
+     "나이프와 포크"
+    ],
+    [
+     "A kitchen knife",
+     "부엌칼"
+    ]
+   ],
+   "mcq": [
+    "Can you pass to me a knife?",
+    "Can you pass me knife a?",
+    "Can you pass me a knifes?",
+    "Can you pass me a knife?"
+   ],
+   "ans": 3,
+   "note": "knife (k 묵음). 복수는 knives.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "ashamed",
+   "ko": "부끄러운, 창피한",
+   "ex": "I'm ashamed of myself.",
+   "exko": "제가 부끄러워요.",
+   "use": [
+    [
+     "Don't be ashamed.",
+     "부끄러워하지 마세요."
+    ],
+    [
+     "You should be ashamed!",
+     "부끄러운 줄 알아!"
+    ]
+   ],
+   "mcq": [
+    "He was ashame of what he said.",
+    "He was ashamed about of what he said.",
+    "He was ashamed of what he said.",
+    "He ashamed of what he said."
+   ],
+   "ans": 2,
+   "note": "ashamed of N = 잘못해서 부끄러운. 쑥스러운 건 embarrassed.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "pregnant",
+   "ko": "임신한",
+   "ex": "She's pregnant.",
+   "exko": "그녀는 임신했어요.",
+   "use": [
+    [
+     "Six months pregnant",
+     "임신 6개월"
+    ],
+    [
+     "Pregnant women",
+     "임산부"
+    ]
+   ],
+   "mcq": [
+    "My sister is pregnanting with twins.",
+    "My sister is pregnant of twins.",
+    "My sister pregnant with twins.",
+    "My sister is pregnant with twins."
+   ],
+   "ans": 3,
+   "note": "pregnant with N = ~를 임신한. 명사 pregnancy.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "monthly",
+   "ko": "매달의, 한 달에 한 번",
+   "ex": "Monthly rent",
+   "exko": "월세",
+   "use": [
+    [
+     "We meet monthly.",
+     "한 달에 한 번 만나요."
+    ],
+    [
+     "A monthly fee",
+     "월 이용료"
+    ]
+   ],
+   "mcq": [
+    "The monthly fee is 9,900 won.",
+    "The monthly fee are 9,900 won.",
+    "The fee monthly is 9,900 won.",
+    "The month fee is 9,900 won."
+   ],
+   "ans": 0,
+   "note": "monthly = 형용사·부사 둘 다. 비슷하게 daily, weekly, yearly.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "weekly",
+   "ko": "매주의, 주 1회",
+   "ex": "A weekly meeting",
+   "exko": "주간 회의",
+   "use": [
+    [
+     "The magazine comes out weekly.",
+     "그 잡지는 매주 나와요."
+    ],
+    [
+     "Weekly quiz",
+     "주간 퀴즈"
+    ]
+   ],
+   "mcq": [
+    "We have weekly a team meeting on Mondays.",
+    "We has a weekly team meeting on Mondays.",
+    "We have a week team meeting on Mondays.",
+    "We have a weekly team meeting on Mondays."
+   ],
+   "ans": 3,
+   "note": "weekly = 매주(의). 우리 허브 Weekly Quiz의 그 weekly!",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "gently",
+   "ko": "부드럽게, 살살",
+   "ex": "Close the door gently.",
+   "exko": "문 살살 닫아요.",
+   "use": [
+    [
+     "She smiled gently.",
+     "그녀가 부드럽게 웃었어요."
+    ],
+    [
+     "Gently stir the sauce.",
+     "소스를 살살 저으세요."
+    ]
+   ],
+   "mcq": [
+    "He touched gently her shoulder.",
+    "He gentle touched her shoulder.",
+    "He gently touched her shoulder.",
+    "He gently touch her shoulder yesterday."
+   ],
+   "ans": 2,
+   "note": "gently = 살살, 부드럽게. 형용사 gentle.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "alright",
+   "ko": "괜찮은, 좋아",
+   "ex": "Are you alright?",
+   "exko": "괜찮아요?",
+   "use": [
+    [
+     "Alright, let's go.",
+     "좋아, 가자."
+    ],
+    [
+     "It's alright.",
+     "괜찮아요."
+    ]
+   ],
+   "mcq": [
+    "Does everything alright?",
+    "Is everything alrights?",
+    "Is everything alright?",
+    "Is every thing alright?"
+   ],
+   "ans": 2,
+   "note": "alright = all right의 구어 표기. 대화 시작 신호로 Alright, ~.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "automatically",
+   "ko": "자동으로, 저절로",
+   "ex": "The door opens automatically.",
+   "exko": "문이 자동으로 열려요.",
+   "use": [
+    [
+     "It saves automatically.",
+     "자동 저장돼요."
+    ],
+    [
+     "I automatically said yes.",
+     "나도 모르게 그러겠다고 했어요."
+    ]
+   ],
+   "mcq": [
+    "The lights turn off automatically at midnight.",
+    "The lights turn off automatic at midnight.",
+    "The lights turns off automatically at midnight.",
+    "The lights automatically turn off at in midnight."
+   ],
+   "ans": 0,
+   "note": "automatically = 자동으로 / 생각 없이 저절로.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "dramatically",
+   "ko": "극적으로, 크게",
+   "ex": "Prices rose dramatically.",
+   "exko": "가격이 크게 올랐어요.",
+   "use": [
+    [
+     "Things changed dramatically.",
+     "상황이 확 바뀌었어요."
+    ],
+    [
+     "She sighed dramatically.",
+     "그녀가 과장되게 한숨 쉬었어요."
+    ]
+   ],
+   "mcq": [
+    "Sales have increased dramatic this year.",
+    "Sales has increased dramatically this year.",
+    "Sales have dramatically increase this year.",
+    "Sales have increased dramatically this year."
+   ],
+   "ans": 3,
+   "note": "dramatically = 변화가 아주 크게 / 연극처럼 과장되게.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "differently",
+   "ko": "다르게",
+   "ex": "Let's try it differently.",
+   "exko": "다르게 해 봐요.",
+   "use": [
+    [
+     "Everyone learns differently.",
+     "사람마다 배우는 방식이 달라요."
+    ],
+    [
+     "I see it differently.",
+     "저는 다르게 봐요."
+    ]
+   ],
+   "mcq": [
+    "I would do it differently at next time.",
+    "I would do it differently next time.",
+    "I would do it different next time.",
+    "I would did it differently next time."
+   ],
+   "ans": 1,
+   "note": "differently = 다르게(부사). 구어로 different도 들리지만 쓸 땐 differently.",
+   "wk": "2026-W46"
+  },
+  {
+   "w": "reasonably",
+   "ko": "꽤, 합리적으로",
+   "ex": "Reasonably priced",
+   "exko": "가격이 적당한",
+   "use": [
+    [
+     "He acted reasonably.",
+     "그는 합리적으로 행동했어요."
+    ],
+    [
+     "I'm reasonably sure.",
+     "꽤 확신해요."
+    ]
+   ],
+   "mcq": [
+    "The hotel was clean and reasonably priced.",
+    "The hotel were clean and reasonably priced.",
+    "The hotel was clean and priced reasonable.",
+    "The hotel was clean and reasonable priced."
+   ],
+   "ans": 0,
+   "note": "reasonably = 꽤, 적당히. reasonably priced = 가격 괜찮은.",
+   "wk": "2026-W46"
   }
  ]
 }
