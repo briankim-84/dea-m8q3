@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lee · Class 32 · Tails Again, Then Yours</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;600;800&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1b2e;--ink:#10203a;--card:#16273f;--card2:#1c3150;--line:#2b4466;--gold:#c9a432;--gold2:#e4c05c;--white:#f4f1ea;--mute:#9fb0c6;--green:#3fbf7f;--teal:#2ec4b6;--red:#e06a5a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,'Noto Sans KR',sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line);gap:12px;flex-wrap:wrap}
+.brand{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800}h1{font-family:Fraunces,serif;font-size:26px;margin:2px 0 0}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}.tab{background:var(--card);border:1px solid var(--line);color:var(--mute);padding:8px 14px;border-radius:20px;cursor:pointer;font-weight:600;font-size:14px;font-family:inherit}.tab.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+main{padding:18px 24px;max-width:1240px;margin:0 auto}
+.sec{display:none}.sec.on{display:block}
+.intro{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+.intro h2{font-family:Fraunces,serif;font-size:30px;margin:0}.intro p{margin:4px 0 0;color:var(--mute);font-size:14px;max-width:820px}
+.lab{font-size:11px;letter-spacing:2.5px;color:var(--gold);font-weight:800;margin-bottom:8px}
+.btn{background:var(--card2);border:1px solid var(--line);color:var(--white);padding:8px 14px;border-radius:10px;cursor:pointer;font-weight:700;font-size:13px;font-family:inherit}
+.btn.gold{background:var(--gold);color:var(--ink);border-color:var(--gold)}.btn.teal{border-color:var(--teal);color:var(--teal)}.btn.red{border-color:var(--red);color:var(--red)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+/* ① */
+.pron{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.pron button{background:var(--card);border:1px solid var(--line);color:var(--mute);padding:7px 16px;border-radius:10px;cursor:pointer;font-family:Fraunces,serif;font-size:20px}
+.pron button.on{border-color:var(--teal);color:var(--teal)}
+.rule{background:var(--card);border:1px solid var(--teal);border-radius:14px;padding:14px 18px;margin-bottom:12px;display:flex;gap:18px;align-items:center}
+.rule .w{font-family:Fraunces,serif;font-size:42px;color:var(--teal);min-width:110px}
+.rule .t{font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.card.ok{border-color:var(--green)}
+.card .n{font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:800}
+.ko{font-size:19px;line-height:1.45}.ko .cl{color:var(--gold2)}
+.hint{display:none;background:var(--ink);border:1.25px solid var(--teal);color:var(--teal);padding:5px 11px;border-radius:16px;font-weight:700;font-size:13px;align-self:flex-start}
+.ans{display:none;flex-direction:column;gap:6px;border-top:1px dashed var(--line);padding-top:10px}
+.ans .en{font-size:20px;line-height:1.4}.ans .en .cl{color:var(--gold2)}.ans .en b{color:var(--teal)}
+.ans .pu{font-size:13.5px;color:var(--mute)}.ans .pu b{color:var(--teal)}
+.card.h .hint{display:inline-block}.card.a .ans{display:flex}.card.a .hint{display:inline-block}
+/* pairs */
+.pair{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:10px}
+.pair .opts{display:flex;gap:8px;margin-bottom:10px}
+.pair .opts span{font-family:Fraunces,serif;font-size:20px;color:var(--teal);border:1.25px solid var(--teal);border-radius:10px;padding:2px 12px}
+.ps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ps div{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:19px;line-height:1.4;cursor:pointer}
+.ps u{text-decoration:none;border-bottom:2px dashed var(--gold);padding:0 26px;color:transparent}
+.ps div.show u{color:var(--teal);border-bottom-color:transparent;padding:0;font-weight:800}
+.ps .why{display:none;font-size:13px;color:var(--mute);margin-top:6px}.ps div.show .why{display:block}
+/* ③ */
+.topics{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.topics button{background:var(--card);border:1px solid var(--line);color:var(--white);padding:10px 18px;border-radius:12px;cursor:pointer;font-size:16px;font-weight:700;font-family:inherit}
+.topics button.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.lad{display:grid;grid-template-columns:1fr 320px;gap:14px}
+.starters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.starters button{background:var(--ink);border:1.25px solid var(--gold);color:var(--gold2);padding:7px 13px;border-radius:16px;cursor:pointer;font-size:15px;font-family:inherit}
+textarea{width:100%;min-height:150px;background:var(--card2);border:1px solid var(--line);border-radius:14px;color:var(--white);font-size:24px;line-height:1.45;padding:16px 18px;font-family:inherit;resize:vertical}
+textarea:focus{outline:2px solid var(--teal)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.chips button{background:var(--card);border:1.5px solid var(--teal);color:var(--white);padding:9px 14px;border-radius:12px;cursor:pointer;font-size:15px;font-family:inherit}
+.chips button b{color:var(--teal);margin-left:6px}
+.cue{font-family:Fraunces,'Noto Sans KR',serif;font-size:30px;color:var(--teal);min-height:44px}
+.meter{display:flex;gap:16px;color:var(--mute);font-size:14px}.meter b{color:var(--gold2);font-size:22px;margin-right:4px}
+.side{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.rec{background:var(--card2);border-radius:10px;padding:9px 11px;margin-bottom:8px;font-size:14.5px;line-height:1.4}
+.rec .m{font-size:11px;color:var(--mute);margin-top:4px}.rec.best{border:1.5px solid var(--gold)}
+.exm{display:none;background:var(--ink);border:1px dashed var(--line);border-radius:10px;padding:10px 12px;font-size:16px;color:var(--mute);margin-top:8px}.exm.show{display:block}
+/* ④ */
+.best3{display:grid;gap:12px}
+.b3{background:var(--card);border:1px solid var(--gold);border-radius:14px;padding:18px 20px}
+.b3 .t{font-size:11px;letter-spacing:2.5px;color:var(--gold);font-weight:800}
+.b3 .s{font-size:24px;line-height:1.45;margin-top:6px}.b3 .s.empty{color:var(--mute);font-size:16px}
+@media(max-width:820px){.lad,.ps{grid-template-columns:1fr}}
+</style></head><body>
+<header><div><div class="brand">DO ENGLISH WITH BRIAN · LEE · CLASS 32</div><h1>Tails Again, Then Yours</h1></div>
+<nav class="tabs"><button class="tab on" data-s="0">① Which Tail?</button><button class="tab" data-s="1">② Pick the Tail</button><button class="tab" data-s="2">③ Grow the Sentence</button><button class="tab" data-s="3">④ Best Three</button></nav></header>
+<main>
+
+<section class="sec on" id="s0">
+<div class="intro"><div><h2>Which Tail?</h2><p>복습 자료에 있던 문장들이에요. 꼬리 하나씩, 규칙 한 줄 보고 → 한글 뜻 보고 → Lee가 영어로. 막히면 "어떤 꼬리?", 그래도 안 나오면 "정답".</p></div><button class="btn red" onclick="drawR1()">다시</button></div>
+<div class="pron" id="pron"></div>
+<div class="rule" id="rule"></div>
+<div class="grid" id="r1"></div>
+</section>
+
+<section class="sec" id="s1">
+<div class="intro"><div><h2>Pick the Tail</h2><p>헷갈리기 쉬운 짝 다섯 개. 두 문장 빈칸에 각각 뭐가 들어갈까요? 문장을 누르면 정답.</p></div><button class="btn red" onclick="drawR2()">다시</button></div>
+<div id="r2"></div>
+</section>
+
+<section class="sec" id="s2">
+<div class="intro"><div><h2>Grow the Sentence</h2><p>짧은 문장으로 시작 → Brian이 질문 칩을 누르면 Lee가 그 꼬리를 붙여서 문장을 늘려요. Brian이 칸에 적고, 다 되면 "기록".</p></div></div>
+<div class="topics" id="topics"></div>
+<div class="lad"><div>
+ <div class="lab">START WITH · 고르거나, Lee 문장으로</div><div class="starters" id="starters"></div>
+ <textarea id="ta" placeholder="Brian이 Lee 문장을 여기 적어요"></textarea>
+ <div class="chips" id="chips"></div>
+ <div class="cue" id="cue"></div>
+ <div class="row" style="justify-content:space-between"><div class="meter"><span><b id="wc">0</b>단어</span><span><b id="tc">0</b>꼬리</span></div>
+ <div class="row"><button class="btn teal" onclick="document.getElementById('exm').classList.toggle('show')">예시</button><button class="btn red" onclick="clearTa()">지우기</button><button class="btn gold" onclick="save()">기록</button></div></div>
+ <div class="exm" id="exm"></div>
+</div>
+<aside class="side"><div class="lab">RECORDS · <span id="tname"></span></div><div id="recs"></div></aside></div>
+</section>
+
+<section class="sec" id="s3">
+<div class="intro"><div><h2>Best Three</h2><p>주제마다 제일 긴 문장. 화면 보고 한 번, 가리고 한 번 다시 말해요. 이 세 문장이 L&amp;S 28로 가요.</p></div></div>
+<div class="best3" id="best3"></div>
+</section>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');document.querySelectorAll('.sec').forEach((s,i)=>s.classList.toggle('on',i==+t.dataset.s));if(t.dataset.s==='3')drawBest();});
+
+// ① Which Tail — 복습 자료(Lee_Class31_Review_Five_Relatives) 문장 그대로
+const R1={
+ who:{rule:"사람 뒤에 붙어요.",items:[
+  ["[헬스장을 운영하는] 남자는 나랑 동갑이에요.","The guy <span class='cl'><b>who</b> runs the gym</span> is my age.","그 남자는 나랑 동갑이에요 + <b>who = 그 남자가</b> 헬스장을 운영해요."],
+  ["[지난주에 만난] 여자가 문자했어요.","The girl <span class='cl'><b>who</b> I met last week</span> texted me.","그 여자가 문자했어요 + <b>who = 그 여자를</b> 지난주에 만났어요."],
+  ["나는 [자기 일을 즐기는] 사람들이랑 일하고 싶어요.","I want to work with people <span class='cl'><b>who</b> enjoy their job</span>.","사람들이랑 일하고 싶어요 + <b>who = 그 사람들은</b> 자기 일을 즐겨요."]]},
+ when:{rule:"시간 뒤에 붙어요. 뒤에는 완전한 문장이 와요.",items:[
+  ["2019년은 [내가 회사를 차린] 해예요.","2019 was the year <span class='cl'><b>when</b> I started my company</span>.","2019년은 그해예요 + <b>when = 그해에</b> 내가 회사를 차렸어요."],
+  ["점심시간은 [내가 쉴 수 있는] 유일한 시간이에요.","Lunch is the only time <span class='cl'><b>when</b> I can relax</span>.","점심시간은 유일한 시간이에요 + <b>when = 그 시간에</b> 내가 쉴 수 있어요."],
+  ["그때가 [대부분 사람들이 결혼하는] 나이예요.","That's the age <span class='cl'><b>when</b> most people get married</span>.","그게 그 나이예요 + <b>when = 그 나이에</b> 대부분 사람들이 결혼해요."]]},
+ where:{rule:"장소 뒤에 붙어요. 뒤에는 완전한 문장이 와요.",items:[
+  ["여기가 [내가 운동하는] 헬스장이에요.","This is the gym <span class='cl'><b>where</b> I work out</span>.","여기가 그 헬스장이에요 + <b>where = 거기서</b> 내가 운동해요."],
+  ["여기가 [우리가 첫 데이트한] 식당이에요.","This is the restaurant <span class='cl'><b>where</b> we had our first date</span>.","여기가 그 식당이에요 + <b>where = 거기서</b> 우리가 첫 데이트를 했어요."],
+  ["[내가 커피 사는] 편의점이 문 닫았어요.","The convenience store <span class='cl'><b>where</b> I buy coffee</span> closed down.","그 편의점이 문 닫았어요 + <b>where = 거기서</b> 내가 커피를 사요."]]},
+ that:{rule:"물건이나 일 뒤에 붙어요.",items:[
+  ["이게 [내가 어제 산] 폰이에요.","This is the phone <span class='cl'><b>that</b> I bought yesterday</span>.","이게 그 폰이에요 + <b>that = 그 폰을</b> 내가 어제 샀어요."],
+  ["[달리기에 좋은] 신발이 필요해요.","I need shoes <span class='cl'><b>that</b> are good for running</span>.","신발이 필요해요 + <b>that = 그 신발은</b> 달리기에 좋아요."],
+  ["[오늘 아침에 보낸] 메일에 실수가 있었어요.","The email <span class='cl'><b>that</b> I sent this morning</span> had a mistake.","그 메일에 실수가 있었어요 + <b>that = 그 메일을</b> 오늘 아침에 보냈어요."]]},
+ which:{rule:"A. 물건 뒤에 붙으면 that이랑 같아요. B. 쉼표 뒤에 붙으면 앞 문장 전체를 받아요.",items:[
+  ["[지난달에 문 연] 헬스장은 항상 꽉 차요.","The gym <span class='cl'><b>which</b> opened last month</span> is always full.","그 헬스장은 항상 꽉 차요 + <b>which = 그 헬스장은</b> 지난달에 문을 열었어요."],
+  ["일주일 동안 헬스장을 빠졌는데, [그게 후회돼요].","I skipped the gym for a week, <span class='cl'><b>which</b> I regret</span>.","일주일 동안 헬스장을 빠졌어요 + <b>, which = 그게</b> 후회돼요."],
+  ["폰이 꺼졌는데, [그래서 늦었어요].","My phone died, <span class='cl'><b>which</b> made me late</span>.","폰이 꺼졌어요 + <b>, which = 그게</b> 나를 늦게 만들었어요."]]}};
+let cur='who';
+function drawR1(){ $('pron').innerHTML=Object.keys(R1).map(k=>`<button class="${k===cur?'on':''}" data-k="${k}">${k}</button>`).join('');
+ document.querySelectorAll('#pron button').forEach(b=>b.onclick=()=>{cur=b.dataset.k;drawR1();});
+ const P=R1[cur]; $('rule').innerHTML=`<div class="w">${cur}</div><div class="t">${P.rule}</div>`;
+ $('r1').innerHTML=''; P.items.forEach((it,i)=>{const c=document.createElement('div');c.className='card';
+  const ko=it[0].replace(/\[(.*?)\]/,'<span class="cl">[$1]</span>');
+  c.innerHTML=`<div class="n">${cur.toUpperCase()} · ${i+1} / 3</div><div class="ko">${ko}</div><span class="hint">꼬리: ${cur}</span><div class="ans"><div class="en">${it[1]}</div><div class="pu">풀어보기 · ${it[2]}</div></div><div class="row"><button class="btn">어떤 꼬리?</button><button class="btn teal">정답</button><button class="btn gold">✓ 맞아요</button></div>`;
+  const [b1,b2,b3]=c.querySelectorAll('.row button'); b1.onclick=()=>c.classList.add('h'); b2.onclick=()=>c.classList.add('a'); b3.onclick=()=>c.classList.toggle('ok');
+  $('r1').appendChild(c);});}
+drawR1();
+
+// ② Pick the Tail — 헷갈리는 짝
+const R2=[
+ {o:["who","which"],s:[["The guy <u>who</u> runs the gym is my age.","사람 → who"],["The gym <u>which</u> opened last month is always full.","물건(헬스장) → which"]]},
+ {o:["where","which"],s:[["This is the gym <u>where</u> I work out.","뒤가 완전한 문장(I work out) → where"],["This is the gym <u>which</u> I told you about.","뒤에 about의 목적어가 빠짐 → which (that도 돼요)"]]},
+ {o:["when","that"],s:[["I remember the day <u>when</u> we first met.","시간 + 완전한 문장 → when"],["I remember the song <u>that</u> we listened to.","물건(노래) → that"]]},
+ {o:["when","where"],s:[["Friday is the day <u>when</u> we have team dinner.","날 → when"],["That's the café <u>where</u> I meet clients.","장소 → where"]]},
+ {o:["that",", which"],s:[["This is the phone <u>that</u> I bought yesterday.","폰 하나를 꾸밈 → that"],["My phone died, <u>which</u> made me late.","앞 문장 전체(폰이 꺼진 일) → , which"]]}];
+function drawR2(){ $('r2').innerHTML=R2.map((p,i)=>`<div class="pair"><div class="lab">PAIR ${i+1} / 5</div><div class="opts">${p.o.map(x=>`<span>${x}</span>`).join('')}</div><div class="ps">${p.s.map(s=>`<div>${s[0]}<div class="why">${s[1]}</div></div>`).join('')}</div></div>`).join('');
+ document.querySelectorAll('.ps div').forEach(d=>{ if(!d.classList.contains('why')) d.onclick=()=>d.classList.toggle('show'); });}
+drawR2();
+
+// ③ Grow the Sentence
+const TOP=[
+ {k:"company",n:"회사",st:["I have a coworker","We had a meeting","We won a deal"],ex:"I have a coworker who sits next to me, who talks all day, which drives me crazy."},
+ {k:"gym",n:"헬스장",st:["There's a trainer","I go to a gym","I measured my body fat"],ex:"There's a trainer at the gym where I work out who measured my body fat on the day when I came back from Singapore."},
+ {k:"dating",n:"연애",st:["I met a girl","We went to a restaurant","I remember the day"],ex:"I remember the day when I met a girl who loves running at a café where they play old music, which was kind of perfect."}];
+const CH=[["어떤 사람?","who"],["어떤 거?","that / which"],["어디서?","where"],["언제?","when"],["그래서?",", which"]];
+let ti=0,REC={company:[],gym:[],dating:[]};
+try{const s=JSON.parse(localStorage.getItem('lee32rec')||'null');if(s)REC=Object.assign(REC,s);}catch(e){}
+function store(){try{localStorage.setItem('lee32rec',JSON.stringify(REC));}catch(e){}}
+function wcount(t){return (t.trim().match(/[A-Za-z']+/g)||[]).length}
+function tcount(t){return (t.match(/\b(who|when|where|that|which)\b/gi)||[]).length}
+function drawTop(){ $('topics').innerHTML=TOP.map((t,i)=>`<button class="${i===ti?'on':''}" data-i="${i}">${t.n}</button>`).join('');
+ document.querySelectorAll('#topics button').forEach(b=>b.onclick=()=>{ti=+b.dataset.i;$('ta').value='';$('cue').textContent='';meter();drawTop();});
+ const T=TOP[ti]; $('starters').innerHTML=T.st.map(s=>`<button>${s}</button>`).join('');
+ document.querySelectorAll('#starters button').forEach(b=>b.onclick=()=>{$('ta').value=b.textContent;meter();$('ta').focus();});
+ $('exm').textContent='예시 · '+T.ex; $('exm').classList.remove('show'); $('tname').textContent=T.n; drawRecs();}
+$('chips').innerHTML=CH.map(c=>`<button data-c="${c[1]}">${c[0]}<b>${c[1]}</b></button>`).join('');
+document.querySelectorAll('#chips button').forEach(b=>b.onclick=()=>{$('cue').textContent=b.firstChild.textContent+'  →  '+b.dataset.c;});
+function meter(){const v=$('ta').value;$('wc').textContent=wcount(v);$('tc').textContent=tcount(v);}
+$('ta').addEventListener('input',meter);
+function clearTa(){$('ta').value='';$('cue').textContent='';meter();}
+function save(){const v=$('ta').value.trim();if(!v)return;REC[TOP[ti].k].push({s:v,w:wcount(v),t:tcount(v)});store();drawRecs();}
+function drawRecs(){const L=REC[TOP[ti].k];const max=Math.max(0,...L.map(r=>r.w));
+ $('recs').innerHTML=L.length?L.map((r,i)=>`<div class="rec ${r.w===max?'best':''}">${r.s.replace(/</g,'&lt;')}<div class="m">${r.w}단어 · 꼬리 ${r.t} · <a href="#" data-i="${i}" style="color:var(--red)">삭제</a></div></div>`).join(''):'<div class="rec" style="color:var(--mute)">아직 기록 없음</div>';
+ document.querySelectorAll('#recs a').forEach(a=>a.onclick=e=>{e.preventDefault();L.splice(+a.dataset.i,1);store();drawRecs();});}
+drawTop();
+
+// ④ Best Three
+function drawBest(){ $('best3').innerHTML=TOP.map(t=>{const L=REC[t.k];const b=L.slice().sort((x,y)=>y.w-x.w)[0];
+ return `<div class="b3"><div class="t">${t.n.toUpperCase?t.n:''} · BEST</div><div class="s ${b?'':'empty'}">${b?b.s.replace(/</g,'&lt;')+` <span style="font-size:13px;color:var(--mute)">(${b.w}단어 · 꼬리 ${b.t})</span>`:'③에서 기록하면 여기에 떠요.'}</div></div>`;}).join('');}
+</script></body></html>
