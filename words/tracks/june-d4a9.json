@@ -6502,6 +6502,506 @@
    "ans": 0,
    "note": "lament = 깊이 아쉬워하다 (격식). 명사로 '애가'.",
    "wk": "2026-W46"
+  },
+  {
+   "w": "languish",
+   "ko": "시들다, 방치되다",
+   "ex": "The project languished for months.",
+   "exko": "그 프로젝트는 몇 달간 방치됐어요.",
+   "use": [
+    [
+     "Languish in obscurity",
+     "무명으로 지내다"
+    ],
+    [
+     "Languishing sales",
+     "부진한 판매"
+    ]
+   ],
+   "mcq": [
+    "The bill languish in committee for a year ago.",
+    "The bill was languished in committee for a year.",
+    "The bill languished on committee for a year.",
+    "The bill languished in committee for a year."
+   ],
+   "ans": 3,
+   "note": "languish = 진전 없이 오래 머물다/시들다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "loathe",
+   "ko": "몹시 싫어하다",
+   "ex": "I loathe Mondays.",
+   "exko": "월요일 진짜 싫어요.",
+   "use": [
+    [
+     "Loathe each other",
+     "서로 혐오하다"
+    ],
+    [
+     "Loathe to admit",
+     "인정하기 정말 싫은"
+    ]
+   ],
+   "mcq": [
+    "I loathe waiting in long lines.",
+    "I am loathe waiting in long lines.",
+    "I loathes waiting in long lines.",
+    "I loathe to waiting in long lines."
+   ],
+   "ans": 0,
+   "note": "loathe(동사, '로우드') = hate 강조. loath(형용사) = 꺼리는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "lure",
+   "ko": "유인하다, 꾀다",
+   "ex": "Lure customers",
+   "exko": "손님을 끌다",
+   "use": [
+    [
+     "Lured by the promise of money",
+     "돈 약속에 넘어간"
+    ],
+    [
+     "The lure of the city",
+     "도시의 매력"
+    ]
+   ],
+   "mcq": [
+    "Low prices were lured shoppers into the store.",
+    "Low prices lured shoppers into the store.",
+    "Low prices lure shoppers into the store yesterday.",
+    "Low prices lured shoppers to into the store."
+   ],
+   "ans": 1,
+   "note": "lure 사람 into/to N = 유인하다. 명사 = 미끼, 매력.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "malign",
+   "ko": "헐뜯다, 해로운",
+   "ex": "He was unfairly maligned.",
+   "exko": "그는 부당하게 비방당했어요.",
+   "use": [
+    [
+     "A much-maligned policy",
+     "욕을 많이 먹은 정책"
+    ],
+    [
+     "Malign influence",
+     "해로운 영향"
+    ]
+   ],
+   "mcq": [
+    "The coach was maligned to by the media.",
+    "The coach was malign by the media.",
+    "The coach was maligned by the media.",
+    "The coach maligned by the media."
+   ],
+   "ans": 2,
+   "note": "malign = 비방하다(동사) / 해로운(형용사). 반대 benign.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "meander",
+   "ko": "구불구불 흐르다, 정처 없이 거닐다",
+   "ex": "The river meanders through the valley.",
+   "exko": "강이 계곡을 구불구불 흘러요.",
+   "use": [
+    [
+     "Meander around town",
+     "시내를 어슬렁거리다"
+    ],
+    [
+     "A meandering speech",
+     "두서없는 연설"
+    ]
+   ],
+   "mcq": [
+    "We meander through the old streets yesterday.",
+    "We were meandered through the old streets.",
+    "We meandered through the old streets.",
+    "We meandered to through the old streets."
+   ],
+   "ans": 2,
+   "note": "meander = 구불구불/목적 없이 돌아다니다. meandering = 두서없는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "mollify",
+   "ko": "달래다, 누그러뜨리다",
+   "ex": "Mollify the customer",
+   "exko": "손님을 달래다",
+   "use": [
+    [
+     "Try to mollify him",
+     "그를 진정시키다"
+    ],
+    [
+     "Not mollified",
+     "화가 안 풀린"
+    ]
+   ],
+   "mcq": [
+    "A free dessert mollified the angry guest.",
+    "A free dessert was mollified the angry guest.",
+    "A free dessert mollify the angry guest yesterday.",
+    "A free dessert mollified to the angry guest."
+   ],
+   "ans": 0,
+   "note": "mollify = 화를 누그러뜨리다. placate, pacify와 비슷.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "negate",
+   "ko": "무효로 하다, 상쇄하다",
+   "ex": "Negate the benefits",
+   "exko": "효과를 상쇄하다",
+   "use": [
+    [
+     "It negates everything.",
+     "모든 걸 무의미하게 만들어요."
+    ],
+    [
+     "Negate a claim",
+     "주장을 부정하다"
+    ]
+   ],
+   "mcq": [
+    "Eating junk food negates the benefits of exercise.",
+    "Eating junk food negates on the benefits of exercise.",
+    "Eating junk food is negated the benefits of exercise.",
+    "Eating junk food negate the benefits of exercise."
+   ],
+   "ans": 0,
+   "note": "negate = 효과를 없애다. 명사 negation.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "nullify",
+   "ko": "무효화하다",
+   "ex": "Nullify a contract",
+   "exko": "계약을 무효화하다",
+   "use": [
+    [
+     "The court nullified the election.",
+     "법원이 선거를 무효화했어요."
+    ],
+    [
+     "Nullify the effect",
+     "효과를 없애다"
+    ]
+   ],
+   "mcq": [
+    "The new rule was nullified the old agreement.",
+    "The new rule nullified on the old agreement.",
+    "The new rule nullified the old agreement.",
+    "The new rule nullify the old agreement yesterday."
+   ],
+   "ans": 2,
+   "note": "nullify = 법적으로 무효로 하다 (null = 무효).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "obliterate",
+   "ko": "완전히 없애다",
+   "ex": "Obliterate the evidence",
+   "exko": "증거를 없애다",
+   "use": [
+    [
+     "The town was obliterated.",
+     "마을이 완전히 사라졌어요."
+    ],
+    [
+     "Obliterate a record",
+     "기록을 완전히 깨다"
+    ]
+   ],
+   "mcq": [
+    "The storm obliterated to the small village.",
+    "The storm obliterate the small village yesterday.",
+    "The storm obliterated the small village.",
+    "The storm was obliterated the small village."
+   ],
+   "ans": 2,
+   "note": "obliterate = 흔적도 없이 파괴하다/지우다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "ostracize",
+   "ko": "따돌리다, 배척하다",
+   "ex": "He was ostracized.",
+   "exko": "그는 따돌림을 당했어요.",
+   "use": [
+    [
+     "Ostracized by society",
+     "사회에서 배척당한"
+    ],
+    [
+     "Fear of being ostracized",
+     "따돌림 당할까 두려움"
+    ]
+   ],
+   "mcq": [
+    "She was ostracized for speaking out.",
+    "She ostracized for speaking out.",
+    "She was ostracized to speaking out.",
+    "She was ostracize for speaking out."
+   ],
+   "ans": 0,
+   "note": "ostracize = 집단에서 밀어내다. 영국 ostracise.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "pacify",
+   "ko": "진정시키다, 달래다",
+   "ex": "Pacify a crying baby",
+   "exko": "우는 아기를 달래다",
+   "use": [
+    [
+     "Pacify the crowd",
+     "군중을 진정시키다"
+    ],
+    [
+     "A pacifier",
+     "공갈 젖꼭지"
+    ]
+   ],
+   "mcq": [
+    "The manager tried to pacify the angry customers.",
+    "The manager try to pacify the angry customers yesterday.",
+    "The manager tried pacify the angry customers.",
+    "The manager tried to pacify to the angry customers."
+   ],
+   "ans": 0,
+   "note": "pacify = 진정시키다. pacifier = 아기 쪽쪽이.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "peruse",
+   "ko": "정독하다, 훑어보다",
+   "ex": "Peruse the menu",
+   "exko": "메뉴를 살펴보다",
+   "use": [
+    [
+     "Feel free to peruse.",
+     "편하게 둘러보세요."
+    ],
+    [
+     "Peruse the documents",
+     "서류를 검토하다"
+    ]
+   ],
+   "mcq": [
+    "She was perused the contract before signing.",
+    "She peruse the contract before signing yesterday.",
+    "She perused the contract before signing.",
+    "She perused on the contract before signing."
+   ],
+   "ans": 2,
+   "note": "peruse = 원래 '꼼꼼히 읽다'인데 일상에선 '훑어보다'로도 써요.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "placate",
+   "ko": "달래다, 비위를 맞추다",
+   "ex": "Placate the critics",
+   "exko": "비판자들을 달래다",
+   "use": [
+    [
+     "A placating smile",
+     "달래는 미소"
+    ],
+    [
+     "Hard to placate",
+     "달래기 힘든"
+    ]
+   ],
+   "mcq": [
+    "The company offered refunds to placating customers.",
+    "The company offer refunds to placate customers yesterday.",
+    "The company offered refunds to placate customers.",
+    "The company offered refunds for placate customers."
+   ],
+   "ans": 2,
+   "note": "placate = 양보·보상으로 화를 누그러뜨리다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "procure",
+   "ko": "구하다, 조달하다",
+   "ex": "Procure supplies",
+   "exko": "물품을 조달하다",
+   "use": [
+    [
+     "Hard to procure",
+     "구하기 어려운"
+    ],
+    [
+     "Procurement team",
+     "구매팀"
+    ]
+   ],
+   "mcq": [
+    "We managed to procure for tickets for the final.",
+    "We managed procure tickets for the final.",
+    "We manage to procure tickets for the final yesterday.",
+    "We managed to procure tickets for the final."
+   ],
+   "ans": 3,
+   "note": "procure = (애써) 구하다. 명사 procurement = 조달, 구매.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "quell",
+   "ko": "진압하다, 가라앉히다",
+   "ex": "Quell the riot",
+   "exko": "폭동을 진압하다",
+   "use": [
+    [
+     "Quell fears",
+     "불안을 가라앉히다"
+    ],
+    [
+     "Quell rumors",
+     "소문을 잠재우다"
+    ]
+   ],
+   "mcq": [
+    "The CEO's speech quell fears about layoffs yesterday.",
+    "The CEO's speech quelled to fears about layoffs.",
+    "The CEO's speech quelled fears about layoffs.",
+    "The CEO's speech was quelled fears about layoffs."
+   ],
+   "ans": 2,
+   "note": "quell = 소란·불안을 잠재우다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "rebuke",
+   "ko": "꾸짖다, 질책",
+   "ex": "A sharp rebuke",
+   "exko": "호된 질책",
+   "use": [
+    [
+     "She rebuked him for lying.",
+     "그녀는 거짓말했다고 그를 꾸짖었어요."
+    ],
+    [
+     "Publicly rebuked",
+     "공개적으로 질책당한"
+    ]
+   ],
+   "mcq": [
+    "The teacher was rebuked the students for being late.",
+    "The teacher rebuke the students for being late yesterday.",
+    "The teacher rebuked the students to being late.",
+    "The teacher rebuked the students for being late."
+   ],
+   "ans": 3,
+   "note": "rebuke 사람 for N = ~ 때문에 꾸짖다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "reprimand",
+   "ko": "견책하다, 질책",
+   "ex": "Receive a reprimand",
+   "exko": "견책을 받다",
+   "use": [
+    [
+     "He was reprimanded.",
+     "그는 질책을 받았어요."
+    ],
+    [
+     "A written reprimand",
+     "서면 경고"
+    ]
+   ],
+   "mcq": [
+    "The employee was reprimand for missing the deadline.",
+    "The employee reprimanded for missing the deadline.",
+    "The employee was reprimanded for missing the deadline.",
+    "The employee was reprimanded to missing the deadline."
+   ],
+   "ans": 2,
+   "note": "reprimand = 공식적으로 꾸짖다 (직장·군대).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "squander",
+   "ko": "낭비하다",
+   "ex": "Squander money",
+   "exko": "돈을 탕진하다",
+   "use": [
+    [
+     "Squander a chance",
+     "기회를 날리다"
+    ],
+    [
+     "Squandered talent",
+     "썩힌 재능"
+    ]
+   ],
+   "mcq": [
+    "Don't squander on this opportunity.",
+    "Don't squander this opportunity.",
+    "Don't to squander this opportunity.",
+    "Don't squandering this opportunity."
+   ],
+   "ans": 1,
+   "note": "squander = 돈·기회를 헛되이 날리다. waste의 강한 말.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "stifle",
+   "ko": "억누르다, 숨 막히게 하다",
+   "ex": "Stifle a yawn",
+   "exko": "하품을 참다",
+   "use": [
+    [
+     "Stifle creativity",
+     "창의성을 억누르다"
+    ],
+    [
+     "Stifling heat",
+     "숨 막히는 더위"
+    ]
+   ],
+   "mcq": [
+    "Too many rules can stifles creativity.",
+    "Too many rules can stifle on creativity.",
+    "Too many rules can stifle creativity.",
+    "Too many rules can stifling creativity."
+   ],
+   "ans": 2,
+   "note": "stifle = 막다, 억누르다. stifling = 숨 막히는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "thwart",
+   "ko": "좌절시키다, 저지하다",
+   "ex": "Thwart a plan",
+   "exko": "계획을 무산시키다",
+   "use": [
+    [
+     "Thwarted by the weather",
+     "날씨 때문에 좌절된"
+    ],
+    [
+     "Thwart an attack",
+     "공격을 막다"
+    ]
+   ],
+   "mcq": [
+    "Police were thwarted the robbery.",
+    "Police thwarted on the robbery.",
+    "Police thwarted the robbery.",
+    "Police thwart the robbery yesterday."
+   ],
+   "ans": 2,
+   "note": "thwart = 남의 계획을 막다.",
+   "wk": "2026-W47"
   }
  ]
 }

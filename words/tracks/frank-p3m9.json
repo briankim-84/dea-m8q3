@@ -6502,6 +6502,506 @@
    "ans": 2,
    "note": "pretty + 형용사 = 꽤 (very보다 약간 약함). 구어에서 아주 자주 써요.",
    "wk": "2026-W46"
+  },
+  {
+   "w": "get",
+   "ko": "얻다, 받다, ~하게 되다, 도착하다",
+   "ex": "I got a new phone.",
+   "exko": "새 폰 샀어요.",
+   "use": [
+    [
+     "It's getting cold.",
+     "날씨가 추워지고 있어요."
+    ],
+    [
+     "What time did you get home?",
+     "집에 몇 시에 들어갔어요?"
+    ]
+   ],
+   "mcq": [
+    "I got home at 11 last night.",
+    "I get home at 11 last night yesterday.",
+    "I getted home at 11 last night.",
+    "I got to home at 11 last night."
+   ],
+   "ans": 0,
+   "note": "get = 받다/사다/되다/도착하다 등 뜻이 아주 많아요. get home (to 없이).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "make",
+   "ko": "만들다, 하게 하다",
+   "ex": "I made dinner.",
+   "exko": "저녁 만들었어요.",
+   "use": [
+    [
+     "You make me laugh.",
+     "너 때문에 웃게 돼."
+    ],
+    [
+     "Make sure you lock the door.",
+     "문 꼭 잠가요."
+    ]
+   ],
+   "mcq": [
+    "My boss make me work late yesterday.",
+    "My boss made me work late.",
+    "My boss made me working late.",
+    "My boss made me to work late."
+   ],
+   "ans": 1,
+   "note": "make 사람 V(원형) = ~하게 만들다 (to 없음). make sure = 꼭 확인하다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "take",
+   "ko": "가져가다, (시간이) 걸리다, 타다",
+   "ex": "It takes 30 minutes.",
+   "exko": "30분 걸려요.",
+   "use": [
+    [
+     "Take your time.",
+     "천천히 하세요."
+    ],
+    [
+     "I take the bus to work.",
+     "버스 타고 출근해요."
+    ]
+   ],
+   "mcq": [
+    "How long does it take to get there?",
+    "How long it takes to get there?",
+    "How long does it takes to get there?",
+    "How long does take it to get there?"
+   ],
+   "ans": 0,
+   "note": "take = 시간이 걸리다 / 교통수단을 타다 / 약을 먹다 (take medicine).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "give",
+   "ko": "주다",
+   "ex": "Give me a second.",
+   "exko": "잠깐만요.",
+   "use": [
+    [
+     "Can you give me a ride?",
+     "차 좀 태워 줄래요?"
+    ],
+    [
+     "Don't give up.",
+     "포기하지 마."
+    ]
+   ],
+   "mcq": [
+    "She gived me a nice birthday gift.",
+    "She give me a nice birthday gift yesterday.",
+    "She gave me a nice birthday gift.",
+    "She gave to me a nice birthday gift."
+   ],
+   "ans": 2,
+   "note": "give-gave-given. give 사람 물건 / give 물건 to 사람.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "keep",
+   "ko": "계속 ~하다, 유지하다, 가지다",
+   "ex": "Keep going!",
+   "exko": "계속 해!",
+   "use": [
+    [
+     "Can you keep a secret?",
+     "비밀 지킬 수 있어?"
+    ],
+    [
+     "Keep the change.",
+     "잔돈은 가지세요."
+    ]
+   ],
+   "mcq": [
+    "He kept talking during the movie.",
+    "He kept to talk during the movie.",
+    "He keeped talking during the movie.",
+    "He kept talk during the movie."
+   ],
+   "ans": 0,
+   "note": "keep -ing = 계속 ~하다. keep-kept-kept.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "bring",
+   "ko": "가져오다, 데려오다",
+   "ex": "Bring your umbrella.",
+   "exko": "우산 챙겨 와요.",
+   "use": [
+    [
+     "Can I bring a friend?",
+     "친구 데려가도 돼요?"
+    ],
+    [
+     "What brings you here?",
+     "여긴 어쩐 일이에요?"
+    ]
+   ],
+   "mcq": [
+    "Don't forget to bring your passport.",
+    "Don't forget to brought your passport.",
+    "Don't forget bringing your passport.",
+    "Don't forget to bring you passport."
+   ],
+   "ans": 0,
+   "note": "bring = (여기로) 가져오다 ↔ take = (저기로) 가져가다. bring-brought.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "turn",
+   "ko": "돌리다, 돌다, ~이 되다",
+   "ex": "Turn left here.",
+   "exko": "여기서 좌회전하세요.",
+   "use": [
+    [
+     "Turn off the lights.",
+     "불 꺼 주세요."
+    ],
+    [
+     "It's your turn.",
+     "네 차례야."
+    ]
+   ],
+   "mcq": [
+    "She turned 30 last week.",
+    "She was turned 30 last week.",
+    "She turned to 30 last week.",
+    "She turn 30 last week."
+   ],
+   "ans": 0,
+   "note": "turn left/right, turn on/off, turn 30 = 서른이 되다, your turn = 네 차례.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "leave",
+   "ko": "떠나다, 두고 오다, 남기다",
+   "ex": "I'm leaving now.",
+   "exko": "저 지금 나가요.",
+   "use": [
+    [
+     "I left my phone at home.",
+     "폰을 집에 두고 왔어요."
+    ],
+    [
+     "Leave me alone.",
+     "날 좀 내버려 둬."
+    ]
+   ],
+   "mcq": [
+    "What time the train leaves?",
+    "What time does leave the train?",
+    "What time does the train leave?",
+    "What time does the train leaves?"
+   ],
+   "ans": 2,
+   "note": "leave = 출발하다 / 두고 오다 / 남기다. leave-left-left.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "call",
+   "ko": "전화하다, 부르다",
+   "ex": "I'll call you later.",
+   "exko": "이따 전화할게요.",
+   "use": [
+    [
+     "What do you call this in English?",
+     "이거 영어로 뭐라고 해요?"
+    ],
+    [
+     "Call me Mike.",
+     "마이크라고 불러요."
+    ]
+   ],
+   "mcq": [
+    "Can you call to me back in ten minutes?",
+    "Can you call back me in ten minutes?",
+    "Can you calling me back in ten minutes?",
+    "Can you call me back in ten minutes?"
+   ],
+   "ans": 3,
+   "note": "call 사람 back = 다시 전화하다. call 사람 이름 = ~라고 부르다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "tell",
+   "ko": "말해 주다, 알려 주다",
+   "ex": "Tell me about it.",
+   "exko": "얘기해 봐요. / 그러니까 말이야.",
+   "use": [
+    [
+     "Can you tell me the way?",
+     "길 좀 알려 줄래요?"
+    ],
+    [
+     "I can't tell the difference.",
+     "차이를 모르겠어요."
+    ]
+   ],
+   "mcq": [
+    "She told me a funny story.",
+    "She said me a funny story.",
+    "She told to me a funny story.",
+    "She telled me a funny story."
+   ],
+   "ans": 0,
+   "note": "tell + 사람 (to 없음). say는 사람 없이 say something.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "ask",
+   "ko": "묻다, 부탁하다",
+   "ex": "Can I ask you something?",
+   "exko": "뭐 하나 물어봐도 돼요?",
+   "use": [
+    [
+     "Ask for help.",
+     "도움을 요청하세요."
+    ],
+    [
+     "She asked me to wait.",
+     "그녀가 기다려 달라고 했어요."
+    ]
+   ],
+   "mcq": [
+    "I ask the waiter for more water yesterday.",
+    "I asked the waiter for more water.",
+    "I asked the waiter more water for.",
+    "I asked to the waiter for more water."
+   ],
+   "ans": 1,
+   "note": "ask 사람 = 묻다 / ask for N = 요청하다 / ask 사람 to V = 부탁하다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "feel",
+   "ko": "느끼다, 기분이 ~하다",
+   "ex": "I feel tired.",
+   "exko": "피곤해요.",
+   "use": [
+    [
+     "How do you feel?",
+     "기분 어때요?"
+    ],
+    [
+     "Feel free to ask.",
+     "편하게 물어보세요."
+    ]
+   ],
+   "mcq": [
+    "I don't feel like go out tonight.",
+    "I don't feel like going out tonight.",
+    "I don't feeling like going out tonight.",
+    "I don't feel like to go out tonight."
+   ],
+   "ans": 1,
+   "note": "feel + 형용사. feel like -ing = ~하고 싶다. feel free to V = 편하게 ~하세요.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "seem",
+   "ko": "~인 것 같다",
+   "ex": "You seem tired.",
+   "exko": "피곤해 보여요.",
+   "use": [
+    [
+     "It seems like a good idea.",
+     "좋은 생각 같아요."
+    ],
+    [
+     "He seems nice.",
+     "그 사람 괜찮아 보여요."
+    ]
+   ],
+   "mcq": [
+    "She seems to like her new job.",
+    "She seems liking her new job.",
+    "She seem to like her new job.",
+    "She is seems to like her new job."
+   ],
+   "ans": 0,
+   "note": "seem + 형용사 / seem to V / seem like N. 짐작해서 말할 때.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "become",
+   "ko": "~이 되다",
+   "ex": "She became a doctor.",
+   "exko": "그녀는 의사가 됐어요.",
+   "use": [
+    [
+     "It became popular.",
+     "유행이 됐어요."
+    ],
+    [
+     "We became friends.",
+     "우리는 친구가 됐어요."
+    ]
+   ],
+   "mcq": [
+    "He wants to become a pilot.",
+    "He wants become a pilot.",
+    "He wants to becoming a pilot.",
+    "He wants to became a pilot."
+   ],
+   "ans": 0,
+   "note": "become-became-become. 직업·상태가 '되다'.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "begin",
+   "ko": "시작하다",
+   "ex": "Let's begin.",
+   "exko": "시작합시다.",
+   "use": [
+    [
+     "The movie begins at 7.",
+     "영화는 7시에 시작해요."
+    ],
+    [
+     "To begin with, …",
+     "우선, …"
+    ]
+   ],
+   "mcq": [
+    "Classes begins next Monday.",
+    "Classes begin from at next Monday.",
+    "Classes will begin since next Monday.",
+    "Classes begin next Monday."
+   ],
+   "ans": 3,
+   "note": "begin-began-begun. start와 거의 같지만 조금 더 격식.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "start",
+   "ko": "시작하다, 출발하다",
+   "ex": "When do you start work?",
+   "exko": "몇 시에 출근해요?",
+   "use": [
+    [
+     "Let's start over.",
+     "처음부터 다시 하자."
+    ],
+    [
+     "My car won't start.",
+     "차 시동이 안 걸려요."
+    ]
+   ],
+   "mcq": [
+    "I started learning English last year.",
+    "I start learning English last year ago.",
+    "I started learn English last year.",
+    "I started to learning English last year."
+   ],
+   "ans": 0,
+   "note": "start -ing / start to V 둘 다 OK. 시동이 걸리다도 start.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "end",
+   "ko": "끝나다, 끝",
+   "ex": "The meeting ended late.",
+   "exko": "회의가 늦게 끝났어요.",
+   "use": [
+    [
+     "At the end of the day",
+     "결국에는"
+    ],
+    [
+     "It's the end of the world!",
+     "세상이 끝난 것도 아닌데! / 큰일 났다!"
+    ]
+   ],
+   "mcq": [
+    "How did the movie end?",
+    "How did end the movie?",
+    "How the movie ended?",
+    "How did the movie ended?"
+   ],
+   "ans": 0,
+   "note": "end = 끝나다(동사)·끝(명사). at the end of N = ~의 끝에.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "show",
+   "ko": "보여 주다, 쇼",
+   "ex": "Show me your photos.",
+   "exko": "사진 보여 줘요.",
+   "use": [
+    [
+     "Can you show me how?",
+     "어떻게 하는지 보여 줄래요?"
+    ],
+    [
+     "My favorite TV show",
+     "제일 좋아하는 TV 프로"
+    ]
+   ],
+   "mcq": [
+    "She shown me around the office.",
+    "She showed me around the office.",
+    "She showed to me around the office.",
+    "She show me around the office yesterday."
+   ],
+   "ans": 1,
+   "note": "show 사람 N = 보여 주다. show 사람 around = 구경시켜 주다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "try",
+   "ko": "해 보다, 노력하다",
+   "ex": "Try this cake.",
+   "exko": "이 케이크 먹어 봐요.",
+   "use": [
+    [
+     "I'll try my best.",
+     "최선을 다할게요."
+    ],
+    [
+     "Can I try it on?",
+     "입어 봐도 돼요?"
+    ]
+   ],
+   "mcq": [
+    "I tried calling you, but you didn't answered.",
+    "I tried call you, but you didn't answer.",
+    "I tried calling you, but you didn't answer.",
+    "I tryed calling you, but you didn't answer."
+   ],
+   "ans": 2,
+   "note": "try -ing = 시험 삼아 해 보다 / try to V = 애써 하다. try on = 입어 보다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "clean",
+   "ko": "청소하다, 깨끗한",
+   "ex": "I need to clean my room.",
+   "exko": "방 청소해야 해요.",
+   "use": [
+    [
+     "The kitchen is clean.",
+     "주방 깨끗해요."
+    ],
+    [
+     "Clean up after yourself.",
+     "쓴 건 치우세요."
+    ]
+   ],
+   "mcq": [
+    "Can you help me to cleans up the kitchen?",
+    "Can you help me cleaning up the kitchen?",
+    "Can you help me clean the kitchen up up?",
+    "Can you help me clean up the kitchen?"
+   ],
+   "ans": 3,
+   "note": "clean = 청소하다/깨끗한. clean up = 치우다.",
+   "wk": "2026-W47"
   }
  ]
 }

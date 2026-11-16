@@ -6502,6 +6502,506 @@
    "ans": 2,
    "note": "plenty of N = 충분히 많은. a lot of보다 '넉넉하다'는 느낌.",
    "wk": "2026-W46"
+  },
+  {
+   "w": "kitchen",
+   "ko": "부엌, 주방",
+   "ex": "I'm in the kitchen.",
+   "exko": "저 부엌에 있어요.",
+   "use": [
+    [
+     "Kitchen table",
+     "식탁"
+    ],
+    [
+     "The kitchen is a mess.",
+     "주방이 엉망이에요."
+    ]
+   ],
+   "mcq": [
+    "We had breakfast at kitchen.",
+    "We had breakfast in the kitchen.",
+    "We had breakfast in kitchen the.",
+    "We have breakfast in the kitchen yesterday."
+   ],
+   "ans": 1,
+   "note": "kitchen (k-i-t-c-h-e-n). 발음 '키친'.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "bedroom",
+   "ko": "침실",
+   "ex": "A two-bedroom apartment",
+   "exko": "방 두 개짜리 아파트",
+   "use": [
+    [
+     "My bedroom is upstairs.",
+     "제 방은 위층이에요."
+    ],
+    [
+     "The master bedroom",
+     "안방"
+    ]
+   ],
+   "mcq": [
+    "Our apartment has three bedrooms.",
+    "Our apartment have three bedrooms.",
+    "Our apartment has three bed rooms of.",
+    "Our apartment has three bedroom."
+   ],
+   "ans": 0,
+   "note": "bedroom = 침실. two-bedroom = 방 두 개짜리.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "bottle",
+   "ko": "병",
+   "ex": "A bottle of water",
+   "exko": "물 한 병",
+   "use": [
+    [
+     "Open the bottle.",
+     "병 따 주세요."
+    ],
+    [
+     "We drank a bottle of wine.",
+     "와인 한 병 마셨어요."
+    ]
+   ],
+   "mcq": [
+    "Can you pass me a bottles of water?",
+    "Can you pass me a bottle of water?",
+    "Can you pass me bottle of water?",
+    "Can you pass me a bottle water?"
+   ],
+   "ans": 1,
+   "note": "a bottle of N = ~ 한 병. bottled water = 생수.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "finger",
+   "ko": "손가락",
+   "ex": "I cut my finger.",
+   "exko": "손가락을 베었어요.",
+   "use": [
+    [
+     "Cross your fingers.",
+     "행운을 빌어요."
+    ],
+    [
+     "Point a finger at",
+     "~을 비난하다"
+    ]
+   ],
+   "mcq": [
+    "Keep your fingers crossed for me!",
+    "Keep your fingers cross for me!",
+    "Keep your finger crossed for me!",
+    "Keep crossed your fingers for me!"
+   ],
+   "ans": 0,
+   "note": "cross one's fingers = 행운을 빌다. 발가락은 toe.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "mouth",
+   "ko": "입",
+   "ex": "Open your mouth.",
+   "exko": "입 벌리세요.",
+   "use": [
+    [
+     "Don't talk with your mouth full.",
+     "입에 음식 넣고 말하지 마."
+    ],
+    [
+     "Word of mouth",
+     "입소문"
+    ]
+   ],
+   "mcq": [
+    "The restaurant got popular by word of mouths.",
+    "The restaurant got popular with word of mouth.",
+    "The restaurant get popular by word of mouth.",
+    "The restaurant got popular by word of mouth."
+   ],
+   "ans": 3,
+   "note": "mouth = 입. word of mouth = 입소문.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "skin",
+   "ko": "피부",
+   "ex": "She has great skin.",
+   "exko": "그녀는 피부가 좋아요.",
+   "use": [
+    [
+     "Dry skin",
+     "건성 피부"
+    ],
+    [
+     "Skin care",
+     "피부 관리"
+    ]
+   ],
+   "mcq": [
+    "This cream is good for a dry skins.",
+    "This cream is good for dry skin.",
+    "This cream are good for dry skin.",
+    "This cream is good to dry skin."
+   ],
+   "ans": 1,
+   "note": "skin = 피부 (셀 수 없음). skincare = 스킨케어.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "shoe",
+   "ko": "신발",
+   "ex": "Take off your shoes.",
+   "exko": "신발 벗으세요.",
+   "use": [
+    [
+     "A pair of shoes",
+     "신발 한 켤레"
+    ],
+    [
+     "In my shoes",
+     "내 입장이라면"
+    ]
+   ],
+   "mcq": [
+    "I bought a new pairs of shoes.",
+    "I bought a new pair of shoes.",
+    "I bought a new pair of shoe.",
+    "I buy a new pair of shoes yesterday."
+   ],
+   "ans": 1,
+   "note": "보통 복수 shoes. put yourself in my shoes = 내 입장이 돼 봐.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "bridge",
+   "ko": "다리",
+   "ex": "Cross the bridge",
+   "exko": "다리를 건너다",
+   "use": [
+    [
+     "Golden Gate Bridge",
+     "금문교"
+    ],
+    [
+     "We'll cross that bridge when we come to it.",
+     "그건 그때 가서 생각하자."
+    ]
+   ],
+   "mcq": [
+    "Let's walking across the bridge.",
+    "Let's walk across bridge the.",
+    "Let's walk across the bridges one.",
+    "Let's walk across the bridge."
+   ],
+   "ans": 3,
+   "note": "bridge = 다리. 비유로 '그때 가서 걱정하자'는 표현에도.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "forest",
+   "ko": "숲",
+   "ex": "A walk in the forest",
+   "exko": "숲 산책",
+   "use": [
+    [
+     "Rain forest",
+     "열대 우림"
+    ],
+    [
+     "Deep in the forest",
+     "숲속 깊이"
+    ]
+   ],
+   "mcq": [
+    "We got lose in the forest.",
+    "We get lost in the forest yesterday.",
+    "We got lost on the forest.",
+    "We got lost in the forest."
+   ],
+   "ans": 3,
+   "note": "forest = 큰 숲. 작은 숲은 woods.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "river",
+   "ko": "강",
+   "ex": "Han River",
+   "exko": "한강",
+   "use": [
+    [
+     "Along the river",
+     "강을 따라"
+    ],
+    [
+     "The river is frozen.",
+     "강이 얼었어요."
+    ]
+   ],
+   "mcq": [
+    "We had a picnic by the river.",
+    "We have a picnic by the river yesterday.",
+    "We had a picnic by the rivers one.",
+    "We had a picnic by river."
+   ],
+   "ans": 0,
+   "note": "by the river = 강가에서. 강 이름 앞에는 the (the Han River).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "mountain",
+   "ko": "산",
+   "ex": "Climb a mountain",
+   "exko": "산에 오르다",
+   "use": [
+    [
+     "Mountain view",
+     "산 경치"
+    ],
+    [
+     "Make a mountain out of a molehill",
+     "별것 아닌 걸 크게 만들다"
+    ]
+   ],
+   "mcq": [
+    "We went hiking on the mountains in.",
+    "We went hike in the mountains.",
+    "We went hiking in the mountains.",
+    "We went hiking in the mountain's."
+   ],
+   "ans": 2,
+   "note": "go hiking in the mountains. 비유: mountain of work = 산더미 같은 일.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "beach",
+   "ko": "해변",
+   "ex": "Let's go to the beach.",
+   "exko": "바다 가자.",
+   "use": [
+    [
+     "On the beach",
+     "해변에서"
+    ],
+    [
+     "Beach vacation",
+     "바닷가 휴가"
+    ]
+   ],
+   "mcq": [
+    "We spent the day at beach.",
+    "We spent the day in the beach.",
+    "We spent the day at the beach.",
+    "We spend the day at the beach yesterday."
+   ],
+   "ans": 2,
+   "note": "at/on the beach. 발음 주의 '비-치' (길게).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "island",
+   "ko": "섬",
+   "ex": "Jeju Island",
+   "exko": "제주도",
+   "use": [
+    [
+     "A desert island",
+     "무인도"
+    ],
+    [
+     "Live on an island",
+     "섬에 살다"
+    ]
+   ],
+   "mcq": [
+    "They lives on a small island.",
+    "They live on small island.",
+    "They live on a small island.",
+    "They live in a small island."
+   ],
+   "ans": 2,
+   "note": "island (s 묵음, '아일랜드'). on an island.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "museum",
+   "ko": "박물관, 미술관",
+   "ex": "Art museum",
+   "exko": "미술관",
+   "use": [
+    [
+     "The museum is closed on Mondays.",
+     "박물관은 월요일에 쉬어요."
+    ],
+    [
+     "Visit a museum",
+     "박물관에 가다"
+    ]
+   ],
+   "mcq": [
+    "We spent three hours at the museum.",
+    "We spend three hours at the museum yesterday.",
+    "We spent three hours in museum.",
+    "We spent three hour at the museum."
+   ],
+   "ans": 0,
+   "note": "museum ('뮤지엄'). art museum = 미술관.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "library",
+   "ko": "도서관",
+   "ex": "I study at the library.",
+   "exko": "도서관에서 공부해요.",
+   "use": [
+    [
+     "Library card",
+     "도서관 카드"
+    ],
+    [
+     "Borrow a book from the library",
+     "도서관에서 책을 빌리다"
+    ]
+   ],
+   "mcq": [
+    "I return the books to the library yesterday.",
+    "I returned the book to library.",
+    "I returned the books to the library.",
+    "I returned the books at the library to."
+   ],
+   "ans": 2,
+   "note": "library ≠ 서점(bookstore).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "concert",
+   "ko": "콘서트, 공연",
+   "ex": "Let's go to a concert.",
+   "exko": "공연 보러 가자.",
+   "use": [
+    [
+     "Concert tickets",
+     "콘서트 티켓"
+    ],
+    [
+     "A live concert",
+     "라이브 공연"
+    ]
+   ],
+   "mcq": [
+    "We went to jazz concert last night.",
+    "We went to a jazz concert last night.",
+    "We go to a jazz concert last night.",
+    "We went a jazz concert last night."
+   ],
+   "ans": 1,
+   "note": "go to a concert. 클래식·대중음악 공연 모두.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "tourist",
+   "ko": "관광객",
+   "ex": "The city is full of tourists.",
+   "exko": "도시가 관광객으로 가득해요.",
+   "use": [
+    [
+     "Tourist attraction",
+     "관광 명소"
+    ],
+    [
+     "A tourist trap",
+     "바가지 관광지"
+    ]
+   ],
+   "mcq": [
+    "This area is popular with tourist.",
+    "This area is popular to tourists.",
+    "This area are popular with tourists.",
+    "This area is popular with tourists."
+   ],
+   "ans": 3,
+   "note": "tourist = 관광객. tourism = 관광업.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "lawyer",
+   "ko": "변호사",
+   "ex": "I need a lawyer.",
+   "exko": "변호사가 필요해요.",
+   "use": [
+    [
+     "Talk to your lawyer.",
+     "변호사와 상의하세요."
+    ],
+    [
+     "She's a lawyer.",
+     "그녀는 변호사예요."
+    ]
+   ],
+   "mcq": [
+    "He works as a lawyer in Seoul.",
+    "He works as lawyer in Seoul.",
+    "He work as a lawyer in Seoul.",
+    "He works like a lawyer in Seoul."
+   ],
+   "ans": 0,
+   "note": "lawyer = 변호사. work as a + 직업.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "nurse",
+   "ko": "간호사",
+   "ex": "Ask the nurse.",
+   "exko": "간호사한테 물어보세요.",
+   "use": [
+    [
+     "Nurse's station",
+     "간호사실"
+    ],
+    [
+     "She's a nurse.",
+     "그녀는 간호사예요."
+    ]
+   ],
+   "mcq": [
+    "The nurse checked my blood pressure.",
+    "The nurse checked to my blood pressure.",
+    "The nurse check my blood pressure yesterday.",
+    "The nurse checked my blood pressures."
+   ],
+   "ans": 0,
+   "note": "nurse = 간호사 / 간호하다 (nurse someone back to health).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "coach",
+   "ko": "코치, 지도하다",
+   "ex": "Our coach is strict.",
+   "exko": "우리 코치는 엄격해요.",
+   "use": [
+    [
+     "Life coach",
+     "라이프 코치"
+    ],
+    [
+     "She coaches tennis.",
+     "그녀는 테니스를 가르쳐요."
+    ]
+   ],
+   "mcq": [
+    "The coach told us to run five laps.",
+    "The coach told to us to run five laps.",
+    "The coach tell us to run five laps yesterday.",
+    "The coach told us run five laps."
+   ],
+   "ans": 0,
+   "note": "coach = 코치(명사)·지도하다(동사). 장거리 버스도 coach(영국).",
+   "wk": "2026-W47"
   }
  ]
 }

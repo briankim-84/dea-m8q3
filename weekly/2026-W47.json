@@ -1,0 +1,54 @@
+{
+  "week": "2026-W47",
+  "label": "11월 16일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        {"expr": "I'm all set", "ko": "준비 다 됐어요, 다 됐어요 (더 필요 없어요)", "ex": "Do you need anything else? — No, I'm all set. Thanks!"},
+        {"expr": "📘 단어: munch / slurp", "ko": "우적우적 먹다 / 후루룩 소리 내며 먹다", "ex": "He's munching on chips. → Don't slurp your soup! (munch on N, slurp noodles)"},
+        {"expr": "Long time no see", "ko": "오랜만이에요", "ex": "Hey, Jake! Long time no see. How have you been?"},
+        {"expr": "📘 단어: skim / doodle", "ko": "훑어 읽다 / 끄적끄적 낙서하다", "ex": "I skimmed the email. → She doodles during meetings. (skim through N, doodle on paper)"},
+        {"expr": "What a small world", "ko": "세상 참 좁네요", "ex": "You know my cousin? What a small world!"}
+      ],
+      "quiz": [
+        {"q": "Can I get you anything else? — No thanks, I'm all ___ .", "options": ["ready", "done it", "set", "fine set"], "answer": 2, "note": "I'm all set = 다 됐어요. 식당·가게에서 '더 필요 없어요'라고 할 때 딱."},
+        {"q": "Stop ___ your noodles so loudly!", "options": ["skimming", "slurping", "doodling", "munching on"], "answer": 1, "note": "slurp = 후루룩 소리 내며 먹다·마시다."},
+        {"q": "Hi, Sarah! ___ ! You look great.", "options": ["Long time no see", "Long time not see", "Long no time see", "Long see no time"], "answer": 0, "note": "Long time no see = 오랜만이야. 문법은 이상해도 원어민이 그대로 써요."},
+        {"q": "I didn't read the whole report. I just ___ it.", "options": ["doodled", "munched", "slurped", "skimmed"], "answer": 3, "note": "skim = 대충 훑어 읽다. skim through N도 같은 뜻."},
+        {"q": "Your boss went to my high school? ___ !", "options": ["What a small world", "What small a world", "How a small world", "What a world small"], "answer": 0, "note": "What a small world! = 세상 좁다! It's a small world라고도 해요."}
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        {"expr": "I'll keep that in mind", "ko": "기억해 둘게요, 참고할게요", "ex": "The parking lot fills up early. — Thanks, I'll keep that in mind."},
+        {"expr": "📘 단어: mingle / pamper", "ko": "(파티에서) 어울리며 돌아다니다 / 애지중지하다, 호강시키다", "ex": "Go mingle with the guests! → Pamper yourself this weekend. (mingle with N, pamper yourself)"},
+        {"expr": "It's a deal", "ko": "좋아요, 그렇게 하기로 해요 (약속)", "ex": "You cook, I'll do the dishes. — It's a deal!"},
+        {"expr": "📘 단어: hustle / binge", "ko": "바쁘게 뛰어다니다, 열심히 일하다 / 몰아서 하다", "ex": "She hustles to pay the rent. → I binged the whole series. (side hustle = 부업, binge-watch = 정주행)"},
+        {"expr": "That's the spirit", "ko": "바로 그거야, 그런 자세 좋아", "ex": "I failed, but I'll try again next week. — That's the spirit!"}
+      ],
+      "quiz": [
+        {"q": "The museum is closed on Mondays. — Oh, thanks. I'll ___ that in mind.", "options": ["put", "keep", "hold", "have"], "answer": 1, "note": "keep N in mind = 기억해 두다. 조언 들었을 때 자연스러운 대답."},
+        {"q": "At the party, I didn't know anyone, so I tried to ___ .", "options": ["pamper", "binge", "mingle", "hustle"], "answer": 2, "note": "mingle = 사람들 사이를 돌며 어울리다."},
+        {"q": "If you drive, I'll pay for gas. — ___ !", "options": ["It's a deal", "It's deal", "Is a deal", "It deals"], "answer": 0, "note": "It's a deal = 콜, 그렇게 하자. Deal! 한 단어로도 써요."},
+        {"q": "I ___ all eight episodes in one night.", "options": ["mingled", "pampered", "hustled", "binged"], "answer": 3, "note": "binge (on) N = 몰아서 하다. binge-watch = 정주행."},
+        {"q": "I'm nervous, but I'm going to give it my best. — ___ !", "options": ["That's a spirit", "That's the spirit", "This is spirit", "That's spirit"], "answer": 1, "note": "That's the spirit! = 그런 자세 좋아! 긍정적인 태도를 칭찬할 때."}
+      ]
+    },
+    "challenge": {
+      "cards": [
+        {"expr": "Hit the sack", "ko": "자러 가다", "ex": "I'm exhausted. I'm going to hit the sack."},
+        {"expr": "📘 단어: meager / quaint", "ko": "빈약한, 쥐꼬리만 한 / 예스럽고 아기자기한", "ex": "A meager salary → a quaint little town (meager = 양이 적은, quaint = 옛 정취가 있는)"},
+        {"expr": "Break the bank", "ko": "큰돈이 들다, 거덜 나다 (주로 부정문)", "ex": "This dinner won't break the bank. It's really cheap."},
+        {"expr": "📘 단어: rowdy / hushed", "ko": "떠들썩한, 소란스러운 / 숨죽인, 조용한", "ex": "A rowdy crowd → a hushed voice (rowdy fans, in hushed tones = 소곤소곤)"},
+        {"expr": "Pull someone's leg", "ko": "놀리다, 장난치다", "ex": "Relax, I'm just pulling your leg. I didn't really quit."}
+      ],
+      "quiz": [
+        {"q": "It's midnight. I'd better ___ .", "hint": "자루를 치다 (자러 가다)", "accept": ["hit the sack"], "note": "hit the sack = 잠자리에 들다. hit the hay도 같은 뜻."},
+        {"q": "The pay was ___ , so he looked for another job.", "hint": "빈약한, 쥐꼬리만 한 (m으로 시작)", "accept": ["meager", "meagre"], "note": "meager = 양·액수가 너무 적은. 영국 철자 meagre."},
+        {"q": "A good haircut doesn't have to ___ .", "hint": "은행을 깨다", "accept": ["break the bank"], "note": "break the bank = 큰돈이 들다. 주로 won't/doesn't와 함께."},
+        {"q": "The fans got ___ after the team won.", "hint": "떠들썩한 (r로 시작)", "accept": ["rowdy"], "note": "rowdy = 시끄럽고 거친. a rowdy crowd/party."},
+        {"q": "You won the lottery? Are you ___ ?", "hint": "내 다리를 당기다", "accept": ["pulling my leg"], "note": "pull someone's leg = 농담으로 속이다. Are you pulling my leg? = 장난이지?"}
+      ]
+    }
+  }
+}

@@ -4002,6 +4002,506 @@
    "ans": 3,
    "note": "overthink-overthought. Don't overthink it = 단순하게 가자.",
    "wk": "2026-W46"
+  },
+  {
+   "w": "articulate",
+   "ko": "말을 조리 있게 하는, 분명히 표현하다",
+   "ex": "She's very articulate.",
+   "exko": "그녀는 말을 아주 조리 있게 해요.",
+   "use": [
+    [
+     "Articulate your ideas",
+     "생각을 명확히 표현하다"
+    ],
+    [
+     "An articulate speaker",
+     "말 잘하는 연사"
+    ]
+   ],
+   "mcq": [
+    "He articulated his concerns clearly.",
+    "He articulated his concerns clear.",
+    "He articulate his concerns clearly yesterday.",
+    "He was articulated his concerns clearly."
+   ],
+   "ans": 0,
+   "note": "articulate = 형용사('아티큘럿')·동사('아티큘레이트') 둘 다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "assertive",
+   "ko": "자기주장이 확실한",
+   "ex": "Be more assertive.",
+   "exko": "좀 더 당당하게 말해요.",
+   "use": [
+    [
+     "An assertive leader",
+     "주관이 뚜렷한 리더"
+    ],
+    [
+     "Assertive, not aggressive",
+     "공격적이 아니라 당당한"
+    ]
+   ],
+   "mcq": [
+    "You need to more assertive in meetings.",
+    "You need to be more assertively in meetings.",
+    "You need be more assertive in meetings.",
+    "You need to be more assertive in meetings."
+   ],
+   "ans": 3,
+   "note": "assertive = 당당하게 자기 의견을 말하는 (긍정). aggressive와 구분.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "compelling",
+   "ko": "설득력 있는, 강렬한",
+   "ex": "A compelling argument",
+   "exko": "설득력 있는 주장",
+   "use": [
+    [
+     "A compelling story",
+     "몰입하게 되는 이야기"
+    ],
+    [
+     "Compelling evidence",
+     "강력한 증거"
+    ]
+   ],
+   "mcq": [
+    "She made a compelling case for the project.",
+    "She make a compelling case for the project yesterday.",
+    "She made compelling a case for the project.",
+    "She made a compelled case for the project."
+   ],
+   "ans": 0,
+   "note": "compelling = 눈을 뗄 수 없는 / 설득력 있는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "condescending",
+   "ko": "깔보는, 생색내는",
+   "ex": "Don't be condescending.",
+   "exko": "잘난 척하며 깔보지 마.",
+   "use": [
+    [
+     "A condescending tone",
+     "깔보는 말투"
+    ],
+    [
+     "He's so condescending.",
+     "그 사람 너무 사람을 무시해요."
+    ]
+   ],
+   "mcq": [
+    "I didn't like his condescending tone.",
+    "I didn't like his condescended tone.",
+    "I didn't liked his condescending tone.",
+    "I didn't like his tone condescending of."
+   ],
+   "ans": 0,
+   "note": "condescending = 위에서 내려다보듯 말하는. patronizing과 비슷.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "conducive",
+   "ko": "~에 도움이 되는",
+   "ex": "Conducive to learning",
+   "exko": "학습에 좋은",
+   "use": [
+    [
+     "A conducive environment",
+     "도움이 되는 환경"
+    ],
+    [
+     "Not conducive to sleep",
+     "잠자기에 안 좋은"
+    ]
+   ],
+   "mcq": [
+    "A quiet room is conducive for studying.",
+    "A quiet room is conducive to study.",
+    "A quiet room conducive to studying.",
+    "A quiet room is conducive to studying."
+   ],
+   "ans": 3,
+   "note": "be conducive to N/-ing = ~하기에 좋은 (격식).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "daunting",
+   "ko": "벅찬, 기죽게 하는",
+   "ex": "A daunting task",
+   "exko": "엄두가 안 나는 일",
+   "use": [
+    [
+     "It seems daunting.",
+     "부담스러워 보여요."
+    ],
+    [
+     "Daunting at first",
+     "처음엔 막막한"
+    ]
+   ],
+   "mcq": [
+    "Moving abroad can be daunted.",
+    "Moving abroad can daunting.",
+    "Moving abroad can be dauntingly.",
+    "Moving abroad can be daunting."
+   ],
+   "ans": 3,
+   "note": "daunting = 너무 크거나 어려워서 겁나는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "elusive",
+   "ko": "잡히지 않는, 찾기 힘든",
+   "ex": "An elusive answer",
+   "exko": "좀처럼 안 나오는 답",
+   "use": [
+    [
+     "Success was elusive.",
+     "성공은 좀처럼 오지 않았어요."
+    ],
+    [
+     "An elusive animal",
+     "좀처럼 보기 힘든 동물"
+    ]
+   ],
+   "mcq": [
+    "A good night's sleep has been elusive lately.",
+    "A good night's sleep has elusive lately.",
+    "A good night's sleep has been elusively lately.",
+    "A good night's sleep have been elusive lately."
+   ],
+   "ans": 0,
+   "note": "elusive = 잡으려 해도 잘 안 잡히는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "frivolous",
+   "ko": "시시한, 경박한",
+   "ex": "Frivolous spending",
+   "exko": "쓸데없는 지출",
+   "use": [
+    [
+     "A frivolous question",
+     "하찮은 질문"
+    ],
+    [
+     "Don't be frivolous.",
+     "가볍게 굴지 마."
+    ]
+   ],
+   "mcq": [
+    "I stopped spending money on frivolously things.",
+    "I stopped spending money on frivolous things.",
+    "I stopped to spend money on frivolous things.",
+    "I stop spending money on frivolous things yesterday."
+   ],
+   "ans": 1,
+   "note": "frivolous = 진지하지 않은, 쓸데없는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "gratifying",
+   "ko": "흐뭇한, 보람 있는",
+   "ex": "A gratifying result",
+   "exko": "보람 있는 결과",
+   "use": [
+    [
+     "It's gratifying to see.",
+     "보니까 흐뭇해요."
+    ],
+    [
+     "Deeply gratifying",
+     "정말 뿌듯한"
+    ]
+   ],
+   "mcq": [
+    "It's gratified to see my students improve.",
+    "It's gratifying to see my students improve.",
+    "It's gratifying to see my students improves.",
+    "It's gratifying see my students improve."
+   ],
+   "ans": 1,
+   "note": "gratifying = 만족스럽고 뿌듯한. rewarding과 비슷.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "impeccable",
+   "ko": "흠잡을 데 없는",
+   "ex": "Impeccable manners",
+   "exko": "나무랄 데 없는 매너",
+   "use": [
+    [
+     "Her English is impeccable.",
+     "그녀 영어는 완벽해요."
+    ],
+    [
+     "Impeccable taste",
+     "훌륭한 안목"
+    ]
+   ],
+   "mcq": [
+    "The service at the hotel was impeccable.",
+    "The service at the hotel impeccable was.",
+    "The service at the hotel were impeccable.",
+    "The service at the hotel was impeccably."
+   ],
+   "ans": 0,
+   "note": "impeccable = 완벽한, 흠 하나 없는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "inadvertent",
+   "ko": "무심코 한, 의도치 않은",
+   "ex": "An inadvertent mistake",
+   "exko": "부주의한 실수",
+   "use": [
+    [
+     "Inadvertently deleted",
+     "실수로 지운"
+    ],
+    [
+     "It was inadvertent.",
+     "의도한 건 아니었어요."
+    ]
+   ],
+   "mcq": [
+    "I inadvertently sent the email the wrong person to.",
+    "I inadvertently sent the email to the wrong person.",
+    "I inadvertent sent the email to the wrong person.",
+    "I inadvertently send the email to the wrong person yesterday."
+   ],
+   "ans": 1,
+   "note": "inadvertent(ly) = 모르고, 실수로. accidentally의 격식.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "mediocre",
+   "ko": "그저 그런, 평범한",
+   "ex": "The food was mediocre.",
+   "exko": "음식은 그저 그랬어요.",
+   "use": [
+    [
+     "A mediocre performance",
+     "평범한 실력"
+    ],
+    [
+     "Mediocre at best",
+     "잘해야 보통"
+    ]
+   ],
+   "mcq": [
+    "The movie were mediocre at best.",
+    "The movie was mediocre at the best of.",
+    "The movie was mediocrely at best.",
+    "The movie was mediocre at best."
+   ],
+   "ans": 3,
+   "note": "mediocre = 기대에 못 미치는 보통 수준 (부정적 뉘앙스).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "nonchalant",
+   "ko": "태연한, 무심한",
+   "ex": "He acted nonchalant.",
+   "exko": "그는 아무렇지 않은 척했어요.",
+   "use": [
+    [
+     "A nonchalant shrug",
+     "무심한 으쓱"
+    ],
+    [
+     "Nonchalant about money",
+     "돈에 무덤덤한"
+    ]
+   ],
+   "mcq": [
+    "She tried look nonchalant, but she was nervous.",
+    "She tried to look nonchalantly, but she was nervous.",
+    "She tried to look nonchalant, but she was nervous.",
+    "She try to look nonchalant, but she was nervous yesterday."
+   ],
+   "ans": 2,
+   "note": "nonchalant = 신경 안 쓰는 듯 태연한. look/seem + nonchalant.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "pristine",
+   "ko": "새것 같은, 깨끗한",
+   "ex": "In pristine condition",
+   "exko": "새것 같은 상태",
+   "use": [
+    [
+     "Pristine beaches",
+     "깨끗한 해변"
+    ],
+    [
+     "Pristine white",
+     "티 없는 흰색"
+    ]
+   ],
+   "mcq": [
+    "The used car was in a pristinely condition.",
+    "The used car were in pristine condition.",
+    "The used car was in pristine condition.",
+    "The used car was on pristine condition."
+   ],
+   "ans": 2,
+   "note": "pristine = 손대지 않은 듯 깨끗한.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "prolific",
+   "ko": "다작하는, 많이 만들어 내는",
+   "ex": "A prolific writer",
+   "exko": "다작 작가",
+   "use": [
+    [
+     "Prolific scorer",
+     "득점이 많은 선수"
+    ],
+    [
+     "Very prolific",
+     "생산성이 아주 높은"
+    ]
+   ],
+   "mcq": [
+    "She's one of most prolific artists of her time.",
+    "She's one of the more prolific artists of her time.",
+    "She's one of the most prolific artist of her time.",
+    "She's one of the most prolific artists of her time."
+   ],
+   "ans": 3,
+   "note": "prolific = 작품·결과물을 많이 내는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "ruthless",
+   "ko": "무자비한, 냉혹한",
+   "ex": "A ruthless boss",
+   "exko": "냉정한 상사",
+   "use": [
+    [
+     "Ruthless competition",
+     "치열한 경쟁"
+    ],
+    [
+     "Be ruthless with your to-do list.",
+     "할 일 목록은 과감하게 정리하세요."
+    ]
+   ],
+   "mcq": [
+    "The company made ruthless cuts to save money.",
+    "The company made ruthlessly cuts to save money.",
+    "The company made ruthless cut to save money.",
+    "The company make ruthless cuts to save money yesterday."
+   ],
+   "ans": 0,
+   "note": "ruthless = 동정 없이 냉혹한 / 과감한.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "seamless",
+   "ko": "매끄러운, 이음매 없는",
+   "ex": "A seamless transition",
+   "exko": "매끄러운 전환",
+   "use": [
+    [
+     "Seamless service",
+     "끊김 없는 서비스"
+    ],
+    [
+     "It was seamless.",
+     "아주 매끄러웠어요."
+    ]
+   ],
+   "mcq": [
+    "The new system made the process seamless.",
+    "The new system made seamless the process.",
+    "The new system make the process seamless yesterday.",
+    "The new system made the process seamlessly."
+   ],
+   "ans": 0,
+   "note": "seamless = 중간에 끊기거나 어색함 없는. make N seamless.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "unprecedented",
+   "ko": "전례 없는",
+   "ex": "Unprecedented times",
+   "exko": "유례없는 시기",
+   "use": [
+    [
+     "An unprecedented success",
+     "전례 없는 성공"
+    ],
+    [
+     "On an unprecedented scale",
+     "전례 없는 규모로"
+    ]
+   ],
+   "mcq": [
+    "The company saw unprecedent growth this year.",
+    "The company see unprecedented growth this year ago.",
+    "The company saw unprecedented growth this year.",
+    "The company saw an unprecedented growths this year."
+   ],
+   "ans": 2,
+   "note": "unprecedented = 이전에 한 번도 없었던 (뉴스에서 자주).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "vibrant",
+   "ko": "활기찬, 선명한",
+   "ex": "A vibrant city",
+   "exko": "활기 넘치는 도시",
+   "use": [
+    [
+     "Vibrant colors",
+     "생생한 색감"
+    ],
+    [
+     "A vibrant personality",
+     "생기 넘치는 성격"
+    ]
+   ],
+   "mcq": [
+    "Seoul has vibrant a nightlife.",
+    "Seoul has a vibrantly nightlife.",
+    "Seoul has a vibrant nightlife.",
+    "Seoul have a vibrant nightlife."
+   ],
+   "ans": 2,
+   "note": "vibrant = 에너지와 생기가 넘치는.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "resourceful",
+   "ko": "수완 좋은, 요령 있는",
+   "ex": "She's very resourceful.",
+   "exko": "그녀는 수완이 좋아요.",
+   "use": [
+    [
+     "A resourceful team",
+     "융통성 있는 팀"
+    ],
+    [
+     "Be resourceful.",
+     "있는 걸로 해결해 봐요."
+    ]
+   ],
+   "mcq": [
+    "He's resourceful enough fixing anything.",
+    "He's enough resourceful to fix anything.",
+    "He resourceful enough to fix anything.",
+    "He's resourceful enough to fix anything."
+   ],
+   "ans": 3,
+   "note": "resourceful = 어려운 상황에서 방법을 찾아내는.",
+   "wk": "2026-W47"
   }
  ]
 }

@@ -3502,6 +3502,506 @@
    "ans": 0,
    "note": "reasonably = 꽤, 적당히. reasonably priced = 가격 괜찮은.",
    "wk": "2026-W46"
+  },
+  {
+   "w": "elderly",
+   "ko": "연세 드신",
+   "ex": "Elderly people",
+   "exko": "어르신들",
+   "use": [
+    [
+     "My elderly neighbor",
+     "나이 드신 이웃"
+    ],
+    [
+     "Care for the elderly",
+     "어르신 돌봄"
+    ]
+   ],
+   "mcq": [
+    "She take care of her elderly parents.",
+    "She takes care of her elder parents.",
+    "She takes care her elderly parents.",
+    "She takes care of her elderly parents."
+   ],
+   "ans": 3,
+   "note": "elderly = old의 공손한 표현. the elderly = 노인들.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "promotion",
+   "ko": "승진, 홍보",
+   "ex": "I got a promotion!",
+   "exko": "저 승진했어요!",
+   "use": [
+    [
+     "A sales promotion",
+     "판촉 행사"
+    ],
+    [
+     "Promotion to manager",
+     "매니저로 승진"
+    ]
+   ],
+   "mcq": [
+    "She got promotion a after two years.",
+    "She gets a promotion after two years ago.",
+    "She got a promotions after two years.",
+    "She got a promotion after two years."
+   ],
+   "ans": 3,
+   "note": "get a promotion = 승진하다. 동사 promote.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "divorce",
+   "ko": "이혼(하다)",
+   "ex": "They got divorced.",
+   "exko": "그들은 이혼했어요.",
+   "use": [
+    [
+     "Divorce rate",
+     "이혼율"
+    ],
+    [
+     "A messy divorce",
+     "복잡한 이혼"
+    ]
+   ],
+   "mcq": [
+    "My parents got divorce when I was ten.",
+    "My parents divorced with when I was ten.",
+    "My parents get divorced when I was ten.",
+    "My parents got divorced when I was ten."
+   ],
+   "ans": 3,
+   "note": "get divorced = 이혼하다. 명사 divorce.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "mystery",
+   "ko": "미스터리, 수수께끼",
+   "ex": "It's a mystery to me.",
+   "exko": "저도 영문을 모르겠어요.",
+   "use": [
+    [
+     "Murder mystery",
+     "살인 추리물"
+    ],
+    [
+     "Solve a mystery",
+     "수수께끼를 풀다"
+    ]
+   ],
+   "mcq": [
+    "How he got the job are still a mystery.",
+    "How did he get the job is still a mystery.",
+    "How he got the job is still a mystery.",
+    "How he got the job is still mystery."
+   ],
+   "ans": 2,
+   "note": "mystery = 알 수 없는 일 / 추리물. 형용사 mysterious.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "gallery",
+   "ko": "갤러리, 미술관",
+   "ex": "Art gallery",
+   "exko": "미술관, 화랑",
+   "use": [
+    [
+     "Photo gallery",
+     "사진첩"
+    ],
+    [
+     "Visit a gallery",
+     "갤러리에 가다"
+    ]
+   ],
+   "mcq": [
+    "Her paintings are showed in a gallery downtown.",
+    "Her paintings are shown on a gallery downtown.",
+    "Her paintings is shown in a gallery downtown.",
+    "Her paintings are shown in a gallery downtown."
+   ],
+   "ans": 3,
+   "note": "gallery = 작품 전시 공간. 폰 '갤러리'도 같은 단어.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "contest",
+   "ko": "대회, 경연",
+   "ex": "A singing contest",
+   "exko": "노래 대회",
+   "use": [
+    [
+     "Win a contest",
+     "대회에서 우승하다"
+    ],
+    [
+     "Enter a contest",
+     "대회에 나가다"
+    ]
+   ],
+   "mcq": [
+    "She win first prize in the contest yesterday.",
+    "She won the first prize at in the contest.",
+    "She won first prize in the contest.",
+    "She won first prize on the contest."
+   ],
+   "ans": 2,
+   "note": "contest = 대회(명사). 동사 contest는 '이의를 제기하다'(강세 뒤).",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "airline",
+   "ko": "항공사",
+   "ex": "Which airline are you flying?",
+   "exko": "어느 항공사 타요?",
+   "use": [
+    [
+     "Budget airline",
+     "저가 항공사"
+    ],
+    [
+     "Airline ticket",
+     "항공권"
+    ]
+   ],
+   "mcq": [
+    "The airline lost my luggage.",
+    "The airline lose my luggage yesterday.",
+    "The airline lost mine luggage.",
+    "The airline lost my luggages."
+   ],
+   "ans": 0,
+   "note": "airline = 항공사. airport = 공항, airplane = 비행기.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "interior",
+   "ko": "내부, 실내의",
+   "ex": "Interior design",
+   "exko": "인테리어 디자인",
+   "use": [
+    [
+     "The car's interior",
+     "차 내부"
+    ],
+    [
+     "Interior walls",
+     "실내 벽"
+    ]
+   ],
+   "mcq": [
+    "The interior of the hotel was beautiful.",
+    "The interior of the hotel were beautiful.",
+    "The inside interior of the hotel was beautiful.",
+    "The interior the hotel was beautiful."
+   ],
+   "ans": 0,
+   "note": "interior ↔ exterior. 콩글리시 '인테리어' = interior design.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "grammar",
+   "ko": "문법",
+   "ex": "English grammar",
+   "exko": "영어 문법",
+   "use": [
+    [
+     "Check your grammar.",
+     "문법 확인하세요."
+    ],
+    [
+     "Bad grammar",
+     "틀린 문법"
+    ]
+   ],
+   "mcq": [
+    "My grammar is okay, but my speaking is weak.",
+    "My grammars are okay, but my speaking is weak.",
+    "My grammar okay, but my speaking is weak.",
+    "My grammar is okay, but my speaking are weak."
+   ],
+   "ans": 0,
+   "note": "grammar (-ar로 끝남, grammer ✗). 셀 수 없는 명사.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "comedy",
+   "ko": "코미디",
+   "ex": "A romantic comedy",
+   "exko": "로맨틱 코미디",
+   "use": [
+    [
+     "Stand-up comedy",
+     "스탠드업 코미디"
+    ],
+    [
+     "I love comedies.",
+     "코미디 좋아해요."
+    ]
+   ],
+   "mcq": [
+    "Let's watching a comedy tonight.",
+    "Let's watch a comedy tonight.",
+    "Let's watch comedy a tonight.",
+    "Let's watch a comedy at tonight."
+   ],
+   "ans": 1,
+   "note": "comedy = 코미디. 코미디언 comedian, 웃긴 funny.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "fiction",
+   "ko": "소설, 허구",
+   "ex": "Science fiction",
+   "exko": "공상 과학",
+   "use": [
+    [
+     "Fact or fiction?",
+     "사실이야 허구야?"
+    ],
+    [
+     "I mostly read fiction.",
+     "주로 소설 읽어요."
+    ]
+   ],
+   "mcq": [
+    "That story are pure fiction.",
+    "That story is pure fiction.",
+    "That story is a pure fictions.",
+    "That story is purely fiction of."
+   ],
+   "ans": 1,
+   "note": "fiction ↔ nonfiction. sci-fi = science fiction.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "leather",
+   "ko": "가죽",
+   "ex": "A leather jacket",
+   "exko": "가죽 재킷",
+   "use": [
+    [
+     "Fake leather",
+     "인조 가죽"
+    ],
+    [
+     "Leather seats",
+     "가죽 시트"
+    ]
+   ],
+   "mcq": [
+    "These shoes are make of real leather.",
+    "These shoes is made of real leather.",
+    "These shoes are made of real leather.",
+    "These shoes are made from of real leather."
+   ],
+   "ans": 2,
+   "note": "leather = 가죽 (셀 수 없음). made of leather.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "slice",
+   "ko": "조각, 얇게 썰다",
+   "ex": "A slice of pizza",
+   "exko": "피자 한 조각",
+   "use": [
+    [
+     "Slice the bread.",
+     "빵을 썰어요."
+    ],
+    [
+     "A slice of life",
+     "일상의 한 단면"
+    ]
+   ],
+   "mcq": [
+    "Can I have other slice of cake?",
+    "Can I have another slice cake?",
+    "Can I have another slice of cake?",
+    "Can I have another slices of cake?"
+   ],
+   "ans": 2,
+   "note": "a slice of N = 얇은 한 조각. 동사로 썰다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "shade",
+   "ko": "그늘, 색조",
+   "ex": "Sit in the shade.",
+   "exko": "그늘에 앉아요.",
+   "use": [
+    [
+     "A darker shade of blue",
+     "더 진한 파란색"
+    ],
+    [
+     "Throw shade",
+     "은근히 디스하다"
+    ]
+   ],
+   "mcq": [
+    "Let's finding some shade. It's too hot.",
+    "Let's find some shadow shade. It's too hot.",
+    "Let's find some shade. It's too hot.",
+    "Let's find a shades. It's too hot."
+   ],
+   "ans": 2,
+   "note": "shade = 햇빛을 가린 그늘 (shadow는 그림자). throw shade = 은근히 깎아내리다.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "cheek",
+   "ko": "볼, 뺨",
+   "ex": "Rosy cheeks",
+   "exko": "발그레한 볼",
+   "use": [
+    [
+     "Kiss on the cheek",
+     "볼에 뽀뽀"
+    ],
+    [
+     "Tongue in cheek",
+     "농담조로"
+    ]
+   ],
+   "mcq": [
+    "She kiss her baby on the cheek yesterday.",
+    "She kissed her baby on cheek the.",
+    "She kissed her baby in the cheek.",
+    "She kissed her baby on the cheek."
+   ],
+   "ans": 3,
+   "note": "cheek = 볼. tongue-in-cheek = 농담 반으로.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "tongue",
+   "ko": "혀",
+   "ex": "Bite your tongue.",
+   "exko": "말 조심해.",
+   "use": [
+    [
+     "Mother tongue",
+     "모국어"
+    ],
+    [
+     "It's on the tip of my tongue.",
+     "혀끝에서 맴도는데."
+    ]
+   ],
+   "mcq": [
+    "His name is in the tip of my tongue.",
+    "His name is on the top of my tongue.",
+    "His name are on the tip of my tongue.",
+    "His name is on the tip of my tongue."
+   ],
+   "ans": 3,
+   "note": "tongue ('텅'). on the tip of my tongue = 생각날 듯 말 듯.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "tooth",
+   "ko": "이, 치아",
+   "ex": "I have a toothache.",
+   "exko": "이가 아파요.",
+   "use": [
+    [
+     "Brush your teeth.",
+     "이 닦아요."
+    ],
+    [
+     "Sweet tooth",
+     "단것 좋아함"
+    ]
+   ],
+   "mcq": [
+    "I have a sweet teeth.",
+    "I has a sweet tooth.",
+    "I have a sweet tooth.",
+    "I have sweet tooth."
+   ],
+   "ans": 2,
+   "note": "tooth (복수 teeth). sweet tooth = 단것을 좋아함.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "potentially",
+   "ko": "잠재적으로, 어쩌면",
+   "ex": "It's potentially dangerous.",
+   "exko": "위험할 수도 있어요.",
+   "use": [
+    [
+     "Potentially huge",
+     "잠재적으로 큰"
+    ],
+    [
+     "This could potentially save money.",
+     "이걸로 돈을 아낄 수도 있어요."
+    ]
+   ],
+   "mcq": [
+    "This mistake could potential cost us a lot.",
+    "This mistake potentially could to cost us a lot.",
+    "This mistake could potentially costs us a lot.",
+    "This mistake could potentially cost us a lot."
+   ],
+   "ans": 3,
+   "note": "potentially = 아직은 아니지만 가능성 있는. 형용사 potential.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "consequently",
+   "ko": "그 결과, 따라서",
+   "ex": "He was sick and consequently missed class.",
+   "exko": "그는 아파서 결국 수업을 빠졌어요.",
+   "use": [
+    [
+     "Consequently, prices rose.",
+     "그 결과 가격이 올랐어요."
+    ],
+    [
+     "And consequently…",
+     "그래서 결국…"
+    ]
+   ],
+   "mcq": [
+    "It rained all day. Consequently, the game canceled was.",
+    "It rained all day. Consequently, the game was cancel.",
+    "It rained all day. Consequently, the game was canceled.",
+    "It rained all day. Consequent, the game was canceled."
+   ],
+   "ans": 2,
+   "note": "consequently = as a result (글·발표에서 자주). 명사 consequence.",
+   "wk": "2026-W47"
+  },
+  {
+   "w": "greatly",
+   "ko": "크게, 대단히",
+   "ex": "I greatly appreciate it.",
+   "exko": "정말 감사드려요.",
+   "use": [
+    [
+     "Greatly improved",
+     "크게 나아진"
+    ],
+    [
+     "It varies greatly.",
+     "차이가 커요."
+    ]
+   ],
+   "mcq": [
+    "Your help is greatly appreciate.",
+    "Your help are greatly appreciated.",
+    "Your help is greatly appreciated.",
+    "Your help is great appreciated."
+   ],
+   "ans": 2,
+   "note": "greatly = very much (격식). 이메일 끝 인사로 자주.",
+   "wk": "2026-W47"
   }
  ]
 }
