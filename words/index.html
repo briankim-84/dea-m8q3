@@ -132,6 +132,7 @@
   .dexko{font-size:11.5px;color:var(--mute);margin-top:3px;}
   .dnote{font-size:11.5px;color:#8A6D1F;margin-top:6px;line-height:1.55;}
 </style>
+<script src="../dewb-sync.js"></script>
 </head>
 <body>
 <div class="note">
@@ -610,6 +611,7 @@ function bindTTS(){
   }catch(e){
     app().innerHTML='<div class="loading">단어 트랙이 아직 준비 중이에요. 곧 만나요! ✎</div>'; return;
   }
+  try{ if(window.DEWBSync) await window.DEWBSync.ready; }catch(e){}
   load(); home();
 })();
 </script>
