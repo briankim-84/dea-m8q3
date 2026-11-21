@@ -1,0 +1,172 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>June · Class 18 · What You Caught</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html,body{margin:0}body{background:#10203A;color:#F4EFE3;font-family:"Noto Sans KR","Malgun Gothic",sans-serif;min-height:100vh;padding:18px 30px 40px;-webkit-font-smoothing:antialiased}
+button{font:inherit;cursor:pointer}
+.top{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand{font-size:11px;letter-spacing:3px;color:#C9A432;font-weight:700}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}.tab{padding:7px 13px;border-radius:18px;border:1px solid #2C426B;background:transparent;color:#9AA6BF;font-weight:700;font-size:13px}.tab.on{background:#C9A432;color:#10203A;border-color:#C9A432}.tab small{font-weight:400;opacity:.8;margin-left:4px}
+.sec{display:none;margin-top:14px}.sec.on{display:block}
+.tag{font-size:12px;letter-spacing:3px;color:#C9A432;font-weight:700}.ti{font-family:Georgia,serif;font-size:36px;font-weight:700;margin:4px 0 2px;line-height:1.15}.sub{color:#9AA6BF;font-size:16px;margin-bottom:14px}
+.g{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px;align-items:start}
+.vidwrap{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#0b1730;border:1px solid #2C426B}.vidwrap>div,.vidwrap iframe{position:absolute;inset:0;width:100%;height:100%}
+.bar{height:12px;background:#1E3157;border-radius:6px;margin:12px 0 4px;position:relative;cursor:pointer}.bar i{position:absolute;left:0;top:0;bottom:0;width:0;background:#C9A432;border-radius:6px}
+.bar u{position:absolute;top:-6px;bottom:-6px;width:5px;margin-left:-2px;background:#E0695A;border-radius:2px;cursor:pointer}
+.bl{display:flex;justify-content:space-between;font-size:12px;color:#9AA6BF}
+.ctl{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
+.lost{background:#E0695A;color:#fff;font-weight:700;font-size:19px;border:0;border-radius:12px;padding:12px 28px;letter-spacing:1px}.lost:active{transform:scale(.97)}
+.sp{border:1px solid #2C426B;background:#16273F;color:#F4EFE3;border-radius:10px;padding:9px 13px;font-weight:700;font-size:14px}.sp.on{background:#C9A432;color:#10203A;border-color:#C9A432}
+.marks{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px;min-height:32px}.mk{border:1px solid #E0695A;color:#E0695A;background:transparent;border-radius:16px;padding:4px 6px 4px 11px;font-size:13px;font-weight:700;display:flex;align-items:center;gap:6px}.mk b{font-weight:400;color:#9AA6BF;padding:0 5px;cursor:pointer}
+.fallback{font-size:12.5px;color:#9AA6BF;margin-top:8px}.fallback a{color:#6FD3C4}
+.step{display:grid;grid-template-columns:30px 1fr 54px;gap:8px;background:#16273F;border:1px solid #2C426B;border-radius:10px;padding:9px 12px;margin-bottom:7px;cursor:pointer}
+.step b{font-family:Georgia,serif;font-size:20px;color:#E4C05C}.step .t{font-weight:700;font-size:15px}.step .d{color:#C9D2E4;font-size:13px;line-height:1.4;margin-top:1px}.step .m{color:#6FD3C4;font-weight:700;font-size:12px;text-align:right;white-space:nowrap}
+.step.on{border-color:#C9A432;background:#1c3152}.step.done{opacity:.55}
+.q{background:#F6F1E4;color:#10203A;border-radius:10px;padding:9px 13px;margin-top:8px;font-size:15px;line-height:1.5}.q b,.box label{display:block;font-size:10.5px;letter-spacing:2.5px;color:#9A7A1E;font-weight:700;margin-bottom:2px}
+.rp{display:flex;gap:8px;margin-top:8px}.fr{flex:1;border:1px dashed #6FD3C4;border-radius:10px;padding:7px 10px}.fr .e{color:#6FD3C4;font-size:15px;font-weight:500}.fr .k{color:#9AA6BF;font-size:12.5px}
+.box{background:#F6F1E4;border-radius:10px;padding:7px 12px 8px;margin-top:8px;display:flex;flex-direction:column}.box textarea{border:0;background:transparent;resize:vertical;font:inherit;font-size:15.5px;color:#10203A;min-height:64px;outline:none;line-height:1.45}.box.fix label{color:#1E7A6C}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.talk{margin-top:14px;border-top:1px solid #2C426B;padding-top:12px}.talk h4,.h4{margin:0 0 6px;font-size:11px;letter-spacing:3px;color:#C9A432}
+.ql{background:#16273F;border-left:4px solid #C9A432;border-radius:8px;padding:10px 14px;font-family:Georgia,serif;font-size:19px;margin-bottom:8px;line-height:1.35}.ql small{display:block;font-family:"Noto Sans KR",sans-serif;font-size:11px;letter-spacing:2.5px;color:#6FD3C4;font-weight:700;margin-bottom:2px}
+.stage{display:grid;grid-template-columns:150px 1fr;gap:12px;margin-bottom:10px}.stage .l{background:#16273F;border:1px solid #2C426B;border-radius:10px;padding:10px 12px}.stage .l b{display:block;font-size:14px}.stage .l span{color:#6FD3C4;font-size:12px;font-weight:700}
+.frs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+table.bw{width:100%;border-collapse:separate;border-spacing:0 7px}table.bw td{background:#16273F;border:1px solid #2C426B;padding:10px 14px;font-size:17px;width:46%}table.bw td:first-child{border-radius:10px 0 0 10px;color:#6FD3C4}table.bw td:last-child{border-radius:0 10px 10px 0;color:#E4C05C}table.bw td.mid{width:8%;text-align:center;color:#5B6B8C;border-left:0;border-right:0;cursor:pointer;font-size:13px}
+table.bw th{text-align:left;font-size:11px;letter-spacing:2.5px;padding:0 14px;font-weight:700}table.bw td.hid{color:transparent!important;text-shadow:none;background:#0E1B33}
+table.bw input{width:100%;border:0;background:transparent;color:inherit;font:inherit;outline:none}
+.acts{display:flex;gap:10px;align-items:center;margin-top:14px}.acts button{height:40px;padding:0 16px;border-radius:10px;border:1px solid #2C426B;background:#16273F;color:#F4EFE3;font-weight:700}.hint{color:#5B6B8C;font-size:13px}
+@media(max-width:1000px){.g,.two,.frs{grid-template-columns:1fr}.ti{font-size:28px}}
+</style></head><body>
+<div class="top"><div class="brand">DO ENGLISH WITH BRIAN · JUNE · CLASS 18 · NOVEMBER 22</div><div class="tabs" id="tabs"></div></div>
+
+<section class="sec" data-n="Open" data-m="5">
+ <div class="tag">OPENING · 5 MIN</div><div class="ti">What You Caught</div><div class="sub">Two real videos, one big question, and the same idea said two ways.</div>
+ <div class="ql">How was the first full week after IAS?</div>
+ <div class="ql">Did you squander any of it, or was it all work?</div>
+ <div class="ql">Have you listened to anything in English since Wednesday?</div>
+ <div class="box"><label>NOTES</label><textarea data-k="open"></textarea></div>
+</section>
+
+<section class="sec" data-n="Video 1" data-m="25" data-v="v1"></section>
+<section class="sec" data-n="Video 2" data-m="20" data-v="v2"></section>
+
+<section class="sec" data-n="Q&A" data-m="10">
+ <div class="tag">THE Q&A YOU DIDN'T GET · 10 MIN</div><div class="ti">Three You Prepared, One You Didn't</div><div class="sub">No slides, no notes. Answer the way you would have on the day.</div>
+ <div class="g"><div>
+  <div class="ql"><small>1</small>Why is less rotation toward that side a good thing for someone with CAI?</div>
+  <div class="ql"><small>2</small>The trunk group trained the trunk and the trunk didn't change. How do you say that without it sounding like a failure?</div>
+  <div class="ql"><small>3</small>A clinician stops you after the talk: “Monday morning, what do I give my CAI patient?”</div>
+  <div class="ql" style="border-left-color:#6FD3C4"><small>NEW</small>Wikstrom says a sprain changes how the brain controls movement. Does your trunk result fit that story?</div>
+ </div><div>
+  <div class="box" style="margin-top:0"><label>WHAT YOU SAID</label><textarea data-k="qa_said" style="min-height:170px"></textarea></div>
+  <div class="box fix"><label>SAY IT THIS WAY</label><textarea data-k="qa_fix" style="min-height:170px"></textarea></div>
+ </div></div>
+</section>
+
+<section class="sec" data-n="Big Question" data-m="35">
+ <div class="tag">DISCUSSING IDEAS · 35 MIN</div><div class="ti">Is a sprained ankle a brain problem?</div><div class="sub">The first video said it is more than a local injury. Do you buy it?</div>
+ <div class="g"><div>
+  <div class="stage"><div class="l"><b>Where you stand</b><span>5 MIN</span></div><div><div class="ql">On a line from “just a ligament” to “a brain injury,” where do you put a sprained ankle?</div></div></div>
+  <div class="stage"><div class="l"><b>Your evidence</b><span>8 MIN</span></div><div><div class="ql">What have you seen in your own participants that fits?</div><div class="ql">You trained the foot and the trunk moved differently. Is that a brain story or a muscle story?</div></div></div>
+  <div class="stage"><div class="l"><b>Brian pushes back</b><span>10 MIN</span></div><div><div class="ql">The ligament is torn. Fix it, strengthen the muscle, done. Why bring the brain into it?</div><div class="ql">Has the brain idea changed any actual treatment yet?</div><div class="ql">Couldn't the brain changes be the result of moving less, and not the cause?</div></div></div>
+  <div class="stage"><div class="l"><b>So what</b><span>7 MIN</span></div><div><div class="ql">If you're right, what should rehab look like?</div><div class="ql">What would you measure to prove it?</div></div></div>
+  <div class="stage"><div class="l"><b>One minute, twice</b><span>5 MIN</span></div><div><div class="ql">Give me your position in one minute.</div></div></div>
+ </div><div>
+  <div class="h4">FOR ARGUING</div>
+  <div class="frs">
+   <div class="fr"><div class="e">I'd put it this way: ~</div><div class="k">저라면 이렇게 말할 것 같아요. ~</div></div>
+   <div class="fr"><div class="e">What we actually see is ~</div><div class="k">실제로 해 보면 ~예요</div></div>
+   <div class="fr"><div class="e">Where I'd push back is ~</div><div class="k">근데 ~는 좀 아닌 것 같아요</div></div>
+   <div class="fr"><div class="e">It depends on what you count as ~</div><div class="k">~를 어디까지로 치느냐에 따라 달라요</div></div>
+  </div>
+  <div class="box"><label>YOUR POSITION</label><textarea data-k="bq_pos" style="min-height:150px"></textarea></div>
+  <div class="box fix"><label>SAY IT THIS WAY</label><textarea data-k="bq_fix" style="min-height:150px"></textarea></div>
+  <div class="two"><div class="box"><label>ONE MINUTE · TAKE 1</label><textarea data-k="bq_t1"></textarea></div><div class="box fix"><label>TAKE 2</label><textarea data-k="bq_t2"></textarea></div></div>
+ </div></div>
+</section>
+
+<section class="sec" data-n="Both Ways" data-m="20">
+ <div class="tag">SAYING IT PRECISELY · 20 MIN</div><div class="ti">Hallway English, Paper English</div><div class="sub">Same idea, two registers. Click the arrow to hide one side, then say it.</div>
+ <div class="g"><div>
+  <div class="h4">VIDEO 2 · THEY SAID IT THE HALLWAY WAY → YOU SAY IT THE PAPER WAY</div>
+  <table class="bw" id="t1"><tr><th style="color:#6FD3C4">IN THE HALLWAY</th><th></th><th style="color:#E4C05C">IN THE PAPER</th></tr></table>
+  <div class="h4" style="margin-top:14px">VIDEO 1 · HE SAID IT THE PAPER WAY → YOU SAY IT THE HALLWAY WAY</div>
+  <table class="bw" id="t2"><tr><th style="color:#6FD3C4">IN THE HALLWAY</th><th></th><th style="color:#E4C05C">IN THE PAPER</th></tr></table>
+ </div><div>
+  <div class="h4">NOW YOUR OWN RESULTS, BOTH WAYS</div>
+  <div class="ql"><small>1 · THE MAIN FINDING</small>What happened to trunk rotation in the foot core group?</div>
+  <div class="two"><div class="box" style="margin-top:0"><label>HALLWAY</label><textarea data-k="bw1h"></textarea></div><div class="box fix" style="margin-top:0"><label>PAPER</label><textarea data-k="bw1p"></textarea></div></div>
+  <div class="ql" style="margin-top:10px"><small>2 · WHAT DIDN'T CHANGE</small>What happened to the balance scores?</div>
+  <div class="two"><div class="box" style="margin-top:0"><label>HALLWAY</label><textarea data-k="bw2h"></textarea></div><div class="box fix" style="margin-top:0"><label>PAPER</label><textarea data-k="bw2p"></textarea></div></div>
+  <div class="ql" style="margin-top:10px"><small>3 · THE LIMIT</small>What can't four weeks tell us?</div>
+  <div class="two"><div class="box" style="margin-top:0"><label>HALLWAY</label><textarea data-k="bw3h"></textarea></div><div class="box fix" style="margin-top:0"><label>PAPER</label><textarea data-k="bw3p"></textarea></div></div>
+ </div></div>
+</section>
+
+<section class="sec" data-n="Wrap" data-m="5">
+ <div class="tag">BEFORE NEXT TIME · 5 MIN</div><div class="ti">Three Words You Caught</div><div class="sub">From today's videos or from the talking. Yours to keep.</div>
+ <div class="two"><div><div class="box" style="margin-top:0"><label>WORD 1</label><textarea data-k="w1" style="min-height:44px"></textarea></div><div class="box"><label>WORD 2</label><textarea data-k="w2" style="min-height:44px"></textarea></div><div class="box"><label>WORD 3</label><textarea data-k="w3" style="min-height:44px"></textarea></div></div>
+ <div><div class="q" style="margin-top:0"><b>AT HOME</b>Listen &amp; Shadow: Eric's IAS talk.<br>Watch one more short video in English this week. Count how many times you get lost.</div>
+ <div class="acts"><button id="cp">Copy all notes</button><button id="clr">Clear everything</button><span class="hint" id="msg"></span></div></div></div>
+</section>
+
+<script>
+const $=id=>document.getElementById(id);const KEY="june-c18";
+let S={n:{},marks:{v1:[],v2:[]},step:{v1:0,v2:0},rows:[]};try{const o=JSON.parse(localStorage.getItem(KEY)||"null");if(o&&o.n)S=Object.assign(S,o);}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}};
+const fmt=s=>{s=Math.max(0,Math.round(s));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");};
+
+const V={
+ v1:{id:"IbHiLOq2lIU",len:140,tag:"REAL-SPEED LISTENING · VIDEO 1 OF 2 · 2:20",ti:"Sprains and the Brain",sub:"UNC Research · Erik Wikstrom. A researcher in your field, explaining his work.",
+  lf:["What's the biggest problem with how people treat a sprain?","If it's not just a local injury, what is it?"],
+  talk:["Does that match what you see in your own participants?","Your study trained the foot and the trunk. Where does the brain come in?","If you met him between sessions, what would you ask him?"],tm:[1,"2:20",3,4,5],tk:10},
+ v2:{id:"8NC9zaug4tw",len:116,tag:"REAL-SPEED LISTENING · VIDEO 2 OF 2 · 1:56",ti:"Coffee and Your Heart",sub:"Good Morning America · July 2026. Morning-show speed, people talking over each other.",
+  lf:["How much coffee is fine, according to the new statement?","What can take the benefit away?"],
+  talk:["Does this change how much coffee you drink?","The title says “may potentially lower.” As a researcher, how do you read that?","Did the hosts meander, or did they get to the point?"],tm:[1,"1:56",2,4,5],tk:7}};
+const STEPS=[["Listen for two things","Read the two questions first. Nothing else."],["Watch once. Say “lost” when you lose them.","No stopping. Every time June says “lost,” press LOST."],["Tell me what they said","Answer the two questions. Then one comment as a researcher."],["Back to the red marks only","Click a mark: it replays from 5 seconds before, captions on. Say why it slipped, then say it once."],["Once more at 1.25×, then back to 1×","After the fast one, normal speed feels slower."]];
+document.querySelectorAll("section[data-v]").forEach(sec=>{const k=sec.dataset.v,v=V[k];
+ sec.innerHTML=`<div class="tag">${v.tag}</div><div class="ti">${v.ti}</div><div class="sub">${v.sub}</div>
+ <div class="g"><div>
+  <div class="vidwrap"><div id="yt_${k}"></div></div>
+  <div class="bar" id="bar_${k}"><i></i></div><div class="bl"><span id="cur_${k}">0:00</span><span>red = where you got lost · click to replay</span><span>${fmt(v.len)}</span></div>
+  <div class="ctl"><button class="lost" id="lost_${k}">LOST</button><button class="sp" data-r="0.75">0.75×</button><button class="sp on" data-r="1">1×</button><button class="sp" data-r="1.25">1.25×</button><button class="sp" id="cc_${k}">CC off</button><button class="sp" id="rs_${k}">⏮ Start</button></div>
+  <div class="marks" id="marks_${k}"></div>
+  <div class="fallback">If the video doesn't load here, open it on YouTube: <a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">youtube.com/watch?v=${v.id}</a></div>
+  <div class="talk"><h4>THEN TALK · ${v.tk} MIN</h4>${v.talk.map(t=>`<div class="ql">${t}</div>`).join("")}</div>
+ </div><div>
+  <div id="steps_${k}"></div>
+  <div class="q"><b>LISTEN FOR</b>1 · ${v.lf[0]}<br>2 · ${v.lf[1]}</div>
+  <div class="rp"><div class="fr"><div class="e">You lost me at ~</div><div class="k">~부터 못 따라갔어요</div></div><div class="fr"><div class="e">Did he say ~ or ~?</div><div class="k">방금 ~라고 한 거예요, 아니면 ~예요?</div></div></div>
+  <div class="box"><label>WHAT YOU CAUGHT</label><textarea data-k="${k}_caught"></textarea></div>
+  <div class="box"><label>WHY IT SLIPPED · linking · weak words · speed · wording</label><textarea data-k="${k}_why"></textarea></div>
+  <div class="box fix"><label>SAY IT THIS WAY</label><textarea data-k="${k}_fix"></textarea></div>
+ </div></div>`;
+ const st=$("steps_"+k);const drawSteps=()=>{st.innerHTML="";STEPS.forEach((s,i)=>{const d=document.createElement("div");d.className="step"+(i===S.step[k]?" on":i<S.step[k]?" done":"");d.innerHTML=`<b>${i+1}</b><div><div class="t">${s[0]}</div><div class="d">${s[1]}</div></div><div class="m">${typeof v.tm[i]==="number"?v.tm[i]+" MIN":v.tm[i]}</div>`;d.onclick=()=>{S.step[k]=i;save();drawSteps();};st.appendChild(d);});};drawSteps();
+ const drawMarks=()=>{const bar=$("bar_"+k);bar.querySelectorAll("u").forEach(u=>u.remove());const box=$("marks_"+k);box.innerHTML="";S.marks[k].sort((a,b)=>a-b).forEach((t,i)=>{const u=document.createElement("u");u.style.left=(t/v.len*100)+"%";u.title=fmt(t);u.onclick=e=>{e.stopPropagation();replay(k,t);};bar.appendChild(u);const c=document.createElement("button");c.className="mk";c.innerHTML=`▶ ${fmt(t)}<b>×</b>`;c.onclick=e=>{if(e.target.tagName==="B"){S.marks[k].splice(i,1);save();drawMarks();}else replay(k,t);};box.appendChild(c);});};v.drawMarks=drawMarks;drawMarks();
+ $("lost_"+k).onclick=()=>{const p=P[k];const t=p&&p.getCurrentTime?p.getCurrentTime():0;S.marks[k].push(Math.round(t*10)/10);save();drawMarks();};
+ sec.querySelectorAll(".sp[data-r]").forEach(b=>b.onclick=()=>{sec.querySelectorAll(".sp[data-r]").forEach(x=>x.classList.toggle("on",x===b));const p=P[k];if(p&&p.setPlaybackRate)p.setPlaybackRate(parseFloat(b.dataset.r));});
+ $("cc_"+k).onclick=()=>cc(k);$("rs_"+k).onclick=()=>{const p=P[k];if(p&&p.seekTo){p.seekTo(0,true);p.playVideo();}};
+ $("bar_"+k).onclick=e=>{const r=e.currentTarget.getBoundingClientRect();const p=P[k];if(p&&p.seekTo)p.seekTo((e.clientX-r.left)/r.width*v.len,true);};
+});
+const P={},CC={v1:false,v2:false};
+function cc(k,on){const p=P[k];CC[k]=on===undefined?!CC[k]:on;$("cc_"+k).textContent=CC[k]?"CC on":"CC off";$("cc_"+k).classList.toggle("on",CC[k]);if(!p||!p.loadModule)return;try{if(CC[k]){p.loadModule("captions");p.setOption("captions","track",{languageCode:"en"});}else p.unloadModule("captions");}catch(e){}}
+function replay(k,t){const p=P[k];if(!p||!p.seekTo)return;cc(k,true);p.seekTo(Math.max(0,t-5),true);p.playVideo();}
+window.onYouTubeIframeAPIReady=()=>{Object.keys(V).forEach(k=>{P[k]=new YT.Player("yt_"+k,{videoId:V[k].id,playerVars:{rel:0,playsinline:1,cc_load_policy:0,modestbranding:1}});});
+ setInterval(()=>{Object.keys(V).forEach(k=>{const p=P[k];if(p&&p.getCurrentTime){const t=p.getCurrentTime()||0;const b=$("bar_"+k);if(b){b.querySelector("i").style.width=Math.min(100,t/V[k].len*100)+"%";$("cur_"+k).textContent=fmt(t);}}});},300);};
+const s=document.createElement("script");s.src="https://www.youtube.com/iframe_api";document.head.appendChild(s);
+
+// both ways tables
+const T1=[["it may chip away at the benefit","it may reduce the benefit"],["more isn't necessarily better","higher intake confers no additional benefit"],["the bottom line is ~","in summary, ~"],["it's fine for most healthy adults","it is considered safe in healthy adults"]];
+const T2=[["people get hurt while exercising","injuries are sustained during physical activity"],["they think it's no big deal","they perceive the injury as minor"],["getting hurt again","secondary or subsequent injury"],["it affects the whole body","it impacts the neuromuscular system as a whole"]];
+function table(id,rows,key){const t=$(id);rows.forEach(r=>{const tr=document.createElement("tr");tr.innerHTML=`<td>${r[0]}</td><td class="mid" title="hide a side">⇄</td><td>${r[1]}</td>`;let st=0;tr.querySelector(".mid").onclick=()=>{st=(st+1)%3;tr.children[0].classList.toggle("hid",st===2);tr.children[2].classList.toggle("hid",st===1);};t.appendChild(tr);});
+ for(let i=0;i<2;i++){const tr=document.createElement("tr");tr.innerHTML=`<td><input data-k="${key}h${i}" placeholder="from where you got lost"></td><td class="mid">⇄</td><td><input data-k="${key}p${i}"></td>`;t.appendChild(tr);}}
+table("t1",T1,"a");table("t2",T2,"b");
+
+// notes
+document.querySelectorAll("[data-k]").forEach(el=>{const k=el.dataset.k;el.value=S.n[k]||"";el.oninput=()=>{S.n[k]=el.value;save();};});
+// tabs
+const secs=[...document.querySelectorAll(".sec")];let cur=0;try{cur=parseInt(localStorage.getItem(KEY+"-tab")||"0")||0;}catch(e){}
+function go(i){cur=i;secs.forEach((s,j)=>s.classList.toggle("on",j===i));[...$("tabs").children].forEach((b,j)=>b.classList.toggle("on",j===i));try{localStorage.setItem(KEY+"-tab",i);}catch(e){}Object.keys(P).forEach(k=>{const p=P[k];if(p&&p.pauseVideo&&secs[i].dataset.v!==k)try{p.pauseVideo();}catch(e){}});}
+secs.forEach((s,i)=>{const b=document.createElement("button");b.className="tab";b.innerHTML=s.dataset.n+"<small>"+s.dataset.m+"′</small>";b.onclick=()=>go(i);$("tabs").appendChild(b);});go(Math.min(cur,secs.length-1));
+$("cp").onclick=()=>{const L={open:"OPEN",v1_caught:"V1 caught",v1_why:"V1 why it slipped",v1_fix:"V1 say it this way",v2_caught:"V2 caught",v2_why:"V2 why it slipped",v2_fix:"V2 say it this way",qa_said:"Q&A said",qa_fix:"Q&A fix",bq_pos:"BQ position",bq_fix:"BQ fix",bq_t1:"BQ take 1",bq_t2:"BQ take 2"};let t="June Class 18\n";Object.keys(S.n).forEach(k=>{if((S.n[k]||"").trim())t+="["+(L[k]||k)+"] "+S.n[k].trim()+"\n";});t+="[V1 lost at] "+S.marks.v1.map(fmt).join(", ")+"\n[V2 lost at] "+S.marks.v2.map(fmt).join(", ")+"\n";navigator.clipboard.writeText(t).then(()=>$("msg").textContent="Copied",()=>$("msg").textContent="Copy failed");};
+let arm=false;$("clr").onclick=()=>{if(!arm){arm=true;$("clr").textContent="Click again to clear";setTimeout(()=>{arm=false;$("clr").textContent="Clear everything";},2500);return;}localStorage.removeItem(KEY);location.reload();};
+</script></body></html>
