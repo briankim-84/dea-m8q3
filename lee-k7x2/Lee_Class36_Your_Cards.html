@@ -1,0 +1,78 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lee · Class 36 · Your Cards</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet"><style>*{box-sizing:border-box}html,body{margin:0}body{background:#0B1730;color:#F4EFE3;font-family:"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;-webkit-font-smoothing:antialiased}
+button{font:inherit;cursor:pointer}.brand{font-size:11px;letter-spacing:3px;color:#C9A432;font-weight:700}
+body{min-height:100vh;padding:20px max(16px,env(safe-area-inset-left)) 40px}
+.wrap{max-width:560px;margin:0 auto}
+h1{font-family:Georgia,serif;font-size:26px;margin:6px 0 2px}.sub{color:#9AA6BF;font-size:14px;margin:0 0 16px}
+.rtabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin-bottom:14px}
+.rt{flex:0 0 auto;min-width:44px;height:44px;border-radius:22px;border:1px solid #2C426B;background:#14254A;color:#9AA6BF;font-weight:700;font-size:15px;padding:0 14px}
+.rt.on{background:#C9A432;color:#0B1730;border-color:#C9A432}
+.pat{background:#14254A;border:1px solid #2C426B;border-left:4px solid #C9A432;border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.pat .l{font-size:10.5px;letter-spacing:3px;color:#C9A432;font-weight:700}.pat .p{font-family:Georgia,serif;font-size:23px;font-weight:700;color:#E4C05C;margin:4px 0 2px;line-height:1.3}
+.pat .k{color:#9AA6BF;font-size:14px}.pat .ex{margin-top:10px;padding-top:10px;border-top:1px dashed #2C426B;font-size:14.5px;line-height:1.5}.pat .ex b{color:#6FD3C4;font-weight:500}
+.card{background:linear-gradient(160deg,#F6F1E4,#E9E0C9);color:#0B1730;border-radius:20px;padding:22px 18px 18px;text-align:center;box-shadow:0 18px 44px rgba(0,0,0,.45),0 0 0 5px rgba(201,164,50,.25)}
+.card .top{display:flex;justify-content:space-between;font-size:11px;letter-spacing:2.5px;font-weight:700;color:#9A7A1E}
+.card .em{font-size:64px;line-height:1.1;margin-top:8px}.card .w{font-family:Georgia,serif;font-size:40px;font-weight:700;line-height:1.15;margin-top:4px;overflow-wrap:anywhere}
+.card .ko{color:#6B6F78;font-size:17px;margin-top:2px}.card .st{display:inline-block;margin-top:10px;background:#0B1730;color:#E4C05C;border-radius:16px;padding:5px 14px;font-size:14px;font-weight:700}
+.card .rule{color:#8A8470;font-size:13px;margin-top:12px}
+.help{margin-top:14px}.hb{width:100%;height:46px;border-radius:12px;border:1px dashed #9A7A1E;background:transparent;color:#9A7A1E;font-weight:700;font-size:15px}
+.hw{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:10px}.hw span{background:#fff;border:1px solid #D9CFB4;border-radius:10px;padding:6px 10px;font-size:15px;font-weight:700}.hw small{font-weight:400;color:#6B6F78;margin-left:5px;font-size:12.5px}
+.nav{display:flex;gap:10px;margin-top:16px}.nav button{flex:1;height:52px;border-radius:14px;border:1px solid #2C426B;background:#14254A;color:#F4EFE3;font-weight:700;font-size:16px}.nav .go{background:#C9A432;color:#0B1730;border-color:#C9A432}.nav button:disabled{opacity:.35}
+.cover{background:#14254A;border:1px dashed #2C426B;border-radius:20px;padding:44px 18px;text-align:center;color:#9AA6BF}.cover b{display:block;font-family:Georgia,serif;font-size:26px;color:#F4EFE3;margin-bottom:6px}
+</style></head><body><div class="wrap">
+<div class="brand">DO ENGLISH WITH BRIAN · LEE · CLASS 36</div>
+<h1>Say It Without Saying It</h1><p class="sub">카드의 단어만 빼고 뭐든 말해도 돼요. Brian이 맞히면 별 하나예요.</p>
+<div class="rtabs" id="rt"></div><div class="pat" id="pat"></div><div id="stage"></div>
+<div class="nav"><button id="prev">← Back</button><button class="go" id="next">Show card</button></div>
+</div><script>
+const ROUNDS=[
+{n:"1",p:"You go there to ~",ko:"거기는 ~하러 가요",ex:["library","You go there to read books and study."],cards:[
+ {w:"gym",ko:"헬스장",e:"🏋️",h:[["work out","운동하다"],["lift","들다"],["sweat","땀 흘리다"],["muscles","근육"]]},
+ {w:"convenience store",ko:"편의점",e:"🏪",h:[["buy","사다"],["snacks","간식"],["open 24 hours","24시간 여는"],["late at night","밤늦게"]]},
+ {w:"airport",ko:"공항",e:"✈️",h:[["fly","비행기 타다"],["travel","여행하다"],["plane","비행기"],["passport","여권"]]}]},
+{n:"2",p:"You use it to ~",ko:"그걸로 ~해요",ex:["umbrella","You use it to stay dry in the rain."],cards:[
+ {w:"alarm",ko:"알람",e:"⏰",h:[["wake up","일어나다"],["morning","아침"],["ring","울리다"],["phone","휴대폰"]]},
+ {w:"credit card",ko:"신용카드",e:"💳",h:[["pay","결제하다"],["buy","사다"],["wallet","지갑"],["money","돈"]]},
+ {w:"dumbbells",ko:"덤벨",e:"💪",h:[["lift","들다"],["arms","팔"],["heavy","무거운"],["gym","헬스장"]]}]},
+{n:"3",p:"You do this when ~",ko:"~할 때 이걸 해요",ex:["yawn (하품하다)","You do this when you are tired or bored."],cards:[
+ {w:"stretch",ko:"스트레칭하다",e:"🤸",h:[["before working out","운동 전에"],["body","몸"],["wake up","일어나다"],["stiff","뻣뻣한"]]},
+ {w:"work overtime",ko:"야근하다",e:"🌙",h:[["too much work","일이 너무 많은"],["late","늦게"],["office","사무실"],["deadline","마감"]]},
+ {w:"call a taxi",ko:"택시를 부르다",e:"🚕",h:[["late","늦은"],["drunk","취한"],["no subway","지하철이 없는"],["in a hurry","급한"]]}]},
+{n:"4",p:"It makes you feel ~",ko:"이러면 기분이 ~해져요",ex:["coffee","It makes you feel awake."],cards:[
+ {w:"Monday morning",ko:"월요일 아침",e:"😩",h:[["tired","피곤한"],["sleepy","졸린"],["weekend","주말"],["work","일"]]},
+ {w:"hangover",ko:"숙취",e:"🤢",h:[["sick","속이 안 좋은"],["headache","두통"],["drink too much","과음하다"],["next morning","다음 날 아침"]]},
+ {w:"first date",ko:"첫 데이트",e:"💐",h:[["nervous","떨리는"],["excited","설레는"],["meet","만나다"],["dinner","저녁 식사"]]}]},
+{n:"5",p:"If you ~, you get this",ko:"~하면 이게 생겨요",ex:["a cold (감기)","If you go out with wet hair in winter, you get this."],cards:[
+ {w:"muscles",ko:"근육",e:"💪",h:[["work out","운동하다"],["lift weights","웨이트를 들다"],["protein","단백질"],["every day","매일"]]},
+ {w:"a raise",ko:"연봉 인상",e:"📈",h:[["work hard","열심히 일하다"],["boss","사장, 상사"],["good results","좋은 성과"],["salary","월급"]]},
+ {w:"a second date",ko:"두 번째 데이트 (애프터)",e:"💌",h:[["go well","잘 되다"],["she likes you","상대가 마음에 들어 하다"],["text","문자하다"],["again","다시"]]}]},
+{n:"6",p:"It's like ~, but ~",ko:"~랑 비슷한데 ~예요",ex:["tablet","It's like a phone, but bigger."],cards:[
+ {w:"soju",ko:"소주",e:"🍶",h:[["vodka","보드카"],["weaker","더 약한"],["cheaper","더 싼"],["green bottle","초록 병"]]},
+ {w:"pilates",ko:"필라테스",e:"🧘",h:[["yoga","요가"],["harder","더 힘든"],["machine","기구"],["core","코어"]]},
+ {w:"blind date",ko:"소개팅",e:"🥂",h:[["job interview","면접"],["a friend introduces","친구가 소개해 주다"],["dinner","저녁 식사"],["nervous","떨리는"]]}]},
+{n:"7",p:"It's a person who ~ / a place where ~ / a day when ~",ko:"~하는 사람 / 곳 / 날이에요",ex:["chef","It's a person who cooks at a restaurant."],cards:[
+ {w:"personal trainer",ko:"퍼스널 트레이너",e:"🧑‍🏫",s:"It's a person who ~",h:[["teach","가르치다"],["gym","헬스장"],["workout plan","운동 계획"],["count","세다"]]},
+ {w:"karaoke room",ko:"노래방",e:"🎤",s:"It's a place where ~",h:[["sing","노래하다"],["friends","친구들"],["after drinking","술 마신 뒤"],["microphone","마이크"]]},
+ {w:"payday",ko:"월급날",e:"💰",s:"It's a day when ~",h:[["get paid","월급을 받다"],["company","회사"],["every month","매달"],["happy","기분 좋은"]]}]},
+{n:"F",p:"Any pattern you like",ko:"앞에서 한 패턴 중 아무거나",ex:null,cards:[
+ {w:"leg day",ko:"하체 하는 날",e:"🦵",h:[["squat","스쿼트"],["can't walk","못 걷다"],["sore","뻐근한"]]},
+ {w:"protein shake",ko:"단백질 셰이크",e:"🥤",h:[["drink","마시다"],["after working out","운동 후에"],["powder","가루"]]},
+ {w:"boss",ko:"사장, 상사",e:"👔",h:[["company","회사"],["decide","결정하다"],["hire","채용하다"]]},
+ {w:"weekend",ko:"주말",e:"🛋️",h:[["Saturday","토요일"],["rest","쉬다"],["no work","일 없는"]]},
+ {w:"Singapore",ko:"싱가포르",e:"🇸🇬",h:[["country","나라"],["hot","더운"],["small","작은"]]},
+ {w:"Brian",ko:"브라이언",e:"🧑‍💻",h:[["teacher","선생님"],["English","영어"],["every week","매주"]]}]}
+];
+
+const $=id=>document.getElementById(id);let r=0,c=-1,open=false;
+function tabs(){$("rt").innerHTML="";ROUNDS.forEach((R,i)=>{const b=document.createElement("button");b.className="rt"+(i===r?" on":"");b.textContent=R.n==="F"?"FINAL":"R"+R.n;b.onclick=()=>{r=i;c=-1;open=false;draw();};$("rt").appendChild(b);});}
+function draw(){tabs();const R=ROUNDS[r];
+ $("pat").innerHTML='<div class="l">'+(R.n==="F"?"FINAL ROUND":"ROUND "+R.n+" · USE THIS")+'</div><div class="p">'+R.p+'</div><div class="k">'+R.ko+'</div>'+(R.ex?'<div class="ex"><b>'+R.ex[0]+'</b> → '+R.ex[1]+'</div>':'');
+ const st=$("stage");
+ if(c<0){st.innerHTML='<div class="cover"><b>'+R.cards.length+' cards</b>Brian이 "Go"라고 하면 아래 버튼을 눌러요.</div>';}
+ else{const k=R.cards[c];st.innerHTML='<div class="card"><div class="top"><span>CARD '+(R.n==="F"?"F":R.n)+'-'+(c+1)+'</span><span>'+(c+1)+' / '+R.cards.length+'</span></div><div class="em">'+k.e+'</div><div class="w">'+k.w+'</div><div class="ko">'+k.ko+'</div>'+(k.s?'<div class="st">'+k.s+'</div>':'')+'<div class="rule">이 단어는 말하면 안 돼요.</div><div class="help"><button class="hb" id="hb">'+(open?"도움 단어 숨기기":"막혔어요 · 도움 단어 보기")+'</button>'+(open?'<div class="hw">'+k.h.map(x=>'<span>'+x[0]+'<small>'+x[1]+'</small></span>').join("")+'</div>':'')+'</div></div>';
+  $("hb").onclick=()=>{open=!open;draw();};}
+ $("prev").disabled=c<0&&r===0;const last=c===R.cards.length-1;
+ $("next").textContent=c<0?"Show card 1":last?(r<ROUNDS.length-1?"Next round →":"Done"):"Next card →";$("next").disabled=last&&r===ROUNDS.length-1;}
+$("next").onclick=()=>{const R=ROUNDS[r];if(c<R.cards.length-1){c++;}else if(r<ROUNDS.length-1){r++;c=-1;}open=false;draw();window.scrollTo(0,0);};
+$("prev").onclick=()=>{if(c>=0){c--;}else if(r>0){r--;c=ROUNDS[r].cards.length-1;}open=false;draw();};
+draw();
+</script></body></html>
