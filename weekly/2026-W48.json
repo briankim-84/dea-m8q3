@@ -1,0 +1,54 @@
+{
+  "week": "2026-W48",
+  "label": "11월 23일 주",
+  "levels": {
+    "warmup": {
+      "cards": [
+        {"expr": "Make yourself at home", "ko": "편하게 계세요 (자기 집처럼)", "ex": "Come on in! Make yourself at home."},
+        {"expr": "📘 단어: peek / scribble", "ko": "살짝 엿보다 / 휘갈겨 쓰다", "ex": "Don't peek at the answers! → He scribbled his number on a napkin. (peek at N, scribble down N)"},
+        {"expr": "Same as usual", "ko": "늘 먹던 걸로요, 평소랑 똑같아요", "ex": "What can I get you? — Same as usual, please."},
+        {"expr": "📘 단어: gobble / cuddle", "ko": "게걸스럽게 먹다 / 꼭 껴안다", "ex": "The kids gobbled up the pizza. → I cuddled my dog on the sofa. (gobble up N, cuddle with N)"},
+        {"expr": "What a relief", "ko": "아, 다행이다", "ex": "Your phone was in the car? What a relief!"}
+      ],
+      "quiz": [
+        {"q": "Come in and sit down. Make yourself at ___ .", "options": ["house", "home", "room", "place"], "answer": 1, "note": "Make yourself at home = 편하게 계세요. 손님 맞을 때 단골 표현."},
+        {"q": "No ___ ! I want it to be a surprise.", "options": ["peeking", "scribbling", "cuddling", "gobbling"], "answer": 0, "note": "peek = 몰래 살짝 보다. No peeking! = 훔쳐보기 없기!"},
+        {"q": "How's work? — Same as ___ . Busy!", "options": ["always", "normal", "usual", "usually"], "answer": 2, "note": "Same as usual = 늘 그렇지. 카페에서 '늘 먹던 걸로'라고 할 때도."},
+        {"q": "The dog ___ his food in ten seconds.", "options": ["peeked", "cuddled", "scribbled", "gobbled up"], "answer": 3, "note": "gobble (up) = 허겁지겁 먹어 치우다."},
+        {"q": "The test was canceled? What a ___ !", "options": ["relief", "relax", "relieve", "release"], "answer": 0, "note": "What a relief! = 휴, 다행이다! relief는 명사, relieved는 형용사 (I'm relieved)."}
+      ]
+    },
+    "intermediate": {
+      "cards": [
+        {"expr": "No hard feelings", "ko": "악감정 없어요, 기분 나쁘게 생각 마", "ex": "I picked Jake for the team. No hard feelings? — Of course not."},
+        {"expr": "📘 단어: dawdle / loiter", "ko": "꾸물거리다 / (목적 없이) 어슬렁거리다", "ex": "Stop dawdling, we're late! → No loitering in front of the store. (dawdle over N, No loitering = 배회 금지)"},
+        {"expr": "Better late than never", "ko": "늦더라도 안 하는 것보다 낫지", "ex": "I finally started learning to swim at 40. Better late than never!"},
+        {"expr": "📘 단어: flake / nitpick", "ko": "(약속을) 펑크 내다 / 사소한 걸 트집 잡다", "ex": "He flaked on me again. → Stop nitpicking my essay. (flake on 사람, flaky = 약속 잘 깨는)"},
+        {"expr": "You made my day", "ko": "덕분에 오늘 하루가 행복해졌어요", "ex": "Thanks for the flowers. You made my day!"}
+      ],
+      "quiz": [
+        {"q": "Sorry I said no to your idea. No hard ___ ?", "options": ["feels", "feeling", "feelings", "felt"], "answer": 2, "note": "No hard feelings = 악감정 없지? / 기분 나쁘게 생각 마. 항상 복수 feelings."},
+        {"q": "Teenagers were ___ outside the mall all night.", "options": ["loitering", "flaking", "nitpicking", "dawdling over"], "answer": 0, "note": "loiter = 할 일 없이 한곳에 서성이다. No loitering 표지판 자주 봐요."},
+        {"q": "You came to my party two hours late? Well, better late ___ never.", "options": ["then", "as", "from", "than"], "answer": 3, "note": "Better late than never = 늦어도 안 하는 것보단 낫다. than (then X)."},
+        {"q": "She said she'd come, but she ___ on me at the last minute.", "options": ["dawdled", "flaked", "loitered", "nitpicked"], "answer": 1, "note": "flake on 사람 = 약속을 펑크 내다. 그런 사람은 flaky."},
+        {"q": "Your message really ___ my day. Thank you!", "options": ["did", "had", "made", "got"], "answer": 2, "note": "make someone's day = 누군가를 아주 기쁘게 하다."}
+      ]
+    },
+    "challenge": {
+      "cards": [
+        {"expr": "On thin ice", "ko": "살얼음판 위에 있는, 아슬아슬한", "ex": "You've been late three times this week. You're on thin ice."},
+        {"expr": "📘 단어: smug / snooty", "ko": "우쭐대는, 잘난 척하는 / 콧대 높은, 거만한", "ex": "A smug smile → a snooty waiter (smug = 자기만족에 빠진, snooty = 남을 깔보는)"},
+        {"expr": "Let the cat out of the bag", "ko": "(실수로) 비밀을 누설하다", "ex": "Don't let the cat out of the bag. The party is a surprise!"},
+        {"expr": "📘 단어: giddy / sulky", "ko": "들뜬, 아찔한 / 부루퉁한, 삐친", "ex": "Giddy with excitement → a sulky teenager (giddy = 들떠서 어쩔 줄 모르는, sulk = 삐치다)"},
+        {"expr": "See eye to eye", "ko": "의견이 일치하다", "ex": "My brother and I don't always see eye to eye on politics."}
+      ],
+      "quiz": [
+        {"q": "After breaking the vase, the kid knew he was on ___ .", "hint": "얇은 얼음 위에 (위험한 처지)", "accept": ["thin ice"], "note": "be on thin ice = 살얼음판을 걷다. 한 번만 더 잘못하면 끝."},
+        {"q": "He gave me a ___ look after winning the argument.", "hint": "우쭐대는 (s로 시작, 4글자)", "accept": ["smug"], "note": "smug = 자기가 잘났다고 우쭐하는. a smug look/grin."},
+        {"q": "Who ___ ? Now she knows about the surprise party!", "hint": "고양이를 가방 밖으로 내보내다 (과거형)", "accept": ["let the cat out of the bag"], "note": "let the cat out of the bag = 비밀을 누설하다. let의 과거도 let."},
+        {"q": "She's been ___ all day because she didn't get the role.", "hint": "부루퉁한, 삐친 (s로 시작)", "accept": ["sulky", "sulking"], "note": "sulky = 삐쳐서 말 안 하는. 동사 sulk (She's sulking)."},
+        {"q": "The director and the writer don't ___ about the ending.", "hint": "눈과 눈을 마주 보다 (의견 일치)", "accept": ["see eye to eye"], "note": "see eye to eye (on/about N) = 의견이 같다. 주로 부정문."}
+      ]
+    }
+  }
+}

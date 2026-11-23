@@ -7002,6 +7002,506 @@
    "ans": 0,
    "note": "coach = 코치(명사)·지도하다(동사). 장거리 버스도 coach(영국).",
    "wk": "2026-W47"
+  },
+  {
+   "w": "neighborhood",
+   "ko": "동네, 이웃",
+   "ex": "I love my neighborhood.",
+   "exko": "우리 동네 좋아요.",
+   "use": [
+    [
+     "A quiet neighborhood",
+     "조용한 동네"
+    ],
+    [
+     "Is there a gym in your neighborhood?",
+     "동네에 헬스장 있어요?"
+    ]
+   ],
+   "mcq": [
+    "There is lots of cafe in my neighborhood.",
+    "There are lots of cafes on my neighborhood.",
+    "There are lots of cafes in my neighborhood.",
+    "There are lots of cafes at neighborhood my."
+   ],
+   "ans": 2,
+   "note": "neighborhood = 동네. in my neighborhood (in!). 영국식 neighbourhood.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sweater",
+   "ko": "스웨터",
+   "ex": "Wear a sweater. It's cold.",
+   "exko": "스웨터 입어. 추워.",
+   "use": [
+    [
+     "A wool sweater",
+     "울 스웨터"
+    ],
+    [
+     "Ugly Christmas sweater",
+     "크리스마스 촌스러운 스웨터"
+    ]
+   ],
+   "mcq": [
+    "I buyed a warm sweater for winter.",
+    "I bought warm a sweater for winter.",
+    "I bought a warm sweater to winter.",
+    "I bought a warm sweater for winter."
+   ],
+   "ans": 3,
+   "note": "sweater = 스웨터. put on / take off a sweater.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "gloves",
+   "ko": "장갑",
+   "ex": "Don't forget your gloves.",
+   "exko": "장갑 잊지 마.",
+   "use": [
+    [
+     "A pair of gloves",
+     "장갑 한 켤레"
+    ],
+    [
+     "Rubber gloves",
+     "고무장갑"
+    ]
+   ],
+   "mcq": [
+    "I losted one of my gloves on the bus.",
+    "I lost one of my glove on the bus.",
+    "I lost one of my gloves on the bus.",
+    "I lost one my gloves on the bus."
+   ],
+   "ans": 2,
+   "note": "gloves = 장갑 (보통 복수). one of my gloves. a pair of gloves.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "scarf",
+   "ko": "목도리, 스카프",
+   "ex": "She's wearing a red scarf.",
+   "exko": "빨간 목도리 하고 있어요.",
+   "use": [
+    [
+     "Wrap a scarf around your neck",
+     "목에 목도리를 두르다"
+    ],
+    [
+     "Scarves (복수)",
+     "목도리들"
+    ]
+   ],
+   "mcq": [
+    "I always wear scarf in winter.",
+    "I wear always a scarf in winter.",
+    "I always wear a scarf in winter.",
+    "I always wearing a scarf in winter."
+   ],
+   "ans": 2,
+   "note": "scarf = 목도리. 복수는 scarves. always는 일반동사 앞.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "boots",
+   "ko": "부츠, 장화",
+   "ex": "These boots are warm.",
+   "exko": "이 부츠 따뜻해요.",
+   "use": [
+    [
+     "Rain boots",
+     "장화"
+    ],
+    [
+     "Take off your boots.",
+     "부츠 벗어요."
+    ]
+   ],
+   "mcq": [
+    "Please taking off your boots at the door.",
+    "Please take your boots off at door the.",
+    "Please take off your boot at the door.",
+    "Please take off your boots at the door."
+   ],
+   "ans": 3,
+   "note": "boots = 부츠 (보통 복수). take off = 벗다, put on = 신다/입다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "glasses",
+   "ko": "안경, 유리잔",
+   "ex": "I wear glasses.",
+   "exko": "안경 써요.",
+   "use": [
+    [
+     "Where are my glasses?",
+     "내 안경 어디 있지?"
+    ],
+    [
+     "Two glasses of wine",
+     "와인 두 잔"
+    ]
+   ],
+   "mcq": [
+    "I can't read without my glass.",
+    "I can't read without glasses my.",
+    "I can't read without my glasses.",
+    "I can't reading without my glasses."
+   ],
+   "ans": 2,
+   "note": "glasses = 안경 (항상 복수: my glasses are...). glass = 유리/유리잔.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "pharmacy",
+   "ko": "약국",
+   "ex": "Is there a pharmacy near here?",
+   "exko": "근처에 약국 있어요?",
+   "use": [
+    [
+     "Pick up medicine at the pharmacy",
+     "약국에서 약을 받다"
+    ],
+    [
+     "A 24-hour pharmacy",
+     "24시간 약국"
+    ]
+   ],
+   "mcq": [
+    "I need stop by the pharmacy.",
+    "I need to stop at by the pharmacy.",
+    "I need to stop by pharmacy the.",
+    "I need to stop by the pharmacy."
+   ],
+   "ans": 3,
+   "note": "pharmacy = 약국 (미국 drugstore도). stop by = 잠깐 들르다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "bakery",
+   "ko": "빵집",
+   "ex": "There's a new bakery downtown.",
+   "exko": "시내에 새 빵집 생겼어요.",
+   "use": [
+    [
+     "Fresh bread from the bakery",
+     "빵집에서 산 갓 구운 빵"
+    ],
+    [
+     "A bakery cafe",
+     "베이커리 카페"
+    ]
+   ],
+   "mcq": [
+    "Let's get some bread at the bakery.",
+    "Let's get some breads at the bakery.",
+    "Let's get a some bread at the bakery.",
+    "Let's getting some bread at the bakery."
+   ],
+   "ans": 0,
+   "note": "bakery = 빵집. bread는 셀 수 없는 명사 (some bread, a loaf of bread).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "recipe",
+   "ko": "요리법, 레시피",
+   "ex": "Can I get the recipe?",
+   "exko": "레시피 알려줄 수 있어요?",
+   "use": [
+    [
+     "Follow the recipe",
+     "레시피대로 하다"
+    ],
+    [
+     "My mom's recipe",
+     "엄마 레시피"
+    ]
+   ],
+   "mcq": [
+    "I finded a great recipe for pasta.",
+    "I found a great recipe for pasta.",
+    "I found a great recipe of pasta for.",
+    "I found great a recipe for pasta."
+   ],
+   "ans": 1,
+   "note": "recipe = 요리법. a recipe for N (for!). 발음 '레서피'.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "appetite",
+   "ko": "식욕",
+   "ex": "I've lost my appetite.",
+   "exko": "입맛이 없어졌어요.",
+   "use": [
+    [
+     "A big appetite",
+     "왕성한 식욕"
+    ],
+    [
+     "Don't spoil your appetite.",
+     "밥맛 떨어지게 하지 마 (군것질 하지 마)."
+    ]
+   ],
+   "mcq": [
+    "I don't have many appetite today.",
+    "I not have much appetite today.",
+    "I don't have much appetites today.",
+    "I don't have much appetite today."
+   ],
+   "ans": 3,
+   "note": "appetite = 식욕. lose one's appetite = 입맛을 잃다. much (셀 수 없음).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "diet",
+   "ko": "식단, 다이어트",
+   "ex": "I'm on a diet.",
+   "exko": "다이어트 중이에요.",
+   "use": [
+    [
+     "A healthy diet",
+     "건강한 식단"
+    ],
+    [
+     "Go on a diet",
+     "다이어트를 시작하다"
+    ]
+   ],
+   "mcq": [
+    "She on a diet, so she skipped dessert.",
+    "She's in a diet, so she skipped dessert.",
+    "She's on diet a, so she skipped dessert.",
+    "She's on a diet, so she skipped dessert."
+   ],
+   "ans": 3,
+   "note": "diet = 식단 / 다이어트. be on a diet (on!).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "habit",
+   "ko": "습관",
+   "ex": "It's a bad habit.",
+   "exko": "나쁜 습관이에요.",
+   "use": [
+    [
+     "Break a habit",
+     "습관을 고치다"
+    ],
+    [
+     "Healthy habits",
+     "건강한 습관"
+    ]
+   ],
+   "mcq": [
+    "I'm trying to break the habit of checking my phone.",
+    "I'm trying to break the habit to checking my phone.",
+    "I'm try to break the habit of checking my phone.",
+    "I'm trying to break the habit of check my phone."
+   ],
+   "ans": 0,
+   "note": "habit = 습관. the habit of V-ing. break a habit = 습관을 고치다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hobby",
+   "ko": "취미",
+   "ex": "What are your hobbies?",
+   "exko": "취미가 뭐예요?",
+   "use": [
+    [
+     "Pick up a new hobby",
+     "새 취미를 시작하다"
+    ],
+    [
+     "Cooking is my hobby.",
+     "요리가 제 취미예요."
+    ]
+   ],
+   "mcq": [
+    "My hobby are taking photos.",
+    "My hobby is taking photo.",
+    "My hobby is take photos.",
+    "My hobby is taking photos."
+   ],
+   "ans": 3,
+   "note": "hobby = 취미. 복수 hobbies. My hobby is V-ing.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "appointment",
+   "ko": "(병원 등) 예약, 약속",
+   "ex": "I have a doctor's appointment.",
+   "exko": "병원 예약 있어요.",
+   "use": [
+    [
+     "Make an appointment",
+     "예약을 잡다"
+    ],
+    [
+     "Cancel an appointment",
+     "예약을 취소하다"
+    ]
+   ],
+   "mcq": [
+    "I maked an appointment with the dentist.",
+    "I made an appointment to the dentist.",
+    "I made appointment with the dentist.",
+    "I made an appointment with the dentist."
+   ],
+   "ans": 3,
+   "note": "appointment = 병원·미용실·업무 예약. 친구와의 약속은 plans.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "vacation",
+   "ko": "휴가, 방학",
+   "ex": "I'm on vacation.",
+   "exko": "휴가 중이에요.",
+   "use": [
+    [
+     "Summer vacation",
+     "여름 방학"
+    ],
+    [
+     "Take a vacation",
+     "휴가를 내다"
+    ]
+   ],
+   "mcq": [
+    "We're going on vacation next week.",
+    "We're going to vacation next week.",
+    "We're going on vacation at next week.",
+    "We going on vacation next week."
+   ],
+   "ans": 0,
+   "note": "vacation = 휴가. go on vacation / be on vacation (on!). 영국은 holiday.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "airport",
+   "ko": "공항",
+   "ex": "I'll pick you up at the airport.",
+   "exko": "공항으로 데리러 갈게요.",
+   "use": [
+    [
+     "Get to the airport",
+     "공항에 도착하다"
+    ],
+    [
+     "Airport security",
+     "공항 보안 검색"
+    ]
+   ],
+   "mcq": [
+    "How long does it take to get to the airport?",
+    "How long it takes to get to the airport?",
+    "How long does it take to get the airport?",
+    "How long does it take to get to airport the?"
+   ],
+   "ans": 0,
+   "note": "airport = 공항. at the airport, get to the airport.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "flight",
+   "ko": "비행, 항공편",
+   "ex": "How was your flight?",
+   "exko": "비행 어땠어요?",
+   "use": [
+    [
+     "Book a flight",
+     "항공편을 예약하다"
+    ],
+    [
+     "My flight was delayed.",
+     "비행기가 지연됐어요."
+    ]
+   ],
+   "mcq": [
+    "My flight leaves at 7 a.m.",
+    "My flight leaves on 7 a.m.",
+    "My flight leave at 7 a.m.",
+    "My fly leaves at 7 a.m."
+   ],
+   "ans": 0,
+   "note": "flight = 비행/항공편. 시간 앞은 at.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "landlord",
+   "ko": "집주인 (임대인)",
+   "ex": "I need to call my landlord.",
+   "exko": "집주인한테 전화해야 해요.",
+   "use": [
+    [
+     "My landlord is nice.",
+     "집주인이 착해요."
+    ],
+    [
+     "Pay rent to the landlord",
+     "집주인에게 월세를 내다"
+    ]
+   ],
+   "mcq": [
+    "The landlord fixed the heater yesterday.",
+    "The landlord fixed heater the yesterday.",
+    "The landlord fixed the heater at yesterday.",
+    "The landlord fix the heater yesterday."
+   ],
+   "ans": 0,
+   "note": "landlord = (세 준) 집주인. 세입자는 tenant.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "elevator",
+   "ko": "엘리베이터",
+   "ex": "Let's take the elevator.",
+   "exko": "엘리베이터 타요.",
+   "use": [
+    [
+     "The elevator is out of order.",
+     "엘리베이터 고장났어요."
+    ],
+    [
+     "Hold the elevator!",
+     "엘리베이터 잡아 줘요!"
+    ]
+   ],
+   "mcq": [
+    "The elevator is broken, so we have to take the stair.",
+    "The elevator broken, so we have to take the stairs.",
+    "The elevator is broken, so we have to take the stairs.",
+    "The elevator is broke, so we have to take the stairs."
+   ],
+   "ans": 2,
+   "note": "elevator = 엘리베이터 (영국 lift). take the elevator/stairs.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "balcony",
+   "ko": "발코니, 베란다",
+   "ex": "We have breakfast on the balcony.",
+   "exko": "발코니에서 아침 먹어요.",
+   "use": [
+    [
+     "A small balcony",
+     "작은 발코니"
+    ],
+    [
+     "A room with a balcony",
+     "발코니 딸린 방"
+    ]
+   ],
+   "mcq": [
+    "Our apartment have a small balcony.",
+    "Our apartment has a small balcony.",
+    "Our apartment has a small balconies.",
+    "Our apartment has small a balcony."
+   ],
+   "ans": 1,
+   "note": "balcony = 발코니. on the balcony (on!).",
+   "wk": "2026-W48"
   }
  ]
 }

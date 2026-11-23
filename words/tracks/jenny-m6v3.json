@@ -6502,6 +6502,506 @@
    "ans": 3,
    "note": "resourceful = 어려운 상황에서 방법을 찾아내는.",
    "wk": "2026-W47"
+  },
+  {
+   "w": "cordial",
+   "ko": "정중하고 다정한",
+   "ex": "They had a cordial meeting.",
+   "exko": "그들은 화기애애하게 만났어요.",
+   "use": [
+    [
+     "A cordial relationship",
+     "원만한 관계"
+    ],
+    [
+     "Cordial but distant",
+     "예의는 바르지만 거리감 있는"
+    ]
+   ],
+   "mcq": [
+    "Our relationship with the neighbors is cordially.",
+    "Our relationship with neighbors the is cordial.",
+    "Our relationship with the neighbors is cordial.",
+    "Our relationship with the neighbors are cordial."
+   ],
+   "ans": 2,
+   "note": "cordial = 예의 바르고 우호적인. 친하진 않아도 서로 정중한 관계에 자주 써요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "eccentric",
+   "ko": "별난, 괴짜인",
+   "ex": "My uncle is a bit eccentric.",
+   "exko": "삼촌이 좀 별나요.",
+   "use": [
+    [
+     "An eccentric artist",
+     "괴짜 예술가"
+    ],
+    [
+     "Eccentric habits",
+     "특이한 습관"
+    ]
+   ],
+   "mcq": [
+    "She's eccentrically, but everyone loves her.",
+    "She's eccentric, but everyone loves her.",
+    "She's eccentric, but everyone love her.",
+    "She eccentric, but everyone loves her."
+   ],
+   "ans": 1,
+   "note": "eccentric = 특이하고 별난 (보통 나쁜 뜻은 아님).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "gregarious",
+   "ko": "사교적인, 어울리기 좋아하는",
+   "ex": "He's very gregarious.",
+   "exko": "그는 엄청 사교적이에요.",
+   "use": [
+    [
+     "A gregarious personality",
+     "사교적인 성격"
+    ],
+    [
+     "Gregarious animals",
+     "무리 지어 사는 동물"
+    ]
+   ],
+   "mcq": [
+    "My sister gregarious and makes friends easily.",
+    "My sister is gregarious and makes friends easy.",
+    "My sister is gregarious and make friends easily.",
+    "My sister is gregarious and makes friends easily."
+   ],
+   "ans": 3,
+   "note": "gregarious = 사람들과 어울리길 좋아하는 (outgoing보다 격식). make friends easily.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hostile",
+   "ko": "적대적인",
+   "ex": "The crowd was hostile.",
+   "exko": "관중이 적대적이었어요.",
+   "use": [
+    [
+     "A hostile work environment",
+     "적대적인 근무 환경"
+    ],
+    [
+     "Hostile to change",
+     "변화에 반감을 가진"
+    ]
+   ],
+   "mcq": [
+    "He become hostile when we asked about the money yesterday.",
+    "He became hostility when we asked about the money.",
+    "He became hostile when we asked about the money.",
+    "He became hostile when we asked the money about."
+   ],
+   "ans": 2,
+   "note": "hostile = 적대적인. 명사 hostility. hostile to N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "impulsive",
+   "ko": "충동적인",
+   "ex": "Don't be so impulsive.",
+   "exko": "너무 충동적으로 굴지 마.",
+   "use": [
+    [
+     "Impulsive buying",
+     "충동구매"
+    ],
+    [
+     "An impulsive decision",
+     "충동적인 결정"
+    ]
+   ],
+   "mcq": [
+    "I made an impulsive decision and bought a car.",
+    "I did an impulsive decision and bought a car.",
+    "I made impulsive a decision and bought a car.",
+    "I made an impulsive decision and buyed a car."
+   ],
+   "ans": 0,
+   "note": "impulsive = 충동적인. make a decision (do X). impulse buy = 충동구매.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "naive",
+   "ko": "순진한, 세상 물정 모르는",
+   "ex": "Don't be naive.",
+   "exko": "순진하게 굴지 마.",
+   "use": [
+    [
+     "A naive question",
+     "순진한 질문"
+    ],
+    [
+     "I was young and naive.",
+     "어리고 순진했죠."
+    ]
+   ],
+   "mcq": [
+    "It was naive of me trust him.",
+    "It was naive for me to trust him.",
+    "It naive of me to trust him.",
+    "It was naive of me to trust him."
+   ],
+   "ans": 3,
+   "note": "naive = 순진한(부정적 뉘앙스). It's 형용사 of 사람 to V (성격 형용사는 of).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "obnoxious",
+   "ko": "아주 불쾌한, 밉살스러운",
+   "ex": "He's so obnoxious.",
+   "exko": "그 사람 진짜 밥맛이야.",
+   "use": [
+    [
+     "Obnoxious behavior",
+     "불쾌한 행동"
+    ],
+    [
+     "An obnoxious laugh",
+     "거슬리는 웃음소리"
+    ]
+   ],
+   "mcq": [
+    "The guy next me was loud and obnoxious.",
+    "The guy next to me was loud and obnoxious.",
+    "The guy next to me was loud and obnoxiously.",
+    "The guy next to me were loud and obnoxious."
+   ],
+   "ans": 1,
+   "note": "obnoxious = 시끄럽고 무례해서 아주 불쾌한. annoying보다 강함.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "pessimistic",
+   "ko": "비관적인",
+   "ex": "Don't be so pessimistic.",
+   "exko": "너무 비관적으로 생각하지 마.",
+   "use": [
+    [
+     "Pessimistic about the future",
+     "미래를 비관하는"
+    ],
+    [
+     "A pessimist",
+     "비관주의자"
+    ]
+   ],
+   "mcq": [
+    "He's pessimistic about his chances.",
+    "He's pessimism about his chances.",
+    "He's pessimistic of his chances about.",
+    "He pessimistic about his chances."
+   ],
+   "ans": 0,
+   "note": "pessimistic = 비관적인. pessimistic about N. 명사 pessimism.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "optimistic",
+   "ko": "낙관적인",
+   "ex": "I'm optimistic.",
+   "exko": "저는 낙관적이에요.",
+   "use": [
+    [
+     "Cautiously optimistic",
+     "조심스럽게 낙관하는"
+    ],
+    [
+     "An optimist",
+     "낙관주의자"
+    ]
+   ],
+   "mcq": [
+    "We optimistic about next year.",
+    "We're optimistic for next year about.",
+    "We're optimistic about next year.",
+    "We're optimism about next year."
+   ],
+   "ans": 2,
+   "note": "optimistic = 낙관적인. cautiously optimistic = 조심스레 기대하는 (뉴스 단골).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sarcastic",
+   "ko": "비꼬는, 빈정대는",
+   "ex": "Are you being sarcastic?",
+   "exko": "지금 비꼬는 거야?",
+   "use": [
+    [
+     "A sarcastic comment",
+     "비꼬는 말"
+    ],
+    [
+     "Sarcastic humor",
+     "냉소적인 유머"
+    ]
+   ],
+   "mcq": [
+    "She gave me a sarcastic smile.",
+    "She gived me a sarcastic smile.",
+    "She gave to me a sarcastic smile.",
+    "She gave me a sarcasm smile."
+   ],
+   "ans": 0,
+   "note": "sarcastic = 비꼬는(형용사). 명사 sarcasm. Are you being sarcastic? 자주 써요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tactless",
+   "ko": "눈치 없는, 무신경한",
+   "ex": "That was tactless.",
+   "exko": "그건 눈치 없었어.",
+   "use": [
+    [
+     "A tactless remark",
+     "무신경한 말"
+    ],
+    [
+     "Tactful (반대)",
+     "요령 있는"
+    ]
+   ],
+   "mcq": [
+    "It was tactless ask about her weight.",
+    "It was tactless to asking about her weight.",
+    "It were tactless to ask about her weight.",
+    "It was tactless to ask about her weight."
+   ],
+   "ans": 3,
+   "note": "tactless = 남 기분을 생각 안 하고 말하는. 반대 tactful.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "volatile",
+   "ko": "변덕스러운, 불안정한",
+   "ex": "The market is volatile.",
+   "exko": "시장이 불안정해요.",
+   "use": [
+    [
+     "A volatile temper",
+     "욱하는 성격"
+    ],
+    [
+     "A volatile situation",
+     "일촉즉발 상황"
+    ]
+   ],
+   "mcq": [
+    "Stock prices have been very volatile this year.",
+    "Stock prices has been very volatile this year.",
+    "Stock prices have been very volatility this year.",
+    "Stock prices have very been volatile this year."
+   ],
+   "ans": 0,
+   "note": "volatile = 급변하는 (시장, 감정, 상황). 명사 volatility.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "adamant",
+   "ko": "단호한, 완강한",
+   "ex": "She was adamant.",
+   "exko": "그녀는 완강했어요.",
+   "use": [
+    [
+     "Adamant about",
+     "~에 대해 단호한"
+    ],
+    [
+     "Adamant that...",
+     "~라고 단호히 주장하는"
+    ]
+   ],
+   "mcq": [
+    "He was adamant that he didn't took the money.",
+    "He was adamant what he didn't take the money.",
+    "He was adamant that he didn't take the money.",
+    "He adamant that he didn't take the money."
+   ],
+   "ans": 2,
+   "note": "adamant = 절대 생각을 안 바꾸는. be adamant that S V / about N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "aloof",
+   "ko": "냉담한, 거리를 두는",
+   "ex": "He seems aloof.",
+   "exko": "그 사람 좀 쌀쌀맞아 보여요.",
+   "use": [
+    [
+     "Stay aloof",
+     "거리를 두다"
+    ],
+    [
+     "Cold and aloof",
+     "차갑고 냉담한"
+    ]
+   ],
+   "mcq": [
+    "She seemed aloof at the first, but she's just shy.",
+    "She seemed aloof at first, but she's just shy.",
+    "She seemed aloofly at first, but she's just shy.",
+    "She seem aloof at first, but she's just shy."
+   ],
+   "ans": 1,
+   "note": "aloof = 남과 어울리지 않고 거리를 두는. seem + 형용사.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "amiable",
+   "ko": "상냥한, 붙임성 있는",
+   "ex": "He's an amiable guy.",
+   "exko": "그는 상냥한 사람이에요.",
+   "use": [
+    [
+     "An amiable conversation",
+     "화기애애한 대화"
+    ],
+    [
+     "Amiable and easygoing",
+     "상냥하고 무던한"
+    ]
+   ],
+   "mcq": [
+    "Our new manager is amiable and easy to talk to.",
+    "Our new manager amiable and easy to talk to.",
+    "Our new manager is amiable and easy to talk.",
+    "Our new manager is amiably and easy to talk to."
+   ],
+   "ans": 0,
+   "note": "amiable = 상냥하고 친근한. easy to talk to (to 꼭).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "apathetic",
+   "ko": "무관심한, 심드렁한",
+   "ex": "Students seem apathetic.",
+   "exko": "학생들이 무관심해 보여요.",
+   "use": [
+    [
+     "Apathetic voters",
+     "무관심한 유권자"
+    ],
+    [
+     "Apathy (명사)",
+     "무관심"
+    ]
+   ],
+   "mcq": [
+    "Many young people are apathy about politics.",
+    "Many young people is apathetic about politics.",
+    "Many young people are apathetic about politics.",
+    "Many young people are apathetic for politics about."
+   ],
+   "ans": 2,
+   "note": "apathetic = 무관심한, 의욕 없는. apathetic about N. 명사 apathy.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "brash",
+   "ko": "자신만만하고 무례한, 뻔뻔한",
+   "ex": "A brash young CEO",
+   "exko": "거침없는 젊은 CEO",
+   "use": [
+    [
+     "Brash and loud",
+     "뻔뻔하고 시끄러운"
+    ],
+    [
+     "Brash confidence",
+     "무모한 자신감"
+    ]
+   ],
+   "mcq": [
+    "He brash, but he gets results.",
+    "He's brash, but he gets results.",
+    "He's brashly, but he gets results.",
+    "He's brash, but he get results."
+   ],
+   "ans": 1,
+   "note": "brash = 지나치게 자신만만하고 거침없는 (약간 부정적).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "callous",
+   "ko": "냉담한, 무정한",
+   "ex": "That was callous.",
+   "exko": "그건 너무 무정했어.",
+   "use": [
+    [
+     "A callous remark",
+     "냉정한 말"
+    ],
+    [
+     "Callous disregard",
+     "냉담한 무시"
+    ]
+   ],
+   "mcq": [
+    "It was callous of him to laugh to her.",
+    "It was callous of him to laugh at her.",
+    "It was callous of him laugh at her.",
+    "It was callous for him to laugh at her."
+   ],
+   "ans": 1,
+   "note": "callous = 남의 고통에 무감각한. It was 형용사 of 사람 to V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "cunning",
+   "ko": "교활한, 꾀 많은",
+   "ex": "A cunning plan",
+   "exko": "교활한 계획",
+   "use": [
+    [
+     "Cunning as a fox",
+     "여우처럼 교활한"
+    ],
+    [
+     "Cunning and clever",
+     "교활하고 영리한"
+    ]
+   ],
+   "mcq": [
+    "The villain came up a cunning plan with.",
+    "The villain came up with cunning a plan.",
+    "The villain came up with a cunning plan.",
+    "The villain come up with a cunning plan yesterday."
+   ],
+   "ans": 2,
+   "note": "cunning = 꾀가 많은, 교활한. come up with = (계획을) 생각해 내다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "meek",
+   "ko": "온순한, 고분고분한",
+   "ex": "He's quiet and meek.",
+   "exko": "그는 조용하고 온순해요.",
+   "use": [
+    [
+     "Meek and mild",
+     "순하고 얌전한"
+    ],
+    [
+     "A meek voice",
+     "기어들어가는 목소리"
+    ]
+   ],
+   "mcq": [
+    "She seemed meek, but she stood up to her boss.",
+    "She seemed meek, but she stand up to her boss.",
+    "She seemed meekly, but she stood up to her boss.",
+    "She seemed meek, but she stood up her boss to."
+   ],
+   "ans": 0,
+   "note": "meek = 조용하고 순종적인. stand up to N = ~에게 맞서다.",
+   "wk": "2026-W48"
   }
  ]
 }

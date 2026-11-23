@@ -7002,6 +7002,506 @@
    "ans": 3,
    "note": "clean = 청소하다/깨끗한. clean up = 치우다.",
    "wk": "2026-W47"
+  },
+  {
+   "w": "hot",
+   "ko": "뜨거운, 더운, 매운",
+   "ex": "It's so hot today.",
+   "exko": "오늘 진짜 덥다.",
+   "use": [
+    [
+     "Be careful, it's hot.",
+     "조심해, 뜨거워."
+    ],
+    [
+     "I like hot food.",
+     "저는 매운 음식 좋아해요."
+    ]
+   ],
+   "mcq": [
+    "The coffee is too hot to drinking.",
+    "The coffee is too hot to drink.",
+    "The coffee is too hot for drink it.",
+    "The coffee too hot to drink."
+   ],
+   "ans": 1,
+   "note": "hot = 뜨거운/더운/매운(=spicy). too 형용사 to V = 너무 ~해서 못 하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "cold",
+   "ko": "추운, 차가운, 감기",
+   "ex": "It's cold outside.",
+   "exko": "밖에 추워요.",
+   "use": [
+    [
+     "I have a cold.",
+     "감기 걸렸어요."
+    ],
+    [
+     "Drink it while it's cold.",
+     "차가울 때 마셔요."
+    ]
+   ],
+   "mcq": [
+    "I caught cold a last week.",
+    "I caught a cold at last week.",
+    "I caught a cold last week.",
+    "I catched a cold last week."
+   ],
+   "ans": 2,
+   "note": "cold = 추운/차가운. have/catch a cold = 감기 걸리다 (a 꼭).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "early",
+   "ko": "일찍, 이른",
+   "ex": "I get up early.",
+   "exko": "저는 일찍 일어나요.",
+   "use": [
+    [
+     "You're early!",
+     "일찍 왔네!"
+    ],
+    [
+     "Early in the morning",
+     "아침 일찍"
+    ]
+   ],
+   "mcq": [
+    "I have to leave earlier tomorrow early.",
+    "I have to leave early tomorrow.",
+    "I have to leaving early tomorrow.",
+    "I have to early leave tomorrow."
+   ],
+   "ans": 1,
+   "note": "early = 일찍(부사) / 이른(형용사). in the early morning.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "late",
+   "ko": "늦은, 늦게",
+   "ex": "Sorry I'm late.",
+   "exko": "늦어서 미안해요.",
+   "use": [
+    [
+     "It's getting late.",
+     "시간이 늦었네요."
+    ],
+    [
+     "I stayed up late.",
+     "늦게까지 안 잤어요."
+    ]
+   ],
+   "mcq": [
+    "Don't be late for class.",
+    "Don't be lately for class.",
+    "Don't late for class.",
+    "Don't be late to class for."
+   ],
+   "ans": 0,
+   "note": "late = 늦은/늦게. lately는 '최근에'라는 다른 뜻! be late for N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "full",
+   "ko": "가득 찬, 배부른",
+   "ex": "I'm full.",
+   "exko": "배불러요.",
+   "use": [
+    [
+     "The bus was full.",
+     "버스가 꽉 찼어요."
+    ],
+    [
+     "Full name",
+     "성과 이름 전부"
+    ]
+   ],
+   "mcq": [
+    "My bag is full of books.",
+    "My bag is full with books.",
+    "My bag is fully of books.",
+    "My bag full of books."
+   ],
+   "ans": 0,
+   "note": "full = 가득 찬/배부른. full of N = ~로 가득한.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "quick",
+   "ko": "빠른, 잠깐의",
+   "ex": "Can I ask a quick question?",
+   "exko": "간단한 질문 하나 해도 돼요?",
+   "use": [
+    [
+     "Let's grab a quick lunch.",
+     "간단히 점심 먹어요."
+    ],
+    [
+     "Be quick!",
+     "빨리 해!"
+    ]
+   ],
+   "mcq": [
+    "She's a quickly learner.",
+    "She a quick learner.",
+    "She's a quick learner.",
+    "She's quick a learner."
+   ],
+   "ans": 2,
+   "note": "quick = 빠른, 잠깐의 (형용사). 부사는 quickly.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "happy",
+   "ko": "행복한, 기쁜",
+   "ex": "I'm so happy for you.",
+   "exko": "정말 잘됐다.",
+   "use": [
+    [
+     "Happy birthday!",
+     "생일 축하해!"
+    ],
+    [
+     "Are you happy with it?",
+     "그거 마음에 들어요?"
+    ]
+   ],
+   "mcq": [
+    "I'm happy for help you.",
+    "I'm happy to help.",
+    "I'm happy to helping.",
+    "I happy to help."
+   ],
+   "ans": 1,
+   "note": "happy = 기쁜. be happy to V = 기꺼이 ~하다. happy with N = ~에 만족하는.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sad",
+   "ko": "슬픈",
+   "ex": "Don't be sad.",
+   "exko": "슬퍼하지 마.",
+   "use": [
+    [
+     "That's so sad.",
+     "너무 슬프다."
+    ],
+    [
+     "A sad movie",
+     "슬픈 영화"
+    ]
+   ],
+   "mcq": [
+    "I felt sadly after the movie.",
+    "I felt sad after the movie.",
+    "I felt sad after movie the.",
+    "I feeled sad after the movie."
+   ],
+   "ans": 1,
+   "note": "sad = 슬픈. feel 뒤에는 형용사(sad), sadly(X).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tired",
+   "ko": "피곤한, 지친",
+   "ex": "I'm so tired.",
+   "exko": "너무 피곤해요.",
+   "use": [
+    [
+     "You look tired.",
+     "피곤해 보여요."
+    ],
+    [
+     "I'm tired of waiting.",
+     "기다리는 거 지겨워요."
+    ]
+   ],
+   "mcq": [
+    "I too tired to cook tonight.",
+    "I'm too tired to cook tonight.",
+    "I'm too tired for cook tonight.",
+    "I'm too tiring to cook tonight."
+   ],
+   "ans": 1,
+   "note": "tired = 피곤한(사람이 느낌). tiring = 피곤하게 하는(일). tired of N = 지겨운.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hungry",
+   "ko": "배고픈",
+   "ex": "I'm hungry.",
+   "exko": "배고파요.",
+   "use": [
+    [
+     "Are you hungry?",
+     "배고파요?"
+    ],
+    [
+     "I'm starving. (very hungry)",
+     "배고파 죽겠어요."
+    ]
+   ],
+   "mcq": [
+    "I'm hunger. Let's eat something.",
+    "I hungry. Let's eat something.",
+    "I'm hungry. Let's eat something.",
+    "I'm hungry. Let's eating something."
+   ],
+   "ans": 2,
+   "note": "hungry = 배고픈(형용사). hunger는 명사(배고픔).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "thirsty",
+   "ko": "목마른",
+   "ex": "I'm thirsty.",
+   "exko": "목말라요.",
+   "use": [
+    [
+     "Do you want some water? You look thirsty.",
+     "물 줄까요? 목말라 보여요."
+    ],
+    [
+     "Thirsty after running",
+     "달리고 나서 목마른"
+    ]
+   ],
+   "mcq": [
+    "I'm really thirsty. Can I have a some water?",
+    "I really thirsty. Can I have some water?",
+    "I'm really thirst. Can I have some water?",
+    "I'm really thirsty. Can I have some water?"
+   ],
+   "ans": 3,
+   "note": "thirsty = 목마른. thirst는 명사(갈증).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "healthy",
+   "ko": "건강한, 건강에 좋은",
+   "ex": "Eat healthy food.",
+   "exko": "건강한 음식 드세요.",
+   "use": [
+    [
+     "Stay healthy!",
+     "건강하세요!"
+    ],
+    [
+     "A healthy breakfast",
+     "건강한 아침밥"
+    ]
+   ],
+   "mcq": [
+    "I'm trying to eat healthier.",
+    "I'm trying to eat more healthier.",
+    "I'm trying eat healthier.",
+    "I'm try to eat healthier."
+   ],
+   "ans": 0,
+   "note": "healthy = 건강한. 비교급 healthier (more healthier X).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dangerous",
+   "ko": "위험한",
+   "ex": "It's dangerous.",
+   "exko": "위험해요.",
+   "use": [
+    [
+     "Don't do that. It's dangerous.",
+     "그거 하지 마. 위험해."
+    ],
+    [
+     "A dangerous road",
+     "위험한 길"
+    ]
+   ],
+   "mcq": [
+    "It's dangerous to drive in the snow.",
+    "It dangerous to drive in the snow.",
+    "It's dangerous drive in the snow.",
+    "It's danger to drive in the snow."
+   ],
+   "ans": 0,
+   "note": "dangerous = 위험한(형용사). danger는 명사(위험).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "old",
+   "ko": "늙은, 오래된, ~살의",
+   "ex": "How old are you?",
+   "exko": "몇 살이에요?",
+   "use": [
+    [
+     "This is an old building.",
+     "오래된 건물이에요."
+    ],
+    [
+     "My old friend",
+     "오랜 친구"
+    ]
+   ],
+   "mcq": [
+    "My son is five years old.",
+    "My son is five year old.",
+    "My son has five years old.",
+    "My son is five years."
+   ],
+   "ans": 0,
+   "note": "old = 오래된/나이 든. N years old = N살 (years 복수).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "new",
+   "ko": "새로운",
+   "ex": "I got a new job.",
+   "exko": "새 직장 구했어요.",
+   "use": [
+    [
+     "What's new?",
+     "별일 없어?"
+    ],
+    [
+     "Brand new",
+     "완전 새것"
+    ]
+   ],
+   "mcq": [
+    "Is that a news phone?",
+    "Is that a new phone?",
+    "Is that new a phone?",
+    "That is a new phone?"
+   ],
+   "ans": 1,
+   "note": "new = 새로운. What's new? = 요즘 어때? (인사)",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "poor",
+   "ko": "가난한, 불쌍한, 형편없는",
+   "ex": "Poor thing!",
+   "exko": "불쌍해라!",
+   "use": [
+    [
+     "He grew up poor.",
+     "그는 가난하게 자랐어요."
+    ],
+    [
+     "Poor quality",
+     "형편없는 품질"
+    ]
+   ],
+   "mcq": [
+    "The poor dog was so cold.",
+    "The poorly dog was so cold.",
+    "The poor dog was so colds.",
+    "The poor dog were so cold."
+   ],
+   "ans": 0,
+   "note": "poor = 가난한/불쌍한/질이 낮은. Poor you! = 어머, 안됐다!",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dark",
+   "ko": "어두운, 진한",
+   "ex": "It's getting dark.",
+   "exko": "어두워지고 있어요.",
+   "use": [
+    [
+     "Dark blue",
+     "진한 파란색"
+    ],
+    [
+     "I'm afraid of the dark.",
+     "어둠이 무서워요."
+    ]
+   ],
+   "mcq": [
+    "It gets dark early in winter.",
+    "It gets darkly early in winter.",
+    "It gets dark early at winter.",
+    "It get dark early in winter."
+   ],
+   "ans": 0,
+   "note": "dark = 어두운, (색이) 진한. get dark = 어두워지다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "bright",
+   "ko": "밝은, 똑똑한",
+   "ex": "It's too bright.",
+   "exko": "너무 밝아요.",
+   "use": [
+    [
+     "She's a bright student.",
+     "그녀는 똑똑한 학생이에요."
+    ],
+    [
+     "Bright colors",
+     "밝은 색"
+    ]
+   ],
+   "mcq": [
+    "This room is nice and bright it.",
+    "This room is nice and brightly.",
+    "This room is nice and bright.",
+    "This room nice and bright."
+   ],
+   "ans": 2,
+   "note": "bright = 밝은 / 똑똑한. nice and 형용사 = 아주 ~한.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "soft",
+   "ko": "부드러운, 푹신한",
+   "ex": "This pillow is so soft.",
+   "exko": "이 베개 진짜 푹신해요.",
+   "use": [
+    [
+     "Soft voice",
+     "부드러운 목소리"
+    ],
+    [
+     "Soft drink",
+     "탄산음료"
+    ]
+   ],
+   "mcq": [
+    "Her sweater is feeling really soft it.",
+    "Her sweater feels really soft.",
+    "Her sweater feel really soft.",
+    "Her sweater feels really softly."
+   ],
+   "ans": 1,
+   "note": "soft = 부드러운. feel/look/sound 뒤엔 형용사. soft drink = 탄산음료.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "salty",
+   "ko": "짠",
+   "ex": "This soup is too salty.",
+   "exko": "이 국 너무 짜요.",
+   "use": [
+    [
+     "Salty snacks",
+     "짭짤한 과자"
+    ],
+    [
+     "Not too salty",
+     "너무 짜지 않게"
+    ]
+   ],
+   "mcq": [
+    "The fries are a little salty.",
+    "The fries are a little salt.",
+    "The fries is a little salty.",
+    "The fries are a few salty."
+   ],
+   "ans": 0,
+   "note": "salty = 짠 (salt + y). sweet 달다, sour 시다, spicy 맵다.",
+   "wk": "2026-W48"
   }
  ]
 }

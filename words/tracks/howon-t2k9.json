@@ -43502,6 +43502,5006 @@
    "ans": 1,
    "note": "sleep in = (일부러) 늦게까지 자다. oversleep = 실수로 늦잠.",
    "wk": "2026-W47"
+  },
+  {
+   "w": "neighborhood",
+   "ko": "동네, 이웃",
+   "ex": "I love my neighborhood.",
+   "exko": "우리 동네 좋아요.",
+   "use": [
+    [
+     "A quiet neighborhood",
+     "조용한 동네"
+    ],
+    [
+     "Is there a gym in your neighborhood?",
+     "동네에 헬스장 있어요?"
+    ]
+   ],
+   "mcq": [
+    "There is lots of cafe in my neighborhood.",
+    "There are lots of cafes on my neighborhood.",
+    "There are lots of cafes in my neighborhood.",
+    "There are lots of cafes at neighborhood my."
+   ],
+   "ans": 2,
+   "note": "neighborhood = 동네. in my neighborhood (in!). 영국식 neighbourhood.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sweater",
+   "ko": "스웨터",
+   "ex": "Wear a sweater. It's cold.",
+   "exko": "스웨터 입어. 추워.",
+   "use": [
+    [
+     "A wool sweater",
+     "울 스웨터"
+    ],
+    [
+     "Ugly Christmas sweater",
+     "크리스마스 촌스러운 스웨터"
+    ]
+   ],
+   "mcq": [
+    "I buyed a warm sweater for winter.",
+    "I bought warm a sweater for winter.",
+    "I bought a warm sweater to winter.",
+    "I bought a warm sweater for winter."
+   ],
+   "ans": 3,
+   "note": "sweater = 스웨터. put on / take off a sweater.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "gloves",
+   "ko": "장갑",
+   "ex": "Don't forget your gloves.",
+   "exko": "장갑 잊지 마.",
+   "use": [
+    [
+     "A pair of gloves",
+     "장갑 한 켤레"
+    ],
+    [
+     "Rubber gloves",
+     "고무장갑"
+    ]
+   ],
+   "mcq": [
+    "I losted one of my gloves on the bus.",
+    "I lost one of my glove on the bus.",
+    "I lost one of my gloves on the bus.",
+    "I lost one my gloves on the bus."
+   ],
+   "ans": 2,
+   "note": "gloves = 장갑 (보통 복수). one of my gloves. a pair of gloves.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "scarf",
+   "ko": "목도리, 스카프",
+   "ex": "She's wearing a red scarf.",
+   "exko": "빨간 목도리 하고 있어요.",
+   "use": [
+    [
+     "Wrap a scarf around your neck",
+     "목에 목도리를 두르다"
+    ],
+    [
+     "Scarves (복수)",
+     "목도리들"
+    ]
+   ],
+   "mcq": [
+    "I always wear scarf in winter.",
+    "I wear always a scarf in winter.",
+    "I always wear a scarf in winter.",
+    "I always wearing a scarf in winter."
+   ],
+   "ans": 2,
+   "note": "scarf = 목도리. 복수는 scarves. always는 일반동사 앞.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "boots",
+   "ko": "부츠, 장화",
+   "ex": "These boots are warm.",
+   "exko": "이 부츠 따뜻해요.",
+   "use": [
+    [
+     "Rain boots",
+     "장화"
+    ],
+    [
+     "Take off your boots.",
+     "부츠 벗어요."
+    ]
+   ],
+   "mcq": [
+    "Please taking off your boots at the door.",
+    "Please take your boots off at door the.",
+    "Please take off your boot at the door.",
+    "Please take off your boots at the door."
+   ],
+   "ans": 3,
+   "note": "boots = 부츠 (보통 복수). take off = 벗다, put on = 신다/입다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "glasses",
+   "ko": "안경, 유리잔",
+   "ex": "I wear glasses.",
+   "exko": "안경 써요.",
+   "use": [
+    [
+     "Where are my glasses?",
+     "내 안경 어디 있지?"
+    ],
+    [
+     "Two glasses of wine",
+     "와인 두 잔"
+    ]
+   ],
+   "mcq": [
+    "I can't read without my glass.",
+    "I can't read without glasses my.",
+    "I can't read without my glasses.",
+    "I can't reading without my glasses."
+   ],
+   "ans": 2,
+   "note": "glasses = 안경 (항상 복수: my glasses are...). glass = 유리/유리잔.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "pharmacy",
+   "ko": "약국",
+   "ex": "Is there a pharmacy near here?",
+   "exko": "근처에 약국 있어요?",
+   "use": [
+    [
+     "Pick up medicine at the pharmacy",
+     "약국에서 약을 받다"
+    ],
+    [
+     "A 24-hour pharmacy",
+     "24시간 약국"
+    ]
+   ],
+   "mcq": [
+    "I need stop by the pharmacy.",
+    "I need to stop at by the pharmacy.",
+    "I need to stop by pharmacy the.",
+    "I need to stop by the pharmacy."
+   ],
+   "ans": 3,
+   "note": "pharmacy = 약국 (미국 drugstore도). stop by = 잠깐 들르다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "bakery",
+   "ko": "빵집",
+   "ex": "There's a new bakery downtown.",
+   "exko": "시내에 새 빵집 생겼어요.",
+   "use": [
+    [
+     "Fresh bread from the bakery",
+     "빵집에서 산 갓 구운 빵"
+    ],
+    [
+     "A bakery cafe",
+     "베이커리 카페"
+    ]
+   ],
+   "mcq": [
+    "Let's get some bread at the bakery.",
+    "Let's get some breads at the bakery.",
+    "Let's get a some bread at the bakery.",
+    "Let's getting some bread at the bakery."
+   ],
+   "ans": 0,
+   "note": "bakery = 빵집. bread는 셀 수 없는 명사 (some bread, a loaf of bread).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "recipe",
+   "ko": "요리법, 레시피",
+   "ex": "Can I get the recipe?",
+   "exko": "레시피 알려줄 수 있어요?",
+   "use": [
+    [
+     "Follow the recipe",
+     "레시피대로 하다"
+    ],
+    [
+     "My mom's recipe",
+     "엄마 레시피"
+    ]
+   ],
+   "mcq": [
+    "I finded a great recipe for pasta.",
+    "I found a great recipe for pasta.",
+    "I found a great recipe of pasta for.",
+    "I found great a recipe for pasta."
+   ],
+   "ans": 1,
+   "note": "recipe = 요리법. a recipe for N (for!). 발음 '레서피'.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "appetite",
+   "ko": "식욕",
+   "ex": "I've lost my appetite.",
+   "exko": "입맛이 없어졌어요.",
+   "use": [
+    [
+     "A big appetite",
+     "왕성한 식욕"
+    ],
+    [
+     "Don't spoil your appetite.",
+     "밥맛 떨어지게 하지 마 (군것질 하지 마)."
+    ]
+   ],
+   "mcq": [
+    "I don't have many appetite today.",
+    "I not have much appetite today.",
+    "I don't have much appetites today.",
+    "I don't have much appetite today."
+   ],
+   "ans": 3,
+   "note": "appetite = 식욕. lose one's appetite = 입맛을 잃다. much (셀 수 없음).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "diet",
+   "ko": "식단, 다이어트",
+   "ex": "I'm on a diet.",
+   "exko": "다이어트 중이에요.",
+   "use": [
+    [
+     "A healthy diet",
+     "건강한 식단"
+    ],
+    [
+     "Go on a diet",
+     "다이어트를 시작하다"
+    ]
+   ],
+   "mcq": [
+    "She on a diet, so she skipped dessert.",
+    "She's in a diet, so she skipped dessert.",
+    "She's on diet a, so she skipped dessert.",
+    "She's on a diet, so she skipped dessert."
+   ],
+   "ans": 3,
+   "note": "diet = 식단 / 다이어트. be on a diet (on!).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "habit",
+   "ko": "습관",
+   "ex": "It's a bad habit.",
+   "exko": "나쁜 습관이에요.",
+   "use": [
+    [
+     "Break a habit",
+     "습관을 고치다"
+    ],
+    [
+     "Healthy habits",
+     "건강한 습관"
+    ]
+   ],
+   "mcq": [
+    "I'm trying to break the habit of checking my phone.",
+    "I'm trying to break the habit to checking my phone.",
+    "I'm try to break the habit of checking my phone.",
+    "I'm trying to break the habit of check my phone."
+   ],
+   "ans": 0,
+   "note": "habit = 습관. the habit of V-ing. break a habit = 습관을 고치다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hobby",
+   "ko": "취미",
+   "ex": "What are your hobbies?",
+   "exko": "취미가 뭐예요?",
+   "use": [
+    [
+     "Pick up a new hobby",
+     "새 취미를 시작하다"
+    ],
+    [
+     "Cooking is my hobby.",
+     "요리가 제 취미예요."
+    ]
+   ],
+   "mcq": [
+    "My hobby are taking photos.",
+    "My hobby is taking photo.",
+    "My hobby is take photos.",
+    "My hobby is taking photos."
+   ],
+   "ans": 3,
+   "note": "hobby = 취미. 복수 hobbies. My hobby is V-ing.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "appointment",
+   "ko": "(병원 등) 예약, 약속",
+   "ex": "I have a doctor's appointment.",
+   "exko": "병원 예약 있어요.",
+   "use": [
+    [
+     "Make an appointment",
+     "예약을 잡다"
+    ],
+    [
+     "Cancel an appointment",
+     "예약을 취소하다"
+    ]
+   ],
+   "mcq": [
+    "I maked an appointment with the dentist.",
+    "I made an appointment to the dentist.",
+    "I made appointment with the dentist.",
+    "I made an appointment with the dentist."
+   ],
+   "ans": 3,
+   "note": "appointment = 병원·미용실·업무 예약. 친구와의 약속은 plans.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "vacation",
+   "ko": "휴가, 방학",
+   "ex": "I'm on vacation.",
+   "exko": "휴가 중이에요.",
+   "use": [
+    [
+     "Summer vacation",
+     "여름 방학"
+    ],
+    [
+     "Take a vacation",
+     "휴가를 내다"
+    ]
+   ],
+   "mcq": [
+    "We're going on vacation next week.",
+    "We're going to vacation next week.",
+    "We're going on vacation at next week.",
+    "We going on vacation next week."
+   ],
+   "ans": 0,
+   "note": "vacation = 휴가. go on vacation / be on vacation (on!). 영국은 holiday.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "airport",
+   "ko": "공항",
+   "ex": "I'll pick you up at the airport.",
+   "exko": "공항으로 데리러 갈게요.",
+   "use": [
+    [
+     "Get to the airport",
+     "공항에 도착하다"
+    ],
+    [
+     "Airport security",
+     "공항 보안 검색"
+    ]
+   ],
+   "mcq": [
+    "How long does it take to get to the airport?",
+    "How long it takes to get to the airport?",
+    "How long does it take to get the airport?",
+    "How long does it take to get to airport the?"
+   ],
+   "ans": 0,
+   "note": "airport = 공항. at the airport, get to the airport.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "flight",
+   "ko": "비행, 항공편",
+   "ex": "How was your flight?",
+   "exko": "비행 어땠어요?",
+   "use": [
+    [
+     "Book a flight",
+     "항공편을 예약하다"
+    ],
+    [
+     "My flight was delayed.",
+     "비행기가 지연됐어요."
+    ]
+   ],
+   "mcq": [
+    "My flight leaves at 7 a.m.",
+    "My flight leaves on 7 a.m.",
+    "My flight leave at 7 a.m.",
+    "My fly leaves at 7 a.m."
+   ],
+   "ans": 0,
+   "note": "flight = 비행/항공편. 시간 앞은 at.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "landlord",
+   "ko": "집주인 (임대인)",
+   "ex": "I need to call my landlord.",
+   "exko": "집주인한테 전화해야 해요.",
+   "use": [
+    [
+     "My landlord is nice.",
+     "집주인이 착해요."
+    ],
+    [
+     "Pay rent to the landlord",
+     "집주인에게 월세를 내다"
+    ]
+   ],
+   "mcq": [
+    "The landlord fixed the heater yesterday.",
+    "The landlord fixed heater the yesterday.",
+    "The landlord fixed the heater at yesterday.",
+    "The landlord fix the heater yesterday."
+   ],
+   "ans": 0,
+   "note": "landlord = (세 준) 집주인. 세입자는 tenant.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "elevator",
+   "ko": "엘리베이터",
+   "ex": "Let's take the elevator.",
+   "exko": "엘리베이터 타요.",
+   "use": [
+    [
+     "The elevator is out of order.",
+     "엘리베이터 고장났어요."
+    ],
+    [
+     "Hold the elevator!",
+     "엘리베이터 잡아 줘요!"
+    ]
+   ],
+   "mcq": [
+    "The elevator is broken, so we have to take the stair.",
+    "The elevator broken, so we have to take the stairs.",
+    "The elevator is broken, so we have to take the stairs.",
+    "The elevator is broke, so we have to take the stairs."
+   ],
+   "ans": 2,
+   "note": "elevator = 엘리베이터 (영국 lift). take the elevator/stairs.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "balcony",
+   "ko": "발코니, 베란다",
+   "ex": "We have breakfast on the balcony.",
+   "exko": "발코니에서 아침 먹어요.",
+   "use": [
+    [
+     "A small balcony",
+     "작은 발코니"
+    ],
+    [
+     "A room with a balcony",
+     "발코니 딸린 방"
+    ]
+   ],
+   "mcq": [
+    "Our apartment have a small balcony.",
+    "Our apartment has a small balcony.",
+    "Our apartment has a small balconies.",
+    "Our apartment has small a balcony."
+   ],
+   "ans": 1,
+   "note": "balcony = 발코니. on the balcony (on!).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "curiosity",
+   "ko": "호기심",
+   "ex": "Just out of curiosity, how old is he?",
+   "exko": "그냥 궁금해서 그러는데, 그 사람 몇 살이야?",
+   "use": [
+    [
+     "Curiosity killed the cat.",
+     "호기심이 화를 부른다 (속담)."
+    ],
+    [
+     "Satisfy your curiosity",
+     "궁금증을 풀다"
+    ]
+   ],
+   "mcq": [
+    "I asked out from curiosity.",
+    "I asked out of curious.",
+    "I asked out of curiosity.",
+    "I asked by out of curiosity."
+   ],
+   "ans": 2,
+   "note": "curiosity = 호기심 (명사). out of curiosity = 궁금해서. 형용사는 curious.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "patience",
+   "ko": "인내심",
+   "ex": "Thanks for your patience.",
+   "exko": "기다려 주셔서 감사합니다.",
+   "use": [
+    [
+     "Lose your patience",
+     "인내심을 잃다"
+    ],
+    [
+     "Patience is key.",
+     "인내가 핵심이야."
+    ]
+   ],
+   "mcq": [
+    "Teaching kids takes many patience.",
+    "Teaching kids takes a lot of patience.",
+    "Teaching kids takes a lot of patient.",
+    "Teaching kids take a lot of patience."
+   ],
+   "ans": 1,
+   "note": "patience = 인내심 (셀 수 없음). 형용사 patient. Thank you for your patience = 안내 방송 단골.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "gratitude",
+   "ko": "감사, 고마움",
+   "ex": "I want to show my gratitude.",
+   "exko": "감사를 표하고 싶어요.",
+   "use": [
+    [
+     "Deep gratitude",
+     "깊은 감사"
+    ],
+    [
+     "A gratitude journal",
+     "감사 일기"
+    ]
+   ],
+   "mcq": [
+    "She expressed gratitude her to the team.",
+    "She expressed her gratitude to the team.",
+    "She expressed her grateful to the team.",
+    "She expressed her gratitude for the team to."
+   ],
+   "ans": 1,
+   "note": "gratitude = 감사(명사). 형용사 grateful. express gratitude to 사람.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "jealousy",
+   "ko": "질투",
+   "ex": "It's just jealousy.",
+   "exko": "그냥 질투야.",
+   "use": [
+    [
+     "Feel jealousy",
+     "질투를 느끼다"
+    ],
+    [
+     "Jealousy ruins relationships.",
+     "질투는 관계를 망쳐요."
+    ]
+   ],
+   "mcq": [
+    "His jealousy caused a lot of fight.",
+    "His jealousy causing a lot of fights.",
+    "His jealousy caused a lot of fights.",
+    "His jealous caused a lot of fights."
+   ],
+   "ans": 2,
+   "note": "jealousy = 질투(명사). 형용사 jealous (be jealous of N).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "loneliness",
+   "ko": "외로움",
+   "ex": "Loneliness is hard.",
+   "exko": "외로움은 힘들어요.",
+   "use": [
+    [
+     "Fight loneliness",
+     "외로움을 이겨내다"
+    ],
+    [
+     "Feelings of loneliness",
+     "외로운 감정"
+    ]
+   ],
+   "mcq": [
+    "Moving abroad brought a lot of loneliness at first.",
+    "Move abroad brought a lot of loneliness at first.",
+    "Moving abroad brought a lot of loneliness at the first.",
+    "Moving abroad brought a lot of lonely at first."
+   ],
+   "ans": 0,
+   "note": "loneliness = 외로움(명사). 형용사 lonely. alone은 '혼자'(상태).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "nostalgia",
+   "ko": "향수, 옛 추억",
+   "ex": "This song gives me nostalgia.",
+   "exko": "이 노래 들으면 옛날 생각나요.",
+   "use": [
+    [
+     "A wave of nostalgia",
+     "밀려오는 향수"
+    ],
+    [
+     "Feel nostalgic",
+     "옛날이 그리워지다"
+    ]
+   ],
+   "mcq": [
+    "Looking at old photos filled me with nostalgic.",
+    "Look at old photos filled me with nostalgia.",
+    "Looking at old photos filled me of nostalgia.",
+    "Looking at old photos filled me with nostalgia."
+   ],
+   "ans": 3,
+   "note": "nostalgia = 옛 시절에 대한 그리움. 형용사 nostalgic. fill A with B.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "ambition",
+   "ko": "야망, 포부",
+   "ex": "She has a lot of ambition.",
+   "exko": "그녀는 야망이 커요.",
+   "use": [
+    [
+     "My ambition is to open a cafe.",
+     "제 꿈은 카페를 여는 거예요."
+    ],
+    [
+     "Lack ambition",
+     "의욕이 없다"
+    ]
+   ],
+   "mcq": [
+    "His ambitious is to become a director.",
+    "His ambition is become a director.",
+    "His ambition is to become a director.",
+    "His ambition are to become a director."
+   ],
+   "ans": 2,
+   "note": "ambition = 야망/포부 (명사). 형용사 ambitious. My ambition is to V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dedication",
+   "ko": "헌신, 전념",
+   "ex": "Thank you for your dedication.",
+   "exko": "헌신해 주셔서 감사해요.",
+   "use": [
+    [
+     "It takes dedication.",
+     "꾸준한 노력이 필요해요."
+    ],
+    [
+     "Dedication to work",
+     "일에 대한 헌신"
+    ]
+   ],
+   "mcq": [
+    "Her dedication to her students is amazing.",
+    "Her dedication for her students is amazing.",
+    "Her dedication to her students are amazing.",
+    "Her dedicate to her students is amazing."
+   ],
+   "ans": 0,
+   "note": "dedication = 헌신. dedication to N (to!). 동사 dedicate.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "persistence",
+   "ko": "끈기, 집요함",
+   "ex": "Persistence pays off.",
+   "exko": "끈기는 결국 보상받아요.",
+   "use": [
+    [
+     "Show persistence",
+     "끈기를 보이다"
+    ],
+    [
+     "Through persistence",
+     "끈기로"
+    ]
+   ],
+   "mcq": [
+    "He get the job through sheer persistence.",
+    "He got the job by through sheer persistence.",
+    "He got the job through sheer persistent.",
+    "He got the job through sheer persistence."
+   ],
+   "ans": 3,
+   "note": "persistence = 끈기. 형용사 persistent. sheer = 순전한.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "integrity",
+   "ko": "진실성, 정직함",
+   "ex": "He's a man of integrity.",
+   "exko": "그는 정직한 사람이에요.",
+   "use": [
+    [
+     "Lack integrity",
+     "정직하지 못하다"
+    ],
+    [
+     "Personal integrity",
+     "개인의 도덕성"
+    ]
+   ],
+   "mcq": [
+    "I trust her because she integrity has.",
+    "I trust her because she has integrities.",
+    "I trust her because she has integrity.",
+    "I trust her because she have integrity."
+   ],
+   "ans": 2,
+   "note": "integrity = 원칙을 지키는 정직함 (셀 수 없음). a person of integrity.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "humility",
+   "ko": "겸손",
+   "ex": "He accepted the award with humility.",
+   "exko": "그는 겸손하게 상을 받았어요.",
+   "use": [
+    [
+     "Show humility",
+     "겸손함을 보이다"
+    ],
+    [
+     "A lesson in humility",
+     "겸손을 배우는 계기"
+    ]
+   ],
+   "mcq": [
+    "Great leaders often show humble.",
+    "Great leaders often shows humility.",
+    "Great leaders often show humility.",
+    "Great leaders show often humility."
+   ],
+   "ans": 2,
+   "note": "humility = 겸손(명사). 형용사 humble.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sarcasm",
+   "ko": "비꼼, 빈정거림",
+   "ex": "Was that sarcasm?",
+   "exko": "그거 비꼰 거야?",
+   "use": [
+    [
+     "I can't tell if you're being sarcastic.",
+     "진심인지 비꼬는 건지 모르겠어."
+    ],
+    [
+     "Dripping with sarcasm",
+     "빈정거림이 뚝뚝 묻어나는"
+    ]
+   ],
+   "mcq": [
+    "I couldn't tell if it was sarcastic or not it.",
+    "I couldn't tell if was it sarcasm or not.",
+    "I couldn't tell if it was sarcasm or not.",
+    "I can't told if it was sarcasm or not."
+   ],
+   "ans": 2,
+   "note": "sarcasm = 비꼼(명사). 형용사 sarcastic. can't tell = 구별을 못 하겠다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "irony",
+   "ko": "아이러니, 반어",
+   "ex": "The irony is that he's a dentist with bad teeth.",
+   "exko": "아이러니한 건 그가 이가 안 좋은 치과의사라는 거예요.",
+   "use": [
+    [
+     "Ironically",
+     "아이러니하게도"
+    ],
+    [
+     "A twist of irony",
+     "아이러니한 반전"
+    ]
+   ],
+   "mcq": [
+    "The irony is that I got lost using a map app.",
+    "The ironic is that I got lost using a map app.",
+    "The irony are that I got lost using a map app.",
+    "The irony is what I got lost using a map app."
+   ],
+   "ans": 0,
+   "note": "irony = 기대와 정반대인 상황. 형용사 ironic, 부사 ironically.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "empathy",
+   "ko": "공감 (능력)",
+   "ex": "She has a lot of empathy.",
+   "exko": "그녀는 공감 능력이 뛰어나요.",
+   "use": [
+    [
+     "Show empathy",
+     "공감해 주다"
+    ],
+    [
+     "Empathy vs sympathy",
+     "공감 vs 동정"
+    ]
+   ],
+   "mcq": [
+    "Good nurses have empathy to their patients.",
+    "Good nurses have empathetic for their patients.",
+    "Good nurses have empathy for their patients.",
+    "Good nurses has empathy for their patients."
+   ],
+   "ans": 2,
+   "note": "empathy = 상대 입장에서 느끼는 공감. empathy for N. 동사 empathize with.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sympathy",
+   "ko": "동정, 위로",
+   "ex": "You have my sympathy.",
+   "exko": "정말 안됐어요.",
+   "use": [
+    [
+     "Sympathy card",
+     "조의 카드"
+    ],
+    [
+     "Feel sympathy for",
+     "~을 안쓰럽게 여기다"
+    ]
+   ],
+   "mcq": [
+    "I feel a lot of sympathy to him.",
+    "I feel a lot of sympathies for him.",
+    "I feel many sympathy for him.",
+    "I feel a lot of sympathy for him."
+   ],
+   "ans": 3,
+   "note": "sympathy = 안쓰러움, 위로. feel sympathy for N. sympathy card = 조문 카드.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tolerance",
+   "ko": "관용, 내성",
+   "ex": "Zero tolerance",
+   "exko": "무관용",
+   "use": [
+    [
+     "Tolerance for spicy food",
+     "매운 음식 잘 먹는 정도"
+    ],
+    [
+     "Religious tolerance",
+     "종교적 관용"
+    ]
+   ],
+   "mcq": [
+    "I have a low tolerance to noise for.",
+    "I have a low tolerance for noise.",
+    "I has a low tolerance for noise.",
+    "I have a low tolerant for noise."
+   ],
+   "ans": 1,
+   "note": "tolerance = 참는 정도/관용. low/high tolerance for N. 동사 tolerate.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "prejudice",
+   "ko": "편견",
+   "ex": "That's just prejudice.",
+   "exko": "그건 편견일 뿐이에요.",
+   "use": [
+    [
+     "Racial prejudice",
+     "인종적 편견"
+    ],
+    [
+     "Without prejudice",
+     "편견 없이"
+    ]
+   ],
+   "mcq": [
+    "We should judge people without prejudice.",
+    "We should judging people without prejudice.",
+    "We should judge people without prejudiced.",
+    "We should judge people without a prejudices."
+   ],
+   "ans": 0,
+   "note": "prejudice = (부정적) 편견. 형용사 prejudiced. bias도 비슷.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "stereotype",
+   "ko": "고정관념",
+   "ex": "That's a stereotype.",
+   "exko": "그건 고정관념이에요.",
+   "use": [
+    [
+     "Break stereotypes",
+     "고정관념을 깨다"
+    ],
+    [
+     "A gender stereotype",
+     "성별 고정관념"
+    ]
+   ],
+   "mcq": [
+    "Not all Koreans love kimchi. That's stereotype a.",
+    "Not all Koreans loves kimchi. That's a stereotype.",
+    "Not all Koreans love kimchi. That's a stereotype.",
+    "Not all Koreans love kimchi. That's a stereotypes."
+   ],
+   "ans": 2,
+   "note": "stereotype = 고정관념. 형용사 stereotypical.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "etiquette",
+   "ko": "예절, 에티켓",
+   "ex": "Table etiquette",
+   "exko": "식사 예절",
+   "use": [
+    [
+     "Phone etiquette",
+     "전화 예절"
+    ],
+    [
+     "It's bad etiquette.",
+     "예의에 어긋나요."
+    ]
+   ],
+   "mcq": [
+    "In Japan, tipping is not part of etiquettes the.",
+    "In Japan, tipping is not part of the etiquette.",
+    "In Japan, tipping are not part of the etiquette.",
+    "In Japan, tip is not part of the etiquette."
+   ],
+   "ans": 1,
+   "note": "etiquette = 사회적 예절 (셀 수 없음). 발음 '에티켓'.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hospitality",
+   "ko": "환대, 서비스업",
+   "ex": "Thank you for your hospitality.",
+   "exko": "환대해 주셔서 감사해요.",
+   "use": [
+    [
+     "Southern hospitality",
+     "미국 남부식 친절"
+    ],
+    [
+     "The hospitality industry",
+     "호텔·외식 서비스업"
+    ]
+   ],
+   "mcq": [
+    "We were amazed by their hospitality.",
+    "We were amazed by their hospitable.",
+    "We amazed by their hospitality.",
+    "We were amazed with their hospitalities."
+   ],
+   "ans": 0,
+   "note": "hospitality = 손님 접대, 환대. hospital(병원)과 헷갈리지 말기!",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "cordial",
+   "ko": "정중하고 다정한",
+   "ex": "They had a cordial meeting.",
+   "exko": "그들은 화기애애하게 만났어요.",
+   "use": [
+    [
+     "A cordial relationship",
+     "원만한 관계"
+    ],
+    [
+     "Cordial but distant",
+     "예의는 바르지만 거리감 있는"
+    ]
+   ],
+   "mcq": [
+    "Our relationship with the neighbors is cordially.",
+    "Our relationship with neighbors the is cordial.",
+    "Our relationship with the neighbors is cordial.",
+    "Our relationship with the neighbors are cordial."
+   ],
+   "ans": 2,
+   "note": "cordial = 예의 바르고 우호적인. 친하진 않아도 서로 정중한 관계에 자주 써요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "eccentric",
+   "ko": "별난, 괴짜인",
+   "ex": "My uncle is a bit eccentric.",
+   "exko": "삼촌이 좀 별나요.",
+   "use": [
+    [
+     "An eccentric artist",
+     "괴짜 예술가"
+    ],
+    [
+     "Eccentric habits",
+     "특이한 습관"
+    ]
+   ],
+   "mcq": [
+    "She's eccentrically, but everyone loves her.",
+    "She's eccentric, but everyone loves her.",
+    "She's eccentric, but everyone love her.",
+    "She eccentric, but everyone loves her."
+   ],
+   "ans": 1,
+   "note": "eccentric = 특이하고 별난 (보통 나쁜 뜻은 아님).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "gregarious",
+   "ko": "사교적인, 어울리기 좋아하는",
+   "ex": "He's very gregarious.",
+   "exko": "그는 엄청 사교적이에요.",
+   "use": [
+    [
+     "A gregarious personality",
+     "사교적인 성격"
+    ],
+    [
+     "Gregarious animals",
+     "무리 지어 사는 동물"
+    ]
+   ],
+   "mcq": [
+    "My sister gregarious and makes friends easily.",
+    "My sister is gregarious and makes friends easy.",
+    "My sister is gregarious and make friends easily.",
+    "My sister is gregarious and makes friends easily."
+   ],
+   "ans": 3,
+   "note": "gregarious = 사람들과 어울리길 좋아하는 (outgoing보다 격식). make friends easily.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hostile",
+   "ko": "적대적인",
+   "ex": "The crowd was hostile.",
+   "exko": "관중이 적대적이었어요.",
+   "use": [
+    [
+     "A hostile work environment",
+     "적대적인 근무 환경"
+    ],
+    [
+     "Hostile to change",
+     "변화에 반감을 가진"
+    ]
+   ],
+   "mcq": [
+    "He become hostile when we asked about the money yesterday.",
+    "He became hostility when we asked about the money.",
+    "He became hostile when we asked about the money.",
+    "He became hostile when we asked the money about."
+   ],
+   "ans": 2,
+   "note": "hostile = 적대적인. 명사 hostility. hostile to N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "impulsive",
+   "ko": "충동적인",
+   "ex": "Don't be so impulsive.",
+   "exko": "너무 충동적으로 굴지 마.",
+   "use": [
+    [
+     "Impulsive buying",
+     "충동구매"
+    ],
+    [
+     "An impulsive decision",
+     "충동적인 결정"
+    ]
+   ],
+   "mcq": [
+    "I made an impulsive decision and bought a car.",
+    "I did an impulsive decision and bought a car.",
+    "I made impulsive a decision and bought a car.",
+    "I made an impulsive decision and buyed a car."
+   ],
+   "ans": 0,
+   "note": "impulsive = 충동적인. make a decision (do X). impulse buy = 충동구매.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "naive",
+   "ko": "순진한, 세상 물정 모르는",
+   "ex": "Don't be naive.",
+   "exko": "순진하게 굴지 마.",
+   "use": [
+    [
+     "A naive question",
+     "순진한 질문"
+    ],
+    [
+     "I was young and naive.",
+     "어리고 순진했죠."
+    ]
+   ],
+   "mcq": [
+    "It was naive of me trust him.",
+    "It was naive for me to trust him.",
+    "It naive of me to trust him.",
+    "It was naive of me to trust him."
+   ],
+   "ans": 3,
+   "note": "naive = 순진한(부정적 뉘앙스). It's 형용사 of 사람 to V (성격 형용사는 of).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "obnoxious",
+   "ko": "아주 불쾌한, 밉살스러운",
+   "ex": "He's so obnoxious.",
+   "exko": "그 사람 진짜 밥맛이야.",
+   "use": [
+    [
+     "Obnoxious behavior",
+     "불쾌한 행동"
+    ],
+    [
+     "An obnoxious laugh",
+     "거슬리는 웃음소리"
+    ]
+   ],
+   "mcq": [
+    "The guy next me was loud and obnoxious.",
+    "The guy next to me was loud and obnoxious.",
+    "The guy next to me was loud and obnoxiously.",
+    "The guy next to me were loud and obnoxious."
+   ],
+   "ans": 1,
+   "note": "obnoxious = 시끄럽고 무례해서 아주 불쾌한. annoying보다 강함.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "pessimistic",
+   "ko": "비관적인",
+   "ex": "Don't be so pessimistic.",
+   "exko": "너무 비관적으로 생각하지 마.",
+   "use": [
+    [
+     "Pessimistic about the future",
+     "미래를 비관하는"
+    ],
+    [
+     "A pessimist",
+     "비관주의자"
+    ]
+   ],
+   "mcq": [
+    "He's pessimistic about his chances.",
+    "He's pessimism about his chances.",
+    "He's pessimistic of his chances about.",
+    "He pessimistic about his chances."
+   ],
+   "ans": 0,
+   "note": "pessimistic = 비관적인. pessimistic about N. 명사 pessimism.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "optimistic",
+   "ko": "낙관적인",
+   "ex": "I'm optimistic.",
+   "exko": "저는 낙관적이에요.",
+   "use": [
+    [
+     "Cautiously optimistic",
+     "조심스럽게 낙관하는"
+    ],
+    [
+     "An optimist",
+     "낙관주의자"
+    ]
+   ],
+   "mcq": [
+    "We optimistic about next year.",
+    "We're optimistic for next year about.",
+    "We're optimistic about next year.",
+    "We're optimism about next year."
+   ],
+   "ans": 2,
+   "note": "optimistic = 낙관적인. cautiously optimistic = 조심스레 기대하는 (뉴스 단골).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sarcastic",
+   "ko": "비꼬는, 빈정대는",
+   "ex": "Are you being sarcastic?",
+   "exko": "지금 비꼬는 거야?",
+   "use": [
+    [
+     "A sarcastic comment",
+     "비꼬는 말"
+    ],
+    [
+     "Sarcastic humor",
+     "냉소적인 유머"
+    ]
+   ],
+   "mcq": [
+    "She gave me a sarcastic smile.",
+    "She gived me a sarcastic smile.",
+    "She gave to me a sarcastic smile.",
+    "She gave me a sarcasm smile."
+   ],
+   "ans": 0,
+   "note": "sarcastic = 비꼬는(형용사). 명사 sarcasm. Are you being sarcastic? 자주 써요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tactless",
+   "ko": "눈치 없는, 무신경한",
+   "ex": "That was tactless.",
+   "exko": "그건 눈치 없었어.",
+   "use": [
+    [
+     "A tactless remark",
+     "무신경한 말"
+    ],
+    [
+     "Tactful (반대)",
+     "요령 있는"
+    ]
+   ],
+   "mcq": [
+    "It was tactless ask about her weight.",
+    "It was tactless to asking about her weight.",
+    "It were tactless to ask about her weight.",
+    "It was tactless to ask about her weight."
+   ],
+   "ans": 3,
+   "note": "tactless = 남 기분을 생각 안 하고 말하는. 반대 tactful.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "volatile",
+   "ko": "변덕스러운, 불안정한",
+   "ex": "The market is volatile.",
+   "exko": "시장이 불안정해요.",
+   "use": [
+    [
+     "A volatile temper",
+     "욱하는 성격"
+    ],
+    [
+     "A volatile situation",
+     "일촉즉발 상황"
+    ]
+   ],
+   "mcq": [
+    "Stock prices have been very volatile this year.",
+    "Stock prices has been very volatile this year.",
+    "Stock prices have been very volatility this year.",
+    "Stock prices have very been volatile this year."
+   ],
+   "ans": 0,
+   "note": "volatile = 급변하는 (시장, 감정, 상황). 명사 volatility.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "adamant",
+   "ko": "단호한, 완강한",
+   "ex": "She was adamant.",
+   "exko": "그녀는 완강했어요.",
+   "use": [
+    [
+     "Adamant about",
+     "~에 대해 단호한"
+    ],
+    [
+     "Adamant that...",
+     "~라고 단호히 주장하는"
+    ]
+   ],
+   "mcq": [
+    "He was adamant that he didn't took the money.",
+    "He was adamant what he didn't take the money.",
+    "He was adamant that he didn't take the money.",
+    "He adamant that he didn't take the money."
+   ],
+   "ans": 2,
+   "note": "adamant = 절대 생각을 안 바꾸는. be adamant that S V / about N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "aloof",
+   "ko": "냉담한, 거리를 두는",
+   "ex": "He seems aloof.",
+   "exko": "그 사람 좀 쌀쌀맞아 보여요.",
+   "use": [
+    [
+     "Stay aloof",
+     "거리를 두다"
+    ],
+    [
+     "Cold and aloof",
+     "차갑고 냉담한"
+    ]
+   ],
+   "mcq": [
+    "She seemed aloof at the first, but she's just shy.",
+    "She seemed aloof at first, but she's just shy.",
+    "She seemed aloofly at first, but she's just shy.",
+    "She seem aloof at first, but she's just shy."
+   ],
+   "ans": 1,
+   "note": "aloof = 남과 어울리지 않고 거리를 두는. seem + 형용사.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "amiable",
+   "ko": "상냥한, 붙임성 있는",
+   "ex": "He's an amiable guy.",
+   "exko": "그는 상냥한 사람이에요.",
+   "use": [
+    [
+     "An amiable conversation",
+     "화기애애한 대화"
+    ],
+    [
+     "Amiable and easygoing",
+     "상냥하고 무던한"
+    ]
+   ],
+   "mcq": [
+    "Our new manager is amiable and easy to talk to.",
+    "Our new manager amiable and easy to talk to.",
+    "Our new manager is amiable and easy to talk.",
+    "Our new manager is amiably and easy to talk to."
+   ],
+   "ans": 0,
+   "note": "amiable = 상냥하고 친근한. easy to talk to (to 꼭).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "apathetic",
+   "ko": "무관심한, 심드렁한",
+   "ex": "Students seem apathetic.",
+   "exko": "학생들이 무관심해 보여요.",
+   "use": [
+    [
+     "Apathetic voters",
+     "무관심한 유권자"
+    ],
+    [
+     "Apathy (명사)",
+     "무관심"
+    ]
+   ],
+   "mcq": [
+    "Many young people are apathy about politics.",
+    "Many young people is apathetic about politics.",
+    "Many young people are apathetic about politics.",
+    "Many young people are apathetic for politics about."
+   ],
+   "ans": 2,
+   "note": "apathetic = 무관심한, 의욕 없는. apathetic about N. 명사 apathy.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "brash",
+   "ko": "자신만만하고 무례한, 뻔뻔한",
+   "ex": "A brash young CEO",
+   "exko": "거침없는 젊은 CEO",
+   "use": [
+    [
+     "Brash and loud",
+     "뻔뻔하고 시끄러운"
+    ],
+    [
+     "Brash confidence",
+     "무모한 자신감"
+    ]
+   ],
+   "mcq": [
+    "He brash, but he gets results.",
+    "He's brash, but he gets results.",
+    "He's brashly, but he gets results.",
+    "He's brash, but he get results."
+   ],
+   "ans": 1,
+   "note": "brash = 지나치게 자신만만하고 거침없는 (약간 부정적).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "callous",
+   "ko": "냉담한, 무정한",
+   "ex": "That was callous.",
+   "exko": "그건 너무 무정했어.",
+   "use": [
+    [
+     "A callous remark",
+     "냉정한 말"
+    ],
+    [
+     "Callous disregard",
+     "냉담한 무시"
+    ]
+   ],
+   "mcq": [
+    "It was callous of him to laugh to her.",
+    "It was callous of him to laugh at her.",
+    "It was callous of him laugh at her.",
+    "It was callous for him to laugh at her."
+   ],
+   "ans": 1,
+   "note": "callous = 남의 고통에 무감각한. It was 형용사 of 사람 to V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "cunning",
+   "ko": "교활한, 꾀 많은",
+   "ex": "A cunning plan",
+   "exko": "교활한 계획",
+   "use": [
+    [
+     "Cunning as a fox",
+     "여우처럼 교활한"
+    ],
+    [
+     "Cunning and clever",
+     "교활하고 영리한"
+    ]
+   ],
+   "mcq": [
+    "The villain came up a cunning plan with.",
+    "The villain came up with cunning a plan.",
+    "The villain came up with a cunning plan.",
+    "The villain come up with a cunning plan yesterday."
+   ],
+   "ans": 2,
+   "note": "cunning = 꾀가 많은, 교활한. come up with = (계획을) 생각해 내다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "meek",
+   "ko": "온순한, 고분고분한",
+   "ex": "He's quiet and meek.",
+   "exko": "그는 조용하고 온순해요.",
+   "use": [
+    [
+     "Meek and mild",
+     "순하고 얌전한"
+    ],
+    [
+     "A meek voice",
+     "기어들어가는 목소리"
+    ]
+   ],
+   "mcq": [
+    "She seemed meek, but she stood up to her boss.",
+    "She seemed meek, but she stand up to her boss.",
+    "She seemed meekly, but she stood up to her boss.",
+    "She seemed meek, but she stood up her boss to."
+   ],
+   "ans": 0,
+   "note": "meek = 조용하고 순종적인. stand up to N = ~에게 맞서다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "balance",
+   "ko": "잔액",
+   "ex": "Check your balance",
+   "exko": "잔액을 확인하다",
+   "use": [
+    [
+     "Low balance",
+     "잔액 부족"
+    ],
+    [
+     "Remaining balance",
+     "남은 금액"
+    ]
+   ],
+   "mcq": [
+    "I checked my balance in app the.",
+    "I checked my balance on the app.",
+    "I check my balance on the app yesterday.",
+    "I checked my balances on the app."
+   ],
+   "ans": 1,
+   "note": "balance = 잔액. account balance. pay the balance = 잔금을 내다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "credit card",
+   "ko": "신용카드",
+   "ex": "Can I pay by credit card?",
+   "exko": "신용카드로 결제돼요?",
+   "use": [
+    [
+     "Max out a credit card",
+     "카드 한도를 다 쓰다"
+    ],
+    [
+     "Credit card bill",
+     "카드 대금"
+    ]
+   ],
+   "mcq": [
+    "Do you takes credit cards?",
+    "Do you take credit card?",
+    "Are you take credit cards?",
+    "Do you take credit cards?"
+   ],
+   "ans": 3,
+   "note": "Do you take credit cards? = 카드 받아요? pay by/with credit card.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "debit card",
+   "ko": "체크카드",
+   "ex": "I only use my debit card.",
+   "exko": "체크카드만 써요.",
+   "use": [
+    [
+     "Swipe your debit card",
+     "체크카드를 긁다"
+    ],
+    [
+     "Debit or credit?",
+     "체크예요, 신용이에요?"
+    ]
+   ],
+   "mcq": [
+    "I paid with debit my card.",
+    "I paid with my debit card.",
+    "I payed with my debit card.",
+    "I paid by my debit card with."
+   ],
+   "ans": 1,
+   "note": "debit card = 체크카드 (통장에서 바로 빠짐). 계산대에서 Debit or credit? 자주 물어요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "ATM",
+   "ko": "현금인출기",
+   "ex": "Is there an ATM nearby?",
+   "exko": "근처에 ATM 있어요?",
+   "use": [
+    [
+     "ATM fee",
+     "ATM 수수료"
+    ],
+    [
+     "Take money out of the ATM",
+     "ATM에서 돈을 뽑다"
+    ]
+   ],
+   "mcq": [
+    "I need stop at an ATM.",
+    "I need to stop on an ATM.",
+    "I need to stop at an ATM.",
+    "I need to stop at a ATM."
+   ],
+   "ans": 2,
+   "note": "ATM = 현금인출기. 발음이 모음(에이)으로 시작 → an ATM.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "PIN",
+   "ko": "비밀번호 (카드)",
+   "ex": "Enter your PIN.",
+   "exko": "비밀번호 입력하세요.",
+   "use": [
+    [
+     "Forget your PIN",
+     "비밀번호를 잊다"
+    ],
+    [
+     "PIN number",
+     "핀 번호"
+    ]
+   ],
+   "mcq": [
+    "Please entering your PIN and press OK.",
+    "Please enter PIN your and press OK.",
+    "Please enter your PIN and pressing OK.",
+    "Please enter your PIN and press OK."
+   ],
+   "ans": 3,
+   "note": "PIN = Personal Identification Number. 카드 비밀번호. PIN number도 흔히 씀.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "split the bill",
+   "ko": "나눠 내다, 더치페이하다",
+   "ex": "Let's split the bill.",
+   "exko": "나눠 내요.",
+   "use": [
+    [
+     "Split it three ways",
+     "셋이 나눠 내다"
+    ],
+    [
+     "Can we split the check?",
+     "따로 계산돼요?"
+    ]
+   ],
+   "mcq": [
+    "Do you wanting to split the bill?",
+    "Do you want to split a bill the?",
+    "Do you want split the bill?",
+    "Do you want to split the bill?"
+   ],
+   "ans": 3,
+   "note": "split the bill/check = 나눠 내다. Dutch pay는 콩글리시! go Dutch는 가능.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "cash",
+   "ko": "현금",
+   "ex": "Cash or card?",
+   "exko": "현금이에요, 카드예요?",
+   "use": [
+    [
+     "Pay in cash",
+     "현금으로 내다"
+    ],
+    [
+     "Cash only",
+     "현금만 받음"
+    ]
+   ],
+   "mcq": [
+    "Sorry, we only takes cash.",
+    "Sorry, we only take cashes.",
+    "Sorry, we take only a cash.",
+    "Sorry, we only take cash."
+   ],
+   "ans": 3,
+   "note": "cash = 현금 (셀 수 없음). pay in cash. Cash only 가게 많아요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "checking account",
+   "ko": "입출금 통장",
+   "ex": "Open a checking account",
+   "exko": "입출금 통장을 개설하다",
+   "use": [
+    [
+     "Checking vs savings",
+     "입출금 vs 저축"
+    ],
+    [
+     "Overdraw a checking account",
+     "통장 잔고를 초과 인출하다"
+    ]
+   ],
+   "mcq": [
+    "I'd like to open a checking account.",
+    "I'd like open a checking account.",
+    "I'd like to open a checking account at.",
+    "I like to open a checking account, please would."
+   ],
+   "ans": 0,
+   "note": "checking account = 입출금 통장(미국). savings account = 적금·저축 통장.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "wire transfer",
+   "ko": "송금, 계좌이체",
+   "ex": "Send a wire transfer",
+   "exko": "송금하다",
+   "use": [
+    [
+     "Wire transfer fee",
+     "송금 수수료"
+    ],
+    [
+     "International wire",
+     "해외 송금"
+    ]
+   ],
+   "mcq": [
+    "I sent the deposit by a wire transfers.",
+    "I sent the deposit by wire transfer.",
+    "I sent the deposit with wire transfer by.",
+    "I sended the deposit by wire transfer."
+   ],
+   "ans": 1,
+   "note": "wire transfer = (은행) 송금. wire money = 돈을 송금하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "exchange rate",
+   "ko": "환율",
+   "ex": "What's the exchange rate?",
+   "exko": "환율이 얼마예요?",
+   "use": [
+    [
+     "A good exchange rate",
+     "좋은 환율"
+    ],
+    [
+     "The exchange rate went up.",
+     "환율이 올랐어요."
+    ]
+   ],
+   "mcq": [
+    "The exchange rate are better at the bank.",
+    "The exchange rate is better in bank the.",
+    "The exchange rate is gooder at the bank.",
+    "The exchange rate is better at the bank."
+   ],
+   "ans": 3,
+   "note": "exchange rate = 환율. exchange money = 환전하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "loan",
+   "ko": "대출",
+   "ex": "Take out a loan",
+   "exko": "대출을 받다",
+   "use": [
+    [
+     "Pay off a loan",
+     "대출을 다 갚다"
+    ],
+    [
+     "Student loan",
+     "학자금 대출"
+    ]
+   ],
+   "mcq": [
+    "I took out a loan for buy a car.",
+    "I taked out a loan to buy a car.",
+    "I took out a loan to buy a car.",
+    "I took a loan out to buy car a."
+   ],
+   "ans": 2,
+   "note": "take out a loan = 대출받다. pay off = 다 갚다. student loan = 학자금 대출.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "bank statement",
+   "ko": "은행 거래내역서",
+   "ex": "Print a bank statement",
+   "exko": "거래내역서를 뽑다",
+   "use": [
+    [
+     "Monthly bank statement",
+     "월간 거래내역서"
+    ],
+    [
+     "Proof of funds",
+     "잔고 증명"
+    ]
+   ],
+   "mcq": [
+    "They asked for my last three bank statements.",
+    "They ask for my last three bank statements yesterday.",
+    "They asked for my last three bank statement.",
+    "They asked my last three bank statements for."
+   ],
+   "ans": 0,
+   "note": "bank statement = 계좌 거래내역서. 비자·임대 신청할 때 자주 요구해요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "transaction",
+   "ko": "거래 (내역)",
+   "ex": "Declined transaction",
+   "exko": "거절된 결제",
+   "use": [
+    [
+     "Recent transactions",
+     "최근 거래 내역"
+    ],
+    [
+     "Transaction fee",
+     "거래 수수료"
+    ]
+   ],
+   "mcq": [
+    "There are a transaction I don't recognize.",
+    "There's a transaction I'm not recognize.",
+    "There's transaction a I don't recognize.",
+    "There's a transaction I don't recognize."
+   ],
+   "ans": 3,
+   "note": "transaction = 결제/거래 한 건. I don't recognize this charge = 이 결제 기억에 없어요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "overdue",
+   "ko": "기한이 지난, 연체된",
+   "ex": "The rent is overdue.",
+   "exko": "월세가 밀렸어요.",
+   "use": [
+    [
+     "Overdue bills",
+     "연체된 청구서"
+    ],
+    [
+     "Long overdue",
+     "진작 했어야 할"
+    ]
+   ],
+   "mcq": [
+    "My phone bill is two week overdue.",
+    "My phone bill are two weeks overdue.",
+    "My phone bill is overdue two weeks it.",
+    "My phone bill is two weeks overdue."
+   ],
+   "ans": 3,
+   "note": "overdue = 기한이 지난. long overdue = 이미 한참 늦은 (진작 했어야 할).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tax return",
+   "ko": "세금 신고(서)",
+   "ex": "File a tax return",
+   "exko": "세금 신고를 하다",
+   "use": [
+    [
+     "Tax return deadline",
+     "세금 신고 마감"
+    ],
+    [
+     "Get a tax refund",
+     "세금 환급을 받다"
+    ]
+   ],
+   "mcq": [
+    "I have to filing my tax return by April.",
+    "I have to file my tax return by April.",
+    "I have to file my tax return until April.",
+    "I has to file my tax return by April."
+   ],
+   "ans": 1,
+   "note": "tax return = 세금 신고서. file = 제출하다. by = ~까지 (마감).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "savings account",
+   "ko": "저축 통장",
+   "ex": "Put money in a savings account",
+   "exko": "저축 통장에 돈을 넣다",
+   "use": [
+    [
+     "High-interest savings account",
+     "고금리 저축 계좌"
+    ],
+    [
+     "Emergency savings",
+     "비상금"
+    ]
+   ],
+   "mcq": [
+    "I move some moneys to my savings account every month.",
+    "I move some money to my saving account every month.",
+    "I move some money to my savings account every month.",
+    "I moves some money to my savings account every month."
+   ],
+   "ans": 2,
+   "note": "savings account (savings에 s!). savings = 저축한 돈.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "penny",
+   "ko": "1센트, 한 푼",
+   "ex": "I saved every penny.",
+   "exko": "한 푼도 안 쓰고 다 모았어요.",
+   "use": [
+    [
+     "A penny for your thoughts",
+     "무슨 생각해?"
+    ],
+    [
+     "Pinch pennies",
+     "절약하다"
+    ]
+   ],
+   "mcq": [
+    "It worth every penny.",
+    "It was worth every pennies.",
+    "It was worth every penny.",
+    "It was worthy every penny."
+   ],
+   "ans": 2,
+   "note": "penny = 1센트 동전. worth every penny = 돈이 하나도 안 아까운.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "coins",
+   "ko": "동전",
+   "ex": "Do you have any coins?",
+   "exko": "동전 있어요?",
+   "use": [
+    [
+     "Coins for parking",
+     "주차용 동전"
+    ],
+    [
+     "Flip a coin",
+     "동전을 던지다"
+    ]
+   ],
+   "mcq": [
+    "I need a some coins for the laundry machine.",
+    "I needs some coins for the laundry machine.",
+    "I need some coins for the laundry machine.",
+    "I need some coin for the laundry machine."
+   ],
+   "ans": 2,
+   "note": "coin = 동전. flip/toss a coin = 동전 던지기. quarter = 25센트.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "pay stub",
+   "ko": "급여 명세서",
+   "ex": "Show your pay stubs",
+   "exko": "급여 명세서를 보여주다",
+   "use": [
+    [
+     "Recent pay stubs",
+     "최근 급여 명세서"
+    ],
+    [
+     "Proof of income",
+     "소득 증빙"
+    ]
+   ],
+   "mcq": [
+    "The landlord asked for two recent pay stub.",
+    "The landlord ask for two recent pay stubs yesterday.",
+    "The landlord asked for two recent pay stubs.",
+    "The landlord asked two recent pay stubs for."
+   ],
+   "ans": 2,
+   "note": "pay stub = 급여 명세서(미국). 집 구할 때 소득 증빙으로 자주 요구.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "down payment",
+   "ko": "계약금, 착수금",
+   "ex": "Make a down payment",
+   "exko": "계약금을 내다",
+   "use": [
+    [
+     "20% down",
+     "20% 선금"
+    ],
+    [
+     "Save for a down payment",
+     "계약금을 모으다"
+    ]
+   ],
+   "mcq": [
+    "We're saving for a down payment on a house.",
+    "We saving for a down payment on a house.",
+    "We're saving to a down payment on a house.",
+    "We're saving for a down payment of a house on."
+   ],
+   "ans": 0,
+   "note": "down payment = 집·차 살 때 처음에 내는 목돈. a down payment on N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "clinic",
+   "ko": "의원, 진료소",
+   "ex": "Walk-in clinic",
+   "exko": "예약 없이 가는 의원",
+   "use": [
+    [
+     "Dental clinic",
+     "치과"
+    ],
+    [
+     "Go to the clinic",
+     "병원에 가다"
+    ]
+   ],
+   "mcq": [
+    "There's a walk-in clinic near of my office.",
+    "There's walk-in a clinic near my office.",
+    "There are a walk-in clinic near my office.",
+    "There's a walk-in clinic near my office."
+   ],
+   "ans": 3,
+   "note": "clinic = 작은 병원·의원. walk-in clinic = 예약 없이 가는 곳.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "ER",
+   "ko": "응급실",
+   "ex": "Go to the ER",
+   "exko": "응급실에 가다",
+   "use": [
+    [
+     "ER doctor",
+     "응급실 의사"
+    ],
+    [
+     "Wait in the ER",
+     "응급실에서 대기하다"
+    ]
+   ],
+   "mcq": [
+    "We had to take him to a ER last night.",
+    "We have to take him to the ER last night.",
+    "We had to take him to the ER last night.",
+    "We had to take him to ER the last night."
+   ],
+   "ans": 2,
+   "note": "ER = emergency room (응급실). 영국은 A&E. 발음 이-알.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "copay",
+   "ko": "본인 부담금",
+   "ex": "What's my copay?",
+   "exko": "본인 부담금이 얼마예요?",
+   "use": [
+    [
+     "A $20 copay",
+     "20달러 본인 부담금"
+    ],
+    [
+     "Pay the copay",
+     "본인 부담금을 내다"
+    ]
+   ],
+   "mcq": [
+    "My copay for a doctor's visit is $25.",
+    "My copay for a doctor visit's is $25.",
+    "My copay of a doctor's visit is $25 for.",
+    "My copay for a doctor's visit are $25."
+   ],
+   "ans": 0,
+   "note": "copay = 진료 때 내가 내는 정액 부담금 (미국 보험).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "diagnosis",
+   "ko": "진단",
+   "ex": "Get a diagnosis",
+   "exko": "진단을 받다",
+   "use": [
+    [
+     "Early diagnosis",
+     "조기 진단"
+    ],
+    [
+     "Second opinion",
+     "다른 의사 소견"
+    ]
+   ],
+   "mcq": [
+    "The doctor gave me a clear diagnosis.",
+    "The doctor gave to me a clear diagnosis.",
+    "The doctor give me a clear diagnosis yesterday.",
+    "The doctor gave me a clear diagnose."
+   ],
+   "ans": 0,
+   "note": "diagnosis = 진단(명사, 복수 diagnoses). 동사 diagnose.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "X-ray",
+   "ko": "엑스레이",
+   "ex": "Get an X-ray",
+   "exko": "엑스레이를 찍다",
+   "use": [
+    [
+     "Chest X-ray",
+     "흉부 엑스레이"
+    ],
+    [
+     "The X-ray showed a fracture.",
+     "엑스레이에 골절이 보였어요."
+    ]
+   ],
+   "mcq": [
+    "The doctor wants me to get a X-ray.",
+    "The doctor wants me get an X-ray.",
+    "The doctor want me to get an X-ray.",
+    "The doctor wants me to get an X-ray."
+   ],
+   "ans": 3,
+   "note": "get/have an X-ray = 엑스레이 찍다 (an! 엑스는 모음 발음).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "blood test",
+   "ko": "피검사",
+   "ex": "Do a blood test",
+   "exko": "피검사를 하다",
+   "use": [
+    [
+     "Blood test results",
+     "피검사 결과"
+    ],
+    [
+     "Fasting blood test",
+     "공복 피검사"
+    ]
+   ],
+   "mcq": [
+    "Don't eat nothing before your blood test.",
+    "Not eat anything before your blood test.",
+    "Don't eat anything before your blood test.",
+    "Don't eating anything before your blood test."
+   ],
+   "ans": 2,
+   "note": "blood test = 피검사. fasting = 공복. Don't + anything (nothing X, 이중부정).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "shot",
+   "ko": "주사, 예방접종",
+   "ex": "Flu shot",
+   "exko": "독감 주사",
+   "use": [
+    [
+     "Get a shot",
+     "주사를 맞다"
+    ],
+    [
+     "Booster shot",
+     "추가 접종"
+    ]
+   ],
+   "mcq": [
+    "I get my flu shot yesterday.",
+    "I got flu my shot yesterday.",
+    "I got my flu shot yesterday.",
+    "I got my flu shot at yesterday."
+   ],
+   "ans": 2,
+   "note": "shot = 주사(구어). get a shot. injection/vaccine은 격식.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dosage",
+   "ko": "복용량",
+   "ex": "Check the dosage",
+   "exko": "복용량을 확인하다",
+   "use": [
+    [
+     "Recommended dosage",
+     "권장 복용량"
+    ],
+    [
+     "Increase the dosage",
+     "복용량을 늘리다"
+    ]
+   ],
+   "mcq": [
+    "Don't take more than the recommended dosage.",
+    "Don't take more than recommended the dosage.",
+    "Don't taking more than the recommended dosage.",
+    "Don't take more then the recommended dosage."
+   ],
+   "ans": 0,
+   "note": "dosage = 복용량. dose = 1회 분량. than (then X).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "side effect",
+   "ko": "부작용",
+   "ex": "Side effects",
+   "exko": "부작용",
+   "use": [
+    [
+     "Any side effects?",
+     "부작용 있어요?"
+    ],
+    [
+     "Mild side effects",
+     "가벼운 부작용"
+    ]
+   ],
+   "mcq": [
+    "This medicine can cause drowsiness as a side effect.",
+    "This medicine can cause drowsiness like a side effect.",
+    "This medicine can causes drowsiness as a side effect.",
+    "This medicine can cause drowsy as a side effect."
+   ],
+   "ans": 0,
+   "note": "side effect = 부작용 (보통 복수 side effects). drowsiness = 졸음.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "over-the-counter",
+   "ko": "처방전 없이 살 수 있는",
+   "ex": "Over-the-counter medicine",
+   "exko": "일반 의약품",
+   "use": [
+    [
+     "OTC",
+     "일반약 (약자)"
+    ],
+    [
+     "Buy it over the counter",
+     "처방 없이 사다"
+    ]
+   ],
+   "mcq": [
+    "You can buy this painkiller on the counter over.",
+    "You can buy this painkiller over a counter the.",
+    "You can buying this painkiller over the counter.",
+    "You can buy this painkiller over the counter."
+   ],
+   "ans": 3,
+   "note": "over-the-counter (OTC) = 처방전 없이 사는 약. 반대는 prescription drug.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "urgent care",
+   "ko": "긴급 진료소",
+   "ex": "Go to urgent care",
+   "exko": "긴급 진료소에 가다",
+   "use": [
+    [
+     "Urgent care clinic",
+     "긴급 진료 의원"
+    ],
+    [
+     "Not an emergency",
+     "응급까지는 아닌"
+    ]
+   ],
+   "mcq": [
+    "It's not an emergency, so let's go to urgent care.",
+    "It's not an emergency, so let's going to urgent care.",
+    "It's not a emergency, so let's go to urgent care.",
+    "It's not an emergency, so let's go urgent care to."
+   ],
+   "ans": 0,
+   "note": "urgent care = 응급실(ER)보다 가볍고 빠른 진료소 (미국).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "waiting room",
+   "ko": "대기실",
+   "ex": "Wait in the waiting room",
+   "exko": "대기실에서 기다리다",
+   "use": [
+    [
+     "A crowded waiting room",
+     "붐비는 대기실"
+    ],
+    [
+     "Take a seat",
+     "앉으세요"
+    ]
+   ],
+   "mcq": [
+    "Please having a seat in the waiting room.",
+    "Please have seat in the waiting room.",
+    "Please have a seat at the waiting room in.",
+    "Please have a seat in the waiting room."
+   ],
+   "ans": 3,
+   "note": "waiting room = 대기실. Please have a seat = 앉으세요 (정중).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "nurse practitioner",
+   "ko": "전문 간호사 (NP)",
+   "ex": "See a nurse practitioner",
+   "exko": "전문 간호사에게 진료받다",
+   "use": [
+    [
+     "NP",
+     "전문 간호사 (약자)"
+    ],
+    [
+     "Physician assistant (PA)",
+     "의사 보조"
+    ]
+   ],
+   "mcq": [
+    "Today you'll seeing our nurse practitioner instead of the doctor.",
+    "Today you'll see our nurse practitioner instead of the doctor.",
+    "Today you'll see our nurse practitioner instead the doctor.",
+    "Today you see will our nurse practitioner instead of the doctor."
+   ],
+   "ans": 1,
+   "note": "nurse practitioner (NP) = 처방도 가능한 전문 간호사 (미국). instead of N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "pharmacist",
+   "ko": "약사",
+   "ex": "Ask the pharmacist",
+   "exko": "약사에게 물어보다",
+   "use": [
+    [
+     "Talk to a pharmacist",
+     "약사와 상담하다"
+    ],
+    [
+     "Pharmacy (장소)",
+     "약국"
+    ]
+   ],
+   "mcq": [
+    "The pharmacist telled me to take it with food.",
+    "The pharmacist told me take it with food.",
+    "The pharmacist told to me to take it with food.",
+    "The pharmacist told me to take it with food."
+   ],
+   "ans": 3,
+   "note": "pharmacist = 약사 (사람). pharmacy = 약국 (장소). tell 사람 to V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "referral",
+   "ko": "의뢰서, 소개",
+   "ex": "Get a referral",
+   "exko": "의뢰서를 받다",
+   "use": [
+    [
+     "Referral to a specialist",
+     "전문의 의뢰"
+    ],
+    [
+     "Referral bonus",
+     "추천 보너스"
+    ]
+   ],
+   "mcq": [
+    "I need a referral to see a specialist.",
+    "I needs a referral to see a specialist.",
+    "I need a referral for see a specialist.",
+    "I need referral a to see a specialist."
+   ],
+   "ans": 0,
+   "note": "referral = (전문의 등으로의) 의뢰서 / 추천. refer 사람 to N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "follow-up visit",
+   "ko": "재진, 경과 진료",
+   "ex": "Schedule a follow-up visit",
+   "exko": "재진 예약을 잡다",
+   "use": [
+    [
+     "Follow-up appointment",
+     "경과 확인 예약"
+    ],
+    [
+     "Follow up (동사)",
+     "후속 조치하다"
+    ]
+   ],
+   "mcq": [
+    "Let's schedule follow-up a visit in two weeks.",
+    "Let's scheduling a follow-up visit in two weeks.",
+    "Let's schedule a follow-up visit after two weeks in.",
+    "Let's schedule a follow-up visit in two weeks."
+   ],
+   "ans": 3,
+   "note": "follow-up visit = 경과를 보러 다시 오는 진료. in two weeks = 2주 후에.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sick note",
+   "ko": "진단서 (병가용)",
+   "ex": "Get a sick note",
+   "exko": "병가용 진단서를 받다",
+   "use": [
+    [
+     "Doctor's note",
+     "의사 소견서"
+    ],
+    [
+     "Call in sick",
+     "병가를 내다"
+    ]
+   ],
+   "mcq": [
+    "My boss asked me for a doctor's note.",
+    "My boss asked me a doctor's note for.",
+    "My boss ask me for a doctor's note yesterday.",
+    "My boss asked to me for a doctor's note."
+   ],
+   "ans": 0,
+   "note": "sick note(영) = doctor's note(미) = 병가 증빙. call in sick = 아파서 결근 연락하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "thermometer",
+   "ko": "체온계, 온도계",
+   "ex": "Use a thermometer",
+   "exko": "체온계를 쓰다",
+   "use": [
+    [
+     "Take your temperature",
+     "체온을 재다"
+    ],
+    [
+     "Digital thermometer",
+     "디지털 체온계"
+    ]
+   ],
+   "mcq": [
+    "Let me take your temperature with the thermometer.",
+    "Let me take your temperature by the thermometer with.",
+    "Let me take your temperatures with the thermometer.",
+    "Let me to take your temperature with the thermometer."
+   ],
+   "ans": 0,
+   "note": "thermometer = 체온계/온도계. take someone's temperature = 체온을 재다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "cough syrup",
+   "ko": "기침 시럽",
+   "ex": "Take cough syrup",
+   "exko": "기침 시럽을 먹다",
+   "use": [
+    [
+     "Cough drops",
+     "기침 사탕"
+    ],
+    [
+     "A spoonful of cough syrup",
+     "기침 시럽 한 숟가락"
+    ]
+   ],
+   "mcq": [
+    "This cough syrup might make you sleepily.",
+    "This cough syrup might make sleepy you.",
+    "This cough syrup might make you sleepy.",
+    "This cough syrup might makes you sleepy."
+   ],
+   "ans": 2,
+   "note": "cough syrup = 물약 기침약. cough drop = 목캔디. make 사람 + 형용사.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "checkup",
+   "ko": "건강검진, 정기 검진",
+   "ex": "Annual checkup",
+   "exko": "연례 건강검진",
+   "use": [
+    [
+     "Go for a checkup",
+     "검진 받으러 가다"
+    ],
+    [
+     "Dental checkup",
+     "치과 검진"
+    ]
+   ],
+   "mcq": [
+    "I go to checkup once a year.",
+    "I go for a checkup once in a year a.",
+    "I goes for a checkup once a year.",
+    "I go for a checkup once a year."
+   ],
+   "ans": 3,
+   "note": "checkup = 정기 검진. go for / have a checkup. once a year = 1년에 한 번.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "lease",
+   "ko": "임대 계약(서)",
+   "ex": "Sign a lease",
+   "exko": "임대 계약서에 서명하다",
+   "use": [
+    [
+     "A one-year lease",
+     "1년 계약"
+    ],
+    [
+     "Break a lease",
+     "계약을 중도 해지하다"
+    ]
+   ],
+   "mcq": [
+    "We signed a one-year lease.",
+    "We sign a one-year lease last month.",
+    "We signed a one-years lease.",
+    "We signed one-year a lease."
+   ],
+   "ans": 0,
+   "note": "lease = 임대 계약. sign/break a lease. one-year (하이픈 형용사는 단수).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tenant",
+   "ko": "세입자",
+   "ex": "A good tenant",
+   "exko": "좋은 세입자",
+   "use": [
+    [
+     "Tenant rights",
+     "세입자 권리"
+    ],
+    [
+     "Previous tenant",
+     "이전 세입자"
+    ]
+   ],
+   "mcq": [
+    "The previous tenant leaved the place really clean.",
+    "The previous tenant left the place really clean.",
+    "The previous tenant left place the really clean.",
+    "The previous tenant left the place really cleanly."
+   ],
+   "ans": 1,
+   "note": "tenant = 세입자. landlord = 집주인. leave 장소 + 형용사 = ~한 상태로 두다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "security deposit",
+   "ko": "보증금",
+   "ex": "Pay a security deposit",
+   "exko": "보증금을 내다",
+   "use": [
+    [
+     "Get your deposit back",
+     "보증금을 돌려받다"
+    ],
+    [
+     "One month's rent as deposit",
+     "한 달치 월세 보증금"
+    ]
+   ],
+   "mcq": [
+    "I got my security deposit back when I move out last year.",
+    "I got my security deposit back when I moved out.",
+    "I getted my security deposit back when I moved out.",
+    "I got back my security deposit when I moved out of."
+   ],
+   "ans": 1,
+   "note": "security deposit = 보증금. get N back = 돌려받다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "utilities",
+   "ko": "공과금 (전기·수도·가스)",
+   "ex": "Utilities included",
+   "exko": "공과금 포함",
+   "use": [
+    [
+     "Pay the utilities",
+     "공과금을 내다"
+    ],
+    [
+     "Utility bill",
+     "공과금 고지서"
+    ]
+   ],
+   "mcq": [
+    "Does the rent includes utilities?",
+    "Is the rent include utilities?",
+    "Does the rent include utility's?",
+    "Does the rent include utilities?"
+   ],
+   "ans": 3,
+   "note": "utilities = 전기·수도·가스 등 공과금. Are utilities included? = 공과금 포함인가요?",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "studio",
+   "ko": "원룸",
+   "ex": "A studio apartment",
+   "exko": "원룸 아파트",
+   "use": [
+    [
+     "Rent a studio",
+     "원룸을 빌리다"
+    ],
+    [
+     "One-bedroom",
+     "방 한 개짜리"
+    ]
+   ],
+   "mcq": [
+    "I live at a small studio downtown.",
+    "I live in a small studio at downtown.",
+    "I live in a small studio downtown.",
+    "I lives in a small studio downtown."
+   ],
+   "ans": 2,
+   "note": "studio (apartment) = 원룸. one-room은 콩글리시! downtown 앞에 전치사 없음.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "furnished",
+   "ko": "가구가 딸린",
+   "ex": "Fully furnished",
+   "exko": "가구 완비",
+   "use": [
+    [
+     "Unfurnished",
+     "가구 없는"
+    ],
+    [
+     "A furnished apartment",
+     "가구 딸린 아파트"
+    ]
+   ],
+   "mcq": [
+    "Is the apartment furnished?",
+    "Is the apartment furnish?",
+    "Does the apartment furnished?",
+    "Is the apartment furnishing?"
+   ],
+   "ans": 0,
+   "note": "furnished = 가구가 딸린 (풀옵션). unfurnished = 빈 집.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sublet",
+   "ko": "전대하다, 재임대",
+   "ex": "Sublet my apartment",
+   "exko": "내 집을 전대하다",
+   "use": [
+    [
+     "A summer sublet",
+     "여름 단기 재임대"
+    ],
+    [
+     "Ask the landlord first",
+     "집주인에게 먼저 묻다"
+    ]
+   ],
+   "mcq": [
+    "I subletting my room while I'm abroad.",
+    "I'm subletting my room while I'm abroad.",
+    "I'm subletting my room while I'm at abroad.",
+    "I'm subleting my room while I'm abroad."
+   ],
+   "ans": 1,
+   "note": "sublet = 내가 빌린 집을 다시 남에게 빌려주다. 진행형 subletting (t 두 개).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "move in",
+   "ko": "입주하다",
+   "ex": "Move in next week",
+   "exko": "다음 주에 입주하다",
+   "use": [
+    [
+     "Move-in date",
+     "입주 날짜"
+    ],
+    [
+     "Move in together",
+     "동거를 시작하다"
+    ]
+   ],
+   "mcq": [
+    "When can I move in?",
+    "When can I moving in?",
+    "When can I move?",
+    "When I can move in?"
+   ],
+   "ans": 0,
+   "note": "move in = 이사 들어오다. move-in date (명사 앞 하이픈).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "move out",
+   "ko": "이사 나가다",
+   "ex": "Move out of my parents' house",
+   "exko": "부모님 집에서 독립하다",
+   "use": [
+    [
+     "Move-out date",
+     "퇴거 날짜"
+    ],
+    [
+     "Move-out inspection",
+     "퇴거 점검"
+    ]
+   ],
+   "mcq": [
+    "I'm moving out at end of the month the.",
+    "I'm moving out at the end of the month.",
+    "I'm moving out in the end of the month.",
+    "I'm move out at the end of the month."
+   ],
+   "ans": 1,
+   "note": "move out (of N) = 이사 나가다. at the end of the month = 월말에.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "leak",
+   "ko": "새다, 누수",
+   "ex": "The faucet is leaking.",
+   "exko": "수도꼭지가 새요.",
+   "use": [
+    [
+     "A roof leak",
+     "지붕 누수"
+    ],
+    [
+     "Leak information",
+     "정보를 유출하다"
+    ]
+   ],
+   "mcq": [
+    "There's a leak under the kitchen sink it.",
+    "There's leak a under the kitchen sink.",
+    "There's a leak under the kitchen sink.",
+    "There are a leak under the kitchen sink."
+   ],
+   "ans": 2,
+   "note": "leak = 새다(동사)/누수(명사). 정보 유출에도 써요.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "plumber",
+   "ko": "배관공",
+   "ex": "Call a plumber",
+   "exko": "배관공을 부르다",
+   "use": [
+    [
+     "Emergency plumber",
+     "긴급 배관공"
+    ],
+    [
+     "Plumbing (명사)",
+     "배관"
+    ]
+   ],
+   "mcq": [
+    "We need to call plumber a about the toilet.",
+    "We need to call a plumber for the toilet about.",
+    "We need to call a plumber about the toilet.",
+    "We need call a plumber about the toilet."
+   ],
+   "ans": 2,
+   "note": "plumber = 배관공 (b 묵음: 플러머). plumbing = 배관 설비.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "walkable",
+   "ko": "걸어 다니기 좋은",
+   "ex": "A walkable neighborhood",
+   "exko": "걸어 다니기 좋은 동네",
+   "use": [
+    [
+     "Walkable to the subway",
+     "지하철까지 걸어갈 수 있는"
+    ],
+    [
+     "Walking distance",
+     "걸어갈 만한 거리"
+    ]
+   ],
+   "mcq": [
+    "The area is really walkable, so I'm not need a car.",
+    "The area is really walkable, so I don't need a car.",
+    "The area is really walkably, so I don't need a car.",
+    "The area really walkable, so I don't need a car."
+   ],
+   "ans": 1,
+   "note": "walkable = 걸어서 다니기 편한. within walking distance = 걸어갈 수 있는 거리.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "rent control",
+   "ko": "임대료 상한제",
+   "ex": "A rent-controlled apartment",
+   "exko": "임대료 통제 아파트",
+   "use": [
+    [
+     "Rent control laws",
+     "임대료 상한법"
+    ],
+    [
+     "Rent increase",
+     "월세 인상"
+    ]
+   ],
+   "mcq": [
+    "Rent control limits how many the landlord can raise the rent.",
+    "Rent control limits how much can the landlord raise the rent.",
+    "Rent control limit how much the landlord can raise the rent.",
+    "Rent control limits how much the landlord can raise the rent."
+   ],
+   "ans": 3,
+   "note": "rent control = 임대료 인상을 제한하는 제도 (뉴욕·LA). 간접의문문 어순: how much S can V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "lease renewal",
+   "ko": "계약 갱신",
+   "ex": "Lease renewal",
+   "exko": "계약 갱신",
+   "use": [
+    [
+     "Renew the lease",
+     "계약을 갱신하다"
+    ],
+    [
+     "Renewal notice",
+     "갱신 안내"
+    ]
+   ],
+   "mcq": [
+    "I got a lease renewal letter with 5% a rent increase.",
+    "I get a lease renewal letter with a 5% rent increase yesterday.",
+    "I got a lease renewal letter with a 5% rent increase.",
+    "I got a lease renewal letter of a 5% rent increase with."
+   ],
+   "ans": 2,
+   "note": "renew = 갱신하다, renewal = 갱신. a 5% rent increase.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "open house",
+   "ko": "오픈 하우스 (집 공개 관람)",
+   "ex": "Go to an open house",
+   "exko": "오픈 하우스에 가다",
+   "use": [
+    [
+     "Open house on Sunday",
+     "일요일 집 공개"
+    ],
+    [
+     "Viewing",
+     "집 보기"
+    ]
+   ],
+   "mcq": [
+    "There's an open house this Sunday from 1 until to 4.",
+    "There's a open house this Sunday from 1 to 4.",
+    "There's an open house on this Sunday from 1 to 4.",
+    "There's an open house this Sunday from 1 to 4."
+   ],
+   "ans": 3,
+   "note": "open house = 매물 공개 관람. this Sunday 앞엔 전치사 없음.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "realtor",
+   "ko": "부동산 중개인",
+   "ex": "Find a realtor",
+   "exko": "중개인을 구하다",
+   "use": [
+    [
+     "Real estate agent",
+     "부동산 중개인"
+    ],
+    [
+     "Broker fee",
+     "중개 수수료"
+    ]
+   ],
+   "mcq": [
+    "Our realtor showed to us five apartments today.",
+    "Our realtor showed us five apartments today.",
+    "Our realtor show us five apartments yesterday.",
+    "Our realtor showed us five apartment today."
+   ],
+   "ans": 1,
+   "note": "realtor = 부동산 중개인 (미국). real estate agent도 같은 뜻.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "square feet",
+   "ko": "평방피트 (면적)",
+   "ex": "800 square feet",
+   "exko": "800평방피트",
+   "use": [
+    [
+     "How many square feet?",
+     "몇 평방피트예요?"
+    ],
+    [
+     "sq ft",
+     "평방피트 (약자)"
+    ]
+   ],
+   "mcq": [
+    "The apartment are about 700 square feet.",
+    "The apartment is about 700 square foots.",
+    "The apartment is about 700 square feet.",
+    "The apartment is about 700 squares feet."
+   ],
+   "ans": 2,
+   "note": "square feet (sq ft) = 미국 면적 단위. 1평 ≈ 35.6 sq ft. foot의 복수 feet.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "mover",
+   "ko": "이삿짐 업체 (직원)",
+   "ex": "Hire movers",
+   "exko": "이삿짐센터를 부르다",
+   "use": [
+    [
+     "Moving company",
+     "이사 업체"
+    ],
+    [
+     "Moving day",
+     "이삿날"
+    ]
+   ],
+   "mcq": [
+    "We hired movers because we have so much stuffs.",
+    "We hired movers because we have so many stuff.",
+    "We hired movers because we have so much stuff.",
+    "We hire movers because we have so much stuff last week."
+   ],
+   "ans": 2,
+   "note": "movers = 이삿짐 옮기는 사람들. stuff는 셀 수 없음 (much stuff).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "doorman",
+   "ko": "도어맨, 건물 관리인",
+   "ex": "A doorman building",
+   "exko": "도어맨 있는 건물",
+   "use": [
+    [
+     "Leave it with the doorman",
+     "도어맨에게 맡기다"
+    ],
+    [
+     "Front desk",
+     "프런트"
+    ]
+   ],
+   "mcq": [
+    "The doorman can sign for your package's.",
+    "The doorman can sign for your packages.",
+    "The doorman can sign your packages for.",
+    "The doorman can signs for your packages."
+   ],
+   "ans": 1,
+   "note": "doorman = 건물 입구 관리인. sign for a package = 택배를 대신 받다(서명).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "thermostat",
+   "ko": "온도 조절기",
+   "ex": "Turn up the thermostat",
+   "exko": "온도를 올리다",
+   "use": [
+    [
+     "Set the thermostat to 70",
+     "온도를 70도로 맞추다"
+    ],
+    [
+     "Smart thermostat",
+     "스마트 온도 조절기"
+    ]
+   ],
+   "mcq": [
+    "Can you turn down thermostat the a little?",
+    "Can you turning down the thermostat a little?",
+    "Can you turn down the thermostat a little?",
+    "Can you turn the thermostat a little down down?"
+   ],
+   "ans": 2,
+   "note": "thermostat = 실내 온도 조절기. turn up/down = 올리다/내리다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "awesome",
+   "ko": "끝내주는, 대박",
+   "ex": "That's awesome!",
+   "exko": "대박!",
+   "use": [
+    [
+     "Awesome, thanks!",
+     "좋아요, 고마워요!"
+    ],
+    [
+     "An awesome time",
+     "끝내주는 시간"
+    ]
+   ],
+   "mcq": [
+    "We had a awesome time at the concert.",
+    "We had an awesome time in the concert at.",
+    "We had an awesome time at the concert.",
+    "We have an awesome time at the concert yesterday."
+   ],
+   "ans": 2,
+   "note": "awesome = 아주 좋은 (구어). Awesome! 짧게 '좋아!'로 많이 씀.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "no way",
+   "ko": "말도 안 돼, 절대 안 돼",
+   "ex": "No way!",
+   "exko": "말도 안 돼!",
+   "use": [
+    [
+     "No way, José.",
+     "절대 안 돼 (장난)"
+    ],
+    [
+     "There's no way...",
+     "~일 리가 없어"
+    ]
+   ],
+   "mcq": [
+    "There's no way I eating that.",
+    "There's no way I'm eating that.",
+    "There's no way I'm eat that.",
+    "There no way I'm eating that."
+   ],
+   "ans": 1,
+   "note": "No way! = (놀람) 말도 안 돼 / (거절) 절대 안 해. There's no way S V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "for real",
+   "ko": "진짜로, 진심",
+   "ex": "For real?",
+   "exko": "진짜?",
+   "use": [
+    [
+     "I'm for real.",
+     "나 진심이야."
+    ],
+    [
+     "Are you for real?",
+     "너 제정신이야? / 진짜야?"
+    ]
+   ],
+   "mcq": [
+    "Wait, are you for really right now?",
+    "Wait, are you real for right now?",
+    "Wait, are you for real right now?",
+    "Wait, do you for real right now?"
+   ],
+   "ans": 2,
+   "note": "for real = 진짜로/진심으로. Are you for real? = 장난이지? (놀람·어이없음).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "legit",
+   "ko": "진짜, 제대로인, 합법적인",
+   "ex": "That's legit.",
+   "exko": "그거 진짜 괜찮다.",
+   "use": [
+    [
+     "Is this site legit?",
+     "이 사이트 믿을 만해?"
+    ],
+    [
+     "Legit good",
+     "진짜 맛있는/좋은"
+    ]
+   ],
+   "mcq": [
+    "This taco place is legit.",
+    "This taco place legit is.",
+    "This taco place is legitly.",
+    "This taco place are legit."
+   ],
+   "ans": 0,
+   "note": "legit = legitimate(합법적인)의 줄임. 구어로 '진짜 괜찮은/믿을 만한'.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "lowkey",
+   "ko": "은근히, 살짝",
+   "ex": "I'm lowkey tired.",
+   "exko": "은근 피곤해.",
+   "use": [
+    [
+     "Lowkey party",
+     "조촐한 파티"
+    ],
+    [
+     "Keep it lowkey",
+     "조용히 넘어가자"
+    ]
+   ],
+   "mcq": [
+    "I lowkey excited about the trip.",
+    "I'm lowkey excited for the trip about.",
+    "I'm lowkey excite about the trip.",
+    "I'm lowkey excited about the trip."
+   ],
+   "ans": 3,
+   "note": "lowkey = 은근히, 티 안 나게 (MZ 구어). low-key = 조촐한, 차분한.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "highkey",
+   "ko": "대놓고, 완전",
+   "ex": "I highkey love this song.",
+   "exko": "나 이 노래 완전 좋아.",
+   "use": [
+    [
+     "Highkey obsessed",
+     "대놓고 빠져 있는"
+    ],
+    [
+     "Lowkey vs highkey",
+     "은근 vs 대놓고"
+    ]
+   ],
+   "mcq": [
+    "I'm highkey want to quit my job.",
+    "I highkey want to quit my job.",
+    "I highkey want quit my job.",
+    "I highkey wants to quit my job."
+   ],
+   "ans": 1,
+   "note": "highkey = 대놓고, 완전 (lowkey의 반대, 구어).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "vibe",
+   "ko": "분위기, 느낌",
+   "ex": "Good vibes",
+   "exko": "좋은 분위기",
+   "use": [
+    [
+     "I like the vibe here.",
+     "여기 분위기 좋다."
+    ],
+    [
+     "Vibe with someone",
+     "~와 잘 맞다"
+    ]
+   ],
+   "mcq": [
+    "This cafe have a really chill vibe.",
+    "This cafe has a really chill vibe.",
+    "This cafe has really a chill vibe.",
+    "This cafe has a really chill vibes it."
+   ],
+   "ans": 1,
+   "note": "vibe = 분위기/느낌. good vibes only. vibe check = 분위기 점검.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sus",
+   "ko": "수상한",
+   "ex": "That's sus.",
+   "exko": "그거 수상한데.",
+   "use": [
+    [
+     "Kinda sus",
+     "좀 수상해"
+    ],
+    [
+     "Acting sus",
+     "수상하게 굴다"
+    ]
+   ],
+   "mcq": [
+    "He's acting kind of sussy today it.",
+    "He's acting kind of sus today.",
+    "He acting kind of sus today.",
+    "He's act kind of sus today."
+   ],
+   "ans": 1,
+   "note": "sus = suspicious(수상한)의 줄임 (게임 Among Us로 유행).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "lit",
+   "ko": "신나는, 대박인",
+   "ex": "The party was lit!",
+   "exko": "파티 완전 신났어!",
+   "use": [
+    [
+     "Get lit",
+     "신나게 놀다 (취하다)"
+    ],
+    [
+     "Lit up",
+     "불이 켜진"
+    ]
+   ],
+   "mcq": [
+    "Last night's show were lit.",
+    "Last night's show was lit.",
+    "Last night show's was lit.",
+    "Last night's show is lit yesterday."
+   ],
+   "ans": 1,
+   "note": "lit = (파티·공연이) 엄청 신나는 (구어). 원래 light의 과거형.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dope",
+   "ko": "멋진, 쩌는",
+   "ex": "That's dope.",
+   "exko": "그거 쩐다.",
+   "use": [
+    [
+     "Dope sneakers",
+     "멋진 운동화"
+    ],
+    [
+     "Pretty dope",
+     "꽤 멋진"
+    ]
+   ],
+   "mcq": [
+    "Your new jacket is dopely.",
+    "Your new jacket is dope.",
+    "You're new jacket is dope.",
+    "Your new jacket are dope."
+   ],
+   "ans": 1,
+   "note": "dope = 멋진 (힙합 구어). 원래 '마약'이란 뜻도 있으니 상황 주의.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "bummer",
+   "ko": "실망, 아쉬운 일",
+   "ex": "What a bummer!",
+   "exko": "아 아쉽다!",
+   "use": [
+    [
+     "That's a bummer.",
+     "그거 안됐다."
+    ],
+    [
+     "A total bummer",
+     "완전 아쉬운 일"
+    ]
+   ],
+   "mcq": [
+    "The concert got cancel? That's a bummer.",
+    "The concert got canceled? That a bummer.",
+    "The concert got canceled? That's bummer.",
+    "The concert got canceled? That's a bummer."
+   ],
+   "ans": 3,
+   "note": "bummer = 아쉽거나 실망스러운 일. That's a bummer = 아쉽다/안됐다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dude",
+   "ko": "친구, 야 (호칭)",
+   "ex": "Dude, what happened?",
+   "exko": "야, 무슨 일이야?",
+   "use": [
+    [
+     "Hey dude!",
+     "야 친구!"
+    ],
+    [
+     "Dude...",
+     "헐... (어이없음)"
+    ]
+   ],
+   "mcq": [
+    "Dude, you have to seeing this video.",
+    "Dude, you has to see this video.",
+    "Dude, you have see this video.",
+    "Dude, you have to see this video."
+   ],
+   "ans": 3,
+   "note": "dude = 친구·남자 (구어 호칭). 여자에게도 친한 사이면 씀.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "gonna",
+   "ko": "~할 거야 (going to)",
+   "ex": "I'm gonna be late.",
+   "exko": "나 늦을 것 같아.",
+   "use": [
+    [
+     "Gonna grab coffee",
+     "커피 사러 갈 거야"
+    ],
+    [
+     "What are you gonna do?",
+     "뭐 할 거야?"
+    ]
+   ],
+   "mcq": [
+    "I'm gonna calling you after work.",
+    "I'm gonna call you after work.",
+    "I gonna call you after work.",
+    "I'm gonna to call you after work."
+   ],
+   "ans": 1,
+   "note": "gonna = going to (말할 때만). be동사 꼭: I'm gonna V. 글로 쓸 땐 피하기.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "wanna",
+   "ko": "~하고 싶어 (want to)",
+   "ex": "Wanna grab lunch?",
+   "exko": "점심 먹을래?",
+   "use": [
+    [
+     "I don't wanna go.",
+     "가기 싫어."
+    ],
+    [
+     "Do you wanna come?",
+     "올래?"
+    ]
+   ],
+   "mcq": [
+    "Do you wanna to watch a movie tonight?",
+    "Are you wanna watch a movie tonight?",
+    "Do you wanna watch a movie tonight?",
+    "Do you wanna watching a movie tonight?"
+   ],
+   "ans": 2,
+   "note": "wanna = want to (구어). wanna 뒤엔 동사원형. 3인칭엔 못 씀 (He wanna X).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sorta",
+   "ko": "좀, 약간 (sort of)",
+   "ex": "I'm sorta busy.",
+   "exko": "좀 바빠.",
+   "use": [
+    [
+     "Sorta like...",
+     "약간 ~같은"
+    ],
+    [
+     "Kinda/sorta",
+     "좀, 어느 정도"
+    ]
+   ],
+   "mcq": [
+    "It's sorta hard to explain.",
+    "It sorta hard to explain.",
+    "It's sorta hard to explaining.",
+    "It's sorta hardly to explain."
+   ],
+   "ans": 0,
+   "note": "sorta = sort of = kinda (kind of) = 좀, 약간. 구어 전용.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "totally",
+   "ko": "완전, 전적으로",
+   "ex": "Totally!",
+   "exko": "완전!",
+   "use": [
+    [
+     "I totally forgot.",
+     "완전 까먹었어."
+    ],
+    [
+     "Totally agree",
+     "완전 동의해"
+    ]
+   ],
+   "mcq": [
+    "I totally forgot your birthday about. I'm so sorry!",
+    "I total forgot about your birthday. I'm so sorry!",
+    "I totally forget about your birthday yesterday. I'm so sorry!",
+    "I totally forgot about your birthday. I'm so sorry!"
+   ],
+   "ans": 3,
+   "note": "totally = 완전히. Totally! 한 단어로 '완전 그래!' 맞장구.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "basically",
+   "ko": "기본적으로, 그러니까 요약하면",
+   "ex": "Basically, it's done.",
+   "exko": "요약하면, 끝났어.",
+   "use": [
+    [
+     "It's basically free.",
+     "거의 공짜야."
+    ],
+    [
+     "Basically the same",
+     "사실상 똑같은"
+    ]
+   ],
+   "mcq": [
+    "So basically, we have to starting over.",
+    "So basically, we has to start over.",
+    "So basically, we have to start over.",
+    "So basic, we have to start over."
+   ],
+   "ans": 2,
+   "note": "basically = 쉽게 말해, 사실상. 원어민 말버릇 단골 (filler).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "honestly",
+   "ko": "솔직히",
+   "ex": "Honestly, I don't know.",
+   "exko": "솔직히 모르겠어.",
+   "use": [
+    [
+     "Honestly?",
+     "진심이야?"
+    ],
+    [
+     "To be honest (TBH)",
+     "솔직히 말하면"
+    ]
+   ],
+   "mcq": [
+    "Honestly, I didn't liked the movie.",
+    "Honestly, I not like the movie.",
+    "Honest, I didn't like the movie.",
+    "Honestly, I didn't like the movie."
+   ],
+   "ans": 3,
+   "note": "honestly = 솔직히. TBH = to be honest. 문장 맨 앞에 자주.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "no biggie",
+   "ko": "별거 아냐",
+   "ex": "No biggie.",
+   "exko": "별거 아냐.",
+   "use": [
+    [
+     "It's no biggie.",
+     "괜찮아, 큰일 아냐."
+    ],
+    [
+     "No big deal",
+     "별일 아냐"
+    ]
+   ],
+   "mcq": [
+    "You forgot? No biggie, I'll sending it again.",
+    "You forgot? No biggie, I send will it again.",
+    "You forgot? Not biggie, I'll send it again.",
+    "You forgot? No biggie, I'll send it again."
+   ],
+   "ans": 3,
+   "note": "no biggie = no big deal = 별거 아냐 (구어, 친한 사이).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "FOMO",
+   "ko": "소외될까 봐 불안함",
+   "ex": "I have FOMO.",
+   "exko": "나만 놓칠까 봐 불안해.",
+   "use": [
+    [
+     "FOMO is real.",
+     "놓치는 불안감 진짜 있어."
+    ],
+    [
+     "JOMO",
+     "놓쳐도 즐거움"
+    ]
+   ],
+   "mcq": [
+    "I went to the party just because of FOMO.",
+    "I go to the party just because of FOMO last night.",
+    "I went to the party just because FOMO.",
+    "I went to the party just because of the FOMOs."
+   ],
+   "ans": 0,
+   "note": "FOMO = Fear Of Missing Out (나만 빠질까 봐 불안). because of N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "casting call",
+   "ko": "배우 모집 공고",
+   "ex": "Open casting call",
+   "exko": "공개 오디션 공고",
+   "use": [
+    [
+     "Answer a casting call",
+     "캐스팅 공고에 지원하다"
+    ],
+    [
+     "Casting notice",
+     "캐스팅 공지"
+    ]
+   ],
+   "mcq": [
+    "I saw a casting call for a Korean character.",
+    "I seen a casting call for a Korean character.",
+    "I saw a casting call of a Korean character for.",
+    "I saw casting call a for a Korean character."
+   ],
+   "ans": 0,
+   "note": "casting call = 배우 모집 공고. open call = 누구나 지원 가능.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "character arc",
+   "ko": "캐릭터의 변화 곡선",
+   "ex": "A strong character arc",
+   "exko": "확실한 캐릭터 변화",
+   "use": [
+    [
+     "Her arc in the series",
+     "시리즈 속 그녀의 변화"
+    ],
+    [
+     "Flat character",
+     "변화 없는 캐릭터"
+    ]
+   ],
+   "mcq": [
+    "My character's arc goes from fear for courage.",
+    "My character's arc go from fear to courage.",
+    "My character's arc goes from fear to courage.",
+    "My character arc's goes from fear to courage."
+   ],
+   "ans": 2,
+   "note": "character arc = 이야기 속 인물이 변해가는 과정. goes from A to B.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "subtext",
+   "ko": "속뜻, 숨은 의미",
+   "ex": "Play the subtext",
+   "exko": "속뜻을 연기하다",
+   "use": [
+    [
+     "There's a lot of subtext.",
+     "숨은 의미가 많아요."
+    ],
+    [
+     "Text vs subtext",
+     "대사 vs 속뜻"
+    ]
+   ],
+   "mcq": [
+    "The line is simple, but the subtext is anger.",
+    "The line simple, but the subtext is anger.",
+    "The line is simple, but the subtext are anger.",
+    "The line is simple, but subtext the is anger."
+   ],
+   "ans": 0,
+   "note": "subtext = 대사 밑에 깔린 진짜 감정/의도. 배우 연기 핵심 용어.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "projection",
+   "ko": "발성 (소리를 멀리 보내기)",
+   "ex": "Work on your projection",
+   "exko": "발성을 연습하다",
+   "use": [
+    [
+     "Vocal projection",
+     "목소리 투사"
+    ],
+    [
+     "Project your voice",
+     "목소리를 멀리 보내다"
+    ]
+   ],
+   "mcq": [
+    "In theater, projection more important than on camera.",
+    "In theater, projection is more important than on camera.",
+    "In theater, projection is more important then on camera.",
+    "In theater, projection is importanter than on camera."
+   ],
+   "ans": 1,
+   "note": "projection = 무대에서 객석 끝까지 들리게 내는 발성. project your voice.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "diction",
+   "ko": "발음, 딕션",
+   "ex": "Clear diction",
+   "exko": "또렷한 발음",
+   "use": [
+    [
+     "Work on diction",
+     "발음을 연습하다"
+    ],
+    [
+     "Diction exercises",
+     "발음 연습"
+    ]
+   ],
+   "mcq": [
+    "The director told me to work on my diction.",
+    "The director told me to working on my diction.",
+    "The director told to me to work on my diction.",
+    "The director told me work on my diction."
+   ],
+   "ans": 0,
+   "note": "diction = 또박또박한 발음 (pronunciation보다 명료함 강조).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "scene partner",
+   "ko": "상대 배우",
+   "ex": "Listen to your scene partner",
+   "exko": "상대 배우 말을 들어라",
+   "use": [
+    [
+     "Find a scene partner",
+     "연습 상대를 구하다"
+    ],
+    [
+     "React to your partner",
+     "상대에게 반응하다"
+    ]
+   ],
+   "mcq": [
+    "My scene partner gave me so much to react to.",
+    "My scene partner gave me so many to react to.",
+    "My scene partner give me so much to react to yesterday.",
+    "My scene partner gave me so much to react."
+   ],
+   "ans": 0,
+   "note": "scene partner = 장면을 같이 하는 상대 배우. react to N (to 꼭).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "chemistry",
+   "ko": "케미, 호흡",
+   "ex": "They have great chemistry.",
+   "exko": "둘이 케미가 좋아요.",
+   "use": [
+    [
+     "Chemistry read",
+     "케미 리딩 (조합 오디션)"
+    ],
+    [
+     "No chemistry",
+     "호흡이 안 맞는"
+    ]
+   ],
+   "mcq": [
+    "The two leads had amazing chemistries on screen.",
+    "The two leads had amazing chemistry in screen on.",
+    "The two leads has amazing chemistry on screen.",
+    "The two leads had amazing chemistry on screen."
+   ],
+   "ans": 3,
+   "note": "chemistry = 배우 간 호흡/케미. chemistry read = 상대역과 함께 보는 오디션.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "table read",
+   "ko": "대본 리딩",
+   "ex": "The first table read",
+   "exko": "첫 대본 리딩",
+   "use": [
+    [
+     "Do a table read",
+     "리딩을 하다"
+    ],
+    [
+     "Read-through",
+     "전체 리딩"
+    ]
+   ],
+   "mcq": [
+    "We have the table read on Monday.",
+    "We have the table read in Monday.",
+    "We have table the read on Monday.",
+    "We having the table read on Monday."
+   ],
+   "ans": 0,
+   "note": "table read = 출연진이 모여 대본을 읽는 첫 모임. on Monday (on!).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "method acting",
+   "ko": "메소드 연기",
+   "ex": "A method actor",
+   "exko": "메소드 배우",
+   "use": [
+    [
+     "Stay in character",
+     "배역에 몰입한 채로 있다"
+    ],
+    [
+     "Go method",
+     "메소드로 가다"
+    ]
+   ],
+   "mcq": [
+    "He stayed in character the whole time because of method acting.",
+    "He stay in character the whole time because of method acting.",
+    "He stayed in the character whole time because of method acting.",
+    "He stayed in character the whole time because method acting."
+   ],
+   "ans": 0,
+   "note": "method acting = 배역에 완전히 몰입하는 연기법. stay in character = 배역 상태 유지.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "stage left",
+   "ko": "무대 왼쪽 (배우 기준)",
+   "ex": "Exit stage left",
+   "exko": "무대 왼쪽으로 퇴장",
+   "use": [
+    [
+     "Stage right",
+     "무대 오른쪽"
+    ],
+    [
+     "Upstage / downstage",
+     "무대 뒤쪽 / 앞쪽"
+    ]
+   ],
+   "mcq": [
+    "Entering from stage left and cross to center.",
+    "Enter from the stage left and cross to center to.",
+    "Enter from stage left and cross to center.",
+    "Enter from stage left and crossing to center."
+   ],
+   "ans": 2,
+   "note": "stage left = 관객을 바라보는 배우 기준 왼쪽. house left = 관객 기준.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "curtain call",
+   "ko": "커튼콜",
+   "ex": "Take a curtain call",
+   "exko": "커튼콜 인사를 하다",
+   "use": [
+    [
+     "Standing ovation",
+     "기립 박수"
+    ],
+    [
+     "Bow",
+     "인사하다"
+    ]
+   ],
+   "mcq": [
+    "We got a standing ovation in the curtain call at.",
+    "We got a standing ovation at the curtain call.",
+    "We got standing ovation a at the curtain call.",
+    "We get a standing ovation at the curtain call last night."
+   ],
+   "ans": 1,
+   "note": "curtain call = 공연 후 배우 인사. standing ovation = 기립 박수.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "cue card",
+   "ko": "큐 카드 (대사 보조)",
+   "ex": "Read off cue cards",
+   "exko": "큐 카드를 보고 읽다",
+   "use": [
+    [
+     "Hold up the cue cards",
+     "큐 카드를 들어 주다"
+    ],
+    [
+     "Teleprompter",
+     "프롬프터"
+    ]
+   ],
+   "mcq": [
+    "The host read jokes his off cue cards.",
+    "The host read his jokes off of cue card.",
+    "The host readed his jokes off cue cards.",
+    "The host read his jokes off cue cards."
+   ],
+   "ans": 3,
+   "note": "cue card = 대사·멘트 적힌 카드. read off N = ~을 보고 읽다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "read-through",
+   "ko": "리딩, 대본 연습",
+   "ex": "First read-through",
+   "exko": "첫 리딩",
+   "use": [
+    [
+     "A quick read-through",
+     "간단히 한 번 읽기"
+    ],
+    [
+     "Read through (동사)",
+     "쭉 읽어보다"
+    ]
+   ],
+   "mcq": [
+    "Let's do one more read-through before we blocking it.",
+    "Let's do one more read-throughs before we block it.",
+    "Let's doing one more read-through before we block it.",
+    "Let's do one more read-through before we block it."
+   ],
+   "ans": 3,
+   "note": "read-through(명사) = 처음부터 끝까지 읽기. block = 동선을 짜다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dress rehearsal",
+   "ko": "드레스 리허설 (최종 리허설)",
+   "ex": "Full dress rehearsal",
+   "exko": "의상까지 갖춘 최종 리허설",
+   "use": [
+    [
+     "Tech rehearsal",
+     "기술 리허설"
+    ],
+    [
+     "Run-through",
+     "전체 런"
+    ]
+   ],
+   "mcq": [
+    "The dress rehearsal are the night before opening.",
+    "The dress rehearsal is the night before of opening.",
+    "The dress rehearsal is the night before opening.",
+    "The dress rehearsal is night the before opening."
+   ],
+   "ans": 2,
+   "note": "dress rehearsal = 의상·조명까지 실제처럼 하는 마지막 리허설.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "opening night",
+   "ko": "개막일 밤",
+   "ex": "Opening night jitters",
+   "exko": "개막일 긴장",
+   "use": [
+    [
+     "Sold out on opening night",
+     "개막일 매진"
+    ],
+    [
+     "Closing night",
+     "마지막 공연"
+    ]
+   ],
+   "mcq": [
+    "I always get nervous on opening night.",
+    "I always gets nervous on opening night.",
+    "I always get nervous at opening night on.",
+    "I get always nervous on opening night."
+   ],
+   "ans": 0,
+   "note": "opening night = 첫 공연 날. on opening night (on!). jitters = 초조함.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "audition room",
+   "ko": "오디션장",
+   "ex": "Walk into the audition room",
+   "exko": "오디션장에 들어가다",
+   "use": [
+    [
+     "Own the room",
+     "공간을 장악하다"
+    ],
+    [
+     "Leave it in the room",
+     "다 쏟고 나오다"
+    ]
+   ],
+   "mcq": [
+    "When you walk into the audition room, owning it.",
+    "When you walk in to the audition room into, own it.",
+    "When you walk into the audition room, own it.",
+    "When you walks into the audition room, own it."
+   ],
+   "ans": 2,
+   "note": "audition room = 오디션장. own the room = 자신 있게 공간을 장악하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "typecasting",
+   "ko": "전형적 배역 고정",
+   "ex": "Get typecast",
+   "exko": "한 이미지로 굳어지다",
+   "use": [
+    [
+     "Break out of typecasting",
+     "배역 고정을 깨다"
+    ],
+    [
+     "Play against type",
+     "이미지와 반대 역을 하다"
+    ]
+   ],
+   "mcq": [
+    "He was typecast like the villain for years.",
+    "He was typecasted as the villain for years.",
+    "He was typecast as the villain for years.",
+    "He typecast as the villain for years."
+   ],
+   "ans": 2,
+   "note": "typecast = 비슷한 배역만 계속 맡게 되다 (과거·과거분사도 typecast). play against type.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "voice-over",
+   "ko": "보이스오버, 내레이션",
+   "ex": "Do voice-over work",
+   "exko": "성우·내레이션 일을 하다",
+   "use": [
+    [
+     "Voice-over artist",
+     "보이스오버 아티스트"
+    ],
+    [
+     "V.O.",
+     "보이스오버 (대본 표기)"
+    ]
+   ],
+   "mcq": [
+    "She does voices-over for video games.",
+    "She does voice-over for video games.",
+    "She does voice-over to video games for.",
+    "She do voice-over for video games."
+   ],
+   "ans": 1,
+   "note": "voice-over (V.O.) = 화면 밖 목소리. 대본에서 O.S. = off-screen.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "line reading",
+   "ko": "대사 톤, 대사 읽기 방식",
+   "ex": "Give a line reading",
+   "exko": "대사 톤을 직접 보여주다",
+   "use": [
+    [
+     "A fresh line reading",
+     "새로운 대사 톤"
+    ],
+    [
+     "Don't give actors line readings.",
+     "배우에게 톤을 강요하지 마라."
+    ]
+   ],
+   "mcq": [
+    "The director gave me a line reading, so I copy it yesterday.",
+    "The director gave to me a line reading, so I copied it.",
+    "The director gave me line reading a, so I copied it.",
+    "The director gave me a line reading, so I copied it."
+   ],
+   "ans": 3,
+   "note": "line reading = 대사를 어떻게 말할지 (톤·강세). 감독이 '이렇게 해봐'라고 보여주는 것.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "blackout",
+   "ko": "암전",
+   "ex": "Fade to blackout",
+   "exko": "암전으로 끝나다",
+   "use": [
+    [
+     "Blackout between scenes",
+     "장면 사이 암전"
+    ],
+    [
+     "Power blackout",
+     "정전"
+    ]
+   ],
+   "mcq": [
+    "The scene ends with a blackout.",
+    "The scene end with a blackout.",
+    "The scene ends by a blackout with.",
+    "The scene ends with blackout a."
+   ],
+   "ans": 0,
+   "note": "blackout = 무대 조명이 모두 꺼지는 것 (암전) / 정전.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "follower",
+   "ko": "팔로워",
+   "ex": "Gain followers",
+   "exko": "팔로워를 늘리다",
+   "use": [
+    [
+     "10K followers",
+     "팔로워 1만 명"
+    ],
+    [
+     "Lose followers",
+     "팔로워가 줄다"
+    ]
+   ],
+   "mcq": [
+    "She has over 50,000 followers in Instagram.",
+    "She have over 50,000 followers on Instagram.",
+    "She has over 50,000 follower on Instagram.",
+    "She has over 50,000 followers on Instagram."
+   ],
+   "ans": 3,
+   "note": "follower = 팔로워. on Instagram (on!). 10K = 1만.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "viral",
+   "ko": "입소문 난, 바이럴",
+   "ex": "Go viral",
+   "exko": "폭발적으로 퍼지다",
+   "use": [
+    [
+     "A viral video",
+     "화제의 영상"
+    ],
+    [
+     "Viral marketing",
+     "바이럴 마케팅"
+    ]
+   ],
+   "mcq": [
+    "His video went viral overnight.",
+    "His video goed viral overnight.",
+    "His video went viraly overnight.",
+    "His video went to viral overnight."
+   ],
+   "ans": 0,
+   "note": "go viral = 순식간에 퍼지다. overnight = 하룻밤 사이에.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hashtag",
+   "ko": "해시태그",
+   "ex": "Use a hashtag",
+   "exko": "해시태그를 쓰다",
+   "use": [
+    [
+     "Trending hashtag",
+     "인기 해시태그"
+    ],
+    [
+     "Hashtag it",
+     "해시태그 달아"
+    ]
+   ],
+   "mcq": [
+    "Add a hashtag so more people can finding it.",
+    "Add hashtag a so more people can find it.",
+    "Add a hashtag so much people can find it.",
+    "Add a hashtag so more people can find it."
+   ],
+   "ans": 3,
+   "note": "hashtag = 해시태그 (#). so (that) S can V = ~할 수 있도록.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "caption",
+   "ko": "캡션, (사진) 설명글",
+   "ex": "Write a caption",
+   "exko": "캡션을 쓰다",
+   "use": [
+    [
+     "A funny caption",
+     "웃긴 캡션"
+    ],
+    [
+     "Captions on",
+     "자막 켜기"
+    ]
+   ],
+   "mcq": [
+    "I can't think a good caption for this photo of.",
+    "I can't think of a good caption for this photo.",
+    "I can't thinking of a good caption for this photo.",
+    "I can't think of good a caption for this photo."
+   ],
+   "ans": 1,
+   "note": "caption = 게시물 설명글 / 자막. think of N = 떠올리다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "DM",
+   "ko": "DM, 다이렉트 메시지",
+   "ex": "Send me a DM",
+   "exko": "DM 보내줘",
+   "use": [
+    [
+     "Slide into the DMs",
+     "DM으로 작업 걸다"
+    ],
+    [
+     "DM me",
+     "DM 줘"
+    ]
+   ],
+   "mcq": [
+    "DM to me the details.",
+    "DM me the details.",
+    "DMing me the details.",
+    "DM me the detail's."
+   ],
+   "ans": 1,
+   "note": "DM = direct message. 동사로도 써요: DM me = 디엠 줘. slide into DMs = 디엠으로 접근.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "reel",
+   "ko": "릴스 (짧은 영상)",
+   "ex": "Post a reel",
+   "exko": "릴스를 올리다",
+   "use": [
+    [
+     "Instagram Reels",
+     "인스타 릴스"
+    ],
+    [
+     "Acting reel",
+     "배우 연기 영상 모음"
+    ]
+   ],
+   "mcq": [
+    "My reel got 100K of views.",
+    "My reel gets 100K views yesterday.",
+    "My reel got 100K view.",
+    "My reel got 100K views."
+   ],
+   "ans": 3,
+   "note": "reel = 인스타 짧은 영상. 배우에겐 demo reel/acting reel = 연기 하이라이트 영상!",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "post",
+   "ko": "게시물, 올리다",
+   "ex": "Post a photo",
+   "exko": "사진을 올리다",
+   "use": [
+    [
+     "A new post",
+     "새 게시물"
+    ],
+    [
+     "Like a post",
+     "게시물에 좋아요 누르다"
+    ]
+   ],
+   "mcq": [
+    "I posted photo a of my dinner.",
+    "I posted a photo of my dinner on.",
+    "I posted a photo of my dinner.",
+    "I post a photo of my dinner yesterday."
+   ],
+   "ans": 2,
+   "note": "post = 올리다(동사)/게시물(명사). post on Instagram.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "repost",
+   "ko": "리포스트하다, 퍼가다",
+   "ex": "Repost this",
+   "exko": "이거 퍼가요",
+   "use": [
+    [
+     "Repost with credit",
+     "출처 표기하고 퍼가다"
+    ],
+    [
+     "Share to your story",
+     "스토리에 공유하다"
+    ]
+   ],
+   "mcq": [
+    "Do I can repost your video?",
+    "Can I repost you video?",
+    "Can I repost your video?",
+    "Can I reposting your video?"
+   ],
+   "ans": 2,
+   "note": "repost = 남의 게시물을 다시 올리다. 출처 표기 = give credit.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tag",
+   "ko": "태그(하다)",
+   "ex": "Tag me in the photo",
+   "exko": "사진에 나 태그해",
+   "use": [
+    [
+     "Tag a friend",
+     "친구를 태그하다"
+    ],
+    [
+     "Get tagged",
+     "태그되다"
+    ]
+   ],
+   "mcq": [
+    "Don't tag me on that photo in!",
+    "Don't tag me in that photo!",
+    "Don't tagging me in that photo!",
+    "Not tag me in that photo!"
+   ],
+   "ans": 1,
+   "note": "tag 사람 in a photo = 사진에 태그하다 (in!).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "influencer",
+   "ko": "인플루언서",
+   "ex": "A fashion influencer",
+   "exko": "패션 인플루언서",
+   "use": [
+    [
+     "Micro-influencer",
+     "소규모 인플루언서"
+    ],
+    [
+     "Influencer marketing",
+     "인플루언서 마케팅"
+    ]
+   ],
+   "mcq": [
+    "She became an influencer after her travel video's.",
+    "She became an influencer after her travel videos.",
+    "She became a influencer after her travel videos.",
+    "She become an influencer after her travel videos last year."
+   ],
+   "ans": 1,
+   "note": "influencer = 영향력 있는 SNS 크리에이터. an influencer (모음 발음).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "collab",
+   "ko": "콜라보 (협업)",
+   "ex": "Do a collab",
+   "exko": "콜라보를 하다",
+   "use": [
+    [
+     "Brand collab",
+     "브랜드 협업"
+    ],
+    [
+     "Collab with",
+     "~와 협업하다"
+    ]
+   ],
+   "mcq": [
+    "We should do a collab video together.",
+    "We should do a collab video together with.",
+    "We should doing a collab video together.",
+    "We should do collab a video together."
+   ],
+   "ans": 0,
+   "note": "collab = collaboration (협업)의 줄임. 콜라보는 영어로 collab (콜랩).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "algorithm",
+   "ko": "알고리즘",
+   "ex": "The algorithm loves it.",
+   "exko": "알고리즘이 좋아해요.",
+   "use": [
+    [
+     "Beat the algorithm",
+     "알고리즘을 공략하다"
+    ],
+    [
+     "My algorithm",
+     "내 피드 알고리즘"
+    ]
+   ],
+   "mcq": [
+    "The algorithm keeps showing to me cooking videos.",
+    "The algorithm keeps showing me cooking videos.",
+    "The algorithm keep showing me cooking videos.",
+    "The algorithm keeps show me cooking videos."
+   ],
+   "ans": 1,
+   "note": "algorithm = 추천 알고리즘. keep V-ing = 계속 ~하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "engagement",
+   "ko": "참여도, 반응",
+   "ex": "High engagement",
+   "exko": "높은 참여도",
+   "use": [
+    [
+     "Engagement rate",
+     "참여율"
+    ],
+    [
+     "Boost engagement",
+     "반응을 높이다"
+    ]
+   ],
+   "mcq": [
+    "Videos get more engagements than photos.",
+    "Videos gets more engagement than photos.",
+    "Videos get more engagement then photos.",
+    "Videos get more engagement than photos."
+   ],
+   "ans": 3,
+   "note": "engagement = 좋아요·댓글·공유 등 반응. 약혼이라는 뜻도 있음!",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "subscriber",
+   "ko": "구독자",
+   "ex": "Gain subscribers",
+   "exko": "구독자를 늘리다",
+   "use": [
+    [
+     "1M subscribers",
+     "구독자 100만"
+    ],
+    [
+     "Like and subscribe!",
+     "좋아요와 구독!"
+    ]
+   ],
+   "mcq": [
+    "His channel just hit one millions subscribers.",
+    "His channel just hitted one million subscribers.",
+    "His channel just hit one million subscriber.",
+    "His channel just hit one million subscribers."
+   ],
+   "ans": 3,
+   "note": "subscriber = 구독자. hit (과거도 hit) = ~에 도달하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "livestream",
+   "ko": "라이브 방송(하다)",
+   "ex": "Go live",
+   "exko": "라이브를 시작하다",
+   "use": [
+    [
+     "Watch a livestream",
+     "라이브 방송을 보다"
+    ],
+    [
+     "Livestream a concert",
+     "콘서트를 생중계하다"
+    ]
+   ],
+   "mcq": [
+    "I going to livestream the Q&A tonight.",
+    "I'm going livestream the Q&A tonight.",
+    "I'm going to livestreaming the Q&A tonight.",
+    "I'm going to livestream the Q&A tonight."
+   ],
+   "ans": 3,
+   "note": "livestream = 실시간 방송. go live = 라이브 켜다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "thumbnail",
+   "ko": "썸네일",
+   "ex": "A catchy thumbnail",
+   "exko": "눈에 띄는 썸네일",
+   "use": [
+    [
+     "Change the thumbnail",
+     "썸네일을 바꾸다"
+    ],
+    [
+     "Clickbait thumbnail",
+     "낚시 썸네일"
+    ]
+   ],
+   "mcq": [
+    "A good thumbnail get more clicks.",
+    "A good thumbnail gets more click.",
+    "A good thumbnail gets more clicks.",
+    "Good thumbnail a gets more clicks."
+   ],
+   "ans": 2,
+   "note": "thumbnail = 영상 대표 이미지 (원래 '엄지손톱'). clickbait = 낚시성.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "bio",
+   "ko": "프로필 소개글",
+   "ex": "Update your bio",
+   "exko": "소개글을 업데이트하다",
+   "use": [
+    [
+     "Link in bio",
+     "프로필 링크"
+    ],
+    [
+     "A short bio",
+     "짧은 약력"
+    ]
+   ],
+   "mcq": [
+    "Putting your email in your bio.",
+    "Put your email at your bio.",
+    "Put your email in your bio.",
+    "Put you email in your bio."
+   ],
+   "ans": 2,
+   "note": "bio = biography 줄임. SNS 프로필 소개 / 배우 약력.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "link in bio",
+   "ko": "프로필 링크 확인",
+   "ex": "Link in bio!",
+   "exko": "링크는 프로필에!",
+   "use": [
+    [
+     "Check the link in my bio",
+     "프로필 링크 확인해 줘"
+    ],
+    [
+     "Linktree",
+     "링크 모음"
+    ]
+   ],
+   "mcq": [
+    "Tickets are on sale now. Link at bio!",
+    "Tickets are on sale now. Link in bio!",
+    "Tickets is on sale now. Link in bio!",
+    "Tickets are in sale now. Link in bio!"
+   ],
+   "ans": 1,
+   "note": "link in bio = 프로필에 링크 있음 (인스타는 게시물에 링크 불가). on sale = 판매 중.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "meme",
+   "ko": "밈",
+   "ex": "That's a meme.",
+   "exko": "그거 밈이야.",
+   "use": [
+    [
+     "Meme culture",
+     "밈 문화"
+    ],
+    [
+     "Send memes",
+     "밈을 보내다"
+    ]
+   ],
+   "mcq": [
+    "My friend sends me memes all day.",
+    "My friend send me memes all day.",
+    "My friend sends me meme all the day.",
+    "My friend sends to me memes all day."
+   ],
+   "ans": 0,
+   "note": "meme = 인터넷 밈 (발음 '밈'). send 사람 N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "flex",
+   "ko": "자랑하다, 과시",
+   "ex": "Weird flex, but OK.",
+   "exko": "이상한 자랑이네, 뭐 그래.",
+   "use": [
+    [
+     "Flex on someone",
+     "~에게 과시하다"
+    ],
+    [
+     "Not to flex, but...",
+     "자랑은 아닌데..."
+    ]
+   ],
+   "mcq": [
+    "Not to flex, but I finish my script in one week last month.",
+    "Not to flexing, but I finished my script in one week.",
+    "Not flex, but I finished my script in one week.",
+    "Not to flex, but I finished my script in one week."
+   ],
+   "ans": 3,
+   "note": "flex = 자랑하다 (구어). Not to flex, but... = 자랑은 아니지만...",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "wake up",
+   "ko": "잠에서 깨다, 깨우다",
+   "ex": "I wake up at 6.",
+   "exko": "6시에 깨요.",
+   "use": [
+    [
+     "Wake me up at 7.",
+     "7시에 깨워 줘."
+    ],
+    [
+     "Wake up!",
+     "일어나!"
+    ]
+   ],
+   "mcq": [
+    "Can you wake up me at seven?",
+    "Can you waking me up at seven?",
+    "Can you wake me up on seven?",
+    "Can you wake me up at seven?"
+   ],
+   "ans": 3,
+   "note": "wake up = 깨다. 대명사는 사이에: wake me up (wake up me X).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "get up",
+   "ko": "일어나다 (침대에서)",
+   "ex": "Get up early",
+   "exko": "일찍 일어나다",
+   "use": [
+    [
+     "Time to get up!",
+     "일어날 시간이야!"
+    ],
+    [
+     "Wake up vs get up",
+     "깨다 vs 몸을 일으키다"
+    ]
+   ],
+   "mcq": [
+    "I woke up at 7 but didn't get up until to 8.",
+    "I woke up at 7 but didn't get up until 8.",
+    "I woke up at 7 but didn't got up until 8.",
+    "I woke up at 7 but not get up until 8."
+   ],
+   "ans": 1,
+   "note": "wake up = 눈 뜨다, get up = 침대에서 나오다. not ~ until = ~가 돼서야.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sleep over",
+   "ko": "남의 집에서 자다",
+   "ex": "Sleep over at a friend's",
+   "exko": "친구 집에서 자다",
+   "use": [
+    [
+     "A sleepover party",
+     "파자마 파티"
+    ],
+    [
+     "Can I sleep over?",
+     "자고 가도 돼?"
+    ]
+   ],
+   "mcq": [
+    "Can my friend sleeps over tonight?",
+    "Can my friend sleeping over tonight?",
+    "Can my friend sleep over tonight?",
+    "Can my friend sleep over at tonight?"
+   ],
+   "ans": 2,
+   "note": "sleep over = 남의 집에서 하룻밤 자다. 명사 sleepover.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "stay up",
+   "ko": "안 자고 깨어 있다",
+   "ex": "Stay up late",
+   "exko": "늦게까지 안 자다",
+   "use": [
+    [
+     "Stay up all night",
+     "밤새다"
+    ],
+    [
+     "Don't stay up too late.",
+     "너무 늦게 자지 마."
+    ]
+   ],
+   "mcq": [
+    "I stayed late up to finish my lines up.",
+    "I stayed up late to finish my lines.",
+    "I stayed up late for finish my lines.",
+    "I stay up late to finish my lines yesterday."
+   ],
+   "ans": 1,
+   "note": "stay up = 안 자고 깨어 있다. pull an all-nighter = 밤새다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hang up",
+   "ko": "전화를 끊다",
+   "ex": "Don't hang up!",
+   "exko": "끊지 마!",
+   "use": [
+    [
+     "Hang up on someone",
+     "~의 전화를 일방적으로 끊다"
+    ],
+    [
+     "Hang up your coat",
+     "코트를 걸다"
+    ]
+   ],
+   "mcq": [
+    "She got angry and hung up on me.",
+    "She got angry and hanged up on me.",
+    "She got angry and hung on me up.",
+    "She got angry and hang up on me yesterday."
+   ],
+   "ans": 0,
+   "note": "hang up = 전화 끊다 / 옷을 걸다. 과거 hung. hang up on 사람 = 뚝 끊다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "pick up",
+   "ko": "데리러 가다, 집어 들다",
+   "ex": "Pick me up at 5.",
+   "exko": "5시에 데리러 와.",
+   "use": [
+    [
+     "Pick up the phone",
+     "전화를 받다"
+    ],
+    [
+     "Pick up some milk",
+     "우유 좀 사 오다"
+    ]
+   ],
+   "mcq": [
+    "I'll pick up you at the station.",
+    "I'll pick you up at the station.",
+    "I'll picking you up at the station.",
+    "I'll pick you up in the station at."
+   ],
+   "ans": 1,
+   "note": "pick up = 데리러 가다 / 사 오다 / 전화 받다. 대명사는 사이에: pick you up.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "drop off",
+   "ko": "내려 주다, 갖다 놓다",
+   "ex": "Drop me off here.",
+   "exko": "여기서 내려 줘.",
+   "use": [
+    [
+     "Drop off a package",
+     "택배를 맡기다"
+    ],
+    [
+     "Drop-off point",
+     "하차 지점"
+    ]
+   ],
+   "mcq": [
+    "Can you drop me off on the corner at?",
+    "Can you drop off me at the corner?",
+    "Can you drop me off at the corner?",
+    "Can you dropping me off at the corner?"
+   ],
+   "ans": 2,
+   "note": "drop off = (차로) 내려 주다 / 물건을 갖다 놓다. pick up의 반대.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "put away",
+   "ko": "치우다, 제자리에 넣다",
+   "ex": "Put your toys away.",
+   "exko": "장난감 치워.",
+   "use": [
+    [
+     "Put away the dishes",
+     "설거지한 그릇을 정리하다"
+    ],
+    [
+     "Put it away",
+     "그거 넣어 둬"
+    ]
+   ],
+   "mcq": [
+    "Please put away your phone during class.",
+    "Please putting away your phone during class.",
+    "Please put away your phone while class.",
+    "Please put away you phone during class."
+   ],
+   "ans": 0,
+   "note": "put away = 제자리에 치우다. during + 명사, while + 문장.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "take out",
+   "ko": "꺼내다, 포장 음식",
+   "ex": "Take out the trash",
+   "exko": "쓰레기를 내다 버리다",
+   "use": [
+    [
+     "Takeout food",
+     "포장 음식"
+    ],
+    [
+     "Take someone out",
+     "~에게 밥 사주다"
+    ]
+   ],
+   "mcq": [
+    "It's your turn to take out the trash.",
+    "It's your turn to take the trash out out.",
+    "It's your turn for take out the trash.",
+    "It's your turn to taking out the trash."
+   ],
+   "ans": 0,
+   "note": "take out = 꺼내다 / 쓰레기 버리다 / (데이트) 데리고 나가다. takeout = 포장 음식.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "throw away",
+   "ko": "버리다",
+   "ex": "Don't throw that away!",
+   "exko": "그거 버리지 마!",
+   "use": [
+    [
+     "Throw away old clothes",
+     "헌 옷을 버리다"
+    ],
+    [
+     "Throwaway line",
+     "흘리듯 하는 대사"
+    ]
+   ],
+   "mcq": [
+    "I throwed away all my old notes.",
+    "I threw all away my old notes.",
+    "I threw away all my old notes.",
+    "I throw away all my old notes yesterday."
+   ],
+   "ans": 2,
+   "note": "throw away = 버리다. 과거 threw. throwaway line = 별생각 없이 툭 던지는 대사.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "turn up",
+   "ko": "소리를 키우다, 나타나다",
+   "ex": "Turn up the volume",
+   "exko": "볼륨을 키우다",
+   "use": [
+    [
+     "He didn't turn up.",
+     "그는 안 나타났어."
+    ],
+    [
+     "Turn it up!",
+     "소리 키워!"
+    ]
+   ],
+   "mcq": [
+    "Can you turn the music a little up up?",
+    "Can you turn up the music a little?",
+    "Can you turn up music the a little?",
+    "Can you turning up the music a little?"
+   ],
+   "ans": 1,
+   "note": "turn up = (소리·온도) 키우다 / (구어) 나타나다. 반대 turn down.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "turn down",
+   "ko": "줄이다, 거절하다",
+   "ex": "Turn down the volume",
+   "exko": "볼륨을 줄이다",
+   "use": [
+    [
+     "Turn down an offer",
+     "제안을 거절하다"
+    ],
+    [
+     "Turn someone down",
+     "~를 거절하다"
+    ]
+   ],
+   "mcq": [
+    "I turned down the role because the schedule.",
+    "I turned down the role because of the schedule.",
+    "I turned the role down because of schedule the.",
+    "I turn down the role because of the schedule last month."
+   ],
+   "ans": 1,
+   "note": "turn down = 줄이다 / 거절하다. turn down an offer/role. because of + 명사.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "log out",
+   "ko": "로그아웃하다",
+   "ex": "Log out of your account",
+   "exko": "계정에서 로그아웃하다",
+   "use": [
+    [
+     "Log in",
+     "로그인하다"
+    ],
+    [
+     "Don't forget to log out.",
+     "로그아웃 잊지 마."
+    ]
+   ],
+   "mcq": [
+    "Don't forget to log out of the computer.",
+    "Don't forget to log out from of the computer.",
+    "Don't forget logging out of the computer.",
+    "Don't forgot to log out of the computer."
+   ],
+   "ans": 0,
+   "note": "log out (of N) = 로그아웃. log in (to N) = 로그인. 명사형 logout/login.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "check out",
+   "ko": "체크아웃하다, 확인해 보다",
+   "ex": "Check out by 11",
+   "exko": "11시까지 체크아웃",
+   "use": [
+    [
+     "Check this out!",
+     "이거 봐봐!"
+    ],
+    [
+     "Check out a book",
+     "책을 대출하다"
+    ]
+   ],
+   "mcq": [
+    "You have to checking out by noon.",
+    "You has to check out by noon.",
+    "You have to check out until noon.",
+    "You have to check out by noon."
+   ],
+   "ans": 3,
+   "note": "check out = 퇴실하다 / 구경하다·확인하다. by noon = 정오까지 (마감).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "eat out",
+   "ko": "외식하다",
+   "ex": "Let's eat out tonight.",
+   "exko": "오늘 외식하자.",
+   "use": [
+    [
+     "Eat out a lot",
+     "외식을 자주 하다"
+    ],
+    [
+     "Eat in",
+     "집에서 먹다"
+    ]
+   ],
+   "mcq": [
+    "We eat outside about twice a week out.",
+    "We eats out about twice a week.",
+    "We eat out about twice in a week a.",
+    "We eat out about twice a week."
+   ],
+   "ans": 3,
+   "note": "eat out = 외식하다. eat in = 집에서 먹다. twice a week = 일주일에 두 번.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dress up",
+   "ko": "차려입다, 분장하다",
+   "ex": "Dress up for the party",
+   "exko": "파티를 위해 차려입다",
+   "use": [
+    [
+     "Dress up as a pirate",
+     "해적으로 분장하다"
+    ],
+    [
+     "Dress code",
+     "복장 규정"
+    ]
+   ],
+   "mcq": [
+    "Do I need dress up for the premiere?",
+    "Am I need to dress up for the premiere?",
+    "Do I need to dressing up for the premiere?",
+    "Do I need to dress up for the premiere?"
+   ],
+   "ans": 3,
+   "note": "dress up = 격식 있게 차려입다 / ~로 분장하다 (dress up as N).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "warm up",
+   "ko": "준비 운동하다, 몸을 풀다",
+   "ex": "Warm up before you run",
+   "exko": "달리기 전에 몸 풀어",
+   "use": [
+    [
+     "Vocal warm-up",
+     "발성 워밍업"
+    ],
+    [
+     "Warm-up exercise",
+     "준비 운동"
+    ]
+   ],
+   "mcq": [
+    "I always warm up my voice before an audition.",
+    "I always warm my voice up up before an audition.",
+    "I always warming up my voice before an audition.",
+    "I warm up always my voice before an audition."
+   ],
+   "ans": 0,
+   "note": "warm up = 몸·목을 풀다. 명사 warm-up. vocal warm-up = 발성 워밍업.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "fill out",
+   "ko": "작성하다 (서류)",
+   "ex": "Fill out this form",
+   "exko": "이 양식을 작성하세요",
+   "use": [
+    [
+     "Fill out an application",
+     "지원서를 작성하다"
+    ],
+    [
+     "Fill in the blanks",
+     "빈칸을 채우다"
+    ]
+   ],
+   "mcq": [
+    "Please fill out this form and bring it back.",
+    "Please fill this form out out and bring it back.",
+    "Please filling out this form and bring it back.",
+    "Please fill out this form and bringing it back."
+   ],
+   "ans": 0,
+   "note": "fill out (미) = fill in (영) = 서류를 작성하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "look up",
+   "ko": "찾아보다",
+   "ex": "Look it up",
+   "exko": "찾아봐",
+   "use": [
+    [
+     "Look up a word",
+     "단어를 찾아보다"
+    ],
+    [
+     "Look up to someone",
+     "~를 존경하다"
+    ]
+   ],
+   "mcq": [
+    "I looked the director up up before the audition.",
+    "I looked up the director before audition the.",
+    "I looked up the director before the audition.",
+    "I look up the director before the audition yesterday."
+   ],
+   "ans": 2,
+   "note": "look up = (사전·인터넷에서) 찾아보다. look up to 사람 = 존경하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "show up",
+   "ko": "나타나다, 오다",
+   "ex": "He didn't show up.",
+   "exko": "그 사람 안 왔어.",
+   "use": [
+    [
+     "Show up on time",
+     "제시간에 오다"
+    ],
+    [
+     "Show up late",
+     "늦게 나타나다"
+    ]
+   ],
+   "mcq": [
+    "Always show up set to on time.",
+    "Always show up to set in time on.",
+    "Always show up to set on time.",
+    "Always showing up to set on time."
+   ],
+   "ans": 2,
+   "note": "show up = (약속 장소에) 나타나다. on time = 제시간에. set = 촬영장.",
+   "wk": "2026-W48"
   }
  ]
 }

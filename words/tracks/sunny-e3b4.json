@@ -502,6 +502,506 @@
    "ans": 2,
    "note": "thwart = 남의 계획을 막다.",
    "wk": "2026-W47"
+  },
+  {
+   "w": "abhor",
+   "ko": "몹시 혐오하다",
+   "ex": "I abhor violence.",
+   "exko": "저는 폭력을 혐오해요.",
+   "use": [
+    [
+     "Abhor cruelty",
+     "잔인함을 혐오하다"
+    ],
+    [
+     "Abhorrent (형용사)",
+     "혐오스러운"
+    ]
+   ],
+   "mcq": [
+    "She is abhor any kind of dishonesty.",
+    "She abhors any kind of dishonesty.",
+    "She abhor any kind of dishonesty.",
+    "She abhors any kind of dishonest."
+   ],
+   "ans": 1,
+   "note": "abhor = hate보다 훨씬 강한 격식어. 진행형 거의 안 씀. 형용사 abhorrent.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "appease",
+   "ko": "달래다, 유화하다",
+   "ex": "He tried to appease his angry boss.",
+   "exko": "화난 상사를 달래려 했어요.",
+   "use": [
+    [
+     "Appease critics",
+     "비판자들을 달래다"
+    ],
+    [
+     "Appeasement",
+     "유화 정책"
+    ]
+   ],
+   "mcq": [
+    "The company lower prices to appease customers yesterday.",
+    "The company lowered prices to appeasing customers.",
+    "The company lowered prices to appease customers.",
+    "The company lowered prices for appease customers."
+   ],
+   "ans": 2,
+   "note": "appease = 요구를 들어주며 달래다 (종종 부정적 뉘앙스). 명사 appeasement.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "augment",
+   "ko": "늘리다, 증대시키다",
+   "ex": "Augment your income",
+   "exko": "수입을 늘리다",
+   "use": [
+    [
+     "Augmented reality (AR)",
+     "증강 현실"
+    ],
+    [
+     "Augment a team",
+     "팀을 보강하다"
+    ]
+   ],
+   "mcq": [
+    "She augments her salary with by tutoring at night.",
+    "She augment her salary by tutoring at night.",
+    "She augments her salary by tutoring at night.",
+    "She augments her salary by tutor at night."
+   ],
+   "ans": 2,
+   "note": "augment = (이미 있는 것을) 더 늘리다. AR = augmented reality.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "beguile",
+   "ko": "현혹하다, 매혹하다",
+   "ex": "Beguiled by his charm",
+   "exko": "그의 매력에 홀린",
+   "use": [
+    [
+     "A beguiling smile",
+     "매혹적인 미소"
+    ],
+    [
+     "Beguile someone into V-ing",
+     "속여서 ~하게 하다"
+    ]
+   ],
+   "mcq": [
+    "He beguiled investors to giving him money.",
+    "He beguiled investors into giving him money.",
+    "He beguile investors into giving him money yesterday.",
+    "He beguiled investors into give him money."
+   ],
+   "ans": 1,
+   "note": "beguile = 매력·말솜씨로 홀리다/속이다. beguile 사람 into V-ing.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "berate",
+   "ko": "호되게 꾸짖다",
+   "ex": "The coach berated the players.",
+   "exko": "코치가 선수들을 호되게 꾸짖었어요.",
+   "use": [
+    [
+     "Berate yourself",
+     "자책하다"
+    ],
+    [
+     "Berate someone for N",
+     "~ 때문에 혼내다"
+    ]
+   ],
+   "mcq": [
+    "She berated him for be late again.",
+    "She berated him to being late again.",
+    "She berate him for being late again yesterday.",
+    "She berated him for being late again."
+   ],
+   "ans": 3,
+   "note": "berate = 길게 큰소리로 야단치다. berate 사람 for V-ing.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "capitulate",
+   "ko": "항복하다, 굴복하다",
+   "ex": "They finally capitulated.",
+   "exko": "그들이 결국 굴복했어요.",
+   "use": [
+    [
+     "Capitulate to demands",
+     "요구에 굴복하다"
+    ],
+    [
+     "Refuse to capitulate",
+     "굴복을 거부하다"
+    ]
+   ],
+   "mcq": [
+    "The management capitulated the union's demands to.",
+    "The management capitulate to the union's demands last week.",
+    "The management capitulated for the union's demands.",
+    "The management capitulated to the union's demands."
+   ],
+   "ans": 3,
+   "note": "capitulate = (오래 버티다가) 굴복하다. capitulate to N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "censure",
+   "ko": "공식 비난(하다), 견책",
+   "ex": "The senator was censured.",
+   "exko": "그 상원의원은 견책을 받았어요.",
+   "use": [
+    [
+     "A vote of censure",
+     "견책 결의"
+    ],
+    [
+     "Face censure",
+     "비난에 직면하다"
+    ]
+   ],
+   "mcq": [
+    "The doctor was censured for his careless mistake it.",
+    "The doctor censured for his careless mistakes.",
+    "The doctor was censure for his careless mistakes.",
+    "The doctor was censured for his careless mistakes."
+   ],
+   "ans": 3,
+   "note": "censure = 공식적으로 강하게 비난하다. censor(검열하다)와 구별!",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "coalesce",
+   "ko": "합쳐지다, 연합하다",
+   "ex": "Ideas began to coalesce.",
+   "exko": "생각들이 하나로 모이기 시작했어요.",
+   "use": [
+    [
+     "Coalesce into a plan",
+     "하나의 계획으로 합쳐지다"
+    ],
+    [
+     "Groups coalesced",
+     "단체들이 연합했다"
+    ]
+   ],
+   "mcq": [
+    "Several small groups coalesce into one movement last year.",
+    "Several small group coalesced into one movement.",
+    "Several small groups coalesced into one movement.",
+    "Several small groups coalesced to one movement into."
+   ],
+   "ans": 2,
+   "note": "coalesce = 여러 개가 하나로 합쳐지다. coalesce into N.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "commiserate",
+   "ko": "위로하다, 함께 슬퍼하다",
+   "ex": "We commiserated over coffee.",
+   "exko": "커피 마시며 서로 위로했어요.",
+   "use": [
+    [
+     "Commiserate with someone",
+     "~와 함께 슬퍼하다"
+    ],
+    [
+     "Commiseration",
+     "위로, 동정"
+    ]
+   ],
+   "mcq": [
+    "I called my friend to commiserate her about the breakup.",
+    "I called my friend for commiserate with her about the breakup.",
+    "I called my friend to commiserate with her about the breakup.",
+    "I called my friend to commiserating with her about the breakup."
+   ],
+   "ans": 2,
+   "note": "commiserate with 사람 (about/over N) = 같이 속상해하며 위로하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "construe",
+   "ko": "해석하다, 이해하다",
+   "ex": "Don't construe this as criticism.",
+   "exko": "이걸 비판으로 받아들이지 마세요.",
+   "use": [
+    [
+     "Construe A as B",
+     "A를 B로 해석하다"
+    ],
+    [
+     "Misconstrue",
+     "오해하다"
+    ]
+   ],
+   "mcq": [
+    "His silence was construed as agreement.",
+    "His silence was construe as agreement.",
+    "His silence construed as agreement.",
+    "His silence was construed to agreement."
+   ],
+   "ans": 0,
+   "note": "construe A as B = A를 B로 해석하다. misconstrue = 잘못 해석하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "contrive",
+   "ko": "꾸며내다, 용케 ~하다",
+   "ex": "A contrived plot",
+   "exko": "억지스러운 줄거리",
+   "use": [
+    [
+     "Contrive a plan",
+     "계획을 꾸미다"
+    ],
+    [
+     "Contrive to V",
+     "용케 ~해내다"
+    ]
+   ],
+   "mcq": [
+    "The ending of the movie felt contrived.",
+    "The ending of the movie felt contrivedly.",
+    "The ending of the movie felt contrive.",
+    "The ending of the movie feel contrived."
+   ],
+   "ans": 0,
+   "note": "contrived = 억지로 꾸민 듯한(부자연스러운). 영화·소설 리뷰 단골.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "debilitate",
+   "ko": "쇠약하게 하다",
+   "ex": "A debilitating illness",
+   "exko": "몸을 쇠약하게 하는 병",
+   "use": [
+    [
+     "Debilitating pain",
+     "일상이 힘들 정도의 통증"
+    ],
+    [
+     "Debilitate the economy",
+     "경제를 약화시키다"
+    ]
+   ],
+   "mcq": [
+    "The long war debilitate the country's economy for years.",
+    "The long war debilitated the country's economy.",
+    "The long war was debilitated the country's economy.",
+    "The long war debilitated the country economy's."
+   ],
+   "ans": 1,
+   "note": "debilitate = 몸·조직을 약하게 만들다. 형용사 debilitating.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "desist",
+   "ko": "그만두다, 단념하다",
+   "ex": "Cease and desist",
+   "exko": "(법) 중지 명령",
+   "use": [
+    [
+     "Desist from V-ing",
+     "~하는 것을 그만두다"
+    ],
+    [
+     "Refuse to desist",
+     "그만두기를 거부하다"
+    ]
+   ],
+   "mcq": [
+    "The court ordered him to desist from contacting her.",
+    "The court ordered him to desist from contact her.",
+    "The court ordered him to desist to contacting her.",
+    "The court ordered him desist from contacting her."
+   ],
+   "ans": 0,
+   "note": "desist (from V-ing) = 그만두다 (법률·격식). cease and desist letter = 중지 요청서.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "digress",
+   "ko": "(주제에서) 벗어나다",
+   "ex": "Sorry, I digress.",
+   "exko": "죄송해요, 얘기가 샜네요.",
+   "use": [
+    [
+     "Digress from the topic",
+     "주제에서 벗어나다"
+    ],
+    [
+     "Digression",
+     "여담"
+    ]
+   ],
+   "mcq": [
+    "Let me digress for a moment.",
+    "Let me digressing for a moment.",
+    "Let me digress for moment a.",
+    "Let me to digress for a moment."
+   ],
+   "ans": 0,
+   "note": "digress = 본론에서 벗어나다. But I digress. = 아무튼 (본론으로 돌아가며).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "disseminate",
+   "ko": "퍼뜨리다, 보급하다",
+   "ex": "Disseminate information",
+   "exko": "정보를 퍼뜨리다",
+   "use": [
+    [
+     "Widely disseminated",
+     "널리 퍼진"
+    ],
+    [
+     "Dissemination",
+     "보급, 전파"
+    ]
+   ],
+   "mcq": [
+    "The results were disseminate to all employees.",
+    "The results disseminated to all employees.",
+    "The results were disseminated to all employees.",
+    "The results were disseminated for all employees to."
+   ],
+   "ans": 2,
+   "note": "disseminate = 정보·지식을 널리 퍼뜨리다 (spread의 격식어).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dissuade",
+   "ko": "단념시키다, 말리다",
+   "ex": "I tried to dissuade him.",
+   "exko": "그를 말리려 했어요.",
+   "use": [
+    [
+     "Dissuade someone from V-ing",
+     "~하지 않도록 설득하다"
+    ],
+    [
+     "Persuade (반대)",
+     "설득하다"
+    ]
+   ],
+   "mcq": [
+    "Nothing could dissuade her to quitting.",
+    "Nothing could dissuade her from quit.",
+    "Nothing could dissuade her from quitting.",
+    "Nothing could dissuaded her from quitting."
+   ],
+   "ans": 2,
+   "note": "dissuade 사람 from V-ing = 말리다. 반대 persuade 사람 to V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "embezzle",
+   "ko": "횡령하다",
+   "ex": "He embezzled company funds.",
+   "exko": "그는 회사 돈을 횡령했어요.",
+   "use": [
+    [
+     "Embezzle money from",
+     "~에서 돈을 횡령하다"
+    ],
+    [
+     "Embezzlement",
+     "횡령"
+    ]
+   ],
+   "mcq": [
+    "The accountant embezzled $2 million to the firm.",
+    "The accountant embezzle $2 million from the firm last year.",
+    "The accountant was embezzled $2 million from the firm.",
+    "The accountant embezzled $2 million from the firm."
+   ],
+   "ans": 3,
+   "note": "embezzle = 맡은 돈을 몰래 빼돌리다. embezzle N from 회사.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "encroach",
+   "ko": "침해하다, 잠식하다",
+   "ex": "Don't encroach on my time.",
+   "exko": "내 시간 뺏지 마.",
+   "use": [
+    [
+     "Encroach on privacy",
+     "사생활을 침해하다"
+    ],
+    [
+     "Encroaching development",
+     "잠식해 오는 개발"
+    ]
+   ],
+   "mcq": [
+    "New buildings are encroaching on the forest.",
+    "New buildings are encroaching the forest on.",
+    "New buildings are encroach on the forest.",
+    "New buildings is encroaching on the forest."
+   ],
+   "ans": 0,
+   "note": "encroach on/upon N = 서서히 남의 영역을 침범하다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "endorse",
+   "ko": "지지하다, 홍보하다",
+   "ex": "I fully endorse this plan.",
+   "exko": "이 계획을 전적으로 지지해요.",
+   "use": [
+    [
+     "Celebrity endorsement",
+     "연예인 광고 모델"
+    ],
+    [
+     "Endorse a candidate",
+     "후보를 지지하다"
+    ]
+   ],
+   "mcq": [
+    "The singer was paid to endorse the shoes.",
+    "The singer was paid to endorsing the shoes.",
+    "The singer was paid for endorse the shoes.",
+    "The singer paid to endorse the shoes."
+   ],
+   "ans": 0,
+   "note": "endorse = 공개적으로 지지하다 / 광고하다. 명사 endorsement.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "enervate",
+   "ko": "기력을 빼앗다, 무기력하게 하다",
+   "ex": "The heat was enervating.",
+   "exko": "더위에 기운이 쭉 빠졌어요.",
+   "use": [
+    [
+     "An enervating meeting",
+     "진 빠지는 회의"
+    ],
+    [
+     "Feel enervated",
+     "무기력하다"
+    ]
+   ],
+   "mcq": [
+    "The long flight left me completely enervate.",
+    "The long flight left me completely enervated.",
+    "The long flight left me complete enervated.",
+    "The long flight leave me completely enervated yesterday."
+   ],
+   "ans": 1,
+   "note": "enervate = 기운을 빼다 (energize의 반대처럼 들리지만 '약화'의 뜻!).",
+   "wk": "2026-W48"
   }
  ]
 }

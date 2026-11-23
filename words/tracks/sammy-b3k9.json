@@ -7002,6 +7002,506 @@
    "ans": 2,
    "note": "greatly = very much (격식). 이메일 끝 인사로 자주.",
    "wk": "2026-W47"
+  },
+  {
+   "w": "curiosity",
+   "ko": "호기심",
+   "ex": "Just out of curiosity, how old is he?",
+   "exko": "그냥 궁금해서 그러는데, 그 사람 몇 살이야?",
+   "use": [
+    [
+     "Curiosity killed the cat.",
+     "호기심이 화를 부른다 (속담)."
+    ],
+    [
+     "Satisfy your curiosity",
+     "궁금증을 풀다"
+    ]
+   ],
+   "mcq": [
+    "I asked out from curiosity.",
+    "I asked out of curious.",
+    "I asked out of curiosity.",
+    "I asked by out of curiosity."
+   ],
+   "ans": 2,
+   "note": "curiosity = 호기심 (명사). out of curiosity = 궁금해서. 형용사는 curious.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "patience",
+   "ko": "인내심",
+   "ex": "Thanks for your patience.",
+   "exko": "기다려 주셔서 감사합니다.",
+   "use": [
+    [
+     "Lose your patience",
+     "인내심을 잃다"
+    ],
+    [
+     "Patience is key.",
+     "인내가 핵심이야."
+    ]
+   ],
+   "mcq": [
+    "Teaching kids takes many patience.",
+    "Teaching kids takes a lot of patience.",
+    "Teaching kids takes a lot of patient.",
+    "Teaching kids take a lot of patience."
+   ],
+   "ans": 1,
+   "note": "patience = 인내심 (셀 수 없음). 형용사 patient. Thank you for your patience = 안내 방송 단골.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "gratitude",
+   "ko": "감사, 고마움",
+   "ex": "I want to show my gratitude.",
+   "exko": "감사를 표하고 싶어요.",
+   "use": [
+    [
+     "Deep gratitude",
+     "깊은 감사"
+    ],
+    [
+     "A gratitude journal",
+     "감사 일기"
+    ]
+   ],
+   "mcq": [
+    "She expressed gratitude her to the team.",
+    "She expressed her gratitude to the team.",
+    "She expressed her grateful to the team.",
+    "She expressed her gratitude for the team to."
+   ],
+   "ans": 1,
+   "note": "gratitude = 감사(명사). 형용사 grateful. express gratitude to 사람.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "jealousy",
+   "ko": "질투",
+   "ex": "It's just jealousy.",
+   "exko": "그냥 질투야.",
+   "use": [
+    [
+     "Feel jealousy",
+     "질투를 느끼다"
+    ],
+    [
+     "Jealousy ruins relationships.",
+     "질투는 관계를 망쳐요."
+    ]
+   ],
+   "mcq": [
+    "His jealousy caused a lot of fight.",
+    "His jealousy causing a lot of fights.",
+    "His jealousy caused a lot of fights.",
+    "His jealous caused a lot of fights."
+   ],
+   "ans": 2,
+   "note": "jealousy = 질투(명사). 형용사 jealous (be jealous of N).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "loneliness",
+   "ko": "외로움",
+   "ex": "Loneliness is hard.",
+   "exko": "외로움은 힘들어요.",
+   "use": [
+    [
+     "Fight loneliness",
+     "외로움을 이겨내다"
+    ],
+    [
+     "Feelings of loneliness",
+     "외로운 감정"
+    ]
+   ],
+   "mcq": [
+    "Moving abroad brought a lot of loneliness at first.",
+    "Move abroad brought a lot of loneliness at first.",
+    "Moving abroad brought a lot of loneliness at the first.",
+    "Moving abroad brought a lot of lonely at first."
+   ],
+   "ans": 0,
+   "note": "loneliness = 외로움(명사). 형용사 lonely. alone은 '혼자'(상태).",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "nostalgia",
+   "ko": "향수, 옛 추억",
+   "ex": "This song gives me nostalgia.",
+   "exko": "이 노래 들으면 옛날 생각나요.",
+   "use": [
+    [
+     "A wave of nostalgia",
+     "밀려오는 향수"
+    ],
+    [
+     "Feel nostalgic",
+     "옛날이 그리워지다"
+    ]
+   ],
+   "mcq": [
+    "Looking at old photos filled me with nostalgic.",
+    "Look at old photos filled me with nostalgia.",
+    "Looking at old photos filled me of nostalgia.",
+    "Looking at old photos filled me with nostalgia."
+   ],
+   "ans": 3,
+   "note": "nostalgia = 옛 시절에 대한 그리움. 형용사 nostalgic. fill A with B.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "ambition",
+   "ko": "야망, 포부",
+   "ex": "She has a lot of ambition.",
+   "exko": "그녀는 야망이 커요.",
+   "use": [
+    [
+     "My ambition is to open a cafe.",
+     "제 꿈은 카페를 여는 거예요."
+    ],
+    [
+     "Lack ambition",
+     "의욕이 없다"
+    ]
+   ],
+   "mcq": [
+    "His ambitious is to become a director.",
+    "His ambition is become a director.",
+    "His ambition is to become a director.",
+    "His ambition are to become a director."
+   ],
+   "ans": 2,
+   "note": "ambition = 야망/포부 (명사). 형용사 ambitious. My ambition is to V.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "dedication",
+   "ko": "헌신, 전념",
+   "ex": "Thank you for your dedication.",
+   "exko": "헌신해 주셔서 감사해요.",
+   "use": [
+    [
+     "It takes dedication.",
+     "꾸준한 노력이 필요해요."
+    ],
+    [
+     "Dedication to work",
+     "일에 대한 헌신"
+    ]
+   ],
+   "mcq": [
+    "Her dedication to her students is amazing.",
+    "Her dedication for her students is amazing.",
+    "Her dedication to her students are amazing.",
+    "Her dedicate to her students is amazing."
+   ],
+   "ans": 0,
+   "note": "dedication = 헌신. dedication to N (to!). 동사 dedicate.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "persistence",
+   "ko": "끈기, 집요함",
+   "ex": "Persistence pays off.",
+   "exko": "끈기는 결국 보상받아요.",
+   "use": [
+    [
+     "Show persistence",
+     "끈기를 보이다"
+    ],
+    [
+     "Through persistence",
+     "끈기로"
+    ]
+   ],
+   "mcq": [
+    "He get the job through sheer persistence.",
+    "He got the job by through sheer persistence.",
+    "He got the job through sheer persistent.",
+    "He got the job through sheer persistence."
+   ],
+   "ans": 3,
+   "note": "persistence = 끈기. 형용사 persistent. sheer = 순전한.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "integrity",
+   "ko": "진실성, 정직함",
+   "ex": "He's a man of integrity.",
+   "exko": "그는 정직한 사람이에요.",
+   "use": [
+    [
+     "Lack integrity",
+     "정직하지 못하다"
+    ],
+    [
+     "Personal integrity",
+     "개인의 도덕성"
+    ]
+   ],
+   "mcq": [
+    "I trust her because she integrity has.",
+    "I trust her because she has integrities.",
+    "I trust her because she has integrity.",
+    "I trust her because she have integrity."
+   ],
+   "ans": 2,
+   "note": "integrity = 원칙을 지키는 정직함 (셀 수 없음). a person of integrity.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "humility",
+   "ko": "겸손",
+   "ex": "He accepted the award with humility.",
+   "exko": "그는 겸손하게 상을 받았어요.",
+   "use": [
+    [
+     "Show humility",
+     "겸손함을 보이다"
+    ],
+    [
+     "A lesson in humility",
+     "겸손을 배우는 계기"
+    ]
+   ],
+   "mcq": [
+    "Great leaders often show humble.",
+    "Great leaders often shows humility.",
+    "Great leaders often show humility.",
+    "Great leaders show often humility."
+   ],
+   "ans": 2,
+   "note": "humility = 겸손(명사). 형용사 humble.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sarcasm",
+   "ko": "비꼼, 빈정거림",
+   "ex": "Was that sarcasm?",
+   "exko": "그거 비꼰 거야?",
+   "use": [
+    [
+     "I can't tell if you're being sarcastic.",
+     "진심인지 비꼬는 건지 모르겠어."
+    ],
+    [
+     "Dripping with sarcasm",
+     "빈정거림이 뚝뚝 묻어나는"
+    ]
+   ],
+   "mcq": [
+    "I couldn't tell if it was sarcastic or not it.",
+    "I couldn't tell if was it sarcasm or not.",
+    "I couldn't tell if it was sarcasm or not.",
+    "I can't told if it was sarcasm or not."
+   ],
+   "ans": 2,
+   "note": "sarcasm = 비꼼(명사). 형용사 sarcastic. can't tell = 구별을 못 하겠다.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "irony",
+   "ko": "아이러니, 반어",
+   "ex": "The irony is that he's a dentist with bad teeth.",
+   "exko": "아이러니한 건 그가 이가 안 좋은 치과의사라는 거예요.",
+   "use": [
+    [
+     "Ironically",
+     "아이러니하게도"
+    ],
+    [
+     "A twist of irony",
+     "아이러니한 반전"
+    ]
+   ],
+   "mcq": [
+    "The irony is that I got lost using a map app.",
+    "The ironic is that I got lost using a map app.",
+    "The irony are that I got lost using a map app.",
+    "The irony is what I got lost using a map app."
+   ],
+   "ans": 0,
+   "note": "irony = 기대와 정반대인 상황. 형용사 ironic, 부사 ironically.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "empathy",
+   "ko": "공감 (능력)",
+   "ex": "She has a lot of empathy.",
+   "exko": "그녀는 공감 능력이 뛰어나요.",
+   "use": [
+    [
+     "Show empathy",
+     "공감해 주다"
+    ],
+    [
+     "Empathy vs sympathy",
+     "공감 vs 동정"
+    ]
+   ],
+   "mcq": [
+    "Good nurses have empathy to their patients.",
+    "Good nurses have empathetic for their patients.",
+    "Good nurses have empathy for their patients.",
+    "Good nurses has empathy for their patients."
+   ],
+   "ans": 2,
+   "note": "empathy = 상대 입장에서 느끼는 공감. empathy for N. 동사 empathize with.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "sympathy",
+   "ko": "동정, 위로",
+   "ex": "You have my sympathy.",
+   "exko": "정말 안됐어요.",
+   "use": [
+    [
+     "Sympathy card",
+     "조의 카드"
+    ],
+    [
+     "Feel sympathy for",
+     "~을 안쓰럽게 여기다"
+    ]
+   ],
+   "mcq": [
+    "I feel a lot of sympathy to him.",
+    "I feel a lot of sympathies for him.",
+    "I feel many sympathy for him.",
+    "I feel a lot of sympathy for him."
+   ],
+   "ans": 3,
+   "note": "sympathy = 안쓰러움, 위로. feel sympathy for N. sympathy card = 조문 카드.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "tolerance",
+   "ko": "관용, 내성",
+   "ex": "Zero tolerance",
+   "exko": "무관용",
+   "use": [
+    [
+     "Tolerance for spicy food",
+     "매운 음식 잘 먹는 정도"
+    ],
+    [
+     "Religious tolerance",
+     "종교적 관용"
+    ]
+   ],
+   "mcq": [
+    "I have a low tolerance to noise for.",
+    "I have a low tolerance for noise.",
+    "I has a low tolerance for noise.",
+    "I have a low tolerant for noise."
+   ],
+   "ans": 1,
+   "note": "tolerance = 참는 정도/관용. low/high tolerance for N. 동사 tolerate.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "prejudice",
+   "ko": "편견",
+   "ex": "That's just prejudice.",
+   "exko": "그건 편견일 뿐이에요.",
+   "use": [
+    [
+     "Racial prejudice",
+     "인종적 편견"
+    ],
+    [
+     "Without prejudice",
+     "편견 없이"
+    ]
+   ],
+   "mcq": [
+    "We should judge people without prejudice.",
+    "We should judging people without prejudice.",
+    "We should judge people without prejudiced.",
+    "We should judge people without a prejudices."
+   ],
+   "ans": 0,
+   "note": "prejudice = (부정적) 편견. 형용사 prejudiced. bias도 비슷.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "stereotype",
+   "ko": "고정관념",
+   "ex": "That's a stereotype.",
+   "exko": "그건 고정관념이에요.",
+   "use": [
+    [
+     "Break stereotypes",
+     "고정관념을 깨다"
+    ],
+    [
+     "A gender stereotype",
+     "성별 고정관념"
+    ]
+   ],
+   "mcq": [
+    "Not all Koreans love kimchi. That's stereotype a.",
+    "Not all Koreans loves kimchi. That's a stereotype.",
+    "Not all Koreans love kimchi. That's a stereotype.",
+    "Not all Koreans love kimchi. That's a stereotypes."
+   ],
+   "ans": 2,
+   "note": "stereotype = 고정관념. 형용사 stereotypical.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "etiquette",
+   "ko": "예절, 에티켓",
+   "ex": "Table etiquette",
+   "exko": "식사 예절",
+   "use": [
+    [
+     "Phone etiquette",
+     "전화 예절"
+    ],
+    [
+     "It's bad etiquette.",
+     "예의에 어긋나요."
+    ]
+   ],
+   "mcq": [
+    "In Japan, tipping is not part of etiquettes the.",
+    "In Japan, tipping is not part of the etiquette.",
+    "In Japan, tipping are not part of the etiquette.",
+    "In Japan, tip is not part of the etiquette."
+   ],
+   "ans": 1,
+   "note": "etiquette = 사회적 예절 (셀 수 없음). 발음 '에티켓'.",
+   "wk": "2026-W48"
+  },
+  {
+   "w": "hospitality",
+   "ko": "환대, 서비스업",
+   "ex": "Thank you for your hospitality.",
+   "exko": "환대해 주셔서 감사해요.",
+   "use": [
+    [
+     "Southern hospitality",
+     "미국 남부식 친절"
+    ],
+    [
+     "The hospitality industry",
+     "호텔·외식 서비스업"
+    ]
+   ],
+   "mcq": [
+    "We were amazed by their hospitality.",
+    "We were amazed by their hospitable.",
+    "We amazed by their hospitality.",
+    "We were amazed with their hospitalities."
+   ],
+   "ans": 0,
+   "note": "hospitality = 손님 접대, 환대. hospital(병원)과 헷갈리지 말기!",
+   "wk": "2026-W48"
   }
  ]
 }
